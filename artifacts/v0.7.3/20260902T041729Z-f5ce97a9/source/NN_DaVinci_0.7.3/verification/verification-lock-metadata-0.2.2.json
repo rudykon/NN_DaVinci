@@ -1,0 +1,657 @@
+{
+  "implementation": "CPython",
+  "index_source": "https://pypi.org/simple",
+  "machine": "x86_64",
+  "packages": [
+    {
+      "name": "absl-py",
+      "version": "2.5.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "astunparse",
+      "version": "1.6.3",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "blinker",
+      "version": "1.9.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "build",
+      "version": "1.3.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "cairocffi",
+      "version": "1.7.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "cairosvg",
+      "version": "2.9.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "cffi",
+      "version": "2.1.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "click",
+      "version": "8.4.2",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "coverage",
+      "version": "7.10.6",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "cssselect2",
+      "version": "0.9.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "cuda-bindings",
+      "version": "13.3.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "cuda-pathfinder",
+      "version": "1.7.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "cuda-toolkit",
+      "version": "13.0.3.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "defusedxml",
+      "version": "0.7.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "filelock",
+      "version": "3.32.4",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "flask",
+      "version": "3.1.3",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "flatbuffers",
+      "version": "25.12.19",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.63.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.7.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "gast",
+      "version": "0.7.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "google-pasta",
+      "version": "0.2.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "graphviz",
+      "version": "0.21",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "grpcio",
+      "version": "1.83.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "h5py",
+      "version": "3.14.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "idna",
+      "version": "3.19",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "itsdangerous",
+      "version": "2.2.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "jax",
+      "version": "0.11.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "jaxlib",
+      "version": "0.11.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "jinja2",
+      "version": "3.1.6",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "keras",
+      "version": "3.15.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "libclang",
+      "version": "18.1.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.2",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "markupsafe",
+      "version": "3.0.3",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "ml-dtypes",
+      "version": "0.6.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "mypy",
+      "version": "1.17.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "mypy-extensions",
+      "version": "1.1.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "namex",
+      "version": "0.1.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "networkx",
+      "version": "3.6.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.2",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-cublas",
+      "version": "13.1.1.3",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-cuda-cupti",
+      "version": "13.0.85",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-cuda-nvrtc",
+      "version": "13.0.88",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-cuda-runtime",
+      "version": "13.0.96",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-cudnn-cu13",
+      "version": "9.20.0.48",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-cufft",
+      "version": "12.0.0.61",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-cufile",
+      "version": "1.15.1.6",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-curand",
+      "version": "10.4.0.35",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-cusolver",
+      "version": "12.0.4.66",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-cusparse",
+      "version": "12.6.3.3",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-cusparselt-cu13",
+      "version": "0.8.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-nccl-cu13",
+      "version": "2.29.7",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-nvjitlink",
+      "version": "13.3.33",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-nvshmem-cu13",
+      "version": "3.4.5",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "nvidia-nvtx",
+      "version": "13.0.85",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "onnx",
+      "version": "1.22.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "opt-einsum",
+      "version": "3.4.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "optree",
+      "version": "0.20.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "pathspec",
+      "version": "1.1.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "pip",
+      "version": "26.2.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "protobuf",
+      "version": "7.36.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "pycparser",
+      "version": "3.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "pygments",
+      "version": "2.21.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "pyproject-hooks",
+      "version": "1.2.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "python-pptx",
+      "version": "1.0.2",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "ruff",
+      "version": "0.12.11",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "safetensors",
+      "version": "0.8.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "setuptools",
+      "version": "84.0.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "tensorflow",
+      "version": "2.21.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "termcolor",
+      "version": "3.3.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "tinycss2",
+      "version": "1.5.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "torch",
+      "version": "2.13.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "torchcam",
+      "version": "0.5.0.dev0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "torchlens",
+      "version": "2.34.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "torchvision",
+      "version": "0.28.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "triton",
+      "version": "3.7.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.7.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "webencodings",
+      "version": "0.6.1",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "werkzeug",
+      "version": "3.1.8",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "wheel",
+      "version": "0.48.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "wrapt",
+      "version": "2.3.0",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    },
+    {
+      "name": "xlsxwriter",
+      "version": "3.2.9",
+      "wheel_sha256": null,
+      "wheel_status": "installed distribution has no retained wheel file; generated project wheel is hashed in packaging evidence"
+    }
+  ],
+  "pinned_transitive_overrides": {
+    "nvidia-cuda-cupti": "13.0.85",
+    "nvidia-cuda-runtime": "13.0.96",
+    "nvidia-cufft": "12.0.0.61",
+    "nvidia-cufile": "1.15.1.6",
+    "nvidia-curand": "10.4.0.35",
+    "nvidia-cusolver": "12.0.4.66",
+    "nvidia-cusparse": "12.6.3.3",
+    "nvidia-nvjitlink": "13.3.33",
+    "nvidia-nvtx": "13.0.85"
+  },
+  "platform": "Linux-6.17.0-20-generic-x86_64-with-glibc2.39",
+  "python": "3.13.5",
+  "resolver_note": "CUDA toolkit extras expanded; absent workstation packages use the pinned PyPI Linux resolver result dated 2026-08-26",
+  "root_requirements": [
+    "build",
+    "CairoSVG",
+    "coverage",
+    "Flask",
+    "jax",
+    "keras",
+    "mypy",
+    "numpy",
+    "onnx",
+    "pillow",
+    "pip",
+    "python-pptx",
+    "PyYAML",
+    "ruff",
+    "setuptools",
+    "tensorflow",
+    "torch",
+    "torchcam",
+    "torchlens",
+    "torchvision"
+  ],
+  "schema_version": "0.2.2-platform-lock-1",
+  "universal_across_operating_systems": false
+}

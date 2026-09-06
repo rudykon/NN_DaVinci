@@ -1,0 +1,4169 @@
+{
+  "algorithm": "sha256",
+  "checksum_excludes": [
+    "SHA256SUMS"
+  ],
+  "entries": [
+    {
+      "path": "MANIFEST.json",
+      "sha256": "3d1670fd801d35f4df4fc0a3c54a446104ba634f68508e2a800349bf9aeeb010",
+      "size": 167310
+    },
+    {
+      "path": "distributions/nn_davinci-0.7.3-py3-none-any.whl",
+      "sha256": "da696d3c960ba114b99cf360d67635eb0789a6c77f57e8cbaff5d6478e0db1f4",
+      "size": 3334716
+    },
+    {
+      "path": "distributions/nn_davinci-0.7.3.tar.gz",
+      "sha256": "0605ca11cc2ffcc3d712a5d845158c221e51078e4d6025984ac2ab628eefb679",
+      "size": 3400741
+    },
+    {
+      "path": "docs/GENERALIZATION_REPORT_0.7.3.md",
+      "sha256": "4620d49cc2c8e4d38e3aedd1f84f51954f58b2ff0e3e21393499a4301255e0b3",
+      "size": 2076
+    },
+    {
+      "path": "docs/KNOWN_LIMITATIONS.md",
+      "sha256": "c085928bc5f1280bcfa185d6bba21e318c88f2ab67172550c5708f1657bbd3e6",
+      "size": 13965
+    },
+    {
+      "path": "docs/RELEASE_NOTES_0.7.3.md",
+      "sha256": "29b21d5eacdb6c89c601afa31c5c481fa5e11fa1083bfc02028f9e4b634bb29c",
+      "size": 3805
+    },
+    {
+      "path": "docs/SEMANTIC_PRESENTATION_COMPLETENESS_0.7.3.md",
+      "sha256": "a9b457431e62f40170954fb9150bb7db3653b1eb614669eecd11e30b8b65b3d5",
+      "size": 2659
+    },
+    {
+      "path": "docs/SERVICE_LIFECYCLE_0.7.3.md",
+      "sha256": "96a850eacc0e073ef95dd9cf5244d7b99d941f82fed3c3ee8ac0980b0ab7fb25",
+      "size": 1663
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/bert_encoder/after-0.7.3.png",
+      "sha256": "0363b9b20123c3242b82e8ca90b5414fc05a71863c7bf82a54e57d839e83e9b7",
+      "size": 52065
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/bert_encoder/before-0.7.2.png",
+      "sha256": "b6f9f3d72dd45f50667606ac9eeb93f995c6c9ab8e2574df2e5b62cdbbd539ee",
+      "size": 45633
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/bert_encoder/before-after.png",
+      "sha256": "7d688603c284d5108b026dcaf66c65debb88e15c8dbbaa561b53a9619bdaa34a",
+      "size": 95559
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/diffusion_unet/after-0.7.3.png",
+      "sha256": "a4ac6dae1200e7647e5ff5d94a1e1eaafa019b8f808f172c6a229753c0ac882b",
+      "size": 57049
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/diffusion_unet/before-0.7.2.png",
+      "sha256": "c1be37ae6a3e91e09cdc238f674d6565dcadea0314b3c3ec8d3de438fec9d4e8",
+      "size": 45821
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/diffusion_unet/before-after.png",
+      "sha256": "86305803729cd24398bec7bd1f66bfa2bb33228a6a18073ceaa8bc4d60f1bce4",
+      "size": 107097
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/image_text/after-0.7.3.png",
+      "sha256": "0e25f69ef0db495a2dd139f17298a740ab909d36e263da6483b28e6e5a493dbc",
+      "size": 46520
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/image_text/before-0.7.2.png",
+      "sha256": "ccb4c591fd8ceed571d0bd4cd14023ef5bd45b789f2219eadf4703e0493872ca",
+      "size": 47893
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/image_text/before-after.png",
+      "sha256": "2a6adf68c3c5f82a28cfdef19abb4b4acbe944c2407301c7bbd41a68db96fca0",
+      "size": 99151
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/multiscale_unet/after-0.7.3.png",
+      "sha256": "f747c8ec990a4e245e8c5989a39724645e4c1da48eae45767162e349e7d6c299",
+      "size": 67310
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/multiscale_unet/before-0.7.2.png",
+      "sha256": "ade498da7c647e8bad5f7a4ebeb753c0b900640f500cc0d3dda823d9186075da",
+      "size": 58667
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/multiscale_unet/before-after.png",
+      "sha256": "485d9f1c85373ad17dba66b7d404bedb8b409e51b2383f45b51cee2b3c6b8dbe",
+      "size": 124876
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/resnet50/after-0.7.3.png",
+      "sha256": "99c3abb2d7d4ff7ee0bbf71491aa7cd04bf0371c8af3b85ce57fcc02f19ec9d7",
+      "size": 64296
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/resnet50/before-0.7.2.png",
+      "sha256": "0a4cf53d63117ee9353669591609acfcc223eb6949c57bc9cfc7d31c97b215ed",
+      "size": 60964
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/resnet50/before-after.png",
+      "sha256": "5bc0bce2f23ae4a7043e940815e8a143decc3bee4235d3d3468e89f6e060d4e1",
+      "size": 126368
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/topk_moe/after-0.7.3.png",
+      "sha256": "4b1d17f92791b0b27bacc640a5d0f45a04071cc4232e82293e246c9c7c9f35ef",
+      "size": 52476
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/topk_moe/before-0.7.2.png",
+      "sha256": "2b5cf9dd6535e097de584fddbd7accee1d1fb590643e593837ca50db272888d1",
+      "size": 45417
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/topk_moe/before-after.png",
+      "sha256": "511a7e2e5340477364355e09b2ac638c91ba5533b06f19a7b454cec4a1cf2778",
+      "size": 101565
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/vision_transformer/after-0.7.3.png",
+      "sha256": "3ee73f1a8690e27da77b3235bdfaa7182693bb6ac03762ae80e0b0999a91aece",
+      "size": 52846
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/vision_transformer/before-0.7.2.png",
+      "sha256": "0124b875c4f45b4e8e043bed5cbf2711c9602c7c431e59b0a7fa80d97c9b88fa",
+      "size": 44689
+    },
+    {
+      "path": "evidence/publication-before-after/real-models/vision_transformer/before-after.png",
+      "sha256": "190d58e1a6ed5fff9dfeaeee8792f0b6d2ae86227cd7a7fd5b46f4bce974e089",
+      "size": 101685
+    },
+    {
+      "path": "evidence/publication-before-after/templates/cnn/after-0.7.3.png",
+      "sha256": "0492379a8d927a2eb5c86e11a01a8c93520530cb5f6a90a8bef5c644adc4e1a5",
+      "size": 55019
+    },
+    {
+      "path": "evidence/publication-before-after/templates/cnn/before-0.7.2.png",
+      "sha256": "0492379a8d927a2eb5c86e11a01a8c93520530cb5f6a90a8bef5c644adc4e1a5",
+      "size": 55019
+    },
+    {
+      "path": "evidence/publication-before-after/templates/cnn/before-after.png",
+      "sha256": "c32a7eeb0f522a12dcdf34c5f22cf1137219c6b044f0257a3f018d56a475dc6d",
+      "size": 81955
+    },
+    {
+      "path": "evidence/publication-before-after/templates/diffusion-unet/after-0.7.3.png",
+      "sha256": "fd45df305507e514c7558ce94bf174b7c0a31d4b9e550ccf962bd937f3ec0efc",
+      "size": 59511
+    },
+    {
+      "path": "evidence/publication-before-after/templates/diffusion-unet/before-0.7.2.png",
+      "sha256": "fd45df305507e514c7558ce94bf174b7c0a31d4b9e550ccf962bd937f3ec0efc",
+      "size": 59511
+    },
+    {
+      "path": "evidence/publication-before-after/templates/diffusion-unet/before-after.png",
+      "sha256": "746324f28d7f633062e50de1202adb9df3a166998dbb00f80c64aee16eb641d5",
+      "size": 88275
+    },
+    {
+      "path": "evidence/publication-before-after/templates/moe/after-0.7.3.png",
+      "sha256": "a36cfb71524f76226c3b3a152ab5bedb5545fe2f0b0a1eb17c3a92009a18fc0e",
+      "size": 58360
+    },
+    {
+      "path": "evidence/publication-before-after/templates/moe/before-0.7.2.png",
+      "sha256": "a36cfb71524f76226c3b3a152ab5bedb5545fe2f0b0a1eb17c3a92009a18fc0e",
+      "size": 58360
+    },
+    {
+      "path": "evidence/publication-before-after/templates/moe/before-after.png",
+      "sha256": "54ffe09d179b2669cf178f222df4e8db18450265b7ff43fb6a7db1cc6960753b",
+      "size": 85931
+    },
+    {
+      "path": "evidence/publication-before-after/templates/multimodal-fusion/after-0.7.3.png",
+      "sha256": "e4c1107347d7da674444f7ebd860f168d6ca071628cbc9cb165f87cb1570de2c",
+      "size": 55296
+    },
+    {
+      "path": "evidence/publication-before-after/templates/multimodal-fusion/before-0.7.2.png",
+      "sha256": "e4c1107347d7da674444f7ebd860f168d6ca071628cbc9cb165f87cb1570de2c",
+      "size": 55296
+    },
+    {
+      "path": "evidence/publication-before-after/templates/multimodal-fusion/before-after.png",
+      "sha256": "72c44ec50ffe72eefe4a3eea22729c57ed370351e00026c8b6ee66c08d6cbf14",
+      "size": 83485
+    },
+    {
+      "path": "evidence/publication-before-after/templates/resnet/after-0.7.3.png",
+      "sha256": "5a4b43f73c702582055bf6db3c4486e95ec4bfc9fafedc4df9a906604638e512",
+      "size": 50978
+    },
+    {
+      "path": "evidence/publication-before-after/templates/resnet/before-0.7.2.png",
+      "sha256": "5a4b43f73c702582055bf6db3c4486e95ec4bfc9fafedc4df9a906604638e512",
+      "size": 50978
+    },
+    {
+      "path": "evidence/publication-before-after/templates/resnet/before-after.png",
+      "sha256": "4b5709a1ce918b7998ca8ce5a348e1523024ae20b80fc66cfa70f64aaacb3faf",
+      "size": 79009
+    },
+    {
+      "path": "evidence/publication-before-after/templates/transformer/after-0.7.3.png",
+      "sha256": "9ad4354488aa12e6e10f397c41a3fc195e86ab39f81a2619cd982e65a012a7fd",
+      "size": 60444
+    },
+    {
+      "path": "evidence/publication-before-after/templates/transformer/before-0.7.2.png",
+      "sha256": "9ad4354488aa12e6e10f397c41a3fc195e86ab39f81a2619cd982e65a012a7fd",
+      "size": 60444
+    },
+    {
+      "path": "evidence/publication-before-after/templates/transformer/before-after.png",
+      "sha256": "3d00153379db14ff75d4a252ebcdc54ffbc9836a8371f8eb3644cac5585a1ec5",
+      "size": 89285
+    },
+    {
+      "path": "evidence/publication-before-after/templates/unet/after-0.7.3.png",
+      "sha256": "77e0ed3277f5b0b2c59179c4c0bec45c67d68074dffdd17e4fd7f97fc028cb36",
+      "size": 49798
+    },
+    {
+      "path": "evidence/publication-before-after/templates/unet/before-0.7.2.png",
+      "sha256": "77e0ed3277f5b0b2c59179c4c0bec45c67d68074dffdd17e4fd7f97fc028cb36",
+      "size": 49798
+    },
+    {
+      "path": "evidence/publication-before-after/templates/unet/before-after.png",
+      "sha256": "42ae5e05c28e87c29f7d5521ee21d3601cfd90829e9be07505b719cdc5f44cdb",
+      "size": 77084
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/downloads/eps-ResNet_3D.eps",
+      "sha256": "3bc86e4c051c1ca22e097b80e509f3699ebdd8d5d1c4cf1c6734f28f9d9ec33c",
+      "size": 8439
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/downloads/glb-ResNet_3D.glb",
+      "sha256": "b0475df99adf0796dc1dba207c0a22bd981c077cc1859d594631d5dcf7bf1081",
+      "size": 13904
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/downloads/gltf-ResNet_3D.gltf",
+      "sha256": "a510e37fd848615a68ae4da0cdcad863b0a248a1fc03c5ce7768fbe8d439fac3",
+      "size": 22929
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/downloads/html-ResNet_3D.html",
+      "sha256": "b34a48cfbf8442c3cca3d2323f54e619f6bb329a6161389f756af9fe38bbfaee",
+      "size": 216707
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/downloads/json-ResNet_3D.scene.json",
+      "sha256": "a185961bd8f918bd4b55106a13eb078a44bd1ccfe2bab190a8b8d8b29f5bbfd8",
+      "size": 107635
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/downloads/pdf-ResNet_3D.pdf",
+      "sha256": "47cd6c5f386a8d8a87ca14ec6cf06c8da7a49044fb24a32b2e1989999dac8fe8",
+      "size": 266336
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/downloads/png-ResNet_3D.png",
+      "sha256": "3c0a7cdde0133cabbfdbe9682e8788088bb7c787371d0a44ddef82fc351385bb",
+      "size": 31066
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/downloads/pptx-ResNet_3D.pptx",
+      "sha256": "d649da4bd63e599e4e01168aa4fa7d445b9ebc31c1813e6d16c49e161a2d3864",
+      "size": 31368
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/downloads/svg-ResNet_3D.svg",
+      "sha256": "759bb039e2cc207ea9d4773bd398efdd494d70f0e7002a4c6a6b60eee79917a3",
+      "size": 133536
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/downloads/tikz-ResNet_3D.tex",
+      "sha256": "8cde6b23588a179d3a7a34b2cc3c4c711c74b87a3f8e14cb95ac5e6cb2bed4a3",
+      "size": 8516
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/pre-reload-project.json",
+      "sha256": "617607a9145c543f03d32d78e404bd5175d7437b6d42d72512b60290c72ca98f",
+      "size": 2752386
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-bert_encoder-2d.png",
+      "sha256": "0c93016650ca41bceba1b7e219f0fb65edc3e885483c4b517776ef6344b21dc3",
+      "size": 222732
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-bert_encoder-3d.png",
+      "sha256": "60e60ed82957247f00e12017517de4a002110757fcccc1fe535a8357009858b9",
+      "size": 201070
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-diffusion_unet-2d.png",
+      "sha256": "4077ccac4ea2a63fb67eea02fde19172483391a5435c6abbb0baaa6d68c31953",
+      "size": 209107
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-diffusion_unet-3d.png",
+      "sha256": "19cceffda275dae4d9f36c4e399471187554f042dd4fc01348d482f9d4c034cf",
+      "size": 205355
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-image_text-2d.png",
+      "sha256": "d5fa61cfff9eeded98fd0bf3277d51d8ef2e41c59ce9cf1aaa0c336a86c3eb93",
+      "size": 215023
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-image_text-3d.png",
+      "sha256": "bfe4359c6527611c2a2814d2d0b5d0653b6f2915d5d9ca583a7f38227153c6a1",
+      "size": 175919
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-multiscale_unet-2d.png",
+      "sha256": "d8f2b6a407e169db6502dd95132ed99c39619c143b00ac87984b5ca371c3b98f",
+      "size": 168050
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-multiscale_unet-3d.png",
+      "sha256": "55b3306008d56a486c061349c7f4a41cfd86886e1fbc5e8bb44af251f3a78801",
+      "size": 213172
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-resnet50-2d.png",
+      "sha256": "64cf1b2b0453a88502c21bea9906b107116ebe8c83e8cbc2a8170b22a16e34e2",
+      "size": 182992
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-resnet50-3d.png",
+      "sha256": "9d2ff8c66cc466faeadac66a34bf2900e9ef2c02bbc6f9efb086b285c22f28d7",
+      "size": 204610
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-topk_moe-2d.png",
+      "sha256": "aed7ed62ff9abb1189ebdc258d11b14b0c1399be52a5fb3dd75c7f0c659e19e5",
+      "size": 183196
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-topk_moe-3d.png",
+      "sha256": "20f04404b29fb3f2f1d458f2552480dbe353399808c9a695aece96d307d12646",
+      "size": 208662
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-vision_transformer-2d.png",
+      "sha256": "9626f7d7a2838e3e8607bea13873607d72a17b98aad5349ef1da695b3bb90335",
+      "size": 218448
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/architecture-vision_transformer-3d.png",
+      "sha256": "2fb26fc81302ed52ab0f33f41b8d943422ea74af0512630bce3fcf67e81a99fd",
+      "size": 201351
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/autosave-restored-after-page-reload.png",
+      "sha256": "0e16fb09d48e80b08fb875ff99786f7d3d67da4ca5b8eec093f3f0ca0f35aef2",
+      "size": 156942
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/autosave-revision-comparison.png",
+      "sha256": "e51da742eb6a0735524b8a0e9a6aee4c351c5993b4e35cf0ba48e6f9013a94bd",
+      "size": 238621
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/blank-2d-workspace.png",
+      "sha256": "00853e4a567456d3a64e9fc5bfd04d94b80b98b495441764731a0ea2eab41d1d",
+      "size": 138391
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/blank-3d-scene.png",
+      "sha256": "6bf0e2c576b17d5522c896626b3e1aad3dc517e9f82a477f1fa33efa6b9d959a",
+      "size": 135310
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/comparison-resnet50-scene-3d.png",
+      "sha256": "cafb342f0fbed18d15ded11d69be9f65d8d5fcf4584eecb488e87db3f9b991ab",
+      "size": 147435
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/comparison-resnet50-semantic-2d.png",
+      "sha256": "fd37f927f8b55fc8fd3d3abad4a76f85ca5cc9c83aa290ff88901882e73df3d5",
+      "size": 237577
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/comparison-return-to-2d-selection.png",
+      "sha256": "b8f7fb9ce9fc2a64d75a516eff7719897b7f101175ce8509b66b87df2b41157a",
+      "size": 228863
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/cpu-svg-vector-fallback.png",
+      "sha256": "e78b7d4bb224c6f02f898448831ea9c7e3854906df637906eb389181c9d79bd8",
+      "size": 135719
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/figure-proof-resnet50.png",
+      "sha256": "bf9dd37aff31f94fb1de8196d186d267d53bfbce8dbec2f4845468ab9b5cbbab",
+      "size": 232691
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/scene-export-menu-10-formats.png",
+      "sha256": "cd4dd0afe15b20a13efcabeeda4392e1972de2c298e5ed337bafd1dddc103d42",
+      "size": 170725
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/start-center-blank-import-architectures.png",
+      "sha256": "13fde54c5fafb8eb87a9ab943fa9d57e62c319623fdd6ac3360fbb1e2e764323",
+      "size": 344889
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/structure-lens-bounded-result.png",
+      "sha256": "cb785f9b628e392bf4c441defce3f73422b55bda9c0d098984935345b43dad40",
+      "size": 338906
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/template-architecture-cnn-3d.png",
+      "sha256": "d0fb1befecf72e7a6cef3995d63b3b115b77826101377e2cda88d9d86c0eb0e2",
+      "size": 185536
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/template-architecture-diffusion-unet-3d.png",
+      "sha256": "d0a3324b78edc882c5d7be225e5e69c3c9c0cc28389b65d832cbe949fee57b00",
+      "size": 200514
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/template-architecture-moe-3d.png",
+      "sha256": "4de1618310fc680578e6b7587b5457b536ac40c2840027782555f48f78efba2e",
+      "size": 208055
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/template-architecture-multimodal-fusion-3d.png",
+      "sha256": "c6f1c6a70abf98dd92e48468fe605b7d685b9c786a03e4ce2d651514c901e0b6",
+      "size": 210084
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/template-architecture-resnet-3d.png",
+      "sha256": "eb4998b896690705d53b421b8f7db4441e754ab55e7c0edfe1a3271348a0fda0",
+      "size": 188243
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/template-architecture-transformer-3d.png",
+      "sha256": "32918d677a16ef5e5daed67d7f3e17c8e1250d006ba6e7e1fba1befb37aa2e59",
+      "size": 204420
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/template-architecture-unet-3d.png",
+      "sha256": "2365f48386267c8da207aa846d3bf098cb94a802cd8ef8f5a528ba9ea716dc8d",
+      "size": 189854
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/theme-dark-scene.png",
+      "sha256": "fbd8b36c09d8f48ec94ad02512697c386745d0a9ea3055c0cc54e91ca97bd3f4",
+      "size": 159205
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/theme-high-contrast-scene.png",
+      "sha256": "30935731db5e2f817c3b2cbeabccb419fba59e83c22e47f692763b05ce7d06a5",
+      "size": 152440
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/theme-light-scene.png",
+      "sha256": "89ad4a461fb879b233408ec804095342d767f784141fe26159e326ff36720a58",
+      "size": 155442
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/theme-paper-scene.png",
+      "sha256": "d79506d7328105653268b2f7bc06df97f10aac8280ddc4dcf9062156af62d35e",
+      "size": 162016
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/viewport-1024x768.png",
+      "sha256": "b27650738a293c6faa085fd3071de28d358c96698602a354fe429d9b61367cc0",
+      "size": 97941
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/viewport-1280x720.png",
+      "sha256": "aed4c1fd97b9717687edc5bd1ebed76a084d15690f7b63c9b9ac3f5bf87e374f",
+      "size": 111860
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/viewport-1440x900.png",
+      "sha256": "dbbf04da43cb7c413919a62ffdadeb9f2666320c6c8d197f8402751f3aba6bb7",
+      "size": 128872
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/viewport-1920x1080.png",
+      "sha256": "f1cc55c040b6ec25aea2d050f78dd14148b2305ec26203e7a247955841703e41",
+      "size": 141807
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/viewport-390x844.png",
+      "sha256": "067c554b6c1a8bcdad888ca848d52d0e10cfe21a85ed03d102ef4107290ec5d5",
+      "size": 32248
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/viewport-568x320.png",
+      "sha256": "8899e6cdebb9a87bfc31fd07e9311abde64a4e8c69fe7c404ff402baad09815b",
+      "size": 39400
+    },
+    {
+      "path": "evidence/scene-studio/scene-studio-artifacts/screenshots/viewport-800x600.png",
+      "sha256": "759cf5d532e57295d99d402f25d805067e8be5d9099183133597e88c89eb7ff6",
+      "size": 44122
+    },
+    {
+      "path": "evidence/tikz-pdf-proofs/bert_encoder/scene-tikz.pdf",
+      "sha256": "2eab117860773cd893fd4145dba0f841cc18624a02822f63c1a006b8888ce713",
+      "size": 22247
+    },
+    {
+      "path": "evidence/tikz-pdf-proofs/diffusion_unet/scene-tikz.pdf",
+      "sha256": "b9819e1b4bb096602140db3a36afac6e0b3d7b929a59bdd162fc2fe10f416453",
+      "size": 21427
+    },
+    {
+      "path": "evidence/tikz-pdf-proofs/image_text/scene-tikz.pdf",
+      "sha256": "34aa65ccb7a0c0ef2037d85b883b15a1c0a9b1c420ddd89795a221d57d6f28ae",
+      "size": 20261
+    },
+    {
+      "path": "evidence/tikz-pdf-proofs/multiscale_unet/scene-tikz.pdf",
+      "sha256": "ed5006a9338f680725ff451b31196424468a1de8c631ee536bef5a28f16adec1",
+      "size": 22365
+    },
+    {
+      "path": "evidence/tikz-pdf-proofs/resnet50/scene-tikz.pdf",
+      "sha256": "3dd716a03efdbaa7c36655dd49cc6aaee675d3cd81d65ba2a9885e064969154c",
+      "size": 22605
+    },
+    {
+      "path": "evidence/tikz-pdf-proofs/topk_moe/scene-tikz.pdf",
+      "sha256": "d779b3863efbd0af32088320843480c14dffe272b6804bd470fce3fc5cbbcba5",
+      "size": 22661
+    },
+    {
+      "path": "evidence/tikz-pdf-proofs/vision_transformer/scene-tikz.pdf",
+      "sha256": "8c20e7e1446759530de794f15dbccab6b35247990287296b40b2b97dff02a9d1",
+      "size": 22579
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/comparison.png",
+      "sha256": "e80d2113c0dab829dc55d1cf831cdca13f918d934447702bfef017bc13a02e1e",
+      "size": 144360
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/comparison.svg",
+      "sha256": "16a2a6eda8e134a4009ce364940dff48b53cf3179354b977700d923a6df4e0bc",
+      "size": 996421
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/figure.figure.json",
+      "sha256": "347a969cca10378fbb6e1886205ad7135c8d51631c7b0baa75faa34897605eb4",
+      "size": 457512
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/graph.graph.json",
+      "sha256": "450729095a7934e460e1026122cf1d6f199ddb438f8b33dbd7629ca1786571c2",
+      "size": 155818
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.eps",
+      "sha256": "135ab829ff75769db3f1051dee35a28ca40e6cbd0b72bb3a2ee0192875168e82",
+      "size": 16861
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.glb",
+      "sha256": "7ac8fda03d27e97885727c915781f4fb502f2a1eb4282dc1cd27d567eb318b62",
+      "size": 80072
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.gltf",
+      "sha256": "14e6e77b70605968935fc617e3ac55c76cf7be89da4755442eaa1f81a1948ef8",
+      "size": 113771
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.html",
+      "sha256": "fe09fa5ad53e29f5442c26d7d03cb171ee613e77d90099afcf146218d1590a8d",
+      "size": 1346550
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.nndv.json",
+      "sha256": "799e1c60dee8af03f7930dc232ee329c6b7751fec2d16bb9e3541c30ae6a0d3a",
+      "size": 1343872
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.pdf",
+      "sha256": "8bc0cd5de6bc0550e8b41994e91adf4b2967747cea5a968e5ea60fbb5d05afb7",
+      "size": 328990
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.png",
+      "sha256": "0363b9b20123c3242b82e8ca90b5414fc05a71863c7bf82a54e57d839e83e9b7",
+      "size": 52065
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.pptx",
+      "sha256": "4bce793dd1b6c0bad5ea963fbb32a03f8f246046f1132873ad3526cf1c92d33f",
+      "size": 34654
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.scene.json",
+      "sha256": "a3cf462111878ee903fece9cf6b1abca218f555a859b686bc3b49a3214fb78c5",
+      "size": 357297
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.svg",
+      "sha256": "2c2778eba2b832bcd1d08e04aebab69bd124484dc2a4f4f92e7794f07964a32f",
+      "size": 771576
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/scene.tex",
+      "sha256": "6ecf5cf042d02cf31bea6d21884ffca805f6f6a0279def8d7071637ac078345a",
+      "size": 71862
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/semantic-parity.json",
+      "sha256": "e10959660fc1429e8cf178dd205126acc0b5c730b6392dbdd5c6335b20878525",
+      "size": 1657
+    },
+    {
+      "path": "exports/scene-corpus/real-models/bert_encoder/semantic.semantic.json",
+      "sha256": "84d5a4dee21ab92b3e1357e9c2582d226380bd72ed68b6a12fcdec3e9733d7ff",
+      "size": 300915
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/comparison.png",
+      "sha256": "66cf8f7861217b9e737d9575ee28c2a49cc2b8fb392f67725445382cabb0a90d",
+      "size": 237549
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/comparison.svg",
+      "sha256": "29be01d2dd57819c2d0c4023e960d7b2e27e5628d7d7236e60f35c20f0ceae61",
+      "size": 784990
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/figure.figure.json",
+      "sha256": "a1efa47691eb4be8d09cb942c61b00b19e8094e06c494720a144387361805975",
+      "size": 369585
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/graph.graph.json",
+      "sha256": "efbe5e63566edf8b419ae645018f90f52af8925746cc68f87e5616e01fea15fb",
+      "size": 115238
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.eps",
+      "sha256": "8c1dec5fc99e3f175bb26f19301b24a2be9c7d4a2e4db3f6eaf3611113759bd5",
+      "size": 18999
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.glb",
+      "sha256": "c0dd7b14fdab7b768ddde9a559873ac75ce2e357525c9bde8f33ad10db2bba29",
+      "size": 72352
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.gltf",
+      "sha256": "dcb7f04c53378c9796321266d6e84ee564aee070e56ebd98179be0f6dcaab7e4",
+      "size": 107508
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.html",
+      "sha256": "dbedc5d59391d9fe0d12f51279e243d6edfbccce18c6e92256e8e0f027639a49",
+      "size": 1050870
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.nndv.json",
+      "sha256": "1dcaffb30c45413f25fa4fb6900b1858e8126167d660bbc962caaa3bcaeefba6",
+      "size": 1127831
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.pdf",
+      "sha256": "13fd161a4e88104bed37b3716741976ef498d435ca1e9c2af33581394a7c9ecb",
+      "size": 340923
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.png",
+      "sha256": "a4ac6dae1200e7647e5ff5d94a1e1eaafa019b8f808f172c6a229753c0ac882b",
+      "size": 57049
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.pptx",
+      "sha256": "780be494bbebc0bbd66389c4b3f4020c6e383b867764f1e38e091852e8315cb1",
+      "size": 35274
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.scene.json",
+      "sha256": "cd7a7ee57de8370eeef100b0cb8add4919789062be5f98f1ea01edc6788f3246",
+      "size": 324390
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.svg",
+      "sha256": "bd9d3fa80081d7de0c1cb8233fdf9ebb1b276e406329fe7c5a0215590d9d1f09",
+      "size": 619016
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/scene.tex",
+      "sha256": "109aa980ffb510990fd4be427c661f17935b3678b1f8de0655bd299c001822d2",
+      "size": 84100
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/semantic-parity.json",
+      "sha256": "6709ab344833aae19012280e4e598a10b72b139531cffc0b5322f0784faaa8ff",
+      "size": 1655
+    },
+    {
+      "path": "exports/scene-corpus/real-models/diffusion_unet/semantic.semantic.json",
+      "sha256": "20bd6a52b63c2b7cf5d348cbd5ceec2f3d509a1aec640964c70c7abef8077b1a",
+      "size": 254167
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/comparison.png",
+      "sha256": "3ae76be5206811f007609519c30e7eaf7189bc96b3f838cb71bfeae4f7eaa371",
+      "size": 142189
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/comparison.svg",
+      "sha256": "a895a5763b8d58cf93da76d1c1e37b5b562e1ccdca0d404612d97670dbbf2e34",
+      "size": 512034
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/figure.figure.json",
+      "sha256": "7ff1f872da18a1198b30a720a99b02c1f231a4dff1fbf5e0d38fd501fb370be3",
+      "size": 212482
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/graph.graph.json",
+      "sha256": "43cada4e87c7d3403a6d658da87ff13241a730a46cc1c8d5d40b84a9d7e7516a",
+      "size": 87241
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.eps",
+      "sha256": "fc55e8fe759d37331488520e1e54ea1bbc69d835614d68b935ff330dc85acfba",
+      "size": 12021
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.glb",
+      "sha256": "884b732da780ccecd9f8099a32da8b441db3660cbd0ca0f012b425f2590cb5ce",
+      "size": 38556
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.gltf",
+      "sha256": "d674fcd32c07baa3bddbdb5f137c52215f5ba78f82b897efdd6eb0eec440a840",
+      "size": 56567
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.html",
+      "sha256": "97cb1b7e0aa30ec714c4eae4980ac8cf41004c18d528b51366ac1dc4eecf041a",
+      "size": 721603
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.nndv.json",
+      "sha256": "fe6b43b791ce8878a71e6eace5a112f28c21d08cd269357f62f3a2696bd6e2f3",
+      "size": 691414
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.pdf",
+      "sha256": "f4ab0e46ba3c6157d4844c99e63bf4709bf86f235b9d9009ccb59dd5a8c38293",
+      "size": 315806
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.png",
+      "sha256": "0e25f69ef0db495a2dd139f17298a740ab909d36e263da6483b28e6e5a493dbc",
+      "size": 46520
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.pptx",
+      "sha256": "f0596c30fb143c226b77a9a97a1af818aa0e8b66265d6857d260001f1ec46c7d",
+      "size": 33128
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.scene.json",
+      "sha256": "2eddd2c290766c75d92274498edef1593e3a9d4e4ee6520cd7f14cbe782245be",
+      "size": 166831
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.svg",
+      "sha256": "93a02dd70d5ba6df560b25aa271f066dd52fcc47d81ec46cd2afe1a46d8fedec",
+      "size": 421669
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/scene.tex",
+      "sha256": "906b6abf99172057a491636d8b22032f14677b2248630427403f3c40cd4163c3",
+      "size": 58129
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/semantic-parity.json",
+      "sha256": "879d3352da49ad5bc465abb83eed522083b69eb4e7bc2d0d66d2b937eb2c8384",
+      "size": 1544
+    },
+    {
+      "path": "exports/scene-corpus/real-models/image_text/semantic.semantic.json",
+      "sha256": "bb6c82f290d564e870bbdb18c9ca435c4a2d5a4bee1b6be96a00f43918e622dd",
+      "size": 182073
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/comparison.png",
+      "sha256": "64ee3504a2ba6a36c86c0f749d93333a0e7bada0741b6d32828c79a96abcbc29",
+      "size": 263211
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/comparison.svg",
+      "sha256": "d68c60de327ea8f792eff76da86138a509c3eeb0e31a1d4901f91470e64c4892",
+      "size": 932343
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/figure.figure.json",
+      "sha256": "cead1cad69b50f90bfeb1c424a0ba528f8e855ba64d896e940e7284caa733691",
+      "size": 443168
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/graph.graph.json",
+      "sha256": "4347c10669a959bca438f4854a707015ef4e29424f681650c1c4444a8f6f4c21",
+      "size": 200851
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.eps",
+      "sha256": "fb1957cc8ff4bd4bd9089d140a35b26fcdb8d02454727c8d6820971392b56e34",
+      "size": 28819
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.glb",
+      "sha256": "58a508c491bc04fa785ab83f78a5391191c2eb5535bd8cd2c566c7f7c1920db5",
+      "size": 104536
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.gltf",
+      "sha256": "a9950b13653f6a1c6ae17f4a1c8927f9a85ee400230ffdbf112bc92fdc834b32",
+      "size": 151436
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.html",
+      "sha256": "a736dbdb023654c59a764a8a68ec222f98362f3035788e219b3260e4c107c235",
+      "size": 1198776
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.nndv.json",
+      "sha256": "ab46e6b217a16a77bc02e89da63e808c7477a78705f2edd6f93859dc15417591",
+      "size": 1487097
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.pdf",
+      "sha256": "1a171d23964aad572929fb57d28ce5e725b3796cf394be425bfce77a65eb2464",
+      "size": 386580
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.png",
+      "sha256": "f747c8ec990a4e245e8c5989a39724645e4c1da48eae45767162e349e7d6c299",
+      "size": 67310
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.pptx",
+      "sha256": "eb2b5f03dbfb1f00568ae4f431a83e93b31ba05af04a825f5e8b2bb90794be29",
+      "size": 38561
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.scene.json",
+      "sha256": "a197cb578a0f5955b49eedb7790389d3c7ec4f0f51eb3663c5ee3c383fa749e0",
+      "size": 445077
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.svg",
+      "sha256": "a0c5fb61aa0e4e1dc6a7eece65297193db3706c4f0f184752cde44d0a93f9c48",
+      "size": 730288
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/scene.tex",
+      "sha256": "52044119858a0dc404e28bee86a170dd0cbdaf544cb35ea0257fe9cb67c98e1c",
+      "size": 131816
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/semantic-parity.json",
+      "sha256": "4eb1df72444ca88541e4f35252355f7a13b634774bc7a5563b22daf193290555",
+      "size": 1449
+    },
+    {
+      "path": "exports/scene-corpus/real-models/multiscale_unet/semantic.semantic.json",
+      "sha256": "1c7bfd238af5c7c1c422751b8d6913e8dbef8d6ddd8c95687506648ba6ca7abe",
+      "size": 313778
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/comparison.png",
+      "sha256": "c750e14fd7a021dfa81fe70d2cea4fc20c3f90039402d37fc50dbf5cb8b5d4e3",
+      "size": 162814
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/comparison.svg",
+      "sha256": "5c84d01c6ecc8b2f6305c5f376637683834dcf23f6b0941cf7e4c0545e17a5b3",
+      "size": 1863896
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/figure.figure.json",
+      "sha256": "f4b2d9147950bc2fb0572102e7f6445f77dc708d56239d72c836a0a7b82dd63e",
+      "size": 925488
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/graph.graph.json",
+      "sha256": "7c05a0bf6809da1d7152ee13e1a3598d2061d92f4794b62df97cc88f583a2426",
+      "size": 667055
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.eps",
+      "sha256": "b7aa756caeeee37c04ed51999a8f4de038cfe3dfb3cd810add25760013a4bc22",
+      "size": 19500
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.glb",
+      "sha256": "87f8cc214d7d73f55c6fd9af65a9c75d89dcc3ae9d097352147c066d095fbbae",
+      "size": 116140
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.gltf",
+      "sha256": "e1eeca4d2aba39013806b31cae86f710e96178c395226ad8501779410ba7c7d4",
+      "size": 156376
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.html",
+      "sha256": "be4231f35d524227f18659182a643581d771663bc12c4de09acb8df79d1c15f8",
+      "size": 2428665
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.nndv.json",
+      "sha256": "825c29be7cdb5c16806353b65aa922ca167a0ffeb86601ffe6a7e8531439718d",
+      "size": 3395403
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.pdf",
+      "sha256": "1ff230ffd6087fa5478be44b9481206b3ea5c34b093fd8859677ce80987c7a7b",
+      "size": 351802
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.png",
+      "sha256": "99c3abb2d7d4ff7ee0bbf71491aa7cd04bf0371c8af3b85ce57fcc02f19ec9d7",
+      "size": 64296
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.pptx",
+      "sha256": "9931bfea8152e4a6fd68a266ebbfde73354912f1cad9f67f7ef761429cc99151",
+      "size": 35570
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.scene.json",
+      "sha256": "ab345431e6496f4d50df30dfa556577242eb1ab5676d8ea6be6e33de5f87f988",
+      "size": 596877
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.svg",
+      "sha256": "807c11ca2468fa8fc2df4a37c0c8edd3f9b3df089cf067376c6bed7560bd3b50",
+      "size": 1356359
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/scene.tex",
+      "sha256": "c45e8de9f6a89ef1f6cd846b557a2d2aee04cb5a14608996d7717a667c944323",
+      "size": 95370
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/semantic-parity.json",
+      "sha256": "220ff64b80cec2aa105295cef9fd8374985d554c551b05e63d5ecba44fc6e5aa",
+      "size": 1454
+    },
+    {
+      "path": "exports/scene-corpus/real-models/resnet50/semantic.semantic.json",
+      "sha256": "8bc1bd2827ab360c15eb46194921b3a4ec92b6bc4c531ecf82fb3786f873224a",
+      "size": 1015219
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/comparison.png",
+      "sha256": "3aca1c8d860c7254685dc570ba2b9dfa97324c77bce9b916d4d2129db754999c",
+      "size": 186232
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/comparison.svg",
+      "sha256": "1ec7a8a0fd79e0ba8498d4412092bcc0f2ba8a867bd8766321f6b7b048914977",
+      "size": 883877
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/figure.figure.json",
+      "sha256": "bba31dd46166c6716e7199c34b0eeb465241f622fff5c3938673cfabb07ea88a",
+      "size": 408349
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/graph.graph.json",
+      "sha256": "c6342c93da1e7818e403f526bea8c3514a37f10139f7b170a6470a51409e769d",
+      "size": 117722
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.eps",
+      "sha256": "6dfe8789e66967f054acea7955f048deefa9ac62d24582b85ed58d0994d98e71",
+      "size": 16332
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.glb",
+      "sha256": "ab4a339c0c0c2f568f552b8221a2ff865d26cb78135961f7395d1ca9c959c2b1",
+      "size": 81408
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.gltf",
+      "sha256": "6ff5e33cb22b9cd00c249b30e97b80d6219de604f6d9122669055853ba2d3f32",
+      "size": 114016
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.html",
+      "sha256": "867dfa70abad214cc79b0bdeebb9a8e59d892093dddea0d7cd17a83f9369cae5",
+      "size": 1171505
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.nndv.json",
+      "sha256": "ae545421fc0a37eab6bc7a6474684b07825dbebcbc456fda3ad19ebec266d21e",
+      "size": 1221330
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.pdf",
+      "sha256": "0f3337e7dce60f9f6909bdddc65576e61642091038509174adfbf8f3958879b4",
+      "size": 335225
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.png",
+      "sha256": "4b1d17f92791b0b27bacc640a5d0f45a04071cc4232e82293e246c9c7c9f35ef",
+      "size": 52476
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.pptx",
+      "sha256": "85f454d127d33b1bbdb4422f457563957c279f55bbc0bca4e2433d880d843d91",
+      "size": 34433
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.scene.json",
+      "sha256": "4f95b0db0d209c19f19d998f6605b4c2a7fc189cb5002e3abd9a9bad01f7283e",
+      "size": 362607
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.svg",
+      "sha256": "03c8d3bf0d3843af21a80ac52b1b83639b82a846e9f4c56a78f708dc45d3b0ab",
+      "size": 674114
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/scene.tex",
+      "sha256": "ec642638ddb64e5d1a43121e9db1bdd3850fc17e84bced6cac262de3d19892a5",
+      "size": 77997
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/semantic-parity.json",
+      "sha256": "8e8302277318e8cfe159b3a0642ad74c569c9b673c04ed93ca6071e548a633dd",
+      "size": 1451
+    },
+    {
+      "path": "exports/scene-corpus/real-models/topk_moe/semantic.semantic.json",
+      "sha256": "1a9941777fb972905210cbfce5b040d846c0bcbabd9d76b117826e44f425e56a",
+      "size": 267585
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/comparison.png",
+      "sha256": "604504244fab557db98189f165b321eb725246dae175dbf4d752b476aa276ce8",
+      "size": 139316
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/comparison.svg",
+      "sha256": "387ddbb5474afe91da8f0da4d2d75ec344310778085f25d33de7cf7882998a59",
+      "size": 1039110
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/figure.figure.json",
+      "sha256": "f297a78690cb577aa667f928901e66e8d318d066e3fd4d09255870e5cf3cd361",
+      "size": 480562
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/graph.graph.json",
+      "sha256": "764c76ddd27be1ff40a486a98167d0f303fcaed83afac094b5c475f614f99a69",
+      "size": 170416
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.eps",
+      "sha256": "be5889abffb55a4b7a17c20653d6fd9173c0ee0bd8c99398d1ac9be08cde1a45",
+      "size": 17247
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.glb",
+      "sha256": "6ca9f8d629dc8a6bd7b275a23f56fa4a1f13ca08227bc705a9177ad78dac6e92",
+      "size": 82628
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.gltf",
+      "sha256": "4d6a80cb4fc821c1803950939271dd55c183916c6a3852df58713fdc7e7b894d",
+      "size": 118140
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.html",
+      "sha256": "2c29b8e7ba1bf7ff80f5f9dde5783b0a7e9b261b54280f0f33c45c6101c96e52",
+      "size": 1408129
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.nndv.json",
+      "sha256": "253b73b73f54909e8db9c7465d5063fe9e5fd9b3b35e2ec40ea49104e7cfdabc",
+      "size": 1444871
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.pdf",
+      "sha256": "1aa716451a160a33ffed972a7ebed56b2c4172032c2fc876b280f51edae6b2e2",
+      "size": 329330
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.png",
+      "sha256": "3ee73f1a8690e27da77b3235bdfaa7182693bb6ac03762ae80e0b0999a91aece",
+      "size": 52846
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.pptx",
+      "sha256": "9fe959ff81ed39be94dd65ed746e63425f849af49723db8ad2ed2f93a4850aa2",
+      "size": 34801
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.scene.json",
+      "sha256": "4ab15e79e5e5c8a7948f5a3687ef05872d40adea691af9abd0cefef130af2560",
+      "size": 368020
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.svg",
+      "sha256": "3b25eb012634cdfc17d76a8c9b12802f37032e6ea233f2cdc07a192596b9cd4d",
+      "size": 807500
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/scene.tex",
+      "sha256": "b56860506fcea18988261dde6bdd8e503381db8ffc1bbd0db6908c0bcea782b9",
+      "size": 72186
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/semantic-parity.json",
+      "sha256": "c4a78e8bfa0b1a06cda09ef9e75a453fddcba2ae9d1cbaa50a53c347cfbb3af4",
+      "size": 1658
+    },
+    {
+      "path": "exports/scene-corpus/real-models/vision_transformer/semantic.semantic.json",
+      "sha256": "a175122dd0af5e2a405d6e15c7b6a9201ac62f5817e093c87cc0f7b00f032874",
+      "size": 345801
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.eps",
+      "sha256": "33a2f254e4e5dc9ba94f900069ce94e8d1d9cfc960fe43e92d48294526c8dbc4",
+      "size": 15313
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.glb",
+      "sha256": "017bc3e84d300f62340ad70a649862ed0efaafa14db8d490a8ec35085417357c",
+      "size": 20800
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.gltf",
+      "sha256": "e6c432c5777914cc916afbcd968fecdd6ac2f4f826c453c27cb803f35e8d9d05",
+      "size": 35424
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.html",
+      "sha256": "1a9ad10b8b48064324c0b002e77c52729b51811f2e6a5bfc4ed2e92d32e4897e",
+      "size": 273895
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.nndv.json",
+      "sha256": "dd572f401cd1e9476e14c14c1782d5ec4e9edac0e28e8c412f77b72fe6196adc",
+      "size": 45834
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.pdf",
+      "sha256": "ba82d835c20100b5cbea5dd1664c47630dcb61a2b93904e4ef89180c55700504",
+      "size": 272024
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.png",
+      "sha256": "0492379a8d927a2eb5c86e11a01a8c93520530cb5f6a90a8bef5c644adc4e1a5",
+      "size": 55019
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.pptx",
+      "sha256": "01bfc1c8922bd976fe512bcfbe9ad12e71fa3885f8886f9ac5b3dfd4af630e72",
+      "size": 33719
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.scene.json",
+      "sha256": "c924bc9463c0423d7fa20634ea5be618349c939dfb3a9bfb22582e30f0ecb8d4",
+      "size": 39445
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.svg",
+      "sha256": "88c6576154580b12ea0b18ce5ae1d9ceb3af258a5e01d4bff56ffbcd6a0c863d",
+      "size": 175702
+    },
+    {
+      "path": "exports/scene-corpus/templates/cnn/scene.tex",
+      "sha256": "74ba3a43d16905bed4477c6f532244f2e9f473470c5aa07e5a819ade642fdeaa",
+      "size": 15479
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.eps",
+      "sha256": "299e8276a1dc795a4298905f9138665c20278a576ce87f1932032bde7eb86469",
+      "size": 17587
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.glb",
+      "sha256": "a0ba49c8ef85aa60b0f3202381d40b96cdaf6d072e54eae3b97bdab2f216957c",
+      "size": 26792
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.gltf",
+      "sha256": "5e74b4c91d7e500f8c1836aef9f84259a46e731f1f1c601cffa365c27db50910",
+      "size": 45171
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.html",
+      "sha256": "571d0fa54ea9d2b571239e178c0bed3c396d2d8800d374046bf87b4e446c1a12",
+      "size": 324527
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.nndv.json",
+      "sha256": "eab07f8fe28961eec81a9208df9b94938ea8b0aafc6d5bf76a2e01b36e93c191",
+      "size": 62264
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.pdf",
+      "sha256": "a466caaef1d58c5a759c6c4adbcb7d5126f1fdf74d8fd85f1dd0b7e578e65509",
+      "size": 273913
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.png",
+      "sha256": "fd45df305507e514c7558ce94bf174b7c0a31d4b9e550ccf962bd937f3ec0efc",
+      "size": 59511
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.pptx",
+      "sha256": "0d9d82e33a1ed4d631011e2751f43f035b27b3dc27a2d406806e22a193fbfdfb",
+      "size": 34295
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.scene.json",
+      "sha256": "444aa791197b7f72b2a4a6e7fab89b5ccb4b28e0bd5d16bf4e6d10c7a00e4d24",
+      "size": 54692
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.svg",
+      "sha256": "2e3ccb4003f695d3b743becb004bd12476def8ff724ab1a4ec1d8560ec3575c7",
+      "size": 208946
+    },
+    {
+      "path": "exports/scene-corpus/templates/diffusion-unet/scene.tex",
+      "sha256": "7c63ba71609c692812f3d23beb1d7b8043ab5aa08700dd9f985043ec674c55e2",
+      "size": 17533
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.eps",
+      "sha256": "ca91bb32a7acdb822e344cd91100f38a15236d2c59b58c11be3e480b3d2c1ae9",
+      "size": 19880
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.glb",
+      "sha256": "eeed4b596a528875d135fa17cec0208656fe6768580a7f7c706ecb03b033d3b2",
+      "size": 32068
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.gltf",
+      "sha256": "d9a8260cac1aea479f35b138b4ecbd09fe8152fbe580e8476808872667b2dba3",
+      "size": 54713
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.html",
+      "sha256": "ecd8029c046d2c0386b36fe0b3f7df4916176919750d1f8e246330a8f0785af5",
+      "size": 353063
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.nndv.json",
+      "sha256": "f58fa9bf7459e11697168945abe37f61844006f830e9caa8b91735edcbdaa0cd",
+      "size": 72046
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.pdf",
+      "sha256": "57c8810d5e509b24577164227b21566faa5712ff934d5af64ccd7d065146a13e",
+      "size": 275538
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.png",
+      "sha256": "a36cfb71524f76226c3b3a152ab5bedb5545fe2f0b0a1eb17c3a92009a18fc0e",
+      "size": 58360
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.pptx",
+      "sha256": "752251c9f419114553d8cc46c9a9f50b9ea71890f68971358b621e114930caf8",
+      "size": 34771
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.scene.json",
+      "sha256": "2efddef79a49a23086ef173d942318311dc1b52097ebbe78ed3d4b970ec894b8",
+      "size": 63731
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.svg",
+      "sha256": "4e0d6c0a0d5f2246a0947cf32bfc613f1bfe9e07e1f1f68fa38dfecf526ed201",
+      "size": 227982
+    },
+    {
+      "path": "exports/scene-corpus/templates/moe/scene.tex",
+      "sha256": "c1bef08525403072a02522b01e1e5dd48eb1b7565fbb1ab2bbb9c99fedec53e3",
+      "size": 19606
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.eps",
+      "sha256": "ef8b55d58b46b99dcf43670367fbfac13962a04125b89b9d9fe7c3b46d182cba",
+      "size": 14229
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.glb",
+      "sha256": "bb122d72b12d7ff28473947fb87c3c24ebdcf73c38886b5f92006c9eeb9692bf",
+      "size": 23932
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.gltf",
+      "sha256": "11213e97f40836e19c958abaaa6c3dd75d042a496a4843b6d85a9b7ec224a054",
+      "size": 40559
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.html",
+      "sha256": "3e95fd0933a0cdf29071e81acc6ef3ebd91de471537cc539cc07e0d32e067ad4",
+      "size": 268785
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.nndv.json",
+      "sha256": "8aecf848980ea299ae6041a17478a350f82699be9b734b3e0c1a0e0cba3cdee2",
+      "size": 69068
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.pdf",
+      "sha256": "29730d6daa0a55a7f3dd748535e0fc4d687683a535da0706096cf12dfcfe8675",
+      "size": 271328
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.png",
+      "sha256": "e4c1107347d7da674444f7ebd860f168d6ca071628cbc9cb165f87cb1570de2c",
+      "size": 55296
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.pptx",
+      "sha256": "22aaf4a75825117b6ef134f23165dea75ef64f016d8821cb243b05cf10f9d982",
+      "size": 33245
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.scene.json",
+      "sha256": "0e184aa41ae621dcca92a0363b2d654615284500ac8868014fcb6703d94293ba",
+      "size": 60993
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.svg",
+      "sha256": "333fc6128e317d85f403b637ad19d31cf8ae9dff4d139c20f086f60153d00c12",
+      "size": 172186
+    },
+    {
+      "path": "exports/scene-corpus/templates/multimodal-fusion/scene.tex",
+      "sha256": "e8d76cfefdce16c4b837fefd79e079d1ffc3a92ef6f18408f52f9582d2940220",
+      "size": 14467
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.eps",
+      "sha256": "ee1ce112bfd34f1dcba9836b260fa7bc88747d3a20c513bd7c8b06d9a2ec85d3",
+      "size": 14945
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.glb",
+      "sha256": "ec8d7ea6890242cd2fe7c1a5fb786e0ce92a421c2d193a0c85a4b3b9f1daaf34",
+      "size": 24096
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.gltf",
+      "sha256": "ab8707cc8f0ebc06d8f4dd6e6c2f801c01bce8bd656d44ffd129f2594eb82592",
+      "size": 41051
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.html",
+      "sha256": "b35b4ca0635f3bc0f39756b235d770b34a16e8e5336a8b80a5c234f20f7d29ee",
+      "size": 268518
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.nndv.json",
+      "sha256": "3e3abef19082ace186954757e2747c8d0ff67c716c95d799122a378cc9fc277b",
+      "size": 53842
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.pdf",
+      "sha256": "f547f02c1077f2681589b3fbbebc813a5e37e39b555f856046a6fa2f9f7d8913",
+      "size": 271753
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.png",
+      "sha256": "5a4b43f73c702582055bf6db3c4486e95ec4bfc9fafedc4df9a906604638e512",
+      "size": 50978
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.pptx",
+      "sha256": "b9a6fae88f8bdfb3cbde5c95c0b6a003a535ad9008cbfdd68b7c1114ded88fc3",
+      "size": 32998
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.scene.json",
+      "sha256": "7cf6f7a84a4cb747247133ba3ff5de5a236cbe33cd75e8bcfe7137f7c99061d4",
+      "size": 46864
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.svg",
+      "sha256": "0390de77e827829eacf388fd907b80b1b14457cbafa45a7631f28d2ff9a58b4f",
+      "size": 172754
+    },
+    {
+      "path": "exports/scene-corpus/templates/resnet/scene.tex",
+      "sha256": "3ae5374d887656a9281ce124ac83826e5f928bcfa895edb493171fc1789c854c",
+      "size": 14849
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.eps",
+      "sha256": "908d60ba4e4c69c97065a3412fe6986c1c70f07bf5059ec85a078fd016fd0729",
+      "size": 23916
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.glb",
+      "sha256": "7741d6255b39fd4c59b000baaaf2eaf2a38c8968770b27acde95f034bb38f57a",
+      "size": 26664
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.gltf",
+      "sha256": "725240f8c1fa76a11d7ebf462ca3b952991befe6bdbc017cd61104837c106a9a",
+      "size": 45089
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.html",
+      "sha256": "bf6ae21e0f4a95047cf6695db28cf356d40c0a03bf843224683ccdc88d771277",
+      "size": 427196
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.nndv.json",
+      "sha256": "9628f4dc93fed3342a39a6d973f42aca6d93495d9eeaa3f8bd4b90caa26c0e20",
+      "size": 60457
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.pdf",
+      "sha256": "16d93ea7661666c08a99a639d2b898d8e206201ab225976b10c27e78810c530f",
+      "size": 278514
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.png",
+      "sha256": "9ad4354488aa12e6e10f397c41a3fc195e86ab39f81a2619cd982e65a012a7fd",
+      "size": 60444
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.pptx",
+      "sha256": "341e1e8dba513e43237adf037e6e0b44262c56e1d43560329eb9f094be5afa2e",
+      "size": 35741
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.scene.json",
+      "sha256": "0d4031b8935e4a08ecb83b09f648fb24df2bef246ffab05ff8bfb7092eb7607c",
+      "size": 52962
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.svg",
+      "sha256": "52d5a7c8cd14ba07735560345904cc8738499382fcba013341552c1bca0fff73",
+      "size": 275230
+    },
+    {
+      "path": "exports/scene-corpus/templates/transformer/scene.tex",
+      "sha256": "44f9436dadf0fdd75de82ff3b391e1084db7c2fdc74265af647405f11b13dc8c",
+      "size": 23808
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.eps",
+      "sha256": "367c53c0f6c3589e2bb32943de53d95f7878b8dfe7ca17873ff7381f35b0e1ec",
+      "size": 14744
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.glb",
+      "sha256": "54e6d40b05430a278f1f94804b9a1d409aa2ad345cf3e5b1673dadc8f3ab2974",
+      "size": 23404
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.gltf",
+      "sha256": "1ff0d7d6743ff71122575275069e587c5da1ea4efe5174d5025b8e468c77ea11",
+      "size": 40032
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.html",
+      "sha256": "fa6898fa553d581d9e238ee3b953b30c1e0566a4bc920d6542cee01b73d34fdf",
+      "size": 260397
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.nndv.json",
+      "sha256": "ed315013790a99bdd0365dc4a49d91f63c8a39d571b0a3c566eabfd798147e0d",
+      "size": 54048
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.pdf",
+      "sha256": "c56e1ae06774b0d59a525d685fa5a22646d2d50d776e7df4caa4e51156be41e9",
+      "size": 271517
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.png",
+      "sha256": "77e0ed3277f5b0b2c59179c4c0bec45c67d68074dffdd17e4fd7f97fc028cb36",
+      "size": 49798
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.pptx",
+      "sha256": "1dd3f70ac3e7b9e17c12f4297bf58401795af87748185af56120884f2dbcaff9",
+      "size": 33068
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.scene.json",
+      "sha256": "4cc15ea81c9e93f8c94c891a1bdce93ced6abbfcd5f945ca8f0556f097a7e64c",
+      "size": 47070
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.svg",
+      "sha256": "5611f019917ef9171375b9d8da8a517801df262cb9d401a54e2428b916f350ee",
+      "size": 167624
+    },
+    {
+      "path": "exports/scene-corpus/templates/unet/scene.tex",
+      "sha256": "58af351bd447aff06af867ee3fec9795cf212e021d5aa7e49f70ba954f86e0c1",
+      "size": 14543
+    },
+    {
+      "path": "logs/before-after.log",
+      "sha256": "15b3a1fb0a2cad2747bbaa2ea8d1f8027e297e308285cd62775555cac16b89f6",
+      "size": 50
+    },
+    {
+      "path": "logs/corpus-generate.log",
+      "sha256": "5c34e4e61087fb3f929c0fe1219d69d2af1d6d17d066e5632bca2d2cad5b7466",
+      "size": 453
+    },
+    {
+      "path": "logs/corpus-validate.log",
+      "sha256": "cfbdccefe7f01a42a9e75a3e08da6ae9cf5c0695bd341b88e91ae3e0a7050856",
+      "size": 449
+    },
+    {
+      "path": "logs/e2e-aggregate.log",
+      "sha256": "9bce15520ba6a0ec67d21ae18d371679f9250f7921ee850a8785c2585787fb6a",
+      "size": 51
+    },
+    {
+      "path": "logs/e2e-editor.log",
+      "sha256": "5f59d284405b239a5a58dd2b0962f14891f5b06258c80e743d8352a8b075998d",
+      "size": 3581
+    },
+    {
+      "path": "logs/e2e-figure.log",
+      "sha256": "7ec04a369abbb17d9708b4d1c323ba9ae524432d4e4ae3e7567396a460474ba2",
+      "size": 7282
+    },
+    {
+      "path": "logs/e2e-product.log",
+      "sha256": "306abf7c79bd8b23a4525e8d1b8c9f2e1e5585e231d6a3d22574a0b43545f31a",
+      "size": 2639
+    },
+    {
+      "path": "logs/e2e-responsive.log",
+      "sha256": "ded65b413e511090263b9719059a3568f89cbf04a27608893ae0c269e05b1bff",
+      "size": 1092
+    },
+    {
+      "path": "logs/e2e-scene.log",
+      "sha256": "1d2cc1b44c20b75dcbf12ab2eaba53f77db2363dbf93f075f868302b2acdf142",
+      "size": 103
+    },
+    {
+      "path": "logs/e2e-semantic.log",
+      "sha256": "f44398f3a01ec12541a5734ea1bec6185ef869dfbc76ae30086f131726a7e9af",
+      "size": 1706
+    },
+    {
+      "path": "logs/e2e-trial.log",
+      "sha256": "d871d09a1943c86a671da0d00ab503daa8a7228108a78aba2f9b2bc84b1dcc65",
+      "size": 4985
+    },
+    {
+      "path": "logs/environment.log",
+      "sha256": "e9b1c7b97a42bd75734fbc1b874b47bf3dc413476fccea4a4a5e4920ccb822d2",
+      "size": 124
+    },
+    {
+      "path": "logs/execution-copy.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "logs/generalization.log",
+      "sha256": "792911425fb23c7a5a960b5672cc186d01c9efc269bfddc179bf1c96fe5fc934",
+      "size": 182
+    },
+    {
+      "path": "logs/npm-ci.log",
+      "sha256": "5c0458e9330982ad0a3fed9af1fa375fdeec2e45a03936118e240e09dac229ec",
+      "size": 165
+    },
+    {
+      "path": "logs/package-build.log",
+      "sha256": "425957122b86359668a7591b29318da3939f5d4df9ce9eedb3898d59cc898364",
+      "size": 41328
+    },
+    {
+      "path": "logs/package-install.log",
+      "sha256": "8c0158bea282a8689b53a4687a7a7f9ae72f8ec49f85d9047a7df807e39e9af4",
+      "size": 31
+    },
+    {
+      "path": "logs/parent-artifact.log",
+      "sha256": "b068ae2dc2712753eb749a293261c99fa1c2c1e53b8d6766e36c768a6b356701",
+      "size": 121
+    },
+    {
+      "path": "logs/parent-source-snapshot.log",
+      "sha256": "a71a27e690c5f94231f5c40bd81143d1cc2b4e9751fb8c10c07e86b6f49eaf81",
+      "size": 121
+    },
+    {
+      "path": "logs/performance.log",
+      "sha256": "fe1f18709e2bf232cff3241e307db4494b3a592230274863f03368a0eb007ac9",
+      "size": 325
+    },
+    {
+      "path": "logs/publication-oracle.log",
+      "sha256": "52b8e78680431fd480af7dcd23965d4cbc0812d10f08d32b1dfe331bc8f45e7b",
+      "size": 149
+    },
+    {
+      "path": "logs/quick.log",
+      "sha256": "abf1928d5215ed58983d4dd3476c83032307a08ef5bdfaf6bcf5ea9f078ab130",
+      "size": 68570
+    },
+    {
+      "path": "logs/release-audit.log",
+      "sha256": "9608b0387948d391fac828c5634d739855203415157e3829bbc26cdb1d334e9f",
+      "size": 34
+    },
+    {
+      "path": "logs/scene-visual.log",
+      "sha256": "e9560c0ea72d511984724534299c31c51ca1ba54ffa2b19249a3364d814f39e4",
+      "size": 117
+    },
+    {
+      "path": "logs/semantic-dom.log",
+      "sha256": "32dd55ef21809053af284a26f2de12b74718590de992f2549718dbbfbc9558c0",
+      "size": 26008
+    },
+    {
+      "path": "logs/semantic-matrix.log",
+      "sha256": "c7c5a633249b23f4c9749ebe1971449fb38be17c97db7c5a5c5726028e0b59bd",
+      "size": 32
+    },
+    {
+      "path": "logs/semantic-mutations.log",
+      "sha256": "e4329d5031d1d191afbc77adf9674840043a5b8e6637f25839c1a3a5303e2092",
+      "size": 40
+    },
+    {
+      "path": "logs/semantic-presentation.log",
+      "sha256": "b91eb3ff0ffd74cf250b8a7a867615c1a8f09181921589a40f77c867f0b00e99",
+      "size": 24540
+    },
+    {
+      "path": "logs/service-lifecycle.log",
+      "sha256": "1370af518dc28bf258767608f5dd32a7c0721147cf4a68e502c5450bd8cb1972",
+      "size": 47
+    },
+    {
+      "path": "logs/source-snapshot.log",
+      "sha256": "67d9b91643c58ce3e757b6406b7e135e7b21002517fff6ab2c309e1a432ce8ac",
+      "size": 121
+    },
+    {
+      "path": "logs/svg-oracle.log",
+      "sha256": "c88ddc989c1052ce70afabd1e395e2bc286527eb049777d963cabf6d683513c9",
+      "size": 34686
+    },
+    {
+      "path": "logs/tikz-proofs.log",
+      "sha256": "70b29da9ea2d17496fa5872c13a76f71a04003a4e501b46ea3213dd26baec6fa",
+      "size": 52
+    },
+    {
+      "path": "logs/visual-inspection.log",
+      "sha256": "bbfaa1ff9ae13ba909f385a064151c9d08cd52a45385bb8ca1a727b1dcb922ce",
+      "size": 47
+    },
+    {
+      "path": "reports/docs/release-audit.json",
+      "sha256": "8e0c948fb304576df946cf3c0ca931819763a782fa5532aadbbdbfedeaba5ef3",
+      "size": 834
+    },
+    {
+      "path": "reports/e2e/aggregate.json",
+      "sha256": "6dbb2c052ae53d9af4c85987f3f2e4710be7de505d18ad8fcecdf5263f3ac9be",
+      "size": 3771
+    },
+    {
+      "path": "reports/e2e/editor.json",
+      "sha256": "3545508db1892ddcc1962e7346c41e07efb44ec9047f6ebd68036e32daa26f49",
+      "size": 4802
+    },
+    {
+      "path": "reports/e2e/figure-studio.json",
+      "sha256": "d73dae295634568caede5c20a8e3a554beb619a37715bbca4c49969d816531a9",
+      "size": 8556
+    },
+    {
+      "path": "reports/e2e/product.json",
+      "sha256": "e968c69a509a97dc5d35d14512958cfafbcfb9320fd58804dcd0739bb68a7678",
+      "size": 2818
+    },
+    {
+      "path": "reports/e2e/responsive.json",
+      "sha256": "841fdfaf12942a5e421f43029bcce0cfe60d7364798fb5440383324f47faf4c2",
+      "size": 1332
+    },
+    {
+      "path": "reports/e2e/scene-studio.json",
+      "sha256": "62222e98cc8e26e2831dfa3c3c45c96182f97292d9d8f001c5597002e8d7ce70",
+      "size": 43727
+    },
+    {
+      "path": "reports/e2e/semantic.json",
+      "sha256": "e37522e615932fa2b4becb300dc58c361add2bc81991f01685a336abafb4855e",
+      "size": 1767
+    },
+    {
+      "path": "reports/e2e/trial.json",
+      "sha256": "699df9912dc58beb81a8321e9ce95c7ae00d7b7191a478cb5f4e3d5f5ceb7990",
+      "size": 5419
+    },
+    {
+      "path": "reports/environment.json",
+      "sha256": "586db56db903e697736424765c9912569e5a7621829fe3a210ecc49d569e2635",
+      "size": 49963
+    },
+    {
+      "path": "reports/exports/scene-artifacts-validation.json",
+      "sha256": "e3c6737dc108250b2af288c06225157977ddc819bb53460e127c5ffc4d381b3b",
+      "size": 131736
+    },
+    {
+      "path": "reports/exports/scene-artifacts.json",
+      "sha256": "13a6fdb95a4048a64ade992f8834c16b8c3ee37d735431c1493c1761e30411b0",
+      "size": 514898
+    },
+    {
+      "path": "reports/full/commands.json",
+      "sha256": "113e499a585c39ff0fd2b250947ba801554920986420d89b383b976c1c439b68",
+      "size": 33466
+    },
+    {
+      "path": "reports/generalization/metamorphic-corpus.json",
+      "sha256": "b38b0364089313065822d2982d6c4a12f1175955c3e0f4da0d42b2158cabc177",
+      "size": 29677
+    },
+    {
+      "path": "reports/packaging/package-install.json",
+      "sha256": "fc2f4267c6dcd666784bd825993e019d9208c18c713613a5c70b07d7da6cb79c",
+      "size": 2102
+    },
+    {
+      "path": "reports/performance/scene-studio.json",
+      "sha256": "87e66701d8e4255b98858e40c0d0bbc81f8bca2030e3b5009c326a132406af39",
+      "size": 6796
+    },
+    {
+      "path": "reports/quick/all-package-coverage.json",
+      "sha256": "db03bea107c59bbf21fd7fd6f4f67f8add31a7706fc2860b582d9cb1303d1eaf",
+      "size": 1141960
+    },
+    {
+      "path": "reports/quick/collected-test-ids.txt",
+      "sha256": "c9435f81582e4475f6fedecc47885d2db4117472b9c92039f138f3ab82895557",
+      "size": 38472
+    },
+    {
+      "path": "reports/quick/core-coverage.json",
+      "sha256": "4b98575b0ddde3f968a66e3cb0c9e841c2fb075f9f4ee619eb19537515ab7aa4",
+      "size": 167177
+    },
+    {
+      "path": "reports/quick/coverage-summary.json",
+      "sha256": "8f5b4ea03d8a5b5b6a16a9f1fa96178b32e73fcf91a7fde42d671155c542d573",
+      "size": 30738
+    },
+    {
+      "path": "reports/quick/expanded-core-coverage.json",
+      "sha256": "e4222c0e0c3c81ab1b7d0c20a89ef0a24ae429ee1d3b2c64fa1a994764f199e5",
+      "size": 185773
+    },
+    {
+      "path": "reports/quick/python-tests.json",
+      "sha256": "dc1de0ac64813b5d2ee6d48340b87c03449aec90a4243df4189471bce4c6419d",
+      "size": 314
+    },
+    {
+      "path": "reports/quick/quick-verification.json",
+      "sha256": "a195a617ca22b48589c3fccd8772f8ba7ebd1c75a9840a5e06d93828efc899ea",
+      "size": 1152
+    },
+    {
+      "path": "reports/quick/scene-core-coverage.json",
+      "sha256": "24ff06d91a01e86ab542297c7c8aac458115aedd03c5a53efb645bbf36f5dd39",
+      "size": 242935
+    },
+    {
+      "path": "reports/semantic/browser-dom.json",
+      "sha256": "32dd55ef21809053af284a26f2de12b74718590de992f2549718dbbfbc9558c0",
+      "size": 26008
+    },
+    {
+      "path": "reports/semantic/completeness-matrix.json",
+      "sha256": "f32a5baa3e38a4eb000cb21bf75c1654a38a3441e988c1d5b30ed717683856d0",
+      "size": 4395
+    },
+    {
+      "path": "reports/semantic/negative-mutations.json",
+      "sha256": "4709cc42cf62ab54a7e85cb2be3eea8ae8defe6b50c55aa533274b76727c741e",
+      "size": 2438
+    },
+    {
+      "path": "reports/semantic/presentation.json",
+      "sha256": "b91eb3ff0ffd74cf250b8a7a867615c1a8f09181921589a40f77c867f0b00e99",
+      "size": 24540
+    },
+    {
+      "path": "reports/semantic/tikz-pdf-proofs.json",
+      "sha256": "16e2f2c93edbdf208e38e7ce2f49aed55f1e528114d4e9de8e2c133e87ed2692",
+      "size": 5045
+    },
+    {
+      "path": "reports/service/lifecycle.json",
+      "sha256": "780b92e342d0e782a4934b325303bc3ddce940fbae49076e7493e501ee5222a6",
+      "size": 7052
+    },
+    {
+      "path": "reports/source/parent-0.7.2-artifact-verification.json",
+      "sha256": "9c37b79bc402589e29469ec8102220b4bf0916e3f4a17358466d379dcc7079b1",
+      "size": 656
+    },
+    {
+      "path": "reports/source/parent-0.7.2-snapshot.json",
+      "sha256": "271caed34b35f71cafcdc8af46f46fd9bc7401d7f43deb3ea5c5af0080d9577a",
+      "size": 73421
+    },
+    {
+      "path": "reports/source/snapshot.json",
+      "sha256": "9372a686ab7926627eb5b2aa9ca3d66e843d31da8ffd752b31d1a5b4b66a6684",
+      "size": 79347
+    },
+    {
+      "path": "reports/visual/before-after.json",
+      "sha256": "0ee5fbb32978232ecb024586163761b94b61618cfb8c23184a64ecb16a487997",
+      "size": 16582
+    },
+    {
+      "path": "reports/visual/original-resolution-inspection.json",
+      "sha256": "18d0f9d4b16bc8c30679d51414d0ea9e8a84715cf6087e9a047abc90117483c0",
+      "size": 7248
+    },
+    {
+      "path": "reports/visual/scene-publication-oracle.json",
+      "sha256": "34fb25812409981a1f229f726e1738952a429a344cc9fadc424606280fb6493c",
+      "size": 125614
+    },
+    {
+      "path": "reports/visual/scene-studio.json",
+      "sha256": "31fc73f6a876d01eb3891e64d7b77acdd7df127ae959f4ab79b4427fe32dcfe9",
+      "size": 86651
+    },
+    {
+      "path": "reports/visual/scene-svg-oracle.json",
+      "sha256": "c88ddc989c1052ce70afabd1e395e2bc286527eb049777d963cabf6d683513c9",
+      "size": 34686
+    },
+    {
+      "path": "screenshots/responsive/paper-menu-1440.png",
+      "sha256": "0e07b118cdb347ad53a4ff6855a3ad1b36b0a18be30d2f6a6caf306f221f55b5",
+      "size": 176797
+    },
+    {
+      "path": "screenshots/responsive/toolbar-1024.png",
+      "sha256": "6b2b27081e7740b6c57761692d8c0a249e4af990400af342a7fd5bf451ef13df",
+      "size": 114600
+    },
+    {
+      "path": "screenshots/responsive/toolbar-1440.png",
+      "sha256": "1d407fa06c3ccaafadc50fa26f4ac920887892d05615b4473153fae53a1de0fa",
+      "size": 143348
+    },
+    {
+      "path": "screenshots/responsive/toolbar-320.png",
+      "sha256": "b2e6aa2129e0f14597dbb1c089042bb3adf75b9bc1b0707a505456ecc8986b33",
+      "size": 31457
+    },
+    {
+      "path": "screenshots/responsive/toolbar-390.png",
+      "sha256": "1d3efa239b3ec00fffe0b77efdc0541421c5a851adb356c0b0875f73c0901542",
+      "size": 37532
+    },
+    {
+      "path": "screenshots/responsive/toolbar-568.png",
+      "sha256": "387d4a00fb80ffdb7e3dd08497facb4183d3b9c0f5287232320090d3d4496ce5",
+      "size": 34272
+    },
+    {
+      "path": "screenshots/responsive/toolbar-768.png",
+      "sha256": "f8efde233cdbd30f1072b963499fe519aeaac3210a12b438ec76103ef9b9b945",
+      "size": 58296
+    },
+    {
+      "path": "screenshots/responsive/toolbar-800.png",
+      "sha256": "1fd97f9efea665c8462fe79397bc1edccb4324f94b13adf511c15e2320183b0e",
+      "size": 71517
+    },
+    {
+      "path": "screenshots/responsive/view-menu-390.png",
+      "sha256": "f243752d24a844d06598a54bda94f94d79b430ed0fa71b9a6a117e87ed557824",
+      "size": 43933
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/.gitignore",
+      "sha256": "477b794c1ba62f58f23f10a28ec091e3f38ca42b17df43bc03950fbb9c549068",
+      "size": 147
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/LICENSE",
+      "sha256": "7dd8ad2086b824a1d2b9cdf7f0b7b35c5244818b16ddfb731e79e9a7fe0bd185",
+      "size": 1081
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/README.md",
+      "sha256": "235045a0628e1f513d52da42f5afad3e0c453fcb5040ad368a6387e24c523d10",
+      "size": 14778
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/ACCEPTANCE.md",
+      "sha256": "9d15202e799a27cf7ec4b9708c5ba3204615e1bbafb74bbd6c0309a4669d6ce1",
+      "size": 7043
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/ARCHITECTURE.md",
+      "sha256": "115ebd45a5864b0c4536b69cb72bd0a4c48d99d40ca97510e6a1c06e563e3e46",
+      "size": 32480
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/COMPATIBILITY.md",
+      "sha256": "b2932d93f56889b98f58184e6719b4016d9af7140fee71c09ac3ae55fc1b1324",
+      "size": 20725
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/FEATURE_COMPLETION_MATRIX_0.7.1.md",
+      "sha256": "75cb31e8ef7ee25c3e64f92d2275b9a9e8bec90d27d5b3d76bafb669baf78f99",
+      "size": 4439
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/FEATURE_COMPLETION_MATRIX_0.7.2.md",
+      "sha256": "b03c3a3110665ec04e475be04ff1a2911d012a98ca1d27c49361566234396267",
+      "size": 2463
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/FEATURE_COMPLETION_MATRIX_0.7.md",
+      "sha256": "8db0964930165b4458e8ea90bb1c30ae3a6498d6fc4b5ffe8e9a6636add5ffe5",
+      "size": 18403
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/FIGURE_IR.md",
+      "sha256": "64828016462a71affeca00f05ce6e11b50c881d5cce487fb0ae8b4aa148fe03e",
+      "size": 11299
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/FIGURE_STUDIO.md",
+      "sha256": "3a9cd009e0f256ff5668f51421828cae1069c79f59f14d8572ed17d8e0b49cff",
+      "size": 12091
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/GENERALIZATION_REPORT_0.7.3.md",
+      "sha256": "4620d49cc2c8e4d38e3aedd1f84f51954f58b2ff0e3e21393499a4301255e0b3",
+      "size": 2076
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/INDEPENDENT_AUDIT_0.2.0_2026-08-25.md",
+      "sha256": "9f304f8d29a241aa8095d4f7b1589c899905c344b494db69581f9598d3085ce1",
+      "size": 9507
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/INDEPENDENT_AUDIT_0.2.1_2026-08-25.md",
+      "sha256": "46fe018fb2b38ac6433d9bb3ed4a7d80ce0b9b0583dfe95a98e52efbe927b86f",
+      "size": 13964
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/INDEPENDENT_AUDIT_2026-08-25.md",
+      "sha256": "5aee9a73e3317374ee92f7e9cfb2d5859677bb535346c6b7d98c7bdf416d7c28",
+      "size": 7933
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/KNOWN_LIMITATIONS.md",
+      "sha256": "c085928bc5f1280bcfa185d6bba21e318c88f2ab67172550c5708f1657bbd3e6",
+      "size": 13965
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/NEXT_ROUND_PROMPT.md",
+      "sha256": "227491309c565a4d3daa3e56dff0bf40728c3669acd7b55ccd05a252f700f085",
+      "size": 8333
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/NEXT_ROUND_PROMPT_0.2.1.md",
+      "sha256": "b4134cfa01ccf650afcadb14b68e89df4cc8342b334e115a589f61799f5d9af9",
+      "size": 15545
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/NEXT_ROUND_PROMPT_0.2.2.md",
+      "sha256": "9c4805d172b84e4e6bfd955321909c0444d680c0c0f9691b5f8c3325b56a8568",
+      "size": 26079
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/PDF_FONT_REPORT_0.7.2.md",
+      "sha256": "70d2556fec5a0964935fe2d798b0137390c8471070124e4bb9344aa8f52bbc02",
+      "size": 3263
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/PLUGINS.md",
+      "sha256": "c7841a20a44d8a5e45493824a01e267eb3e83fbcce498b2af8a2493b63928c58",
+      "size": 1598
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/PROJECT_SCHEMA_1.3.md",
+      "sha256": "4d1a935108a803b9fb1384ceaae122403e2403c60252fd306c961ea0482c4424",
+      "size": 5279
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/PROJECT_SCHEMA_1.4.md",
+      "sha256": "f7f8f3d508129d9b4b6e26a5310a62bdddad48f15174f33e8db07f37f58cf6db",
+      "size": 1916
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/PUBLICATION_ORACLE.md",
+      "sha256": "344fbcc39ce85c6fba7ea6bcd4fee27c6d6a0f5c3a1b2b5e28bce7666eb0bd48",
+      "size": 9245
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/PUBLICATION_VISUAL_REPORT_0.7.1.md",
+      "sha256": "38b2009ff2c15c65a9c4bb0fde8391f866fff21ac4b3feee35f2c86ce95924e8",
+      "size": 4520
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/REFERENCE_DESIGN.md",
+      "sha256": "abc178856cb6db30f742b4912d819294c9606da827cf912855e3ac64841237bc",
+      "size": 2212
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.2.1.md",
+      "sha256": "5b20da6775d63f4693a9f50320eda41425ba0ccd747a98fccd7f4aee816c65e6",
+      "size": 2230
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.2.2.md",
+      "sha256": "331f9188e64b8126077f4cfbd5af8ad86e82417338ab8e27da5bf1d722575580",
+      "size": 3048
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.2.3.md",
+      "sha256": "8309bca343b2f846abcc3179a1ea67293b782271a6610e9bee6fcc3660e117ed",
+      "size": 2217
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.2.md",
+      "sha256": "72e1fdb41d8f9d37db46982097cca184d9f7e81c8d5002b95d8d1e83f7e3d9c0",
+      "size": 2508
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.3.0.md",
+      "sha256": "4db60066ea206ebab2446f1e6d08893965b0990607041a91712db91c05ba2c8b",
+      "size": 5681
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.4.0.md",
+      "sha256": "7a5cefa23223b3c21be4e286cfe91bd66f5f4bc0d9107a8c5674ce71ea0adf78",
+      "size": 6595
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.4.1.md",
+      "sha256": "cd276ff2e2b8a68700d7cb4fe0c5d5aea5ee3ed6d5ec31164da6579182fdad86",
+      "size": 2889
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.4.2.md",
+      "sha256": "5f4156dc311eae60e2273e3ca3b45e339b7e89da106a8c7c42918f44643d633d",
+      "size": 2582
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.5.0.md",
+      "sha256": "99c6efd93c07fc8c26928c4db9cbc12656db9f45161d27654617cb102073bd1b",
+      "size": 3764
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.5.1.md",
+      "sha256": "89e5b01ee0514b83d6e3f88e7852843609a97b52ad98c9c1a0569a2331e16fdd",
+      "size": 3609
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.5.2.md",
+      "sha256": "a11c0f057bfb25b57bbfb93d99f1f468332b7833aa6b47d8f1645171de7642f3",
+      "size": 4167
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.6.0.md",
+      "sha256": "52890d0d04287ca1a04a26f2876a64d88a714271eb0516b4364439e366357172",
+      "size": 2804
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.6.1.md",
+      "sha256": "be379b84ea28c481bc07ad88f3fc53080023623da165d8d3c09c28bbe482f85d",
+      "size": 10031
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.7.0.md",
+      "sha256": "dfadcc489f48b3149654dd7023c1f5e7919eff73df70273a57817a28dad963ac",
+      "size": 13405
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.7.1.md",
+      "sha256": "173e08bd94aa49ab3c7a597744613774952607db3935af111f411606b269f3b0",
+      "size": 6057
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.7.2.md",
+      "sha256": "7af22421c1fa301e271e37b38f57950efdc7cbfcc07ba457b97dbe852b05bdf6",
+      "size": 2815
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RELEASE_NOTES_0.7.3.md",
+      "sha256": "29b21d5eacdb6c89c601afa31c5c481fa5e11fa1083bfc02028f9e4b634bb29c",
+      "size": 3805
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/REQUIREMENTS.md",
+      "sha256": "2648624e12564e887a10c4f3af476d616e863e39a5bdd569fadda303a7fb89ce",
+      "size": 24622
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/RESPONSIVE_TOOLBAR.md",
+      "sha256": "f8e260fa62cb06298152899ef6b7742640d4c6309e843b4275e1b7dc884932cd",
+      "size": 6295
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/ROADMAP_AFTER_0.2.1.md",
+      "sha256": "770145e20d89d0750bef0a15d89eb2ca2f63197ea829751a669db6699430151b",
+      "size": 10881
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/ROADMAP_AFTER_0.2.md",
+      "sha256": "0646cde0f35bab38448e00321eafe62ca5e85d239438ab0f10b49d82febfe4f9",
+      "size": 8181
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/SCENE_IR.md",
+      "sha256": "96e9ca48de1f549fdadcb8e33a7d4f08da36079ca5aec2787ae0ab34dd15be72",
+      "size": 12453
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/SCENE_STUDIO.md",
+      "sha256": "1967773f9bcc33032a32e4b479ff6c17712e7d115721012b77829a99c8d209d9",
+      "size": 9359
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/SCIENTIFIC_FIDELITY_REPORT_0.7.2.md",
+      "sha256": "fe44ce8b66614428a44079e54b9f50a63ccbbfef1a5833ae6d8ba1f72b2ef8ef",
+      "size": 3655
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/SEMANTIC_PARITY_REPORT_0.7.2.md",
+      "sha256": "4a51118a821e38d1459e2f750f1a18063c1f710432c97868ed396491b7bfa56d",
+      "size": 3977
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/SEMANTIC_PRESENTATION_COMPLETENESS_0.7.3.md",
+      "sha256": "a9b457431e62f40170954fb9150bb7db3653b1eb614669eecd11e30b8b65b3d5",
+      "size": 2659
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/SERVICE_LIFECYCLE_0.7.3.md",
+      "sha256": "96a850eacc0e073ef95dd9cf5244d7b99d941f82fed3c3ee8ac0980b0ab7fb25",
+      "size": 1663
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/STRUCTURE_LENS.md",
+      "sha256": "dfe1938206c72ae1c63273a0fc7180c5239b49480ae8f374776dedf39bbf8781",
+      "size": 5941
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/TENSOR_GEOMETRY.md",
+      "sha256": "1c28e7622ac9b6f5771470f18d00507276fe9c96a29ed718527849f6b3e713b4",
+      "size": 4861
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/TRUST_ANCHOR_0.2.2.json",
+      "sha256": "10979b1d7112b7639207405dffe23f534762a02fb047b61540c5e04c955a3224",
+      "size": 5341
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/UNIT_SYSTEM.md",
+      "sha256": "3e0aae692b9cb86d31893b79bf39d444fbaa92a967667c774e0d7fe8b7b79ac6",
+      "size": 7636
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/UX_COMPLETION_REPORT_0.7.1.md",
+      "sha256": "8ba7d6d655b607e7f7f49647970c7b34ce6ecb5665b322febdfbc7109d1daf06",
+      "size": 3557
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/UX_DESIGN_SYSTEM.md",
+      "sha256": "fe257f75b6c4ea30eae402f44a895dd5b05704438ae149ca73ce0d8aa2bedb0c",
+      "size": 7338
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/VERIFICATION_REPORT_0.2.md",
+      "sha256": "5b2106f825c36e17e612c48ce73c20ffa5325649aa4fdd1542a7e24cd58ed5a4",
+      "size": 6356
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/trial/CONSENT.md",
+      "sha256": "7099f7d30806931be95f60dcc241d7280a7479539eb5cc0e22c6b0162a3e94a1",
+      "size": 1856
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/trial/HUMAN_TRIAL_REPORT.md",
+      "sha256": "87c19e33f4122f6b8d60cba33d101508655e7d3acf17d9aac65e3546df3dd249",
+      "size": 1830
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/trial/PARTICIPANT_GUIDE.md",
+      "sha256": "521a3e247e2defc1e1b9d774edd20cff68f69684c526bbf3d9d5517cbd7bb593",
+      "size": 2073
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/trial/TASKS.md",
+      "sha256": "30b0466f4cbd49b8316421ae3c4b4acc3f41c294e30b62018eb064a7673e92fc",
+      "size": 2612
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/trial/TRIAL_PROTOCOL.md",
+      "sha256": "df0f35cf7bbcb4db7df2cdd478df374095ad7d014ccd9df230871abe53f3d02c",
+      "size": 4504
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/trial/human-trial-status.json",
+      "sha256": "ec7ad0a2b48263646741b6d819f2005b7ed19b7c4b22840a92c12a3d5d7a07c5",
+      "size": 739
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/docs/trial/trial-event.schema.json",
+      "sha256": "f109949c9e22180c274589be3440ada469e19ddd6a477533e550367771bc9baf",
+      "size": 20566
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/eslint.config.mjs",
+      "sha256": "b047d77f99529bc7d17a85bcbbf235f42cd600bd615c2547262648449d315322",
+      "size": 820
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/batch.json",
+      "sha256": "d6e6d2f622be4cd193360b5882e07f269318d20691cb9c3e227ada85b684932e",
+      "size": 349
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/diffusion.json",
+      "sha256": "c81c2babf0e77e6564b5887e846b2587bb2119c0a2745b9f32773213748dc2e7",
+      "size": 1118
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/moe.json",
+      "sha256": "634075642c90e34baadb395b340d582764cf804cec2f3de7f0a32a190038661d",
+      "size": 1225
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/multimodal.json",
+      "sha256": "d38061f1c103f4ec654e1778661751e3985c69b8a1e25958addae4da1fc27b83",
+      "size": 1379
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/plugins/paper_style/README.md",
+      "sha256": "7d54ef39e93b874f2e816651589c1a8fc452c3c1faaa1e5efdfc94c15844f2d1",
+      "size": 561
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/plugins/paper_style/nn-davinci-plugin.json",
+      "sha256": "ac223de6b4e33f1e7a07e947ec72efb17e596c39ca0ecdf349c96424159fa354",
+      "size": 378
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/plugins/paper_style/plugin.py",
+      "sha256": "fde529675da3c75049ba38289a6ecaf081181b32b7158c9ac587553a36e80ab7",
+      "size": 309
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/pytorch_tiny.py",
+      "sha256": "bffb752857759d644bf6b52e40ae31a6078861e62cb80139e066b0eb0ccfd05c",
+      "size": 1205
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/resnet.json",
+      "sha256": "e0a48b8d3a648732faff89e189d382c436e1a2d2c27cdbb08d2501cfce3e8cf0",
+      "size": 2555
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/rnn.json",
+      "sha256": "3b287b1b1b4a1cc1ffcfb9e2020e13db0dfdf98b528234cfbc06376922a1e384",
+      "size": 767
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/transformer.json",
+      "sha256": "bbf22af958c770054980b3ca893ea193afec1eb6fea0de50fb9ff74bdb8897e4",
+      "size": 1785
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/transformer_tiny.py",
+      "sha256": "2fc29ebd9418cf2b80c97b5995e703f4a7c48e43f0a8a20ea0d121e0c5579046",
+      "size": 769
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/examples/unet.json",
+      "sha256": "970b9c3abc1b07313ed19bd65c3940e855def73d11ff5925160b75e580631156",
+      "size": 1437
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/package-lock.json",
+      "sha256": "9cc2792f81103c10ad3e5c42316a858f05b730b388da0889c7bb00ee62e2b320",
+      "size": 39696
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/package.json",
+      "sha256": "2482489390c0ddc5a20a9f1d77805b1e368049482d0eb9e34b7d53c0a8b8a3d6",
+      "size": 965
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/pyproject.toml",
+      "sha256": "03ec5b782eaeb6d0adc598f04ff76a3fe81a3dfccd15d5519203e012341326ec",
+      "size": 1683
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/requirements/README.md",
+      "sha256": "989bec91c6ffdf55e19c18dd09d73c20208bc241c86e092c380a43052c893beb",
+      "size": 1073
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/requirements/verification-0.2.1.txt",
+      "sha256": "c835dba260b34f05bc7f0f9b471ef7b0c0e2a1c4709f799659e80e45146e7939",
+      "size": 400
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/requirements/verification-linux-x86_64-py313-0.2.2.lock",
+      "sha256": "19a1977c23729ec810abac43824e5f8b208c82de225c3d8b128a3034eb3ccd4d",
+      "size": 2136
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/requirements/verification-linux-x86_64-py313-0.2.3.lock",
+      "sha256": "9220dcb6e32464b5b5564d4019934179c415acc1a711edf37987f910ed31be9f",
+      "size": 2136
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/schemas/figure-ir-1.0.schema.json",
+      "sha256": "62d64ce0e00aa1bbfc0920ddc3030f5c4e78f3704a7c8853a11682a2a5509a9c",
+      "size": 9343
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/schemas/project-1.3.schema.json",
+      "sha256": "5c539be16e5c77cfa94a5c1dc46ac32e226eed9fbe7e4972bcf2979fca3ee505",
+      "size": 2360
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/schemas/project-1.4.schema.json",
+      "sha256": "d0a35f5ecf17aeba8385c0cfebe982d68f3d177ffe93fe588bdc982f2e1f5711",
+      "size": 2344
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/schemas/scene-ir-1.0.schema.json",
+      "sha256": "c34c1a7bb23cd03b3bf196cf5b6238013628301f3b466f4afb46df4b16e88258",
+      "size": 10902
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/aggregate_e2e_0_7_3.py",
+      "sha256": "a35822c345fb07b5c370eafd89f02bc953a1d2375f7ec9fdeb06be9b038992fa",
+      "size": 5047
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/aggregate_trial_results.py",
+      "sha256": "cf15598925cab6fa698aaa848fa2eeca375c7db4de6a98c0abdbdcb3b802d4e9",
+      "size": 2173
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/audit_release_0_6.py",
+      "sha256": "fedc6b4dab5224370122e84c10c259718f05081087db4f826a9310f0a72bff18",
+      "size": 7561
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/audit_release_0_6_1.py",
+      "sha256": "22defb837e3df97f5f3fbb6dcf1b088b3ceae56c8dd0d1ca669246023cc4b8bf",
+      "size": 8051
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/audit_release_0_7.py",
+      "sha256": "3b55c3f6c10452006df81092cb88555015fa780fead54bf4341f760375eddd10",
+      "size": 8384
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/audit_release_0_7_1.py",
+      "sha256": "77a867e291187de945f656bcecc6d1a4c96720dd4d146f6f92e312eae5709ef7",
+      "size": 9187
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/audit_release_0_7_2.py",
+      "sha256": "0e0adfaaa4b982705f618058892aa047246cc2d2c5d33c3cc5a4b61b1e9b8e0e",
+      "size": 7650
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/audit_release_0_7_3.py",
+      "sha256": "f7d647895e22640fe8723f74061da573393fcc928f29722a39704b2a0bdb7349",
+      "size": 4691
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/benchmark_figure_studio.py",
+      "sha256": "2da83b5c733c9fa2b90cc470c4fbcfaa735d64339e4d2c8e2bb2fdc023155da3",
+      "size": 4343
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/benchmark_figure_studio_0_6_1.py",
+      "sha256": "f35b8b96ba3ab9dbf4946017f27a7c7837be7070db2314f196e6f04d6385c555",
+      "size": 5008
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/benchmark_large_graph.py",
+      "sha256": "b07bbba62a5dfee8f800df935c224ebd385c492fceb8d28b76e90670a5027111",
+      "size": 16744
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/benchmark_product_0_4.py",
+      "sha256": "a9ede5313676e593b61deebb163746a14cfd40cf4054ca9f90a0293278842c08",
+      "size": 6909
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/benchmark_scene_studio_0_7.py",
+      "sha256": "bba75e93b84143eabb113eb743471cb67f669151381b721d531b71b0aa17f3fb",
+      "size": 12956
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/benchmark_scene_studio_0_7_1.py",
+      "sha256": "dde0e65cfa659bd823ce440797a399ba686c6a007b50b23662e79b5e7b302d5d",
+      "size": 17462
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/benchmark_scene_studio_0_7_3.py",
+      "sha256": "0394ea2bf3b3c16290f58a1b0380a006bb10110a26996afd8c080c97a9fcee00",
+      "size": 5993
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/capture_cli_large_graph_evidence.py",
+      "sha256": "a510eb0a0da71099250c397a7879cdf9831656e7988136eb02a3fa5b9ad7ad46",
+      "size": 3847
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/capture_large_graph_evidence.py",
+      "sha256": "d4c87394a271b87fa855bb6387850d043fa8262fae89eeab0a9ad43713ac625a",
+      "size": 2402
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/check_pdf_fonts.py",
+      "sha256": "1fb155347e20885137eee4acc21e95d77b57a8b1f7f92d76f85541ff9a5af91d",
+      "size": 1420
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/check_release_docs.py",
+      "sha256": "33832850a3d2931c194a44d417265636e9953ceb8e431fe505b2cfaf9406a4f6",
+      "size": 4457
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/compile_tikz_proofs_0_7_3.py",
+      "sha256": "d8771f678095581fd8c8489675e2b367408b3ddd07979eb76fdf6fc97dcca3c6",
+      "size": 4199
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/create_clean_snapshot.py",
+      "sha256": "78c0436d11693b5c2e5ad17684e99bfb7de0dba50ec7efff71a92359130c50b0",
+      "size": 4725
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/figure_svg_oracle.mjs",
+      "sha256": "e95149e7cae933fd71579d78466a1ff22cb5e7b5a90b686b637a75c8adfd9e10",
+      "size": 71732
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/finalize_artifact_0_6.py",
+      "sha256": "19fdb81658ede91c775f755009c26e72db0a069e1452876cd2baa44519488ca2",
+      "size": 11667
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/finalize_artifact_0_6_1.py",
+      "sha256": "c4512a43c3843e94d58fd349d463294d94ffa11d1746ea78704fb587e591c755",
+      "size": 48822
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/finalize_artifact_0_7.py",
+      "sha256": "b1136a31d8c549f827b4fff4423c4caffd4ef684887dea07ba5cb2e9b42c26a7",
+      "size": 46011
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/finalize_artifact_0_7_1.py",
+      "sha256": "9a4544381eb3f1e803b65b2204ee6cad02fa17261ea9c2238aa59b283d904bc3",
+      "size": 50862
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/finalize_artifact_0_7_2.py",
+      "sha256": "e8f8d2b3993695b64ffd190da32f58f9ebacc96e56424d28346dc9bef1d4860d",
+      "size": 26113
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/finalize_artifact_0_7_3.py",
+      "sha256": "c5f07ba10f0ab7169e59492e35601d16228407fa775252fa3cbc0f639aa17c90",
+      "size": 21141
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/finalize_verification.py",
+      "sha256": "a654554aeed999f97e600f0bb3a28868dee5053c8195d111b575f4270acfbd7f",
+      "size": 13788
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_acceptance_formats.py",
+      "sha256": "25dffbcd078b162b1f99989c207c8f8867572cb043e4e48b2e39337bdb3b13cb",
+      "size": 2433
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_acceptance_matrix_0_2_2.py",
+      "sha256": "f4e0fa30e315642d34719af0bfd67a9ddd00fb40f57b0723f9d5b6d0c1d81aa5",
+      "size": 11756
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_acceptance_matrix_0_2_3.py",
+      "sha256": "e579d7edc689ec1d133effce8a95488f83c104c7d03b4e0a1a3614603845f46a",
+      "size": 2690
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_before_after_proofs_0_6_1.py",
+      "sha256": "e9e4cb5f9278c579f6161212cb8e149b187c6cad4ca17391b74f82cf5402773a",
+      "size": 30633
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_diff_corpus.py",
+      "sha256": "a53f820e964bfe82c230db14b5da5f57fd2dafbb60fa844676b3a2f4269f0326",
+      "size": 633
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_external_trial_report.py",
+      "sha256": "0674879eff180a6068183b9854cec0cec0b5144069e35b601ad299f2b2cdebac",
+      "size": 943
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_figure_svg_oracle_fixtures.py",
+      "sha256": "5793e707b4e5862b4029e31cf4d19a1e6f7af61b750331276bacf5ef051f259d",
+      "size": 14345
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_figure_templates.py",
+      "sha256": "aa2d5a8a6a7d45eb6e14d85a5ef4b81d275b4432f21f7be0593e3baff9bcad9f",
+      "size": 834
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_generalization_report_0_7_3.py",
+      "sha256": "1d57dd0cfc20d5bdd08ae6e37444b0f909aaddf27bf11cde8d519fcc76fc1fcb",
+      "size": 1076
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_paper_examples.py",
+      "sha256": "e42dc2e086442aeff56a3298892b294fa4cc8bddfca79cb4c2591cb793d4343e",
+      "size": 589
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_publication_artifacts_0_6_1.py",
+      "sha256": "f8ba59c35acb15d524f41e3e61ca3e4ad50a88d71e8dda11f9b9c4dcadea8c0c",
+      "size": 20618
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_real_model_report.py",
+      "sha256": "6789470c64f468cf3a55f577d67d87d552edb53f4b2905451453f33c216c10dd",
+      "size": 696
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_scene_artifacts_0_7.py",
+      "sha256": "76b43ec3262d9c7c04dc43d66ffa159233e699fc912ccbd5a31705f71480747e",
+      "size": 31796
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_scene_artifacts_0_7_1.py",
+      "sha256": "e17782569ffcf8a32b9e7b4a3b809212be3e68df76fc585e626f4ec93cc8bb74",
+      "size": 31797
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_scene_artifacts_0_7_2.py",
+      "sha256": "7337a541468d725e65ed685a0c020dcfade44a690f793819aa20627812f1c7d1",
+      "size": 36520
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_scene_artifacts_0_7_3.py",
+      "sha256": "6b1fea0bf82674a5343b78ff66a3106fc8ae6b3173d7653d3fd0356ce8225f02",
+      "size": 582
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_scene_before_after_0_7_1.py",
+      "sha256": "44e6739bb84ccbb4fe5d33d14683d181a00932a8f91591970d249685bcb2cce9",
+      "size": 8940
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_semantic_completeness_matrix_0_7_3.py",
+      "sha256": "348bdf1f34e8f51b5beefb999c2edc986978182c6caa3496297301b8c478278f",
+      "size": 4993
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_semantic_mutation_report_0_7_3.py",
+      "sha256": "dbcd0f3627c92530b516a36d7d9c43483d0e08fddc33fc79559cf27673c9895a",
+      "size": 7872
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_svg_oracle_fixtures.py",
+      "sha256": "646fc82461f9ae6815e2a7ec7256f73f68bfa83d61f2af7edac71d91fccbbaf1",
+      "size": 12086
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_venue_proofs.py",
+      "sha256": "bcce56d7a61890e28cdfeb2b9f15454115744ec1ff4a7bc68435f00006bdf339",
+      "size": 7602
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/generate_visual_samples.py",
+      "sha256": "616519de55974f99ea0449a17d801eb4598e157f309296fcdef9684b5ee26308",
+      "size": 5350
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/materialize_scene_templates.py",
+      "sha256": "fac97e6f79c18cf4c690b039db0437bf3436d36621a85421dd71e5b1b03e3368",
+      "size": 1005
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/rebuild_verification_environment.py",
+      "sha256": "e6a6d06692c2964744ac0f81908c32278d071dac428cae2cf36d790c1f314947",
+      "size": 11903
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/restart-0.7.3.sh",
+      "sha256": "198d308aabe4f3dd41e104fc641a563e002d20c83c926be981dcd6906360fba6",
+      "size": 263
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/run_full_workload.sh",
+      "sha256": "95e8d59d454cec919b5f8b68b67320d5c89cc7ac571781c3f2932726f339506c",
+      "size": 16864
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/run_matrix_mutations.py",
+      "sha256": "94a03c0ed3a822418b5c51e1fc1ecac8abc1be4ef30a32e127309e2aaeaa6574",
+      "size": 19232
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/run_tests.py",
+      "sha256": "e7c04595d442825d2bb7f49d6fa1a98e717738ffa1de1fd7e2f049c50f132142",
+      "size": 3286
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/scene_publication_oracle_0_7_1.py",
+      "sha256": "d1e92aa9dffc86f9f8f60f10ed52cb2df4a12b051a45fa252101d0882ecdd595",
+      "size": 16890
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/scene_publication_oracle_0_7_2.py",
+      "sha256": "20f333a9c4389f6779a93dab1f8dbd8818b03e8f85c10b7d70ce937fec224e19",
+      "size": 18963
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/scene_svg_oracle_0_7_1.mjs",
+      "sha256": "ca7a8a96460e0a6190faba0014a70ee84e0f9d77384d90717e31808946cf3bf0",
+      "size": 23368
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/scene_svg_oracle_0_7_2.mjs",
+      "sha256": "bffd363f217dba10547477bbdda1a31d5b0911dc36235267681daded14176fb6",
+      "size": 23368
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/seal_evidence.py",
+      "sha256": "eab96be9ef101bb27f9bef6dee387626d2267b82c18c0c8710a1e160167f8bae",
+      "size": 3618
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/semantic_presentation_oracle_0_7_3.py",
+      "sha256": "589f972e39c141adc0e2954b51fafb70205925c3e2cf22588a654a4d2c6cff2e",
+      "size": 18490
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/semantic_svg_dom_oracle_0_7_3.mjs",
+      "sha256": "0bc089ed5550b1f9c08b7e28e07f9dbaa61b776ff37dbffb5164bd67e2c7843a",
+      "size": 8252
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/service_lifecycle_0_7_3.py",
+      "sha256": "b2ab26ea500512f45e1377e57123926030f6bcfa38d651840b2d677d3fadf7e9",
+      "size": 12806
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/start-0.7.3.sh",
+      "sha256": "254974f19ce884044ca6c975ffd3967c7bf17e1f48888d7e21e916495fa77561",
+      "size": 261
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/status-0.7.3.sh",
+      "sha256": "14d223117189e491d7043219580fe19300899bfdcaf7ec2380994e5192048adf",
+      "size": 262
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/stop-0.7.3.sh",
+      "sha256": "0df7f11717cffd390f97d69955278475afbd1372de3bedca817e59d3511fb1e3",
+      "size": 260
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/stress_graphs.py",
+      "sha256": "ab55194835c20bad5a8318e29d01af61180a96c2c4c1cf9a47ecdbbe25f8eb60",
+      "size": 4062
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/summarize_coverage.py",
+      "sha256": "a58ccfc64ccd78211f6776056ede6837dd371b116f3587d0133e2c7cf3e897c8",
+      "size": 8436
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/summarize_visual_oracle.py",
+      "sha256": "8413edbb45d9db61c51fc571f8791c3761d345a22e75ea7db3b2ac6de127ebd2",
+      "size": 2375
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/svg_path_flatten.js",
+      "sha256": "996c7e3dd97290dfa94394d8442ba3c019b823f118e3bfce5aa9ee8b95536d36",
+      "size": 10085
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/svg_quality_oracle.mjs",
+      "sha256": "4f842ecbf2f45b041f4e5589d8ae50486790a3809cdac4d4a1681feb3ab9ca88",
+      "size": 33564
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_acceptance_artifacts.py",
+      "sha256": "8810a2fb6616b5a49262990aa75d3306855ff5fb31f21c9498acd7eb45e4ed88",
+      "size": 3023
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_acceptance_matrix.py",
+      "sha256": "5f0e8b15c2ef93336f62a7ffbc3f6b17c1d97c95d4b50212175de1e42fd1de3b",
+      "size": 41097
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_cross_format_positions_0_6_1.py",
+      "sha256": "6d3868be623028e3f442c288fcf1cd1b459b689210275b8f502547b76dc73598",
+      "size": 22521
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_e2e_report.py",
+      "sha256": "f1edb4f12e7aa0f90fe60fe02db759bfdc6ac2c2b3a741148a509939ecfb9148",
+      "size": 2139
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_figure_exports.py",
+      "sha256": "37eac9fd626d82c5638c07ceddb889b8af4c83e08e0f52a4bf0045c4b4619d11",
+      "size": 11191
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_figure_svg_oracle_fixtures.py",
+      "sha256": "747a1d0d3067c82c7c060b260f3fde527e4d258b5f4349dcff4b32febd070199",
+      "size": 7827
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_product_evidence.py",
+      "sha256": "b570cc1467df2c03c61a05242c60bb02b81dcbb05066b1890c71b1625af04626",
+      "size": 8535
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_publication_exports.py",
+      "sha256": "4a052679b0a4bc4c1c24e7950cd9e1a800fb41058fdf3c007299437fdbdb912c",
+      "size": 2855
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_publication_quality.py",
+      "sha256": "19eaa5e1cd9c1c1021a9e4d86502903ff3fe2859916291cd3706b4250e33e7ff",
+      "size": 7430
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_scene_artifacts_0_7.py",
+      "sha256": "a5ccc80db536b8d24fa4600692d180e596a08437e4b00eafc5f4429420407eed",
+      "size": 25611
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_scene_artifacts_0_7_1.py",
+      "sha256": "32e09054ae0664ead778c769de8b170b65b04afaf22cd6798c410d4d7bdee26b",
+      "size": 25611
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_scene_artifacts_0_7_2.py",
+      "sha256": "ef76a73b63df8b415d4f7ccc852902ca67111ff604681d76c717d638f4f46827",
+      "size": 32801
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_scene_artifacts_0_7_3.py",
+      "sha256": "813baeefee574aebcdbe7cc4579a0199bda560e03222faa6079c7cf81682790f",
+      "size": 515
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_scene_visual_evidence_0_7.py",
+      "sha256": "deca7198766d19e588beb426d1248cce676e57ad4d5ff834dddca52346400ca7",
+      "size": 82205
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_scene_visual_evidence_0_7_1.py",
+      "sha256": "57691fa6f9186a9d30ffeb59bb5cd25f4ca4eb0ae5a5086d9600a046ac9f4ffe",
+      "size": 83779
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_scientific_fidelity.py",
+      "sha256": "79a0cd39639325a03df8d27f9937ef3329acea84d947b39d447ed87a40a86a09",
+      "size": 8427
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_strict_figure_oracle_0_6_1.py",
+      "sha256": "08ad7b4870a8bbff5154ae5e4b68ae8400b5191c023c30a28861025fac36450c",
+      "size": 12480
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_submission_package_0_6_1.py",
+      "sha256": "9a2af044d335ec11aa989195add636634eb7102204a924a33b8924f65b4e49ed",
+      "size": 5159
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_svg_oracle_fixtures.py",
+      "sha256": "884061ef1b97eb99ac8ab627c7765df0a08643f6ca71fc4284372b4fd673b40a",
+      "size": 2433
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_trial_release.py",
+      "sha256": "d63b87ad5c1002418880f54e2fd8ed12318e828ea05d25c97d88b17541d30228",
+      "size": 5326
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_vector_text_consistency.py",
+      "sha256": "5581f6fcc8909aef49fdbe13f59520c43f293cefb24da135ff44a6d02439472e",
+      "size": 4145
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/validate_visual_oracle_fixtures_0_7_1.mjs",
+      "sha256": "43875b36a5606c793eb2d21fc8fc2a141689bc5a567bdb0408be68e2b89cd471",
+      "size": 5842
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-full-0.6.0.sh",
+      "sha256": "41d45745f6800ba6e6ed45d47b9dff81b3715117929e997f9ec085628b00c7b2",
+      "size": 9869
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-full-0.6.1.sh",
+      "sha256": "ae8fc52680da772dc287a2b8b502327c255de7e9f841e101e77112f1db569286",
+      "size": 16074
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-full-0.7.0.sh",
+      "sha256": "da8516e0bb4a2363994ec9f05be59d79047186a55ba5d0fbd77b645088794c8d",
+      "size": 20332
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-full-0.7.1.sh",
+      "sha256": "3943b77f3c7879d37a90af5ae073a1c7e54c72c10a538668b365f32be7f07311",
+      "size": 21754
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-full-0.7.2.sh",
+      "sha256": "572d27fc5904fd6ab0730adfcd5ba666d14fe41610d45affbfdd44e052033b91",
+      "size": 22069
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-full-0.7.3.sh",
+      "sha256": "614a0ed7afae35c6e3b8e7e32e00cf74c90d3f527710e93c4febaa50ddc6b313",
+      "size": 18098
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-full.sh",
+      "sha256": "c73c4dee68892672aea580ea40b10e93ca79455f70012872efe92421756d65b0",
+      "size": 8421
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-nightly.sh",
+      "sha256": "1d0e5d415d7ff262427dfcae650211b03532767d79bbf54449eb8248842b4385",
+      "size": 491
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-quick-0.6.0.sh",
+      "sha256": "68611dd72d1232a669439c5ee5dc8593b95a89516a16f29c899e303d85757d70",
+      "size": 6372
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-quick-0.6.1.sh",
+      "sha256": "da654d19119d5d4722cc5662d78230d3efa3e45fdddba8c17fc05648d358fd87",
+      "size": 8054
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-quick-0.7.0.sh",
+      "sha256": "eb9db6c99f16f494f346db2c666bbef625f61d76c23bbc4830ba6188ddeee2e1",
+      "size": 8189
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-quick-0.7.1.sh",
+      "sha256": "87438c70006d0e8d01cc5875d26e96f6fc2bfadf93eaef489b540990140e17c4",
+      "size": 8197
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-quick-0.7.2.sh",
+      "sha256": "0f41629825546098bae3f4828cff53012cc5a80c5def42f413cb708524a42ee0",
+      "size": 8974
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-quick-0.7.3.sh",
+      "sha256": "1d869538ecf23bc101115bbe38dec190614f522438114713ab7a37078ad05c32",
+      "size": 8067
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify-quick.sh",
+      "sha256": "3263d5af9c3f08b99171f176150e8a3b230152e28c123fc2daea8b0a8a94d5ec",
+      "size": 5548
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify.sh",
+      "sha256": "30423447de0feb71fcd26529c19cf3f37904bb5dd14284902323cbe571fa15d3",
+      "size": 151
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_checksum_manifest.py",
+      "sha256": "d7548cf15aed19480525f2a1697926f6b92a296ca842103950a6bd6ed0d88b67",
+      "size": 5621
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_package_install.py",
+      "sha256": "e61765c28e74282848fd9daba85a4fd160dfba9a03ea1c8284ee2b2d59e84f3e",
+      "size": 6265
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_release_artifact_0_6.py",
+      "sha256": "24d27e094e6c19b13449846014fddc67fffb93aef92afc729300e354720005d8",
+      "size": 9718
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_release_artifact_0_6_1.py",
+      "sha256": "3aa02341ab2f1ac6380f793177127e8f17bb45f5b75504d2612047785e73cb79",
+      "size": 50933
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_release_artifact_0_7.py",
+      "sha256": "2b0cfe0afd9852617b23978070b3790825c5697f68f25b5aefa0893f9053410c",
+      "size": 13022
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_release_artifact_0_7_1.py",
+      "sha256": "f4c3b04cd38c8e60c5e1c9ad12dc1a6ad9807041cb9ebcfb2afe0c334211c1d5",
+      "size": 13890
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_release_artifact_0_7_2.py",
+      "sha256": "aca2c3973686d39655ccf1d7a3f05c46e30c37136d8504994be9ade7326c3090",
+      "size": 11570
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_release_artifact_0_7_3.py",
+      "sha256": "b86e422d763ea78a3c49934bd2c82a7fd690381d2dd9f2b5f3579e89f59dd61f",
+      "size": 7939
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_scene_migration_0_7.py",
+      "sha256": "b37f6489f0254579935506976a7794878c817f75ae5d1d6cec8fb33375ff4a92",
+      "size": 5897
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_scene_migration_0_7_1.py",
+      "sha256": "917bed0dfefc8f9be5f7e951748fad653ab615f6b1c0fe92e6c7c3358e2db5df",
+      "size": 5898
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_sealed_bundle.py",
+      "sha256": "9753ad9ce5dff55477d1eb0e8d11d1bf96b1a7f29a93a8d7f1fa14cbc46a37f4",
+      "size": 62661
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_service_lifecycle_0_7_3.py",
+      "sha256": "b4a2cb0f87b367963b23f3c124ea0b7b1af5533fd1c468895199799a25a54860",
+      "size": 5101
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_trust_anchor.py",
+      "sha256": "036e40f4ec7b45b791ed80dadb90c49540c9a1d2e62eff069193c7cda0289355",
+      "size": 3359
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/verify_visual_fixtures.py",
+      "sha256": "3407e7cd5e654d2fceeaa2761320d4f89080b1200af3dc995ce090a6613477a4",
+      "size": 4293
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/write_environment_manifest.py",
+      "sha256": "700321766ea1d1bacb8e1c21efb4f3f29d1581c432dd653e3aeab462ab3838b3",
+      "size": 3754
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/write_release_decision.py",
+      "sha256": "00a9a41adc1edee1364c6fd93d21ae1baf181d439d7862eb36a1c3c2d84020f3",
+      "size": 3428
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/write_release_observations.py",
+      "sha256": "58503691857fb0931281bdb8ca7a89728bef8bb45c01f5812121dd9233522c73",
+      "size": 8228
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/write_verification_lock.py",
+      "sha256": "effb204551c484c03b90c4a05ccd0e658df44437c3f393668ade42dc63d761d9",
+      "size": 5433
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/scripts/write_visual_inspection_report_0_7_3.py",
+      "sha256": "ee3e8891b0a4367aac7924652396399790a12bb4a588d6974fba667a6138d65b",
+      "size": 4766
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/__init__.py",
+      "sha256": "7760a81faabc3c61fb22ce3df64710011707381e911653c97e9d1709df3a73de",
+      "size": 1672
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/__main__.py",
+      "sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7",
+      "size": 49
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/adapters/__init__.py",
+      "sha256": "334f9e457516a2985c17ebe05b5416cd4b47149c92a82d02264b1036756feeaa",
+      "size": 578
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/adapters/base.py",
+      "sha256": "c1d7f12fc72e7d97a511b11e9e97c2b963b977cb248e6f108097fba7e77a94c3",
+      "size": 3194
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/adapters/config.py",
+      "sha256": "bf9343caee8bafb47fd8d45a8da8bfd54ebcbc5465835fcb3652b72beeaea356",
+      "size": 3009
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/adapters/jax.py",
+      "sha256": "f4038d34271dcc70fab4ad0690d68007c26084f1d2a1f73489f0b8f086dbe77c",
+      "size": 8976
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/adapters/keras.py",
+      "sha256": "a9e270db9dd1bec49324706cada5e8368ebce34aeb37d5d3b7b4dc17637f90a0",
+      "size": 5736
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/adapters/manual.py",
+      "sha256": "2eae10658685bc33350ec7958454253d931a4d5d9028e9142a9237c8ef4d58f5",
+      "size": 6405
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/adapters/onnx.py",
+      "sha256": "5ebdac7f619b82df64254ca2c2bc34424c808165633277bc9c885b8e739698f3",
+      "size": 14588
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/adapters/pytorch.py",
+      "sha256": "158fe8e8fac762de20e4ae165f88b3c1c22e18da3b45dc79399f3b4211ed71ed",
+      "size": 25580
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/adapters/tensorflow.py",
+      "sha256": "3986129250458f5cc9cf94e814948310ed7453f17014c9147f9d7c48785f6911",
+      "size": 7650
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/analysis/__init__.py",
+      "sha256": "ec6edaccb164a907d45b091a7bcd6050327814bd99c7a9e943c0e2d33c29e26d",
+      "size": 848
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/analysis/diff.py",
+      "sha256": "1a8a7bdeddecd69989d26dddcb2d5c4fd9009e785309c9fbe7cf6fdb76174ff9",
+      "size": 19677
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/analysis/explain.py",
+      "sha256": "248fbbe3e1d7346eea8fe187ff5baecd2bf37cc38cfaaa4ef88fad174ad19ad5",
+      "size": 8107
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/analysis/runtime.py",
+      "sha256": "2c7951bbbe8e11b83402b037c4be8bad09b758b45074a1c5c5484ae19560f665",
+      "size": 9638
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/analysis/static.py",
+      "sha256": "d3994f381238f1408ff6839cb9b312ed97ddc01ce0ca48d1e2b12cbf1c76f3d3",
+      "size": 11628
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/analysis/torchlens.py",
+      "sha256": "e2d43a314fdab68efcc8bba307a877a47849f89969812b390acc8acaa7ae399c",
+      "size": 9530
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/api.py",
+      "sha256": "6b6ea665de7f241e3647ee7050479c556b9c9e7259508ecffb48945a95b34661",
+      "size": 14424
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/architecture_evidence.py",
+      "sha256": "f013c2712735c1031f5e395016416738fa37c5232a864c61777fe3b7d806a3bb",
+      "size": 64456
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/architecture_parity.py",
+      "sha256": "fb949f598b1a3e7c2ef6017b75eb628901ab2fc0b686563ad5780d4b9bd52d43",
+      "size": 17709
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/architecture_role_graph.py",
+      "sha256": "1403771e0a9daa089684f82bfbd326e847ca14fda543d9c873122153cb4bfe6f",
+      "size": 12635
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/assets/fonts/DroidSansFallbackFull.ttf",
+      "sha256": "acb6440a713d880a13a21b468ba7cd43f5a2b2934972e51be791c880730777b8",
+      "size": 4033420
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/assets/fonts/NotoSans-Regular.ttf",
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "size": 512672
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/assets/fonts/NotoSansMath-Regular.ttf",
+      "sha256": "8242bd1e55368b27e32455260754cf9aa58f3ad7ea80664b66c21f1b09910d6c",
+      "size": 590896
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/assets/fonts/licenses/Droid-Apache-2.0.txt",
+      "sha256": "f44dda1cd553ac22e7020b016dcce8a521b56de0995dc63c9eff746d9121f64f",
+      "size": 1250
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/assets/fonts/licenses/Noto-OFL-1.1.txt",
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "size": 5208
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/batch.py",
+      "sha256": "3d6eef66a84636656f34038947d5afe32020d315ca694b1c13bd2da7d03e993a",
+      "size": 2094
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/cli.py",
+      "sha256": "d7b7d74cdc1e3bf9edd979426be98b8297edb649162d8ed09e5ec9a3bd1e68e3",
+      "size": 20569
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/composer.py",
+      "sha256": "b16b988183faafcb406343f1c8769386d4245a8fb0e47d7c8b1dca1b03c6b75c",
+      "size": 32516
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/diff_corpus.py",
+      "sha256": "25b7cbcfa0665d7bfdd4229d6f295f14f011fd866ff2c30d73a61e50a842ef92",
+      "size": 7402
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/editor.py",
+      "sha256": "2461b511203f89146ab79229dd20f0d8d7ab40bf10a0046ed3a892a12fefe176",
+      "size": 8625
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/errors.py",
+      "sha256": "f4d944b6b1646e7d4f9e4fb59ba1ec1176eb1d0d9079633dd90722b95bf8bdad",
+      "size": 1173
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/figure_export.py",
+      "sha256": "50ac8dc29475ce3c546c3541b32fd323444928e63c3b8303c03bb7e6655d5035",
+      "size": 102597
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/figure_ir.py",
+      "sha256": "3902bae85cc6574e016027f94bbcfc987e81c49de36f88402149669b96a145a4",
+      "size": 25363
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/figure_templates.py",
+      "sha256": "e6249cd8bee4a78b98b33bd6652f060ffef28e91c4bc2b89cca4eb6f1381d135",
+      "size": 21509
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/figure_templates/cnn-feature-pipeline.nndv.json",
+      "sha256": "3eb0b072e5408f97f0f7173125988e0a8e892bcda58bc21e5b0e9522b95738b7",
+      "size": 47466
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/figure_templates/diffusion-unet-conditioning.nndv.json",
+      "sha256": "52a4c009ce1ff7a6ddb90c2f08bfb742526a2b1241b6646a837532ebc1bbced6",
+      "size": 88800
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/figure_templates/moe-router-experts.nndv.json",
+      "sha256": "2bf593af510d82d790f146d7135783968814f86afc24c96375884afeb334c062",
+      "size": 64433
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/figure_templates/multimodal-fusion.nndv.json",
+      "sha256": "a0c5c5bdc23960ec17aa5346ed37495a32619f6c51e2ff3749840b3d827b0b95",
+      "size": 47122
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/figure_templates/resnet-overview.nndv.json",
+      "sha256": "b451041694230da266d4995fcd445a7603664e5b848ef568e2ab9a18245312fa",
+      "size": 64317
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/figure_templates/transformer-attention-ffn.nndv.json",
+      "sha256": "6b186b08a16aec6b118341e087d15c8ce52a6dbc238cc296854456229a57f36b",
+      "size": 64958
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/figure_templates/unet-encoder-decoder.nndv.json",
+      "sha256": "850e0ddc7456d3b17e47b22bda033eb4c82558ab1a7d88c0bacb0c0d16535023",
+      "size": 64941
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/formula.py",
+      "sha256": "cc97738f3ae237e14ae50bf8a36d57e0352c423b962ccb5c027d5ad9c5f41ba9",
+      "size": 9171
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/import_wizard.py",
+      "sha256": "be84622596b11eab67a81c3e13a20d023426a2bdd02baf30f6cebca2387ab882",
+      "size": 13455
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/ir.py",
+      "sha256": "ba324e75f98f34f050fde06c66217ffaac7ab0cbbba58ed4763cd18be841ee56",
+      "size": 12890
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/labels.py",
+      "sha256": "00c8d5238874a462eefe44321c3e8b140b0f479b8aff292dcf3e80174246fe0e",
+      "size": 7443
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/layout/__init__.py",
+      "sha256": "e144c38c520674922051e9c75860a5696e9bc971cbbc0712b4d13b6f291dc1c0",
+      "size": 315
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/layout/engine.py",
+      "sha256": "61d1c4d774d4ae021732e0f28dfd50d095a9874d2e0decc0a4b0b7487233556c",
+      "size": 73816
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/metamorphic_corpus.py",
+      "sha256": "cbe1e4f0d70cd2338f95cd8b3e129d614fb4890cf47fcc834ddf5c40f8de24df",
+      "size": 19259
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/model_figure.py",
+      "sha256": "208a8ce7e63a3491ae0a9361991d510324f956daff45fd3b6f41124a42e9a507",
+      "size": 114255
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/model_scene.py",
+      "sha256": "1846301a11e64fa83347540a859c70372f832bf10772b5f9c4fc2c81106b541f",
+      "size": 90131
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/operators.py",
+      "sha256": "2b5753466c41cc4bdddac74ed0aa8925e48fdf16deb5e59296018823c8e16b32",
+      "size": 833
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/optimizer.py",
+      "sha256": "99cecc826896433e1dcd57267ab8fb7e6c7c6a008f731c3e6e225cbb920ef745",
+      "size": 18353
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/paper_production.py",
+      "sha256": "9d641f1df213c40743aeaeda905b14444236be28b9788174cd16c42c6916bc74",
+      "size": 61942
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/pdf_fonts.py",
+      "sha256": "bdfe05f51dbd1c6f67a691213f0126b32305b1dcaf5c9ca7a08f76b6420d4cb9",
+      "size": 8298
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/plugins.py",
+      "sha256": "42dfd150312cc7993d26a963f7707130520f7fa7ea0a432212c3b95ebb458524",
+      "size": 11868
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/project.py",
+      "sha256": "f8c97a8dc2d40bb5c2036c8b1950c351e50c322543db535545b4c3420e264c93",
+      "size": 17833
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/quality.py",
+      "sha256": "38caf99379bdcd18c7352239e0b8be96084db7102b175267b5b955cd1082a63b",
+      "size": 3304
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/real_models.py",
+      "sha256": "d4150568dd7d84c875eb1be5bf0276affcc47d49580b80bf65fab35fa7a40066",
+      "size": 34013
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/render/__init__.py",
+      "sha256": "abc5b690370a374cf4fa03467d3a59e775ad116041f59d686b4493d5da566847",
+      "size": 239
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/render/export.py",
+      "sha256": "b92e0e783fbfe586a801443898fd1443f2d90cfc3170fcefc5495671ed578259",
+      "size": 5875
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/render/html.py",
+      "sha256": "633ccd0ce01dc41d5901426f6174bc63b92d99ccb1958e76c5b9882dab2cb803",
+      "size": 3675
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/render/svg.py",
+      "sha256": "5d6066ffe0f6cf2928f1d242bf492f1ddf78428768331a654b2ac4437da6808d",
+      "size": 26703
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/render/tikz.py",
+      "sha256": "fc662f6e0b60a78341b6d72dd8f1a7d4194c125295ff5fbd99a2e02cf5b23cc1",
+      "size": 8190
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/reporting.py",
+      "sha256": "580b0501fbe1de4b75f99a7def7749eb76a0bc1a99a03ea870a3efb9a184ccd1",
+      "size": 4593
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scaling.py",
+      "sha256": "b75ca0850bcb950b913eb5c1a5121caf45b84d82e54685ea9adee8c456c86f3d",
+      "size": 4733
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_export.py",
+      "sha256": "ba7ebf9d71106cf1bd521eedf4cc66e2726bca7c3200efffcd1915cc3b75972a",
+      "size": 53996
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_gltf.py",
+      "sha256": "28b351f1765fda35d2b6f53c7c5d625bf1871381473edcac1b5fd54d9a8e8b9a",
+      "size": 29242
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_ir.py",
+      "sha256": "1a8762bd9c14832cae61a137ba55a2c9cd0d09aedbd51633452dc4ee3246176c",
+      "size": 61493
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_math.py",
+      "sha256": "dda5bf6e1ed53fec896ae10635236748952baba72e368f817805a186016fb3c2",
+      "size": 18275
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_projection.py",
+      "sha256": "a8cceb3f14be47604c93ded11f6c6c45b9f08f0f8afbc4f9d930dab88a52be65",
+      "size": 67453
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_templates/cnn.scene.json",
+      "sha256": "d002dfd125f9841d4f07aec9e49185f94913d93e5496152e87821ec9e533c8a3",
+      "size": 39283
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_templates/diffusion-unet.scene.json",
+      "sha256": "8ed508144b9ad577c7a923a2c1fefe6ee3fc00af83cc037142a3a0f9df457c8a",
+      "size": 54655
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_templates/moe.scene.json",
+      "sha256": "64b40b7073efa465281fe76cd87b66a956a66dfc318d262188a557ab8db3c270",
+      "size": 63506
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_templates/multimodal-fusion.scene.json",
+      "sha256": "647bb1812f7fff78b0e908b7d6b29f6ca3fccdf9ad73d2306055fc60c0b297dc",
+      "size": 60962
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_templates/resnet.scene.json",
+      "sha256": "6e414b7c43e6fa00497427cd3748c3e3d0591e75c30493870b8de0ec62e3073b",
+      "size": 46714
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_templates/transformer.scene.json",
+      "sha256": "22ed3223d883433fad3c7f8b82be36aff954b4c0ea4792b7cd02ddb1f94a5588",
+      "size": 52885
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/scene_templates/unet.scene.json",
+      "sha256": "3b2bd79d0d63d1973acbb7bfda28d04a57f7ca1a211d12d7cc3a407b54dff511",
+      "size": 46890
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/semantic.py",
+      "sha256": "7a5fffbc96e9b24c703f5b602398d6c2cbe94ab1e6c7415d2a395d2696847295",
+      "size": 79081
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/server.py",
+      "sha256": "0618351aaa670a4fd1c185c1f870285cb69c1b8d8ff7a154b9e0cfeda6f51c3b",
+      "size": 71361
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/spatial.py",
+      "sha256": "6a86f7ac0bbbde641eb8e20ee21b86f080cb114d757acab544505241668eb553",
+      "size": 7441
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/structure_lens.py",
+      "sha256": "9bf81fb10f90ed8f0c247fc4b3eca0ed6fd307494db4685dda0840c7a0575ff5",
+      "size": 31429
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/tasks.py",
+      "sha256": "0973a6792c2bd19ca2597777fffe27ed17947f987e2eebef0faf5ded0065a127",
+      "size": 12974
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/tensor_geometry.py",
+      "sha256": "65b6eb96316337fb3bd6024c74ed43834b503830f00ffdbe774f2f94084f4e94",
+      "size": 15490
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/text_layout.py",
+      "sha256": "888279582d0658f0028740ec478f5c96e129b4b3f7730542edcb54fa89d64840",
+      "size": 12841
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/themes.py",
+      "sha256": "4ab0fc0eb63a242c9ec1edc900b4cef7f330e8a18bae06b1f97bf1b98727f242",
+      "size": 4569
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/trial.py",
+      "sha256": "02d847ddf4050ba80bc4b13c9dcdc75fa00df3858181f443783d2759a7f107ca",
+      "size": 24860
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/trial_cases/__init__.py",
+      "sha256": "b155f47876d7c746601d3539ca3a5eaecd5d30923f591e24d5eedf2ad6f66a53",
+      "size": 657
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/trial_cases/onnx_case.py",
+      "sha256": "ae8eacc0e138b6554cf64be59cf09d56dafbb982ba1faec0a32a91226980d8d2",
+      "size": 1573
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/trial_cases/pytorch_cases.py",
+      "sha256": "faf5d2896e9ea294e595d712dc01e21330dd1467c2df18e8bc144d31a3e2c81d",
+      "size": 5739
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/trial_models.py",
+      "sha256": "7c90a6783cf829341cbe18f6aec0f8b4c58421f732526400b11c49ac1e7cc209",
+      "size": 14582
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/units.py",
+      "sha256": "cef9cbd052f8fd895aaba226e64b58cde1a5c63ea9bd759553e4c4b0abcbb966",
+      "size": 4905
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/verification.py",
+      "sha256": "0204a0f21179d36ff565e31737acd21424216a30a7af1a8e70f746ee5ceeb092",
+      "size": 2834
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/version.py",
+      "sha256": "b9d3979339aeb58d908b1fb29d5ecf1f261f2ddc6e2db59fafc686482c7e26a9",
+      "size": 88
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/viewport.py",
+      "sha256": "8d3ea7a124838a271698ce77325ed1cc21210b07aef028ac1d876e9d2ad50af0",
+      "size": 17306
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/app.js",
+      "sha256": "21025dd9422e4767ff73de4ad6f2683a8564ca197207fa60dbbd83bd1d89c180",
+      "size": 335862
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/commands.js",
+      "sha256": "a217c85e7ca759fccfe7458bb08c5d62833232506f3fff50ee024c71f72f9da9",
+      "size": 9790
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/design-system.css",
+      "sha256": "3e9b70d28d013cd4bb7ac11650d370c490bc339d16c27097061e8e1896545bf9",
+      "size": 11557
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/favicon.svg",
+      "sha256": "d3cab934a20650ade5e3a448adbd6c0ab4b9983673820cdafcb48d863702b081",
+      "size": 299
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/index.html",
+      "sha256": "8d6ade76c1f22c5a3d2b1d6129fec86d1800253757ffec508960f53d93ec9006",
+      "size": 89719
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/scene-batch.js",
+      "sha256": "ed4bb55e39c6456263aafdce21ae9ce1d086de2b2c94dcc33941a466355d9bd9",
+      "size": 2714
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/scene-interactions.js",
+      "sha256": "00b0533829667e9b5fe7a4c540030e542b1fe714606d47dd0d41d5bf06791109",
+      "size": 24390
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/scene-renderer.js",
+      "sha256": "5cb89b35eca5e3717d7c206ff2fbb2f17286a296ad4b53eb23f32760741aa11c",
+      "size": 42100
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/scene-studio.css",
+      "sha256": "5e79637e0d002e7cfa0073dd7ce6a86296cb8da2f85df60f170d5bbf3f7c4ec1",
+      "size": 15904
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/state-machine.js",
+      "sha256": "09c0f0ca88b641cf92d7fc464f0ca6785c7445fca4140863fa016e4206461d6e",
+      "size": 9372
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/src/nn_davinci/web/styles.css",
+      "sha256": "0e2cc82555cc8cb5f41b52915a9ad3da7651f6dc465ee8a15ff368a12628bcc6",
+      "size": 44402
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/figure_studio/cnn-feature-pipeline.nndv.json",
+      "sha256": "3eb0b072e5408f97f0f7173125988e0a8e892bcda58bc21e5b0e9522b95738b7",
+      "size": 47466
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/figure_studio/diffusion-unet-conditioning.nndv.json",
+      "sha256": "52a4c009ce1ff7a6ddb90c2f08bfb742526a2b1241b6646a837532ebc1bbced6",
+      "size": 88800
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/figure_studio/moe-router-experts.nndv.json",
+      "sha256": "2bf593af510d82d790f146d7135783968814f86afc24c96375884afeb334c062",
+      "size": 64433
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/figure_studio/multimodal-fusion.nndv.json",
+      "sha256": "a0c5c5bdc23960ec17aa5346ed37495a32619f6c51e2ff3749840b3d827b0b95",
+      "size": 47122
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/figure_studio/resnet-overview.nndv.json",
+      "sha256": "b451041694230da266d4995fcd445a7603664e5b848ef568e2ab9a18245312fa",
+      "size": 64317
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/figure_studio/transformer-attention-ffn.nndv.json",
+      "sha256": "6b186b08a16aec6b118341e087d15c8ce52a6dbc238cc296854456229a57f36b",
+      "size": 64958
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/figure_studio/unet-encoder-decoder.nndv.json",
+      "sha256": "850e0ddc7456d3b17e47b22bda033eb4c82558ab1a7d88c0bacb0c0d16535023",
+      "size": 64941
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/scene_studio/cnn.scene.json",
+      "sha256": "d002dfd125f9841d4f07aec9e49185f94913d93e5496152e87821ec9e533c8a3",
+      "size": 39283
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/scene_studio/diffusion-unet.scene.json",
+      "sha256": "8ed508144b9ad577c7a923a2c1fefe6ee3fc00af83cc037142a3a0f9df457c8a",
+      "size": 54655
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/scene_studio/moe.scene.json",
+      "sha256": "64b40b7073efa465281fe76cd87b66a956a66dfc318d262188a557ab8db3c270",
+      "size": 63506
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/scene_studio/multimodal-fusion.scene.json",
+      "sha256": "647bb1812f7fff78b0e908b7d6b29f6ca3fccdf9ad73d2306055fc60c0b297dc",
+      "size": 60962
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/scene_studio/resnet.scene.json",
+      "sha256": "6e414b7c43e6fa00497427cd3748c3e3d0591e75c30493870b8de0ec62e3073b",
+      "size": 46714
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/scene_studio/transformer.scene.json",
+      "sha256": "22ed3223d883433fad3c7f8b82be36aff954b4c0ea4792b7cd02ddb1f94a5588",
+      "size": 52885
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/templates/scene_studio/unet.scene.json",
+      "sha256": "3b2bd79d0d63d1973acbb7bfda28d04a57f7ca1a211d12d7cc3a407b54dff511",
+      "size": 46890
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/e2e/editor.e2e.mjs",
+      "sha256": "aefc164391214c79727a30b6e661ac3f6ba29cb32f80a87448b5b88521e9ca55",
+      "size": 23121
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/e2e/figure-studio.e2e.mjs",
+      "sha256": "49ad266d83e2ad2b62a58228cf78255cf282511e411912494398cf2d8fbf815b",
+      "size": 42111
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/e2e/product-workflow.e2e.mjs",
+      "sha256": "94f761ceb1febf7f6abc80700fc74a50b617be18756fdeafcb2511f927a5733e",
+      "size": 24254
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/e2e/responsive-toolbar.e2e.mjs",
+      "sha256": "0ef5bce0f8d7192182540e3c2a629ab3a93ee26a6481a38bb93fb81e1553af07",
+      "size": 29864
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/e2e/scene-studio.e2e.mjs",
+      "sha256": "bf0a24b4f1007eaa8f87f31cd964cba8389fd1a0b32c60d5c6a3646636e2a08c",
+      "size": 64491
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/e2e/semantic-workflow.e2e.mjs",
+      "sha256": "b8d5767b3f8dbe0e7fbc0267189aa5b9092634a9eceee3e975a4efedda84ebb0",
+      "size": 13185
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/e2e/trial-workflow.e2e.mjs",
+      "sha256": "6d0b293dbb7cef6cfb55ec8dfccae87e7db0afb8e7ccbe9c994cb8b0762f9647",
+      "size": 17130
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/fixtures/scene_oracle_071/mutations.json",
+      "sha256": "36a05b06a8e40b5ac5407f666122f4ddd657783337b787f667849e5c792a02ce",
+      "size": 2374
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/fixtures/scene_oracle_071/scene.svg",
+      "sha256": "7d3e00a9e5353490f55ccbf6f51b22a79a079a60e9403f8268841a3aac912618",
+      "size": 2187
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/fixtures/scene_oracle_071/toolbar-positive.html",
+      "sha256": "f0d25c5ec00de932a07e6b712b2b74a937c8fb8b55aa3687724235f90de1ea23",
+      "size": 623
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/fixtures/scene_oracle_071/toolbar-truncated-negative.html",
+      "sha256": "c7cda780ba6e67a4c338566e0001c407c37f9053209fa7fa8fb2f60031e2b0c2",
+      "size": 539
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_analysis_accuracy.py",
+      "sha256": "852a89636656fe590458b8a25bf1ee0dde259086528660aaf46cbc8f2991a0e5",
+      "size": 5444
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_cli_scene_project_070.py",
+      "sha256": "73ddc1cedab64d0e7bd53e74557bd94f1f7d5038c60c0786502aed3482ea897e",
+      "size": 6293
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_compatibility_matrix.py",
+      "sha256": "a1ad39570c8f9865b2828ccdc7cb4a0eeb4ab8e7a85e9747532054486712443c",
+      "size": 12033
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_composer.py",
+      "sha256": "39fdf847adf3f9fb0b1d9408a04839ce567d36c072fe391269d04fd73ef3dd7a",
+      "size": 6285
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_core.py",
+      "sha256": "b077332457f749e4233c0d1bab39bf5f09a925adc1c9cc5ddcd42a9fd460bdf9",
+      "size": 19703
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_extended_integrations.py",
+      "sha256": "599b562d77ab49c757627e0207c5c4a13b97a928ea0256cca0a5f8ada9b7db91",
+      "size": 4891
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_figure_formula_exports.py",
+      "sha256": "a36bdd7b6fb23a276b39d7015340d3725f31a14449af2f10c35e5c40cbba8937",
+      "size": 8288
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_figure_ir.py",
+      "sha256": "54de70f913deda0f2c0bb550b43443f9666eb0f55d89cb0a4aa818b64c468d9f",
+      "size": 9521
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_figure_multi_page_exports.py",
+      "sha256": "13d4ece45df79bae47a5d1975325344bc95361328e6a6eb9799179b9a9407fa9",
+      "size": 10422
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_figure_performance.py",
+      "sha256": "ef4c19157587e924a1d164adc9665bb6edfacd648445ce0957861e3a965f1cf1",
+      "size": 7124
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_figure_studio_api.py",
+      "sha256": "7ec32c25be90e90849db71b712615fd0d2a459f920e5656f248f592e1cee5708",
+      "size": 17260
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_figure_svg_oracle.py",
+      "sha256": "7e4b08b30810030bac6a8978cddba053cead12d402b022a120798e250cd31a94",
+      "size": 8566
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_figure_units_text.py",
+      "sha256": "f3c92136fa6cc9ddda974593ef074d6d73a41c3991938efe1b9730bd817de186",
+      "size": 4786
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_formula_061.py",
+      "sha256": "f140003cfa4f37018e3c45245692b765519cf1bebf8d08c29d63aad90a9d1a52",
+      "size": 2381
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_generalization_073.py",
+      "sha256": "3373b54f28b0c1a850fc4fe0fa09037e1fd2cc986f8e96b29f148ccf7d57a7f9",
+      "size": 2971
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_hotfix_contracts_073.py",
+      "sha256": "5ea39103f5b7fb762719508bb7a1dbbf1d74fdd707271179985849221af16c8f",
+      "size": 15792
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_large_graph.py",
+      "sha256": "af7b6c8864379084828bb8174926af7e6bfc4bb8608f6cfc095b8e67bca48edc",
+      "size": 11439
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_model_figure_061.py",
+      "sha256": "34ab7b7314f811860178e8d252810dc89eeee3b371fa8044aae7bbf0be86809f",
+      "size": 21760
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_model_scene_070.py",
+      "sha256": "0a4d407a04f6c3c84f76d98dce419ed90908be31cee8837c63a5708802b21391",
+      "size": 15078
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_onnx_and_web.py",
+      "sha256": "97bcc883d97b4cbef5d06fdcf107d4f11d609fcad53fd3b723f15634c03b9a3e",
+      "size": 4040
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_paper_production.py",
+      "sha256": "70459583332ab01450a9861160c266b9db945a00d0fa728d95590be24b4314a7",
+      "size": 6833
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_paper_quality.py",
+      "sha256": "2e9cfec727aa8e2e600c61ac624274efded6d217491591d48092525bb255b599",
+      "size": 5949
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_plugins_v2.py",
+      "sha256": "c51cda028cc60bc5f0532ca621209184ea61c1f870310391889463f49babe5ad",
+      "size": 3253
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_project_semantic_provenance_061.py",
+      "sha256": "ff3773ded0010a328e32e2f329b6803056b96ab29748102f9a085a6d8ed45aa2",
+      "size": 8263
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_pytorch_runtime.py",
+      "sha256": "c7cff44200c34a8de65474843720261779da2e9c6e1f54bf4aa8b6873a3dd92e",
+      "size": 9350
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_real_model_figures_061.py",
+      "sha256": "720d4486e8ce646e452821f00c9f1e49d7129ba77a7f70bca8a939324d2d004e",
+      "size": 11849
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_real_models.py",
+      "sha256": "0ae4b8dcbb1149e70ac6b6f4e495f7373c76198ef8f0f842b781a101fb3e38de",
+      "size": 3415
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_release_artifact_070.py",
+      "sha256": "a8673c5b4a9e1e860a4c51967411d24a8152894fc2d89c6ede9ffa5099b00893",
+      "size": 20595
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_release_artifact_0_6.py",
+      "sha256": "ee01e7e151a1bbe4f51624b46b06034c66cdffa866e866f36291c3fab1a07ff4",
+      "size": 6394
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_release_artifact_0_6_1.py",
+      "sha256": "15124552fd4cb3969712c20f6c912917caf9dfd1781038f352a0d5d14d466bbc",
+      "size": 49608
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_release_driver_070.py",
+      "sha256": "44f4e62a40d2388a664407e8afff8ca5161df26bad1e654322ed28930c562da0",
+      "size": 9429
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_release_driver_071.py",
+      "sha256": "872408e423d74405361b95516cb56f9539cfa4c25eeaebb41bd069e8fc92bef0",
+      "size": 5151
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_release_verification.py",
+      "sha256": "ef40f8a3a1561ebac34bf35dc8b96e0261e15fe8601190d29569c72ffebd26aa",
+      "size": 8276
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_api_070.py",
+      "sha256": "fce55c1dd322c86861203800703d45932d79dbd6d159d80027b1380ff813b11f",
+      "size": 9384
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_artifact_corpus_070.py",
+      "sha256": "4e0dba73bf5c5add8f465cddba99d68d5890775c9677b82b6b4c1a5e46eee89a",
+      "size": 7527
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_camera_072.py",
+      "sha256": "aa90364f37237514629cc8e8112fc23e6be7b00b1706cec100330118be098cd7",
+      "size": 3959
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_exports_070.py",
+      "sha256": "87910572fe7da9cf722bf98b65d9fce5bce8c724fcd37552ac55a1315ba5e469",
+      "size": 11224
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_ir_070.py",
+      "sha256": "678364370de5850513eefb7fad88bac3cc815b4353e233f98d0f0133d3db44a2",
+      "size": 9379
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_math_070.py",
+      "sha256": "b4ee9da56bd4c6c3e62a455f7a6f27774984a82b9d55600727e0f480420b4652",
+      "size": 5729
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_migration_report_070.py",
+      "sha256": "f3927c4099e311a3956fa86854b00e7a39e4e3458c15e3e451c9960c08ecbd2e",
+      "size": 2505
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_pdf_fonts_072.py",
+      "sha256": "83f01f164993cfbe0234008c0f09092452ca218c3a0296bf0089bead7b44581f",
+      "size": 2872
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_projection_070.py",
+      "sha256": "3b40ddd389d0f7dedd9df2e837b6f2f43ae3879ae781e758b0d31c4e5597c77e",
+      "size": 9013
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_template_ui_070.py",
+      "sha256": "54548961caa49aa8badb015af8181b51463259ff25a372719f6f8f30190b3cfd",
+      "size": 5090
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_ux_071.py",
+      "sha256": "3286e29e38a03ca06ce2d29c9faebe6d59bae725e02bc24cc46ddf9f845bec2c",
+      "size": 8769
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scene_visual_evidence_070.py",
+      "sha256": "9f8b42a9282c4e3a66c43ffea675c502624d5f4f1d91722b56600c71722fcb90",
+      "size": 23319
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_scientific_fidelity_072.py",
+      "sha256": "64d40018f36d1f86f2c2d6ad9ec63ded73115fce872094e965c7f948ae9801cd",
+      "size": 11435
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_semantic_canvas.py",
+      "sha256": "422592e0586abafeaed92fb2625ee0352c88e612ed5eac1351c6337c2d17c583",
+      "size": 22767
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_semantic_evidence_061.py",
+      "sha256": "9ec0943d4b367c0369d69da9eea2e7fb9ceab179096bfaa19dd66f39d42f7c37",
+      "size": 9756
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_semantic_presentation_oracle_073.py",
+      "sha256": "0a0fb57268a0d769fd23ddbf8c44507f0701fdb52ee4db8b678069d2953cfc2a",
+      "size": 6879
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_service_lifecycle_073.py",
+      "sha256": "81ca3e1be3425a90fccd61b4397e6bdc56bf099c54da7b96286c19c69e05f94c",
+      "size": 3097
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_structure_lens.py",
+      "sha256": "3bde9b7d0ecafb66257faeaef9939f7a3c17662efc28dafdf69854a2aee672ed",
+      "size": 3302
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_structure_lens_061.py",
+      "sha256": "3075da79d384e4166a57a996c862d07aaa6f48c1524b7e983b952393434810d0",
+      "size": 10491
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_tensor_geometry.py",
+      "sha256": "1d1f4f10b2470c786388b35aff72f26d404570fc9f27c1b8ddf9535c99cf85fc",
+      "size": 2787
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_trial_mode.py",
+      "sha256": "1bf95758df5af8fd6c0e5386627c70f428379d42958ad1e3b1b25ca29d53a722",
+      "size": 6533
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_vector_quality.py",
+      "sha256": "ef630daf4bb29a89e90e0e88d304fefa272aa60d510839608dd367efe53f7230",
+      "size": 7361
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_verification_closure.py",
+      "sha256": "5efe4401baea1a1f8a1da63c9ea86391d3c8ad5451605f4dcadd308a561faab6",
+      "size": 26033
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/tests/test_web_security.py",
+      "sha256": "87719423849771b381e69d65e5f9beae35838c7ff42997de23aa4fac0b1eeeb2",
+      "size": 6533
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/acceptance-matrix-0.2.1.json",
+      "sha256": "014f8b74205097cc3560318baa97529acfe014ac897a11c1af69d045fca5b4b0",
+      "size": 16420
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/acceptance-matrix-0.2.2.json",
+      "sha256": "5ad066ea5b930ddd1fb0f7f7ee118db5fcba01abad92b6aa6569bf0def44b051",
+      "size": 20712
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/acceptance-matrix-0.2.3.json",
+      "sha256": "04daac7315537fcb6d2e18ad970140e96c50ef108a61cdd26224b5bcdfa32d72",
+      "size": 20909
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/core-coverage-manifest.json",
+      "sha256": "adf358bcb714387aaa45b40380fa86c51b9c4eaac61c19e17866eafcd487643b",
+      "size": 2164
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/expanded-core-coverage-manifest.json",
+      "sha256": "a4674965d5457b171b36f118dda4439d9ce0ad301650f6e736a89f11c3f156e1",
+      "size": 861
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/all-package-denominators-0.2.1-diagnostic.json",
+      "sha256": "2f333e7623cbf886ff80e3397c525cd3981a79a56d8911ca5af286bfca7a5b0c",
+      "size": 3522
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/coverage-summary-fixed.json",
+      "sha256": "b1879e380e320d537a8ec14b80de40851b711b324d5aaafc8f5aa25eba6d0b31",
+      "size": 345
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/figure-svg-oracle-expectations.json",
+      "sha256": "f6b100962a3bb0d97c136d6fed1eb1aef9a9e640686428920662602e359b80f3",
+      "size": 8509
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/python-test-ids-0.2.0.sha256",
+      "sha256": "4168609d2808a938d5358089ea78ddaaeddb810236da35106f9f4179ddf0b5a8",
+      "size": 92
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/python-test-ids-0.2.0.txt",
+      "sha256": "bd53e5272703b7d79399830ee146db8362c1e5f1e58798ecb95a731c695af838",
+      "size": 5639
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/python-test-ids-0.6.0.txt",
+      "sha256": "4a4604f0b9a240ebba1b0eef1274edc1e2232930225056069884a2e5f3d5ef53",
+      "size": 15251
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/python-test-ids-0.6.1.txt",
+      "sha256": "62f9f1f1c1bf04ec44fac6688b4c7ac3e58127314b40e1e1e3fb790211be412d",
+      "size": 23928
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/python-test-ids-0.7.0.txt",
+      "sha256": "a66646fea24b51f1d39432adac615de612186791300c1bec4296731b0ee83dac",
+      "size": 32797
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/python-test-ids-0.7.1.txt",
+      "sha256": "8d0c621a059f2d9a3fe4d0dadc2c127a7d56c236da98ae3048df131670676f49",
+      "size": 34254
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/scientific-fidelity/multiscale_unet.json",
+      "sha256": "069e3904529f9c4a3ef09ba3967533b438b2a6e806273aadf63dc985a59840ce",
+      "size": 1202
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/scientific-fidelity/resnet50_overview_bottleneck.json",
+      "sha256": "8e79e47200e617520f49812602b44660dc759cce8d45cb8761fc281e1ff62da7",
+      "size": 836
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/scientific-fidelity/vision_transformer_attention.json",
+      "sha256": "fc6e29a60ce6c5ddd4ed502ccf0f6e2152387bc0ac406894a68d938816eb4793",
+      "size": 1227
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/stress-corpus-0.2.1.json",
+      "sha256": "e3cbb22630a16d53a099ac7fbad50023ca9968344cb5b77892595b4a0ad7800a",
+      "size": 1005
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/svg-oracle-expectations.json",
+      "sha256": "465921941ffd131e5013647ab1a8330e48154c3880af95d926827493e92d8844",
+      "size": 2258
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/venue-templates/icml2026.sty",
+      "sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+      "size": 27344
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/venue-templates/neurips_2026.sty",
+      "sha256": "c3fc2894e83d2517ca18b66741d6c595986d97957dc08ec08bb2125a7ec4555a",
+      "size": 13704
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/venue-templates/sources.json",
+      "sha256": "6492e747effa74db1483536186c4bc649bf46d3d414636629df50aac738581c9",
+      "size": 1041
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/fixtures/visual-authority-0.2.1.json",
+      "sha256": "26b5853798d236cff92c7e283061dc3b3c62ce2fea5a375e663df838de0dc567",
+      "size": 16488
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/source-allowlist-0.2.2.json",
+      "sha256": "815272d86059c5e1524c588bab0bdcd1ed369c877d24b685a473f245dcb65997",
+      "size": 523
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/source-allowlist-0.2.3.json",
+      "sha256": "8cff2098b58a3730a732e312c885dd05659b04e34c75f2c369655e458024c13c",
+      "size": 523
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/source-allowlist-0.6.0.json",
+      "sha256": "4462f49acedef5446d20fff0c8adc6117a79b600f6b2c4eeba82e39da6c3eb6f",
+      "size": 575
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/source-allowlist-0.6.1.json",
+      "sha256": "5284cc29de6670f29d66594c5c27467098a044626c2a9b39fd9d256273b6d0f8",
+      "size": 575
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/source-allowlist-0.7.0.json",
+      "sha256": "5160fd98ae784b5c1a0bf2bf261fa31a07fdcc8b0738ece9af91366778e49c8b",
+      "size": 575
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/source-allowlist-0.7.1.json",
+      "sha256": "f9cf31e49750641492dc522e7ce403dee0f93fad342cd890a861557c061a2613",
+      "size": 575
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/source-allowlist-0.7.2.json",
+      "sha256": "2939944b9b6986f69baec15bb77d5dbde207077875d61310f4b5718dcb02dc8f",
+      "size": 575
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/source-allowlist-0.7.3.json",
+      "sha256": "0f420c67f130c86cbe872fb74ecbb4f09b0cd8fb313785c97751c891041dfc8d",
+      "size": 575
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/verification-lock-metadata-0.2.2.json",
+      "sha256": "74af1ef2827b77708f7a71dacf28a8a73b914b2e8aaacc8734eadbcf1883313f",
+      "size": 24158
+    },
+    {
+      "path": "source/NN_DaVinci_0.7.3/verification/verification-lock-metadata-0.2.3.json",
+      "sha256": "364f32b1e0f41135d060b22641287f71597c301a2f9136ce61d4b19efa30084b",
+      "size": 24158
+    },
+    {
+      "path": "verification.json",
+      "sha256": "dfef20ba88127ac9a737b57f42c41ae547d3b773747e95ed5a46edf0955f03bb",
+      "size": 8888
+    }
+  ],
+  "schema_version": "nndv-sha256-manifest-2"
+}

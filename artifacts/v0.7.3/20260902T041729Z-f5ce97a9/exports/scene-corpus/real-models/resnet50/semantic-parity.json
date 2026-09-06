@@ -1,0 +1,44 @@
+{
+  "case_key": "resnet50",
+  "case_kind": "real-model",
+  "evidence_provenance_digest": "d01baaa7b244a4a5f9ef2e3e66adf8396651efde7d752a196f5935197c40b2be",
+  "evidence_version": "1.0",
+  "expected_critical_route_count": 4,
+  "expected_role_count": 6,
+  "failures": [],
+  "family": "resnet",
+  "figure_critical_route_count": 4,
+  "figure_role_count": 6,
+  "input_role_ids": [
+    "architecture_role_input_stem_0_module_maxpool_d1478f2a_modul_5d7d403e"
+  ],
+  "landed_documents": {
+    "figure": {
+      "path": "figure.figure.json",
+      "sha256": "f4b2d9147950bc2fb0572102e7f6445f77dc708d56239d72c836a0a7b82dd63e"
+    },
+    "graph": {
+      "path": "graph.graph.json",
+      "sha256": "7c05a0bf6809da1d7152ee13e1a3598d2061d92f4794b62df97cc88f583a2426"
+    },
+    "scene": {
+      "path": "scene.scene.json",
+      "sha256": "ab345431e6496f4d50df30dfa556577242eb1ab5676d8ea6be6e33de5f87f988"
+    },
+    "semantic": {
+      "path": "semantic.semantic.json",
+      "sha256": "8bc1bd2827ab360c15eb46194921b3a4ec92b6bc4c531ecf82fb3786f873224a"
+    }
+  },
+  "oracle_version": "1.0",
+  "output_role_ids": [
+    "architecture_role_output_head_5_module_layer4_2_conv2_344e40_16a9b91e"
+  ],
+  "passed": true,
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "scene_critical_route_count": 4,
+  "scene_role_count": 6,
+  "schema_version": "nndv-architecture-parity-1",
+  "uncertain_claims": [],
+  "unknown_reason": null
+}

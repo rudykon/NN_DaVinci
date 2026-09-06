@@ -1,0 +1,3852 @@
+{
+  "analysis": {},
+  "annotations": [],
+  "constraints": [],
+  "edges": [
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_timestep_1_f1517b44",
+          "source_port": "node_fx_timestep_1_f1517b44:output:0",
+          "target_node": "node_fx_reshape_2_036bcfe8",
+          "target_port": "node_fx_reshape_2_036bcfe8:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_timestep_1_f1517b44_node_fx_timest_46435b59"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_timestep_1_f1517b44_node_fx_t_57045b0f",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_timestep_1_f1517b44",
+      "source_port": "node_fx_timestep_1_f1517b44:output:0",
+      "target": "node_fx_reshape_2_036bcfe8",
+      "target_port": "node_fx_reshape_2_036bcfe8:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "timestep",
+        "semantic": null,
+        "shape": [
+          1
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_reshape_2_036bcfe8",
+          "source_port": "node_fx_reshape_2_036bcfe8:output:0",
+          "target_node": "node_fx_float_1_3_cfe5efc3",
+          "target_port": "node_fx_float_1_3_cfe5efc3:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_reshape_2_036bcfe8_node_fx_reshape_db30284f"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_reshape_2_036bcfe8_node_fx_re_9036720e",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_reshape_2_036bcfe8",
+      "source_port": "node_fx_reshape_2_036bcfe8:output:0",
+      "target": "node_fx_float_1_3_cfe5efc3",
+      "target_port": "node_fx_float_1_3_cfe5efc3:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          1
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_float_1_3_cfe5efc3",
+          "source_port": "node_fx_float_1_3_cfe5efc3:output:0",
+          "target_node": "node_fx_timestep_embedding_projection_0_4_2f1354aa",
+          "target_port": "node_fx_timestep_embedding_projection_0_4_2f1354aa:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_float_1_3_cfe5efc3_node_fx_float_1_57d3701c"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_float_1_3_cfe5efc3_node_fx_fl_b58b48f3",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_float_1_3_cfe5efc3",
+      "source_port": "node_fx_float_1_3_cfe5efc3:output:0",
+      "target": "module_timestep_embedding_projection_0_151b9da2",
+      "target_port": "module_timestep_embedding_projection_0_151b9da2:input:binding_node_fx_timestep_embedding_projection_0_4__c1709a14",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          1
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_timestep_embedding_projection_0_4_2f1354aa",
+          "source_port": "node_fx_timestep_embedding_projection_0_4_2f1354aa:output:0",
+          "target_node": "node_fx_timestep_embedding_projection_1_5_d00d0c09",
+          "target_port": "node_fx_timestep_embedding_projection_1_5_d00d0c09:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_timestep_embedding_projection_0_4__a4d286e2"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_timestep_embedding_projection_a5af53f5",
+      "kind": "data",
+      "label": "",
+      "source": "module_timestep_embedding_projection_0_151b9da2",
+      "source_port": "module_timestep_embedding_projection_0_151b9da2:output:binding_node_fx_timestep_embedding_projection_0_4__71c1bee0",
+      "target": "module_timestep_embedding_projection_1_2d221285",
+      "target_port": "module_timestep_embedding_projection_1_2d221285:input:binding_node_fx_timestep_embedding_projection_1_5__d38f0257",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_timestep_embedding_projection_1_5_d00d0c09",
+          "source_port": "node_fx_timestep_embedding_projection_1_5_d00d0c09:output:0",
+          "target_node": "node_fx_timestep_embedding_projection_2_6_c540abd7",
+          "target_port": "node_fx_timestep_embedding_projection_2_6_c540abd7:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_timestep_embedding_projection_1_5__329ca39d"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_timestep_embedding_projection_636a6d6f",
+      "kind": "data",
+      "label": "",
+      "source": "module_timestep_embedding_projection_1_2d221285",
+      "source_port": "module_timestep_embedding_projection_1_2d221285:output:binding_node_fx_timestep_embedding_projection_1_5__54616c6e",
+      "target": "module_timestep_embedding_projection_2_0de51f47",
+      "target_port": "module_timestep_embedding_projection_2_0de51f47:input:binding_node_fx_timestep_embedding_projection_2_6__a3558c98",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_noisy_latent_0_6bca5c91",
+          "source_port": "node_fx_noisy_latent_0_6bca5c91:output:0",
+          "target_node": "node_fx_encoder_input_7_7f824e7b",
+          "target_port": "node_fx_encoder_input_7_7f824e7b:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_noisy_latent_0_6bca5c91_node_fx_no_83460b18"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_noisy_latent_0_6bca5c91_node__f1574748",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_noisy_latent_0_6bca5c91",
+      "source_port": "node_fx_noisy_latent_0_6bca5c91:output:0",
+      "target": "module_encoder_input_9ff93bee",
+      "target_port": "module_encoder_input_9ff93bee:input:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_8e11aeec",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "noisy_latent",
+        "semantic": null,
+        "shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_encoder_input_7_7f824e7b",
+          "source_port": "node_fx_encoder_input_7_7f824e7b:output:0",
+          "target_node": "node_fx_encoder_conditioned_conv1_8_9e007438",
+          "target_port": "node_fx_encoder_conditioned_conv1_8_9e007438:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_encoder_input_7_7f824e7b_node_fx_e_ab89de01"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_encoder_input_7_7f824e7b_node_41eb3a2c",
+      "kind": "data",
+      "label": "",
+      "source": "module_encoder_input_9ff93bee",
+      "source_port": "module_encoder_input_9ff93bee:output:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_6f8846b5",
+      "target": "module_encoder_conditioned_conv1_9c5365b1",
+      "target_port": "module_encoder_conditioned_conv1_9c5365b1:input:binding_node_fx_encoder_conditioned_conv1_8_9e0074_95fa957b",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_timestep_embedding_projection_2_6_c540abd7",
+          "source_port": "node_fx_timestep_embedding_projection_2_6_c540abd7:output:0",
+          "target_node": "node_fx_encoder_conditioned_condition_projectio_31426fab",
+          "target_port": "node_fx_encoder_conditioned_condition_projectio_31426fab:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_timestep_embedding_projection_2_6__75e7fcfe"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_timestep_embedding_projection_8a08e3aa",
+      "kind": "data",
+      "label": "",
+      "source": "module_timestep_embedding_projection_2_0de51f47",
+      "source_port": "module_timestep_embedding_projection_2_0de51f47:output:binding_node_fx_timestep_embedding_projection_2_6__39e2a0f9",
+      "target": "module_encoder_conditioned_condition_projection_129bf618",
+      "target_port": "module_encoder_conditioned_condition_projection_129bf618:input:binding_node_fx_encoder_conditioned_condition_proj_1e4da0b4",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_encoder_conditioned_condition_projectio_31426fab",
+          "source_port": "node_fx_encoder_conditioned_condition_projectio_31426fab:output:0",
+          "target_node": "node_fx_getitem_10_957ae78a",
+          "target_port": "node_fx_getitem_10_957ae78a:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_encoder_conditioned_condition_proj_7703cfb5"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_encoder_conditioned_condition_039aef64",
+      "kind": "data",
+      "label": "",
+      "source": "module_encoder_conditioned_condition_projection_129bf618",
+      "source_port": "module_encoder_conditioned_condition_projection_129bf618:output:binding_node_fx_encoder_conditioned_condition_proj_52317433",
+      "target": "node_fx_getitem_10_957ae78a",
+      "target_port": "node_fx_getitem_10_957ae78a:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_encoder_conditioned_conv1_8_9e007438",
+          "source_port": "node_fx_encoder_conditioned_conv1_8_9e007438:output:0",
+          "target_node": "node_fx_add_11_b7b1b6d4",
+          "target_port": "node_fx_add_11_b7b1b6d4:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_encoder_conditioned_conv1_8_9e0074_a270d558"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_encoder_conditioned_conv1_8_9_9039a6e0",
+      "kind": "data",
+      "label": "",
+      "source": "module_encoder_conditioned_conv1_9c5365b1",
+      "source_port": "module_encoder_conditioned_conv1_9c5365b1:output:binding_node_fx_encoder_conditioned_conv1_8_9e0074_9f4ea8da",
+      "target": "node_fx_add_11_b7b1b6d4",
+      "target_port": "node_fx_add_11_b7b1b6d4:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_getitem_10_957ae78a",
+          "source_port": "node_fx_getitem_10_957ae78a:output:0",
+          "target_node": "node_fx_add_11_b7b1b6d4",
+          "target_port": "node_fx_add_11_b7b1b6d4:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_getitem_10_957ae78a_node_fx_getite_121d5321"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_224c21f0",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_getitem_10_957ae78a",
+      "source_port": "node_fx_getitem_10_957ae78a:output:0",
+      "target": "node_fx_add_11_b7b1b6d4",
+      "target_port": "node_fx_add_11_b7b1b6d4:input:1",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          1,
+          1
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_add_11_b7b1b6d4",
+          "source_port": "node_fx_add_11_b7b1b6d4:output:0",
+          "target_node": "node_fx_silu_12_e44a2ce5",
+          "target_port": "node_fx_silu_12_e44a2ce5:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_add_11_b7b1b6d4_node_fx_add_11_b7b_781ff8c3"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_add_11_b7b1b6d4_node_fx_add_1_20889d96",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_add_11_b7b1b6d4",
+      "source_port": "node_fx_add_11_b7b1b6d4:output:0",
+      "target": "node_fx_silu_12_e44a2ce5",
+      "target_port": "node_fx_silu_12_e44a2ce5:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_silu_12_e44a2ce5",
+          "source_port": "node_fx_silu_12_e44a2ce5:output:0",
+          "target_node": "node_fx_encoder_conditioned_conv2_13_2abac7f9",
+          "target_port": "node_fx_encoder_conditioned_conv2_13_2abac7f9:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_silu_12_e44a2ce5_node_fx_silu_12_e_452ce522"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_silu_12_e44a2ce5_node_fx_silu_e3093b4d",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_silu_12_e44a2ce5",
+      "source_port": "node_fx_silu_12_e44a2ce5:output:0",
+      "target": "module_encoder_conditioned_conv2_c0881b7b",
+      "target_port": "module_encoder_conditioned_conv2_c0881b7b:input:binding_node_fx_encoder_conditioned_conv2_13_2abac_8ad4800f",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_encoder_input_7_7f824e7b",
+          "source_port": "node_fx_encoder_input_7_7f824e7b:output:0",
+          "target_node": "node_fx_add_1_14_7f14391f",
+          "target_port": "node_fx_add_1_14_7f14391f:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_encoder_input_7_7f824e7b_node_fx_e_8e95c6a9"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_encoder_input_7_7f824e7b_node_760b9ddd",
+      "kind": "data",
+      "label": "",
+      "source": "module_encoder_input_9ff93bee",
+      "source_port": "module_encoder_input_9ff93bee:output:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_6f8846b5",
+      "target": "node_fx_add_1_14_7f14391f",
+      "target_port": "node_fx_add_1_14_7f14391f:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_encoder_conditioned_conv2_13_2abac7f9",
+          "source_port": "node_fx_encoder_conditioned_conv2_13_2abac7f9:output:0",
+          "target_node": "node_fx_add_1_14_7f14391f",
+          "target_port": "node_fx_add_1_14_7f14391f:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_encoder_conditioned_conv2_13_2abac_a81c52f0"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_encoder_conditioned_conv2_13__4cf9833b",
+      "kind": "data",
+      "label": "",
+      "source": "module_encoder_conditioned_conv2_c0881b7b",
+      "source_port": "module_encoder_conditioned_conv2_c0881b7b:output:binding_node_fx_encoder_conditioned_conv2_13_2abac_f24a02a8",
+      "target": "node_fx_add_1_14_7f14391f",
+      "target_port": "node_fx_add_1_14_7f14391f:input:1",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_add_1_14_7f14391f",
+          "source_port": "node_fx_add_1_14_7f14391f:output:0",
+          "target_node": "node_fx_downsample_15_bd951e05",
+          "target_port": "node_fx_downsample_15_bd951e05:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_add_1_14_7f14391f_node_fx_add_1_14_e277a419"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_add_1_14_7f14391f_node_fx_add_6e17f1d3",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_add_1_14_7f14391f",
+      "source_port": "node_fx_add_1_14_7f14391f:output:0",
+      "target": "module_downsample_fce0c560",
+      "target_port": "module_downsample_fce0c560:input:binding_node_fx_downsample_15_bd951e05_node_fx_dow_aa9fb7bf",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_downsample_15_bd951e05",
+          "source_port": "node_fx_downsample_15_bd951e05:output:0",
+          "target_node": "node_fx_bottleneck_16_d2370ead",
+          "target_port": "node_fx_bottleneck_16_d2370ead:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_downsample_15_bd951e05_node_fx_dow_908128bf"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_downsample_15_bd951e05_node_f_64d4651f",
+      "kind": "data",
+      "label": "",
+      "source": "module_downsample_fce0c560",
+      "source_port": "module_downsample_fce0c560:output:binding_node_fx_downsample_15_bd951e05_node_fx_dow_e28b4282",
+      "target": "module_bottleneck_d9c36240",
+      "target_port": "module_bottleneck_d9c36240:input:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_5ffee9d0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64,
+          16,
+          16
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_timestep_embedding_projection_2_6_c540abd7",
+          "source_port": "node_fx_timestep_embedding_projection_2_6_c540abd7:output:0",
+          "target_node": "node_fx_bottleneck_condition_17_843d3e6f",
+          "target_port": "node_fx_bottleneck_condition_17_843d3e6f:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_timestep_embedding_projection_2_6__d601e117"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_timestep_embedding_projection_529450a5",
+      "kind": "data",
+      "label": "",
+      "source": "module_timestep_embedding_projection_2_0de51f47",
+      "source_port": "module_timestep_embedding_projection_2_0de51f47:output:binding_node_fx_timestep_embedding_projection_2_6__39e2a0f9",
+      "target": "module_bottleneck_condition_7e0ff984",
+      "target_port": "module_bottleneck_condition_7e0ff984:input:binding_node_fx_bottleneck_condition_17_843d3e6f_n_20aeb2af",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_bottleneck_condition_17_843d3e6f",
+          "source_port": "node_fx_bottleneck_condition_17_843d3e6f:output:0",
+          "target_node": "node_fx_getitem_1_18_16efded9",
+          "target_port": "node_fx_getitem_1_18_16efded9:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_bottleneck_condition_17_843d3e6f_n_8b64b7ea"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_bottleneck_condition_17_843d3_52ae709d",
+      "kind": "data",
+      "label": "",
+      "source": "module_bottleneck_condition_7e0ff984",
+      "source_port": "module_bottleneck_condition_7e0ff984:output:binding_node_fx_bottleneck_condition_17_843d3e6f_n_8391516e",
+      "target": "node_fx_getitem_1_18_16efded9",
+      "target_port": "node_fx_getitem_1_18_16efded9:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_bottleneck_16_d2370ead",
+          "source_port": "node_fx_bottleneck_16_d2370ead:output:0",
+          "target_node": "node_fx_add_2_19_cd19cadb",
+          "target_port": "node_fx_add_2_19_cd19cadb:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_bottleneck_16_d2370ead_node_fx_bot_d9625e7b"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_bottleneck_16_d2370ead_node_f_1525caf6",
+      "kind": "data",
+      "label": "",
+      "source": "module_bottleneck_d9c36240",
+      "source_port": "module_bottleneck_d9c36240:output:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_524a743f",
+      "target": "node_fx_add_2_19_cd19cadb",
+      "target_port": "node_fx_add_2_19_cd19cadb:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64,
+          16,
+          16
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_getitem_1_18_16efded9",
+          "source_port": "node_fx_getitem_1_18_16efded9:output:0",
+          "target_node": "node_fx_add_2_19_cd19cadb",
+          "target_port": "node_fx_add_2_19_cd19cadb:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_getitem_1_18_16efded9_node_fx_geti_49fa333f"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_getitem_1_18_16efded9_node_fx_f0858e82",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_getitem_1_18_16efded9",
+      "source_port": "node_fx_getitem_1_18_16efded9:output:0",
+      "target": "node_fx_add_2_19_cd19cadb",
+      "target_port": "node_fx_add_2_19_cd19cadb:input:1",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64,
+          1,
+          1
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_add_2_19_cd19cadb",
+          "source_port": "node_fx_add_2_19_cd19cadb:output:0",
+          "target_node": "node_fx_silu_1_20_0560e3e3",
+          "target_port": "node_fx_silu_1_20_0560e3e3:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_add_2_19_cd19cadb_node_fx_add_2_19_0b2dfbdc"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_add_2_19_cd19cadb_node_fx_add_3bde935a",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_add_2_19_cd19cadb",
+      "source_port": "node_fx_add_2_19_cd19cadb:output:0",
+      "target": "node_fx_silu_1_20_0560e3e3",
+      "target_port": "node_fx_silu_1_20_0560e3e3:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64,
+          16,
+          16
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_silu_1_20_0560e3e3",
+          "source_port": "node_fx_silu_1_20_0560e3e3:output:0",
+          "target_node": "node_fx_upsample_21_2366b36c",
+          "target_port": "node_fx_upsample_21_2366b36c:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_silu_1_20_0560e3e3_node_fx_silu_1__60d7cb90"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_silu_1_20_0560e3e3_node_fx_si_269b0647",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_silu_1_20_0560e3e3",
+      "source_port": "node_fx_silu_1_20_0560e3e3:output:0",
+      "target": "module_upsample_293c8e40",
+      "target_port": "module_upsample_293c8e40:input:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_4d3d52fe",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64,
+          16,
+          16
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_upsample_21_2366b36c",
+          "source_port": "node_fx_upsample_21_2366b36c:output:0",
+          "target_node": "node_fx_add_3_22_17489669",
+          "target_port": "node_fx_add_3_22_17489669:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_upsample_21_2366b36c_node_fx_upsam_528a1f4e"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_upsample_21_2366b36c_node_fx__17fa7bfc",
+      "kind": "data",
+      "label": "",
+      "source": "module_upsample_293c8e40",
+      "source_port": "module_upsample_293c8e40:output:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_30ac560c",
+      "target": "node_fx_add_3_22_17489669",
+      "target_port": "node_fx_add_3_22_17489669:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_add_1_14_7f14391f",
+          "source_port": "node_fx_add_1_14_7f14391f:output:0",
+          "target_node": "node_fx_add_3_22_17489669",
+          "target_port": "node_fx_add_3_22_17489669:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_add_1_14_7f14391f_node_fx_add_1_14_1287b44e"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_add_1_14_7f14391f_node_fx_add_efbffefd",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_add_1_14_7f14391f",
+      "source_port": "node_fx_add_1_14_7f14391f:output:0",
+      "target": "node_fx_add_3_22_17489669",
+      "target_port": "node_fx_add_3_22_17489669:input:1",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_add_3_22_17489669",
+          "source_port": "node_fx_add_3_22_17489669:output:0",
+          "target_node": "node_fx_decoder_conditioned_conv1_23_24ce42f8",
+          "target_port": "node_fx_decoder_conditioned_conv1_23_24ce42f8:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_add_3_22_17489669_node_fx_add_3_22_604ab627"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_add_3_22_17489669_node_fx_add_475bdaa5",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_add_3_22_17489669",
+      "source_port": "node_fx_add_3_22_17489669:output:0",
+      "target": "module_decoder_conditioned_conv1_a8c0b742",
+      "target_port": "module_decoder_conditioned_conv1_a8c0b742:input:binding_node_fx_decoder_conditioned_conv1_23_24ce4_57117f50",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_timestep_embedding_projection_2_6_c540abd7",
+          "source_port": "node_fx_timestep_embedding_projection_2_6_c540abd7:output:0",
+          "target_node": "node_fx_decoder_conditioned_condition_projectio_589a9108",
+          "target_port": "node_fx_decoder_conditioned_condition_projectio_589a9108:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_timestep_embedding_projection_2_6__ead29e4e"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_timestep_embedding_projection_6200deee",
+      "kind": "data",
+      "label": "",
+      "source": "module_timestep_embedding_projection_2_0de51f47",
+      "source_port": "module_timestep_embedding_projection_2_0de51f47:output:binding_node_fx_timestep_embedding_projection_2_6__39e2a0f9",
+      "target": "module_decoder_conditioned_condition_projection_3bace9b7",
+      "target_port": "module_decoder_conditioned_condition_projection_3bace9b7:input:binding_node_fx_decoder_conditioned_condition_proj_7e01b986",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_decoder_conditioned_condition_projectio_589a9108",
+          "source_port": "node_fx_decoder_conditioned_condition_projectio_589a9108:output:0",
+          "target_node": "node_fx_getitem_2_25_18c74721",
+          "target_port": "node_fx_getitem_2_25_18c74721:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_decoder_conditioned_condition_proj_dd50cec7"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_decoder_conditioned_condition_f3f92429",
+      "kind": "data",
+      "label": "",
+      "source": "module_decoder_conditioned_condition_projection_3bace9b7",
+      "source_port": "module_decoder_conditioned_condition_projection_3bace9b7:output:binding_node_fx_decoder_conditioned_condition_proj_1500dbeb",
+      "target": "node_fx_getitem_2_25_18c74721",
+      "target_port": "node_fx_getitem_2_25_18c74721:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_decoder_conditioned_conv1_23_24ce42f8",
+          "source_port": "node_fx_decoder_conditioned_conv1_23_24ce42f8:output:0",
+          "target_node": "node_fx_add_4_26_e488c814",
+          "target_port": "node_fx_add_4_26_e488c814:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_decoder_conditioned_conv1_23_24ce4_8eed6546"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_decoder_conditioned_conv1_23__8d740071",
+      "kind": "data",
+      "label": "",
+      "source": "module_decoder_conditioned_conv1_a8c0b742",
+      "source_port": "module_decoder_conditioned_conv1_a8c0b742:output:binding_node_fx_decoder_conditioned_conv1_23_24ce4_7a570bcf",
+      "target": "node_fx_add_4_26_e488c814",
+      "target_port": "node_fx_add_4_26_e488c814:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_getitem_2_25_18c74721",
+          "source_port": "node_fx_getitem_2_25_18c74721:output:0",
+          "target_node": "node_fx_add_4_26_e488c814",
+          "target_port": "node_fx_add_4_26_e488c814:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_getitem_2_25_18c74721_node_fx_geti_5c6bf47b"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_getitem_2_25_18c74721_node_fx_d5f11ecf",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_getitem_2_25_18c74721",
+      "source_port": "node_fx_getitem_2_25_18c74721:output:0",
+      "target": "node_fx_add_4_26_e488c814",
+      "target_port": "node_fx_add_4_26_e488c814:input:1",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          1,
+          1
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_add_4_26_e488c814",
+          "source_port": "node_fx_add_4_26_e488c814:output:0",
+          "target_node": "node_fx_silu_2_27_7a2864a4",
+          "target_port": "node_fx_silu_2_27_7a2864a4:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_add_4_26_e488c814_node_fx_add_4_26_19703f5a"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_add_4_26_e488c814_node_fx_add_17681f65",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_add_4_26_e488c814",
+      "source_port": "node_fx_add_4_26_e488c814:output:0",
+      "target": "node_fx_silu_2_27_7a2864a4",
+      "target_port": "node_fx_silu_2_27_7a2864a4:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_silu_2_27_7a2864a4",
+          "source_port": "node_fx_silu_2_27_7a2864a4:output:0",
+          "target_node": "node_fx_decoder_conditioned_conv2_28_79094aa0",
+          "target_port": "node_fx_decoder_conditioned_conv2_28_79094aa0:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_silu_2_27_7a2864a4_node_fx_silu_2__0b1d3159"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_silu_2_27_7a2864a4_node_fx_si_c9949b11",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_silu_2_27_7a2864a4",
+      "source_port": "node_fx_silu_2_27_7a2864a4:output:0",
+      "target": "module_decoder_conditioned_conv2_1a0b3a3d",
+      "target_port": "module_decoder_conditioned_conv2_1a0b3a3d:input:binding_node_fx_decoder_conditioned_conv2_28_79094_b1335344",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_add_3_22_17489669",
+          "source_port": "node_fx_add_3_22_17489669:output:0",
+          "target_node": "node_fx_add_5_29_76722979",
+          "target_port": "node_fx_add_5_29_76722979:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_add_3_22_17489669_node_fx_add_3_22_484fdbbf"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_add_3_22_17489669_node_fx_add_3de242ee",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_add_3_22_17489669",
+      "source_port": "node_fx_add_3_22_17489669:output:0",
+      "target": "node_fx_add_5_29_76722979",
+      "target_port": "node_fx_add_5_29_76722979:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_decoder_conditioned_conv2_28_79094aa0",
+          "source_port": "node_fx_decoder_conditioned_conv2_28_79094aa0:output:0",
+          "target_node": "node_fx_add_5_29_76722979",
+          "target_port": "node_fx_add_5_29_76722979:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_decoder_conditioned_conv2_28_79094_4d8da52e"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_decoder_conditioned_conv2_28__cb175873",
+      "kind": "data",
+      "label": "",
+      "source": "module_decoder_conditioned_conv2_1a0b3a3d",
+      "source_port": "module_decoder_conditioned_conv2_1a0b3a3d:output:binding_node_fx_decoder_conditioned_conv2_28_79094_4b079290",
+      "target": "node_fx_add_5_29_76722979",
+      "target_port": "node_fx_add_5_29_76722979:input:1",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_add_5_29_76722979",
+          "source_port": "node_fx_add_5_29_76722979:output:0",
+          "target_node": "node_fx_denoised_output_30_8a0d5da9",
+          "target_port": "node_fx_denoised_output_30_8a0d5da9:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_add_5_29_76722979_node_fx_add_5_29_fb653ea4"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_add_5_29_76722979_node_fx_add_4fce56c3",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_add_5_29_76722979",
+      "source_port": "node_fx_add_5_29_76722979:output:0",
+      "target": "module_denoised_output_91b07b8b",
+      "target_port": "module_denoised_output_91b07b8b:input:binding_node_fx_denoised_output_30_8a0d5da9_node_f_771ca5cc",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_denoised_output_30_8a0d5da9",
+          "source_port": "node_fx_denoised_output_30_8a0d5da9:output:0",
+          "target_node": "node_fx_output_31_1e7f4585",
+          "target_port": "node_fx_output_31_1e7f4585:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_denoised_output_30_8a0d5da9_node_f_fafe4076"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_denoised_output_30_8a0d5da9_n_2d42a6cd",
+      "kind": "data",
+      "label": "",
+      "source": "module_denoised_output_91b07b8b",
+      "source_port": "module_denoised_output_91b07b8b:output:binding_node_fx_denoised_output_30_8a0d5da9_node_f_e3759d56",
+      "target": "node_fx_output_31_1e7f4585",
+      "target_port": "node_fx_output_31_1e7f4585:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    }
+  ],
+  "inputs": [
+    {
+      "dtype": "float32",
+      "dynamic_axes": {},
+      "name": "noisy_latent",
+      "semantic": null,
+      "shape": [
+        1,
+        4,
+        32,
+        32
+      ],
+      "size_bytes": null
+    },
+    {
+      "dtype": "float32",
+      "dynamic_axes": {},
+      "name": "timestep",
+      "semantic": null,
+      "shape": [
+        1
+      ],
+      "size_bytes": null
+    }
+  ],
+  "ir_version": "1.0",
+  "metadata": {
+    "corpus_key": "diffusion_unet",
+    "corpus_version": "1.0",
+    "graph_view": "module",
+    "model_class": "_diffusion_unet.<locals>.DiffusionUNet",
+    "model_family": "diffusion",
+    "parameter_total": 147236,
+    "random_seed": 4005,
+    "sample_input": "float32[1,4,32,32] + float32[1] timestep",
+    "shared_parameters": {},
+    "source_format": "pytorch_fx",
+    "source_operation_nodes": 32,
+    "trainable_parameter_total": 147236,
+    "weights": "random-initialization; no downloaded weights"
+  },
+  "name": "DiffusionUNet · Module",
+  "nodes": [
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_bottleneck_16_d2370ead"
+        ],
+        "port_bindings": {
+          "module_bottleneck_d9c36240:input:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_5ffee9d0": {
+            "operation_node": "node_fx_bottleneck_16_d2370ead",
+            "operation_port": "node_fx_bottleneck_16_d2370ead:input:0",
+            "source_edge": "edge_node_fx_downsample_15_bd951e05_node_fx_dow_908128bf"
+          },
+          "module_bottleneck_d9c36240:output:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_524a743f": {
+            "operation_node": "node_fx_bottleneck_16_d2370ead",
+            "operation_port": "node_fx_bottleneck_16_d2370ead:output:0",
+            "source_edge": "edge_node_fx_bottleneck_16_d2370ead_node_fx_bot_d9625e7b"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_bottleneck_d9c36240",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_bottleneck_d9c36240:input:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_5ffee9d0",
+          "name": "downsample",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "bottleneck",
+      "namespace": "",
+      "op_type": "Conv2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_bottleneck_d9c36240:output:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_524a743f",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 36928,
+      "parent": null,
+      "path": "bottleneck",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_bottleneck_16_d2370ead"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 36928,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_bottleneck_condition_17_843d3e6f"
+        ],
+        "port_bindings": {
+          "module_bottleneck_condition_7e0ff984:input:binding_node_fx_bottleneck_condition_17_843d3e6f_n_20aeb2af": {
+            "operation_node": "node_fx_bottleneck_condition_17_843d3e6f",
+            "operation_port": "node_fx_bottleneck_condition_17_843d3e6f:input:0",
+            "source_edge": "edge_node_fx_timestep_embedding_projection_2_6__d601e117"
+          },
+          "module_bottleneck_condition_7e0ff984:output:binding_node_fx_bottleneck_condition_17_843d3e6f_n_8391516e": {
+            "operation_node": "node_fx_bottleneck_condition_17_843d3e6f",
+            "operation_port": "node_fx_bottleneck_condition_17_843d3e6f:output:0",
+            "source_edge": "edge_node_fx_bottleneck_condition_17_843d3e6f_n_8b64b7ea"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "linear",
+      "id": "module_bottleneck_condition_7e0ff984",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_bottleneck_condition_7e0ff984:input:binding_node_fx_bottleneck_condition_17_843d3e6f_n_20aeb2af",
+          "name": "timestep_embedding_projection_2",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "bottleneck_condition",
+      "namespace": "",
+      "op_type": "Linear",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_bottleneck_condition_7e0ff984:output:binding_node_fx_bottleneck_condition_17_843d3e6f_n_8391516e",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 2112,
+      "parent": null,
+      "path": "bottleneck_condition",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_bottleneck_condition_17_843d3e6f"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 2112,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_decoder_conditioned_condition_projectio_589a9108"
+        ],
+        "port_bindings": {
+          "module_decoder_conditioned_condition_projection_3bace9b7:input:binding_node_fx_decoder_conditioned_condition_proj_7e01b986": {
+            "operation_node": "node_fx_decoder_conditioned_condition_projectio_589a9108",
+            "operation_port": "node_fx_decoder_conditioned_condition_projectio_589a9108:input:0",
+            "source_edge": "edge_node_fx_timestep_embedding_projection_2_6__ead29e4e"
+          },
+          "module_decoder_conditioned_condition_projection_3bace9b7:output:binding_node_fx_decoder_conditioned_condition_proj_1500dbeb": {
+            "operation_node": "node_fx_decoder_conditioned_condition_projectio_589a9108",
+            "operation_port": "node_fx_decoder_conditioned_condition_projectio_589a9108:output:0",
+            "source_edge": "edge_node_fx_decoder_conditioned_condition_proj_dd50cec7"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "linear",
+      "id": "module_decoder_conditioned_condition_projection_3bace9b7",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_decoder_conditioned_condition_projection_3bace9b7:input:binding_node_fx_decoder_conditioned_condition_proj_7e01b986",
+          "name": "timestep_embedding_projection_2",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "condition_projection",
+      "namespace": "decoder_conditioned",
+      "op_type": "Linear",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_decoder_conditioned_condition_projection_3bace9b7:output:binding_node_fx_decoder_conditioned_condition_proj_1500dbeb",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 1056,
+      "parent": null,
+      "path": "decoder_conditioned.condition_projection",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_decoder_conditioned_condition_projectio_589a9108"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 1056,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_decoder_conditioned_conv1_23_24ce42f8"
+        ],
+        "port_bindings": {
+          "module_decoder_conditioned_conv1_a8c0b742:input:binding_node_fx_decoder_conditioned_conv1_23_24ce4_57117f50": {
+            "operation_node": "node_fx_decoder_conditioned_conv1_23_24ce42f8",
+            "operation_port": "node_fx_decoder_conditioned_conv1_23_24ce42f8:input:0",
+            "source_edge": "edge_node_fx_add_3_22_17489669_node_fx_add_3_22_604ab627"
+          },
+          "module_decoder_conditioned_conv1_a8c0b742:output:binding_node_fx_decoder_conditioned_conv1_23_24ce4_7a570bcf": {
+            "operation_node": "node_fx_decoder_conditioned_conv1_23_24ce42f8",
+            "operation_port": "node_fx_decoder_conditioned_conv1_23_24ce42f8:output:0",
+            "source_edge": "edge_node_fx_decoder_conditioned_conv1_23_24ce4_8eed6546"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_decoder_conditioned_conv1_a8c0b742",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_decoder_conditioned_conv1_a8c0b742:input:binding_node_fx_decoder_conditioned_conv1_23_24ce4_57117f50",
+          "name": "add_3",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "conv1",
+      "namespace": "decoder_conditioned",
+      "op_type": "Conv2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_decoder_conditioned_conv1_a8c0b742:output:binding_node_fx_decoder_conditioned_conv1_23_24ce4_7a570bcf",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 9248,
+      "parent": null,
+      "path": "decoder_conditioned.conv1",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_decoder_conditioned_conv1_23_24ce42f8"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 9248,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_decoder_conditioned_conv2_28_79094aa0"
+        ],
+        "port_bindings": {
+          "module_decoder_conditioned_conv2_1a0b3a3d:input:binding_node_fx_decoder_conditioned_conv2_28_79094_b1335344": {
+            "operation_node": "node_fx_decoder_conditioned_conv2_28_79094aa0",
+            "operation_port": "node_fx_decoder_conditioned_conv2_28_79094aa0:input:0",
+            "source_edge": "edge_node_fx_silu_2_27_7a2864a4_node_fx_silu_2__0b1d3159"
+          },
+          "module_decoder_conditioned_conv2_1a0b3a3d:output:binding_node_fx_decoder_conditioned_conv2_28_79094_4b079290": {
+            "operation_node": "node_fx_decoder_conditioned_conv2_28_79094aa0",
+            "operation_port": "node_fx_decoder_conditioned_conv2_28_79094aa0:output:0",
+            "source_edge": "edge_node_fx_decoder_conditioned_conv2_28_79094_4d8da52e"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_decoder_conditioned_conv2_1a0b3a3d",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_decoder_conditioned_conv2_1a0b3a3d:input:binding_node_fx_decoder_conditioned_conv2_28_79094_b1335344",
+          "name": "silu_2",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "conv2",
+      "namespace": "decoder_conditioned",
+      "op_type": "Conv2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_decoder_conditioned_conv2_1a0b3a3d:output:binding_node_fx_decoder_conditioned_conv2_28_79094_4b079290",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 9248,
+      "parent": null,
+      "path": "decoder_conditioned.conv2",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_decoder_conditioned_conv2_28_79094aa0"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 9248,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_denoised_output_30_8a0d5da9"
+        ],
+        "port_bindings": {
+          "module_denoised_output_91b07b8b:input:binding_node_fx_denoised_output_30_8a0d5da9_node_f_771ca5cc": {
+            "operation_node": "node_fx_denoised_output_30_8a0d5da9",
+            "operation_port": "node_fx_denoised_output_30_8a0d5da9:input:0",
+            "source_edge": "edge_node_fx_add_5_29_76722979_node_fx_add_5_29_fb653ea4"
+          },
+          "module_denoised_output_91b07b8b:output:binding_node_fx_denoised_output_30_8a0d5da9_node_f_e3759d56": {
+            "operation_node": "node_fx_denoised_output_30_8a0d5da9",
+            "operation_port": "node_fx_denoised_output_30_8a0d5da9:output:0",
+            "source_edge": "edge_node_fx_denoised_output_30_8a0d5da9_node_f_fafe4076"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_denoised_output_91b07b8b",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_denoised_output_91b07b8b:input:binding_node_fx_denoised_output_30_8a0d5da9_node_f_771ca5cc",
+          "name": "add_5",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "denoised_output",
+      "namespace": "",
+      "op_type": "Conv2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_denoised_output_91b07b8b:output:binding_node_fx_denoised_output_30_8a0d5da9_node_f_e3759d56",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              4,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 1156,
+      "parent": null,
+      "path": "denoised_output",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_denoised_output_30_8a0d5da9"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 1156,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_downsample_15_bd951e05"
+        ],
+        "port_bindings": {
+          "module_downsample_fce0c560:input:binding_node_fx_downsample_15_bd951e05_node_fx_dow_aa9fb7bf": {
+            "operation_node": "node_fx_downsample_15_bd951e05",
+            "operation_port": "node_fx_downsample_15_bd951e05:input:0",
+            "source_edge": "edge_node_fx_add_1_14_7f14391f_node_fx_add_1_14_e277a419"
+          },
+          "module_downsample_fce0c560:output:binding_node_fx_downsample_15_bd951e05_node_fx_dow_e28b4282": {
+            "operation_node": "node_fx_downsample_15_bd951e05",
+            "operation_port": "node_fx_downsample_15_bd951e05:output:0",
+            "source_edge": "edge_node_fx_downsample_15_bd951e05_node_fx_dow_908128bf"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_downsample_fce0c560",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_downsample_fce0c560:input:binding_node_fx_downsample_15_bd951e05_node_fx_dow_aa9fb7bf",
+          "name": "add_1",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "downsample",
+      "namespace": "",
+      "op_type": "Conv2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_downsample_fce0c560:output:binding_node_fx_downsample_15_bd951e05_node_fx_dow_e28b4282",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 32832,
+      "parent": null,
+      "path": "downsample",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_downsample_15_bd951e05"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 32832,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_encoder_conditioned_condition_projectio_31426fab"
+        ],
+        "port_bindings": {
+          "module_encoder_conditioned_condition_projection_129bf618:input:binding_node_fx_encoder_conditioned_condition_proj_1e4da0b4": {
+            "operation_node": "node_fx_encoder_conditioned_condition_projectio_31426fab",
+            "operation_port": "node_fx_encoder_conditioned_condition_projectio_31426fab:input:0",
+            "source_edge": "edge_node_fx_timestep_embedding_projection_2_6__75e7fcfe"
+          },
+          "module_encoder_conditioned_condition_projection_129bf618:output:binding_node_fx_encoder_conditioned_condition_proj_52317433": {
+            "operation_node": "node_fx_encoder_conditioned_condition_projectio_31426fab",
+            "operation_port": "node_fx_encoder_conditioned_condition_projectio_31426fab:output:0",
+            "source_edge": "edge_node_fx_encoder_conditioned_condition_proj_7703cfb5"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "linear",
+      "id": "module_encoder_conditioned_condition_projection_129bf618",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_encoder_conditioned_condition_projection_129bf618:input:binding_node_fx_encoder_conditioned_condition_proj_1e4da0b4",
+          "name": "timestep_embedding_projection_2",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "condition_projection",
+      "namespace": "encoder_conditioned",
+      "op_type": "Linear",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_encoder_conditioned_condition_projection_129bf618:output:binding_node_fx_encoder_conditioned_condition_proj_52317433",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 1056,
+      "parent": null,
+      "path": "encoder_conditioned.condition_projection",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_encoder_conditioned_condition_projectio_31426fab"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 1056,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_encoder_conditioned_conv1_8_9e007438"
+        ],
+        "port_bindings": {
+          "module_encoder_conditioned_conv1_9c5365b1:input:binding_node_fx_encoder_conditioned_conv1_8_9e0074_95fa957b": {
+            "operation_node": "node_fx_encoder_conditioned_conv1_8_9e007438",
+            "operation_port": "node_fx_encoder_conditioned_conv1_8_9e007438:input:0",
+            "source_edge": "edge_node_fx_encoder_input_7_7f824e7b_node_fx_e_ab89de01"
+          },
+          "module_encoder_conditioned_conv1_9c5365b1:output:binding_node_fx_encoder_conditioned_conv1_8_9e0074_9f4ea8da": {
+            "operation_node": "node_fx_encoder_conditioned_conv1_8_9e007438",
+            "operation_port": "node_fx_encoder_conditioned_conv1_8_9e007438:output:0",
+            "source_edge": "edge_node_fx_encoder_conditioned_conv1_8_9e0074_a270d558"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_encoder_conditioned_conv1_9c5365b1",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_encoder_conditioned_conv1_9c5365b1:input:binding_node_fx_encoder_conditioned_conv1_8_9e0074_95fa957b",
+          "name": "encoder_input",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "conv1",
+      "namespace": "encoder_conditioned",
+      "op_type": "Conv2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_encoder_conditioned_conv1_9c5365b1:output:binding_node_fx_encoder_conditioned_conv1_8_9e0074_9f4ea8da",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 9248,
+      "parent": null,
+      "path": "encoder_conditioned.conv1",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_encoder_conditioned_conv1_8_9e007438"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 9248,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_encoder_conditioned_conv2_13_2abac7f9"
+        ],
+        "port_bindings": {
+          "module_encoder_conditioned_conv2_c0881b7b:input:binding_node_fx_encoder_conditioned_conv2_13_2abac_8ad4800f": {
+            "operation_node": "node_fx_encoder_conditioned_conv2_13_2abac7f9",
+            "operation_port": "node_fx_encoder_conditioned_conv2_13_2abac7f9:input:0",
+            "source_edge": "edge_node_fx_silu_12_e44a2ce5_node_fx_silu_12_e_452ce522"
+          },
+          "module_encoder_conditioned_conv2_c0881b7b:output:binding_node_fx_encoder_conditioned_conv2_13_2abac_f24a02a8": {
+            "operation_node": "node_fx_encoder_conditioned_conv2_13_2abac7f9",
+            "operation_port": "node_fx_encoder_conditioned_conv2_13_2abac7f9:output:0",
+            "source_edge": "edge_node_fx_encoder_conditioned_conv2_13_2abac_a81c52f0"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_encoder_conditioned_conv2_c0881b7b",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_encoder_conditioned_conv2_c0881b7b:input:binding_node_fx_encoder_conditioned_conv2_13_2abac_8ad4800f",
+          "name": "silu",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "conv2",
+      "namespace": "encoder_conditioned",
+      "op_type": "Conv2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_encoder_conditioned_conv2_c0881b7b:output:binding_node_fx_encoder_conditioned_conv2_13_2abac_f24a02a8",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 9248,
+      "parent": null,
+      "path": "encoder_conditioned.conv2",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_encoder_conditioned_conv2_13_2abac7f9"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 9248,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_encoder_input_7_7f824e7b"
+        ],
+        "port_bindings": {
+          "module_encoder_input_9ff93bee:input:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_8e11aeec": {
+            "operation_node": "node_fx_encoder_input_7_7f824e7b",
+            "operation_port": "node_fx_encoder_input_7_7f824e7b:input:0",
+            "source_edge": "edge_node_fx_noisy_latent_0_6bca5c91_node_fx_no_83460b18"
+          },
+          "module_encoder_input_9ff93bee:output:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_6f8846b5": {
+            "operation_node": "node_fx_encoder_input_7_7f824e7b",
+            "operation_port": "node_fx_encoder_input_7_7f824e7b:output:0",
+            "source_edge": "edge_node_fx_encoder_input_7_7f824e7b_node_fx_e_ab89de01"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_encoder_input_9ff93bee",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_encoder_input_9ff93bee:input:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_8e11aeec",
+          "name": "noisy_latent",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "noisy_latent",
+            "semantic": null,
+            "shape": [
+              1,
+              4,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "encoder_input",
+      "namespace": "",
+      "op_type": "Conv2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_encoder_input_9ff93bee:output:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_6f8846b5",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 1184,
+      "parent": null,
+      "path": "encoder_input",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_encoder_input_7_7f824e7b"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 1184,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_timestep_embedding_projection_0_4_2f1354aa"
+        ],
+        "port_bindings": {
+          "module_timestep_embedding_projection_0_151b9da2:input:binding_node_fx_timestep_embedding_projection_0_4__c1709a14": {
+            "operation_node": "node_fx_timestep_embedding_projection_0_4_2f1354aa",
+            "operation_port": "node_fx_timestep_embedding_projection_0_4_2f1354aa:input:0",
+            "source_edge": "edge_node_fx_float_1_3_cfe5efc3_node_fx_float_1_57d3701c"
+          },
+          "module_timestep_embedding_projection_0_151b9da2:output:binding_node_fx_timestep_embedding_projection_0_4__71c1bee0": {
+            "operation_node": "node_fx_timestep_embedding_projection_0_4_2f1354aa",
+            "operation_port": "node_fx_timestep_embedding_projection_0_4_2f1354aa:output:0",
+            "source_edge": "edge_node_fx_timestep_embedding_projection_0_4__a4d286e2"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "linear",
+      "id": "module_timestep_embedding_projection_0_151b9da2",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_timestep_embedding_projection_0_151b9da2:input:binding_node_fx_timestep_embedding_projection_0_4__c1709a14",
+          "name": "float_1",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "0",
+      "namespace": "timestep_embedding.projection",
+      "op_type": "Linear",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_timestep_embedding_projection_0_151b9da2:output:binding_node_fx_timestep_embedding_projection_0_4__71c1bee0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 64,
+      "parent": null,
+      "path": "timestep_embedding.projection.0",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_timestep_embedding_projection_0_4_2f1354aa"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 64,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_timestep_embedding_projection_1_5_d00d0c09"
+        ],
+        "port_bindings": {
+          "module_timestep_embedding_projection_1_2d221285:input:binding_node_fx_timestep_embedding_projection_1_5__d38f0257": {
+            "operation_node": "node_fx_timestep_embedding_projection_1_5_d00d0c09",
+            "operation_port": "node_fx_timestep_embedding_projection_1_5_d00d0c09:input:0",
+            "source_edge": "edge_node_fx_timestep_embedding_projection_0_4__a4d286e2"
+          },
+          "module_timestep_embedding_projection_1_2d221285:output:binding_node_fx_timestep_embedding_projection_1_5__54616c6e": {
+            "operation_node": "node_fx_timestep_embedding_projection_1_5_d00d0c09",
+            "operation_port": "node_fx_timestep_embedding_projection_1_5_d00d0c09:output:0",
+            "source_edge": "edge_node_fx_timestep_embedding_projection_1_5__329ca39d"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "module_timestep_embedding_projection_1_2d221285",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_timestep_embedding_projection_1_2d221285:input:binding_node_fx_timestep_embedding_projection_1_5__d38f0257",
+          "name": "timestep_embedding_projection_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "1",
+      "namespace": "timestep_embedding.projection",
+      "op_type": "SiLU",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_timestep_embedding_projection_1_2d221285:output:binding_node_fx_timestep_embedding_projection_1_5__54616c6e",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "timestep_embedding.projection.1",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_timestep_embedding_projection_1_5_d00d0c09"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_timestep_embedding_projection_2_6_c540abd7"
+        ],
+        "port_bindings": {
+          "module_timestep_embedding_projection_2_0de51f47:input:binding_node_fx_timestep_embedding_projection_2_6__a3558c98": {
+            "operation_node": "node_fx_timestep_embedding_projection_2_6_c540abd7",
+            "operation_port": "node_fx_timestep_embedding_projection_2_6_c540abd7:input:0",
+            "source_edge": "edge_node_fx_timestep_embedding_projection_1_5__329ca39d"
+          },
+          "module_timestep_embedding_projection_2_0de51f47:output:binding_node_fx_timestep_embedding_projection_2_6__39e2a0f9": {
+            "operation_node": "node_fx_timestep_embedding_projection_2_6_c540abd7",
+            "operation_port": "node_fx_timestep_embedding_projection_2_6_c540abd7:output:0",
+            "source_edge": "edge_node_fx_timestep_embedding_projection_2_6__75e7fcfe"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "linear",
+      "id": "module_timestep_embedding_projection_2_0de51f47",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_timestep_embedding_projection_2_0de51f47:input:binding_node_fx_timestep_embedding_projection_2_6__a3558c98",
+          "name": "timestep_embedding_projection_1",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "2",
+      "namespace": "timestep_embedding.projection",
+      "op_type": "Linear",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_timestep_embedding_projection_2_0de51f47:output:binding_node_fx_timestep_embedding_projection_2_6__39e2a0f9",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 1056,
+      "parent": null,
+      "path": "timestep_embedding.projection.2",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_timestep_embedding_projection_2_6_c540abd7"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 1056,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_upsample_21_2366b36c"
+        ],
+        "port_bindings": {
+          "module_upsample_293c8e40:input:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_4d3d52fe": {
+            "operation_node": "node_fx_upsample_21_2366b36c",
+            "operation_port": "node_fx_upsample_21_2366b36c:input:0",
+            "source_edge": "edge_node_fx_silu_1_20_0560e3e3_node_fx_silu_1__60d7cb90"
+          },
+          "module_upsample_293c8e40:output:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_30ac560c": {
+            "operation_node": "node_fx_upsample_21_2366b36c",
+            "operation_port": "node_fx_upsample_21_2366b36c:output:0",
+            "source_edge": "edge_node_fx_upsample_21_2366b36c_node_fx_upsam_528a1f4e"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_upsample_293c8e40",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_upsample_293c8e40:input:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_4d3d52fe",
+          "name": "silu_1",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "upsample",
+      "namespace": "",
+      "op_type": "ConvTranspose2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_upsample_293c8e40:output:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_30ac560c",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 32800,
+      "parent": null,
+      "path": "upsample",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_upsample_21_2366b36c"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 32800,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "placeholder",
+        "operation_ids": [
+          "node_fx_noisy_latent_0_6bca5c91"
+        ],
+        "target": "noisy_latent"
+      },
+      "buffers": 0,
+      "category": "input",
+      "id": "node_fx_noisy_latent_0_6bca5c91",
+      "inputs": [],
+      "level": "module",
+      "name": "noisy_latent",
+      "namespace": "",
+      "op_type": "Input",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_noisy_latent_0_6bca5c91:output:0",
+          "name": "noisy_latent",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "noisy_latent",
+            "semantic": null,
+            "shape": [
+              1,
+              4,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "noisy_latent",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 0
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "placeholder",
+        "operation_ids": [
+          "node_fx_timestep_1_f1517b44"
+        ],
+        "target": "timestep"
+      },
+      "buffers": 0,
+      "category": "input",
+      "id": "node_fx_timestep_1_f1517b44",
+      "inputs": [],
+      "level": "module",
+      "name": "timestep",
+      "namespace": "",
+      "op_type": "Input",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_timestep_1_f1517b44:output:0",
+          "name": "timestep",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "timestep",
+            "semantic": null,
+            "shape": [
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "timestep",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 1
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_method",
+        "operation_ids": [
+          "node_fx_reshape_2_036bcfe8"
+        ],
+        "target": "reshape"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_reshape_2_036bcfe8",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_reshape_2_036bcfe8:input:0",
+          "name": "timestep",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "timestep",
+            "semantic": null,
+            "shape": [
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "reshape",
+      "namespace": "",
+      "op_type": "reshape",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_reshape_2_036bcfe8:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "reshape",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 2
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_method",
+        "operation_ids": [
+          "node_fx_float_1_3_cfe5efc3"
+        ],
+        "target": "float"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_float_1_3_cfe5efc3",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_float_1_3_cfe5efc3:input:0",
+          "name": "reshape",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "float_1",
+      "namespace": "",
+      "op_type": "float",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_float_1_3_cfe5efc3:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "float",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 3
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_getitem_10_957ae78a"
+        ],
+        "target": "<built-in function getitem>"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_getitem_10_957ae78a",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_getitem_10_957ae78a:input:0",
+          "name": "encoder_conditioned_condition_projection",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "getitem",
+      "namespace": "",
+      "op_type": "<built-in function getitem>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_getitem_10_957ae78a:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function getitem>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 10
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_add_11_b7b1b6d4"
+        ],
+        "target": "<built-in function add>"
+      },
+      "buffers": 0,
+      "category": "merge",
+      "id": "node_fx_add_11_b7b1b6d4",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_add_11_b7b1b6d4:input:0",
+          "name": "encoder_conditioned_conv1",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "node_fx_add_11_b7b1b6d4:input:1",
+          "name": "getitem",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "add",
+      "namespace": "",
+      "op_type": "<built-in function add>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_add_11_b7b1b6d4:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function add>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 11
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_silu_12_e44a2ce5"
+        ],
+        "target": "<function silu at 0x77d41ff0b100>"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_silu_12_e44a2ce5",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_silu_12_e44a2ce5:input:0",
+          "name": "add",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "silu",
+      "namespace": "",
+      "op_type": "<function silu at 0x77d41ff0b100>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_silu_12_e44a2ce5:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<function silu at 0x77d41ff0b100>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 12
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_add_1_14_7f14391f"
+        ],
+        "target": "<built-in function add>"
+      },
+      "buffers": 0,
+      "category": "merge",
+      "id": "node_fx_add_1_14_7f14391f",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_add_1_14_7f14391f:input:0",
+          "name": "encoder_input",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "node_fx_add_1_14_7f14391f:input:1",
+          "name": "encoder_conditioned_conv2",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "add_1",
+      "namespace": "",
+      "op_type": "<built-in function add>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_add_1_14_7f14391f:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function add>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 14
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_getitem_1_18_16efded9"
+        ],
+        "target": "<built-in function getitem>"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_getitem_1_18_16efded9",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_getitem_1_18_16efded9:input:0",
+          "name": "bottleneck_condition",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "getitem_1",
+      "namespace": "",
+      "op_type": "<built-in function getitem>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_getitem_1_18_16efded9:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function getitem>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 18
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_add_2_19_cd19cadb"
+        ],
+        "target": "<built-in function add>"
+      },
+      "buffers": 0,
+      "category": "merge",
+      "id": "node_fx_add_2_19_cd19cadb",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_add_2_19_cd19cadb:input:0",
+          "name": "bottleneck",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "node_fx_add_2_19_cd19cadb:input:1",
+          "name": "getitem_1",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "add_2",
+      "namespace": "",
+      "op_type": "<built-in function add>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_add_2_19_cd19cadb:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function add>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 19
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_silu_1_20_0560e3e3"
+        ],
+        "target": "<function silu at 0x77d41ff0b100>"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_silu_1_20_0560e3e3",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_silu_1_20_0560e3e3:input:0",
+          "name": "add_2",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "silu_1",
+      "namespace": "",
+      "op_type": "<function silu at 0x77d41ff0b100>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_silu_1_20_0560e3e3:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<function silu at 0x77d41ff0b100>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 20
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_add_3_22_17489669"
+        ],
+        "target": "<built-in function add>"
+      },
+      "buffers": 0,
+      "category": "merge",
+      "id": "node_fx_add_3_22_17489669",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_add_3_22_17489669:input:0",
+          "name": "upsample",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "node_fx_add_3_22_17489669:input:1",
+          "name": "add_1",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "add_3",
+      "namespace": "",
+      "op_type": "<built-in function add>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_add_3_22_17489669:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function add>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 22
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_getitem_2_25_18c74721"
+        ],
+        "target": "<built-in function getitem>"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_getitem_2_25_18c74721",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_getitem_2_25_18c74721:input:0",
+          "name": "decoder_conditioned_condition_projection",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "getitem_2",
+      "namespace": "",
+      "op_type": "<built-in function getitem>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_getitem_2_25_18c74721:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function getitem>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 25
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_add_4_26_e488c814"
+        ],
+        "target": "<built-in function add>"
+      },
+      "buffers": 0,
+      "category": "merge",
+      "id": "node_fx_add_4_26_e488c814",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_add_4_26_e488c814:input:0",
+          "name": "decoder_conditioned_conv1",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "node_fx_add_4_26_e488c814:input:1",
+          "name": "getitem_2",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "add_4",
+      "namespace": "",
+      "op_type": "<built-in function add>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_add_4_26_e488c814:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function add>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 26
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_silu_2_27_7a2864a4"
+        ],
+        "target": "<function silu at 0x77d41ff0b100>"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_silu_2_27_7a2864a4",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_silu_2_27_7a2864a4:input:0",
+          "name": "add_4",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "silu_2",
+      "namespace": "",
+      "op_type": "<function silu at 0x77d41ff0b100>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_silu_2_27_7a2864a4:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<function silu at 0x77d41ff0b100>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 27
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_add_5_29_76722979"
+        ],
+        "target": "<built-in function add>"
+      },
+      "buffers": 0,
+      "category": "merge",
+      "id": "node_fx_add_5_29_76722979",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_add_5_29_76722979:input:0",
+          "name": "add_3",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "node_fx_add_5_29_76722979:input:1",
+          "name": "decoder_conditioned_conv2",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "add_5",
+      "namespace": "",
+      "op_type": "<built-in function add>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_add_5_29_76722979:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function add>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 29
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "output",
+        "operation_ids": [
+          "node_fx_output_31_1e7f4585"
+        ],
+        "target": "output"
+      },
+      "buffers": 0,
+      "category": "output",
+      "id": "node_fx_output_31_1e7f4585",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_output_31_1e7f4585:input:0",
+          "name": "denoised_output",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              4,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "output",
+      "namespace": "",
+      "op_type": "Output",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_output_31_1e7f4585:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              4,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "output",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 31
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    }
+  ],
+  "outputs": [
+    {
+      "dtype": "float32",
+      "dynamic_axes": {},
+      "name": "output_0",
+      "semantic": null,
+      "shape": [
+        1,
+        4,
+        32,
+        32
+      ],
+      "size_bytes": null
+    }
+  ],
+  "subgraphs": [
+    {
+      "attributes": {
+        "path": "decoder_conditioned"
+      },
+      "collapsed": false,
+      "id": "module_group_decoder_conditioned_9d862517",
+      "level": "module",
+      "locked": false,
+      "name": "decoder_conditioned",
+      "node_ids": [
+        "module_decoder_conditioned_condition_projection_3bace9b7",
+        "module_decoder_conditioned_conv1_a8c0b742",
+        "module_decoder_conditioned_conv2_1a0b3a3d"
+      ],
+      "parent": null
+    },
+    {
+      "attributes": {
+        "path": "encoder_conditioned"
+      },
+      "collapsed": false,
+      "id": "module_group_encoder_conditioned_86855084",
+      "level": "module",
+      "locked": false,
+      "name": "encoder_conditioned",
+      "node_ids": [
+        "module_encoder_conditioned_condition_projection_129bf618",
+        "module_encoder_conditioned_conv1_9c5365b1",
+        "module_encoder_conditioned_conv2_c0881b7b"
+      ],
+      "parent": null
+    },
+    {
+      "attributes": {
+        "path": "timestep_embedding.projection"
+      },
+      "collapsed": false,
+      "id": "module_group_timestep_embedding_projection_e839b1f9",
+      "level": "module",
+      "locked": false,
+      "name": "projection",
+      "node_ids": [
+        "module_timestep_embedding_projection_0_151b9da2",
+        "module_timestep_embedding_projection_1_2d221285",
+        "module_timestep_embedding_projection_2_0de51f47"
+      ],
+      "parent": null
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "before_after_images_inspected": 7,
+  "current_images_inspected": 7,
+  "failures": [],
+  "generated_at": "2026-09-02T04:21:35.814281+00:00",
+  "human_participants": 0,
+  "human_usability_claim": false,
+  "inspection_completed": true,
+  "inspection_method": "AI-assisted direct inspection of decoded PNGs at native resolution",
+  "models": [
+    {
+      "before_after_original_resolution": {
+        "height": 1529,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/resnet50/before-after.png",
+        "sha256": "5bc0bce2f23ae4a7043e940815e8a143decc3bee4235d3d3468e89f6e060d4e1",
+        "width": 4288
+      },
+      "current_original_resolution": {
+        "height": 1417,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/resnet50/after-0.7.3.png",
+        "sha256": "99c3abb2d7d4ff7ee0bbf71491aa7cd04bf0371c8af3b85ce57fcc02f19ec9d7",
+        "width": 2126
+      },
+      "inspection_observation": "All six roles are legible; Stage 1 ×3 is restored; four residual routes are directional.",
+      "model": "resnet50",
+      "scientific_flow_coherent": true,
+      "status": "PASS",
+      "visible_clipping_or_overlap": false
+    },
+    {
+      "before_after_original_resolution": {
+        "height": 1529,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/vision_transformer/before-after.png",
+        "sha256": "190d58e1a6ed5fff9dfeaeee8792f0b6d2ae86227cd7a7fd5b46f4bce974e089",
+        "width": 4288
+      },
+      "current_original_resolution": {
+        "height": 1417,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/vision_transformer/after-0.7.3.png",
+        "sha256": "3ee73f1a8690e27da77b3235bdfaa7182693bb6ac03762ae80e0b0999a91aece",
+        "width": 2126
+      },
+      "inspection_observation": "All five roles are legible; patch/class-token embedding is restored.",
+      "model": "vision_transformer",
+      "scientific_flow_coherent": true,
+      "status": "PASS",
+      "visible_clipping_or_overlap": false
+    },
+    {
+      "before_after_original_resolution": {
+        "height": 1529,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/bert_encoder/before-after.png",
+        "sha256": "7d688603c284d5108b026dcaf66c65debb88e15c8dbbaa561b53a9619bdaa34a",
+        "width": 4288
+      },
+      "current_original_resolution": {
+        "height": 1417,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/bert_encoder/after-0.7.3.png",
+        "sha256": "0363b9b20123c3242b82e8ca90b5414fc05a71863c7bf82a54e57d839e83e9b7",
+        "width": 2126
+      },
+      "inspection_observation": "All five roles are legible; token/position embedding is restored.",
+      "model": "bert_encoder",
+      "scientific_flow_coherent": true,
+      "status": "PASS",
+      "visible_clipping_or_overlap": false
+    },
+    {
+      "before_after_original_resolution": {
+        "height": 1529,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/multiscale_unet/before-after.png",
+        "sha256": "485d9f1c85373ad17dba66b7d404bedb8b409e51b2383f45b51cee2b3c6b8dbe",
+        "width": 4288
+      },
+      "current_original_resolution": {
+        "height": 1417,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/multiscale_unet/after-0.7.3.png",
+        "sha256": "f747c8ec990a4e245e8c5989a39724645e4c1da48eae45767162e349e7d6c299",
+        "width": 2126
+      },
+      "inspection_observation": "All nine roles are legible; Decoder level 2 is restored; three skips are directional.",
+      "model": "multiscale_unet",
+      "scientific_flow_coherent": true,
+      "status": "PASS",
+      "visible_clipping_or_overlap": false
+    },
+    {
+      "before_after_original_resolution": {
+        "height": 1529,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/diffusion_unet/before-after.png",
+        "sha256": "86305803729cd24398bec7bd1f66bfa2bb33228a6a18073ceaa8bc4d60f1bce4",
+        "width": 4288
+      },
+      "current_original_resolution": {
+        "height": 1417,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/diffusion_unet/after-0.7.3.png",
+        "sha256": "a4ac6dae1200e7647e5ff5d94a1e1eaafa019b8f808f172c6a229753c0ac882b",
+        "width": 2126
+      },
+      "inspection_observation": "All six roles are legible; conditioning and up path are restored.",
+      "model": "diffusion_unet",
+      "scientific_flow_coherent": true,
+      "status": "PASS",
+      "visible_clipping_or_overlap": false
+    },
+    {
+      "before_after_original_resolution": {
+        "height": 1529,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/topk_moe/before-after.png",
+        "sha256": "511a7e2e5340477364355e09b2ac638c91ba5533b06f19a7b454cec4a1cf2778",
+        "width": 4288
+      },
+      "current_original_resolution": {
+        "height": 1417,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/topk_moe/after-0.7.3.png",
+        "sha256": "4b1d17f92791b0b27bacc640a5d0f45a04071cc4232e82293e246c9c7c9f35ef",
+        "width": 2126
+      },
+      "inspection_observation": "All five roles are legible; token embedding is restored and top-2 routing remains explicit.",
+      "model": "topk_moe",
+      "scientific_flow_coherent": true,
+      "status": "PASS",
+      "visible_clipping_or_overlap": false
+    },
+    {
+      "before_after_original_resolution": {
+        "height": 1529,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/image_text/before-after.png",
+        "sha256": "2a6adf68c3c5f82a28cfdef19abb4b4acbe944c2407301c7bbd41a68db96fca0",
+        "width": 4288
+      },
+      "current_original_resolution": {
+        "height": 1417,
+        "path": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after/real-models/image_text/after-0.7.3.png",
+        "sha256": "0e25f69ef0db495a2dd139f17298a740ab909d36e263da6483b28e6e5a493dbc",
+        "width": 2126
+      },
+      "inspection_observation": "All four roles remain legible; both modality routes remain directional.",
+      "model": "image_text",
+      "scientific_flow_coherent": true,
+      "status": "PASS",
+      "visible_clipping_or_overlap": false
+    }
+  ],
+  "real_model_count": 7,
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "schema_version": "nndv-0.7.3-original-resolution-visual-inspection-1",
+  "status": "PASS"
+}

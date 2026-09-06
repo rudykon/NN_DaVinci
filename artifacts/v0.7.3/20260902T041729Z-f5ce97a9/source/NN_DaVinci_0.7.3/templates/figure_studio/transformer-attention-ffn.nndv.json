@@ -1,0 +1,1753 @@
+{
+  "created_at": "2026-08-29T00:00:00+00:00",
+  "environment": {
+    "nn_davinci": "0.6.1",
+    "template_version": "1.0"
+  },
+  "figure_ir": {
+    "design_tokens": {
+      "arrow.kind": "end",
+      "arrow.size.pt": 4.0,
+      "color.background": "#ffffff",
+      "color.foreground": "#0f172a",
+      "color.operator": "#f8fafc",
+      "color.tensor.front": "#dbeafe",
+      "color.tensor.side": "#93c5fd",
+      "color.tensor.top": "#bfdbfe",
+      "corner.radius.pt": 3.0,
+      "font.family": "DejaVu Sans, Arial, sans-serif",
+      "font.minimum.pt": 7.0,
+      "font.size.pt": 9.0,
+      "font.weight": 500,
+      "guide.baseline.color": "#e2e8f0",
+      "guide.column.color": "#cbd5e1",
+      "guide.margin.color": "#94a3b8",
+      "line.annotation.color": "#7c3aed",
+      "line.annotation.dash": "4 3",
+      "line.data.color": "#334155",
+      "line.width.pt": 0.8,
+      "opacity": 1.0
+    },
+    "metadata": {
+      "accuracy_claims": false,
+      "authoring_mode": "figure-studio",
+      "editable": true,
+      "offline": true,
+      "page_preset": "double-column",
+      "paper_claims": false,
+      "supported_modes": [
+        "schematic",
+        "tensor-geometry",
+        "mixed"
+      ],
+      "supported_page_presets": [
+        "single-column",
+        "double-column",
+        "178mm"
+      ],
+      "template": "transformer-attention-ffn",
+      "template_version": "1.0"
+    },
+    "name": "Transformer attention + FFN",
+    "pages": [
+      {
+        "baseline_grid_pt": 4.0,
+        "column_gap_mm": 4.0,
+        "columns": 1,
+        "height_mm": 118.0,
+        "id": "figure_page_transformer_attention___ffn_fa8e7aee",
+        "margin_mm": 4.0,
+        "order": 0,
+        "panels": [
+          {
+            "constraints": [],
+            "geometry": {
+              "height": 53.0,
+              "width": 170.0,
+              "x": 4.0,
+              "y": 4.0
+            },
+            "id": "figure_panel_transformer_attention___ffn_a_d639c7f3",
+            "label": "A",
+            "layers": [
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_transformer_attention___ffn_a_07f640b0",
+                "locked": false,
+                "name": "Model data",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 10.0,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_schematic_tokens_9f2e0623",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Tokens",
+                      "label_lane_width_mm": 30.1,
+                      "operator_family": "generic",
+                      "template": "transformer-attention-ffn"
+                    },
+                    "name": "Tokens",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Tokens"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:Tokens",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 41.6,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_schematic_attent_f0f0bbb1",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Attention",
+                      "label_lane_width_mm": 30.1,
+                      "operator_family": "attention",
+                      "template": "transformer-attention-ffn"
+                    },
+                    "name": "Attention",
+                    "order": 2,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Attention"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:Attention",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 73.2,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_schematic_add____5d9854d8",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Add & norm",
+                      "label_lane_width_mm": 30.1,
+                      "operator_family": "normalization",
+                      "template": "transformer-attention-ffn"
+                    },
+                    "name": "Add & norm",
+                    "order": 4,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Add & norm"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:Add & norm",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 104.80000000000001,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_schematic_ffn_9b5f0528",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "FFN",
+                      "label_lane_width_mm": 30.1,
+                      "operator_family": "generic",
+                      "template": "transformer-attention-ffn"
+                    },
+                    "name": "FFN",
+                    "order": 6,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "FFN"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:FFN",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 136.4,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_schematic_output_f65d96ef",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Output",
+                      "label_lane_width_mm": 30.1,
+                      "operator_family": "generic",
+                      "template": "transformer-attention-ffn"
+                    },
+                    "name": "Output",
+                    "order": 8,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Output"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:Output",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 24.0,
+                      "x2": 41.6,
+                      "y": 28.0,
+                      "y2": 28.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_schematic_edge_0_772a85b5",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        24.0,
+                        28.0
+                      ],
+                      [
+                        41.6,
+                        28.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_transformer_attention_ffn_schematic_tokens_9f2e0623",
+                        "figure_object_transformer_attention_ffn_schematic_attent_f0f0bbb1"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10000,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-0"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:edge-0",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 55.6,
+                      "x2": 73.2,
+                      "y": 28.0,
+                      "y2": 28.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_schematic_edge_1_18ccc894",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        55.6,
+                        28.0
+                      ],
+                      [
+                        73.2,
+                        28.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_transformer_attention_ffn_schematic_attent_f0f0bbb1",
+                        "figure_object_transformer_attention_ffn_schematic_add____5d9854d8"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10001,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-1"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:edge-1",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 17.0,
+                      "x2": 80.2,
+                      "y": 22.0,
+                      "y2": 22.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_schematic_edge_2_b7281efa",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        17.0,
+                        22.0
+                      ],
+                      [
+                        17.0,
+                        17.0
+                      ],
+                      [
+                        80.2,
+                        17.0
+                      ],
+                      [
+                        80.2,
+                        22.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_transformer_attention_ffn_schematic_tokens_9f2e0623",
+                        "figure_object_transformer_attention_ffn_schematic_add____5d9854d8"
+                      ],
+                      "template_edge_kind": "residual"
+                    },
+                    "name": "residual",
+                    "order": 10002,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-2"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:edge-2",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 87.2,
+                      "x2": 104.80000000000001,
+                      "y": 28.0,
+                      "y2": 28.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_schematic_edge_3_b30636c8",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        87.2,
+                        28.0
+                      ],
+                      [
+                        104.80000000000001,
+                        28.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_transformer_attention_ffn_schematic_add____5d9854d8",
+                        "figure_object_transformer_attention_ffn_schematic_ffn_9b5f0528"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10003,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-3"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:edge-3",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 118.80000000000001,
+                      "x2": 136.4,
+                      "y": 28.0,
+                      "y2": 28.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_schematic_edge_4_1801709f",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        118.80000000000001,
+                        28.0
+                      ],
+                      [
+                        136.4,
+                        28.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_transformer_attention_ffn_schematic_ffn_9b5f0528",
+                        "figure_object_transformer_attention_ffn_schematic_output_f65d96ef"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10004,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-4"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:edge-4",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 0,
+                "role": "model-data",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_transformer_attention___ffn_a_373160ed",
+                "locked": false,
+                "name": "Semantic annotation",
+                "objects": [],
+                "order": 1,
+                "role": "semantic-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_transformer_attention___ffn_a_253410ba",
+                "locked": false,
+                "name": "Author annotation",
+                "objects": [],
+                "order": 2,
+                "role": "author-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_transformer_attention___ffn_a_824267d8",
+                "locked": false,
+                "name": "Legend / Caption",
+                "objects": [],
+                "order": 3,
+                "role": "legend-caption",
+                "visible": true
+              }
+            ],
+            "layout_mode": "grid",
+            "locked": false,
+            "mode": "schematic",
+            "order": 0,
+            "title": "Schematic"
+          },
+          {
+            "constraints": [],
+            "geometry": {
+              "height": 53.0,
+              "width": 170.0,
+              "x": 4.0,
+              "y": 61.0
+            },
+            "id": "figure_panel_transformer_attention___ffn_b_6142632f",
+            "label": "B",
+            "layers": [
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_transformer_attention___ffn_b_ebb3a3d6",
+                "locked": false,
+                "name": "Model data",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 10.0,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_tensor_tokens_4fc4ca9b",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 30.1,
+                      "layout": "auto",
+                      "shape_label": "[B, T, D]",
+                      "template": "transformer-attention-ffn",
+                      "tensor_shape": [
+                        "B",
+                        "T",
+                        "D"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Tokens",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Tokens"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:Tokens",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 41.6,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_tensor_attention_ae205e6b",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 30.1,
+                      "layout": "auto",
+                      "shape_label": "[B, T, D]",
+                      "template": "transformer-attention-ffn",
+                      "tensor_shape": [
+                        "B",
+                        "T",
+                        "D"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Attention",
+                    "order": 2,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Attention"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:Attention",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 73.2,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_tensor_add___nor_b5dd109b",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 30.1,
+                      "layout": "auto",
+                      "shape_label": "[B, T, D]",
+                      "template": "transformer-attention-ffn",
+                      "tensor_shape": [
+                        "B",
+                        "T",
+                        "D"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Add & norm",
+                    "order": 4,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Add & norm"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:Add & norm",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 104.80000000000001,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_tensor_ffn_e44befdc",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 30.1,
+                      "layout": "auto",
+                      "shape_label": "[B, T, D_ff]",
+                      "template": "transformer-attention-ffn",
+                      "tensor_shape": [
+                        "B",
+                        "T",
+                        "D_ff"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "FFN",
+                    "order": 6,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "FFN"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:FFN",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 136.4,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_tensor_output_30a1415d",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 30.1,
+                      "layout": "auto",
+                      "shape_label": "[B, T, D]",
+                      "template": "transformer-attention-ffn",
+                      "tensor_shape": [
+                        "B",
+                        "T",
+                        "D"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Output",
+                    "order": 8,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Output"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:Output",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 22.8,
+                      "x2": 44.4,
+                      "y": 75.0,
+                      "y2": 75.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_tensor_edge_0_3815d897",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        22.8,
+                        75.0
+                      ],
+                      [
+                        44.4,
+                        75.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_transformer_attention_ffn_tensor_tokens_4fc4ca9b",
+                        "figure_object_transformer_attention_ffn_tensor_attention_ae205e6b"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10000,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-0"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:edge-0",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 54.4,
+                      "x2": 76.0,
+                      "y": 75.0,
+                      "y2": 75.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_tensor_edge_1_91774932",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        54.4,
+                        75.0
+                      ],
+                      [
+                        76.0,
+                        75.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_transformer_attention_ffn_tensor_attention_ae205e6b",
+                        "figure_object_transformer_attention_ffn_tensor_add___nor_b5dd109b"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10001,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-1"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:edge-1",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 17.8,
+                      "x2": 81.0,
+                      "y": 71.0,
+                      "y2": 71.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_tensor_edge_2_003b8ba5",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        17.8,
+                        71.0
+                      ],
+                      [
+                        17.8,
+                        66.0
+                      ],
+                      [
+                        81.0,
+                        66.0
+                      ],
+                      [
+                        81.0,
+                        71.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_transformer_attention_ffn_tensor_tokens_4fc4ca9b",
+                        "figure_object_transformer_attention_ffn_tensor_add___nor_b5dd109b"
+                      ],
+                      "template_edge_kind": "residual"
+                    },
+                    "name": "residual",
+                    "order": 10002,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-2"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:edge-2",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 86.0,
+                      "x2": 107.60000000000001,
+                      "y": 75.0,
+                      "y2": 75.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_tensor_edge_3_93f364d9",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        86.0,
+                        75.0
+                      ],
+                      [
+                        107.60000000000001,
+                        75.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_transformer_attention_ffn_tensor_add___nor_b5dd109b",
+                        "figure_object_transformer_attention_ffn_tensor_ffn_e44befdc"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10003,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-3"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:edge-3",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 117.60000000000001,
+                      "x2": 139.20000000000002,
+                      "y": 75.0,
+                      "y2": 75.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_tensor_edge_4_a48dedb0",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        117.60000000000001,
+                        75.0
+                      ],
+                      [
+                        139.20000000000002,
+                        75.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_transformer_attention_ffn_tensor_ffn_e44befdc",
+                        "figure_object_transformer_attention_ffn_tensor_output_30a1415d"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10004,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-4"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:transformer-attention-ffn:edge-4",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/transformer-attention-ffn.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 0,
+                "role": "model-data",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_transformer_attention___ffn_b_cde65741",
+                "locked": false,
+                "name": "Semantic annotation",
+                "objects": [],
+                "order": 1,
+                "role": "semantic-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_transformer_attention___ffn_b_19e588c2",
+                "locked": false,
+                "name": "Author annotation",
+                "objects": [],
+                "order": 2,
+                "role": "author-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_transformer_attention___ffn_b_214a2ec1",
+                "locked": false,
+                "name": "Legend / Caption",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 7.0,
+                      "y": 112.0
+                    },
+                    "id": "figure_object_transformer_attention_ffn_caption_55ac75ca",
+                    "kind": "caption",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "text": "Transformer attention + FFN: Attention and feed-forward stages with symbolic sequence length."
+                    },
+                    "name": "Transformer attention + FFN: Attention and feed-forward stages with symbolic sequence length.",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": true,
+                      "evidence": {},
+                      "graph_ir_ids": [],
+                      "kind": "author_annotation",
+                      "reason": "Bundled editable caption describing only the template structure.",
+                      "source_id": "",
+                      "source_locator": {}
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 3,
+                "role": "legend-caption",
+                "visible": true
+              }
+            ],
+            "layout_mode": "grid",
+            "locked": false,
+            "mode": "tensor-geometry",
+            "order": 1,
+            "title": "Tensor geometry"
+          }
+        ],
+        "title": "Transformer attention + FFN",
+        "width_mm": 178.0
+      }
+    ],
+    "schema_version": "1.0",
+    "theme": "neurips"
+  },
+  "graph": {
+    "analysis": {},
+    "annotations": [],
+    "constraints": [],
+    "edges": [
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "transformer-attention-ffn"
+        },
+        "id": "edge_node_template_transformer_attention_ffn_to_57459877",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_transformer_attention_ffn_tokens_ad4842df",
+        "source_port": null,
+        "target": "node_template_transformer_attention_ffn_attenti_95a4f146",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Tokens tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "T",
+            "D"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "transformer-attention-ffn"
+        },
+        "id": "edge_node_template_transformer_attention_ffn_at_a70286d8",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_transformer_attention_ffn_attenti_95a4f146",
+        "source_port": null,
+        "target": "node_template_transformer_attention_ffn_add___n_d312ffe3",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Attention tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "T",
+            "D"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "transformer-attention-ffn"
+        },
+        "id": "edge_node_template_transformer_attention_ffn_to_08ad65cd",
+        "kind": "residual",
+        "label": "",
+        "source": "node_template_transformer_attention_ffn_tokens_ad4842df",
+        "source_port": null,
+        "target": "node_template_transformer_attention_ffn_add___n_d312ffe3",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Tokens tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "T",
+            "D"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "transformer-attention-ffn"
+        },
+        "id": "edge_node_template_transformer_attention_ffn_ad_579c80ad",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_transformer_attention_ffn_add___n_d312ffe3",
+        "source_port": null,
+        "target": "node_template_transformer_attention_ffn_ffn_483edcc1",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Add & norm tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "T",
+            "D"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "transformer-attention-ffn"
+        },
+        "id": "edge_node_template_transformer_attention_ffn_ff_9c44267e",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_transformer_attention_ffn_ffn_483edcc1",
+        "source_port": null,
+        "target": "node_template_transformer_attention_ffn_output_ff258e52",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "FFN tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "T",
+            "D_ff"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      }
+    ],
+    "inputs": [],
+    "ir_version": "1.0",
+    "metadata": {
+      "accuracy_claims": false,
+      "model_instance": false,
+      "paper_claims": false,
+      "source_format": "nndv-bundled-figure-template",
+      "template": "transformer-attention-ffn",
+      "template_version": "1.0"
+    },
+    "name": "Transformer attention + FFN",
+    "nodes": [
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "generic",
+          "template_role": "Tokens"
+        },
+        "buffers": 0,
+        "category": "operation",
+        "id": "node_template_transformer_attention_ffn_tokens_ad4842df",
+        "inputs": [],
+        "level": "operation",
+        "name": "Tokens",
+        "namespace": "",
+        "op_type": "generic",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_transformer_attention_ffn_to_5fcbbdae",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Tokens tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/transformer-attention-ffn/0",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Tokens",
+          "template": "transformer-attention-ffn"
+        },
+        "tags": [
+          "template",
+          "generic"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "attention",
+          "template_role": "Attention"
+        },
+        "buffers": 0,
+        "category": "attention",
+        "id": "node_template_transformer_attention_ffn_attenti_95a4f146",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_transformer_attention_ffn_at_7f810982",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Attention tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Attention",
+        "namespace": "",
+        "op_type": "attention",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_transformer_attention_ffn_at_20a169ee",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Attention tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/transformer-attention-ffn/1",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Attention",
+          "template": "transformer-attention-ffn"
+        },
+        "tags": [
+          "template",
+          "attention"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "normalization",
+          "template_role": "Add & norm"
+        },
+        "buffers": 0,
+        "category": "normalization",
+        "id": "node_template_transformer_attention_ffn_add___n_d312ffe3",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_transformer_attention_ffn_ad_8b6676b9",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Add & norm tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Add & norm",
+        "namespace": "",
+        "op_type": "normalization",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_transformer_attention_ffn_ad_93241a8f",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Add & norm tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/transformer-attention-ffn/2",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Add & norm",
+          "template": "transformer-attention-ffn"
+        },
+        "tags": [
+          "template",
+          "normalization"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "generic",
+          "template_role": "FFN"
+        },
+        "buffers": 0,
+        "category": "operation",
+        "id": "node_template_transformer_attention_ffn_ffn_483edcc1",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_transformer_attention_ffn_ff_120e2367",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "FFN tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D_ff"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "FFN",
+        "namespace": "",
+        "op_type": "generic",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_transformer_attention_ffn_ff_13af049f",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "FFN tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D_ff"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/transformer-attention-ffn/3",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "FFN",
+          "template": "transformer-attention-ffn"
+        },
+        "tags": [
+          "template",
+          "generic"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "generic",
+          "template_role": "Output"
+        },
+        "buffers": 0,
+        "category": "operation",
+        "id": "node_template_transformer_attention_ffn_output_ff258e52",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_transformer_attention_ffn_ou_fdfca1d7",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Output tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Output",
+        "namespace": "",
+        "op_type": "generic",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_transformer_attention_ffn_ou_b4461d4f",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Output tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/transformer-attention-ffn/4",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Output",
+          "template": "transformer-attention-ffn"
+        },
+        "tags": [
+          "template",
+          "generic"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      }
+    ],
+    "outputs": [],
+    "subgraphs": []
+  },
+  "model_source": {
+    "kind": "bundled-figure-template",
+    "model_instance": false,
+    "template": "transformer-attention-ffn"
+  },
+  "name": "Transformer attention + FFN",
+  "project_version": "1.3",
+  "theme": "neurips",
+  "updated_at": "2026-08-29T00:00:00+00:00"
+}

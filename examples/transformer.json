@@ -1,0 +1,20 @@
+{
+  "name": "Transformer Block",
+  "nodes": [
+    {"name":"Tokens","type":"Input","category":"input","outputs":[[1,196,768]]},
+    {"name":"Layer Norm 1","type":"LayerNorm","category":"normalization","parameters":1536,"outputs":[[1,196,768]]},
+    {"name":"Q","type":"Linear","category":"linear","parameters":590592,"outputs":[[1,12,196,64]]},
+    {"name":"K","type":"Linear","category":"linear","parameters":590592,"outputs":[[1,12,196,64]]},
+    {"name":"V","type":"Linear","category":"linear","parameters":590592,"outputs":[[1,12,196,64]]},
+    {"name":"Attention","type":"ScaledDotProductAttention","category":"attention","outputs":[[1,12,196,64]]},
+    {"name":"Projection","type":"Linear","category":"linear","parameters":590592,"outputs":[[1,196,768]]},
+    {"name":"Residual 1","type":"Add","category":"merge","outputs":[[1,196,768]]},
+    {"name":"Layer Norm 2","type":"LayerNorm","category":"normalization","parameters":1536,"outputs":[[1,196,768]]},
+    {"name":"MLP","type":"MLPBlock","category":"linear","parameters":4722432,"outputs":[[1,196,768]]},
+    {"name":"Residual 2","type":"Add","category":"merge","outputs":[[1,196,768]]},
+    {"name":"Features","type":"Output","category":"output","inputs":[[1,196,768]]}
+  ],
+  "edges":[["Tokens","Layer Norm 1"],["Layer Norm 1","Q"],["Layer Norm 1","K"],["Layer Norm 1","V"],["Q","Attention"],["K","Attention"],["V","Attention"],["Attention","Projection"],["Projection","Residual 1"],["Tokens","Residual 1"],["Residual 1","Layer Norm 2"],["Layer Norm 2","MLP"],["MLP","Residual 2"],["Residual 1","Residual 2"],["Residual 2","Features"]],
+  "groups":[{"name":"Multi-Head Self Attention","nodes":["Q","K","V","Attention","Projection"],"level":"block"},{"name":"Feed Forward","nodes":["Layer Norm 2","MLP"],"level":"block"}]
+}
+

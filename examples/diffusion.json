@@ -1,0 +1,17 @@
+{
+  "name": "Conditional Diffusion Sampling",
+  "nodes": [
+    {"name": "Noise", "type": "GaussianNoise", "category": "input", "outputs": [[1, 4, 64, 64]]},
+    {"name": "Prompt Condition", "type": "TextCondition", "category": "input", "outputs": [[1, 77, 768]]},
+    {"name": "Timestep", "type": "TimestepEmbedding", "category": "embedding", "outputs": [[1, 1280]]},
+    {"name": "Denoising U-Net", "type": "ConditionalUNet", "category": "convolution", "parameters": 860000000, "inputs": [[1, 4, 64, 64]], "outputs": [[1, 4, 64, 64]]},
+    {"name": "Noise Scheduler", "type": "DiffusionScheduler", "category": "operation", "outputs": [[1, 4, 64, 64]]},
+    {"name": "Sampled Image", "type": "Output", "category": "output", "inputs": [[1, 4, 64, 64]]}
+  ],
+  "edges": [
+    ["Noise", "Denoising U-Net"], ["Prompt Condition", "Denoising U-Net"],
+    ["Timestep", "Denoising U-Net"], ["Denoising U-Net", "Noise Scheduler"],
+    ["Noise Scheduler", "Denoising U-Net"], ["Noise Scheduler", "Sampled Image"]
+  ],
+  "groups": [{"name": "Diffusion Loop", "nodes": ["Denoising U-Net", "Noise Scheduler"], "level": "stage"}]
+}

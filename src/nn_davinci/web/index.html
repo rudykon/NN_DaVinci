@@ -1,0 +1,2402 @@
+<!doctype html>
+<html lang="zh-CN" data-project-schema="1.4">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NN_DaVinci</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="design-system.css" />
+    <link rel="stylesheet" href="scene-studio.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand" aria-label="NN DaVinci 首页">
+        <span class="brand-mark">DV</span>
+        <span class="brand-name">NN_DaVinci</span>
+        <small>模型到论文图</small>
+      </div>
+      <nav
+        id="workspace-switcher"
+        class="workspace-switcher"
+        aria-label="Workspace"
+      >
+        <button
+          data-workspace="graph"
+          aria-pressed="true"
+          title="Graph workspace"
+        >
+          ◇ <span>Graph</span>
+        </button>
+        <button
+          data-workspace="figure"
+          aria-pressed="false"
+          title="Figure workspace"
+        >
+          ▧ <span>Figure</span>
+        </button>
+        <button
+          data-workspace="scene"
+          aria-pressed="false"
+          title="Scene workspace"
+        >
+          ◈ <span>Scene</span>
+        </button>
+      </nav>
+      <nav class="toolbar" aria-label="主工具栏">
+        <div class="toolbar-cluster toolbar-project-actions">
+          <button
+            id="start-button"
+            class="toolbar-optional"
+            title="打开 Start Center"
+          >
+            开始
+          </button>
+          <label class="button primary import-button"
+            ><span class="wide-label">导入模型</span
+            ><span class="narrow-label">导入</span
+            ><input
+              id="file-input"
+              type="file"
+              accept=".json,.nndv,.onnx,.keras,.h5,.mlir,.pb,.pbtxt,.yaml,.yml,.py"
+              hidden
+          /></label>
+          <button
+            id="project-menu-button"
+            class="menu-trigger"
+            data-menu-trigger
+            data-menu-target="project-menu"
+            aria-haspopup="menu"
+            aria-expanded="false"
+            aria-controls="project-menu"
+          >
+            <span>项目</span><span class="chevron" aria-hidden="true">⌄</span>
+          </button>
+        </div>
+        <div class="toolbar-cluster toolbar-history" aria-label="历史记录">
+          <button
+            id="undo-button"
+            class="icon-button"
+            title="撤销 Ctrl+Z"
+            aria-label="撤销"
+          >
+            <span aria-hidden="true">↶</span>
+          </button>
+          <button
+            id="redo-button"
+            class="icon-button"
+            title="重做 Ctrl+Shift+Z"
+            aria-label="重做"
+          >
+            <span aria-hidden="true">↷</span>
+          </button>
+        </div>
+        <div class="toolbar-cluster toolbar-graph-actions">
+          <button id="analyze-button">分析</button>
+          <button id="layout-button">自动布局</button>
+        </div>
+        <span class="toolbar-spacer"></span>
+        <button
+          id="paper-menu-button"
+          class="menu-trigger paper-trigger"
+          data-menu-trigger
+          data-menu-target="paper-menu"
+          aria-haspopup="menu"
+          aria-expanded="false"
+          aria-controls="paper-menu"
+        >
+          <span class="wide-label">论文制作</span
+          ><span class="narrow-label">论文</span
+          ><span class="chevron" aria-hidden="true">⌄</span>
+        </button>
+        <button
+          id="view-menu-button"
+          class="menu-trigger view-trigger"
+          data-menu-trigger
+          data-menu-target="view-menu"
+          aria-haspopup="dialog"
+          aria-expanded="false"
+          aria-controls="view-menu"
+        >
+          <span class="wide-label">视图与排版</span
+          ><span class="narrow-label">视图</span
+          ><span class="chevron" aria-hidden="true">⌄</span
+          ><small id="view-menu-summary">原始图 · 自动页面</small>
+        </button>
+        <button
+          id="more-menu-button"
+          class="menu-trigger compact-trigger"
+          data-menu-trigger
+          data-menu-target="more-menu"
+          aria-haspopup="menu"
+          aria-expanded="false"
+          aria-controls="more-menu"
+        >
+          <span>更多</span
+          ><span id="more-badge" class="toolbar-badge hidden">0</span
+          ><span class="chevron" aria-hidden="true">⌄</span>
+        </button>
+        <button
+          id="export-button"
+          class="primary menu-trigger export-trigger"
+          data-menu-trigger
+          data-menu-target="export-menu"
+          aria-haspopup="menu"
+          aria-expanded="false"
+          aria-controls="export-menu"
+        >
+          <span>导出</span><span class="chevron" aria-hidden="true">⌄</span>
+        </button>
+        <span
+          id="project-save-state"
+          class="project-save-state"
+          data-state="clean"
+          role="status"
+          aria-live="polite"
+          title="All changes saved"
+          ><span>Saved</span></span
+        >
+      </nav>
+      <nav
+        id="studio-menubar"
+        class="studio-menubar hidden"
+        aria-label="Scientific Figure Studio 菜单栏"
+      >
+        <button id="studio-exit" class="studio-back" title="返回模型画布">
+          ← 模型画布
+        </button>
+        <details data-studio-menu>
+          <summary>文件</summary>
+          <div class="studio-menu-popover">
+            <button data-studio-action="new-from-graph">
+              从当前 Graph IR 新建
+            </button>
+            <button data-studio-action="save-project">保存 .nndv.json</button>
+            <label class="studio-file-action"
+              >导入 SVG<input
+                id="studio-svg-input"
+                type="file"
+                accept=".svg"
+                hidden
+            /></label>
+          </div>
+        </details>
+        <details data-studio-menu>
+          <summary>编辑</summary>
+          <div class="studio-menu-popover">
+            <button data-studio-action="undo">撤销</button>
+            <button data-studio-action="redo">重做</button>
+            <button data-studio-action="group">分组</button>
+            <button data-studio-action="ungroup">取消分组</button>
+          </div>
+        </details>
+        <details data-studio-menu>
+          <summary>视图</summary>
+          <div class="studio-menu-popover">
+            <button data-studio-action="toggle-guides">
+              页面 / 列 / baseline 辅助线
+            </button>
+            <button data-studio-action="grayscale">灰度检查</button>
+            <button data-studio-action="contrast">对比度检查</button>
+          </div>
+        </details>
+        <details data-studio-menu>
+          <summary>插入</summary>
+          <div class="studio-menu-popover">
+            <button data-studio-insert="tensor-glyph">Tensor glyph</button>
+            <button data-studio-insert="operator-glyph">Operator glyph</button>
+            <button data-studio-insert="annotation">
+              文字 / 公式 / Callout
+            </button>
+            <button data-studio-action="add-panel">Panel</button>
+          </div>
+        </details>
+        <details data-studio-menu>
+          <summary>布局</summary>
+          <div class="studio-menu-popover">
+            <button data-studio-action="align-left">左对齐</button>
+            <button data-studio-action="distribute-x">水平等距</button>
+            <button data-studio-action="layout-grid">Panel 网格</button>
+            <button data-studio-action="layout-horizontal">Panel 横排</button>
+            <button data-studio-action="layout-vertical">Panel 竖排</button>
+            <button data-studio-action="layout-free">自由布局</button>
+          </div>
+        </details>
+        <details data-studio-menu>
+          <summary>分析</summary>
+          <div class="studio-menu-popover">
+            <button data-studio-action="structure-lens">Structure Lens…</button>
+            <button data-studio-action="structure-warnings">
+              Shape / provenance 警告
+            </button>
+            <button data-studio-action="proof">Figure proof</button>
+          </div>
+        </details>
+        <details data-studio-menu>
+          <summary>导出</summary>
+          <div class="studio-menu-popover">
+            <button data-studio-export="svg">SVG</button>
+            <button data-studio-export="pdf">PDF</button>
+            <button data-studio-export="tikz">TikZ</button>
+            <button data-studio-export="pptx">PPTX</button>
+            <button data-studio-export="png">PNG (300 DPI)</button>
+            <button data-studio-export="eps">EPS</button>
+            <button data-studio-export="html">Offline HTML</button>
+            <button data-studio-action="submission-package" class="primary">
+              投稿包
+            </button>
+          </div>
+        </details>
+        <span class="studio-menubar-spacer"></span>
+        <span id="studio-document-title" class="studio-document-title"
+          >Scientific Figure Studio</span
+        >
+      </nav>
+    </header>
+
+    <main class="workspace">
+      <aside
+        id="workspace-panel"
+        class="left-panel workspace-panel"
+        data-responsive-drawer
+        data-drawer-side="left"
+        aria-label="组件、结构与分析"
+      >
+        <header class="responsive-drawer-header">
+          <div>
+            <h2>工作区导航</h2>
+            <p>组件、结构与分析</p>
+          </div>
+          <button
+            type="button"
+            data-close-drawer="workspace-panel"
+            aria-label="关闭工作区导航"
+          >
+            ×
+          </button>
+        </header>
+        <section
+          id="scene-studio-left"
+          class="scene-studio-sidebar hidden"
+          aria-label="Scene hierarchy and cameras"
+        >
+          <div class="scene-panel-section">
+            <h2>Scene Studio</h2>
+            <div class="scene-inline-actions">
+              <button id="scene-generate-from-graph" class="primary">
+                Graph → Scene
+              </button>
+              <button id="scene-new-blank">Blank 3D</button>
+            </div>
+          </div>
+          <div class="scene-panel-section">
+            <h3>Layers &amp; objects</h3>
+            <div class="scene-tree-tools" role="search">
+              <input
+                id="scene-tree-search"
+                type="search"
+                placeholder="Search objects or groups"
+                aria-label="Search Scene objects and groups"
+              />
+              <select id="scene-tree-filter" aria-label="Filter Scene objects">
+                <option value="all">All objects</option>
+                <option value="visible">Visible</option>
+                <option value="hidden">Hidden</option>
+                <option value="locked">Locked</option>
+                <option value="selected">Selected</option>
+              </select>
+            </div>
+            <div class="scene-inline-actions" aria-label="Add Scene primitive">
+              <button data-scene-insert="box">+ Box</button>
+              <button data-scene-insert="sphere">+ Sphere</button>
+              <button data-scene-insert="cylinder">+ Cylinder</button>
+              <button data-scene-insert="tensor">+ Tensor</button>
+            </div>
+            <div id="scene-object-tree" class="scene-object-tree">
+              <p class="empty">Open or generate a Scene IR.</p>
+            </div>
+          </div>
+          <div class="scene-panel-section">
+            <h3>Cameras</h3>
+            <div id="scene-camera-list" class="scene-camera-list"></div>
+            <div class="scene-inline-actions">
+              <button data-scene-camera-action="add">+ Camera</button>
+              <button data-scene-camera-action="duplicate">Duplicate</button>
+            </div>
+          </div>
+          <div class="scene-panel-section">
+            <h3>Visibility</h3>
+            <div class="scene-inline-actions">
+              <button data-scene-action="show-all">Show all</button>
+              <button data-scene-action="isolate">Isolate</button>
+            </div>
+          </div>
+        </section>
+        <section
+          id="figure-studio-left"
+          class="figure-studio-sidebar hidden"
+          aria-label="Figure Studio templates, symbols, and layers"
+        >
+          <div class="studio-side-tabs" role="tablist">
+            <button class="active" data-studio-left-tab="templates">
+              Templates
+            </button>
+            <button data-studio-left-tab="symbols">Symbols</button>
+            <button data-studio-left-tab="pages">Pages</button>
+            <button data-studio-left-tab="layers">Layers</button>
+          </div>
+          <div id="studio-tab-templates" class="studio-tab-body active">
+            <label
+              >页面<select id="studio-template-page">
+                <option value="single-column">单栏</option>
+                <option value="double-column" selected>双栏</option>
+                <option value="178mm">178 mm</option>
+              </select></label
+            >
+            <div id="studio-template-list" class="studio-template-list">
+              <p class="empty">正在读取本地模板…</p>
+            </div>
+          </div>
+          <div id="studio-tab-symbols" class="studio-tab-body">
+            <div class="studio-symbol-grid">
+              <button draggable="true" data-studio-insert="tensor-glyph">
+                <span>▱</span>Tensor
+              </button>
+              <button draggable="true" data-studio-insert="operator-glyph">
+                <span>⊕</span>Operator
+              </button>
+              <button draggable="true" data-studio-insert="edge">
+                <span>→</span>Data edge
+              </button>
+              <button draggable="true" data-studio-insert="annotation">
+                <span>T</span>Text
+              </button>
+              <button draggable="true" data-studio-insert="equation">
+                <span>∑</span>Equation
+              </button>
+              <button draggable="true" data-studio-insert="callout">
+                <span>↗</span>Callout
+              </button>
+              <button draggable="true" data-studio-insert="region">
+                <span>⬚</span>Region
+              </button>
+              <button draggable="true" data-studio-insert="legend">
+                <span>≡</span>Legend
+              </button>
+            </div>
+          </div>
+          <div id="studio-tab-pages" class="studio-tab-body">
+            <div class="studio-layer-actions">
+              <button data-studio-page-action="add">＋ Page</button>
+              <button data-studio-page-action="duplicate">Duplicate</button>
+              <button data-studio-page-action="delete">Delete</button>
+            </div>
+            <label
+              >Active page size<select id="studio-page-preset">
+                <option value="single-column">Single column · 88×118 mm</option>
+                <option value="double-column">
+                  Double column · 178×118 mm
+                </option>
+                <option value="a4-portrait">A4 portrait · 210×297 mm</option>
+                <option value="a4-landscape">A4 landscape · 297×210 mm</option>
+                <option value="custom">Custom dimensions</option>
+              </select></label
+            >
+            <div class="studio-layer-actions">
+              <label
+                >W (mm)<input
+                  id="studio-page-width"
+                  type="number"
+                  min="20"
+                  max="1000"
+                  step="0.1"
+              /></label>
+              <label
+                >H (mm)<input
+                  id="studio-page-height"
+                  type="number"
+                  min="20"
+                  max="1000"
+                  step="0.1"
+              /></label>
+              <button data-studio-page-action="resize">Apply size</button>
+            </div>
+            <label
+              >Page title<input
+                id="studio-page-title"
+                type="text"
+                maxlength="160"
+            /></label>
+            <div class="studio-layer-actions">
+              <label
+                >Margin (mm)<input
+                  id="studio-page-margin"
+                  type="number"
+                  min="0"
+                  max="100"
+                  step="0.1"
+              /></label>
+              <label
+                >Columns<input
+                  id="studio-page-columns"
+                  type="number"
+                  min="1"
+                  max="12"
+                  step="1"
+              /></label>
+              <label
+                >Gap (mm)<input
+                  id="studio-page-column-gap"
+                  type="number"
+                  min="0"
+                  max="100"
+                  step="0.1"
+              /></label>
+              <label
+                >Baseline (pt)<input
+                  id="studio-page-baseline"
+                  type="number"
+                  min="1"
+                  max="72"
+                  step="0.1"
+              /></label>
+              <button data-studio-page-action="settings">
+                Apply page settings
+              </button>
+            </div>
+            <p class="hint">
+              Each page keeps its own title, size/orientation, margins, columns
+              and baseline. Panel move/reorder controls preserve evidence and
+              editability.
+            </p>
+            <div id="studio-page-tree" class="studio-layer-tree"></div>
+          </div>
+          <div id="studio-tab-layers" class="studio-tab-body">
+            <div class="studio-layer-actions">
+              <button id="studio-layer-new">＋ Layer</button>
+              <button id="studio-layer-up" title="向上排序">↑</button>
+              <button id="studio-layer-down" title="向下排序">↓</button>
+            </div>
+            <div id="studio-layer-tree" class="studio-layer-tree"></div>
+          </div>
+        </section>
+        <div class="panel-tabs">
+          <button type="button" class="tab active" data-tab="library">
+            组件</button
+          ><button type="button" class="tab" data-tab="structure">结构</button
+          ><button type="button" class="tab" data-tab="analysis">分析</button>
+        </div>
+        <section id="tab-library" class="tab-body active">
+          <input
+            id="palette-search"
+            class="search"
+            placeholder="搜索层或算子…"
+          />
+          <div id="palette" class="palette"></div>
+          <p class="hint">拖到画布创建节点；选中两个节点后可连接。</p>
+        </section>
+        <section id="tab-structure" class="tab-body">
+          <input
+            id="graph-search"
+            class="search"
+            placeholder="搜索名称、类型、路径…"
+          />
+          <div id="structure-tree" class="tree"></div>
+        </section>
+        <section id="tab-analysis" class="tab-body">
+          <div id="analysis-summary" class="analysis-summary">
+            <p class="empty">点击“分析”计算参数量、FLOPs、显存、深度与瓶颈。</p>
+          </div>
+          <label
+            >分析叠加<select id="metric-select">
+              <option value="">无</option>
+              <option value="parameters">参数量</option>
+              <option value="flops">FLOPs</option>
+              <option value="activation_bytes">激活显存</option>
+              <option value="duration_ms">运行耗时</option>
+            </select></label
+          >
+        </section>
+      </aside>
+
+      <section id="canvas-shell" class="canvas-shell" tabindex="0">
+        <div class="semantic-nav">
+          <button id="semantic-up" title="返回上级">←</button>
+          <div id="breadcrumbs" class="breadcrumbs">
+            <button data-level="raw">原始图</button>
+          </div>
+          <button id="restore-graph">恢复全图</button
+          ><span id="lazy-stats"></span>
+        </div>
+        <div
+          id="figure-studio-toolbar"
+          class="figure-studio-toolbar hidden"
+          aria-label="Figure Studio 高频操作"
+        >
+          <button
+            class="studio-drawer-button"
+            data-open-responsive-drawer="workspace-panel"
+            aria-controls="workspace-panel"
+            aria-expanded="false"
+          >
+            素材
+          </button>
+          <button
+            class="studio-drawer-button"
+            data-open-responsive-drawer="inspector-panel"
+            aria-controls="inspector-panel"
+            aria-expanded="false"
+          >
+            属性
+          </button>
+          <button data-studio-tool="select" class="active">选择</button>
+          <button data-studio-insert="tensor-glyph">▱ Tensor</button>
+          <button data-studio-insert="annotation">T 标注</button>
+          <button data-studio-action="align-left">对齐</button>
+          <button data-studio-action="toggle-lock">锁定</button>
+          <select
+            id="studio-page-select"
+            aria-label="Active Figure page"
+          ></select>
+          <button data-studio-page-action="add" title="Add page">＋页</button>
+          <button data-studio-page-action="up" title="Move active page earlier">
+            页↑
+          </button>
+          <button data-studio-page-action="down" title="Move active page later">
+            页↓
+          </button>
+          <span class="canvas-separator"></span>
+          <button data-studio-action="structure-lens">Structure Lens</button>
+          <button data-studio-action="proof">Proof</button>
+        </div>
+        <div id="canvas-toolbar" class="canvas-toolbar" aria-label="画布工具栏">
+          <button data-action="connect" title="连接两个所选节点">
+            <span aria-hidden="true">↗</span
+            ><span class="canvas-action-label">连接</span>
+          </button>
+          <button data-action="group" title="将所选节点成组">
+            <span aria-hidden="true">▦</span
+            ><span class="canvas-action-label">成组</span>
+          </button>
+          <button data-action="focus" title="仅查看局部结构">
+            <span aria-hidden="true">◎</span
+            ><span class="canvas-action-label">聚焦</span>
+          </button>
+          <button data-action="lock" title="锁定所选元素">
+            <span aria-hidden="true">◇</span
+            ><span class="canvas-action-label">锁定</span>
+          </button>
+          <span class="canvas-separator" aria-hidden="true"></span>
+          <button
+            id="canvas-edit-menu-button"
+            class="menu-trigger"
+            data-menu-trigger
+            data-menu-target="canvas-edit-menu"
+            aria-haspopup="menu"
+            aria-expanded="false"
+            aria-controls="canvas-edit-menu"
+          >
+            <span>编辑</span><span class="chevron" aria-hidden="true">⌄</span>
+          </button>
+          <button
+            id="canvas-annotation-menu-button"
+            class="menu-trigger"
+            data-menu-trigger
+            data-menu-target="canvas-annotation-menu"
+            aria-haspopup="menu"
+            aria-expanded="false"
+            aria-controls="canvas-annotation-menu"
+          >
+            <span>标注</span><span class="chevron" aria-hidden="true">⌄</span>
+          </button>
+          <div
+            id="canvas-edit-menu"
+            class="menu canvas-action-menu hidden"
+            data-toolbar-menu
+            role="menu"
+            aria-labelledby="canvas-edit-menu-button"
+          >
+            <div class="menu-heading">结构与选择</div>
+            <button data-action="collapse">折叠 / 展开</button
+            ><button data-action="clear-focus">显示全部</button>
+            <button data-action="hide">隐藏所选</button
+            ><button data-action="duplicate">复制所选</button>
+            <div class="menu-separator"></div>
+            <div class="menu-heading">对齐与分布</div>
+            <button data-action="align-x">纵向对齐</button
+            ><button data-action="align-y">横向对齐</button
+            ><button data-action="distribute">均匀分布</button>
+          </div>
+          <div
+            id="canvas-annotation-menu"
+            class="menu canvas-action-menu hidden"
+            data-toolbar-menu
+            role="menu"
+            aria-labelledby="canvas-annotation-menu-button"
+          >
+            <div class="menu-heading">论文标注</div>
+            <button data-action="text">文字</button
+            ><button data-action="formula">公式</button
+            ><button data-action="region">虚线区域</button
+            ><button data-action="zoom">放大框</button>
+            <button data-action="arrow">指示箭头</button
+            ><button data-action="image">图片</button
+            ><button data-action="panel">Panel</button
+            ><button data-action="comment">评论</button>
+          </div>
+        </div>
+        <div
+          id="scene-canvas-toolbar"
+          class="scene-canvas-toolbar hidden"
+          aria-label="Scene viewport controls"
+        >
+          <button
+            data-open-responsive-drawer="workspace-panel"
+            aria-controls="workspace-panel"
+            aria-expanded="false"
+            class="studio-drawer-button"
+          >
+            Scene
+          </button>
+          <button
+            data-scene-tool="select"
+            aria-pressed="true"
+            title="Select (V)"
+          >
+            Select
+          </button>
+          <button
+            data-scene-tool="orbit"
+            aria-pressed="false"
+            title="Orbit (O)"
+          >
+            Orbit
+          </button>
+          <button data-scene-tool="pan" aria-pressed="false" title="Pan (H)">
+            Pan
+          </button>
+          <span class="scene-toolbar-separator" aria-hidden="true"></span>
+          <label class="scene-control-label scene-toolbar-wide"
+            >Projection<select
+              id="scene-projection"
+              aria-label="Camera projection"
+            >
+              <option value="perspective">Perspective</option>
+              <option value="orthographic">Orthographic</option>
+            </select></label
+          >
+          <label class="scene-control-label scene-toolbar-wide"
+            >View<select id="scene-view-preset" aria-label="Camera view">
+              <option value="isometric">Isometric</option>
+              <option value="front">Front</option>
+              <option value="back">Back</option>
+              <option value="left">Left</option>
+              <option value="right">Right</option>
+              <option value="top">Top</option>
+              <option value="bottom">Bottom</option>
+            </select></label
+          >
+          <button
+            id="scene-frame"
+            class="scene-toolbar-wide"
+            title="Frame selection (F)"
+          >
+            Frame selection
+          </button>
+          <button
+            class="scene-toolbar-wide"
+            data-scene-action="frame-scene"
+            title="Frame every visible Scene object"
+          >
+            Frame scene
+          </button>
+          <button
+            class="scene-toolbar-wide"
+            data-scene-action="reset-camera"
+            title="Reset camera to the isometric preset"
+          >
+            Reset camera
+          </button>
+          <button
+            id="scene-camera-lock"
+            class="scene-toolbar-wide"
+            aria-pressed="false"
+          >
+            Camera lock
+          </button>
+          <details class="scene-toolbar-overflow">
+            <summary aria-label="More Scene viewport actions">More</summary>
+            <div class="scene-overflow-menu" role="menu">
+              <label
+                >Projection<select data-scene-projection-mirror>
+                  <option value="perspective">Perspective</option>
+                  <option value="orthographic">Orthographic</option>
+                </select></label
+              >
+              <label
+                >View<select data-scene-view-mirror>
+                  <option value="isometric">Isometric</option>
+                  <option value="front">Front</option>
+                  <option value="back">Back</option>
+                  <option value="left">Left</option>
+                  <option value="right">Right</option>
+                  <option value="top">Top</option>
+                  <option value="bottom">Bottom</option>
+                </select></label
+              >
+              <button data-scene-overflow-action="focus" role="menuitem">
+                Frame selection
+              </button>
+              <button data-scene-overflow-action="frame-scene" role="menuitem">
+                Frame scene
+              </button>
+              <button data-scene-overflow-action="reset-camera" role="menuitem">
+                Reset camera
+              </button>
+              <button
+                data-scene-overflow-action="toggle-camera-lock"
+                role="menuitem"
+              >
+                Camera lock
+              </button>
+            </div>
+          </details>
+          <button
+            data-open-responsive-drawer="inspector-panel"
+            aria-controls="inspector-panel"
+            aria-expanded="false"
+            class="studio-drawer-button"
+          >
+            Properties
+          </button>
+        </div>
+        <div
+          id="scene-selection-toolbar"
+          class="scene-selection-toolbar hidden"
+          aria-label="Contextual Scene selection actions"
+        >
+          <span id="scene-context-count">0 selected</span>
+          <span class="scene-toolbar-separator" aria-hidden="true"></span>
+          <button data-scene-action="group">Group</button>
+          <button data-scene-action="lock">Lock</button>
+          <button data-scene-action="hide">Hide</button>
+          <button data-scene-action="isolate">Isolate</button>
+          <button data-scene-action="focus">Focus</button>
+          <button data-scene-action="collapse">Collapse</button>
+          <button data-scene-action="explode">Explode</button>
+          <button data-scene-action="align-x">Align X</button>
+          <button data-scene-action="align-y">Align Y</button>
+          <button data-scene-action="align-z">Align Z</button>
+          <button data-scene-action="distribute-x">Distribute X</button>
+          <button data-scene-action="distribute-y">Distribute Y</button>
+          <button data-scene-action="distribute-z">Distribute Z</button>
+          <button data-scene-action="ungroup">Ungroup</button>
+          <details class="scene-context-overflow">
+            <summary aria-label="More selection actions">More</summary>
+            <div class="scene-overflow-menu scene-context-menu" role="menu">
+              <button data-scene-overflow-action="group">Group</button>
+              <button data-scene-overflow-action="ungroup">Ungroup</button>
+              <button data-scene-overflow-action="lock">Lock</button>
+              <button data-scene-overflow-action="hide">Hide</button>
+              <button data-scene-overflow-action="isolate">Isolate</button>
+              <button data-scene-overflow-action="focus">Focus</button>
+              <button data-scene-overflow-action="collapse">Collapse</button>
+              <button data-scene-overflow-action="explode">Explode</button>
+              <button data-scene-overflow-action="align-x">Align X</button>
+              <button data-scene-overflow-action="align-y">Align Y</button>
+              <button data-scene-overflow-action="align-z">Align Z</button>
+              <button data-scene-overflow-action="distribute-x">
+                Distribute X
+              </button>
+              <button data-scene-overflow-action="distribute-y">
+                Distribute Y
+              </button>
+              <button data-scene-overflow-action="distribute-z">
+                Distribute Z
+              </button>
+            </div>
+          </details>
+        </div>
+        <div id="scene-render-surface" class="scene-render-surface hidden">
+          <canvas
+            id="scene-webgl"
+            tabindex="0"
+            aria-label="Interactive depth-buffered 3D Scene viewport"
+          ></canvas>
+          <div
+            id="scene-label-layer"
+            class="scene-label-layer"
+            aria-label="Collision-avoiding projected Scene labels"
+          ></div>
+          <div
+            id="scene-cpu-fallback"
+            class="scene-cpu-fallback"
+            aria-label="CPU SVG Scene projection"
+            hidden
+          ></div>
+          <div id="scene-marquee" class="scene-marquee" hidden></div>
+          <div
+            id="scene-transform-gizmo"
+            class="scene-transform-gizmo"
+            aria-label="Scene XYZ transform gizmo"
+          >
+            <div
+              class="scene-gizmo-modes"
+              role="toolbar"
+              aria-label="Transform mode"
+            >
+              <button
+                data-scene-gizmo-mode="move"
+                aria-pressed="true"
+                title="Move (W)"
+              >
+                Move
+              </button>
+              <button
+                data-scene-gizmo-mode="rotate"
+                aria-pressed="false"
+                title="Rotate (E)"
+              >
+                Rotate
+              </button>
+              <button
+                data-scene-gizmo-mode="scale"
+                aria-pressed="false"
+                title="Scale (R)"
+              >
+                Scale
+              </button>
+            </div>
+            <div
+              class="scene-gizmo-axes"
+              aria-label="Drag an axis to transform the selection"
+            >
+              <button
+                class="axis-x"
+                data-scene-gizmo-axis="x"
+                title="Drag X axis; press X to select"
+              >
+                X
+              </button>
+              <button
+                class="axis-y"
+                data-scene-gizmo-axis="y"
+                title="Drag Y axis; press Y to select"
+              >
+                Y
+              </button>
+              <button
+                class="axis-z"
+                data-scene-gizmo-axis="z"
+                title="Drag Z axis; press Z to select"
+              >
+                Z
+              </button>
+            </div>
+            <div class="scene-gizmo-options">
+              <button
+                id="scene-gizmo-space"
+                aria-pressed="false"
+                title="Toggle local/world coordinates"
+              >
+                World
+              </button>
+              <button
+                id="scene-gizmo-snap"
+                aria-pressed="true"
+                title="Toggle snapping (Shift for fine movement)"
+              >
+                Snap
+              </button>
+            </div>
+          </div>
+          <div
+            id="scene-fallback-notice"
+            class="scene-fallback-notice hidden"
+            role="status"
+          ></div>
+          <div class="scene-viewport-status" aria-hidden="true">
+            <span id="scene-render-mode">WebGL2 · depth on</span>
+            <span class="scene-axis-widget"
+              ><span class="scene-axis-x">X</span
+              ><span class="scene-axis-y">Y</span
+              ><span class="scene-axis-z">Z</span></span
+            >
+          </div>
+        </div>
+        <div id="canvas" class="canvas" aria-label="神经网络图画布">
+          <div class="loading">正在生成图…</div>
+        </div>
+        <div class="zoom-controls">
+          <button id="zoom-out">−</button><span id="zoom-label">100%</span
+          ><button id="zoom-in">+</button>
+        </div>
+        <nav
+          id="compact-workspace-nav"
+          class="compact-workspace-nav"
+          aria-label="紧凑工作区导航"
+        >
+          <button
+            type="button"
+            data-open-responsive-drawer="workspace-panel"
+            data-panel-tab="library"
+            aria-controls="workspace-panel"
+            aria-expanded="false"
+          >
+            组件
+          </button>
+          <button
+            type="button"
+            data-open-responsive-drawer="workspace-panel"
+            data-panel-tab="structure"
+            aria-controls="workspace-panel"
+            aria-expanded="false"
+          >
+            结构
+          </button>
+          <button
+            type="button"
+            data-open-responsive-drawer="workspace-panel"
+            data-panel-tab="analysis"
+            aria-controls="workspace-panel"
+            aria-expanded="false"
+          >
+            分析
+          </button>
+          <button
+            id="inspector-toggle"
+            type="button"
+            data-open-responsive-drawer="inspector-panel"
+            aria-controls="inspector-panel"
+            aria-expanded="false"
+          >
+            检查器<span
+              id="inspector-selection-badge"
+              class="inline-badge hidden"
+              >0</span
+            >
+          </button>
+        </nav>
+        <div
+          id="action-status-region"
+          class="action-status-region hidden"
+          role="status"
+          aria-live="polite"
+        >
+          <span id="action-status-message"></span>
+          <button id="action-status-retry" class="hidden">Retry</button>
+        </div>
+        <div id="status" class="status">就绪</div>
+      </section>
+
+      <aside
+        id="inspector-panel"
+        class="right-panel inspector-panel"
+        data-responsive-drawer
+        data-drawer-side="right"
+        aria-label="检查器、显示与样式"
+      >
+        <div class="inspector-pin-strip">
+          <button
+            id="inspector-pin-button"
+            type="button"
+            aria-pressed="true"
+            aria-label="Unpin Inspector properties"
+            title="Unpin Inspector properties"
+          >
+            <span aria-hidden="true">📌</span
+            ><span id="inspector-pin-label">Pinned</span>
+          </button>
+        </div>
+        <header class="responsive-drawer-header">
+          <div>
+            <h2>检查器</h2>
+            <p>属性、显示与样式</p>
+          </div>
+          <button
+            type="button"
+            data-close-drawer="inspector-panel"
+            aria-label="关闭检查器"
+          >
+            ×
+          </button>
+        </header>
+        <section
+          id="scene-studio-right"
+          class="scene-studio-sidebar hidden"
+          aria-label="Scene properties and provenance"
+        >
+          <header class="scene-inspector-header">
+            <h2>Scene Inspector</h2>
+            <div id="scene-selection-summary" class="scene-selection-summary">
+              Select an object to inspect its properties.
+            </div>
+          </header>
+          <details
+            class="scene-inspector-group"
+            open
+            data-scene-inspector-group="transform"
+          >
+            <summary>Transform</summary>
+            <div class="scene-inspector-body" id="scene-transform-properties">
+              <div class="scene-property-heading">
+                <span>World position</span
+                ><button
+                  data-scene-property-pin="position"
+                  aria-pressed="false"
+                  title="Pin position"
+                >
+                  Pin
+                </button>
+              </div>
+              <div class="scene-property-grid">
+                <label
+                  >X<input
+                    data-scene-transform="position"
+                    data-axis="x"
+                    type="number"
+                    step="0.25"
+                /></label>
+                <label
+                  >Y<input
+                    data-scene-transform="position"
+                    data-axis="y"
+                    type="number"
+                    step="0.25"
+                /></label>
+                <label
+                  >Z<input
+                    data-scene-transform="position"
+                    data-axis="z"
+                    type="number"
+                    step="0.25"
+                /></label>
+              </div>
+              <div class="scene-property-heading">
+                <span>Rotation (degrees)</span
+                ><button
+                  data-scene-property-pin="rotation"
+                  aria-pressed="false"
+                  title="Pin rotation"
+                >
+                  Pin
+                </button>
+              </div>
+              <div class="scene-property-grid">
+                <label
+                  >X<input
+                    data-scene-transform="rotation"
+                    data-axis="x"
+                    type="number"
+                    step="1"
+                /></label>
+                <label
+                  >Y<input
+                    data-scene-transform="rotation"
+                    data-axis="y"
+                    type="number"
+                    step="1"
+                /></label>
+                <label
+                  >Z<input
+                    data-scene-transform="rotation"
+                    data-axis="z"
+                    type="number"
+                    step="1"
+                /></label>
+              </div>
+              <div class="scene-property-heading">
+                <span>Scale</span
+                ><button
+                  data-scene-property-pin="scale"
+                  aria-pressed="false"
+                  title="Pin scale"
+                >
+                  Pin
+                </button>
+              </div>
+              <div class="scene-property-grid">
+                <label
+                  >X<input
+                    data-scene-transform="scale"
+                    data-axis="x"
+                    type="number"
+                    min="0.001"
+                    step="0.1"
+                /></label>
+                <label
+                  >Y<input
+                    data-scene-transform="scale"
+                    data-axis="y"
+                    type="number"
+                    min="0.001"
+                    step="0.1"
+                /></label>
+                <label
+                  >Z<input
+                    data-scene-transform="scale"
+                    data-axis="z"
+                    type="number"
+                    min="0.001"
+                    step="0.1"
+                /></label>
+              </div>
+            </div>
+          </details>
+          <details
+            class="scene-inspector-group"
+            open
+            data-scene-inspector-group="geometry"
+          >
+            <summary>Geometry</summary>
+            <div class="scene-inspector-body">
+              <div class="scene-property-heading">
+                <span>Shape</span
+                ><button
+                  data-scene-property-pin="geometry"
+                  aria-pressed="false"
+                  title="Pin geometry"
+                >
+                  Pin
+                </button>
+              </div>
+              <label class="scene-control-label"
+                >Object kind<input id="scene-geometry-kind" readonly
+              /></label>
+              <label class="scene-control-label"
+                >Primitive<input id="scene-geometry-primitive" readonly
+              /></label>
+              <label class="scene-control-label"
+                >Dimensions<input id="scene-geometry-size" readonly
+              /></label>
+            </div>
+          </details>
+          <details
+            class="scene-inspector-group"
+            open
+            data-scene-inspector-group="appearance"
+          >
+            <summary>Appearance</summary>
+            <div class="scene-inspector-body">
+              <div class="scene-property-heading">
+                <span>Surface</span
+                ><button
+                  data-scene-property-pin="appearance"
+                  aria-pressed="false"
+                  title="Pin appearance"
+                >
+                  Pin
+                </button>
+              </div>
+              <label class="scene-control-label"
+                >Base color<input
+                  id="scene-base-color"
+                  type="color"
+                  value="#2563eb"
+              /></label>
+              <label class="scene-control-label"
+                >Opacity<input
+                  id="scene-opacity"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.05"
+                  value="1"
+              /></label>
+            </div>
+          </details>
+          <details
+            class="scene-inspector-group"
+            open
+            data-scene-inspector-group="layout"
+          >
+            <summary>Layout</summary>
+            <div class="scene-inspector-body">
+              <div class="scene-property-heading">
+                <span>Spacing &amp; labels</span
+                ><button
+                  data-scene-property-pin="layout"
+                  aria-pressed="false"
+                  title="Pin layout"
+                >
+                  Pin
+                </button>
+              </div>
+              <label class="scene-control-label"
+                >Depth spacing<input
+                  id="scene-depth-spacing"
+                  type="number"
+                  min="0"
+                  step="0.25"
+                  value="1"
+              /></label>
+              <div class="scene-inline-actions">
+                <button id="scene-apply-depth">Apply depth</button>
+              </div>
+              <label class="scene-control-label"
+                ><span
+                  ><input id="scene-snap-enabled" type="checkbox" checked />
+                  Snap transforms</span
+                ></label
+              >
+              <label class="scene-control-label"
+                >Grid<input
+                  id="scene-snap-grid"
+                  type="number"
+                  min="0.001"
+                  step="0.05"
+                  value="0.25"
+              /></label>
+            </div>
+          </details>
+          <details
+            class="scene-inspector-group"
+            open
+            data-scene-inspector-group="semantics"
+          >
+            <summary>Semantics</summary>
+            <div class="scene-inspector-body">
+              <div class="scene-property-heading">
+                <span>Meaning &amp; presentation</span
+                ><button
+                  data-scene-property-pin="semantics"
+                  aria-pressed="false"
+                  title="Pin semantics"
+                >
+                  Pin
+                </button>
+              </div>
+              <label class="scene-control-label"
+                >Architecture role<input id="scene-semantic-role" readonly
+              /></label>
+              <label class="scene-control-label"
+                >Content density<select id="scene-content-density">
+                  <option value="compact">Compact</option>
+                  <option value="paper" selected>Paper</option>
+                  <option value="detailed">Detailed</option>
+                </select></label
+              >
+              <label class="scene-check-row"
+                ><input id="scene-object-visible" type="checkbox" />
+                Visible</label
+              >
+              <label class="scene-check-row"
+                ><input id="scene-object-locked" type="checkbox" />
+                Locked</label
+              >
+              <div class="scene-inline-actions">
+                <button data-scene-action="show-all">Show all</button
+                ><button data-scene-action="isolate">Isolate</button>
+              </div>
+            </div>
+          </details>
+          <details
+            class="scene-inspector-group"
+            open
+            data-scene-inspector-group="provenance"
+          >
+            <summary>Provenance</summary>
+            <div class="scene-inspector-body">
+              <div class="scene-property-heading">
+                <span>Traceability</span
+                ><button
+                  data-scene-property-pin="provenance"
+                  aria-pressed="false"
+                  title="Pin provenance"
+                >
+                  Pin
+                </button>
+              </div>
+              <ul id="scene-provenance" class="scene-provenance-list">
+                <li>No Scene object selected.</li>
+              </ul>
+            </div>
+          </details>
+        </section>
+        <section
+          id="figure-studio-right"
+          class="figure-studio-sidebar hidden"
+          aria-label="Figure Studio properties, provenance, and proof"
+        >
+          <div class="studio-side-tabs" role="tablist">
+            <button class="active" data-studio-right-tab="properties">
+              Properties
+            </button>
+            <button data-studio-right-tab="provenance">Provenance</button>
+            <button data-studio-right-tab="proof">Proof</button>
+          </div>
+          <div id="studio-right-properties" class="studio-tab-body active">
+            <p id="studio-selection-summary" class="empty">
+              选择 Figure 对象以编辑属性。
+            </p>
+            <div id="studio-object-properties" class="hidden">
+              <label>名称<input id="studio-prop-name" /></label>
+              <div class="studio-property-grid">
+                <label
+                  >X (mm)<input id="studio-prop-x" type="number" step="0.1"
+                /></label>
+                <label
+                  >Y (mm)<input id="studio-prop-y" type="number" step="0.1"
+                /></label>
+                <label
+                  >宽 (mm)<input
+                    id="studio-prop-width"
+                    type="number"
+                    min="0.1"
+                    step="0.1"
+                /></label>
+                <label
+                  >高 (mm)<input
+                    id="studio-prop-height"
+                    type="number"
+                    min="0.1"
+                    step="0.1"
+                /></label>
+              </div>
+              <label
+                >填充<input id="studio-prop-fill" type="color" value="#dbeafe"
+              /></label>
+              <label
+                >字号 (pt)<input
+                  id="studio-prop-font-size"
+                  type="number"
+                  min="7"
+                  max="36"
+                  step="0.5"
+              /></label>
+              <label
+                ><input id="studio-prop-locked" type="checkbox" />
+                锁定对象</label
+              >
+              <label id="studio-tensor-shape-field"
+                >显示 shape（模型对象记录为 author override）<input
+                  id="studio-prop-shape"
+                  placeholder="B,T,D 或 1,3,224,224"
+              /></label>
+              <label id="studio-tensor-scale-field"
+                >几何缩放<select id="studio-prop-scale">
+                  <option>linear</option>
+                  <option>sqrt</option>
+                  <option>log</option>
+                  <option selected>normalized</option>
+                  <option>manual</option>
+                </select></label
+              >
+            </div>
+            <section class="studio-design-tokens">
+              <h3>Figure design tokens</h3>
+              <label
+                >预设<select id="studio-theme-preset">
+                  <option value="neurips">NeurIPS</option>
+                  <option value="icml">ICML</option>
+                  <option value="ieee">IEEE</option>
+                  <option value="acm">ACM</option>
+                  <option value="colorblind">颜色盲安全</option>
+                  <option value="grayscale">灰度</option>
+                </select></label
+              >
+              <label>全局字体<input id="studio-token-font" /></label>
+              <label
+                >全局线宽<input
+                  id="studio-token-line-width"
+                  type="number"
+                  min="0.1"
+                  step="0.1"
+              /></label>
+            </section>
+          </div>
+          <div id="studio-right-provenance" class="studio-tab-body">
+            <div id="studio-provenance-view">
+              <p class="empty">
+                选择对象后显示 Graph IR、Semantic View 或 author annotation
+                来源。
+              </p>
+            </div>
+          </div>
+          <div id="studio-right-proof" class="studio-tab-body">
+            <div id="studio-proof-view">
+              <p class="empty">
+                运行 Proof 检查 overflow、碰撞、字号、灰度和来源。
+              </p>
+            </div>
+            <div class="inline-actions">
+              <button data-studio-action="grayscale">灰度</button
+              ><button data-studio-action="contrast">对比度</button
+              ><button data-studio-action="proof" class="primary">
+                重新检查
+              </button>
+            </div>
+          </div>
+        </section>
+        <div class="inspector-heading">
+          <h2>检查器</h2>
+          <span id="selection-count">未选择</span>
+        </div>
+        <div id="inspector">
+          <p class="empty">选择节点、连线或分组以查看和编辑属性。</p>
+        </div>
+        <section class="display-options">
+          <h3>显示</h3>
+          <label
+            ><input id="show-shapes" type="checkbox" checked /> 张量形状</label
+          >
+          <label
+            ><input id="show-parameters" type="checkbox" checked />
+            参数量</label
+          >
+          <label><input id="show-flops" type="checkbox" checked /> FLOPs</label>
+          <label><input id="show-legend" type="checkbox" checked /> 图例</label>
+          <label><input id="transparent" type="checkbox" /> 透明背景</label>
+        </section>
+        <section class="style-options">
+          <h3>样式</h3>
+          <label
+            >字体<input id="style-font" value="Inter, Arial, sans-serif"
+          /></label>
+          <div class="style-grid">
+            <label
+              >字号<input
+                id="style-font-size"
+                type="number"
+                min="7"
+                max="30"
+                value="12" /></label
+            ><label
+              >字重<input
+                id="style-font-weight"
+                type="number"
+                min="100"
+                max="900"
+                step="100"
+                value="600"
+            /></label>
+          </div>
+          <div class="style-grid">
+            <label
+              >圆角<input
+                id="style-radius"
+                type="number"
+                min="0"
+                max="30"
+                value="8" /></label
+            ><label
+              >节点透明度<input
+                id="style-node-opacity"
+                type="number"
+                min="0"
+                max="1"
+                step="0.05"
+                value="1"
+            /></label>
+          </div>
+          <div class="style-grid">
+            <label
+              >背景<input
+                id="style-background"
+                type="color"
+                value="#ffffff" /></label
+            ><label
+              >默认填充<input id="style-node-fill" type="color" value="#f8fafc"
+            /></label>
+          </div>
+          <div class="style-grid">
+            <label
+              >边框<input
+                id="style-border"
+                type="color"
+                value="#334155" /></label
+            ><label
+              >连线<input id="style-edge" type="color" value="#64748b"
+            /></label>
+          </div>
+          <label
+            >强调色<input id="style-accent" type="color" value="#2563eb"
+          /></label>
+          <div class="style-grid">
+            <label
+              >线宽<input
+                id="style-edge-width"
+                type="number"
+                min="0.25"
+                max="10"
+                step="0.25"
+                value="1.5" /></label
+            ><label
+              >箭头<select id="style-edge-arrow">
+                <option value="end">末端</option>
+                <option value="start">起点</option>
+                <option value="both">两端</option>
+                <option value="none">无</option>
+              </select></label
+            >
+          </div>
+          <label
+            ><input id="style-edge-dashed" type="checkbox" /> 默认虚线</label
+          >
+          <div class="style-grid">
+            <label
+              >层间距<input
+                id="style-rank-gap"
+                type="number"
+                min="10"
+                max="300"
+                value="88" /></label
+            ><label
+              >节点间距<input
+                id="style-node-gap"
+                type="number"
+                min="4"
+                max="200"
+                value="34"
+            /></label>
+          </div>
+          <div class="style-grid">
+            <label
+              >参数格式<select id="style-parameter-format">
+                <option value="human">紧凑</option>
+                <option value="raw">原始数字</option>
+                <option value="scientific">科学计数</option>
+              </select></label
+            ><label
+              >FLOPs 格式<select id="style-flops-format">
+                <option value="human">紧凑</option>
+                <option value="raw">原始数字</option>
+                <option value="scientific">科学计数</option>
+              </select></label
+            >
+          </div>
+          <label
+            ><input id="style-shape-brackets" type="checkbox" />
+            形状显示方括号</label
+          >
+          <label
+            >所选节点图标/图片 URL<input
+              id="style-node-icon"
+              placeholder="data: 或 https: URL"
+              disabled
+          /></label>
+        </section>
+      </aside>
+    </main>
+
+    <div
+      id="project-menu"
+      class="menu toolbar-menu hidden"
+      data-toolbar-menu
+      role="menu"
+      aria-labelledby="project-menu-button"
+    >
+      <div class="menu-heading">项目</div>
+      <button id="new-button" class="menu-item">
+        <span class="menu-icon" aria-hidden="true">＋</span
+        ><span><strong>新建画布</strong><small>创建空白 Graph IR</small></span>
+      </button>
+      <label class="menu-item menu-file-item" role="menuitem" tabindex="0"
+        ><span class="menu-icon" aria-hidden="true">⇄</span
+        ><span
+          ><strong>版本比较</strong><small>与另一个项目比较结构</small></span
+        ><input id="compare-input" type="file" accept=".json,.nndv" hidden
+      /></label>
+    </div>
+    <div
+      id="paper-menu"
+      class="menu toolbar-menu hidden"
+      data-toolbar-menu
+      role="menu"
+      aria-labelledby="paper-menu-button"
+    >
+      <div class="menu-heading">论文制作</div>
+      <button id="generate-paper-button" class="menu-item">
+        <span class="menu-icon" aria-hidden="true">✦</span
+        ><span
+          ><strong>生成论文图</strong><small>自动生成可投稿初稿</small></span
+        >
+      </button>
+      <button id="optimize-button" class="menu-item">
+        <span class="menu-icon" aria-hidden="true">◇</span
+        ><span><strong>论文优化</strong><small>比较并应用排版建议</small></span>
+      </button>
+      <button id="figure-studio-button" class="menu-item">
+        <span class="menu-icon" aria-hidden="true">✦</span
+        ><span
+          ><strong>Scientific Figure Studio</strong
+          ><small>独立 Figure IR、Tensor Geometry、Layers 与投稿包</small></span
+        >
+      </button>
+      <button id="scene-studio-button" class="menu-item">
+        <span class="menu-icon" aria-hidden="true">◈</span
+        ><span
+          ><strong>3D Scene Studio</strong
+          ><small>Scene IR, world coordinates, camera and depth</small></span
+        >
+      </button>
+      <button id="composer-button" class="menu-item">
+        <span class="menu-icon" aria-hidden="true">▦</span
+        ><span
+          ><strong>Figure Composer（多 Panel）</strong
+          ><small>默认创建语义总览与 operation 证据</small></span
+        >
+      </button>
+    </div>
+    <div
+      id="view-menu"
+      class="menu toolbar-menu view-menu hidden"
+      data-toolbar-menu
+      role="dialog"
+      aria-label="视图与排版设置"
+    >
+      <div class="menu-heading">语义视图</div>
+      <div class="menu-control-grid">
+        <label
+          >层级<select id="semantic-level" aria-label="语义层级">
+            <option value="raw">原始图</option>
+            <option value="framework">Framework</option>
+            <option value="model" hidden>Model（旧项目兼容）</option>
+            <option value="stage">Stage</option>
+            <option value="block">Block</option>
+            <option value="module">Module</option>
+            <option value="layer" hidden>Layer（旧项目兼容）</option>
+            <option value="operation">Operation</option>
+          </select></label
+        >
+        <label
+          >模式<select id="semantic-view" aria-label="语义视图">
+            <option value="faithful">Faithful View</option>
+            <option value="paper">Paper View</option>
+          </select></label
+        >
+      </div>
+      <div class="menu-heading">布局与页面</div>
+      <div class="menu-control-grid">
+        <label>主题<select id="theme-select" aria-label="主题"></select></label>
+        <label
+          >布局<select id="layout-select" aria-label="布局"></select
+        ></label>
+        <label
+          >方向<select id="direction-select" aria-label="方向">
+            <option>LR</option>
+            <option>TB</option>
+            <option>RL</option>
+            <option>BT</option>
+          </select></label
+        >
+        <label
+          >页面<select id="page-select" aria-label="页面">
+            <option value="auto">自动页面</option>
+            <option value="single-column">单栏</option>
+            <option value="double-column">双栏</option>
+            <option value="wide-two-column">跨双栏</option>
+            <option value="multi-panel">多 Panel</option>
+            <option value="widescreen">宽屏</option>
+            <option value="slide">幻灯片</option>
+            <option value="fit-content">内容裁切</option>
+          </select></label
+        >
+      </div>
+      <div class="menu-separator"></div>
+      <div class="menu-heading">Application appearance</div>
+      <div class="preferences-grid">
+        <label
+          >Theme<select id="app-theme-select" aria-label="Application theme">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="high-contrast">High Contrast</option>
+            <option value="paper">Paper</option>
+          </select></label
+        >
+        <label
+          >Density<select
+            id="app-density-select"
+            aria-label="Application density"
+          >
+            <option value="compact">Compact</option>
+            <option value="balanced">Balanced</option>
+            <option value="comfortable">Comfortable</option>
+          </select></label
+        >
+      </div>
+      <div class="menu-separator"></div>
+      <div class="menu-action-row">
+        <button id="fit-button">适合画布</button
+        ><button id="animate-button" data-menu-stay-open>演示流</button
+        ><button
+          id="perspective-button"
+          data-menu-stay-open
+          title="二维图的透视旋转展示，不表示张量三维几何"
+        >
+          透视展示
+        </button>
+      </div>
+    </div>
+    <div
+      id="more-menu"
+      class="menu toolbar-menu hidden"
+      data-toolbar-menu
+      role="menu"
+      aria-labelledby="more-menu-button"
+    >
+      <div class="menu-heading compact-only">窄屏快捷操作</div>
+      <button
+        class="menu-item compact-only project-fallback"
+        data-open-toolbar-menu="project-menu"
+      >
+        <span class="menu-icon" aria-hidden="true">▤</span
+        ><span><strong>项目</strong><small>新建与版本比较</small></span>
+      </button>
+      <button
+        class="menu-item compact-only view-fallback"
+        data-open-toolbar-menu="view-menu"
+      >
+        <span class="menu-icon" aria-hidden="true">◫</span
+        ><span
+          ><strong>视图与排版</strong
+          ><small>语义、布局、主题与页面</small></span
+        >
+      </button>
+      <button
+        class="menu-item compact-only start-fallback"
+        data-toolbar-action="#start-button"
+      >
+        <span class="menu-icon" aria-hidden="true">⌂</span
+        ><span
+          ><strong>Start Center</strong
+          ><small>模板、导入与最近项目</small></span
+        >
+      </button>
+      <button
+        class="menu-item compact-only graph-fallback"
+        data-toolbar-action="#analyze-button"
+      >
+        <span class="menu-icon" aria-hidden="true">⌁</span
+        ><span><strong>分析结构</strong><small>参数、FLOPs 与瓶颈</small></span>
+      </button>
+      <button
+        class="menu-item compact-only graph-fallback"
+        data-toolbar-action="#layout-button"
+      >
+        <span class="menu-icon" aria-hidden="true">⊞</span
+        ><span><strong>自动布局</strong><small>按当前排版设置重排</small></span>
+      </button>
+      <div class="menu-separator compact-only history-fallback"></div>
+      <div class="menu-action-row compact-only history-fallback">
+        <button data-toolbar-action="#undo-button">↶ 撤销</button
+        ><button data-toolbar-action="#redo-button">↷ 重做</button>
+      </div>
+      <div class="menu-heading">工具与状态</div>
+      <button
+        id="tasks-button"
+        class="menu-item"
+        data-open-workflow-drawer="task-center"
+        aria-controls="task-center"
+        aria-expanded="false"
+      >
+        <span class="menu-icon" aria-hidden="true">◷</span
+        ><span
+          ><strong
+            >任务中心
+            <span id="task-badge" class="inline-badge">0</span></strong
+          ><small>查看后台任务和取消状态</small></span
+        >
+      </button>
+      <button
+        id="issues-button"
+        class="menu-item"
+        data-open-workflow-drawer="issue-center"
+        aria-controls="issue-center"
+        aria-expanded="false"
+      >
+        <span class="menu-icon" aria-hidden="true">!</span
+        ><span
+          ><strong
+            >问题 <span id="issue-badge" class="inline-badge">0</span></strong
+          ><small>检查并定位图中问题</small></span
+        >
+      </button>
+      <button id="command-button" class="menu-item" title="Ctrl+K">
+        <span class="menu-icon" aria-hidden="true">⌘</span
+        ><span><strong>命令与搜索</strong><small>快捷键 Ctrl/⌘ K</small></span>
+      </button>
+      <button
+        id="trial-button"
+        class="menu-item"
+        title="经同意的本地匿名研究者试用"
+      >
+        <span class="menu-icon" aria-hidden="true">◉</span
+        ><span
+          ><strong
+            >Trial Mode
+            <span id="trial-indicator" class="inline-badge">关</span></strong
+          ><small>本地匿名研究者试用</small></span
+        >
+      </button>
+      <button
+        id="help-button"
+        class="menu-item"
+        data-open-workflow-drawer="help-center"
+        aria-controls="help-center"
+        aria-expanded="false"
+      >
+        <span class="menu-icon" aria-hidden="true">?</span
+        ><span><strong>帮助</strong><small>工作流说明与快捷键</small></span>
+      </button>
+    </div>
+    <div
+      id="export-menu"
+      class="menu toolbar-menu export-menu hidden"
+      data-toolbar-menu
+      role="menu"
+      aria-labelledby="export-button"
+    >
+      <div class="menu-heading">论文矢量格式</div>
+      <button data-format="svg">
+        <strong>SVG</strong><small>独立分组、可继续编辑</small></button
+      ><button data-format="pdf">
+        <strong>PDF</strong><small>嵌入字体的矢量输出</small></button
+      ><button data-format="tikz">
+        <strong>TikZ / LaTeX</strong><small>论文源码集成</small>
+      </button>
+      <div class="menu-heading">演示与项目</div>
+      <button data-format="png">PNG</button
+      ><button data-format="eps">EPS</button
+      ><button data-format="pptx">PowerPoint</button
+      ><button data-format="html">交互式 HTML</button
+      ><button data-format="json" class="scene-export-only hidden">
+        Scene JSON</button
+      ><button data-format="gltf" class="scene-export-only hidden">glTF</button
+      ><button data-format="glb" class="scene-export-only hidden">GLB</button
+      ><button
+        id="scene-batch-export"
+        class="scene-export-only hidden"
+        type="button"
+      >
+        <strong>Scene 批量导出</strong
+        ><small>逐项隔离失败，可随时取消</small></button
+      ><button data-format="project">NN_DaVinci 项目</button>
+    </div>
+    <dialog id="scene-batch-dialog" class="workflow-dialog">
+      <form method="dialog">
+        <header>
+          <div>
+            <h2>Scene 批量导出</h2>
+            <p>每种格式独立执行；单项失败不会中断其余格式。</p>
+          </div>
+          <button value="cancel" aria-label="关闭 Scene 批量导出">×</button>
+        </header>
+      </form>
+      <div class="dialog-body scene-batch-body">
+        <fieldset id="scene-batch-formats" class="scene-batch-formats">
+          <legend>选择格式</legend>
+          <label><input type="checkbox" value="svg" checked />SVG</label>
+          <label><input type="checkbox" value="pdf" checked />PDF</label>
+          <label><input type="checkbox" value="tikz" checked />TikZ</label>
+          <label><input type="checkbox" value="pptx" />PPTX</label>
+          <label><input type="checkbox" value="png" checked />PNG</label>
+          <label><input type="checkbox" value="eps" />EPS</label>
+          <label><input type="checkbox" value="html" />HTML</label>
+          <label><input type="checkbox" value="json" />Scene JSON</label>
+          <label><input type="checkbox" value="gltf" />glTF</label>
+          <label><input type="checkbox" value="glb" />GLB</label>
+        </fieldset>
+        <ul
+          id="scene-batch-status"
+          class="scene-batch-status"
+          aria-live="polite"
+        >
+          <li class="empty">选择格式后开始导出。</li>
+        </ul>
+      </div>
+      <div class="dialog-actions">
+        <button id="scene-batch-cancel" type="button" disabled>取消任务</button>
+        <button id="scene-batch-start" type="button" class="primary">
+          开始导出
+        </button>
+      </div>
+    </dialog>
+    <dialog
+      id="structure-lens-dialog"
+      class="workflow-dialog structure-lens-dialog"
+    >
+      <form method="dialog">
+        <header>
+          <div>
+            <h2>Structure Lens</h2>
+            <p>所有结论均链接回 Graph IR/source provenance；查询受预算限制。</p>
+          </div>
+          <button value="cancel" aria-label="关闭 Structure Lens">×</button>
+        </header>
+      </form>
+      <div class="dialog-body">
+        <div class="structure-lens-controls">
+          <label>起点<select id="lens-source"></select></label>
+          <label>终点<select id="lens-target"></select></label>
+          <label
+            >最大路径<input
+              id="lens-max-paths"
+              type="number"
+              min="1"
+              max="25"
+              value="8"
+          /></label>
+          <label
+            >最大深度<input
+              id="lens-max-depth"
+              type="number"
+              min="1"
+              max="128"
+              value="32"
+          /></label>
+        </div>
+        <div class="inline-actions">
+          <button data-lens-operation="upstream">Upstream</button>
+          <button data-lens-operation="downstream">Downstream</button>
+          <button data-lens-operation="path" class="primary">有界路径</button>
+          <button data-lens-operation="residual">Residual / skip</button>
+          <button data-lens-operation="attention">Attention</button>
+          <button data-lens-operation="moe-routing">MoE routing</button>
+          <button id="lens-cancel">取消查询</button>
+        </div>
+        <div id="structure-lens-results" class="structure-lens-results">
+          <p class="empty">选择查询；不会枚举任意大图的全部简单路径。</p>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="import-wizard" class="workflow-dialog">
+      <form method="dialog">
+        <header>
+          <h2>导入向导</h2>
+          <button value="cancel" aria-label="关闭">×</button>
+        </header>
+      </form>
+      <div class="dialog-body">
+        <div class="wizard-steps">
+          <span class="active">1 格式与安全</span><span>2 Sample input</span
+          ><span>3 规模与视图</span>
+        </div>
+        <div id="import-plan"><p class="empty">正在检查…</p></div>
+        <label id="trust-confirm" class="hidden"
+          ><input type="checkbox" /> 我信任该本地 Python/pickle
+          来源并允许执行/反序列化</label
+        >
+      </div>
+      <div class="dialog-actions">
+        <button id="wizard-cancel">取消</button
+        ><button id="wizard-import" class="primary">按建议导入</button>
+      </div>
+    </dialog>
+    <aside
+      id="task-center"
+      class="workflow-drawer hidden"
+      data-workflow-drawer
+      aria-label="任务中心"
+    >
+      <header>
+        <h2>本地任务</h2>
+        <button
+          id="tasks-close"
+          data-close-drawer="task-center"
+          aria-label="关闭任务中心"
+        >
+          ×
+        </button>
+      </header>
+      <div id="task-list"></div>
+    </aside>
+    <dialog id="paper-workflow" class="workflow-dialog wide">
+      <form method="dialog">
+        <header>
+          <h2>论文成图优化器</h2>
+          <button value="cancel" aria-label="关闭论文成图优化器">×</button>
+        </header>
+      </form>
+      <div class="dialog-body">
+        <div class="paper-controls">
+          <label
+            >预设<select id="paper-preset">
+              <option>compact</option>
+              <option selected>paper</option>
+              <option>detailed</option>
+              <option>teaching</option>
+              <option>grayscale</option>
+              <option>colorblind</option>
+            </select></label
+          ><button id="generate-suggestions" class="primary">
+            生成最多 3 个建议</button
+          ><button id="fix-readability">一键修复可读性</button>
+        </div>
+        <div id="paper-suggestions">
+          <p class="empty">
+            建议以 diff 展示，选择后才会应用。锁定节点、手工路由、评论和
+            annotation 保持不变。
+          </p>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="start-center" class="workflow-dialog start-center">
+      <form method="dialog">
+        <header>
+          <div>
+            <h2>Start Center</h2>
+            <p>新建、导入或从本地模板开始</p>
+          </div>
+          <button value="cancel" aria-label="关闭">×</button>
+        </header>
+      </form>
+      <div class="dialog-body">
+        <div class="start-discovery" role="search">
+          <input
+            id="start-search"
+            type="search"
+            placeholder="搜索模型、架构或模板"
+            aria-label="搜索 Start Center"
+          />
+          <div
+            class="start-filter-chips"
+            role="group"
+            aria-label="筛选开始方式"
+          >
+            <button class="active" data-start-filter="all" aria-pressed="true">
+              全部
+            </button>
+            <button data-start-filter="model" aria-pressed="false">
+              真实模型
+            </button>
+            <button data-start-filter="scene" aria-pressed="false">
+              3D 场景
+            </button>
+            <button data-start-filter="figure" aria-pressed="false">
+              论文图
+            </button>
+          </div>
+        </div>
+        <div class="start-actions">
+          <button data-start-action="blank-2d" data-start-category="figure">
+            <strong>空白 2D</strong><span>创建空白图结构与论文画布</span>
+          </button>
+          <button data-start-action="blank-3d" data-start-category="scene">
+            <strong>空白 3D</strong
+            ><span>创建包含相机、灯光与坐标轴的场景</span>
+          </button>
+          <button data-start-action="import" data-start-category="model">
+            <strong>导入模型</strong><span>通过安全向导设置样例输入与规模</span>
+          </button>
+          <button data-start-action="composer" data-start-category="figure">
+            <strong>多面板论文图</strong><span>创建 A–D 面板并共享样式</span>
+          </button>
+        </div>
+        <section data-start-category="model">
+          <h3>从真实模型示例开始</h3>
+          <div id="real-model-list" class="start-grid">
+            <p class="empty">正在读取本地语料…</p>
+          </div>
+        </section>
+        <section
+          data-start-section="scene-templates"
+          data-start-category="scene"
+        >
+          <h3>从可编辑 3D Scene 模板开始</h3>
+          <p class="start-section-hint">
+            七种架构均为 template-only Scene IR，不声称来自模型 Graph 或
+            Semantic View。
+          </p>
+          <div
+            id="scene-template-list"
+            class="start-grid scene-template-grid"
+            aria-live="polite"
+          >
+            <p class="empty">正在读取本地 3D Scene 模板…</p>
+          </div>
+        </section>
+        <details class="start-advanced">
+          <summary>更多模板与恢复选项</summary>
+          <section data-start-category="figure">
+            <h3>从架构模板开始</h3>
+            <div id="template-list" class="start-grid"></div>
+          </section>
+          <section>
+            <h3>打开或恢复项目</h3>
+            <div class="start-grid start-recovery-grid">
+              <button data-start-action="open">
+                <strong>打开项目</strong><span>打开或迁移本地 .nndv.json</span>
+              </button>
+            </div>
+            <div id="recent-projects"><p class="empty">暂无最近项目</p></div>
+          </section>
+          <section>
+            <h3>研究者试用</h3>
+            <button id="start-trial-mode">
+              <strong>打开试用模式</strong
+              ><span>明确同意后仅记录本地匿名工作流事件</span>
+            </button>
+          </section>
+        </details>
+      </div>
+      <footer>
+        <button id="tutorial-button">快速教程</button
+        ><button id="shortcuts-button">常用快捷键</button
+        ><button id="continue-start">继续当前画布</button>
+      </footer>
+    </dialog>
+    <dialog id="trial-workflow" class="workflow-dialog wide">
+      <form method="dialog">
+        <header>
+          <div>
+            <h2>Researcher Trial Mode</h2>
+            <p>本地、可退出、零上传</p>
+          </div>
+          <button value="cancel" aria-label="关闭">×</button>
+        </header>
+      </form>
+      <div class="dialog-body">
+        <div class="trial-privacy">
+          <h3>隐私边界</h3>
+          <p>
+            只保存允许的事件类型、耗时、计数、导出格式和恢复动作。不保存模型数据、文件名、路径、节点/连线/标签内容、身份，也不发送网络请求。
+          </p>
+          <label class="consent-check"
+            ><input id="trial-consent" type="checkbox" />
+            我已阅读试用同意说明，并明确同意在本机记录上述匿名事件。</label
+          >
+          <div class="inline-actions">
+            <button id="trial-consent-apply" class="primary">
+              启用本地记录</button
+            ><button id="trial-consent-revoke">撤回同意</button
+            ><button id="trial-download">下载本地 JSON</button>
+          </div>
+          <p id="trial-status" class="hint">Trial Mode 未启用。</p>
+        </div>
+        <section class="trial-cases">
+          <h3>独立真实模型用例</h3>
+          <p class="hint">
+            用例仅依赖本地框架，不下载权重；选择后从 Web 导入开始计时。
+          </p>
+          <button id="trial-own-model">
+            <strong>使用我的模型</strong
+            ><span>继续使用安全导入向导；Trial JSON 不记录文件名或路径</span>
+          </button>
+          <div id="trial-case-list" class="start-grid">
+            <p class="empty">正在读取用例…</p>
+          </div>
+        </section>
+      </div>
+      <div class="dialog-actions">
+        <button id="trial-finish" class="primary">完成当前任务</button
+        ><button id="trial-abandon">放弃当前任务</button>
+      </div>
+    </dialog>
+    <dialog id="composer-workflow" class="workflow-dialog wide">
+      <form method="dialog">
+        <header>
+          <div>
+            <h2>Figure Composer</h2>
+            <p>A–D Panel 独立保留锁定、路由与注释</p>
+          </div>
+          <button value="cancel" aria-label="关闭 Figure Composer">×</button>
+        </header>
+      </form>
+      <div class="dialog-body">
+        <div
+          id="composer-status"
+          class="composer-status"
+          role="status"
+          aria-live="polite"
+        >
+          <span class="busy-spinner" aria-hidden="true"></span>
+          <span id="composer-status-text">正在准备多 Panel 工作区…</span>
+        </div>
+        <div
+          id="composer-summary"
+          class="composer-summary"
+          aria-label="Figure Composer 状态摘要"
+        ></div>
+        <div id="composer-empty" class="composer-empty hidden"></div>
+        <div id="composer-content">
+          <div class="composer-controls">
+            <label
+              >共享标题<input id="composer-title" value="Paper figure"
+            /></label>
+            <label
+              >页面<select id="composer-page">
+                <option>single-column</option>
+                <option selected>double-column</option>
+                <option>wide-two-column</option>
+                <option>slide</option>
+              </select></label
+            ><label
+              >排列<select id="composer-arrangement">
+                <option>grid</option>
+                <option>horizontal</option>
+                <option>vertical</option>
+                <option>overview-detail</option>
+              </select></label
+            >
+          </div>
+          <div id="composer-panels" class="composer-panels"></div>
+          <div id="composer-proof" class="proof-strip">
+            <span>组合后显示最终毫米、字号、线宽和占用率。</span>
+          </div>
+        </div>
+      </div>
+      <div class="dialog-actions">
+        <button id="composer-add-panel">添加 Panel</button
+        ><button id="composer-preview" class="primary">生成组合预览</button
+        ><button id="composer-export">一次导出七种产物</button>
+      </div>
+    </dialog>
+    <dialog
+      id="command-palette"
+      class="command-palette"
+      aria-label="Commands and global search"
+    >
+      <div class="dialog-body">
+        <input
+          id="command-search"
+          placeholder="输入命令或全局搜索…"
+          autocomplete="off"
+          role="combobox"
+          aria-autocomplete="list"
+          aria-controls="command-results"
+          aria-expanded="true"
+        />
+        <div id="command-results" role="listbox"></div>
+      </div>
+    </dialog>
+    <dialog
+      id="autosave-conflict-dialog"
+      class="workflow-dialog autosave-conflict-dialog"
+      aria-labelledby="autosave-conflict-title"
+    >
+      <form method="dialog">
+        <header>
+          <div>
+            <h2 id="autosave-conflict-title">Compare autosave revisions</h2>
+            <p>A stored revision changed outside this editing session.</p>
+          </div>
+          <button value="cancel" aria-label="Close revision comparison">
+            ×
+          </button>
+        </header>
+      </form>
+      <div class="dialog-body">
+        <p class="autosave-conflict-explanation">
+          Review both revisions before replacing either one. Nothing is
+          overwritten until you choose an action below.
+        </p>
+        <div class="autosave-revision-comparison">
+          <article data-autosave-revision="current">
+            <span class="revision-kicker">Current workspace</span>
+            <strong id="autosave-current-revision">Unsaved revision</strong>
+            <dl id="autosave-current-summary"></dl>
+          </article>
+          <article data-autosave-revision="stored">
+            <span class="revision-kicker">Stored autosave</span>
+            <strong id="autosave-stored-revision">Unknown revision</strong>
+            <dl id="autosave-stored-summary"></dl>
+          </article>
+        </div>
+        <p id="autosave-conflict-note" class="hint" role="status"></p>
+      </div>
+      <div class="dialog-actions">
+        <button id="autosave-keep-stored" type="button">
+          Load stored revision
+        </button>
+        <button id="autosave-overwrite-stored" type="button" class="primary">
+          Overwrite with current
+        </button>
+      </div>
+    </dialog>
+    <dialog id="shortcuts-dialog" class="workflow-dialog">
+      <form method="dialog">
+        <header>
+          <h2>常用快捷键</h2>
+          <button value="cancel">×</button>
+        </header>
+      </form>
+      <div class="dialog-body">
+        <dl class="shortcut-list">
+          <dt>Ctrl/⌘ K</dt>
+          <dd>命令面板与全局搜索</dd>
+          <dt>Ctrl/⌘ Z</dt>
+          <dd>撤销</dd>
+          <dt>Ctrl/⌘ Shift Z</dt>
+          <dd>重做</dd>
+          <dt>Ctrl/⌘ D</dt>
+          <dd>复制所选节点</dd>
+          <dt>Delete</dt>
+          <dd>删除选择</dd>
+          <dt>Esc</dt>
+          <dd>清除选择 / 关闭浮层</dd>
+        </dl>
+      </div>
+    </dialog>
+    <aside
+      id="help-center"
+      class="workflow-drawer hidden"
+      data-workflow-drawer
+      aria-label="上下文帮助"
+    >
+      <header>
+        <h2>上下文帮助</h2>
+        <button data-close-drawer="help-center">×</button>
+      </header>
+      <div class="drawer-content">
+        <h3>推荐流程</h3>
+        <ol>
+          <li>从 Start Center 选择真实模型或导入文件。</li>
+          <li>在 Stage/Block/Operation 间钻取并审查 provenance。</li>
+          <li>生成论文图并比较最多三个候选。</li>
+          <li>进入 Composer 组合 Panel，完成少量拖动和路由。</li>
+          <li>保存项目并导出矢量产物。</li>
+        </ol>
+        <p class="hint">
+          Python factory 与 pickle 默认不执行；unknown 语义不会被猜测。
+        </p>
+      </div>
+    </aside>
+    <aside
+      id="issue-center"
+      class="workflow-drawer hidden"
+      data-workflow-drawer
+      aria-label="问题列表"
+    >
+      <header>
+        <h2>问题与定位</h2>
+        <button data-close-drawer="issue-center">×</button>
+      </header>
+      <div id="issue-list" class="drawer-content"></div>
+    </aside>
+    <dialog id="text-entry-dialog" class="workflow-dialog input-dialog">
+      <form method="dialog">
+        <header>
+          <div>
+            <h2 id="text-entry-title">输入内容</h2>
+            <p id="text-entry-description" class="hint"></p>
+          </div>
+          <button value="cancel" aria-label="关闭输入窗口">×</button>
+        </header>
+      </form>
+      <div class="dialog-body">
+        <div id="text-entry-fields" class="input-fields"></div>
+      </div>
+      <div class="dialog-actions">
+        <button id="text-entry-cancel" type="button">取消</button>
+        <button id="text-entry-confirm" type="button" class="primary">
+          确认
+        </button>
+      </div>
+    </dialog>
+    <div id="surface-backdrop" class="surface-backdrop hidden"></div>
+    <div
+      id="toast"
+      class="toast hidden"
+      popover="manual"
+      role="status"
+      aria-live="polite"
+    ></div>
+    <script src="state-machine.js"></script>
+    <script src="scene-renderer.js"></script>
+    <script src="scene-interactions.js"></script>
+    <script src="scene-batch.js"></script>
+    <script src="commands.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

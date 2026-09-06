@@ -1,0 +1,44 @@
+{
+  "case_key": "topk_moe",
+  "case_kind": "real-model",
+  "evidence_provenance_digest": "b30487748ccffa2b977379e6c24c62a0b72695aca92bd29200e830fffd54ef7d",
+  "evidence_version": "1.0",
+  "expected_critical_route_count": 5,
+  "expected_role_count": 5,
+  "failures": [],
+  "family": "moe",
+  "figure_critical_route_count": 5,
+  "figure_role_count": 5,
+  "input_role_ids": [
+    "architecture_role_input_0_module_token_embedding_6c4877e2_no_f9cf0520"
+  ],
+  "landed_documents": {
+    "figure": {
+      "path": "figure.figure.json",
+      "sha256": "512400bfeda540c17166e0979bea3e3481957eb7a779b556768c3c774f6b46b0"
+    },
+    "graph": {
+      "path": "graph.graph.json",
+      "sha256": "02c43424a47ed50b5f472bc5b7da9a53f4eda4fb6db02e932ce4ccaa5348c601"
+    },
+    "scene": {
+      "path": "scene.scene.json",
+      "sha256": "2584ee5947062a824fe6dace94d7a3b466c9632848905632d00da6709771c674"
+    },
+    "semantic": {
+      "path": "semantic.semantic.json",
+      "sha256": "22aed47d7622cc577ff7ae04886ca701e67e35ca99127427df1a4ede5eea8605"
+    }
+  },
+  "oracle_version": "1.0",
+  "output_role_ids": [
+    "architecture_role_output_head_4_node_fx_output_31_1e7f4585_m_0ea8dfca"
+  ],
+  "passed": true,
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "scene_critical_route_count": 5,
+  "scene_role_count": 5,
+  "schema_version": "nndv-architecture-parity-1",
+  "uncertain_claims": [],
+  "unknown_reason": null
+}

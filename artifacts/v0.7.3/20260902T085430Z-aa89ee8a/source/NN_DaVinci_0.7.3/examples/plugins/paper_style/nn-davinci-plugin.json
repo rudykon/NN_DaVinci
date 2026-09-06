@@ -1,0 +1,10 @@
+{
+  "name": "paper-style-example",
+  "version": "0.1.0",
+  "api_version": "2.0",
+  "capabilities": ["theme"],
+  "capability_versions": {"theme": "2.0"},
+  "security": {"executes_local_code": true, "process_isolation": false, "network_granted_by_nn_davinci": false},
+  "entry_point": "plugin.py:create_plugin",
+  "description": "Minimal local NN_DaVinci theme plugin template"
+}

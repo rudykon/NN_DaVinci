@@ -1,0 +1,50 @@
+{
+  "case_key": "vision_transformer",
+  "case_kind": "real-model",
+  "evidence_provenance_digest": "54c671152f3d75bd7972d39856a7828c1797e7338280fa17d2a06436a7a9c08e",
+  "evidence_version": "1.0",
+  "expected_critical_route_count": 1,
+  "expected_role_count": 5,
+  "failures": [],
+  "family": "transformer",
+  "figure_critical_route_count": 1,
+  "figure_role_count": 5,
+  "input_role_ids": [
+    "architecture_role_embedding_0_node_fx_add_1_15_950ec945_node_c502c921"
+  ],
+  "landed_documents": {
+    "figure": {
+      "path": "figure.figure.json",
+      "sha256": "20875c1557fa844115b404de4448828dfa1578b45d275b544012b5d296eb702b"
+    },
+    "graph": {
+      "path": "graph.graph.json",
+      "sha256": "834af3c5d706e80461994a0630a584c23d6bfeec561394e584994368c578680f"
+    },
+    "scene": {
+      "path": "scene.scene.json",
+      "sha256": "6d0b250bb44cd92b0790d84403d44ecc5dc84cc7a4c4c9b047ea8b752282782e"
+    },
+    "semantic": {
+      "path": "semantic.semantic.json",
+      "sha256": "7067d3ba5e47606592ec99cf4a8cc68102c97b0322a446be1f9d2d290626238f"
+    }
+  },
+  "oracle_version": "1.0",
+  "output_role_ids": [
+    "architecture_role_output_head_4_node_fx_output_44_81582432_n_f44453d4"
+  ],
+  "passed": true,
+  "release": "0.7.2 — Scientific Fidelity & Semantic Scene Hotfix",
+  "scene_critical_route_count": 1,
+  "scene_role_count": 5,
+  "schema_version": "nndv-architecture-parity-1",
+  "uncertain_claims": [
+    {
+      "claim": "class_token",
+      "reason": "Image-token role requires a rank-4 floating input and the importer embedding/concatenation path.",
+      "status": "evidenced"
+    }
+  ],
+  "unknown_reason": null
+}

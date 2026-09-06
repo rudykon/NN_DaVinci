@@ -1,0 +1,1743 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.6,
+        0.56,
+        1.3635788500845527
+      ],
+      "min": [
+        -0.6,
+        -0.56,
+        -1.3635788500845527
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.6,
+        0.56,
+        1.5217963608677207
+      ],
+      "min": [
+        -0.6,
+        -0.56,
+        -1.5217963608677207
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.6,
+        0.56,
+        1.3635788500845527
+      ],
+      "min": [
+        -0.6,
+        -0.56,
+        -1.3635788500845527
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.72,
+        1.3635788500845527,
+        1.3635788500845527
+      ],
+      "min": [
+        -0.72,
+        -1.3635788500845527,
+        -1.3635788500845527
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        1.85,
+        5.550000000000001,
+        3.7
+      ],
+      "min": [
+        -12.950000000000001,
+        0.0,
+        2.7750000000000004
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        1.85,
+        0.29459027039091146,
+        3.8384501655913423
+      ],
+      "min": [
+        1.4134167625571576,
+        -0.009789729445380785,
+        3.514083077584403
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        1.85,
+        0.0,
+        4.5
+      ],
+      "min": [
+        -12.950000000000001,
+        -5.550000000000001,
+        0.925
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        1.85,
+        0.0,
+        3.972164304909125
+      ],
+      "min": [
+        1.2679548165958048,
+        -0.5166202695663439,
+        3.524771133504493
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        1.85,
+        5.550000000000001,
+        4.5
+      ],
+      "min": [
+        -12.950000000000001,
+        0.0,
+        2.7750000000000004
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        1.85,
+        0.5166202695663439,
+        3.972164304909125
+      ],
+      "min": [
+        1.2679548165958048,
+        0.0,
+        3.524771133504493
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        1.85,
+        0.0,
+        3.7
+      ],
+      "min": [
+        -12.950000000000001,
+        -5.550000000000001,
+        0.925
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        1.85,
+        0.011977873985263704,
+        3.789469148219124
+      ],
+      "min": [
+        1.4151131739000762,
+        -0.29296820261607825,
+        3.470035687465469
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        12.950000000000001,
+        0.0,
+        3.7
+      ],
+      "min": [
+        1.85,
+        0.0,
+        0.925
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        12.950000000000001,
+        0.1625,
+        1.1811782539446267
+      ],
+      "min": [
+        12.516467570247556,
+        -0.1625,
+        0.8658819413973937
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "schemaVersion": "nndv-scene-gltf-1"
+    },
+    "generator": "NN_DaVinci Scene IR 1.0 deterministic exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 336,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 816,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 984,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1092,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36,
+      "byteOffset": 1260,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1296,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1404,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36,
+      "byteOffset": 1572,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1608,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1716,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1884,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1908,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2016,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2184,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2208,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2316,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2484,
+      "uri": "data:application/octet-stream;base64,mpkZvylcD7/Aia6/mpkZPylcD7/Aia6/mpkZPylcDz/Aia6/mpkZvylcDz/Aia6/mpkZvylcD7/Aia4/mpkZPylcD7/Aia4/mpkZPylcDz/Aia4/mpkZvylcDz/Aia4/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAmpkZvylcD785ysK/mpkZPylcD785ysK/mpkZPylcDz85ysK/mpkZvylcDz85ysK/mpkZvylcD785ysI/mpkZPylcD785ysI/mpkZPylcDz85ysI/mpkZvylcDz85ysI/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAmpkZvylcD7/Aia6/mpkZPylcD7/Aia6/mpkZPylcDz/Aia6/mpkZvylcDz/Aia6/mpkZvylcD7/Aia4/mpkZPylcD7/Aia4/mpkZPylcDz/Aia4/mpkZvylcDz/Aia4/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAA7FE4v8CJrr/Aia6/7FE4P8CJrr/Aia6/7FE4P8CJrj/Aia6/7FE4v8CJrj/Aia6/7FE4v8CJrr/Aia4/7FE4P8CJrr/Aia4/7FE4P8CJrj/Aia4/7FE4v8CJrj/Aia4/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAMzNPwZqZsUCamTFAzczsPwAAAADNzGxAzczsPwAAAADNzGxAhuW6P2DRET4rqXVACGzAP/IBgD4NyHJAgnjDP4nUlj4qgmtAxEHCP/IBgD4uGmRA1H29P2DRET695mBAUve3P3B7Dj3bx2NA1+q0PxplILy9DWtAliG2P3B7Dj25dXJAAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAMzNPwZqZscDNzGw/mpmxwJqZscAAAJBAzczsPwAAAADNzGxAzczsPwAAAADNzGxAfIK2P0corL7xN35ADoCpP3q1Vb7zrXpAWEyiPzacH76+03BAXx+lP3q1Vb7LbmZAmVGwP0corL7alWFAB1S9P9J17b7XH2VAvYfEPzpBBL8M+m5AtrTBP9J17b7/XnlAAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAMzNPwZqZsUCamTFAmpmxwJqZsUAAAJBAzczsPwAAAADNzGxAzczsPwAAAADNzGxAfIK2P0corD7xN35AtrTBP9J17T7/XnlAvYfEPzpBBD8M+m5AB1S9P9J17T7XH2VAmVGwP0corD7alWFAXx+lP3q1VT7LbmZAWEyiPzacHz6+03BADoCpP3q1VT7zrXpAAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAMzNPwZqZscDNzGw/zczsPwAAAADNzGxAzczsPwAAAADNzGxA2AK5P/fdD76qhnJAbiK1P+7bBb08EG9AMMa1P9g+RDwupGdAMo66P+7bBb2Gm2BAcq3AP/fdD74RFV5A3Y3EP/JEfr5+i2FAGurDP+7/lb6M92hAGCK/P/JEfr40AHBAAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAzczsPwAAAADNzGxAMzNPQQAAAADNzGw/MzNPQQAAAADNzGw/UYZJQQAAAADZMJc/CFdJQTxT6z3RR5E/4uRIQWZmJj4JA4M/vHJIQTxT6z2BfGk/c0NIQcCMtyNwql0/vHJIQTxT672BfGk/4uRIQWZmJr4JA4M/CFdJQTxT673RR5E/AAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAA"
+    }
+  ],
+  "cameras": [
+    {
+      "extras": {
+        "nndvProjection": "orthographic",
+        "objectId": "scene_camera_imagetextmultimodalmodel___module___archit_aad53342"
+      },
+      "name": "ImageTextMultimodalModel · Module · Architecture Evidence 3D isometric camera",
+      "orthographic": {
+        "xmag": 13.5,
+        "ymag": 9.0,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "orthographic"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "extras": {
+            "nndvLight": {
+              "color": "#ffffff",
+              "direction": [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              "id": "scene_light_imagetextmultimodalmodel___module___archit_d6395b00",
+              "intensity": 1.0,
+              "kind": "directional",
+              "locked": false,
+              "metadata": {},
+              "name": "Key light",
+              "position": [
+                8.0,
+                10.0,
+                12.0
+              ],
+              "visible": true
+            },
+            "objectId": "scene_light_imagetextmultimodalmodel___module___archit_d6395b00"
+          },
+          "intensity": 1.0,
+          "name": "Key light",
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#f0abfcff",
+        "nndvMaterial": {
+          "base_color": "#f0abfc",
+          "face_colors": {
+            "front": "#f0abfc",
+            "top": "#f0abfc"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_2e3964f2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9411765,
+          0.6705882,
+          0.9882353,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#8b5cf6ff",
+        "nndvMaterial": {
+          "base_color": "#8b5cf6",
+          "face_colors": {
+            "front": "#8b5cf6",
+            "top": "#8b5cf6"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_3d003159",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.545098,
+          0.3607843,
+          0.9647059,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#bfdbfeff",
+        "nndvMaterial": {
+          "base_color": "#bfdbfe",
+          "face_colors": {
+            "front": "#bfdbfe",
+            "top": "#bfdbfe"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_93e25569",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7490196,
+          0.8588235,
+          0.9960784,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#93c5fdff",
+        "nndvMaterial": {
+          "base_color": "#93c5fd",
+          "face_colors": {
+            "front": "#93c5fd",
+            "top": "#93c5fd"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_d20d0c15",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5764706,
+          0.772549,
+          0.9921569,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#475569ff",
+        "nndvMaterial": {
+          "base_color": "#475569",
+          "face_colors": {
+            "front": "#475569",
+            "top": "#475569"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_route_architectur_1593c961",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2784314,
+          0.3333333,
+          0.4117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_2e3964f2"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_2e3964f2",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_3d003159"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_3d003159",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_93e25569"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_93e25569",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_d20d0c15"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_d20d0c15",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "indices": 7,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_1593c961"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_1593c961",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 9
+          },
+          "indices": 10,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_2b72a654"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_2b72a654",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11
+          },
+          "material": 1,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 12
+          },
+          "indices": 13,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_60607fc1"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_60607fc1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14
+          },
+          "material": 1,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 15
+          },
+          "indices": 16,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_9ea5e956"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_9ea5e956",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 18
+          },
+          "indices": 19,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_b6dea88c"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_b6dea88c",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 21
+          },
+          "indices": 22,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "kind": "token-sequence",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_2e3964f2",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "text-lane",
+            "architecture_role_id": "architecture_role_text_lane_1_node_fx_mean_12_0803e404_modul_faa01af6",
+            "confidence": 0.96,
+            "edge_ids": [
+              "module_edge_edge_node_fx_token_ids_1_52a77bc9_node_fx__fa6fb051",
+              "module_edge_edge_node_fx_text_encoder_embedding_8_e406_e6bc5084",
+              "module_edge_edge_node_fx_text_encoder_embedding_8_e406_897e27d0",
+              "module_edge_edge_node_fx_text_encoder_embedding_8_e406_2a6924c4",
+              "module_edge_edge_node_fx_text_encoder_attention_9_4fe3_bbdf1689",
+              "module_edge_edge_node_fx_text_encoder_attention_9_4fe3_5c44669c",
+              "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_a3130f35"
+            ],
+            "node_ids": [
+              "node_fx_mean_12_0803e404",
+              "module_text_encoder_attention_26daf7d7",
+              "module_text_encoder_embedding_0a4b3959",
+              "node_fx_getitem_1_11_cb816ebb",
+              "node_fx_getitem_10_957ae78a",
+              "node_fx_token_ids_1_52a77bc9"
+            ],
+            "port_ids": [
+              "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__a64f7f30",
+              "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__58a403f3",
+              "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__15fd5546",
+              "module_text_encoder_attention_26daf7d7:output:binding_node_fx_text_encoder_attention_9_4fe36b36__00cd5c42",
+              "module_text_encoder_embedding_0a4b3959:input:binding_node_fx_text_encoder_embedding_8_e406988d__c9439151",
+              "module_text_encoder_embedding_0a4b3959:output:binding_node_fx_text_encoder_embedding_8_e406988d__4c6ba381",
+              "node_fx_token_ids_1_52a77bc9:output:0",
+              "node_fx_getitem_10_957ae78a:input:0",
+              "node_fx_getitem_10_957ae78a:output:0",
+              "node_fx_getitem_1_11_cb816ebb:input:0",
+              "node_fx_getitem_1_11_cb816ebb:output:0",
+              "node_fx_mean_12_0803e404:input:0",
+              "node_fx_mean_12_0803e404:output:0"
+            ],
+            "reasons": [
+              "An integer token input follows an embedding/attention path independent of the image path."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__ff0306fc",
+            "figure_object_model_figure_tensor_architecture_projectio_1c8a7586",
+            "figure_object_model_figure_edge_architecture_projection__cc56d190"
+          ],
+          "graph_ir_ids": [
+            "node_fx_mean_12_0803e404",
+            "module_text_encoder_attention_26daf7d7",
+            "module_text_encoder_embedding_0a4b3959",
+            "node_fx_getitem_1_11_cb816ebb",
+            "node_fx_getitem_10_957ae78a",
+            "node_fx_token_ids_1_52a77bc9",
+            "module_edge_edge_node_fx_token_ids_1_52a77bc9_node_fx__fa6fb051",
+            "module_edge_edge_node_fx_text_encoder_embedding_8_e406_e6bc5084",
+            "module_edge_edge_node_fx_text_encoder_embedding_8_e406_897e27d0",
+            "module_edge_edge_node_fx_text_encoder_embedding_8_e406_2a6924c4",
+            "module_edge_edge_node_fx_text_encoder_attention_9_4fe3_bbdf1689",
+            "module_edge_edge_node_fx_text_encoder_attention_9_4fe3_5c44669c",
+            "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_a3130f35",
+            "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__a64f7f30",
+            "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__58a403f3",
+            "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__15fd5546",
+            "module_text_encoder_attention_26daf7d7:output:binding_node_fx_text_encoder_attention_9_4fe36b36__00cd5c42",
+            "module_text_encoder_embedding_0a4b3959:input:binding_node_fx_text_encoder_embedding_8_e406988d__c9439151",
+            "module_text_encoder_embedding_0a4b3959:output:binding_node_fx_text_encoder_embedding_8_e406988d__4c6ba381",
+            "node_fx_token_ids_1_52a77bc9:output:0",
+            "node_fx_getitem_10_957ae78a:input:0",
+            "node_fx_getitem_10_957ae78a:output:0",
+            "node_fx_getitem_1_11_cb816ebb:input:0",
+            "node_fx_getitem_1_11_cb816ebb:output:0",
+            "node_fx_mean_12_0803e404:input:0",
+            "node_fx_mean_12_0803e404:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f",
+            "semantic_stage_encoder_module_image_encoder_0_2cd10_42a86a20"
+          ],
+          "source_id": "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -12.95,
+        5.55,
+        2.775,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Text encoder / attention"
+    },
+    {
+      "extras": {
+        "kind": "fusion",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_3d003159",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "fusion",
+            "architecture_role_id": "architecture_role_fusion_2_node_fx_cat_15_cd86490b_module_mo_6d6dcedf",
+            "confidence": 0.96,
+            "edge_ids": [
+              "module_edge_edge_node_fx_modality_fusion_image_project_5cfd9206",
+              "module_edge_edge_node_fx_modality_fusion_text_projecti_79f82aee"
+            ],
+            "node_ids": [
+              "node_fx_cat_15_cd86490b",
+              "module_modality_fusion_image_projection_ea4e2681",
+              "module_modality_fusion_text_projection_17dedab8"
+            ],
+            "port_ids": [
+              "module_modality_fusion_image_projection_ea4e2681:input:binding_node_fx_modality_fusion_image_projection_1_1355029d",
+              "module_modality_fusion_image_projection_ea4e2681:output:binding_node_fx_modality_fusion_image_projection_1_9ed70d7b",
+              "module_modality_fusion_text_projection_17dedab8:input:binding_node_fx_modality_fusion_text_projection_14_200de6ef",
+              "module_modality_fusion_text_projection_17dedab8:output:binding_node_fx_modality_fusion_text_projection_14_ef59d9f0",
+              "node_fx_cat_15_cd86490b:input:0",
+              "node_fx_cat_15_cd86490b:input:1",
+              "node_fx_cat_15_cd86490b:output:0"
+            ],
+            "reasons": [
+              "Two shape/dtype-distinct declared input branches first converge at a typed concatenation operation."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__fc81d94e",
+            "figure_object_model_figure_tensor_architecture_projectio_6c7566d6",
+            "figure_object_model_figure_edge_architecture_projection__9f0e686e",
+            "figure_object_model_figure_edge_architecture_projection__72e3e140",
+            "figure_object_model_figure_edge_architecture_projection__94c16911",
+            "figure_object_model_figure_edge_architecture_projection__cc56d190",
+            "figure_object_model_figure_edge_architecture_projection__d91b4de9"
+          ],
+          "graph_ir_ids": [
+            "node_fx_cat_15_cd86490b",
+            "module_modality_fusion_image_projection_ea4e2681",
+            "module_modality_fusion_text_projection_17dedab8",
+            "module_edge_edge_node_fx_modality_fusion_image_project_5cfd9206",
+            "module_edge_edge_node_fx_modality_fusion_text_projecti_79f82aee",
+            "module_modality_fusion_image_projection_ea4e2681:input:binding_node_fx_modality_fusion_image_projection_1_1355029d",
+            "module_modality_fusion_image_projection_ea4e2681:output:binding_node_fx_modality_fusion_image_projection_1_9ed70d7b",
+            "module_modality_fusion_text_projection_17dedab8:input:binding_node_fx_modality_fusion_text_projection_14_200de6ef",
+            "module_modality_fusion_text_projection_17dedab8:output:binding_node_fx_modality_fusion_text_projection_14_ef59d9f0",
+            "node_fx_cat_15_cd86490b:input:0",
+            "node_fx_cat_15_cd86490b:input:1",
+            "node_fx_cat_15_cd86490b:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+          ],
+          "source_id": "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.85,
+        0.0,
+        3.7,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Gated fusion"
+    },
+    {
+      "extras": {
+        "kind": "tensor-volume",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_93e25569",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "output-head",
+            "architecture_role_id": "architecture_role_output_head_3_node_fx_sub_19_9f3908ea_node_962ae860",
+            "confidence": 0.93,
+            "edge_ids": [
+              "module_edge_edge_node_fx_modality_fusion_fusion_gate_1_f7534a6f",
+              "module_edge_edge_node_fx_sigmoid_17_82331589_node_fx_s_ccc6a709",
+              "module_edge_edge_node_fx_sigmoid_17_82331589_node_fx_s_9764f9ea",
+              "module_edge_edge_node_fx_sub_19_9f3908ea_node_fx_sub_1_28619f34",
+              "module_edge_edge_node_fx_mul_18_d9198197_node_fx_mul_1_29790c86",
+              "module_edge_edge_node_fx_mul_1_20_219dc988_node_fx_mul_fdf1d947",
+              "module_edge_edge_node_fx_add_21_ef0f694d_node_fx_add_2_649b5ff9",
+              "module_edge_edge_node_fx_output_head_22_59165105_node__e2517307"
+            ],
+            "node_ids": [
+              "node_fx_sub_19_9f3908ea",
+              "node_fx_output_23_a1d93912",
+              "node_fx_sigmoid_17_82331589",
+              "node_fx_mul_1_20_219dc988",
+              "module_modality_fusion_fusion_gate_1d9185fb",
+              "module_output_head_a3ee7dc1",
+              "node_fx_add_21_ef0f694d",
+              "node_fx_mul_18_d9198197"
+            ],
+            "port_ids": [
+              "module_modality_fusion_fusion_gate_1d9185fb:input:binding_node_fx_modality_fusion_fusion_gate_16_34f_f0b82805",
+              "module_modality_fusion_fusion_gate_1d9185fb:output:binding_node_fx_modality_fusion_fusion_gate_16_34f_577e6547",
+              "module_output_head_a3ee7dc1:input:binding_node_fx_output_head_22_59165105_node_fx_ou_be7ca5f7",
+              "module_output_head_a3ee7dc1:output:binding_node_fx_output_head_22_59165105_node_fx_ou_059c1da3",
+              "node_fx_sigmoid_17_82331589:input:0",
+              "node_fx_sigmoid_17_82331589:output:0",
+              "node_fx_mul_18_d9198197:input:0",
+              "node_fx_mul_18_d9198197:input:1",
+              "node_fx_mul_18_d9198197:output:0",
+              "node_fx_sub_19_9f3908ea:input:0",
+              "node_fx_sub_19_9f3908ea:output:0",
+              "node_fx_mul_1_20_219dc988:input:0",
+              "node_fx_mul_1_20_219dc988:input:1",
+              "node_fx_mul_1_20_219dc988:output:0",
+              "node_fx_add_21_ef0f694d:input:0",
+              "node_fx_add_21_ef0f694d:input:1",
+              "node_fx_add_21_ef0f694d:output:0",
+              "node_fx_output_23_a1d93912:input:0",
+              "node_fx_output_23_a1d93912:output:0"
+            ],
+            "reasons": [
+              "The fused representation reaches the terminal Graph IR output path."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__bacf4c15",
+            "figure_object_model_figure_tensor_architecture_projectio_818350c5",
+            "figure_object_model_figure_edge_architecture_projection__d91b4de9"
+          ],
+          "graph_ir_ids": [
+            "node_fx_sub_19_9f3908ea",
+            "node_fx_output_23_a1d93912",
+            "node_fx_sigmoid_17_82331589",
+            "node_fx_mul_1_20_219dc988",
+            "module_modality_fusion_fusion_gate_1d9185fb",
+            "module_output_head_a3ee7dc1",
+            "node_fx_add_21_ef0f694d",
+            "node_fx_mul_18_d9198197",
+            "module_edge_edge_node_fx_modality_fusion_fusion_gate_1_f7534a6f",
+            "module_edge_edge_node_fx_sigmoid_17_82331589_node_fx_s_ccc6a709",
+            "module_edge_edge_node_fx_sigmoid_17_82331589_node_fx_s_9764f9ea",
+            "module_edge_edge_node_fx_sub_19_9f3908ea_node_fx_sub_1_28619f34",
+            "module_edge_edge_node_fx_mul_18_d9198197_node_fx_mul_1_29790c86",
+            "module_edge_edge_node_fx_mul_1_20_219dc988_node_fx_mul_fdf1d947",
+            "module_edge_edge_node_fx_add_21_ef0f694d_node_fx_add_2_649b5ff9",
+            "module_edge_edge_node_fx_output_head_22_59165105_node__e2517307",
+            "module_modality_fusion_fusion_gate_1d9185fb:input:binding_node_fx_modality_fusion_fusion_gate_16_34f_f0b82805",
+            "module_modality_fusion_fusion_gate_1d9185fb:output:binding_node_fx_modality_fusion_fusion_gate_16_34f_577e6547",
+            "module_output_head_a3ee7dc1:input:binding_node_fx_output_head_22_59165105_node_fx_ou_be7ca5f7",
+            "module_output_head_a3ee7dc1:output:binding_node_fx_output_head_22_59165105_node_fx_ou_059c1da3",
+            "node_fx_sigmoid_17_82331589:input:0",
+            "node_fx_sigmoid_17_82331589:output:0",
+            "node_fx_mul_18_d9198197:input:0",
+            "node_fx_mul_18_d9198197:input:1",
+            "node_fx_mul_18_d9198197:output:0",
+            "node_fx_sub_19_9f3908ea:input:0",
+            "node_fx_sub_19_9f3908ea:output:0",
+            "node_fx_mul_1_20_219dc988:input:0",
+            "node_fx_mul_1_20_219dc988:input:1",
+            "node_fx_mul_1_20_219dc988:output:0",
+            "node_fx_add_21_ef0f694d:input:0",
+            "node_fx_add_21_ef0f694d:input:1",
+            "node_fx_add_21_ef0f694d:output:0",
+            "node_fx_output_23_a1d93912:input:0",
+            "node_fx_output_23_a1d93912:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+          ],
+          "source_id": "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        12.95,
+        0.0,
+        0.925,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "Output head"
+    },
+    {
+      "extras": {
+        "kind": "tensor-stack",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_d20d0c15",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "image-lane",
+            "architecture_role_id": "architecture_role_image_lane_0_node_fx_image_0_a96ed448_modu_eea979b1",
+            "confidence": 0.96,
+            "edge_ids": [
+              "module_edge_edge_node_fx_image_0_a96ed448_node_fx_imag_8513daad",
+              "module_edge_edge_node_fx_image_encoder_0_2_72af1587_no_137dc41e",
+              "module_edge_edge_node_fx_image_encoder_1_3_84eb38f6_no_917bc5c4",
+              "module_edge_edge_node_fx_image_encoder_2_4_2fcf1765_no_c401fd24",
+              "module_edge_edge_node_fx_image_encoder_3_5_b5915fef_no_6ee7972b",
+              "module_edge_edge_node_fx_image_encoder_4_6_eeae9277_no_fef0168c"
+            ],
+            "node_ids": [
+              "node_fx_image_0_a96ed448",
+              "module_image_encoder_3_8aeb31b1",
+              "module_image_encoder_2_f178f781",
+              "node_fx_flatten_7_21ff2525",
+              "module_image_encoder_4_b28556d3",
+              "module_image_encoder_1_3c30566b",
+              "module_image_encoder_0_2cd10d09"
+            ],
+            "port_ids": [
+              "module_image_encoder_0_2cd10d09:input:binding_node_fx_image_encoder_0_2_72af1587_node_fx_33aa858c",
+              "module_image_encoder_0_2cd10d09:output:binding_node_fx_image_encoder_0_2_72af1587_node_fx_015df1e1",
+              "module_image_encoder_1_3c30566b:input:binding_node_fx_image_encoder_1_3_84eb38f6_node_fx_367dd88f",
+              "module_image_encoder_1_3c30566b:output:binding_node_fx_image_encoder_1_3_84eb38f6_node_fx_d6d417c7",
+              "module_image_encoder_2_f178f781:input:binding_node_fx_image_encoder_2_4_2fcf1765_node_fx_ba3c5ee3",
+              "module_image_encoder_2_f178f781:output:binding_node_fx_image_encoder_2_4_2fcf1765_node_fx_d2db8d58",
+              "module_image_encoder_3_8aeb31b1:input:binding_node_fx_image_encoder_3_5_b5915fef_node_fx_a24805e9",
+              "module_image_encoder_3_8aeb31b1:output:binding_node_fx_image_encoder_3_5_b5915fef_node_fx_47bdf230",
+              "module_image_encoder_4_b28556d3:input:binding_node_fx_image_encoder_4_6_eeae9277_node_fx_aebf5379",
+              "module_image_encoder_4_b28556d3:output:binding_node_fx_image_encoder_4_6_eeae9277_node_fx_99701ff2",
+              "node_fx_image_0_a96ed448:output:0",
+              "node_fx_flatten_7_21ff2525:input:0",
+              "node_fx_flatten_7_21ff2525:output:0"
+            ],
+            "reasons": [
+              "A rank-4 floating input follows an independent convolution/pooling path to fusion."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__4d9f25ce",
+            "figure_object_model_figure_tensor_architecture_projectio_0dee1475",
+            "figure_object_model_figure_edge_architecture_projection__72e3e140"
+          ],
+          "graph_ir_ids": [
+            "node_fx_image_0_a96ed448",
+            "module_image_encoder_3_8aeb31b1",
+            "module_image_encoder_2_f178f781",
+            "node_fx_flatten_7_21ff2525",
+            "module_image_encoder_4_b28556d3",
+            "module_image_encoder_1_3c30566b",
+            "module_image_encoder_0_2cd10d09",
+            "module_edge_edge_node_fx_image_0_a96ed448_node_fx_imag_8513daad",
+            "module_edge_edge_node_fx_image_encoder_0_2_72af1587_no_137dc41e",
+            "module_edge_edge_node_fx_image_encoder_1_3_84eb38f6_no_917bc5c4",
+            "module_edge_edge_node_fx_image_encoder_2_4_2fcf1765_no_c401fd24",
+            "module_edge_edge_node_fx_image_encoder_3_5_b5915fef_no_6ee7972b",
+            "module_edge_edge_node_fx_image_encoder_4_6_eeae9277_no_fef0168c",
+            "module_image_encoder_0_2cd10d09:input:binding_node_fx_image_encoder_0_2_72af1587_node_fx_33aa858c",
+            "module_image_encoder_0_2cd10d09:output:binding_node_fx_image_encoder_0_2_72af1587_node_fx_015df1e1",
+            "module_image_encoder_1_3c30566b:input:binding_node_fx_image_encoder_1_3_84eb38f6_node_fx_367dd88f",
+            "module_image_encoder_1_3c30566b:output:binding_node_fx_image_encoder_1_3_84eb38f6_node_fx_d6d417c7",
+            "module_image_encoder_2_f178f781:input:binding_node_fx_image_encoder_2_4_2fcf1765_node_fx_ba3c5ee3",
+            "module_image_encoder_2_f178f781:output:binding_node_fx_image_encoder_2_4_2fcf1765_node_fx_d2db8d58",
+            "module_image_encoder_3_8aeb31b1:input:binding_node_fx_image_encoder_3_5_b5915fef_node_fx_a24805e9",
+            "module_image_encoder_3_8aeb31b1:output:binding_node_fx_image_encoder_3_5_b5915fef_node_fx_47bdf230",
+            "module_image_encoder_4_b28556d3:input:binding_node_fx_image_encoder_4_6_eeae9277_node_fx_aebf5379",
+            "module_image_encoder_4_b28556d3:output:binding_node_fx_image_encoder_4_6_eeae9277_node_fx_99701ff2",
+            "node_fx_image_0_a96ed448:output:0",
+            "node_fx_flatten_7_21ff2525:input:0",
+            "node_fx_flatten_7_21ff2525:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f",
+            "semantic_stage_encoder_module_image_encoder_0_2cd10_42a86a20"
+          ],
+          "source_id": "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -12.95,
+        -5.55,
+        0.925,
+        1.0
+      ],
+      "mesh": 3,
+      "name": "Image encoder / representation"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_1593c961",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_mean_12_0803e404_node_fx_mean_c79fe203"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__ff0306fc",
+            "figure_object_model_figure_tensor_architecture_projectio_1c8a7586",
+            "figure_object_model_figure_node_architecture_projection__fc81d94e",
+            "figure_object_model_figure_tensor_architecture_projectio_6c7566d6",
+            "figure_object_model_figure_edge_architecture_projection__9f0e686e",
+            "figure_object_model_figure_edge_architecture_projection__94c16911",
+            "figure_object_model_figure_edge_architecture_projection__cc56d190"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_mean_12_0803e404_node_fx_mean_c79fe203",
+            "node_fx_mean_12_0803e404",
+            "module_modality_fusion_text_projection_17dedab8",
+            "node_fx_mean_12_0803e404:output:0",
+            "module_modality_fusion_text_projection_17dedab8:input:binding_node_fx_modality_fusion_text_projection_14_200de6ef"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+          ],
+          "source_id": "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 4,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_2b72a654",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "multimodal-stream",
+            "attributes": {
+              "modality": "image"
+            },
+            "edge_ids": [
+              "module_edge_edge_node_fx_modality_fusion_image_project_5cfd9206",
+              "module_edge_edge_node_fx_modality_fusion_text_projecti_79f82aee"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__fc81d94e",
+            "figure_object_model_figure_tensor_architecture_projectio_6c7566d6",
+            "figure_object_model_figure_edge_architecture_projection__9f0e686e",
+            "figure_object_model_figure_edge_architecture_projection__72e3e140",
+            "figure_object_model_figure_edge_architecture_projection__94c16911",
+            "figure_object_model_figure_edge_architecture_projection__cc56d190",
+            "figure_object_model_figure_edge_architecture_projection__d91b4de9"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_modality_fusion_image_project_5cfd9206",
+            "module_edge_edge_node_fx_modality_fusion_text_projecti_79f82aee",
+            "module_modality_fusion_image_projection_ea4e2681",
+            "module_modality_fusion_text_projection_17dedab8",
+            "node_fx_cat_15_cd86490b",
+            "module_modality_fusion_image_projection_ea4e2681:output:binding_node_fx_modality_fusion_image_projection_1_9ed70d7b",
+            "node_fx_cat_15_cd86490b:input:0",
+            "module_modality_fusion_text_projection_17dedab8:output:binding_node_fx_modality_fusion_text_projection_14_ef59d9f0",
+            "node_fx_cat_15_cd86490b:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+          ],
+          "source_id": "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 5,
+      "name": "Image stream"
+    },
+    {
+      "extras": {
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_60607fc1",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "multimodal-stream",
+            "attributes": {
+              "modality": "text"
+            },
+            "edge_ids": [
+              "module_edge_edge_node_fx_modality_fusion_image_project_5cfd9206",
+              "module_edge_edge_node_fx_modality_fusion_text_projecti_79f82aee"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__fc81d94e",
+            "figure_object_model_figure_tensor_architecture_projectio_6c7566d6",
+            "figure_object_model_figure_edge_architecture_projection__9f0e686e",
+            "figure_object_model_figure_edge_architecture_projection__72e3e140",
+            "figure_object_model_figure_edge_architecture_projection__94c16911",
+            "figure_object_model_figure_edge_architecture_projection__cc56d190",
+            "figure_object_model_figure_edge_architecture_projection__d91b4de9"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_modality_fusion_image_project_5cfd9206",
+            "module_edge_edge_node_fx_modality_fusion_text_projecti_79f82aee",
+            "module_modality_fusion_image_projection_ea4e2681",
+            "module_modality_fusion_text_projection_17dedab8",
+            "node_fx_cat_15_cd86490b",
+            "module_modality_fusion_image_projection_ea4e2681:output:binding_node_fx_modality_fusion_image_projection_1_9ed70d7b",
+            "node_fx_cat_15_cd86490b:input:0",
+            "module_modality_fusion_text_projection_17dedab8:output:binding_node_fx_modality_fusion_text_projection_14_ef59d9f0",
+            "node_fx_cat_15_cd86490b:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+          ],
+          "source_id": "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 6,
+      "name": "Text stream"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_9ea5e956",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_flatten_7_21ff2525_node_fx_fl_34fbc9f5"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__4d9f25ce",
+            "figure_object_model_figure_tensor_architecture_projectio_0dee1475",
+            "figure_object_model_figure_node_architecture_projection__fc81d94e",
+            "figure_object_model_figure_tensor_architecture_projectio_6c7566d6",
+            "figure_object_model_figure_edge_architecture_projection__9f0e686e",
+            "figure_object_model_figure_edge_architecture_projection__72e3e140",
+            "figure_object_model_figure_edge_architecture_projection__94c16911"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_flatten_7_21ff2525_node_fx_fl_34fbc9f5",
+            "node_fx_flatten_7_21ff2525",
+            "module_modality_fusion_image_projection_ea4e2681",
+            "node_fx_flatten_7_21ff2525:output:0",
+            "module_modality_fusion_image_projection_ea4e2681:input:binding_node_fx_modality_fusion_image_projection_1_1355029d"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+          ],
+          "source_id": "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 7,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_b6dea88c",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_cat_15_cd86490b_node_fx_cat_1_149e307a"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__fc81d94e",
+            "figure_object_model_figure_tensor_architecture_projectio_6c7566d6",
+            "figure_object_model_figure_node_architecture_projection__bacf4c15",
+            "figure_object_model_figure_tensor_architecture_projectio_818350c5",
+            "figure_object_model_figure_edge_architecture_projection__9f0e686e",
+            "figure_object_model_figure_edge_architecture_projection__94c16911",
+            "figure_object_model_figure_edge_architecture_projection__d91b4de9"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_cat_15_cd86490b_node_fx_cat_1_149e307a",
+            "node_fx_cat_15_cd86490b",
+            "module_modality_fusion_fusion_gate_1d9185fb",
+            "node_fx_cat_15_cd86490b:output:0",
+            "module_modality_fusion_fusion_gate_1d9185fb:input:binding_node_fx_modality_fusion_fusion_gate_16_34f_f0b82805"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+          ],
+          "source_id": "semantic_stage_unknown_module_modality_fusion_fusio_bd9a1f4f"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 8,
+      "name": "Traced main flow"
+    },
+    {
+      "camera": 0,
+      "extras": {
+        "kind": "camera",
+        "objectId": "scene_camera_imagetextmultimodalmodel___module___archit_aad53342"
+      },
+      "matrix": [
+        0.759256602,
+        0.0,
+        -0.650791373,
+        0.0,
+        -0.310252614,
+        0.879049073,
+        -0.361961383,
+        0.0,
+        0.572077554,
+        0.476731295,
+        0.667423812,
+        0.0,
+        12.0,
+        10.0,
+        14.0,
+        1.0
+      ],
+      "name": "ImageTextMultimodalModel · Module · Architecture Evidence 3D isometric camera"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "extras": {
+        "kind": "light",
+        "objectId": "scene_light_imagetextmultimodalmodel___module___archit_d6395b00"
+      },
+      "name": "Key light",
+      "translation": [
+        8.0,
+        10.0,
+        12.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "activeCameraId": "scene_camera_imagetextmultimodalmodel___module___archit_aad53342",
+        "sceneId": "scene_imagetextmultimodalmodel___module___archit_e340af85",
+        "sourceDigest": "bc2f1fbe56c01cf01708c70382c1eb3f33791801522f8fa59dd3c64b9ec8e611"
+      },
+      "name": "ImageTextMultimodalModel · Module · Architecture Evidence 3D",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ]
+}

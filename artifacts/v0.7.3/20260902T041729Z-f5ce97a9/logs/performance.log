@@ -1,0 +1,1 @@
+{"comparisons": {"cpu_projection_1000_maximum": -7.758, "cpu_projection_250_maximum": -5.188, "first_interactive_1000_maximum": -3.959, "first_interactive_250_maximum": -4.125, "large_graph_10000_maximum": -9.336, "large_graph_50000_maximum": -9.414, "orbit_500_p95": -0.512}, "failures": [], "repeats": 3, "status": "PASS"}

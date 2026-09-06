@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset="utf-8" />
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font:
+      14px Arial,
+      sans-serif;
+  }
+  [data-toolbar] {
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 8px;
+    overflow: visible;
+  }
+  [data-toolbar-control] {
+    min-width: 0;
+    padding: 6px 8px;
+    white-space: nowrap;
+  }
+</style>
+<nav data-toolbar>
+  <button data-toolbar-control>Move</button>
+  <button data-toolbar-control>Rotate</button>
+  <button data-toolbar-control>Scale</button>
+  <button data-toolbar-control>More</button>
+</nav>

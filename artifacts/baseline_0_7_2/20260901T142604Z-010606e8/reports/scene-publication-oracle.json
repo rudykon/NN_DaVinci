@@ -1,0 +1,3520 @@
+{
+  "case_count": 14,
+  "cases": [
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.eps",
+            "sha256": "b23cbcfaa1202a832fb89eb76ee99259e76d2627d28b6a9006bba4519e9afc04",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.glb",
+            "sha256": "077d9230dce3a360b250592e055e77627a9197d78699cd9227afa772c7f9bbfe",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.gltf",
+            "sha256": "d502308d602644ccf2213552ec2cbd49616cc9f9a9e1d4fee656db8f044a64aa",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.html",
+            "sha256": "a986f52de8473e6c3a0b84031aa2412f7be1e833fc62b9a9b60e8c9dcbcfae63",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.scene.json",
+            "sha256": "9b497a613b358706a662555eb70c0d4a3cd58185c978d512f5c7a3d1885072d8",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.pdf",
+            "sha256": "3291b51b111e1a128673a5504769fb63c69b497d8c957a36b3ae27232398461d",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.png",
+            "sha256": "b6f9f3d72dd45f50667606ac9eeb93f995c6c9ab8e2574df2e5b62cdbbd539ee",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.pptx",
+            "sha256": "d4478f70fb6aa46337172ff04ef76a3eba805d7f3250f6d6f36705f951b00219",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.svg",
+            "sha256": "3382bbc7905dafec8ade066593811964233dbf851edcbb2cef27b2fe551b06a2",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.tex",
+            "sha256": "b975a5a241994a0a3fa2854d5d187991f83d86d294437cd8eec4ec7b7691abdc",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "real-models/bert_encoder",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "3291b51b111e1a128673a5504769fb63c69b497d8c957a36b3ae27232398461d",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 11,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 5,
+            "arrowheads": 5,
+            "connectors": 7,
+            "faces": 15,
+            "labels": 4,
+            "leaders": 4
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 368.267395,
+              "height": 202.124054,
+              "left": 133.615906,
+              "right": 546.696594,
+              "top": 166.143341,
+              "width": 413.080688
+            },
+            "largestFaceAreaRatio": 0.077819,
+            "occupancy": {
+              "height": 0.445667,
+              "maxAxis": 0.607193,
+              "width": 0.607193
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.697018,
+            "maximumStarburstDegree": 2
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "3382bbc7905dafec8ade066593811964233dbf851edcbb2cef27b2fe551b06a2",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-67",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-69",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-71",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-73",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "RXSMZE+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            },
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "RXSMZE+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "b4f316b7635228a727a5f95cf2c5e46ed286509755a085ed28786c12ebcd87cf",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.06594,
+            "word_count": 11,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 4.648389,
+          "mesh_count": 10,
+          "mesh_node_count": 10,
+          "position_accessor_count": 15
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 4.648389,
+          "mesh_count": 10,
+          "mesh_node_count": 10,
+          "position_accessor_count": 15
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.eps",
+            "sha256": "01258976c29c6e29ebdbc7107ea8693e9b29b712c6337f8755cc59bd6379569c",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.glb",
+            "sha256": "a9a2c96ccddc69629b67741c087b8ea0cf0d61c39ce8c9e08151a627ec3fcf72",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.gltf",
+            "sha256": "72a6c8e987333fb1b253212d7cb8639f7bd1145e8d8e326010a080824f452226",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.html",
+            "sha256": "972f1c0497619b3c0dcd583296b840f4ddc01f0dd16f1bf880eb1c5fb0efee9e",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.scene.json",
+            "sha256": "ecc09184df453a34ef67243772aaf3782790deb6fa0e02f36f14587af4645d1c",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.pdf",
+            "sha256": "04ce8f42f798d2be9a6cb788ef508288ae67f4817a13aee9ca14708c517ffe31",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.png",
+            "sha256": "c1be37ae6a3e91e09cdc238f674d6565dcadea0314b3c3ec8d3de438fec9d4e8",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.pptx",
+            "sha256": "af33faf4f4644c4aab7d6b623854ed9d230937025639b68593836a57789743ef",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.svg",
+            "sha256": "7e1725f105bb9432a9ea5a677bb774b3d8092d1596c8344169cbf7e200b26a4e",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.tex",
+            "sha256": "490e1d5ef978e7a17f2e54dd56bc54a63ec9cf96ba0ecfbf8a76ddadc5730e81",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "real-models/diffusion_unet",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "04ce8f42f798d2be9a6cb788ef508288ae67f4817a13aee9ca14708c517ffe31",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 12,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 4,
+            "arrowheads": 4,
+            "connectors": 18,
+            "faces": 18,
+            "labels": 4,
+            "leaders": 4
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 385.458567,
+              "height": 179.092722,
+              "left": 78.271656,
+              "right": 481.951295,
+              "top": 206.365845,
+              "width": 403.679639
+            },
+            "largestFaceAreaRatio": 0.021253,
+            "occupancy": {
+              "height": 0.394885,
+              "maxAxis": 0.593374,
+              "width": 0.593374
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.199969,
+            "maximumStarburstDegree": 3
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "7e1725f105bb9432a9ea5a677bb774b3d8092d1596c8344169cbf7e200b26a4e",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-91",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-93",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-95",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-97",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "JGNYSC+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "44e81261a35f58fe3824f2258e69f3f142bb552e4b7a7e6f075381d75c4fe15a",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 6.192734,
+            "word_count": 12,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 6.493849,
+          "mesh_count": 13,
+          "mesh_node_count": 13,
+          "position_accessor_count": 17
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 6.493849,
+          "mesh_count": 13,
+          "mesh_node_count": 13,
+          "position_accessor_count": 17
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.eps",
+            "sha256": "2dc5ce6e26830b31bcdeb0accd4851eea67601d3c7bd20eb8a74993e775a116e",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.glb",
+            "sha256": "8d9eb95e4a45ce000dabf8c6a2d9d0e6936dc79046c1cc842610de2c7a38d650",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.gltf",
+            "sha256": "47b9018673c30a7047b4bda86b7e4445813bffab8203421b7aaa43a77a2a0dee",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.html",
+            "sha256": "3cab5e98c07b8f676471463677a8907e7ccfe5f86ed98f0f655413e9d3339274",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.scene.json",
+            "sha256": "5aa89c451e235a9f39e49bee75be0b12cd01ec9dd0e99e2a553c8fa79caaf99c",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.pdf",
+            "sha256": "5113a5aa291932f604ebb0a85943548c7a6a5aecacd4a62bd25bd22b84f51401",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.png",
+            "sha256": "ccb4c591fd8ceed571d0bd4cd14023ef5bd45b789f2219eadf4703e0493872ca",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.pptx",
+            "sha256": "3c7882ba0b8f3f3e357c72f7fad3fd80584f84196d3835468a32c558703e67f2",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.svg",
+            "sha256": "b31efbbaf35acb47dabd6b6f165cf4e5aaad0baffe53a732fc551ed5ff1afd1f",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.tex",
+            "sha256": "b8a56beaa57d33480a54828715cca83a9b16e4d9dc97b4ff552406af1dc69860",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "real-models/image_text",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "5113a5aa291932f604ebb0a85943548c7a6a5aecacd4a62bd25bd22b84f51401",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 12,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 3,
+            "arrowheads": 3,
+            "connectors": 7,
+            "faces": 12,
+            "labels": 4,
+            "leaders": 4
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 362.975891,
+              "height": 288.61191,
+              "left": 90.493217,
+              "right": 563.293579,
+              "top": 74.363981,
+              "width": 472.800362
+            },
+            "largestFaceAreaRatio": 0.025988,
+            "occupancy": {
+              "height": 0.636366,
+              "maxAxis": 0.694975,
+              "width": 0.694975
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.199977,
+            "maximumStarburstDegree": 2
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "b31efbbaf35acb47dabd6b6f165cf4e5aaad0baffe53a732fc551ed5ff1afd1f",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-56",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-58",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-60",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-62",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "MXAGRC+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "5f5e1814fc8c2a3ed8b944d3812e671681296b4f8df7b3feeaf72df8e25897b5",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 6.192734,
+            "word_count": 12,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 2.727158,
+          "mesh_count": 9,
+          "mesh_node_count": 9,
+          "position_accessor_count": 12
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 2.727158,
+          "mesh_count": 9,
+          "mesh_node_count": 9,
+          "position_accessor_count": 12
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.eps",
+            "sha256": "34b2af219f9a26f7596f6bc0793ca293c4e1606d50ad38c0192a920da807d128",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.glb",
+            "sha256": "336a0a5ed8fce3a0887ad9524df763401003be5b11437e5c4999ede55ee70156",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.gltf",
+            "sha256": "4bf1f2f6bbf0cee6a247e408e2207b6a517f8262de5cfc183c16b45c17849081",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.html",
+            "sha256": "8bc1b01801a6896a30660244b477bcd0edbd51eab1fb1c831d48d2754d9230a0",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.scene.json",
+            "sha256": "f292518e22409e725abb285a9a04d24aa447f09b5589f33595cb80233b498464",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.pdf",
+            "sha256": "a454d6504ae47ee9e188f1c37b18c8f6ecd923b6e9381e6b1929324b9140244f",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.png",
+            "sha256": "ade498da7c647e8bad5f7a4ebeb753c0b900640f500cc0d3dda823d9186075da",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.pptx",
+            "sha256": "3da6709fd0e2a4965ac14ec25c31a5deb9087fc6a615872ee0fc45944758afba",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.svg",
+            "sha256": "d6c62cbd5737513a74b7c879e594953408d00879458c002bfaadb9ec0032b09b",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.tex",
+            "sha256": "4ebfc97e15e851adb2d11e18a086599951cfa0e12154d97d9eb66d601530b94a",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "real-models/multiscale_unet",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "a454d6504ae47ee9e188f1c37b18c8f6ecd923b6e9381e6b1929324b9140244f",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 20,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 5,
+            "arrowheads": 5,
+            "connectors": 11,
+            "faces": 27,
+            "labels": 8,
+            "leaders": 8
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 385.458567,
+              "height": 246.398923,
+              "left": 126.80965,
+              "right": 530.926741,
+              "top": 139.059644,
+              "width": 404.117091
+            },
+            "largestFaceAreaRatio": 0.013804,
+            "occupancy": {
+              "height": 0.54329,
+              "maxAxis": 0.594017,
+              "width": 0.594017
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.697024,
+            "maximumStarburstDegree": 3
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "d6c62cbd5737513a74b7c879e594953408d00879458c002bfaadb9ec0032b09b",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-120",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-122",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-124",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-126",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-128",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-130",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-132",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-134",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "UCZPUU+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "1575e80ce6e3bf037a7222ddaf6c670f26c547bb256e812deb68695142d23263",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 6.192734,
+            "word_count": 20,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 4.78526,
+          "mesh_count": 14,
+          "mesh_node_count": 14,
+          "position_accessor_count": 19
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 4.78526,
+          "mesh_count": 14,
+          "mesh_node_count": 14,
+          "position_accessor_count": 19
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.eps",
+            "sha256": "400a95edef5df0f4bf5f5f04c52a819ac454335e35c8f739173424fa963ad4e9",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.glb",
+            "sha256": "40028780d4027427fec4e6f1a17eaf8825eda2e5a3bc86a47899a39d2c112b34",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.gltf",
+            "sha256": "e9638a96275a6b13291d3e27bf5014dda518e7f407eca6367f32fac8a29209bd",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.html",
+            "sha256": "ad2204e37d5394d8cbbd59f1494f202de73c1218b70c419c111f48342d265873",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.scene.json",
+            "sha256": "b8f8ebcc21267012c8b535d7ca405db719ada5d2e3831ef3fc3749cf6daf8f99",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.pdf",
+            "sha256": "1655368d9e67748a8022edc662a4a25e3b2c110441e6caa6bdbb3afe5bd6edfc",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.png",
+            "sha256": "0a4cf53d63117ee9353669591609acfcc223eb6949c57bc9cfc7d31c97b215ed",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.pptx",
+            "sha256": "e6023cbe481e50198c6d08e0ad7669275153a8600d03cd649cb3c4157624894c",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.svg",
+            "sha256": "882f9b08ecb55ee327cee14a8a4399f06fee2163e30e4000d5cdb47e29653c7a",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.tex",
+            "sha256": "96b8a7b2646a39c80c7d6c67d3a1ea8b6f3a7b3d50a391937efeeb5da8c07aa6",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "real-models/resnet50",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "1655368d9e67748a8022edc662a4a25e3b2c110441e6caa6bdbb3afe5bd6edfc",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 24,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 9,
+            "arrowheads": 9,
+            "connectors": 17,
+            "faces": 18,
+            "labels": 5,
+            "leaders": 5
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 385.458567,
+              "height": 226.860987,
+              "left": 62.805869,
+              "right": 542.210388,
+              "top": 158.59758,
+              "width": 479.404519
+            },
+            "largestFaceAreaRatio": 0.026076,
+            "occupancy": {
+              "height": 0.50021,
+              "maxAxis": 0.704683,
+              "width": 0.704683
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.697018,
+            "maximumStarburstDegree": 2
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "882f9b08ecb55ee327cee14a8a4399f06fee2163e30e4000d5cdb47e29653c7a",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-90",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-92",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-94",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-96",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-98",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "CZEVCB+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            },
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "CZEVCB+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "0c7147000e9ec3b56d61bbe7113809b67523b83cbc55f99665239994efb58fae",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.06594,
+            "word_count": 24,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 3.989512,
+          "mesh_count": 15,
+          "mesh_node_count": 15,
+          "position_accessor_count": 24
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 3.989512,
+          "mesh_count": 15,
+          "mesh_node_count": 15,
+          "position_accessor_count": 24
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.eps",
+            "sha256": "8681258aed46b0b3e7f8e713ba655f7a4a9162dd4fde824a2e8162d7e8ce8b21",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.glb",
+            "sha256": "b033c3370145428d27e2c890268ef29f0fcddcd2255a12448e5c983fe4e526c6",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.gltf",
+            "sha256": "69ea0e6ca4eda86fdd9775ad784339eb6d75d943dfe89ed0577fd8be2f3a7135",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.html",
+            "sha256": "2d05e4be4b51da918c62817cb5667d6d1c7bbb4fecb4a212337edc18da128281",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.scene.json",
+            "sha256": "ad434bf72333d5fdd3246601532ce384ebc36052db515fdc748582287b6f9c90",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.pdf",
+            "sha256": "8b97249fc649eebbdf7e4da626949ea0a4e7026dc38e9e4b49a336e2eea8e227",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.png",
+            "sha256": "2b5cf9dd6535e097de584fddbd7accee1d1fb590643e593837ca50db272888d1",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.pptx",
+            "sha256": "731d824bc5e041cd19c038178d832cca4d7e04601bb8ec969f1c646b34f6fd7b",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.svg",
+            "sha256": "2a0341e12cca1cf581121c80ae9585a9fff75dfa999cda11e3c4bb6dcb046a33",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.tex",
+            "sha256": "42acce218c12fabcf4354f1b8220d5b61af3d990a6b4eb871ed50805f71300bf",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "real-models/topk_moe",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "8b97249fc649eebbdf7e4da626949ea0a4e7026dc38e9e4b49a336e2eea8e227",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 10,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 7,
+            "arrowheads": 7,
+            "connectors": 12,
+            "faces": 15,
+            "labels": 4,
+            "leaders": 4
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 369.129771,
+              "height": 283.728472,
+              "left": 117.018875,
+              "right": 563.293579,
+              "top": 85.401299,
+              "width": 446.274704
+            },
+            "largestFaceAreaRatio": 0.049396,
+            "occupancy": {
+              "height": 0.625599,
+              "maxAxis": 0.655985,
+              "width": 0.655985
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.199977,
+            "maximumStarburstDegree": 2
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "2a0341e12cca1cf581121c80ae9585a9fff75dfa999cda11e3c4bb6dcb046a33",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-73",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-75",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-77",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-79",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "XTDNOU+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            },
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "XTDNOU+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "4fafd5b66515300df689f0f626e4ffa9c3fafc3a9d8c58920f845ef8d662adf8",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.06594,
+            "word_count": 10,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 4.004218,
+          "mesh_count": 13,
+          "mesh_node_count": 13,
+          "position_accessor_count": 20
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 4.004218,
+          "mesh_count": 13,
+          "mesh_node_count": 13,
+          "position_accessor_count": 20
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.eps",
+            "sha256": "9fa5ad9fabd496ae3c7a90267973ede918efedca9479880267ec9110587761b9",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.glb",
+            "sha256": "2a80bd2c76cda849de0cd37a7a1b2e0ded138cad63868bfb715e369e18cb0e1a",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.gltf",
+            "sha256": "3e465d04d8dfe90cc152bf01d2a59cdf0c6f1617f0e8df9580b899439da67f8e",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.html",
+            "sha256": "c5f71d04b999863a697718c0c5872ef7af07a42f4b4ea86a44865ab3b0474505",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.scene.json",
+            "sha256": "6d0b250bb44cd92b0790d84403d44ecc5dc84cc7a4c4c9b047ea8b752282782e",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.pdf",
+            "sha256": "79930f68bc02794dd556ff21509dff6fd134063bc3ee79fd9cf8750e528ed6a0",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.png",
+            "sha256": "0124b875c4f45b4e8e043bed5cbf2711c9602c7c431e59b0a7fa80d97c9b88fa",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.pptx",
+            "sha256": "2dc793e217e1e02b598697dab9c8a20e4e215905bf9f98cf638a54800cd72d21",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.svg",
+            "sha256": "cb74b5dbb324ba9024198393dca248f340962d7fe1de40c7d9247312ea37eb24",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.tex",
+            "sha256": "88a9aa1b2b9953d2cf8ef5fd771b0363f4d70c4383f258e64b8b0d8048318566",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "real-models/vision_transformer",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "79930f68bc02794dd556ff21509dff6fd134063bc3ee79fd9cf8750e528ed6a0",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 11,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 5,
+            "arrowheads": 5,
+            "connectors": 7,
+            "faces": 15,
+            "labels": 4,
+            "leaders": 4
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 368.267395,
+              "height": 207.202896,
+              "left": 143.557938,
+              "right": 536.754578,
+              "top": 161.064499,
+              "width": 393.19664
+            },
+            "largestFaceAreaRatio": 0.089245,
+            "occupancy": {
+              "height": 0.456866,
+              "maxAxis": 0.577965,
+              "width": 0.577965
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.697013,
+            "maximumStarburstDegree": 2
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "cb74b5dbb324ba9024198393dca248f340962d7fe1de40c7d9247312ea37eb24",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-67",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-69",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-71",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-73",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "RXSMZE+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            },
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "RXSMZE+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "87a747f3651a792c2dceab67ea5b5d3a66d5859de5c17fbcebeaa730f9e5eba4",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.06594,
+            "word_count": 11,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 4.648389,
+          "mesh_count": 10,
+          "mesh_node_count": 10,
+          "position_accessor_count": 15
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 4.648389,
+          "mesh_count": 10,
+          "mesh_node_count": 10,
+          "position_accessor_count": 15
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.eps",
+            "sha256": "33a2f254e4e5dc9ba94f900069ce94e8d1d9cfc960fe43e92d48294526c8dbc4",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.glb",
+            "sha256": "017bc3e84d300f62340ad70a649862ed0efaafa14db8d490a8ec35085417357c",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.gltf",
+            "sha256": "e6c432c5777914cc916afbcd968fecdd6ac2f4f826c453c27cb803f35e8d9d05",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.html",
+            "sha256": "1fb35fbce9ee057fa9e4cc281458d45d3829d8379def38071f54b2f585163a43",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.scene.json",
+            "sha256": "c924bc9463c0423d7fa20634ea5be618349c939dfb3a9bfb22582e30f0ecb8d4",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.pdf",
+            "sha256": "fceb326f6164592f00e3c873e0cc0649fb35212194e568d5b09a5bb3a6a8f2a8",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.png",
+            "sha256": "0492379a8d927a2eb5c86e11a01a8c93520530cb5f6a90a8bef5c644adc4e1a5",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.pptx",
+            "sha256": "428f06b2f205c1d63077dc3330108dcf82fd3ec14789e9b20d574b72c3786ab7",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.svg",
+            "sha256": "d8be3877e161ff444b53940e8c04a5054efd44bb63cb94d40b4b6ab22cc516d6",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.tex",
+            "sha256": "6ac112190f8fe9edeff4988e8197077fe1565420d9a2386d79e07279a707f9af",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "templates/cnn",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "fceb326f6164592f00e3c873e0cc0649fb35212194e568d5b09a5bb3a6a8f2a8",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 14,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 1,
+            "arrowheads": 1,
+            "connectors": 1,
+            "faces": 18,
+            "labels": 6,
+            "leaders": 5
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 384.622619,
+              "height": 314.714125,
+              "left": 117.018875,
+              "right": 563.293579,
+              "top": 69.908494,
+              "width": 446.274704
+            },
+            "largestFaceAreaRatio": 0.169836,
+            "occupancy": {
+              "height": 0.693919,
+              "maxAxis": 0.693919,
+              "width": 0.655985
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.697026,
+            "maximumStarburstDegree": 1
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "d8be3877e161ff444b53940e8c04a5054efd44bb63cb94d40b4b6ab22cc516d6",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-72",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-74",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-76",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-78",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-80",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-82",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "IPMLFR+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "40bc34e149242d5f37a5bcafe64613ff1a6539f4ccd4fca45371dbe8903e558c",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 6.192734,
+            "word_count": 14,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 10,
+          "mesh_node_count": 10,
+          "position_accessor_count": 13
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 10,
+          "mesh_node_count": 10,
+          "position_accessor_count": 13
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.eps",
+            "sha256": "299e8276a1dc795a4298905f9138665c20278a576ce87f1932032bde7eb86469",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.glb",
+            "sha256": "a0ba49c8ef85aa60b0f3202381d40b96cdaf6d072e54eae3b97bdab2f216957c",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.gltf",
+            "sha256": "5e74b4c91d7e500f8c1836aef9f84259a46e731f1f1c601cffa365c27db50910",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.html",
+            "sha256": "d60df8b93cb6c2e7c9d7b264f9bcfcde5dc0c7c6e554323e60488a4928ba208a",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.scene.json",
+            "sha256": "444aa791197b7f72b2a4a6e7fab89b5ccb4b28e0bd5d16bf4e6d10c7a00e4d24",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.pdf",
+            "sha256": "a5298a90062c4411b737115b00298e8df8e343efe07942272af9e86b06420458",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.png",
+            "sha256": "fd45df305507e514c7558ce94bf174b7c0a31d4b9e550ccf962bd937f3ec0efc",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.pptx",
+            "sha256": "496e05eaab71bcb320169bb7d6e6fb2f6b837c82ed44cb1d4158278a51e6bab8",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.svg",
+            "sha256": "feca6919709f6aa4e774d34a30a7c199b714f4527ec3d648819c0e9c52a03de1",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.tex",
+            "sha256": "b3fea2d25fe889e652b8c20f3c9c6efac1902682f0567a7c413dd216dba5c856",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "templates/diffusion-unet",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "a5298a90062c4411b737115b00298e8df8e343efe07942272af9e86b06420458",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 14,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 5,
+            "arrowheads": 5,
+            "connectors": 11,
+            "faces": 18,
+            "labels": 7,
+            "leaders": 6
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 385.458567,
+              "height": 316.386071,
+              "left": 77.331852,
+              "right": 542.778259,
+              "top": 69.072496,
+              "width": 465.446407
+            },
+            "largestFaceAreaRatio": 0.026845,
+            "occupancy": {
+              "height": 0.697606,
+              "maxAxis": 0.697606,
+              "width": 0.684166
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.199977,
+            "maximumStarburstDegree": 2
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "feca6919709f6aa4e774d34a30a7c199b714f4527ec3d648819c0e9c52a03de1",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-82",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-84",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-86",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-88",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-90",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-92",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-94",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "TAFENF+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "9abd29f4cdb1022a1e926479f42c9befa6f52ec072afa0a0bf8c7d216228f55b",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 6.192734,
+            "word_count": 14,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 14,
+          "mesh_node_count": 14,
+          "position_accessor_count": 19
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 14,
+          "mesh_node_count": 14,
+          "position_accessor_count": 19
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.eps",
+            "sha256": "ca91bb32a7acdb822e344cd91100f38a15236d2c59b58c11be3e480b3d2c1ae9",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.glb",
+            "sha256": "eeed4b596a528875d135fa17cec0208656fe6768580a7f7c706ecb03b033d3b2",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.gltf",
+            "sha256": "d9a8260cac1aea479f35b138b4ecbd09fe8152fbe580e8476808872667b2dba3",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.html",
+            "sha256": "cb56f623c9a82ec94d678bc08909598b06d5240ae3886313d85bf3b5799b2d57",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.scene.json",
+            "sha256": "2efddef79a49a23086ef173d942318311dc1b52097ebbe78ed3d4b970ec894b8",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.pdf",
+            "sha256": "60cb3ca42f1b855d6230f9f4fbfc27219f6339a89158fb1b936f13a3e1bb5a1f",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.png",
+            "sha256": "a36cfb71524f76226c3b3a152ab5bedb5545fe2f0b0a1eb17c3a92009a18fc0e",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.pptx",
+            "sha256": "0a29be1076a0681ad30731f7b0d669c028c192f9178c464fdd5cf7f7b897d96b",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.svg",
+            "sha256": "3df4aad57530d3720f4e2d99196609cd835555d3ec14a136280e33c6b57949c0",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.tex",
+            "sha256": "4183b43ee58ce01069c028986ed44af04cb07a81c878a08054b1b84779b5466b",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "templates/moe",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "60cb3ca42f1b855d6230f9f4fbfc27219f6339a89158fb1b936f13a3e1bb5a1f",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 16,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 8,
+            "arrowheads": 8,
+            "connectors": 11,
+            "faces": 21,
+            "labels": 8,
+            "leaders": 7
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 372.517997,
+              "height": 290.504881,
+              "left": 117.018875,
+              "right": 563.293579,
+              "top": 82.013116,
+              "width": 446.274704
+            },
+            "largestFaceAreaRatio": 0.087069,
+            "occupancy": {
+              "height": 0.64054,
+              "maxAxis": 0.655985,
+              "width": 0.655985
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.697021,
+            "maximumStarburstDegree": 4
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "3df4aad57530d3720f4e2d99196609cd835555d3ec14a136280e33c6b57949c0",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-91",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-93",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-95",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-97",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-99",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-101",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-103",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-105",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "DBFJBN+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "803e0c1bdb5f599745b2366755bfb971541c565a22d55cf51b4ab2e23c888b6b",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 6.192734,
+            "word_count": 16,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 17,
+          "mesh_node_count": 17,
+          "position_accessor_count": 26
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 17,
+          "mesh_node_count": 17,
+          "position_accessor_count": 26
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.eps",
+            "sha256": "ef8b55d58b46b99dcf43670367fbfac13962a04125b89b9d9fe7c3b46d182cba",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.glb",
+            "sha256": "bb122d72b12d7ff28473947fb87c3c24ebdcf73c38886b5f92006c9eeb9692bf",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.gltf",
+            "sha256": "11213e97f40836e19c958abaaa6c3dd75d042a496a4843b6d85a9b7ec224a054",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.html",
+            "sha256": "92d5e8bc70c5763d810cf5e9b412084d778126c2cf471198be8d9510b0a5e643",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.scene.json",
+            "sha256": "0e184aa41ae621dcca92a0363b2d654615284500ac8868014fcb6703d94293ba",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.pdf",
+            "sha256": "99b039758bf7c526757bd6471696c2b7f1d44de3de1b9cfaca6112658522788e",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.png",
+            "sha256": "e4c1107347d7da674444f7ebd860f168d6ca071628cbc9cb165f87cb1570de2c",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.pptx",
+            "sha256": "28e7c63fe7d90e60bf1c04f151ab329aad81739cad6adea19edb15d4481a20b0",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.svg",
+            "sha256": "a1c3a0ee61efadeb5dde9ce8ed409692d9e5d39abbbfbb8080adde3875637f42",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.tex",
+            "sha256": "926174b49cc5cb5b644425714f7fc43dca81a469eff548ef26f05744f772a3f9",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "templates/multimodal-fusion",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "99b039758bf7c526757bd6471696c2b7f1d44de3de1b9cfaca6112658522788e",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 15,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 1,
+            "arrowheads": 1,
+            "connectors": 7,
+            "faces": 15,
+            "labels": 6,
+            "leaders": 5
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 385.458567,
+              "height": 316.386071,
+              "left": 89.647307,
+              "right": 521.106079,
+              "top": 69.072496,
+              "width": 431.458772
+            },
+            "largestFaceAreaRatio": 0.055191,
+            "occupancy": {
+              "height": 0.697606,
+              "maxAxis": 0.697606,
+              "width": 0.634207
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.199973,
+            "maximumStarburstDegree": 1
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "a1c3a0ee61efadeb5dde9ce8ed409692d9e5d39abbbfbb8080adde3875637f42",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-67",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-69",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-71",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-73",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-75",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-77",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "CZJHFY+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "33699f8fbe1b8429190f9c9b43506b851b65789d3b1d2e5bb4cb2585d9d5125d",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 6.192734,
+            "word_count": 15,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 13,
+          "mesh_node_count": 13,
+          "position_accessor_count": 14
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 13,
+          "mesh_node_count": 13,
+          "position_accessor_count": 14
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.eps",
+            "sha256": "ee1ce112bfd34f1dcba9836b260fa7bc88747d3a20c513bd7c8b06d9a2ec85d3",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.glb",
+            "sha256": "ec8d7ea6890242cd2fe7c1a5fb786e0ce92a421c2d193a0c85a4b3b9f1daaf34",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.gltf",
+            "sha256": "ab8707cc8f0ebc06d8f4dd6e6c2f801c01bce8bd656d44ffd129f2594eb82592",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.html",
+            "sha256": "0824b0358d4b15585047b70e57bc124cb8ef022f53ac916fc0d3a393cd4b7f6c",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.scene.json",
+            "sha256": "7cf6f7a84a4cb747247133ba3ff5de5a236cbe33cd75e8bcfe7137f7c99061d4",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.pdf",
+            "sha256": "2f81571e4eb2ea0890e20631c8f283913d64823501a2ae3936eb6bf9f453c74b",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.png",
+            "sha256": "5a4b43f73c702582055bf6db3c4486e95ec4bfc9fafedc4df9a906604638e512",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.pptx",
+            "sha256": "559539aec45413190ce7eb43b3ee72339ef5b3bdd3ad253a5a35df01ebf320df",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.svg",
+            "sha256": "1cd71626be93c3c5663ebfdbe84acf33913c6a48ceb69c976a93eda50fb70b97",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.tex",
+            "sha256": "29ea5e19ba48a33a077a4f28b23e17aa4e9f26fec39a4ff85b3fc4f851ce4a24",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "templates/resnet",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "2f81571e4eb2ea0890e20631c8f283913d64823501a2ae3936eb6bf9f453c74b",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 12,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 5,
+            "arrowheads": 5,
+            "connectors": 9,
+            "faces": 15,
+            "labels": 6,
+            "leaders": 5
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 317.291595,
+              "height": 248.2191,
+              "left": 126.962631,
+              "right": 553.349854,
+              "top": 69.072496,
+              "width": 426.387222
+            },
+            "largestFaceAreaRatio": 0.039276,
+            "occupancy": {
+              "height": 0.547303,
+              "maxAxis": 0.626752,
+              "width": 0.626752
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.697021,
+            "maximumStarburstDegree": 2
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "1cd71626be93c3c5663ebfdbe84acf33913c6a48ceb69c976a93eda50fb70b97",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-69",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-71",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-73",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-75",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-77",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-79",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "RXCTLN+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "230ee525a371dd214dd519923cd178db43d9aa5fcc0f23e3e8db8aef95c7b1fe",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 6.192734,
+            "word_count": 12,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 12,
+          "mesh_node_count": 12,
+          "position_accessor_count": 18
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 12,
+          "mesh_node_count": 12,
+          "position_accessor_count": 18
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.eps",
+            "sha256": "908d60ba4e4c69c97065a3412fe6986c1c70f07bf5059ec85a078fd016fd0729",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.glb",
+            "sha256": "7741d6255b39fd4c59b000baaaf2eaf2a38c8968770b27acde95f034bb38f57a",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.gltf",
+            "sha256": "725240f8c1fa76a11d7ebf462ca3b952991befe6bdbc017cd61104837c106a9a",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.html",
+            "sha256": "e0cbdb507db6f1fa7e9a43bf5e0cb376bf0ec1fec96748e55b5c75b51c54f57c",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.scene.json",
+            "sha256": "0d4031b8935e4a08ecb83b09f648fb24df2bef246ffab05ff8bfb7092eb7607c",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.pdf",
+            "sha256": "45bc3036cf534d706fc26dd220f51f345cd2a2fe97fd1e63f1e34524bb408ad9",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.png",
+            "sha256": "9ad4354488aa12e6e10f397c41a3fc195e86ab39f81a2619cd982e65a012a7fd",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.pptx",
+            "sha256": "384fc50525d89029089c926d9eca43439ddf1806536fef41b0ca7bf555960613",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.svg",
+            "sha256": "74b54b0fd7f5e78b29eecef4bc2fbe994a83dc74bd447ffd5cb8a9cf17de6983",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.tex",
+            "sha256": "31d39b48921fb4e2ac7691d230830561219129c9e0068cc30508c8e1655f600f",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "templates/transformer",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "45bc3036cf534d706fc26dd220f51f345cd2a2fe97fd1e63f1e34524bb408ad9",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 17,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 2,
+            "arrowheads": 2,
+            "connectors": 6,
+            "faces": 30,
+            "labels": 7,
+            "leaders": 6
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 367.849393,
+              "height": 264.976293,
+              "left": 117.018875,
+              "right": 563.293579,
+              "top": 102.8731,
+              "width": 446.274704
+            },
+            "largestFaceAreaRatio": 0.088906,
+            "occupancy": {
+              "height": 0.584251,
+              "maxAxis": 0.655985,
+              "width": 0.655985
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.697016,
+            "maximumStarburstDegree": 2
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "74b54b0fd7f5e78b29eecef4bc2fbe994a83dc74bd447ffd5cb8a9cf17de6983",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-117",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-119",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-121",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-123",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-125",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-127",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-129",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "EBWKHI+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "bba7bf7e1cefa8def42f76f6886e6f52b0c5f4f59e86c6163d7e019aa95f3d7d",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 6.192734,
+            "word_count": 17,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 14,
+          "mesh_node_count": 14,
+          "position_accessor_count": 16
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 14,
+          "mesh_node_count": 14,
+          "position_accessor_count": 16
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "formats": {
+        "checks": {
+          "eps": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.eps",
+            "sha256": "367c53c0f6c3589e2bb32943de53d95f7878b8dfe7ca17873ff7381f35b0e1ec",
+            "signature_valid": true
+          },
+          "glb": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.glb",
+            "sha256": "54e6d40b05430a278f1f94804b9a1d409aa2ad345cf3e5b1673dadc8f3ab2974",
+            "signature_valid": true
+          },
+          "gltf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.gltf",
+            "sha256": "1ff0d7d6743ff71122575275069e587c5da1ea4efe5174d5025b8e468c77ea11",
+            "signature_valid": true
+          },
+          "html": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.html",
+            "sha256": "f5b905d8d9fca8a2617fba60d2885f5f0117061fc13e1762b7922419f0d82a93",
+            "signature_valid": true
+          },
+          "json": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.scene.json",
+            "sha256": "4cc15ea81c9e93f8c94c891a1bdce93ced6abbfcd5f945ca8f0556f097a7e64c",
+            "signature_valid": true
+          },
+          "pdf": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.pdf",
+            "sha256": "cd4db7e20f1cf503daa8f01120b849697d11c563aa20073805e1cdbbc649cfec",
+            "signature_valid": true
+          },
+          "png": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.png",
+            "sha256": "77e0ed3277f5b0b2c59179c4c0bec45c67d68074dffdd17e4fd7f97fc028cb36",
+            "signature_valid": true
+          },
+          "pptx": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.pptx",
+            "sha256": "b7f0d3fcc50614fd0424ac9f426e8c35bdf01c7e50796eb1ce192f83dfc898f4",
+            "signature_valid": true
+          },
+          "svg": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.svg",
+            "sha256": "88c293bb1ad620e4f4d9356c72a0e72ca6320a92eb1e64716c861d08b637250a",
+            "signature_valid": true
+          },
+          "tikz": {
+            "exists": true,
+            "path": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.tex",
+            "sha256": "f35fd6a611cf8e51e8aeaa84a5794a3f4564f825a0fc0a7a0bcfbed357709ac2",
+            "signature_valid": true
+          }
+        },
+        "failures": [],
+        "status": "PASS"
+      },
+      "name": "templates/unet",
+      "publication": {
+        "failures": [],
+        "pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Identity-H",
+              "name": "NotoSans-Regular",
+              "subset": false,
+              "type": "CID TrueType",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": true,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "cd4db7e20f1cf503daa8f01120b849697d11c563aa20073805e1cdbbc649cfec",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 9.534,
+            "word_count": 12,
+            "word_overlaps": []
+          }
+        },
+        "status": "PASS",
+        "svg": {
+          "browserErrors": [],
+          "clipping": [],
+          "collisions": {
+            "connectorFace": [],
+            "labelConnector": [],
+            "labelLabel": [],
+            "labelObject": [],
+            "leaderCrossings": [],
+            "leaderFace": []
+          },
+          "counts": {
+            "arrowRoutes": 6,
+            "arrowheads": 6,
+            "connectors": 7,
+            "faces": 15,
+            "labels": 6,
+            "leaders": 5
+          },
+          "failures": [],
+          "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.svg",
+          "framing": {
+            "contentRect": {
+              "bottom": 385.458567,
+              "height": 316.386071,
+              "left": 140.539283,
+              "right": 527.583862,
+              "top": 69.072496,
+              "width": 387.04458
+            },
+            "largestFaceAreaRatio": 0.030082,
+            "occupancy": {
+              "height": 0.697606,
+              "maxAxis": 0.697606,
+              "width": 0.568922
+            }
+          },
+          "leaders": {
+            "maximumLengthMm": 1.199973,
+            "maximumStarburstDegree": 2
+          },
+          "page": {
+            "heightPx": 453.53125,
+            "rootScale": 3.779427,
+            "widthPx": 680.3125
+          },
+          "sha256": "88c293bb1ad620e4f4d9356c72a0e72ca6320a92eb1e64716c861d08b637250a",
+          "status": "PASS",
+          "text": {
+            "maximumScale": 1,
+            "measurements": [
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-67",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-69",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-71",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-73",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-75",
+                "scaleRatio": 1
+              },
+              {
+                "fontPt": 6.999801,
+                "hasForcedLength": false,
+                "id": "nndv-label-77",
+                "scaleRatio": 1
+              }
+            ],
+            "minimumFontPt": 6.999801,
+            "minimumScale": 1
+          }
+        },
+        "tikz_compiled_pdf": {
+          "all_fonts_embedded": true,
+          "all_fonts_unicode": true,
+          "base14_fonts": [],
+          "boundary_ink_pixels": 0,
+          "failures": [],
+          "fonts": [
+            {
+              "embedded": true,
+              "encoding": "Custom",
+              "name": "QVLWQE+LMSans8-Regular",
+              "subset": true,
+              "type": "Type 1",
+              "unicode": true
+            }
+          ],
+          "missing_labels": [],
+          "native_font_contract_required": false,
+          "page_mm": [
+            179.999922,
+            119.999831
+          ],
+          "pages": 1,
+          "sha256": "59c48e6830e8c067c8b71740b4a6ce3ce8e7445b973096e9a4b030963ca524c9",
+          "status": "PASS",
+          "text_geometry": {
+            "boundary_contacts": [],
+            "minimum_word_height_pt": 6.192734,
+            "word_count": 12,
+            "word_overlaps": []
+          }
+        }
+      },
+      "status": "PASS",
+      "true_3d": {
+        "failures": [],
+        "glb": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 12,
+          "mesh_node_count": 12,
+          "position_accessor_count": 18
+        },
+        "gltf": {
+          "asset_version": "2.0",
+          "camera_count": 1,
+          "maximum_z_extent": 8.0,
+          "mesh_count": 12,
+          "mesh_node_count": 12,
+          "position_accessor_count": 18
+        },
+        "status": "PASS"
+      }
+    }
+  ],
+  "failures": [],
+  "formats_status": "PASS",
+  "oracle": "scene-publication-cross-format-v1",
+  "publication_status": "PASS",
+  "status": "PASS",
+  "tools": {
+    "pdffonts": "/usr/bin/pdffonts",
+    "pdfinfo": "/usr/bin/pdfinfo",
+    "pdflatex": "/home/wangrj/.local/bin/pdflatex",
+    "pdftocairo": "/usr/bin/pdftocairo",
+    "pdftotext": "/usr/bin/pdftotext"
+  },
+  "true_3d_status": "PASS"
+}

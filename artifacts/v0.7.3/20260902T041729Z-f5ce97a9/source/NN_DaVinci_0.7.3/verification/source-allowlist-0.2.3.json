@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "release": "0.2.3",
+  "root_files": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "eslint.config.mjs",
+    "package-lock.json",
+    "package.json",
+    "pyproject.toml"
+  ],
+  "roots": [
+    "docs",
+    "examples",
+    "requirements",
+    "scripts",
+    "src",
+    "tests",
+    "verification"
+  ],
+  "excluded_parts": [
+    ".coverage",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".ruff_cache",
+    "__pycache__",
+    "artifacts",
+    "build",
+    "dist",
+    "node_modules"
+  ]
+}

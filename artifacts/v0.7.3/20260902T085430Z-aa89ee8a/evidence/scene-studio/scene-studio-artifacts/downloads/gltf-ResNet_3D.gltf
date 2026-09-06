@@ -1,0 +1,915 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        3.5,
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        3.5,
+        0.17500000000000002,
+        0.17500000000000002
+      ],
+      "min": [
+        3.0625,
+        -0.17500000000000002,
+        -0.17500000000000002
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -3.5,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.0,
+        0.17500000000000002,
+        0.17500000000000002
+      ],
+      "min": [
+        -0.43750000000000006,
+        -0.17500000000000002,
+        -0.17500000000000002
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.56,
+        1.9947562014137588
+      ],
+      "min": [
+        -1.0,
+        -0.56,
+        -1.9947562014137588
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.56,
+        2.1601126830417994
+      ],
+      "min": [
+        -1.0,
+        -0.56,
+        -2.1601126830417994
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.6,
+        0.56,
+        1.9947562014137588
+      ],
+      "min": [
+        -0.6,
+        -0.56,
+        -1.9947562014137588
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "schemaVersion": "nndv-scene-gltf-1"
+    },
+    "generator": "NN_DaVinci Scene IR 1.0 deterministic exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 24,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 132,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 324,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 432,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 600,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 696,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 840,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 936,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1080,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1176,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1320,
+      "uri": "data:application/octet-stream;base64,AAAAAAAAAAAAAAAAAABgQAAAAAAAAAAAAABgQAAAAAAAAAAAAABEQAAAAAAzMzM+AABEQFRt/T1Ubf09AABEQDMzMz5Fq0UjAABEQFRt/T1Ubf29AABEQEWrxSMzMzO+AABEQFRt/b1Ubf29AABEQDMzM750QBSkAABEQFRt/b1Ubf09AAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAAABgwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgvgAAAAAzMzM+AADgvlRt/T1Ubf09AADgvjMzMz5Fq0UjAADgvlRt/T1Ubf29AADgvkWrxSMzMzO+AADgvlRt/b1Ubf29AADgvjMzM750QBSkAADgvlRt/b1Ubf09AAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAAACAvylcD78sVP+/AACAPylcD78sVP+/AACAPylcDz8sVP+/AACAvylcDz8sVP+/AACAvylcD78sVP8/AACAPylcD78sVP8/AACAPylcDz8sVP8/AACAvylcDz8sVP8/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAACAvylcD79JPwrAAACAPylcD79JPwrAAACAPylcDz9JPwrAAACAvylcDz9JPwrAAACAvylcD79JPwpAAACAPylcD79JPwpAAACAPylcDz9JPwpAAACAvylcDz9JPwpAAAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAmpkZvylcD78sVP+/mpkZPylcD78sVP+/mpkZPylcDz8sVP+/mpkZvylcDz8sVP+/mpkZvylcD78sVP8/mpkZPylcD78sVP8/mpkZPylcDz8sVP8/mpkZvylcDz8sVP8/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAA"
+    }
+  ],
+  "cameras": [
+    {
+      "extras": {
+        "nndvProjection": "orthographic",
+        "objectId": "scene_camera_resnet___3d_camera_isometric_ad0bf323"
+      },
+      "name": "ResNet · 3D isometric camera",
+      "orthographic": {
+        "xmag": 6.421521000238341,
+        "ymag": 4.281014000158894,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "orthographic"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "extras": {
+            "nndvLight": {
+              "color": "#ffffff",
+              "direction": [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              "id": "scene_light_resnet___3d_light_key_fcc8f24c",
+              "intensity": 1.0,
+              "kind": "directional",
+              "locked": false,
+              "metadata": {},
+              "name": "Key light",
+              "position": [
+                8.0,
+                10.0,
+                12.0
+              ],
+              "visible": true
+            },
+            "objectId": "scene_light_resnet___3d_light_key_fcc8f24c"
+          },
+          "intensity": 1.0,
+          "name": "Key light",
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#475569ff",
+        "nndvMaterial": {
+          "base_color": "#475569",
+          "face_colors": {
+            "front": "#475569",
+            "top": "#475569"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2784314,
+          0.3333333,
+          0.4117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#e2e8f0ff",
+        "nndvMaterial": {
+          "base_color": "#e2e8f0",
+          "face_colors": {
+            "front": "#e2e8f0",
+            "top": "#e2e8f0"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8862745,
+          0.9098039,
+          0.9411765,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#bfdbfeff",
+        "nndvMaterial": {
+          "base_color": "#bfdbfe",
+          "face_colors": {
+            "front": "#bfdbfe",
+            "top": "#bfdbfe"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7490196,
+          0.8588235,
+          0.9960784,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8"
+      },
+      "name": "Mesh scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "material": 0,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55"
+      },
+      "name": "Mesh scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3
+          },
+          "material": 0,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414"
+      },
+      "name": "Mesh scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c"
+      },
+      "name": "Mesh scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309"
+      },
+      "name": "Mesh scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "edge_ids": [
+              "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9"
+            ],
+            "scene_role_origin": [
+              "graph_ir-edge-generic"
+            ],
+            "source_ports": [
+              "node_fx_fc_175_9af358a5:output:0"
+            ],
+            "target_ports": [
+              "node_fx_output_176_a4d4af23:input:0"
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+            "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+          ],
+          "graph_ir_ids": [
+            "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9",
+            "node_fx_fc_175_9af358a5:output:0",
+            "node_fx_output_176_a4d4af23:input:0",
+            "node_fx_fc_175_9af358a5",
+            "node_fx_output_176_a4d4af23"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b",
+            "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+          ],
+          "source_id": "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "fc to output"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "edge_ids": [
+              "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380"
+            ],
+            "scene_role_origin": [
+              "graph_ir-edge-generic"
+            ],
+            "source_ports": [
+              "node_fx_flatten_174_920541e7:output:0"
+            ],
+            "target_ports": [
+              "node_fx_fc_175_9af358a5:input:0"
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+            "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+          ],
+          "graph_ir_ids": [
+            "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+            "node_fx_flatten_174_920541e7:output:0",
+            "node_fx_fc_175_9af358a5:input:0",
+            "node_fx_flatten_174_920541e7",
+            "node_fx_fc_175_9af358a5"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562",
+            "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+          ],
+          "source_id": "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "flatten to fc"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "dtype": "float32",
+            "node_ids": [
+              "node_fx_fc_175_9af358a5"
+            ],
+            "op_types": [
+              "Linear"
+            ],
+            "scene_role_origin": "unknown-no-explicit-architecture-role",
+            "summary": false,
+            "summary_source": {},
+            "tensor_shape": [
+              1,
+              1000
+            ],
+            "visual_geometry_mapping": "nonliteral bounded authoring cue"
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+            "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+          ],
+          "graph_ir_ids": [
+            "node_fx_fc_175_9af358a5",
+            "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+            "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9",
+            "node_fx_fc_175_9af358a5:input:0",
+            "node_fx_fc_175_9af358a5:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+          ],
+          "source_id": "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "fc"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "dtype": "float32",
+            "node_ids": [
+              "node_fx_flatten_174_920541e7"
+            ],
+            "op_types": [
+              "<built-in method flatten of type object at 0x7ee6d9da1dc0>"
+            ],
+            "scene_role_origin": "unknown-no-explicit-architecture-role",
+            "summary": false,
+            "summary_source": {},
+            "tensor_shape": [
+              1,
+              2048
+            ],
+            "visual_geometry_mapping": "nonliteral bounded authoring cue"
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+            "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+          ],
+          "graph_ir_ids": [
+            "node_fx_flatten_174_920541e7",
+            "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+            "node_fx_flatten_174_920541e7:input:0",
+            "node_fx_flatten_174_920541e7:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562"
+          ],
+          "source_id": "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 3,
+      "name": "flatten"
+    },
+    {
+      "extras": {
+        "kind": "tensor-volume",
+        "locked": false,
+        "objectId": "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "dtype": "float32",
+            "node_ids": [
+              "node_fx_output_176_a4d4af23"
+            ],
+            "op_types": [
+              "Output"
+            ],
+            "scene_role_origin": "graph_ir.category",
+            "summary": false,
+            "summary_source": {},
+            "tensor_shape": [
+              1,
+              1000
+            ],
+            "visual_geometry_mapping": "nonliteral bounded authoring cue"
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+            "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+          ],
+          "graph_ir_ids": [
+            "node_fx_output_176_a4d4af23",
+            "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9",
+            "node_fx_output_176_a4d4af23:input:0",
+            "node_fx_output_176_a4d4af23:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+          ],
+          "source_id": "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 4,
+      "name": "output"
+    },
+    {
+      "camera": 0,
+      "extras": {
+        "kind": "camera",
+        "objectId": "scene_camera_resnet___3d_camera_isometric_ad0bf323"
+      },
+      "matrix": [
+        0.759256602,
+        0.0,
+        -0.650791373,
+        0.0,
+        -0.310252614,
+        0.879049073,
+        -0.361961383,
+        0.0,
+        0.572077554,
+        0.476731295,
+        0.667423812,
+        0.0,
+        10.418987359,
+        8.849156133,
+        12.388818586,
+        1.0
+      ],
+      "name": "ResNet · 3D isometric camera"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "extras": {
+        "kind": "light",
+        "objectId": "scene_light_resnet___3d_light_key_fcc8f24c"
+      },
+      "name": "Key light",
+      "translation": [
+        8.0,
+        10.0,
+        12.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "activeCameraId": "scene_camera_resnet___3d_camera_isometric_ad0bf323",
+        "sceneId": "scene_resnet___3d_455448d7",
+        "sourceDigest": "4ecc2c4b4b712003e34b499e7fa116e69a7905dad0716bd64b43338352d79892"
+      },
+      "name": "ResNet · 3D",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

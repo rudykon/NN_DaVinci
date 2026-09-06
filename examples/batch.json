@@ -1,0 +1,11 @@
+{
+  "defaults": {
+    "formats": ["svg", "pdf"],
+    "theme": "neurips",
+    "page": "double-column"
+  },
+  "jobs": [
+    {"source": "resnet.json", "output": "../artifacts/batch-resnet.svg", "layout": "resnet"},
+    {"source": "transformer.json", "output": "../artifacts/batch-transformer.svg", "layout": "transformer", "theme": "colorblind"}
+  ]
+}

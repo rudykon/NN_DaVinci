@@ -1,0 +1,669 @@
+{
+  "$id": "https://local.nn-davinci.invalid/schemas/trial-events-0.5.0.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "aggregate": {
+      "additionalProperties": false,
+      "properties": {
+        "completed_sessions": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "core_task_success_rate": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "first_figure_median_ms": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "human_conclusion_ready": {
+          "type": "boolean"
+        },
+        "paper_ready_median_ms": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "target_evaluation": {
+          "additionalProperties": false,
+          "properties": {
+            "core_task_success_ge_80_percent": {
+              "type": "boolean"
+            },
+            "first_figure_le_5_minutes": {
+              "type": "boolean"
+            },
+            "paper_ready_le_15_minutes": {
+              "type": "boolean"
+            },
+            "serious_semantic_errors_zero": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "first_figure_le_5_minutes",
+            "paper_ready_le_15_minutes",
+            "core_task_success_ge_80_percent",
+            "serious_semantic_errors_zero"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "completed_sessions",
+        "first_figure_median_ms",
+        "paper_ready_median_ms",
+        "core_task_success_rate",
+        "target_evaluation",
+        "human_conclusion_ready"
+      ],
+      "type": "object"
+    },
+    "human_study_claim": {
+      "const": "No human conclusions are valid until consented participant exports are reviewed under TRIAL_PROTOCOL.md."
+    },
+    "privacy": {
+      "additionalProperties": false,
+      "properties": {
+        "contains_model_data": {
+          "const": false
+        },
+        "contains_paths": {
+          "const": false
+        },
+        "contains_user_identity": {
+          "const": false
+        },
+        "local_only": {
+          "const": true
+        },
+        "uploaded": {
+          "const": false
+        }
+      },
+      "required": [
+        "local_only",
+        "uploaded",
+        "contains_model_data",
+        "contains_paths",
+        "contains_user_identity"
+      ],
+      "type": "object"
+    },
+    "protocol_version": {
+      "const": "1.0"
+    },
+    "schema_version": {
+      "const": "0.5.0-trial-events-1"
+    },
+    "sessions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "events": {
+            "items": {
+              "oneOf": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "case_key": {
+                      "enum": [
+                        "participant_model",
+                        "dynamic_pytorch",
+                        "onnx_multi_io",
+                        "shared_siamese",
+                        "transformer_residual",
+                        "unet_skip",
+                        "custom_unknown"
+                      ],
+                      "type": "string"
+                    },
+                    "event_id": {
+                      "pattern": "^event_[0-9]{4,}$",
+                      "type": "string"
+                    },
+                    "event_type": {
+                      "const": "session_started"
+                    },
+                    "recorded_at": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "workflow": {
+                      "enum": [
+                        "guided-web",
+                        "participant-owned"
+                      ],
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "event_id",
+                    "recorded_at",
+                    "event_type",
+                    "case_key",
+                    "workflow"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "event_id": {
+                      "pattern": "^event_[0-9]{4,}$",
+                      "type": "string"
+                    },
+                    "event_type": {
+                      "const": "import_started"
+                    },
+                    "format": {
+                      "enum": [
+                        "pytorch",
+                        "torchscript",
+                        "state_dict",
+                        "onnx",
+                        "keras",
+                        "tensorflow",
+                        "jax",
+                        "mlir",
+                        "json",
+                        "yaml",
+                        "project",
+                        "unknown"
+                      ],
+                      "type": "string"
+                    },
+                    "recorded_at": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "safety_level": {
+                      "enum": [
+                        "safe-data",
+                        "trusted-code",
+                        "restricted-pickle",
+                        "local-fixture",
+                        "unknown"
+                      ],
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "event_id",
+                    "recorded_at",
+                    "event_type",
+                    "format",
+                    "safety_level"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "edge_count": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "event_id": {
+                      "pattern": "^event_[0-9]{4,}$",
+                      "type": "string"
+                    },
+                    "event_type": {
+                      "const": "import_succeeded"
+                    },
+                    "format": {
+                      "enum": [
+                        "pytorch",
+                        "torchscript",
+                        "state_dict",
+                        "onnx",
+                        "keras",
+                        "tensorflow",
+                        "jax",
+                        "mlir",
+                        "json",
+                        "yaml",
+                        "project",
+                        "unknown"
+                      ],
+                      "type": "string"
+                    },
+                    "node_count": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "recorded_at": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "unknown_count": {
+                      "minimum": 0,
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "event_id",
+                    "recorded_at",
+                    "event_type",
+                    "format",
+                    "node_count",
+                    "edge_count",
+                    "unknown_count"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "error_code": {
+                      "enum": [
+                        "none",
+                        "validation",
+                        "optional_dependency",
+                        "unsafe_source",
+                        "unsupported_format",
+                        "paper_not_ready",
+                        "task_failed",
+                        "unknown"
+                      ],
+                      "type": "string"
+                    },
+                    "event_id": {
+                      "pattern": "^event_[0-9]{4,}$",
+                      "type": "string"
+                    },
+                    "event_type": {
+                      "const": "import_failed"
+                    },
+                    "format": {
+                      "enum": [
+                        "pytorch",
+                        "torchscript",
+                        "state_dict",
+                        "onnx",
+                        "keras",
+                        "tensorflow",
+                        "jax",
+                        "mlir",
+                        "json",
+                        "yaml",
+                        "project",
+                        "unknown"
+                      ],
+                      "type": "string"
+                    },
+                    "recorded_at": {
+                      "format": "date-time",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "event_id",
+                    "recorded_at",
+                    "event_type",
+                    "format",
+                    "error_code"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "dom_objects": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "elapsed_ms": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "event_id": {
+                      "pattern": "^event_[0-9]{4,}$",
+                      "type": "string"
+                    },
+                    "event_type": {
+                      "const": "first_interactive_view"
+                    },
+                    "recorded_at": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "semantic_level": {
+                      "enum": [
+                        "raw",
+                        "model",
+                        "stage",
+                        "block",
+                        "layer",
+                        "operation"
+                      ],
+                      "type": "string"
+                    },
+                    "visible_nodes": {
+                      "minimum": 0,
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "event_id",
+                    "recorded_at",
+                    "event_type",
+                    "elapsed_ms",
+                    "visible_nodes",
+                    "dom_objects",
+                    "semantic_level"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "elapsed_ms": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "event_id": {
+                      "pattern": "^event_[0-9]{4,}$",
+                      "type": "string"
+                    },
+                    "event_type": {
+                      "const": "paper_ready"
+                    },
+                    "minimum_font_pt": {
+                      "minimum": 0,
+                      "type": "number"
+                    },
+                    "panel_count": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "recorded_at": {
+                      "format": "date-time",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "event_id",
+                    "recorded_at",
+                    "event_type",
+                    "elapsed_ms",
+                    "minimum_font_pt",
+                    "panel_count"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "edge_changes": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "event_id": {
+                      "pattern": "^event_[0-9]{4,}$",
+                      "type": "string"
+                    },
+                    "event_type": {
+                      "const": "edit_summary"
+                    },
+                    "label_changes": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "node_changes": {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "recorded_at": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "semantic_changes": {
+                      "minimum": 0,
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "event_id",
+                    "recorded_at",
+                    "event_type",
+                    "semantic_changes",
+                    "node_changes",
+                    "edge_changes",
+                    "label_changes"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "error_code": {
+                      "enum": [
+                        "none",
+                        "validation",
+                        "optional_dependency",
+                        "unsafe_source",
+                        "unsupported_format",
+                        "paper_not_ready",
+                        "task_failed",
+                        "unknown"
+                      ],
+                      "type": "string"
+                    },
+                    "event_id": {
+                      "pattern": "^event_[0-9]{4,}$",
+                      "type": "string"
+                    },
+                    "event_type": {
+                      "const": "export"
+                    },
+                    "format": {
+                      "enum": [
+                        "svg",
+                        "pdf",
+                        "tikz",
+                        "pptx",
+                        "png",
+                        "eps",
+                        "html",
+                        "project",
+                        "bundle"
+                      ],
+                      "type": "string"
+                    },
+                    "recorded_at": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "succeeded": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "event_id",
+                    "recorded_at",
+                    "event_type",
+                    "format",
+                    "succeeded",
+                    "error_code"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "action": {
+                      "enum": [
+                        "retry",
+                        "sample_input",
+                        "module_view",
+                        "semantic_summary",
+                        "reduce_focus",
+                        "switch_page",
+                        "project_refresh",
+                        "autosave_restore",
+                        "open_issue"
+                      ],
+                      "type": "string"
+                    },
+                    "event_id": {
+                      "pattern": "^event_[0-9]{4,}$",
+                      "type": "string"
+                    },
+                    "event_type": {
+                      "const": "recovery"
+                    },
+                    "recorded_at": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "succeeded": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "event_id",
+                    "recorded_at",
+                    "event_type",
+                    "action",
+                    "succeeded"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "event_id": {
+                      "pattern": "^event_[0-9]{4,}$",
+                      "type": "string"
+                    },
+                    "event_type": {
+                      "const": "session_completed"
+                    },
+                    "recorded_at": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "status": {
+                      "enum": [
+                        "completed",
+                        "abandoned",
+                        "consent_revoked"
+                      ],
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "event_id",
+                    "recorded_at",
+                    "event_type",
+                    "status"
+                  ],
+                  "type": "object"
+                }
+              ]
+            },
+            "type": "array"
+          },
+          "finished_at": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "format": "date-time",
+                "type": "string"
+              }
+            ]
+          },
+          "privacy": {
+            "additionalProperties": false,
+            "properties": {
+              "contains_model_data": {
+                "const": false
+              },
+              "contains_paths": {
+                "const": false
+              },
+              "contains_user_identity": {
+                "const": false
+              },
+              "local_only": {
+                "const": true
+              },
+              "uploaded": {
+                "const": false
+              }
+            },
+            "required": [
+              "local_only",
+              "uploaded",
+              "contains_model_data",
+              "contains_paths",
+              "contains_user_identity"
+            ],
+            "type": "object"
+          },
+          "protocol_version": {
+            "const": "1.0"
+          },
+          "schema_version": {
+            "const": "0.5.0-trial-events-1"
+          },
+          "session_id": {
+            "pattern": "^trial_[a-f0-9]{32}$",
+            "type": "string"
+          },
+          "started_at": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "active",
+              "completed",
+              "abandoned",
+              "consent_revoked"
+            ]
+          }
+        },
+        "required": [
+          "schema_version",
+          "protocol_version",
+          "session_id",
+          "status",
+          "started_at",
+          "finished_at",
+          "privacy",
+          "events"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "protocol_version",
+    "privacy",
+    "sessions",
+    "aggregate",
+    "human_study_claim"
+  ],
+  "title": "NN_DaVinci local researcher trial export",
+  "type": "object"
+}

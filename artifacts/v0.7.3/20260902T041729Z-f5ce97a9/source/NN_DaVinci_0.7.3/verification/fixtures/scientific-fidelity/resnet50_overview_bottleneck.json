@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.4.2-semantic-golden-1",
+  "example": "resnet50_overview_bottleneck",
+  "panel": "detail",
+  "required_roles": [
+    "block_input",
+    "conv1",
+    "bn1",
+    "conv2",
+    "bn2",
+    "conv3",
+    "bn3",
+    "residual_merge",
+    "block_output"
+  ],
+  "required_edges": [
+    ["block_input", "conv1", "data"],
+    ["block_input", "residual_merge", "data"],
+    ["bn3", "residual_merge", "data"],
+    ["residual_merge", "block_output", "data"]
+  ],
+  "merge_indegree": {
+    "residual_merge": 2
+  },
+  "repetition": {
+    "selected_structural_repeat_count": 2,
+    "family_counts": {
+      "bottleneck_body": 16,
+      "projection_transition": 4,
+      "identity_bottleneck": 12
+    }
+  },
+  "caption": {
+    "input_names": ["x"],
+    "output_names": ["output_0"],
+    "forbidden_input_names": ["output_0"]
+  }
+}

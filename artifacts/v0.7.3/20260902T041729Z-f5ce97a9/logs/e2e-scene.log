@@ -1,0 +1,2 @@
+npm notice run nn-davinci-web-tests@0.7.3 e2e:scene
+npm notice run node tests/e2e/scene-studio.e2e.mjs

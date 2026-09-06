@@ -1,0 +1,3 @@
+"""Single source of truth for the NN_DaVinci package version."""
+
+__version__ = "0.7.3"

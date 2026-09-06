@@ -1,0 +1,596 @@
+* Getting build dependencies for sdist...
+running egg_info
+creating src/nn_davinci.egg-info
+writing src/nn_davinci.egg-info/PKG-INFO
+writing dependency_links to src/nn_davinci.egg-info/dependency_links.txt
+writing entry points to src/nn_davinci.egg-info/entry_points.txt
+writing requirements to src/nn_davinci.egg-info/requires.txt
+writing top-level names to src/nn_davinci.egg-info/top_level.txt
+writing manifest file 'src/nn_davinci.egg-info/SOURCES.txt'
+reading manifest file 'src/nn_davinci.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/nn_davinci.egg-info/SOURCES.txt'
+* Building sdist...
+running sdist
+running egg_info
+writing src/nn_davinci.egg-info/PKG-INFO
+writing dependency_links to src/nn_davinci.egg-info/dependency_links.txt
+writing entry points to src/nn_davinci.egg-info/entry_points.txt
+writing requirements to src/nn_davinci.egg-info/requires.txt
+writing top-level names to src/nn_davinci.egg-info/top_level.txt
+reading manifest file 'src/nn_davinci.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/nn_davinci.egg-info/SOURCES.txt'
+running check
+creating nn_davinci-0.7.3
+creating nn_davinci-0.7.3/src/nn_davinci
+creating nn_davinci-0.7.3/src/nn_davinci.egg-info
+creating nn_davinci-0.7.3/src/nn_davinci/adapters
+creating nn_davinci-0.7.3/src/nn_davinci/analysis
+creating nn_davinci-0.7.3/src/nn_davinci/assets/fonts
+creating nn_davinci-0.7.3/src/nn_davinci/assets/fonts/licenses
+creating nn_davinci-0.7.3/src/nn_davinci/figure_templates
+creating nn_davinci-0.7.3/src/nn_davinci/layout
+creating nn_davinci-0.7.3/src/nn_davinci/render
+creating nn_davinci-0.7.3/src/nn_davinci/scene_templates
+creating nn_davinci-0.7.3/src/nn_davinci/trial_cases
+creating nn_davinci-0.7.3/src/nn_davinci/web
+creating nn_davinci-0.7.3/tests
+copying files to nn_davinci-0.7.3...
+copying LICENSE -> nn_davinci-0.7.3
+copying README.md -> nn_davinci-0.7.3
+copying pyproject.toml -> nn_davinci-0.7.3
+copying src/nn_davinci/__init__.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/__main__.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/api.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/architecture_evidence.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/architecture_parity.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/architecture_role_graph.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/batch.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/cli.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/composer.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/diff_corpus.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/editor.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/errors.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/figure_export.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/figure_ir.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/figure_templates.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/formula.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/import_wizard.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/ir.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/labels.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/metamorphic_corpus.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/model_figure.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/model_scene.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/operators.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/optimizer.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/paper_production.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/pdf_fonts.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/plugins.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/project.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/quality.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/real_models.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/reporting.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/scaling.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/scene_export.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/scene_gltf.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/scene_ir.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/scene_math.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/scene_projection.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/semantic.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/server.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/spatial.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/structure_lens.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/tasks.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/tensor_geometry.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/text_layout.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/themes.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/trial.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/trial_models.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/units.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/verification.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/version.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci/viewport.py -> nn_davinci-0.7.3/src/nn_davinci
+copying src/nn_davinci.egg-info/PKG-INFO -> nn_davinci-0.7.3/src/nn_davinci.egg-info
+copying src/nn_davinci.egg-info/SOURCES.txt -> nn_davinci-0.7.3/src/nn_davinci.egg-info
+copying src/nn_davinci.egg-info/dependency_links.txt -> nn_davinci-0.7.3/src/nn_davinci.egg-info
+copying src/nn_davinci.egg-info/entry_points.txt -> nn_davinci-0.7.3/src/nn_davinci.egg-info
+copying src/nn_davinci.egg-info/requires.txt -> nn_davinci-0.7.3/src/nn_davinci.egg-info
+copying src/nn_davinci.egg-info/top_level.txt -> nn_davinci-0.7.3/src/nn_davinci.egg-info
+copying src/nn_davinci/adapters/__init__.py -> nn_davinci-0.7.3/src/nn_davinci/adapters
+copying src/nn_davinci/adapters/base.py -> nn_davinci-0.7.3/src/nn_davinci/adapters
+copying src/nn_davinci/adapters/config.py -> nn_davinci-0.7.3/src/nn_davinci/adapters
+copying src/nn_davinci/adapters/jax.py -> nn_davinci-0.7.3/src/nn_davinci/adapters
+copying src/nn_davinci/adapters/keras.py -> nn_davinci-0.7.3/src/nn_davinci/adapters
+copying src/nn_davinci/adapters/manual.py -> nn_davinci-0.7.3/src/nn_davinci/adapters
+copying src/nn_davinci/adapters/onnx.py -> nn_davinci-0.7.3/src/nn_davinci/adapters
+copying src/nn_davinci/adapters/pytorch.py -> nn_davinci-0.7.3/src/nn_davinci/adapters
+copying src/nn_davinci/adapters/tensorflow.py -> nn_davinci-0.7.3/src/nn_davinci/adapters
+copying src/nn_davinci/analysis/__init__.py -> nn_davinci-0.7.3/src/nn_davinci/analysis
+copying src/nn_davinci/analysis/diff.py -> nn_davinci-0.7.3/src/nn_davinci/analysis
+copying src/nn_davinci/analysis/explain.py -> nn_davinci-0.7.3/src/nn_davinci/analysis
+copying src/nn_davinci/analysis/runtime.py -> nn_davinci-0.7.3/src/nn_davinci/analysis
+copying src/nn_davinci/analysis/static.py -> nn_davinci-0.7.3/src/nn_davinci/analysis
+copying src/nn_davinci/analysis/torchlens.py -> nn_davinci-0.7.3/src/nn_davinci/analysis
+copying src/nn_davinci/assets/fonts/DroidSansFallbackFull.ttf -> nn_davinci-0.7.3/src/nn_davinci/assets/fonts
+copying src/nn_davinci/assets/fonts/NotoSans-Regular.ttf -> nn_davinci-0.7.3/src/nn_davinci/assets/fonts
+copying src/nn_davinci/assets/fonts/NotoSansMath-Regular.ttf -> nn_davinci-0.7.3/src/nn_davinci/assets/fonts
+copying src/nn_davinci/assets/fonts/licenses/Droid-Apache-2.0.txt -> nn_davinci-0.7.3/src/nn_davinci/assets/fonts/licenses
+copying src/nn_davinci/assets/fonts/licenses/Noto-OFL-1.1.txt -> nn_davinci-0.7.3/src/nn_davinci/assets/fonts/licenses
+copying src/nn_davinci/figure_templates/cnn-feature-pipeline.nndv.json -> nn_davinci-0.7.3/src/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/diffusion-unet-conditioning.nndv.json -> nn_davinci-0.7.3/src/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/moe-router-experts.nndv.json -> nn_davinci-0.7.3/src/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/multimodal-fusion.nndv.json -> nn_davinci-0.7.3/src/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/resnet-overview.nndv.json -> nn_davinci-0.7.3/src/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/transformer-attention-ffn.nndv.json -> nn_davinci-0.7.3/src/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/unet-encoder-decoder.nndv.json -> nn_davinci-0.7.3/src/nn_davinci/figure_templates
+copying src/nn_davinci/layout/__init__.py -> nn_davinci-0.7.3/src/nn_davinci/layout
+copying src/nn_davinci/layout/engine.py -> nn_davinci-0.7.3/src/nn_davinci/layout
+copying src/nn_davinci/render/__init__.py -> nn_davinci-0.7.3/src/nn_davinci/render
+copying src/nn_davinci/render/export.py -> nn_davinci-0.7.3/src/nn_davinci/render
+copying src/nn_davinci/render/html.py -> nn_davinci-0.7.3/src/nn_davinci/render
+copying src/nn_davinci/render/svg.py -> nn_davinci-0.7.3/src/nn_davinci/render
+copying src/nn_davinci/render/tikz.py -> nn_davinci-0.7.3/src/nn_davinci/render
+copying src/nn_davinci/scene_templates/cnn.scene.json -> nn_davinci-0.7.3/src/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/diffusion-unet.scene.json -> nn_davinci-0.7.3/src/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/moe.scene.json -> nn_davinci-0.7.3/src/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/multimodal-fusion.scene.json -> nn_davinci-0.7.3/src/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/resnet.scene.json -> nn_davinci-0.7.3/src/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/transformer.scene.json -> nn_davinci-0.7.3/src/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/unet.scene.json -> nn_davinci-0.7.3/src/nn_davinci/scene_templates
+copying src/nn_davinci/trial_cases/__init__.py -> nn_davinci-0.7.3/src/nn_davinci/trial_cases
+copying src/nn_davinci/trial_cases/onnx_case.py -> nn_davinci-0.7.3/src/nn_davinci/trial_cases
+copying src/nn_davinci/trial_cases/pytorch_cases.py -> nn_davinci-0.7.3/src/nn_davinci/trial_cases
+copying src/nn_davinci/web/app.js -> nn_davinci-0.7.3/src/nn_davinci/web
+copying src/nn_davinci/web/commands.js -> nn_davinci-0.7.3/src/nn_davinci/web
+copying src/nn_davinci/web/design-system.css -> nn_davinci-0.7.3/src/nn_davinci/web
+copying src/nn_davinci/web/favicon.svg -> nn_davinci-0.7.3/src/nn_davinci/web
+copying src/nn_davinci/web/index.html -> nn_davinci-0.7.3/src/nn_davinci/web
+copying src/nn_davinci/web/scene-batch.js -> nn_davinci-0.7.3/src/nn_davinci/web
+copying src/nn_davinci/web/scene-interactions.js -> nn_davinci-0.7.3/src/nn_davinci/web
+copying src/nn_davinci/web/scene-renderer.js -> nn_davinci-0.7.3/src/nn_davinci/web
+copying src/nn_davinci/web/scene-studio.css -> nn_davinci-0.7.3/src/nn_davinci/web
+copying src/nn_davinci/web/state-machine.js -> nn_davinci-0.7.3/src/nn_davinci/web
+copying src/nn_davinci/web/styles.css -> nn_davinci-0.7.3/src/nn_davinci/web
+copying tests/test_analysis_accuracy.py -> nn_davinci-0.7.3/tests
+copying tests/test_cli_scene_project_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_compatibility_matrix.py -> nn_davinci-0.7.3/tests
+copying tests/test_composer.py -> nn_davinci-0.7.3/tests
+copying tests/test_core.py -> nn_davinci-0.7.3/tests
+copying tests/test_extended_integrations.py -> nn_davinci-0.7.3/tests
+copying tests/test_figure_formula_exports.py -> nn_davinci-0.7.3/tests
+copying tests/test_figure_ir.py -> nn_davinci-0.7.3/tests
+copying tests/test_figure_multi_page_exports.py -> nn_davinci-0.7.3/tests
+copying tests/test_figure_performance.py -> nn_davinci-0.7.3/tests
+copying tests/test_figure_studio_api.py -> nn_davinci-0.7.3/tests
+copying tests/test_figure_svg_oracle.py -> nn_davinci-0.7.3/tests
+copying tests/test_figure_units_text.py -> nn_davinci-0.7.3/tests
+copying tests/test_formula_061.py -> nn_davinci-0.7.3/tests
+copying tests/test_generalization_073.py -> nn_davinci-0.7.3/tests
+copying tests/test_hotfix_contracts_073.py -> nn_davinci-0.7.3/tests
+copying tests/test_large_graph.py -> nn_davinci-0.7.3/tests
+copying tests/test_model_figure_061.py -> nn_davinci-0.7.3/tests
+copying tests/test_model_scene_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_onnx_and_web.py -> nn_davinci-0.7.3/tests
+copying tests/test_paper_production.py -> nn_davinci-0.7.3/tests
+copying tests/test_paper_quality.py -> nn_davinci-0.7.3/tests
+copying tests/test_plugins_v2.py -> nn_davinci-0.7.3/tests
+copying tests/test_project_semantic_provenance_061.py -> nn_davinci-0.7.3/tests
+copying tests/test_pytorch_runtime.py -> nn_davinci-0.7.3/tests
+copying tests/test_real_model_figures_061.py -> nn_davinci-0.7.3/tests
+copying tests/test_real_models.py -> nn_davinci-0.7.3/tests
+copying tests/test_release_artifact_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_release_artifact_0_6.py -> nn_davinci-0.7.3/tests
+copying tests/test_release_artifact_0_6_1.py -> nn_davinci-0.7.3/tests
+copying tests/test_release_driver_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_release_driver_071.py -> nn_davinci-0.7.3/tests
+copying tests/test_release_verification.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_api_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_artifact_corpus_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_camera_072.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_exports_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_ir_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_math_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_migration_report_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_pdf_fonts_072.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_projection_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_template_ui_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_ux_071.py -> nn_davinci-0.7.3/tests
+copying tests/test_scene_visual_evidence_070.py -> nn_davinci-0.7.3/tests
+copying tests/test_scientific_fidelity_072.py -> nn_davinci-0.7.3/tests
+copying tests/test_semantic_canvas.py -> nn_davinci-0.7.3/tests
+copying tests/test_semantic_evidence_061.py -> nn_davinci-0.7.3/tests
+copying tests/test_semantic_presentation_oracle_073.py -> nn_davinci-0.7.3/tests
+copying tests/test_service_lifecycle_073.py -> nn_davinci-0.7.3/tests
+copying tests/test_structure_lens.py -> nn_davinci-0.7.3/tests
+copying tests/test_structure_lens_061.py -> nn_davinci-0.7.3/tests
+copying tests/test_tensor_geometry.py -> nn_davinci-0.7.3/tests
+copying tests/test_trial_mode.py -> nn_davinci-0.7.3/tests
+copying tests/test_vector_quality.py -> nn_davinci-0.7.3/tests
+copying tests/test_verification_closure.py -> nn_davinci-0.7.3/tests
+copying tests/test_web_security.py -> nn_davinci-0.7.3/tests
+Writing nn_davinci-0.7.3/setup.cfg
+Creating tar archive
+removing 'nn_davinci-0.7.3' (and everything under it)
+* Building wheel from sdist
+* Getting build dependencies for wheel...
+running egg_info
+writing src/nn_davinci.egg-info/PKG-INFO
+writing dependency_links to src/nn_davinci.egg-info/dependency_links.txt
+writing entry points to src/nn_davinci.egg-info/entry_points.txt
+writing requirements to src/nn_davinci.egg-info/requires.txt
+writing top-level names to src/nn_davinci.egg-info/top_level.txt
+reading manifest file 'src/nn_davinci.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/nn_davinci.egg-info/SOURCES.txt'
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build/lib/nn_davinci
+copying src/nn_davinci/architecture_role_graph.py -> build/lib/nn_davinci
+copying src/nn_davinci/labels.py -> build/lib/nn_davinci
+copying src/nn_davinci/real_models.py -> build/lib/nn_davinci
+copying src/nn_davinci/architecture_parity.py -> build/lib/nn_davinci
+copying src/nn_davinci/figure_export.py -> build/lib/nn_davinci
+copying src/nn_davinci/__main__.py -> build/lib/nn_davinci
+copying src/nn_davinci/version.py -> build/lib/nn_davinci
+copying src/nn_davinci/pdf_fonts.py -> build/lib/nn_davinci
+copying src/nn_davinci/model_scene.py -> build/lib/nn_davinci
+copying src/nn_davinci/quality.py -> build/lib/nn_davinci
+copying src/nn_davinci/paper_production.py -> build/lib/nn_davinci
+copying src/nn_davinci/scaling.py -> build/lib/nn_davinci
+copying src/nn_davinci/text_layout.py -> build/lib/nn_davinci
+copying src/nn_davinci/verification.py -> build/lib/nn_davinci
+copying src/nn_davinci/figure_ir.py -> build/lib/nn_davinci
+copying src/nn_davinci/scene_projection.py -> build/lib/nn_davinci
+copying src/nn_davinci/trial.py -> build/lib/nn_davinci
+copying src/nn_davinci/tasks.py -> build/lib/nn_davinci
+copying src/nn_davinci/composer.py -> build/lib/nn_davinci
+copying src/nn_davinci/scene_math.py -> build/lib/nn_davinci
+copying src/nn_davinci/metamorphic_corpus.py -> build/lib/nn_davinci
+copying src/nn_davinci/formula.py -> build/lib/nn_davinci
+copying src/nn_davinci/editor.py -> build/lib/nn_davinci
+copying src/nn_davinci/optimizer.py -> build/lib/nn_davinci
+copying src/nn_davinci/reporting.py -> build/lib/nn_davinci
+copying src/nn_davinci/figure_templates.py -> build/lib/nn_davinci
+copying src/nn_davinci/spatial.py -> build/lib/nn_davinci
+copying src/nn_davinci/errors.py -> build/lib/nn_davinci
+copying src/nn_davinci/diff_corpus.py -> build/lib/nn_davinci
+copying src/nn_davinci/structure_lens.py -> build/lib/nn_davinci
+copying src/nn_davinci/scene_ir.py -> build/lib/nn_davinci
+copying src/nn_davinci/ir.py -> build/lib/nn_davinci
+copying src/nn_davinci/api.py -> build/lib/nn_davinci
+copying src/nn_davinci/tensor_geometry.py -> build/lib/nn_davinci
+copying src/nn_davinci/import_wizard.py -> build/lib/nn_davinci
+copying src/nn_davinci/scene_export.py -> build/lib/nn_davinci
+copying src/nn_davinci/project.py -> build/lib/nn_davinci
+copying src/nn_davinci/server.py -> build/lib/nn_davinci
+copying src/nn_davinci/cli.py -> build/lib/nn_davinci
+copying src/nn_davinci/trial_models.py -> build/lib/nn_davinci
+copying src/nn_davinci/units.py -> build/lib/nn_davinci
+copying src/nn_davinci/themes.py -> build/lib/nn_davinci
+copying src/nn_davinci/batch.py -> build/lib/nn_davinci
+copying src/nn_davinci/operators.py -> build/lib/nn_davinci
+copying src/nn_davinci/plugins.py -> build/lib/nn_davinci
+copying src/nn_davinci/scene_gltf.py -> build/lib/nn_davinci
+copying src/nn_davinci/viewport.py -> build/lib/nn_davinci
+copying src/nn_davinci/semantic.py -> build/lib/nn_davinci
+copying src/nn_davinci/__init__.py -> build/lib/nn_davinci
+copying src/nn_davinci/architecture_evidence.py -> build/lib/nn_davinci
+copying src/nn_davinci/model_figure.py -> build/lib/nn_davinci
+creating build/lib/nn_davinci/trial_cases
+copying src/nn_davinci/trial_cases/pytorch_cases.py -> build/lib/nn_davinci/trial_cases
+copying src/nn_davinci/trial_cases/onnx_case.py -> build/lib/nn_davinci/trial_cases
+copying src/nn_davinci/trial_cases/__init__.py -> build/lib/nn_davinci/trial_cases
+creating build/lib/nn_davinci/adapters
+copying src/nn_davinci/adapters/manual.py -> build/lib/nn_davinci/adapters
+copying src/nn_davinci/adapters/keras.py -> build/lib/nn_davinci/adapters
+copying src/nn_davinci/adapters/pytorch.py -> build/lib/nn_davinci/adapters
+copying src/nn_davinci/adapters/onnx.py -> build/lib/nn_davinci/adapters
+copying src/nn_davinci/adapters/config.py -> build/lib/nn_davinci/adapters
+copying src/nn_davinci/adapters/base.py -> build/lib/nn_davinci/adapters
+copying src/nn_davinci/adapters/jax.py -> build/lib/nn_davinci/adapters
+copying src/nn_davinci/adapters/tensorflow.py -> build/lib/nn_davinci/adapters
+copying src/nn_davinci/adapters/__init__.py -> build/lib/nn_davinci/adapters
+creating build/lib/nn_davinci/layout
+copying src/nn_davinci/layout/engine.py -> build/lib/nn_davinci/layout
+copying src/nn_davinci/layout/__init__.py -> build/lib/nn_davinci/layout
+creating build/lib/nn_davinci/analysis
+copying src/nn_davinci/analysis/static.py -> build/lib/nn_davinci/analysis
+copying src/nn_davinci/analysis/diff.py -> build/lib/nn_davinci/analysis
+copying src/nn_davinci/analysis/explain.py -> build/lib/nn_davinci/analysis
+copying src/nn_davinci/analysis/runtime.py -> build/lib/nn_davinci/analysis
+copying src/nn_davinci/analysis/torchlens.py -> build/lib/nn_davinci/analysis
+copying src/nn_davinci/analysis/__init__.py -> build/lib/nn_davinci/analysis
+creating build/lib/nn_davinci/render
+copying src/nn_davinci/render/export.py -> build/lib/nn_davinci/render
+copying src/nn_davinci/render/svg.py -> build/lib/nn_davinci/render
+copying src/nn_davinci/render/html.py -> build/lib/nn_davinci/render
+copying src/nn_davinci/render/tikz.py -> build/lib/nn_davinci/render
+copying src/nn_davinci/render/__init__.py -> build/lib/nn_davinci/render
+running egg_info
+writing src/nn_davinci.egg-info/PKG-INFO
+writing dependency_links to src/nn_davinci.egg-info/dependency_links.txt
+writing entry points to src/nn_davinci.egg-info/entry_points.txt
+writing requirements to src/nn_davinci.egg-info/requires.txt
+writing top-level names to src/nn_davinci.egg-info/top_level.txt
+reading manifest file 'src/nn_davinci.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/nn_davinci.egg-info/SOURCES.txt'
+creating build/lib/nn_davinci/web
+copying src/nn_davinci/web/index.html -> build/lib/nn_davinci/web
+copying src/nn_davinci/web/favicon.svg -> build/lib/nn_davinci/web
+copying src/nn_davinci/web/design-system.css -> build/lib/nn_davinci/web
+copying src/nn_davinci/web/scene-batch.js -> build/lib/nn_davinci/web
+copying src/nn_davinci/web/app.js -> build/lib/nn_davinci/web
+copying src/nn_davinci/web/scene-interactions.js -> build/lib/nn_davinci/web
+copying src/nn_davinci/web/styles.css -> build/lib/nn_davinci/web
+copying src/nn_davinci/web/commands.js -> build/lib/nn_davinci/web
+copying src/nn_davinci/web/scene-studio.css -> build/lib/nn_davinci/web
+copying src/nn_davinci/web/scene-renderer.js -> build/lib/nn_davinci/web
+copying src/nn_davinci/web/state-machine.js -> build/lib/nn_davinci/web
+creating build/lib/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/cnn-feature-pipeline.nndv.json -> build/lib/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/resnet-overview.nndv.json -> build/lib/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/diffusion-unet-conditioning.nndv.json -> build/lib/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/multimodal-fusion.nndv.json -> build/lib/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/unet-encoder-decoder.nndv.json -> build/lib/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/transformer-attention-ffn.nndv.json -> build/lib/nn_davinci/figure_templates
+copying src/nn_davinci/figure_templates/moe-router-experts.nndv.json -> build/lib/nn_davinci/figure_templates
+creating build/lib/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/resnet.scene.json -> build/lib/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/diffusion-unet.scene.json -> build/lib/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/transformer.scene.json -> build/lib/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/cnn.scene.json -> build/lib/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/moe.scene.json -> build/lib/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/unet.scene.json -> build/lib/nn_davinci/scene_templates
+copying src/nn_davinci/scene_templates/multimodal-fusion.scene.json -> build/lib/nn_davinci/scene_templates
+creating build/lib/nn_davinci/assets/fonts
+copying src/nn_davinci/assets/fonts/NotoSansMath-Regular.ttf -> build/lib/nn_davinci/assets/fonts
+copying src/nn_davinci/assets/fonts/NotoSans-Regular.ttf -> build/lib/nn_davinci/assets/fonts
+copying src/nn_davinci/assets/fonts/DroidSansFallbackFull.ttf -> build/lib/nn_davinci/assets/fonts
+creating build/lib/nn_davinci/assets/fonts/licenses
+copying src/nn_davinci/assets/fonts/licenses/Noto-OFL-1.1.txt -> build/lib/nn_davinci/assets/fonts/licenses
+copying src/nn_davinci/assets/fonts/licenses/Droid-Apache-2.0.txt -> build/lib/nn_davinci/assets/fonts/licenses
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/nn_davinci
+copying build/lib/nn_davinci/architecture_role_graph.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+creating build/bdist.linux-x86_64/wheel/nn_davinci/trial_cases
+copying build/lib/nn_davinci/trial_cases/pytorch_cases.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/trial_cases
+copying build/lib/nn_davinci/trial_cases/onnx_case.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/trial_cases
+copying build/lib/nn_davinci/trial_cases/__init__.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/trial_cases
+copying build/lib/nn_davinci/labels.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/real_models.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/architecture_parity.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/figure_export.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/__main__.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/version.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/pdf_fonts.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/model_scene.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/quality.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/paper_production.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/scaling.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/text_layout.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/verification.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+creating build/bdist.linux-x86_64/wheel/nn_davinci/adapters
+copying build/lib/nn_davinci/adapters/manual.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/adapters
+copying build/lib/nn_davinci/adapters/keras.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/adapters
+copying build/lib/nn_davinci/adapters/pytorch.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/adapters
+copying build/lib/nn_davinci/adapters/onnx.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/adapters
+copying build/lib/nn_davinci/adapters/config.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/adapters
+copying build/lib/nn_davinci/adapters/base.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/adapters
+copying build/lib/nn_davinci/adapters/jax.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/adapters
+copying build/lib/nn_davinci/adapters/tensorflow.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/adapters
+copying build/lib/nn_davinci/adapters/__init__.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/adapters
+copying build/lib/nn_davinci/figure_ir.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/scene_projection.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/trial.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/tasks.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/composer.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/scene_math.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/metamorphic_corpus.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/formula.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/editor.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/optimizer.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/reporting.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/figure_templates.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+creating build/bdist.linux-x86_64/wheel/nn_davinci/figure_templates
+copying build/lib/nn_davinci/figure_templates/cnn-feature-pipeline.nndv.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/figure_templates
+copying build/lib/nn_davinci/figure_templates/resnet-overview.nndv.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/figure_templates
+copying build/lib/nn_davinci/figure_templates/diffusion-unet-conditioning.nndv.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/figure_templates
+copying build/lib/nn_davinci/figure_templates/multimodal-fusion.nndv.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/figure_templates
+copying build/lib/nn_davinci/figure_templates/unet-encoder-decoder.nndv.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/figure_templates
+copying build/lib/nn_davinci/figure_templates/transformer-attention-ffn.nndv.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/figure_templates
+copying build/lib/nn_davinci/figure_templates/moe-router-experts.nndv.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/figure_templates
+copying build/lib/nn_davinci/spatial.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/errors.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+creating build/bdist.linux-x86_64/wheel/nn_davinci/layout
+copying build/lib/nn_davinci/layout/engine.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/layout
+copying build/lib/nn_davinci/layout/__init__.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/layout
+copying build/lib/nn_davinci/diff_corpus.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/structure_lens.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+creating build/bdist.linux-x86_64/wheel/nn_davinci/web
+copying build/lib/nn_davinci/web/index.html -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/web/favicon.svg -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/web/design-system.css -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/web/scene-batch.js -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/web/app.js -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/web/scene-interactions.js -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/web/styles.css -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/web/commands.js -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/web/scene-studio.css -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/web/scene-renderer.js -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/web/state-machine.js -> build/bdist.linux-x86_64/wheel/./nn_davinci/web
+copying build/lib/nn_davinci/scene_ir.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/ir.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/api.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/tensor_geometry.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+creating build/bdist.linux-x86_64/wheel/nn_davinci/analysis
+copying build/lib/nn_davinci/analysis/static.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/analysis
+copying build/lib/nn_davinci/analysis/diff.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/analysis
+copying build/lib/nn_davinci/analysis/explain.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/analysis
+copying build/lib/nn_davinci/analysis/runtime.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/analysis
+copying build/lib/nn_davinci/analysis/torchlens.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/analysis
+copying build/lib/nn_davinci/analysis/__init__.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/analysis
+copying build/lib/nn_davinci/import_wizard.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/scene_export.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/project.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/server.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/cli.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/trial_models.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/units.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/themes.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/batch.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/operators.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/plugins.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/scene_gltf.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+creating build/bdist.linux-x86_64/wheel/nn_davinci/assets
+creating build/bdist.linux-x86_64/wheel/nn_davinci/assets/fonts
+copying build/lib/nn_davinci/assets/fonts/NotoSansMath-Regular.ttf -> build/bdist.linux-x86_64/wheel/./nn_davinci/assets/fonts
+creating build/bdist.linux-x86_64/wheel/nn_davinci/assets/fonts/licenses
+copying build/lib/nn_davinci/assets/fonts/licenses/Noto-OFL-1.1.txt -> build/bdist.linux-x86_64/wheel/./nn_davinci/assets/fonts/licenses
+copying build/lib/nn_davinci/assets/fonts/licenses/Droid-Apache-2.0.txt -> build/bdist.linux-x86_64/wheel/./nn_davinci/assets/fonts/licenses
+copying build/lib/nn_davinci/assets/fonts/NotoSans-Regular.ttf -> build/bdist.linux-x86_64/wheel/./nn_davinci/assets/fonts
+copying build/lib/nn_davinci/assets/fonts/DroidSansFallbackFull.ttf -> build/bdist.linux-x86_64/wheel/./nn_davinci/assets/fonts
+copying build/lib/nn_davinci/viewport.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+creating build/bdist.linux-x86_64/wheel/nn_davinci/scene_templates
+copying build/lib/nn_davinci/scene_templates/resnet.scene.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/scene_templates
+copying build/lib/nn_davinci/scene_templates/diffusion-unet.scene.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/scene_templates
+copying build/lib/nn_davinci/scene_templates/transformer.scene.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/scene_templates
+copying build/lib/nn_davinci/scene_templates/cnn.scene.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/scene_templates
+copying build/lib/nn_davinci/scene_templates/moe.scene.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/scene_templates
+copying build/lib/nn_davinci/scene_templates/unet.scene.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/scene_templates
+copying build/lib/nn_davinci/scene_templates/multimodal-fusion.scene.json -> build/bdist.linux-x86_64/wheel/./nn_davinci/scene_templates
+creating build/bdist.linux-x86_64/wheel/nn_davinci/render
+copying build/lib/nn_davinci/render/export.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/render
+copying build/lib/nn_davinci/render/svg.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/render
+copying build/lib/nn_davinci/render/html.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/render
+copying build/lib/nn_davinci/render/tikz.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/render
+copying build/lib/nn_davinci/render/__init__.py -> build/bdist.linux-x86_64/wheel/./nn_davinci/render
+copying build/lib/nn_davinci/semantic.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/__init__.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/architecture_evidence.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+copying build/lib/nn_davinci/model_figure.py -> build/bdist.linux-x86_64/wheel/./nn_davinci
+running install_egg_info
+Copying src/nn_davinci.egg-info to build/bdist.linux-x86_64/wheel/./nn_davinci-0.7.3-py3.13.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/nn_davinci-0.7.3.dist-info/WHEEL
+creating '/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/distributions/.tmp-lqnt88uy/nn_davinci-0.7.3-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'nn_davinci/__init__.py'
+adding 'nn_davinci/__main__.py'
+adding 'nn_davinci/api.py'
+adding 'nn_davinci/architecture_evidence.py'
+adding 'nn_davinci/architecture_parity.py'
+adding 'nn_davinci/architecture_role_graph.py'
+adding 'nn_davinci/batch.py'
+adding 'nn_davinci/cli.py'
+adding 'nn_davinci/composer.py'
+adding 'nn_davinci/diff_corpus.py'
+adding 'nn_davinci/editor.py'
+adding 'nn_davinci/errors.py'
+adding 'nn_davinci/figure_export.py'
+adding 'nn_davinci/figure_ir.py'
+adding 'nn_davinci/figure_templates.py'
+adding 'nn_davinci/formula.py'
+adding 'nn_davinci/import_wizard.py'
+adding 'nn_davinci/ir.py'
+adding 'nn_davinci/labels.py'
+adding 'nn_davinci/metamorphic_corpus.py'
+adding 'nn_davinci/model_figure.py'
+adding 'nn_davinci/model_scene.py'
+adding 'nn_davinci/operators.py'
+adding 'nn_davinci/optimizer.py'
+adding 'nn_davinci/paper_production.py'
+adding 'nn_davinci/pdf_fonts.py'
+adding 'nn_davinci/plugins.py'
+adding 'nn_davinci/project.py'
+adding 'nn_davinci/quality.py'
+adding 'nn_davinci/real_models.py'
+adding 'nn_davinci/reporting.py'
+adding 'nn_davinci/scaling.py'
+adding 'nn_davinci/scene_export.py'
+adding 'nn_davinci/scene_gltf.py'
+adding 'nn_davinci/scene_ir.py'
+adding 'nn_davinci/scene_math.py'
+adding 'nn_davinci/scene_projection.py'
+adding 'nn_davinci/semantic.py'
+adding 'nn_davinci/server.py'
+adding 'nn_davinci/spatial.py'
+adding 'nn_davinci/structure_lens.py'
+adding 'nn_davinci/tasks.py'
+adding 'nn_davinci/tensor_geometry.py'
+adding 'nn_davinci/text_layout.py'
+adding 'nn_davinci/themes.py'
+adding 'nn_davinci/trial.py'
+adding 'nn_davinci/trial_models.py'
+adding 'nn_davinci/units.py'
+adding 'nn_davinci/verification.py'
+adding 'nn_davinci/version.py'
+adding 'nn_davinci/viewport.py'
+adding 'nn_davinci/adapters/__init__.py'
+adding 'nn_davinci/adapters/base.py'
+adding 'nn_davinci/adapters/config.py'
+adding 'nn_davinci/adapters/jax.py'
+adding 'nn_davinci/adapters/keras.py'
+adding 'nn_davinci/adapters/manual.py'
+adding 'nn_davinci/adapters/onnx.py'
+adding 'nn_davinci/adapters/pytorch.py'
+adding 'nn_davinci/adapters/tensorflow.py'
+adding 'nn_davinci/analysis/__init__.py'
+adding 'nn_davinci/analysis/diff.py'
+adding 'nn_davinci/analysis/explain.py'
+adding 'nn_davinci/analysis/runtime.py'
+adding 'nn_davinci/analysis/static.py'
+adding 'nn_davinci/analysis/torchlens.py'
+adding 'nn_davinci/assets/fonts/DroidSansFallbackFull.ttf'
+adding 'nn_davinci/assets/fonts/NotoSans-Regular.ttf'
+adding 'nn_davinci/assets/fonts/NotoSansMath-Regular.ttf'
+adding 'nn_davinci/assets/fonts/licenses/Droid-Apache-2.0.txt'
+adding 'nn_davinci/assets/fonts/licenses/Noto-OFL-1.1.txt'
+adding 'nn_davinci/figure_templates/cnn-feature-pipeline.nndv.json'
+adding 'nn_davinci/figure_templates/diffusion-unet-conditioning.nndv.json'
+adding 'nn_davinci/figure_templates/moe-router-experts.nndv.json'
+adding 'nn_davinci/figure_templates/multimodal-fusion.nndv.json'
+adding 'nn_davinci/figure_templates/resnet-overview.nndv.json'
+adding 'nn_davinci/figure_templates/transformer-attention-ffn.nndv.json'
+adding 'nn_davinci/figure_templates/unet-encoder-decoder.nndv.json'
+adding 'nn_davinci/layout/__init__.py'
+adding 'nn_davinci/layout/engine.py'
+adding 'nn_davinci/render/__init__.py'
+adding 'nn_davinci/render/export.py'
+adding 'nn_davinci/render/html.py'
+adding 'nn_davinci/render/svg.py'
+adding 'nn_davinci/render/tikz.py'
+adding 'nn_davinci/scene_templates/cnn.scene.json'
+adding 'nn_davinci/scene_templates/diffusion-unet.scene.json'
+adding 'nn_davinci/scene_templates/moe.scene.json'
+adding 'nn_davinci/scene_templates/multimodal-fusion.scene.json'
+adding 'nn_davinci/scene_templates/resnet.scene.json'
+adding 'nn_davinci/scene_templates/transformer.scene.json'
+adding 'nn_davinci/scene_templates/unet.scene.json'
+adding 'nn_davinci/trial_cases/__init__.py'
+adding 'nn_davinci/trial_cases/onnx_case.py'
+adding 'nn_davinci/trial_cases/pytorch_cases.py'
+adding 'nn_davinci/web/app.js'
+adding 'nn_davinci/web/commands.js'
+adding 'nn_davinci/web/design-system.css'
+adding 'nn_davinci/web/favicon.svg'
+adding 'nn_davinci/web/index.html'
+adding 'nn_davinci/web/scene-batch.js'
+adding 'nn_davinci/web/scene-interactions.js'
+adding 'nn_davinci/web/scene-renderer.js'
+adding 'nn_davinci/web/scene-studio.css'
+adding 'nn_davinci/web/state-machine.js'
+adding 'nn_davinci/web/styles.css'
+adding 'nn_davinci-0.7.3.dist-info/licenses/LICENSE'
+adding 'nn_davinci-0.7.3.dist-info/METADATA'
+adding 'nn_davinci-0.7.3.dist-info/WHEEL'
+adding 'nn_davinci-0.7.3.dist-info/entry_points.txt'
+adding 'nn_davinci-0.7.3.dist-info/top_level.txt'
+adding 'nn_davinci-0.7.3.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built nn_davinci-0.7.3.tar.gz and nn_davinci-0.7.3-py3-none-any.whl

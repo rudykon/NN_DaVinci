@@ -1,0 +1,501 @@
+{
+  "case_count": 7,
+  "cases": [
+    {
+      "blockers": [],
+      "case_dir": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/bert_encoder",
+      "evidence_digest": "19753d5bc4f9a152b9ce0be5db362eb735e282486f0f6659bd61ea2192353d05",
+      "expected_role_count": 5,
+      "expected_route_count": 1,
+      "family": "transformer",
+      "inspections": {
+        "pdf": {
+          "binding_count": 73,
+          "bound_role_labels": 5,
+          "bound_routes": 1,
+          "extracted_text": "Token + position embed.\n\nSelf-attention ×3\n\nResidual + norm ×3\nFFN ×3\nClassifier / output\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.pdf"
+        },
+        "pptx": {
+          "binding_count": 88,
+          "bound_role_labels": 5,
+          "bound_routes": 1,
+          "editable_role_ids": [
+            "architecture_role_attention_1_module_encoder_0_self_attentio_1eb4f949",
+            "architecture_role_embedding_0_module_token_embedding_6c4877e_43303c9f",
+            "architecture_role_feed_forward_2_module_encoder_1_feed_forwa_f553b24e",
+            "architecture_role_output_head_4_node_fx_getitem_5_27_1355851_9dc4c414",
+            "architecture_role_residual_norm_3_module_encoder_0_output_no_3abb8d02"
+          ],
+          "media": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.pptx"
+        },
+        "svg": {
+          "binding_count": 73,
+          "bound_role_labels": 5,
+          "bound_routes": 1,
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.svg",
+          "view_box": [
+            0.0,
+            0.0,
+            180.0,
+            120.0
+          ],
+          "visible_role_ids": [
+            "architecture_role_attention_1_module_encoder_0_self_attentio_1eb4f949",
+            "architecture_role_embedding_0_module_token_embedding_6c4877e_43303c9f",
+            "architecture_role_feed_forward_2_module_encoder_1_feed_forwa_f553b24e",
+            "architecture_role_output_head_4_node_fx_getitem_5_27_1355851_9dc4c414",
+            "architecture_role_residual_norm_3_module_encoder_0_output_no_3abb8d02"
+          ]
+        },
+        "tikz": {
+          "binding_count": 73,
+          "bound_role_labels": 5,
+          "bound_routes": 1,
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.tex"
+        },
+        "tikz_pdf": {
+          "binding_count": 0,
+          "binding_validation": "paired-landed-tikz-source",
+          "bound_role_labels": 0,
+          "bound_routes": 0,
+          "extracted_text": "Token + position embed.\n\nSelf-attention ×3\n\nResidual + norm ×3\nFFN ×3\nClassifier / output\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/evidence/tikz-pdf-proofs/bert_encoder/scene-tikz.pdf"
+        }
+      },
+      "oracle_version": "nndv-semantic-presentation-oracle-0.7.3-1",
+      "status": "PASS"
+    },
+    {
+      "blockers": [],
+      "case_dir": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/diffusion_unet",
+      "evidence_digest": "e37ae36979653331c6608c6d22ee880139314da85adebebf6d02bc1f3ade83c1",
+      "expected_role_count": 6,
+      "expected_route_count": 3,
+      "family": "diffusion-unet",
+      "inspections": {
+        "pdf": {
+          "binding_count": 87,
+          "bound_role_labels": 6,
+          "bound_routes": 3,
+          "extracted_text": "Noisy latent / input\nTimestep conditioning\n\nConditioned down path\n\nDenoised output\n\nConditioned up path\nMid / bottleneck\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.pdf"
+        },
+        "pptx": {
+          "binding_count": 98,
+          "bound_role_labels": 6,
+          "bound_routes": 3,
+          "editable_role_ids": [
+            "architecture_role_bottleneck_3_node_fx_silu_1_20_0560e3e3_mo_9e2af987",
+            "architecture_role_conditioning_1_node_fx_timestep_1_f1517b44_4058216a",
+            "architecture_role_down_path_2_module_downsample_fce0c560_mod_bff5f9ce",
+            "architecture_role_input_0_node_fx_noisy_latent_0_6bca5c91_e18d48aa",
+            "architecture_role_output_head_5_module_denoised_output_91b07_3425aee8",
+            "architecture_role_up_path_4_module_decoder_conditioned_conv2_6167e54f"
+          ],
+          "media": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.pptx"
+        },
+        "svg": {
+          "binding_count": 87,
+          "bound_role_labels": 6,
+          "bound_routes": 3,
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.svg",
+          "view_box": [
+            0.0,
+            0.0,
+            180.0,
+            120.0
+          ],
+          "visible_role_ids": [
+            "architecture_role_bottleneck_3_node_fx_silu_1_20_0560e3e3_mo_9e2af987",
+            "architecture_role_conditioning_1_node_fx_timestep_1_f1517b44_4058216a",
+            "architecture_role_down_path_2_module_downsample_fce0c560_mod_bff5f9ce",
+            "architecture_role_input_0_node_fx_noisy_latent_0_6bca5c91_e18d48aa",
+            "architecture_role_output_head_5_module_denoised_output_91b07_3425aee8",
+            "architecture_role_up_path_4_module_decoder_conditioned_conv2_6167e54f"
+          ]
+        },
+        "tikz": {
+          "binding_count": 87,
+          "bound_role_labels": 6,
+          "bound_routes": 3,
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.tex"
+        },
+        "tikz_pdf": {
+          "binding_count": 0,
+          "binding_validation": "paired-landed-tikz-source",
+          "bound_role_labels": 0,
+          "bound_routes": 0,
+          "extracted_text": "Noisy latent / input\n\nTimestep conditioning\n\nConditioned down path\n\nDenoised output\n\nConditioned up path\nMid / bottleneck\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/evidence/tikz-pdf-proofs/diffusion_unet/scene-tikz.pdf"
+        }
+      },
+      "oracle_version": "nndv-semantic-presentation-oracle-0.7.3-1",
+      "status": "PASS"
+    },
+    {
+      "blockers": [],
+      "case_dir": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/image_text",
+      "evidence_digest": "b53e0933defbb0a89f4232c043692407e575e4b632e8e182b6e85ad8fc33cb9e",
+      "expected_role_count": 4,
+      "expected_route_count": 2,
+      "family": "multimodal-fusion",
+      "inspections": {
+        "pdf": {
+          "binding_count": 60,
+          "bound_role_labels": 4,
+          "bound_routes": 2,
+          "extracted_text": "Text encoder / attention\n\nImage encoder / representation\n\nOutput head\nGated fusion\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/image_text/scene.pdf"
+        },
+        "pptx": {
+          "binding_count": 63,
+          "bound_role_labels": 4,
+          "bound_routes": 2,
+          "editable_role_ids": [
+            "architecture_role_fusion_2_node_fx_cat_15_cd86490b_module_mo_6d6dcedf",
+            "architecture_role_image_lane_0_node_fx_image_0_a96ed448_modu_eea979b1",
+            "architecture_role_output_head_3_node_fx_sub_19_9f3908ea_node_962ae860",
+            "architecture_role_text_lane_1_node_fx_mean_12_0803e404_modul_faa01af6"
+          ],
+          "media": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/image_text/scene.pptx"
+        },
+        "svg": {
+          "binding_count": 60,
+          "bound_role_labels": 4,
+          "bound_routes": 2,
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/image_text/scene.svg",
+          "view_box": [
+            0.0,
+            0.0,
+            180.0,
+            120.0
+          ],
+          "visible_role_ids": [
+            "architecture_role_fusion_2_node_fx_cat_15_cd86490b_module_mo_6d6dcedf",
+            "architecture_role_image_lane_0_node_fx_image_0_a96ed448_modu_eea979b1",
+            "architecture_role_output_head_3_node_fx_sub_19_9f3908ea_node_962ae860",
+            "architecture_role_text_lane_1_node_fx_mean_12_0803e404_modul_faa01af6"
+          ]
+        },
+        "tikz": {
+          "binding_count": 60,
+          "bound_role_labels": 4,
+          "bound_routes": 2,
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/image_text/scene.tex"
+        },
+        "tikz_pdf": {
+          "binding_count": 0,
+          "binding_validation": "paired-landed-tikz-source",
+          "bound_role_labels": 0,
+          "bound_routes": 0,
+          "extracted_text": "Text encoder / attention\n\nImage encoder / representation\n\nOutput head\nGated fusion\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/evidence/tikz-pdf-proofs/image_text/scene-tikz.pdf"
+        }
+      },
+      "oracle_version": "nndv-semantic-presentation-oracle-0.7.3-1",
+      "status": "PASS"
+    },
+    {
+      "blockers": [],
+      "case_dir": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/multiscale_unet",
+      "evidence_digest": "8f38b186a55e9ee207a00d2796ca8208742f2d46b1e3bf2722af7557ed3ef42f",
+      "expected_role_count": 9,
+      "expected_route_count": 3,
+      "family": "unet",
+      "inspections": {
+        "pdf": {
+          "binding_count": 135,
+          "bound_role_labels": 9,
+          "bound_routes": 3,
+          "extracted_text": "Image input\n\nEncoder level 1\n\nEncoder level 2\n\nSegmentation head\n\nEncoder level 3\nDecoder level 3\nDecoder level 2\nDecoder level 1\nBottleneck\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.pdf"
+        },
+        "pptx": {
+          "binding_count": 154,
+          "bound_role_labels": 9,
+          "bound_routes": 3,
+          "editable_role_ids": [
+            "architecture_role_bottleneck_4_module_bottleneck_4_66dc577a__be36d097",
+            "architecture_role_decoder_level_5_node_fx_cat_29_2b5dd4a7_a3089f9b",
+            "architecture_role_decoder_level_6_node_fx_cat_1_37_a682ee08_b7dae19e",
+            "architecture_role_decoder_level_7_node_fx_cat_2_45_33f41fce_5c9f5ae9",
+            "architecture_role_encoder_level_1_module_encoder1_5_8ba19639_01a447ee",
+            "architecture_role_encoder_level_2_module_encoder2_5_17c26924_6a5921cb",
+            "architecture_role_encoder_level_3_module_encoder3_5_b4081b1c_45dcb163",
+            "architecture_role_input_0_node_fx_image_0_a96ed448_7702b4c9",
+            "architecture_role_output_head_8_module_segmentation_head_e43_3bc6a70a"
+          ],
+          "media": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.pptx"
+        },
+        "svg": {
+          "binding_count": 135,
+          "bound_role_labels": 9,
+          "bound_routes": 3,
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.svg",
+          "view_box": [
+            0.0,
+            0.0,
+            180.0,
+            120.0
+          ],
+          "visible_role_ids": [
+            "architecture_role_bottleneck_4_module_bottleneck_4_66dc577a__be36d097",
+            "architecture_role_decoder_level_5_node_fx_cat_29_2b5dd4a7_a3089f9b",
+            "architecture_role_decoder_level_6_node_fx_cat_1_37_a682ee08_b7dae19e",
+            "architecture_role_decoder_level_7_node_fx_cat_2_45_33f41fce_5c9f5ae9",
+            "architecture_role_encoder_level_1_module_encoder1_5_8ba19639_01a447ee",
+            "architecture_role_encoder_level_2_module_encoder2_5_17c26924_6a5921cb",
+            "architecture_role_encoder_level_3_module_encoder3_5_b4081b1c_45dcb163",
+            "architecture_role_input_0_node_fx_image_0_a96ed448_7702b4c9",
+            "architecture_role_output_head_8_module_segmentation_head_e43_3bc6a70a"
+          ]
+        },
+        "tikz": {
+          "binding_count": 135,
+          "bound_role_labels": 9,
+          "bound_routes": 3,
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.tex"
+        },
+        "tikz_pdf": {
+          "binding_count": 0,
+          "binding_validation": "paired-landed-tikz-source",
+          "bound_role_labels": 0,
+          "bound_routes": 0,
+          "extracted_text": "Image input\n\nEncoder level 1\n\nEncoder level 2\nSegmentation head\n\nEncoder level 3\nDecoder level 3\nDecoder level 2\nDecoder level 1\n\nBottleneck\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/evidence/tikz-pdf-proofs/multiscale_unet/scene-tikz.pdf"
+        }
+      },
+      "oracle_version": "nndv-semantic-presentation-oracle-0.7.3-1",
+      "status": "PASS"
+    },
+    {
+      "blockers": [],
+      "case_dir": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/resnet50",
+      "evidence_digest": "dfcdd2b29c760191a847b7626acff38001bd613e975b1708ed072b2f9ccd2e86",
+      "expected_role_count": 6,
+      "expected_route_count": 4,
+      "family": "resnet",
+      "inspections": {
+        "pdf": {
+          "binding_count": 96,
+          "bound_role_labels": 6,
+          "bound_routes": 4,
+          "extracted_text": "Input / stem\n\nStage 1 ×3 Bottleneck\n\nStage 2 ×4 Bottleneck\n\nPooling / classifier\n\nStage 3 ×6 Bottleneck\n\nStage 4 ×3 Bottleneck\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.pdf"
+        },
+        "pptx": {
+          "binding_count": 104,
+          "bound_role_labels": 6,
+          "bound_routes": 4,
+          "editable_role_ids": [
+            "architecture_role_input_stem_0_module_layer1_2_conv2_a887a90_b8f8888a",
+            "architecture_role_output_head_5_module_layer4_1_conv3_ac8c1b_f7bea101",
+            "architecture_role_residual_stage_1_module_layer1_1_bn3_d3bb0_2f234e8b",
+            "architecture_role_residual_stage_2_node_fx_add_4_57_f67a5aea_3dae3d8b",
+            "architecture_role_residual_stage_3_module_layer3_5_bn3_c4a08_8e47d6f4",
+            "architecture_role_residual_stage_4_node_fx_add_14_161_7bfc24_879b6110"
+          ],
+          "media": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.pptx"
+        },
+        "svg": {
+          "binding_count": 96,
+          "bound_role_labels": 6,
+          "bound_routes": 4,
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.svg",
+          "view_box": [
+            0.0,
+            0.0,
+            180.0,
+            120.0
+          ],
+          "visible_role_ids": [
+            "architecture_role_input_stem_0_module_layer1_2_conv2_a887a90_b8f8888a",
+            "architecture_role_output_head_5_module_layer4_1_conv3_ac8c1b_f7bea101",
+            "architecture_role_residual_stage_1_module_layer1_1_bn3_d3bb0_2f234e8b",
+            "architecture_role_residual_stage_2_node_fx_add_4_57_f67a5aea_3dae3d8b",
+            "architecture_role_residual_stage_3_module_layer3_5_bn3_c4a08_8e47d6f4",
+            "architecture_role_residual_stage_4_node_fx_add_14_161_7bfc24_879b6110"
+          ]
+        },
+        "tikz": {
+          "binding_count": 96,
+          "bound_role_labels": 6,
+          "bound_routes": 4,
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.tex"
+        },
+        "tikz_pdf": {
+          "binding_count": 0,
+          "binding_validation": "paired-landed-tikz-source",
+          "bound_role_labels": 0,
+          "bound_routes": 0,
+          "extracted_text": "Input / stem\n\nStage 1 ×3 Bottleneck\n\nStage 2 ×4 Bottleneck\n\nPooling / classifier\n\nStage 3 ×6 Bottleneck\n\nStage 4 ×3 Bottleneck\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/evidence/tikz-pdf-proofs/resnet50/scene-tikz.pdf"
+        }
+      },
+      "oracle_version": "nndv-semantic-presentation-oracle-0.7.3-1",
+      "status": "PASS"
+    },
+    {
+      "blockers": [],
+      "case_dir": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/topk_moe",
+      "evidence_digest": "b30487748ccffa2b977379e6c24c62a0b72695aca92bd29200e830fffd54ef7d",
+      "expected_role_count": 5,
+      "expected_route_count": 5,
+      "family": "moe",
+      "inspections": {
+        "pdf": {
+          "binding_count": 79,
+          "bound_role_labels": 5,
+          "bound_routes": 5,
+          "extracted_text": "Router + top-2\nTokens / embedding\n\nNormalization / output\n\nExperts ×4\n\nWeighted combine\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.pdf"
+        },
+        "pptx": {
+          "binding_count": 85,
+          "bound_role_labels": 5,
+          "bound_routes": 5,
+          "editable_role_ids": [
+            "architecture_role_experts_2_module_experts_1_feed_forward_2__34831498",
+            "architecture_role_input_0_module_token_embedding_6c4877e2_no_f9cf0520",
+            "architecture_role_output_head_4_node_fx_output_31_1e7f4585_m_0ea8dfca",
+            "architecture_role_router_1_module_router_router_logits_f60d1_aa199a8c",
+            "architecture_role_weighted_combine_3_node_fx_stack_25_5817cd_17e77f83"
+          ],
+          "media": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.pptx"
+        },
+        "svg": {
+          "binding_count": 79,
+          "bound_role_labels": 5,
+          "bound_routes": 5,
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.svg",
+          "view_box": [
+            0.0,
+            0.0,
+            180.0,
+            120.0
+          ],
+          "visible_role_ids": [
+            "architecture_role_experts_2_module_experts_1_feed_forward_2__34831498",
+            "architecture_role_input_0_module_token_embedding_6c4877e2_no_f9cf0520",
+            "architecture_role_output_head_4_node_fx_output_31_1e7f4585_m_0ea8dfca",
+            "architecture_role_router_1_module_router_router_logits_f60d1_aa199a8c",
+            "architecture_role_weighted_combine_3_node_fx_stack_25_5817cd_17e77f83"
+          ]
+        },
+        "tikz": {
+          "binding_count": 79,
+          "bound_role_labels": 5,
+          "bound_routes": 5,
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.tex"
+        },
+        "tikz_pdf": {
+          "binding_count": 0,
+          "binding_validation": "paired-landed-tikz-source",
+          "bound_role_labels": 0,
+          "bound_routes": 0,
+          "extracted_text": "Router + top-2\nTokens / embedding\n\nNormalization / output\n\nExperts ×4\n\nWeighted combine\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/evidence/tikz-pdf-proofs/topk_moe/scene-tikz.pdf"
+        }
+      },
+      "oracle_version": "nndv-semantic-presentation-oracle-0.7.3-1",
+      "status": "PASS"
+    },
+    {
+      "blockers": [],
+      "case_dir": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/vision_transformer",
+      "evidence_digest": "8929ce28d5acaa33d7cc4efd3929474a60d0b873d614fab0b2c7dc7b5b4bff00",
+      "expected_role_count": 5,
+      "expected_route_count": 1,
+      "family": "transformer",
+      "inspections": {
+        "pdf": {
+          "binding_count": 73,
+          "bound_role_labels": 5,
+          "bound_routes": 1,
+          "extracted_text": "Patch + class token embed.\n\nSelf-attention ×3\n\nResidual + norm ×3\n\nFFN ×3\n\nClassifier / output\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.pdf"
+        },
+        "pptx": {
+          "binding_count": 90,
+          "bound_role_labels": 5,
+          "bound_routes": 1,
+          "editable_role_ids": [
+            "architecture_role_attention_1_module_encoder_0_self_attentio_1eb4f949",
+            "architecture_role_embedding_0_node_fx_image_0_a96ed448_node__eb3e3fbb",
+            "architecture_role_feed_forward_2_module_encoder_1_feed_forwa_f553b24e",
+            "architecture_role_output_head_4_node_fx_getitem_7_41_d4da1fd_c14dfe19",
+            "architecture_role_residual_norm_3_module_encoder_1_norm2_051_66a75388"
+          ],
+          "media": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.pptx"
+        },
+        "svg": {
+          "binding_count": 73,
+          "bound_role_labels": 5,
+          "bound_routes": 1,
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.svg",
+          "view_box": [
+            0.0,
+            0.0,
+            180.0,
+            120.0
+          ],
+          "visible_role_ids": [
+            "architecture_role_attention_1_module_encoder_0_self_attentio_1eb4f949",
+            "architecture_role_embedding_0_node_fx_image_0_a96ed448_node__eb3e3fbb",
+            "architecture_role_feed_forward_2_module_encoder_1_feed_forwa_f553b24e",
+            "architecture_role_output_head_4_node_fx_getitem_7_41_d4da1fd_c14dfe19",
+            "architecture_role_residual_norm_3_module_encoder_1_norm2_051_66a75388"
+          ]
+        },
+        "tikz": {
+          "binding_count": 73,
+          "bound_role_labels": 5,
+          "bound_routes": 1,
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.tex"
+        },
+        "tikz_pdf": {
+          "binding_count": 0,
+          "binding_validation": "paired-landed-tikz-source",
+          "bound_role_labels": 0,
+          "bound_routes": 0,
+          "extracted_text": "Patch + class token embed.\n\nSelf-attention ×3\n\nResidual + norm ×3\n\nFFN ×3\n\nClassifier / output\n\n\f",
+          "missing_role_ids": [],
+          "path": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/evidence/tikz-pdf-proofs/vision_transformer/scene-tikz.pdf"
+        }
+      },
+      "oracle_version": "nndv-semantic-presentation-oracle-0.7.3-1",
+      "status": "PASS"
+    }
+  ],
+  "oracle_version": "nndv-semantic-presentation-oracle-0.7.3-1",
+  "schema_version": "nndv-0.7.3-semantic-presentation-report-1",
+  "status": "PASS"
+}

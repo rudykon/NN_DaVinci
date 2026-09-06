@@ -1,0 +1,21 @@
+{
+  "name": "Vision Text Audio Multimodal Fusion",
+  "nodes": [
+    {"name": "Image", "type": "VisionInput", "category": "input", "outputs": [[1, 3, 224, 224]]},
+    {"name": "Text", "type": "TextInput", "category": "input", "outputs": [[1, 32]]},
+    {"name": "Audio", "type": "AudioInput", "category": "input", "outputs": [[1, 16000]]},
+    {"name": "Vision Encoder", "type": "VisionTransformer", "category": "attention", "parameters": 1200000, "outputs": [[1, 64, 256]]},
+    {"name": "Text Encoder", "type": "TextTransformer", "category": "attention", "parameters": 900000, "outputs": [[1, 32, 256]]},
+    {"name": "Audio Encoder", "type": "AudioConformer", "category": "attention", "parameters": 700000, "outputs": [[1, 50, 256]]},
+    {"name": "Cross-modal Fusion", "type": "FusionAttention", "category": "merge", "parameters": 263168, "outputs": [[1, 256]]},
+    {"name": "Joint Prediction", "type": "Output", "category": "output", "inputs": [[1, 256]]}
+  ],
+  "edges": [
+    ["Image", "Vision Encoder"], ["Text", "Text Encoder"], ["Audio", "Audio Encoder"],
+    ["Vision Encoder", "Cross-modal Fusion"], ["Text Encoder", "Cross-modal Fusion"],
+    ["Audio Encoder", "Cross-modal Fusion"], ["Cross-modal Fusion", "Joint Prediction"]
+  ],
+  "groups": [
+    {"name": "Modality Encoders", "nodes": ["Vision Encoder", "Text Encoder", "Audio Encoder"], "level": "stage"}
+  ]
+}

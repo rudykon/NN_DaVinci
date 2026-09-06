@@ -1,0 +1,1779 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.8,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.8,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.4,
+        3.0,
+        0.0
+      ],
+      "min": [
+        -1.5,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -3.5,
+        3.0,
+        0.0
+      ],
+      "min": [
+        -5.1,
+        3.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.1,
+        1.5,
+        1.25
+      ],
+      "min": [
+        -1.1,
+        -1.5,
+        -1.25
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        8.5,
+        5.5,
+        4.0
+      ],
+      "min": [
+        -8.5,
+        -5.5,
+        -4.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.9,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.8,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.8,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.4,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -1.5,
+        -3.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -3.5,
+        -3.0,
+        0.0
+      ],
+      "min": [
+        -5.1,
+        -3.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        2.6,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        4.0,
+        0.17500000000000002,
+        0.17500000000000002
+      ],
+      "min": [
+        3.5625,
+        -0.17500000000000002,
+        -0.17500000000000002
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.8,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.8,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.4,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -1.5,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -3.5,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -5.1,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "schemaVersion": "nndv-scene-gltf-1"
+    },
+    "generator": "NN_DaVinci Scene IR 1.0 deterministic exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 264,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 384,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 528,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 624,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 768,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 864,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1008,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1104,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1248,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1272,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1296,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1320,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1428,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1596,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1692,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1836,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1860,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1884,
+      "uri": "data:application/octet-stream;base64,AACAv83MTL8AAIC/AACAP83MTL8AAIC/AACAP83MTD8AAIC/AACAv83MTD8AAIC/AACAv83MTL8AAIA/AACAP83MTL8AAIA/AACAP83MTD8AAIA/AACAv83MTD8AAIA/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAADAvwAAQEAAAAAAzczMPgAAAAAAAAAAMzOjwAAAQEAAAAAAAABgwAAAQEAAAAAAzcyMvwAAwL8AAKC/zcyMPwAAwL8AAKC/zcyMPwAAwD8AAKC/zcyMvwAAwD8AAKC/zcyMvwAAwL8AAKA/zcyMPwAAwL8AAKA/zcyMPwAAwD8AAKA/zcyMvwAAwD8AAKA/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAAAIwQAAsMAAAIDAAAAIQQAAsMAAAIDAAAAIQQAAsEAAAIDAAAAIwQAAsEAAAIDAAAAIwQAAsMAAAIBAAAAIQQAAsMAAAIBAAAAIQQAAsEAAAIBAAAAIwQAAsEAAAIBAAAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAACAv2ZmZr8AAIC/AACAP2ZmZr8AAIC/AACAP2ZmZj8AAIC/AACAv2ZmZj8AAIC/AACAv2ZmZr8AAIA/AACAP2ZmZr8AAIA/AACAP2ZmZj8AAIA/AACAv2ZmZj8AAIA/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAACAv83MTL8AAIC/AACAP83MTL8AAIC/AACAP83MTD8AAIC/AACAv83MTD8AAIC/AACAv83MTL8AAIA/AACAP83MTL8AAIA/AACAP83MTD8AAIA/AACAv83MTD8AAIA/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAADAvwAAQMAAAAAAzczMPgAAAAAAAAAAMzOjwAAAQMAAAAAAAABgwAAAQMAAAAAAZmYmQAAAAAAAAAAAAACAQAAAAAAAAAAAAACAQAAAAAAAAAAAAABkQAAAAAAzMzM+AABkQFRt/T1Ubf09AABkQDMzMz5Fq0UjAABkQFRt/T1Ubf29AABkQEWrxSMzMzO+AABkQFRt/b1Ubf29AABkQDMzM750QBSkAABkQFRt/b1Ubf09AAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAAACAv83MTL8AAIC/AACAP83MTL8AAIC/AACAP83MTD8AAIC/AACAv83MTD8AAIC/AACAv83MTL8AAIA/AACAP83MTL8AAIA/AACAP83MTD8AAIA/AACAv83MTD8AAIA/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAADAvwAAAAAAAAAAzczMPgAAAAAAAAAAMzOjwAAAAAAAAAAAAABgwAAAAAAAAAAA"
+    }
+  ],
+  "cameras": [
+    {
+      "extras": {
+        "nndvProjection": "orthographic",
+        "objectId": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47"
+      },
+      "name": "multimodal-fusion editable 3D template isometric camera",
+      "orthographic": {
+        "xmag": 13.5,
+        "ymag": 9.0,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "orthographic"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "extras": {
+            "nndvLight": {
+              "color": "#ffffff",
+              "direction": [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              "id": "scene_light_multimodal_fusion_editable_3d_template_lig_efef4431",
+              "intensity": 1.0,
+              "kind": "directional",
+              "locked": false,
+              "metadata": {},
+              "name": "Key light",
+              "position": [
+                8.0,
+                10.0,
+                12.0
+              ],
+              "visible": true
+            },
+            "objectId": "scene_light_multimodal_fusion_editable_3d_template_lig_efef4431"
+          },
+          "intensity": 1.0,
+          "name": "Key light",
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#a7f3d0ff",
+        "nndvMaterial": {
+          "base_color": "#a7f3d0",
+          "face_colors": {
+            "front": "#a7f3d0",
+            "top": "#a7f3d0"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_multimodal_fusion_audio_enc_6b7f3403",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.654902,
+          0.9529412,
+          0.8156863,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#c4b5fdff",
+        "nndvMaterial": {
+          "base_color": "#c4b5fd",
+          "face_colors": {
+            "front": "#c4b5fd",
+            "top": "#c4b5fd"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_multimodal_fusion_fusion_d51fd46a",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7686275,
+          0.7098039,
+          0.9921569,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#f8fafcff",
+        "nndvMaterial": {
+          "base_color": "#f8fafc",
+          "face_colors": {
+            "front": "#f8fafc",
+            "top": "#f8fafc"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_multimodal_fusion_geometry__adf9590f",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.972549,
+          0.9803922,
+          0.9882353,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#e2e8f0ff",
+        "nndvMaterial": {
+          "base_color": "#e2e8f0",
+          "face_colors": {
+            "front": "#e2e8f0",
+            "top": "#e2e8f0"
+          },
+          "metallic": 0.0,
+          "opacity": 0.025,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_multimodal_fusion_group_fra_4db1e141",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8862745,
+          0.9098039,
+          0.9411765,
+          0.025
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#fde68aff",
+        "nndvMaterial": {
+          "base_color": "#fde68a",
+          "face_colors": {
+            "front": "#fde68a",
+            "top": "#fde68a"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_multimodal_fusion_head_8237e840",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9921569,
+          0.9019608,
+          0.5411765,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#93c5fdff",
+        "nndvMaterial": {
+          "base_color": "#93c5fd",
+          "face_colors": {
+            "front": "#93c5fd",
+            "top": "#93c5fd"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_multimodal_fusion_image_enc_41c61520",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5764706,
+          0.772549,
+          0.9921569,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#475569ff",
+        "nndvMaterial": {
+          "base_color": "#475569",
+          "face_colors": {
+            "front": "#475569",
+            "top": "#475569"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#475569",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_multimodal_fusion_output_a001ce9d",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2784314,
+          0.3333333,
+          0.4117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#f0abfcff",
+        "nndvMaterial": {
+          "base_color": "#f0abfc",
+          "face_colors": {
+            "front": "#f0abfc",
+            "top": "#f0abfc"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_multimodal_fusion_text_enco_350913f2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9411765,
+          0.6705882,
+          0.9882353,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_audio_enc_6b7f3403"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_audio_enc_6b7f3403",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_audio_fus_ef549cd8"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_audio_fus_ef549cd8",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "material": 0,
+          "mode": 3
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_audio_str_edeef78c"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_audio_str_edeef78c",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3
+          },
+          "material": 0,
+          "mode": 3
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_fusion_d51fd46a"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_fusion_d51fd46a",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_group_fra_4db1e141"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_group_fra_4db1e141",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "indices": 7,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_head_8237e840"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_head_8237e840",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "indices": 9,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_image_enc_41c61520"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_image_enc_41c61520",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10
+          },
+          "indices": 11,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_image_fus_99fd0591"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_image_fus_99fd0591",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12
+          },
+          "material": 5,
+          "mode": 3
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_image_str_257f8548"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_image_str_257f8548",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13
+          },
+          "material": 5,
+          "mode": 3
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_output_a001ce9d"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_output_a001ce9d",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 15
+          },
+          "indices": 16,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_text_enco_350913f2"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_text_enco_350913f2",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17
+          },
+          "indices": 18,
+          "material": 7,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_text_fusi_789f5dc7"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_text_fusi_789f5dc7",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 19
+          },
+          "material": 7,
+          "mode": 3
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_multimodal_fusion_text_stre_a916a058"
+      },
+      "name": "Mesh scene_object_scene_template_multimodal_fusion_text_stre_a916a058",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20
+          },
+          "material": 7,
+          "mode": 3
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_audio_enc_6b7f3403",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:audio-encoder"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -2.5,
+        3.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Audio stream encoder"
+    },
+    {
+      "extras": {
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_audio_fus_ef549cd8",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:audio-fusion"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Modality enters fusion"
+    },
+    {
+      "extras": {
+        "geometry": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.8,
+            1.4,
+            2.0
+          ]
+        },
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_audio_inp_0f4d897e",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:audio-input"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -6.0,
+        3.0,
+        0.0,
+        1.0
+      ],
+      "name": "Audio stream input"
+    },
+    {
+      "extras": {
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_audio_str_edeef78c",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:audio-stream"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "Audio stream remains independent"
+    },
+    {
+      "extras": {
+        "kind": "fusion",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_fusion_d51fd46a",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:fusion"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 3,
+      "name": "Fusion"
+    },
+    {
+      "extras": {
+        "geometry": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            10.0,
+            0.5,
+            0.2
+          ],
+          "text": "3D depth and thickness are editable visual mappings, not literal tensor dimensions."
+        },
+        "kind": "legend",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_geometry__adf9590f",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:geometry-legend"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -5.0,
+        0.0,
+        1.0
+      ],
+      "name": "Geometry mapping legend"
+    },
+    {
+      "extras": {
+        "kind": "group-frame",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_group_fra_4db1e141",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:group-frame"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 4,
+      "name": "Architecture group frame"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_head_8237e840",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:head"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        5.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 5,
+      "name": "Prediction head"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_image_enc_41c61520",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:image-encoder"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -2.5,
+        -3.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 6,
+      "name": "Image stream encoder"
+    },
+    {
+      "extras": {
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_image_fus_99fd0591",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:image-fusion"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 7,
+      "name": "Modality enters fusion"
+    },
+    {
+      "extras": {
+        "geometry": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.8,
+            1.4,
+            2.0
+          ]
+        },
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_image_inp_9de72684",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:image-input"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -6.0,
+        -3.0,
+        0.0,
+        1.0
+      ],
+      "name": "Image stream input"
+    },
+    {
+      "extras": {
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_image_str_257f8548",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:image-stream"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 8,
+      "name": "Image stream remains independent"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_output_a001ce9d",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:output"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 9,
+      "name": "Fused output"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_text_enco_350913f2",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:text-encoder"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -2.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 10,
+      "name": "Text stream encoder"
+    },
+    {
+      "extras": {
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_text_fusi_789f5dc7",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:text-fusion"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 11,
+      "name": "Modality enters fusion"
+    },
+    {
+      "extras": {
+        "geometry": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.8,
+            1.4,
+            2.0
+          ]
+        },
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_text_inpu_84c75db3",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:text-input"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -6.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Text stream input"
+    },
+    {
+      "extras": {
+        "kind": "multimodal-stream",
+        "locked": false,
+        "objectId": "scene_object_scene_template_multimodal_fusion_text_stre_a916a058",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:multimodal-fusion:text-stream"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 12,
+      "name": "Text stream remains independent"
+    },
+    {
+      "camera": 0,
+      "extras": {
+        "kind": "camera",
+        "objectId": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47"
+      },
+      "matrix": [
+        0.759256602,
+        0.0,
+        -0.650791373,
+        0.0,
+        -0.310252614,
+        0.879049073,
+        -0.361961383,
+        0.0,
+        0.572077554,
+        0.476731295,
+        0.667423812,
+        0.0,
+        12.0,
+        10.0,
+        14.0,
+        1.0
+      ],
+      "name": "multimodal-fusion editable 3D template isometric camera"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "extras": {
+        "kind": "light",
+        "objectId": "scene_light_multimodal_fusion_editable_3d_template_lig_efef4431"
+      },
+      "name": "Key light",
+      "translation": [
+        8.0,
+        10.0,
+        12.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "activeCameraId": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+        "sceneId": "scene_multimodal_fusion_editable_3d_template_19c62275",
+        "sourceDigest": "9d1e5ca3242f6b05f661724f141275caff4042f25c18e1aacb414f401cf31570"
+      },
+      "name": "multimodal-fusion editable 3D template",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "generator_version": "0.2.1-stress-v1",
+  "seed": 20260825,
+  "corpora": {
+    "deep_chain_100": {"nodes": 100, "edges": 99, "sha256": "bfbec0bd5a0f76e80d7ed132bac7b7c82bca7441d73e2688d1681d102c08908d"},
+    "deep_chain_1000": {"nodes": 1000, "edges": 999, "sha256": "8883881987a38d5add4b05951879ed87e46f17ae272d0f91c22976655aa9f6b3"},
+    "deep_chain_10000": {"nodes": 10000, "edges": 9999, "sha256": "885b8d340d142978f6dd5f052b34511dcac17a219e875fc4d0ccd65648671907"},
+    "wide_layer_dag": {"nodes": 202, "edges": 300, "sha256": "7d9747c384a8320e268c621c5927f683a36be2c7a17c235ce26a6d667bc0de63"},
+    "strongly_connected": {"nodes": 1000, "edges": 1000, "sha256": "6913e25a3b201406162965dd745ff414f84289e1d616a66016cbee1aacc0e253"},
+    "sparse_skip": {"nodes": 1000, "edges": 1009, "sha256": "ff1db56f52e88c5e987a0f0968858c2d40036f12b0c23bf8ede2eece7b1bde52"},
+    "locally_dense": {"nodes": 400, "edges": 3819, "sha256": "75d7ed75947bcd449f93d0031f41987a86b5ce9fcd465829eb6519ac43ee0d9c"}
+  }
+}

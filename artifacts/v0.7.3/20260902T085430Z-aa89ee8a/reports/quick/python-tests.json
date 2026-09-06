@@ -1,0 +1,16 @@
+{
+  "collected": 378,
+  "passed": 378,
+  "tests": 378,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "deselected": 0,
+  "baseline_count": 353,
+  "baseline_ids_missing": [],
+  "inherited_0_3_tests": 359,
+  "product_0_4_tests": 14,
+  "product_0_5_tests": 5,
+  "duration_seconds": 139.873,
+  "successful": true
+}

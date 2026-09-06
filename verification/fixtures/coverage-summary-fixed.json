@@ -1,0 +1,16 @@
+{
+  "core": {
+    "covered_lines": 1736,
+    "num_statements": 1952,
+    "covered_branches": 573,
+    "num_branches": 734,
+    "percent_covered": 85.96425912137007
+  },
+  "all_package": {
+    "covered_lines": 3621,
+    "num_statements": 4430,
+    "covered_branches": 1141,
+    "num_branches": 1590,
+    "percent_covered": 79.1029900332226
+  }
+}

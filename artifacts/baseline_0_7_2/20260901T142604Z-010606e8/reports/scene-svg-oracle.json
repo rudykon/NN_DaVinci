@@ -1,0 +1,1279 @@
+{
+  "oracle": "scene-publication-svg-chrome-v1",
+  "status": "PASS",
+  "limits": {
+    "minimumFontPt": 7,
+    "minimumTextScale": 0.98,
+    "maximumTextScale": 1.02,
+    "collisionTolerancePx": 0.35,
+    "boundaryTolerancePx": 0.6,
+    "maximumLeaderMm": 18,
+    "maximumStarburstDegree": 6,
+    "minimumOccupancy": 0.18,
+    "maximumOccupancy": 0.9,
+    "maximumFrameAreaRatio": 0.85
+  },
+  "browser": "150.0.7871.100",
+  "caseCount": 14,
+  "cases": [
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 4,
+        "faces": 15,
+        "leaders": 4,
+        "connectors": 7,
+        "arrowRoutes": 5,
+        "arrowheads": 5
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-67",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-69",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-71",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-73",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.697018,
+        "maximumStarburstDegree": 2
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.607193,
+          "height": 0.445667,
+          "maxAxis": 0.607193
+        },
+        "largestFaceAreaRatio": 0.077819,
+        "contentRect": {
+          "left": 133.615906,
+          "top": 166.143341,
+          "right": 546.696594,
+          "bottom": 368.267395,
+          "width": 413.080688,
+          "height": 202.124054
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.svg",
+      "sha256": "3382bbc7905dafec8ade066593811964233dbf851edcbb2cef27b2fe551b06a2",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 4,
+        "faces": 18,
+        "leaders": 4,
+        "connectors": 18,
+        "arrowRoutes": 4,
+        "arrowheads": 4
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-91",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-93",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-95",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-97",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.199969,
+        "maximumStarburstDegree": 3
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.593374,
+          "height": 0.394885,
+          "maxAxis": 0.593374
+        },
+        "largestFaceAreaRatio": 0.021253,
+        "contentRect": {
+          "left": 78.271656,
+          "top": 206.365845,
+          "right": 481.951295,
+          "bottom": 385.458567,
+          "width": 403.679639,
+          "height": 179.092722
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.svg",
+      "sha256": "7e1725f105bb9432a9ea5a677bb774b3d8092d1596c8344169cbf7e200b26a4e",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 4,
+        "faces": 12,
+        "leaders": 4,
+        "connectors": 7,
+        "arrowRoutes": 3,
+        "arrowheads": 3
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-56",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-58",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-60",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-62",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.199977,
+        "maximumStarburstDegree": 2
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.694975,
+          "height": 0.636366,
+          "maxAxis": 0.694975
+        },
+        "largestFaceAreaRatio": 0.025988,
+        "contentRect": {
+          "left": 90.493217,
+          "top": 74.363981,
+          "right": 563.293579,
+          "bottom": 362.975891,
+          "width": 472.800362,
+          "height": 288.61191
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/image_text/scene.svg",
+      "sha256": "b31efbbaf35acb47dabd6b6f165cf4e5aaad0baffe53a732fc551ed5ff1afd1f",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 8,
+        "faces": 27,
+        "leaders": 8,
+        "connectors": 11,
+        "arrowRoutes": 5,
+        "arrowheads": 5
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-120",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-122",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-124",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-126",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-128",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-130",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-132",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-134",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.697024,
+        "maximumStarburstDegree": 3
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.594017,
+          "height": 0.54329,
+          "maxAxis": 0.594017
+        },
+        "largestFaceAreaRatio": 0.013804,
+        "contentRect": {
+          "left": 126.80965,
+          "top": 139.059644,
+          "right": 530.926741,
+          "bottom": 385.458567,
+          "width": 404.117091,
+          "height": 246.398923
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.svg",
+      "sha256": "d6c62cbd5737513a74b7c879e594953408d00879458c002bfaadb9ec0032b09b",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 5,
+        "faces": 18,
+        "leaders": 5,
+        "connectors": 17,
+        "arrowRoutes": 9,
+        "arrowheads": 9
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-90",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-92",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-94",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-96",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-98",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.697018,
+        "maximumStarburstDegree": 2
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.704683,
+          "height": 0.50021,
+          "maxAxis": 0.704683
+        },
+        "largestFaceAreaRatio": 0.026076,
+        "contentRect": {
+          "left": 62.805869,
+          "top": 158.59758,
+          "right": 542.210388,
+          "bottom": 385.458567,
+          "width": 479.404519,
+          "height": 226.860987
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.svg",
+      "sha256": "882f9b08ecb55ee327cee14a8a4399f06fee2163e30e4000d5cdb47e29653c7a",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 4,
+        "faces": 15,
+        "leaders": 4,
+        "connectors": 12,
+        "arrowRoutes": 7,
+        "arrowheads": 7
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-73",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-75",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-77",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-79",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.199977,
+        "maximumStarburstDegree": 2
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.655985,
+          "height": 0.625599,
+          "maxAxis": 0.655985
+        },
+        "largestFaceAreaRatio": 0.049396,
+        "contentRect": {
+          "left": 117.018875,
+          "top": 85.401299,
+          "right": 563.293579,
+          "bottom": 369.129771,
+          "width": 446.274704,
+          "height": 283.728472
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.svg",
+      "sha256": "2a0341e12cca1cf581121c80ae9585a9fff75dfa999cda11e3c4bb6dcb046a33",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 4,
+        "faces": 15,
+        "leaders": 4,
+        "connectors": 7,
+        "arrowRoutes": 5,
+        "arrowheads": 5
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-67",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-69",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-71",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-73",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.697013,
+        "maximumStarburstDegree": 2
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.577965,
+          "height": 0.456866,
+          "maxAxis": 0.577965
+        },
+        "largestFaceAreaRatio": 0.089245,
+        "contentRect": {
+          "left": 143.557938,
+          "top": 161.064499,
+          "right": 536.754578,
+          "bottom": 368.267395,
+          "width": 393.19664,
+          "height": 207.202896
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.svg",
+      "sha256": "cb74b5dbb324ba9024198393dca248f340962d7fe1de40c7d9247312ea37eb24",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 6,
+        "faces": 18,
+        "leaders": 5,
+        "connectors": 1,
+        "arrowRoutes": 1,
+        "arrowheads": 1
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-72",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-74",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-76",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-78",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-80",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-82",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.697026,
+        "maximumStarburstDegree": 1
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.655985,
+          "height": 0.693919,
+          "maxAxis": 0.693919
+        },
+        "largestFaceAreaRatio": 0.169836,
+        "contentRect": {
+          "left": 117.018875,
+          "top": 69.908494,
+          "right": 563.293579,
+          "bottom": 384.622619,
+          "width": 446.274704,
+          "height": 314.714125
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/cnn/scene.svg",
+      "sha256": "d8be3877e161ff444b53940e8c04a5054efd44bb63cb94d40b4b6ab22cc516d6",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 7,
+        "faces": 18,
+        "leaders": 6,
+        "connectors": 11,
+        "arrowRoutes": 5,
+        "arrowheads": 5
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-82",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-84",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-86",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-88",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-90",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-92",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-94",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.199977,
+        "maximumStarburstDegree": 2
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.684166,
+          "height": 0.697606,
+          "maxAxis": 0.697606
+        },
+        "largestFaceAreaRatio": 0.026845,
+        "contentRect": {
+          "left": 77.331852,
+          "top": 69.072496,
+          "right": 542.778259,
+          "bottom": 385.458567,
+          "width": 465.446407,
+          "height": 316.386071
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/diffusion-unet/scene.svg",
+      "sha256": "feca6919709f6aa4e774d34a30a7c199b714f4527ec3d648819c0e9c52a03de1",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 8,
+        "faces": 21,
+        "leaders": 7,
+        "connectors": 11,
+        "arrowRoutes": 8,
+        "arrowheads": 8
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-91",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-93",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-95",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-97",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-99",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-101",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-103",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-105",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.697021,
+        "maximumStarburstDegree": 4
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.655985,
+          "height": 0.64054,
+          "maxAxis": 0.655985
+        },
+        "largestFaceAreaRatio": 0.087069,
+        "contentRect": {
+          "left": 117.018875,
+          "top": 82.013116,
+          "right": 563.293579,
+          "bottom": 372.517997,
+          "width": 446.274704,
+          "height": 290.504881
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/moe/scene.svg",
+      "sha256": "3df4aad57530d3720f4e2d99196609cd835555d3ec14a136280e33c6b57949c0",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 6,
+        "faces": 15,
+        "leaders": 5,
+        "connectors": 7,
+        "arrowRoutes": 1,
+        "arrowheads": 1
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-67",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-69",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-71",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-73",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-75",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-77",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.199973,
+        "maximumStarburstDegree": 1
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.634207,
+          "height": 0.697606,
+          "maxAxis": 0.697606
+        },
+        "largestFaceAreaRatio": 0.055191,
+        "contentRect": {
+          "left": 89.647307,
+          "top": 69.072496,
+          "right": 521.106079,
+          "bottom": 385.458567,
+          "width": 431.458772,
+          "height": 316.386071
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/multimodal-fusion/scene.svg",
+      "sha256": "a1c3a0ee61efadeb5dde9ce8ed409692d9e5d39abbbfbb8080adde3875637f42",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 6,
+        "faces": 15,
+        "leaders": 5,
+        "connectors": 9,
+        "arrowRoutes": 5,
+        "arrowheads": 5
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-69",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-71",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-73",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-75",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-77",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-79",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.697021,
+        "maximumStarburstDegree": 2
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.626752,
+          "height": 0.547303,
+          "maxAxis": 0.626752
+        },
+        "largestFaceAreaRatio": 0.039276,
+        "contentRect": {
+          "left": 126.962631,
+          "top": 69.072496,
+          "right": 553.349854,
+          "bottom": 317.291595,
+          "width": 426.387222,
+          "height": 248.2191
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/resnet/scene.svg",
+      "sha256": "1cd71626be93c3c5663ebfdbe84acf33913c6a48ceb69c976a93eda50fb70b97",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 7,
+        "faces": 30,
+        "leaders": 6,
+        "connectors": 6,
+        "arrowRoutes": 2,
+        "arrowheads": 2
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-117",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-119",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-121",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-123",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-125",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-127",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-129",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.697016,
+        "maximumStarburstDegree": 2
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.655985,
+          "height": 0.584251,
+          "maxAxis": 0.655985
+        },
+        "largestFaceAreaRatio": 0.088906,
+        "contentRect": {
+          "left": 117.018875,
+          "top": 102.8731,
+          "right": 563.293579,
+          "bottom": 367.849393,
+          "width": 446.274704,
+          "height": 264.976293
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/transformer/scene.svg",
+      "sha256": "74b54b0fd7f5e78b29eecef4bc2fbe994a83dc74bd447ffd5cb8a9cf17de6983",
+      "browserErrors": []
+    },
+    {
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "labels": 6,
+        "faces": 15,
+        "leaders": 5,
+        "connectors": 7,
+        "arrowRoutes": 6,
+        "arrowheads": 6
+      },
+      "page": {
+        "widthPx": 680.3125,
+        "heightPx": 453.53125,
+        "rootScale": 3.779427
+      },
+      "collisions": {
+        "labelLabel": [],
+        "labelObject": [],
+        "leaderCrossings": [],
+        "connectorFace": [],
+        "leaderFace": [],
+        "labelConnector": []
+      },
+      "clipping": [],
+      "text": {
+        "minimumFontPt": 6.999801,
+        "minimumScale": 1,
+        "maximumScale": 1,
+        "measurements": [
+          {
+            "id": "nndv-label-67",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-69",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-71",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-73",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-75",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          },
+          {
+            "id": "nndv-label-77",
+            "fontPt": 6.999801,
+            "scaleRatio": 1,
+            "hasForcedLength": false
+          }
+        ]
+      },
+      "leaders": {
+        "maximumLengthMm": 1.199973,
+        "maximumStarburstDegree": 2
+      },
+      "framing": {
+        "occupancy": {
+          "width": 0.568922,
+          "height": 0.697606,
+          "maxAxis": 0.697606
+        },
+        "largestFaceAreaRatio": 0.030082,
+        "contentRect": {
+          "left": 140.539283,
+          "top": 69.072496,
+          "right": 527.583862,
+          "bottom": 385.458567,
+          "width": 387.04458,
+          "height": 316.386071
+        }
+      },
+      "file": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/artifact-staging/exports/scene-corpus/templates/unet/scene.svg",
+      "sha256": "88c293bb1ad620e4f4d9356c72a0e72ca6320a92eb1e64716c861d08b637250a",
+      "browserErrors": []
+    }
+  ],
+  "failures": []
+}

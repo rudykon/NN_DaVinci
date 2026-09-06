@@ -1,0 +1,86 @@
+{
+  "assertion_count": 571,
+  "automated_evidence_is_human_usability_evidence": false,
+  "failures": [],
+  "fresh_executions": true,
+  "generated_at": "2026-09-02T09:01:31.569809+00:00",
+  "historical_schemas_are_inputs_not_current_schema": true,
+  "human_participants": 0,
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "schema_version": "nndv-0.7.3-e2e-aggregate-1",
+  "status": "PASS",
+  "suite_count": 7,
+  "suites": {
+    "editor": {
+      "assertions": 71,
+      "classification": "fresh-execution-inherited-report-schema",
+      "human_participants": 0,
+      "reported_release": null,
+      "reported_schema": "1.0",
+      "sha256": "4fc5945356cc0379d684907965c99ed8a30076ffa1a0e0c6cb5d6ecff32b11e6",
+      "source_report": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/reports/e2e/editor.json",
+      "status": "PASS"
+    },
+    "figure": {
+      "assertions": 76,
+      "classification": "fresh-execution-inherited-report-schema",
+      "human_participants": 0,
+      "reported_release": null,
+      "reported_schema": "nndv-0.6.1-figure-studio-e2e-1",
+      "sha256": "fc204870a518e16f032c8f7cef398c32c8ddb4c173fbab409405daca112ccb91",
+      "source_report": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/reports/e2e/figure-studio.json",
+      "status": "PASS"
+    },
+    "product": {
+      "assertions": 32,
+      "classification": "fresh-execution-inherited-report-schema",
+      "human_participants": 0,
+      "reported_release": null,
+      "reported_schema": "0.5.1-product-workflow-1",
+      "sha256": "d065eb1e9029e297a0e53263d2dc7c4429f95ee692aa571ebd3f497df3d517e4",
+      "source_report": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/reports/e2e/product.json",
+      "status": "PASS"
+    },
+    "responsive": {
+      "assertions": 168,
+      "classification": "fresh-execution-inherited-report-schema",
+      "human_participants": 0,
+      "reported_release": null,
+      "reported_schema": "0.5.2-responsive-workspace-e2e-1",
+      "sha256": "97174b192311326a312270eddef1413f58fb7c7acb173cb371a1328b8fece459",
+      "source_report": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/reports/e2e/responsive.json",
+      "status": "PASS"
+    },
+    "scene": {
+      "assertions": 131,
+      "classification": "fresh-execution-inherited-report-schema",
+      "human_participants": 0,
+      "reported_release": "0.7.1 — 3D Publication Quality & UX Completion",
+      "reported_schema": "nndv-0.7.1-scene-studio-e2e-1",
+      "sha256": "49a0d1c577b522ef9ce183cc3ce3ae7cf2b3e2207bb7f68628e1d9d9c206b8ec",
+      "source_report": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/reports/e2e/scene-studio.json",
+      "status": "PASS"
+    },
+    "semantic": {
+      "assertions": 28,
+      "classification": "fresh-execution-inherited-report-schema",
+      "human_participants": 0,
+      "reported_release": null,
+      "reported_schema": "0.3.0-semantic-workflow-1",
+      "sha256": "21b2658924f9aa4dcfa2ddda05e19d829636aa62e40a06190a40b721c5744e1a",
+      "source_report": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/reports/e2e/semantic.json",
+      "status": "PASS"
+    },
+    "trial": {
+      "assertions": 65,
+      "classification": "fresh-execution-inherited-report-schema",
+      "human_participants": 0,
+      "reported_release": null,
+      "reported_schema": "0.5.1-trial-workflow-e2e-1",
+      "sha256": "de4b1e424dac249acbc0433c71b5ad59756734843745d963a15836a66be5823d",
+      "source_report": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/reports/e2e/trial.json",
+      "status": "PASS"
+    }
+  },
+  "unexpected_browser_errors": 0
+}

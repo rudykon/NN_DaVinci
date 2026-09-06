@@ -1,0 +1,38 @@
+{
+  "coverage": {
+    "authoritative_parent_0_7_2_floors_percent": {
+      "all_package": 84.86438488860188,
+      "expanded_core": 89.42815953868333,
+      "old_core": 89.21644685802949,
+      "scene_core": 82.77905198776759
+    },
+    "no_regression_from_0_7_2": true,
+    "observed_percent": {
+      "all_package": 85.19699739411146,
+      "expanded_core": 89.49258018190521,
+      "old_core": 89.28663404584084,
+      "scene_core": 83.40832395950507
+    }
+  },
+  "elapsed_seconds": 168.075,
+  "parent_0_7_2": {
+    "test_count": 353,
+    "test_ids_sha256": "934f1c14e1dc3e31d9a314d7f05fd2d0eab2afb54106f72f3f4b9a1b28bd331b"
+  },
+  "python": {
+    "baseline_0_7_2_missing": [],
+    "collected": 378,
+    "deselected": 0,
+    "duration_seconds": 150.058,
+    "errors": 0,
+    "failed": 0,
+    "inherited_0_7_2_tests": 353,
+    "new_0_7_3_tests": 25,
+    "passed": 378,
+    "skipped": 0,
+    "test_ids_sha256": "c9435f81582e4475f6fedecc47885d2db4117472b9c92039f138f3ab82895557"
+  },
+  "release": "0.7.3 \u2014 Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "schema_version": "nndv-0.7.3-quick-verification-1",
+  "status": "PASS"
+}

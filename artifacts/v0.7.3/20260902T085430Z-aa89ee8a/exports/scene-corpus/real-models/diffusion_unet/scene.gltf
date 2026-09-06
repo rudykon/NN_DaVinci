@@ -1,0 +1,3437 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.771508495181978,
+        1.2071030590973526,
+        1.2071030590973526
+      ],
+      "min": [
+        -0.771508495181978,
+        -1.2071030590973526,
+        -1.2071030590973526
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.6,
+        0.6,
+        0.56
+      ],
+      "min": [
+        -0.6,
+        -0.6,
+        -0.56
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.771508495181978,
+        1.2071030590973526,
+        1.2071030590973526
+      ],
+      "min": [
+        -0.771508495181978,
+        -1.2071030590973526,
+        -1.2071030590973526
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.3635788500845527,
+        1.0539940546000541,
+        1.0539940546000541
+      ],
+      "min": [
+        -1.3635788500845527,
+        -1.0539940546000541,
+        -1.0539940546000541
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        1.0539940546000541,
+        1.0539940546000541
+      ],
+      "min": [
+        -1.0,
+        -1.0539940546000541,
+        -1.0539940546000541
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.2071030590973526,
+        1.2071030590973526,
+        1.2071030590973526
+      ],
+      "min": [
+        -1.2071030590973526,
+        -1.2071030590973526,
+        -1.2071030590973526
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -9.25,
+        0.0,
+        1.85
+      ],
+      "min": [
+        -16.650000000000002,
+        -2.22,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -9.25,
+        -1.9504481658395108,
+        1.9130434121044901
+      ],
+      "min": [
+        -9.687438689925889,
+        -2.2625004481545865,
+        1.5977470995572571
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        9.25,
+        -2.22,
+        4.625
+      ],
+      "min": [
+        0.0,
+        -6.1049999999999995,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        9.25,
+        -2.22,
+        2.1139469511827653
+      ],
+      "min": [
+        8.814905657429867,
+        -2.5223785280934625,
+        1.8026534084858912
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        -9.25,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -8.739790056212314,
+        -1.658101180103012,
+        2.2556506558210416
+      ],
+      "min": [
+        -9.25,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        0.0,
+        -6.1049999999999995,
+        4.625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.1625,
+        -5.674405990393163,
+        4.865710682430548
+      ],
+      "min": [
+        -0.1625,
+        -6.1049999999999995,
+        4.547320457064245
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 23,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        -9.25,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 25,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.0,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        -0.3684849594022177,
+        8.844184185629953,
+        7.477030081907026
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 26,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 27,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        -9.25,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 28,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -8.881515040597783,
+        -1.8141841856299532,
+        2.142969918092975
+      ],
+      "min": [
+        -9.25,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 29,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 30,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        16.650000000000002,
+        0.0,
+        1.85
+      ],
+      "min": [
+        9.25,
+        -2.22,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 31,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        16.650000000000002,
+        0.04250044815458623,
+        0.25225290044274284
+      ],
+      "min": [
+        16.21256131007411,
+        -0.26955183416048956,
+        -0.06304341210449006
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 32,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 33,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        -2.22,
+        4.625
+      ],
+      "min": [
+        -9.25,
+        -6.1049999999999995,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 34,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.0,
+        -5.802621471906538,
+        4.672346591514109
+      ],
+      "min": [
+        -0.4350943425701346,
+        -6.1049999999999995,
+        4.361053048817234
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 35,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 36,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        9.25,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        0.0,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 37,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        9.25,
+        -1.8141841856299532,
+        2.142969918092975
+      ],
+      "min": [
+        8.881515040597783,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 38,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 39,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        0.0,
+        -6.1049999999999995,
+        4.625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 40,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.22499999999999998,
+        -5.508792909775149,
+        4.958291714134605
+      ],
+      "min": [
+        -0.22499999999999998,
+        -6.1049999999999995,
+        4.517443709781263
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 41,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 42,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        0.0,
+        -6.1049999999999995,
+        4.625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 43,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.1625,
+        9.25,
+        7.847679542935755
+      ],
+      "min": [
+        -0.1625,
+        8.819405990393165,
+        7.529289317569453
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 44,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 45,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        9.25,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        0.0,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 46,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        9.25,
+        -1.658101180103012,
+        2.2556506558210416
+      ],
+      "min": [
+        8.739790056212314,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 47,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 48,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        9.25,
+        -2.22,
+        1.85
+      ],
+      "min": [
+        -9.25,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 49,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        9.25,
+        -2.0575,
+        2.0125
+      ],
+      "min": [
+        8.84375,
+        -2.3825000000000003,
+        1.6875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 50,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 51,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        9.25,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        0.0,
+        -2.22,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 52,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.3684849594022177,
+        9.25,
+        7.7700000000000005
+      ],
+      "min": [
+        0.0,
+        8.844184185629953,
+        7.477030081907026
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 53,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "schemaVersion": "nndv-scene-gltf-1"
+    },
+    "generator": "NN_DaVinci Scene IR 1.0 deterministic exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 336,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 816,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1056,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1200,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1296,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1440,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1464,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1572,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1740,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1764,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1872,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2064,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2172,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2340,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2364,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2472,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2640,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2664,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2772,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2940,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2964,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3072,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3264,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3372,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3540,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3564,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3672,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3840,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3864,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3972,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 4140,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 4164,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 4272,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 4440,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 4464,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 4572,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 4740,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 4764,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 4872,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 5040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 5064,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 5172,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 5340,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 5364,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 5472,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5640,
+      "uri": "data:application/octet-stream;base64,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"
+    }
+  ],
+  "cameras": [
+    {
+      "extras": {
+        "nndvProjection": "orthographic",
+        "objectId": "scene_camera_diffusionunet___module___architecture_evid_53e50e46"
+      },
+      "name": "DiffusionUNet · Module · Architecture Evidence 3D isometric camera",
+      "orthographic": {
+        "xmag": 13.5,
+        "ymag": 9.0,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "orthographic"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "extras": {
+            "nndvLight": {
+              "color": "#ffffff",
+              "direction": [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              "id": "scene_light_diffusionunet___module___architecture_evid_0841e000",
+              "intensity": 1.0,
+              "kind": "directional",
+              "locked": false,
+              "metadata": {},
+              "name": "Key light",
+              "position": [
+                8.0,
+                10.0,
+                12.0
+              ],
+              "visible": true
+            },
+            "objectId": "scene_light_diffusionunet___module___architecture_evid_0841e000"
+          },
+          "intensity": 1.0,
+          "name": "Key light",
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#bfdbfeff",
+        "nndvMaterial": {
+          "base_color": "#bfdbfe",
+          "face_colors": {
+            "front": "#bfdbfe",
+            "top": "#bfdbfe"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_19066ff9",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7490196,
+          0.8588235,
+          0.9960784,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#fbbf24ff",
+        "nndvMaterial": {
+          "base_color": "#fbbf24",
+          "face_colors": {
+            "front": "#fbbf24",
+            "top": "#fbbf24"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_3d39c074",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9843137,
+          0.7490196,
+          0.1411765,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#f8fafcff",
+        "nndvMaterial": {
+          "base_color": "#f8fafc",
+          "face_colors": {
+            "front": "#f8fafc",
+            "top": "#f8fafc"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_bea53299",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.972549,
+          0.9803922,
+          0.9882353,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#8b5cf6ff",
+        "nndvMaterial": {
+          "base_color": "#8b5cf6",
+          "face_colors": {
+            "front": "#8b5cf6",
+            "top": "#8b5cf6"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_ee66cefc",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.545098,
+          0.3607843,
+          0.9647059,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#475569ff",
+        "nndvMaterial": {
+          "base_color": "#475569",
+          "face_colors": {
+            "front": "#475569",
+            "top": "#475569"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_route_architectur_2f50f67f",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2784314,
+          0.3333333,
+          0.4117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_19066ff9"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_19066ff9",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_3d39c074"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_3d39c074",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_768400b5"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_768400b5",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_bea53299"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_bea53299",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "indices": 7,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_ee66cefc"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_ee66cefc",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "indices": 9,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_fecfc9f8"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_fecfc9f8",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_2f50f67f"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_2f50f67f",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 13
+          },
+          "indices": 14,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_3352af4b"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_3352af4b",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 16
+          },
+          "indices": 17,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_5189aa04"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_5189aa04",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 18
+          },
+          "material": 1,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 19
+          },
+          "indices": 20,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_59c74d8c"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_59c74d8c",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 22
+          },
+          "indices": 23,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_6a6b6596"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_6a6b6596",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 24
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 25
+          },
+          "indices": 26,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_723c7baa"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_723c7baa",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 27
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 28
+          },
+          "indices": 29,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_75edf883"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_75edf883",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 31
+          },
+          "indices": 32,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_81ff23ae"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_81ff23ae",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 33
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 34
+          },
+          "indices": 35,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_cf4ee8eb"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_cf4ee8eb",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 36
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 37
+          },
+          "indices": 38,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_d1f84eba"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_d1f84eba",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 39
+          },
+          "material": 1,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 40
+          },
+          "indices": 41,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_d47bde38"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_d47bde38",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 42
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 43
+          },
+          "indices": 44,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_d85221bd"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_d85221bd",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 45
+          },
+          "material": 1,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 46
+          },
+          "indices": 47,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_f3aa80cf"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_f3aa80cf",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 48
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 49
+          },
+          "indices": 50,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_faad3af7"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_faad3af7",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 51
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 52
+          },
+          "indices": 53,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "kind": "tensor-volume",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_19066ff9",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "input",
+            "architecture_role_id": "architecture_role_input_0_node_fx_noisy_latent_0_6bca5c91_e18d48aa",
+            "confidence": 0.96,
+            "edge_ids": [],
+            "node_ids": [
+              "node_fx_noisy_latent_0_6bca5c91"
+            ],
+            "port_ids": [
+              "node_fx_noisy_latent_0_6bca5c91:output:0"
+            ],
+            "reasons": [
+              "A floating spatial Graph IR input supplies the denoising path."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__b863e2b3",
+            "figure_object_model_figure_tensor_architecture_projectio_e398d531",
+            "figure_object_model_figure_edge_architecture_projection__c9990c73"
+          ],
+          "graph_ir_ids": [
+            "node_fx_noisy_latent_0_6bca5c91",
+            "node_fx_noisy_latent_0_6bca5c91:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -16.65,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Noisy latent / input"
+    },
+    {
+      "extras": {
+        "kind": "timestep-conditioning",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_3d39c074",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "conditioning",
+            "architecture_role_id": "architecture_role_conditioning_1_node_fx_timestep_1_f1517b44_4058216a",
+            "confidence": 0.96,
+            "edge_ids": [
+              "module_edge_edge_node_fx_timestep_1_f1517b44_node_fx_t_57045b0f",
+              "module_edge_edge_node_fx_reshape_2_036bcfe8_node_fx_re_9036720e",
+              "module_edge_edge_node_fx_float_1_3_cfe5efc3_node_fx_fl_b58b48f3",
+              "module_edge_edge_node_fx_timestep_embedding_projection_a5af53f5",
+              "module_edge_edge_node_fx_timestep_embedding_projection_636a6d6f",
+              "module_edge_edge_node_fx_timestep_embedding_projection_8a08e3aa",
+              "module_edge_edge_node_fx_encoder_conditioned_condition_039aef64",
+              "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_224c21f0",
+              "module_edge_edge_node_fx_timestep_embedding_projection_529450a5",
+              "module_edge_edge_node_fx_bottleneck_condition_17_843d3_52ae709d",
+              "module_edge_edge_node_fx_getitem_1_18_16efded9_node_fx_f0858e82",
+              "module_edge_edge_node_fx_timestep_embedding_projection_6200deee",
+              "module_edge_edge_node_fx_decoder_conditioned_condition_f3f92429",
+              "module_edge_edge_node_fx_getitem_2_25_18c74721_node_fx_d5f11ecf"
+            ],
+            "node_ids": [
+              "node_fx_timestep_1_f1517b44",
+              "node_fx_getitem_1_18_16efded9",
+              "node_fx_add_11_b7b1b6d4",
+              "node_fx_float_1_3_cfe5efc3",
+              "module_encoder_conditioned_condition_projection_129bf618",
+              "module_timestep_embedding_projection_0_151b9da2",
+              "module_timestep_embedding_projection_1_2d221285",
+              "module_timestep_embedding_projection_2_0de51f47",
+              "node_fx_reshape_2_036bcfe8",
+              "node_fx_getitem_2_25_18c74721",
+              "node_fx_add_2_19_cd19cadb",
+              "module_decoder_conditioned_condition_projection_3bace9b7",
+              "node_fx_add_4_26_e488c814",
+              "node_fx_getitem_10_957ae78a",
+              "module_bottleneck_condition_7e0ff984"
+            ],
+            "port_ids": [
+              "module_bottleneck_condition_7e0ff984:input:binding_node_fx_bottleneck_condition_17_843d3e6f_n_20aeb2af",
+              "module_bottleneck_condition_7e0ff984:output:binding_node_fx_bottleneck_condition_17_843d3e6f_n_8391516e",
+              "module_decoder_conditioned_condition_projection_3bace9b7:input:binding_node_fx_decoder_conditioned_condition_proj_7e01b986",
+              "module_decoder_conditioned_condition_projection_3bace9b7:output:binding_node_fx_decoder_conditioned_condition_proj_1500dbeb",
+              "module_encoder_conditioned_condition_projection_129bf618:input:binding_node_fx_encoder_conditioned_condition_proj_1e4da0b4",
+              "module_encoder_conditioned_condition_projection_129bf618:output:binding_node_fx_encoder_conditioned_condition_proj_52317433",
+              "module_timestep_embedding_projection_0_151b9da2:input:binding_node_fx_timestep_embedding_projection_0_4__c1709a14",
+              "module_timestep_embedding_projection_0_151b9da2:output:binding_node_fx_timestep_embedding_projection_0_4__71c1bee0",
+              "module_timestep_embedding_projection_1_2d221285:input:binding_node_fx_timestep_embedding_projection_1_5__d38f0257",
+              "module_timestep_embedding_projection_1_2d221285:output:binding_node_fx_timestep_embedding_projection_1_5__54616c6e",
+              "module_timestep_embedding_projection_2_0de51f47:input:binding_node_fx_timestep_embedding_projection_2_6__a3558c98",
+              "module_timestep_embedding_projection_2_0de51f47:output:binding_node_fx_timestep_embedding_projection_2_6__39e2a0f9",
+              "node_fx_timestep_1_f1517b44:output:0",
+              "node_fx_reshape_2_036bcfe8:input:0",
+              "node_fx_reshape_2_036bcfe8:output:0",
+              "node_fx_float_1_3_cfe5efc3:input:0",
+              "node_fx_float_1_3_cfe5efc3:output:0",
+              "node_fx_getitem_10_957ae78a:input:0",
+              "node_fx_getitem_10_957ae78a:output:0",
+              "node_fx_add_11_b7b1b6d4:input:0",
+              "node_fx_add_11_b7b1b6d4:input:1",
+              "node_fx_add_11_b7b1b6d4:output:0",
+              "node_fx_getitem_1_18_16efded9:input:0",
+              "node_fx_getitem_1_18_16efded9:output:0",
+              "node_fx_add_2_19_cd19cadb:input:0",
+              "node_fx_add_2_19_cd19cadb:input:1",
+              "node_fx_add_2_19_cd19cadb:output:0",
+              "node_fx_getitem_2_25_18c74721:input:0",
+              "node_fx_getitem_2_25_18c74721:output:0",
+              "node_fx_add_4_26_e488c814:input:0",
+              "node_fx_add_4_26_e488c814:input:1",
+              "node_fx_add_4_26_e488c814:output:0"
+            ],
+            "reasons": [
+              "A scalar floating input follows a pure branch into multiple spatial merge operations."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__07152f17",
+            "figure_object_model_figure_tensor_architecture_projectio_3cc6cf37",
+            "figure_object_model_figure_edge_architecture_projection__7e1a12ce",
+            "figure_object_model_figure_edge_architecture_projection__6fd7ea28",
+            "figure_object_model_figure_edge_architecture_projection__5dfdb7b2",
+            "figure_object_model_figure_edge_architecture_projection__5555145d",
+            "figure_object_model_figure_edge_architecture_projection__268cf45f",
+            "figure_object_model_figure_edge_architecture_projection__15729a10",
+            "figure_object_model_figure_edge_architecture_projection__26657bfa",
+            "figure_object_model_figure_edge_architecture_projection__cec568fd",
+            "figure_object_model_figure_edge_architecture_projection__94617287"
+          ],
+          "graph_ir_ids": [
+            "node_fx_timestep_1_f1517b44",
+            "node_fx_getitem_1_18_16efded9",
+            "node_fx_add_11_b7b1b6d4",
+            "node_fx_float_1_3_cfe5efc3",
+            "module_encoder_conditioned_condition_projection_129bf618",
+            "module_timestep_embedding_projection_0_151b9da2",
+            "module_timestep_embedding_projection_1_2d221285",
+            "module_timestep_embedding_projection_2_0de51f47",
+            "node_fx_reshape_2_036bcfe8",
+            "node_fx_getitem_2_25_18c74721",
+            "node_fx_add_2_19_cd19cadb",
+            "module_decoder_conditioned_condition_projection_3bace9b7",
+            "node_fx_add_4_26_e488c814",
+            "node_fx_getitem_10_957ae78a",
+            "module_bottleneck_condition_7e0ff984",
+            "module_edge_edge_node_fx_timestep_1_f1517b44_node_fx_t_57045b0f",
+            "module_edge_edge_node_fx_reshape_2_036bcfe8_node_fx_re_9036720e",
+            "module_edge_edge_node_fx_float_1_3_cfe5efc3_node_fx_fl_b58b48f3",
+            "module_edge_edge_node_fx_timestep_embedding_projection_a5af53f5",
+            "module_edge_edge_node_fx_timestep_embedding_projection_636a6d6f",
+            "module_edge_edge_node_fx_timestep_embedding_projection_8a08e3aa",
+            "module_edge_edge_node_fx_encoder_conditioned_condition_039aef64",
+            "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_224c21f0",
+            "module_edge_edge_node_fx_timestep_embedding_projection_529450a5",
+            "module_edge_edge_node_fx_bottleneck_condition_17_843d3_52ae709d",
+            "module_edge_edge_node_fx_getitem_1_18_16efded9_node_fx_f0858e82",
+            "module_edge_edge_node_fx_timestep_embedding_projection_6200deee",
+            "module_edge_edge_node_fx_decoder_conditioned_condition_f3f92429",
+            "module_edge_edge_node_fx_getitem_2_25_18c74721_node_fx_d5f11ecf",
+            "module_bottleneck_condition_7e0ff984:input:binding_node_fx_bottleneck_condition_17_843d3e6f_n_20aeb2af",
+            "module_bottleneck_condition_7e0ff984:output:binding_node_fx_bottleneck_condition_17_843d3e6f_n_8391516e",
+            "module_decoder_conditioned_condition_projection_3bace9b7:input:binding_node_fx_decoder_conditioned_condition_proj_7e01b986",
+            "module_decoder_conditioned_condition_projection_3bace9b7:output:binding_node_fx_decoder_conditioned_condition_proj_1500dbeb",
+            "module_encoder_conditioned_condition_projection_129bf618:input:binding_node_fx_encoder_conditioned_condition_proj_1e4da0b4",
+            "module_encoder_conditioned_condition_projection_129bf618:output:binding_node_fx_encoder_conditioned_condition_proj_52317433",
+            "module_timestep_embedding_projection_0_151b9da2:input:binding_node_fx_timestep_embedding_projection_0_4__c1709a14",
+            "module_timestep_embedding_projection_0_151b9da2:output:binding_node_fx_timestep_embedding_projection_0_4__71c1bee0",
+            "module_timestep_embedding_projection_1_2d221285:input:binding_node_fx_timestep_embedding_projection_1_5__d38f0257",
+            "module_timestep_embedding_projection_1_2d221285:output:binding_node_fx_timestep_embedding_projection_1_5__54616c6e",
+            "module_timestep_embedding_projection_2_0de51f47:input:binding_node_fx_timestep_embedding_projection_2_6__a3558c98",
+            "module_timestep_embedding_projection_2_0de51f47:output:binding_node_fx_timestep_embedding_projection_2_6__39e2a0f9",
+            "node_fx_timestep_1_f1517b44:output:0",
+            "node_fx_reshape_2_036bcfe8:input:0",
+            "node_fx_reshape_2_036bcfe8:output:0",
+            "node_fx_float_1_3_cfe5efc3:input:0",
+            "node_fx_float_1_3_cfe5efc3:output:0",
+            "node_fx_getitem_10_957ae78a:input:0",
+            "node_fx_getitem_10_957ae78a:output:0",
+            "node_fx_add_11_b7b1b6d4:input:0",
+            "node_fx_add_11_b7b1b6d4:input:1",
+            "node_fx_add_11_b7b1b6d4:output:0",
+            "node_fx_getitem_1_18_16efded9:input:0",
+            "node_fx_getitem_1_18_16efded9:output:0",
+            "node_fx_add_2_19_cd19cadb:input:0",
+            "node_fx_add_2_19_cd19cadb:input:1",
+            "node_fx_add_2_19_cd19cadb:output:0",
+            "node_fx_getitem_2_25_18c74721:input:0",
+            "node_fx_getitem_2_25_18c74721:output:0",
+            "node_fx_add_4_26_e488c814:input:0",
+            "node_fx_add_4_26_e488c814:input:1",
+            "node_fx_add_4_26_e488c814:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703",
+            "semantic_stage_encoder_module_encoder_conditioned_c_84a8df96",
+            "semantic_stage_decoder_module_decoder_conditioned_c_1f7c3355"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        9.25,
+        7.77,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Timestep conditioning"
+    },
+    {
+      "extras": {
+        "kind": "tensor-volume",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_768400b5",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "output-head",
+            "architecture_role_id": "architecture_role_output_head_5_module_denoised_output_91b07_3425aee8",
+            "confidence": 0.94,
+            "edge_ids": [
+              "module_edge_edge_node_fx_denoised_output_30_8a0d5da9_n_2d42a6cd"
+            ],
+            "node_ids": [
+              "module_denoised_output_91b07b8b",
+              "node_fx_output_31_1e7f4585"
+            ],
+            "port_ids": [
+              "module_denoised_output_91b07b8b:input:binding_node_fx_denoised_output_30_8a0d5da9_node_f_771ca5cc",
+              "module_denoised_output_91b07b8b:output:binding_node_fx_denoised_output_30_8a0d5da9_node_f_e3759d56",
+              "node_fx_output_31_1e7f4585:input:0",
+              "node_fx_output_31_1e7f4585:output:0"
+            ],
+            "reasons": [
+              "This terminal source path produces every declared Graph IR output."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__6b6dfff2",
+            "figure_object_model_figure_tensor_architecture_projectio_4f9a6a45",
+            "figure_object_model_figure_edge_architecture_projection__f73e1371"
+          ],
+          "graph_ir_ids": [
+            "module_denoised_output_91b07b8b",
+            "node_fx_output_31_1e7f4585",
+            "module_edge_edge_node_fx_denoised_output_30_8a0d5da9_n_2d42a6cd",
+            "module_denoised_output_91b07b8b:input:binding_node_fx_denoised_output_30_8a0d5da9_node_f_771ca5cc",
+            "module_denoised_output_91b07b8b:output:binding_node_fx_denoised_output_30_8a0d5da9_node_f_e3759d56",
+            "node_fx_output_31_1e7f4585:input:0",
+            "node_fx_output_31_1e7f4585:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        16.65,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "Denoised output"
+    },
+    {
+      "extras": {
+        "kind": "downsample",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_bea53299",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "down-path",
+            "architecture_role_id": "architecture_role_down_path_2_module_downsample_fce0c560_mod_bff5f9ce",
+            "confidence": 0.95,
+            "edge_ids": [
+              "module_edge_edge_node_fx_encoder_input_7_7f824e7b_node_41eb3a2c",
+              "module_edge_edge_node_fx_silu_12_e44a2ce5_node_fx_silu_e3093b4d",
+              "module_edge_edge_node_fx_encoder_input_7_7f824e7b_node_760b9ddd",
+              "module_edge_edge_node_fx_encoder_conditioned_conv2_13__4cf9833b",
+              "module_edge_edge_node_fx_add_1_14_7f14391f_node_fx_add_6e17f1d3"
+            ],
+            "node_ids": [
+              "module_downsample_fce0c560",
+              "module_encoder_conditioned_conv1_9c5365b1",
+              "module_encoder_conditioned_conv2_c0881b7b",
+              "node_fx_add_1_14_7f14391f",
+              "module_encoder_input_9ff93bee",
+              "node_fx_silu_12_e44a2ce5"
+            ],
+            "port_ids": [
+              "module_downsample_fce0c560:input:binding_node_fx_downsample_15_bd951e05_node_fx_dow_aa9fb7bf",
+              "module_downsample_fce0c560:output:binding_node_fx_downsample_15_bd951e05_node_fx_dow_e28b4282",
+              "module_encoder_conditioned_conv1_9c5365b1:input:binding_node_fx_encoder_conditioned_conv1_8_9e0074_95fa957b",
+              "module_encoder_conditioned_conv1_9c5365b1:output:binding_node_fx_encoder_conditioned_conv1_8_9e0074_9f4ea8da",
+              "module_encoder_conditioned_conv2_c0881b7b:input:binding_node_fx_encoder_conditioned_conv2_13_2abac_8ad4800f",
+              "module_encoder_conditioned_conv2_c0881b7b:output:binding_node_fx_encoder_conditioned_conv2_13_2abac_f24a02a8",
+              "module_encoder_input_9ff93bee:input:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_8e11aeec",
+              "module_encoder_input_9ff93bee:output:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_6f8846b5",
+              "node_fx_silu_12_e44a2ce5:input:0",
+              "node_fx_silu_12_e44a2ce5:output:0",
+              "node_fx_add_1_14_7f14391f:input:0",
+              "node_fx_add_1_14_7f14391f:input:1",
+              "node_fx_add_1_14_7f14391f:output:0"
+            ],
+            "reasons": [
+              "Longest-path depth and typed spatial resolution transitions locate this denoiser region."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__9f79016f",
+            "figure_object_model_figure_tensor_architecture_projectio_5b4fe4aa",
+            "figure_object_model_figure_edge_architecture_projection__c9990c73",
+            "figure_object_model_figure_edge_architecture_projection__6fd7ea28",
+            "figure_object_model_figure_edge_architecture_projection__26657bfa",
+            "figure_object_model_figure_edge_architecture_projection__2d82969b",
+            "figure_object_model_figure_edge_architecture_projection__70567c7e"
+          ],
+          "graph_ir_ids": [
+            "module_downsample_fce0c560",
+            "module_encoder_conditioned_conv1_9c5365b1",
+            "module_encoder_conditioned_conv2_c0881b7b",
+            "node_fx_add_1_14_7f14391f",
+            "module_encoder_input_9ff93bee",
+            "node_fx_silu_12_e44a2ce5",
+            "module_edge_edge_node_fx_encoder_input_7_7f824e7b_node_41eb3a2c",
+            "module_edge_edge_node_fx_silu_12_e44a2ce5_node_fx_silu_e3093b4d",
+            "module_edge_edge_node_fx_encoder_input_7_7f824e7b_node_760b9ddd",
+            "module_edge_edge_node_fx_encoder_conditioned_conv2_13__4cf9833b",
+            "module_edge_edge_node_fx_add_1_14_7f14391f_node_fx_add_6e17f1d3",
+            "module_downsample_fce0c560:input:binding_node_fx_downsample_15_bd951e05_node_fx_dow_aa9fb7bf",
+            "module_downsample_fce0c560:output:binding_node_fx_downsample_15_bd951e05_node_fx_dow_e28b4282",
+            "module_encoder_conditioned_conv1_9c5365b1:input:binding_node_fx_encoder_conditioned_conv1_8_9e0074_95fa957b",
+            "module_encoder_conditioned_conv1_9c5365b1:output:binding_node_fx_encoder_conditioned_conv1_8_9e0074_9f4ea8da",
+            "module_encoder_conditioned_conv2_c0881b7b:input:binding_node_fx_encoder_conditioned_conv2_13_2abac_8ad4800f",
+            "module_encoder_conditioned_conv2_c0881b7b:output:binding_node_fx_encoder_conditioned_conv2_13_2abac_f24a02a8",
+            "module_encoder_input_9ff93bee:input:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_8e11aeec",
+            "module_encoder_input_9ff93bee:output:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_6f8846b5",
+            "node_fx_silu_12_e44a2ce5:input:0",
+            "node_fx_silu_12_e44a2ce5:output:0",
+            "node_fx_add_1_14_7f14391f:input:0",
+            "node_fx_add_1_14_7f14391f:input:1",
+            "node_fx_add_1_14_7f14391f:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703",
+            "semantic_stage_encoder_module_encoder_conditioned_c_84a8df96"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -9.25,
+        -2.22,
+        1.85,
+        1.0
+      ],
+      "mesh": 3,
+      "name": "Conditioned down path"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_ee66cefc",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "bottleneck",
+            "architecture_role_id": "architecture_role_bottleneck_3_node_fx_silu_1_20_0560e3e3_mo_9e2af987",
+            "confidence": 0.95,
+            "edge_ids": [],
+            "node_ids": [
+              "node_fx_silu_1_20_0560e3e3",
+              "module_bottleneck_d9c36240"
+            ],
+            "port_ids": [
+              "module_bottleneck_d9c36240:input:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_5ffee9d0",
+              "module_bottleneck_d9c36240:output:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_524a743f",
+              "node_fx_silu_1_20_0560e3e3:input:0",
+              "node_fx_silu_1_20_0560e3e3:output:0"
+            ],
+            "reasons": [
+              "Longest-path depth and typed spatial resolution transitions locate this denoiser region."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__03efde04",
+            "figure_object_model_figure_tensor_architecture_projectio_83d5db54",
+            "figure_object_model_figure_edge_architecture_projection__5555145d",
+            "figure_object_model_figure_edge_architecture_projection__2d82969b",
+            "figure_object_model_figure_edge_architecture_projection__cec568fd",
+            "figure_object_model_figure_edge_architecture_projection__0c34e22d"
+          ],
+          "graph_ir_ids": [
+            "node_fx_silu_1_20_0560e3e3",
+            "module_bottleneck_d9c36240",
+            "module_bottleneck_d9c36240:input:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_5ffee9d0",
+            "module_bottleneck_d9c36240:output:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_524a743f",
+            "node_fx_silu_1_20_0560e3e3:input:0",
+            "node_fx_silu_1_20_0560e3e3:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -6.105,
+        4.625,
+        1.0
+      ],
+      "mesh": 4,
+      "name": "Mid / bottleneck"
+    },
+    {
+      "extras": {
+        "kind": "upsample",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_fecfc9f8",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "up-path",
+            "architecture_role_id": "architecture_role_up_path_4_module_decoder_conditioned_conv2_6167e54f",
+            "confidence": 0.95,
+            "edge_ids": [
+              "module_edge_edge_node_fx_upsample_21_2366b36c_node_fx__17fa7bfc",
+              "module_edge_edge_node_fx_add_3_22_17489669_node_fx_add_475bdaa5",
+              "module_edge_edge_node_fx_silu_2_27_7a2864a4_node_fx_si_c9949b11",
+              "module_edge_edge_node_fx_add_3_22_17489669_node_fx_add_3de242ee",
+              "module_edge_edge_node_fx_decoder_conditioned_conv2_28__cb175873"
+            ],
+            "node_ids": [
+              "module_decoder_conditioned_conv2_1a0b3a3d",
+              "module_decoder_conditioned_conv1_a8c0b742",
+              "node_fx_silu_2_27_7a2864a4",
+              "node_fx_add_5_29_76722979",
+              "node_fx_add_3_22_17489669",
+              "module_upsample_293c8e40"
+            ],
+            "port_ids": [
+              "module_decoder_conditioned_conv1_a8c0b742:input:binding_node_fx_decoder_conditioned_conv1_23_24ce4_57117f50",
+              "module_decoder_conditioned_conv1_a8c0b742:output:binding_node_fx_decoder_conditioned_conv1_23_24ce4_7a570bcf",
+              "module_decoder_conditioned_conv2_1a0b3a3d:input:binding_node_fx_decoder_conditioned_conv2_28_79094_b1335344",
+              "module_decoder_conditioned_conv2_1a0b3a3d:output:binding_node_fx_decoder_conditioned_conv2_28_79094_4b079290",
+              "module_upsample_293c8e40:input:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_4d3d52fe",
+              "module_upsample_293c8e40:output:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_30ac560c",
+              "node_fx_add_3_22_17489669:input:0",
+              "node_fx_add_3_22_17489669:input:1",
+              "node_fx_add_3_22_17489669:output:0",
+              "node_fx_silu_2_27_7a2864a4:input:0",
+              "node_fx_silu_2_27_7a2864a4:output:0",
+              "node_fx_add_5_29_76722979:input:0",
+              "node_fx_add_5_29_76722979:input:1",
+              "node_fx_add_5_29_76722979:output:0"
+            ],
+            "reasons": [
+              "Longest-path depth and typed spatial resolution transitions locate this denoiser region."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__a5ac90ac",
+            "figure_object_model_figure_tensor_architecture_projectio_9f9fd272",
+            "figure_object_model_figure_edge_architecture_projection__15729a10",
+            "figure_object_model_figure_edge_architecture_projection__70567c7e",
+            "figure_object_model_figure_edge_architecture_projection__0c34e22d",
+            "figure_object_model_figure_edge_architecture_projection__94617287",
+            "figure_object_model_figure_edge_architecture_projection__f73e1371"
+          ],
+          "graph_ir_ids": [
+            "module_decoder_conditioned_conv2_1a0b3a3d",
+            "module_decoder_conditioned_conv1_a8c0b742",
+            "node_fx_silu_2_27_7a2864a4",
+            "node_fx_add_5_29_76722979",
+            "node_fx_add_3_22_17489669",
+            "module_upsample_293c8e40",
+            "module_edge_edge_node_fx_upsample_21_2366b36c_node_fx__17fa7bfc",
+            "module_edge_edge_node_fx_add_3_22_17489669_node_fx_add_475bdaa5",
+            "module_edge_edge_node_fx_silu_2_27_7a2864a4_node_fx_si_c9949b11",
+            "module_edge_edge_node_fx_add_3_22_17489669_node_fx_add_3de242ee",
+            "module_edge_edge_node_fx_decoder_conditioned_conv2_28__cb175873",
+            "module_decoder_conditioned_conv1_a8c0b742:input:binding_node_fx_decoder_conditioned_conv1_23_24ce4_57117f50",
+            "module_decoder_conditioned_conv1_a8c0b742:output:binding_node_fx_decoder_conditioned_conv1_23_24ce4_7a570bcf",
+            "module_decoder_conditioned_conv2_1a0b3a3d:input:binding_node_fx_decoder_conditioned_conv2_28_79094_b1335344",
+            "module_decoder_conditioned_conv2_1a0b3a3d:output:binding_node_fx_decoder_conditioned_conv2_28_79094_4b079290",
+            "module_upsample_293c8e40:input:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_4d3d52fe",
+            "module_upsample_293c8e40:output:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_30ac560c",
+            "node_fx_add_3_22_17489669:input:0",
+            "node_fx_add_3_22_17489669:input:1",
+            "node_fx_add_3_22_17489669:output:0",
+            "node_fx_silu_2_27_7a2864a4:input:0",
+            "node_fx_silu_2_27_7a2864a4:output:0",
+            "node_fx_add_5_29_76722979:input:0",
+            "node_fx_add_5_29_76722979:input:1",
+            "node_fx_add_5_29_76722979:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_decoder_module_decoder_conditioned_c_1f7c3355",
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_decoder_module_decoder_conditioned_c_1f7c3355"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        9.25,
+        -2.22,
+        1.85,
+        1.0
+      ],
+      "mesh": 5,
+      "name": "Conditioned up path"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_2f50f67f",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_noisy_latent_0_6bca5c91_node__f1574748"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__b863e2b3",
+            "figure_object_model_figure_tensor_architecture_projectio_e398d531",
+            "figure_object_model_figure_node_architecture_projection__9f79016f",
+            "figure_object_model_figure_tensor_architecture_projectio_5b4fe4aa",
+            "figure_object_model_figure_edge_architecture_projection__c9990c73"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_noisy_latent_0_6bca5c91_node__f1574748",
+            "node_fx_noisy_latent_0_6bca5c91",
+            "module_encoder_input_9ff93bee",
+            "node_fx_noisy_latent_0_6bca5c91:output:0",
+            "module_encoder_input_9ff93bee:input:binding_node_fx_encoder_input_7_7f824e7b_node_fx_e_8e11aeec"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703",
+            "semantic_stage_encoder_module_encoder_conditioned_c_84a8df96"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 6,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_3352af4b",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_silu_1_20_0560e3e3_node_fx_si_269b0647"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__03efde04",
+            "figure_object_model_figure_tensor_architecture_projectio_83d5db54",
+            "figure_object_model_figure_node_architecture_projection__a5ac90ac",
+            "figure_object_model_figure_tensor_architecture_projectio_9f9fd272",
+            "figure_object_model_figure_edge_architecture_projection__5555145d",
+            "figure_object_model_figure_edge_architecture_projection__0c34e22d"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_silu_1_20_0560e3e3_node_fx_si_269b0647",
+            "node_fx_silu_1_20_0560e3e3",
+            "module_upsample_293c8e40",
+            "node_fx_silu_1_20_0560e3e3:output:0",
+            "module_upsample_293c8e40:input:binding_node_fx_upsample_21_2366b36c_node_fx_upsam_4d3d52fe"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 7,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "tube",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_5189aa04",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "conditioning",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_224c21f0",
+              "module_edge_edge_node_fx_getitem_1_18_16efded9_node_fx_f0858e82",
+              "module_edge_edge_node_fx_getitem_2_25_18c74721_node_fx_d5f11ecf"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__07152f17",
+            "figure_object_model_figure_tensor_architecture_projectio_3cc6cf37",
+            "figure_object_model_figure_edge_architecture_projection__7e1a12ce",
+            "figure_object_model_figure_edge_architecture_projection__6fd7ea28",
+            "figure_object_model_figure_edge_architecture_projection__5dfdb7b2",
+            "figure_object_model_figure_edge_architecture_projection__5555145d",
+            "figure_object_model_figure_edge_architecture_projection__268cf45f",
+            "figure_object_model_figure_edge_architecture_projection__15729a10",
+            "figure_object_model_figure_edge_architecture_projection__26657bfa",
+            "figure_object_model_figure_edge_architecture_projection__cec568fd",
+            "figure_object_model_figure_edge_architecture_projection__94617287"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_224c21f0",
+            "module_edge_edge_node_fx_getitem_1_18_16efded9_node_fx_f0858e82",
+            "module_edge_edge_node_fx_getitem_2_25_18c74721_node_fx_d5f11ecf",
+            "node_fx_getitem_10_957ae78a",
+            "node_fx_getitem_1_18_16efded9",
+            "node_fx_getitem_2_25_18c74721",
+            "node_fx_add_11_b7b1b6d4",
+            "node_fx_add_2_19_cd19cadb",
+            "node_fx_add_4_26_e488c814",
+            "node_fx_getitem_10_957ae78a:output:0",
+            "node_fx_add_11_b7b1b6d4:input:1",
+            "node_fx_getitem_1_18_16efded9:output:0",
+            "node_fx_add_2_19_cd19cadb:input:1",
+            "node_fx_getitem_2_25_18c74721:output:0",
+            "node_fx_add_4_26_e488c814:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 8,
+      "name": "Timestep conditioning"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_59c74d8c",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_add_2_19_cd19cadb_node_fx_add_3bde935a"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__07152f17",
+            "figure_object_model_figure_tensor_architecture_projectio_3cc6cf37",
+            "figure_object_model_figure_node_architecture_projection__03efde04",
+            "figure_object_model_figure_tensor_architecture_projectio_83d5db54",
+            "figure_object_model_figure_edge_architecture_projection__7e1a12ce",
+            "figure_object_model_figure_edge_architecture_projection__5dfdb7b2",
+            "figure_object_model_figure_edge_architecture_projection__5555145d",
+            "figure_object_model_figure_edge_architecture_projection__268cf45f",
+            "figure_object_model_figure_edge_architecture_projection__cec568fd",
+            "figure_object_model_figure_edge_architecture_projection__0c34e22d"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_add_2_19_cd19cadb_node_fx_add_3bde935a",
+            "node_fx_add_2_19_cd19cadb",
+            "node_fx_silu_1_20_0560e3e3",
+            "node_fx_add_2_19_cd19cadb:output:0",
+            "node_fx_silu_1_20_0560e3e3:input:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 9,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_6a6b6596",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_encoder_conditioned_conv1_8_9_9039a6e0"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__07152f17",
+            "figure_object_model_figure_tensor_architecture_projectio_3cc6cf37",
+            "figure_object_model_figure_node_architecture_projection__9f79016f",
+            "figure_object_model_figure_tensor_architecture_projectio_5b4fe4aa",
+            "figure_object_model_figure_edge_architecture_projection__7e1a12ce",
+            "figure_object_model_figure_edge_architecture_projection__6fd7ea28",
+            "figure_object_model_figure_edge_architecture_projection__5dfdb7b2",
+            "figure_object_model_figure_edge_architecture_projection__268cf45f",
+            "figure_object_model_figure_edge_architecture_projection__26657bfa"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_encoder_conditioned_conv1_8_9_9039a6e0",
+            "module_encoder_conditioned_conv1_9c5365b1",
+            "node_fx_add_11_b7b1b6d4",
+            "module_encoder_conditioned_conv1_9c5365b1:output:binding_node_fx_encoder_conditioned_conv1_8_9e0074_9f4ea8da",
+            "node_fx_add_11_b7b1b6d4:input:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_encoder_module_encoder_conditioned_c_84a8df96",
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_encoder_module_encoder_conditioned_c_84a8df96"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 10,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_723c7baa",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_add_11_b7b1b6d4_node_fx_add_1_20889d96"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__07152f17",
+            "figure_object_model_figure_tensor_architecture_projectio_3cc6cf37",
+            "figure_object_model_figure_node_architecture_projection__9f79016f",
+            "figure_object_model_figure_tensor_architecture_projectio_5b4fe4aa",
+            "figure_object_model_figure_edge_architecture_projection__7e1a12ce",
+            "figure_object_model_figure_edge_architecture_projection__6fd7ea28",
+            "figure_object_model_figure_edge_architecture_projection__5dfdb7b2",
+            "figure_object_model_figure_edge_architecture_projection__268cf45f",
+            "figure_object_model_figure_edge_architecture_projection__26657bfa"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_add_11_b7b1b6d4_node_fx_add_1_20889d96",
+            "node_fx_add_11_b7b1b6d4",
+            "node_fx_silu_12_e44a2ce5",
+            "node_fx_add_11_b7b1b6d4:output:0",
+            "node_fx_silu_12_e44a2ce5:input:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 11,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_75edf883",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_add_5_29_76722979_node_fx_add_4fce56c3"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__a5ac90ac",
+            "figure_object_model_figure_tensor_architecture_projectio_9f9fd272",
+            "figure_object_model_figure_node_architecture_projection__6b6dfff2",
+            "figure_object_model_figure_tensor_architecture_projectio_4f9a6a45",
+            "figure_object_model_figure_edge_architecture_projection__f73e1371"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_add_5_29_76722979_node_fx_add_4fce56c3",
+            "node_fx_add_5_29_76722979",
+            "module_denoised_output_91b07b8b",
+            "node_fx_add_5_29_76722979:output:0",
+            "module_denoised_output_91b07b8b:input:binding_node_fx_denoised_output_30_8a0d5da9_node_f_771ca5cc"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 12,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_81ff23ae",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_downsample_15_bd951e05_node_f_64d4651f"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__9f79016f",
+            "figure_object_model_figure_tensor_architecture_projectio_5b4fe4aa",
+            "figure_object_model_figure_node_architecture_projection__03efde04",
+            "figure_object_model_figure_tensor_architecture_projectio_83d5db54",
+            "figure_object_model_figure_edge_architecture_projection__2d82969b",
+            "figure_object_model_figure_edge_architecture_projection__cec568fd"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_downsample_15_bd951e05_node_f_64d4651f",
+            "module_downsample_fce0c560",
+            "module_bottleneck_d9c36240",
+            "module_downsample_fce0c560:output:binding_node_fx_downsample_15_bd951e05_node_fx_dow_e28b4282",
+            "module_bottleneck_d9c36240:input:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_5ffee9d0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 13,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_cf4ee8eb",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_add_4_26_e488c814_node_fx_add_17681f65"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__07152f17",
+            "figure_object_model_figure_tensor_architecture_projectio_3cc6cf37",
+            "figure_object_model_figure_node_architecture_projection__a5ac90ac",
+            "figure_object_model_figure_tensor_architecture_projectio_9f9fd272",
+            "figure_object_model_figure_edge_architecture_projection__7e1a12ce",
+            "figure_object_model_figure_edge_architecture_projection__5dfdb7b2",
+            "figure_object_model_figure_edge_architecture_projection__268cf45f",
+            "figure_object_model_figure_edge_architecture_projection__15729a10",
+            "figure_object_model_figure_edge_architecture_projection__94617287"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_add_4_26_e488c814_node_fx_add_17681f65",
+            "node_fx_add_4_26_e488c814",
+            "node_fx_silu_2_27_7a2864a4",
+            "node_fx_add_4_26_e488c814:output:0",
+            "node_fx_silu_2_27_7a2864a4:input:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 14,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "tube",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_d1f84eba",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "conditioning",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_224c21f0",
+              "module_edge_edge_node_fx_getitem_1_18_16efded9_node_fx_f0858e82",
+              "module_edge_edge_node_fx_getitem_2_25_18c74721_node_fx_d5f11ecf"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__07152f17",
+            "figure_object_model_figure_tensor_architecture_projectio_3cc6cf37",
+            "figure_object_model_figure_edge_architecture_projection__7e1a12ce",
+            "figure_object_model_figure_edge_architecture_projection__6fd7ea28",
+            "figure_object_model_figure_edge_architecture_projection__5dfdb7b2",
+            "figure_object_model_figure_edge_architecture_projection__5555145d",
+            "figure_object_model_figure_edge_architecture_projection__268cf45f",
+            "figure_object_model_figure_edge_architecture_projection__15729a10",
+            "figure_object_model_figure_edge_architecture_projection__26657bfa",
+            "figure_object_model_figure_edge_architecture_projection__cec568fd",
+            "figure_object_model_figure_edge_architecture_projection__94617287"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_224c21f0",
+            "module_edge_edge_node_fx_getitem_1_18_16efded9_node_fx_f0858e82",
+            "module_edge_edge_node_fx_getitem_2_25_18c74721_node_fx_d5f11ecf",
+            "node_fx_getitem_10_957ae78a",
+            "node_fx_getitem_1_18_16efded9",
+            "node_fx_getitem_2_25_18c74721",
+            "node_fx_add_11_b7b1b6d4",
+            "node_fx_add_2_19_cd19cadb",
+            "node_fx_add_4_26_e488c814",
+            "node_fx_getitem_10_957ae78a:output:0",
+            "node_fx_add_11_b7b1b6d4:input:1",
+            "node_fx_getitem_1_18_16efded9:output:0",
+            "node_fx_add_2_19_cd19cadb:input:1",
+            "node_fx_getitem_2_25_18c74721:output:0",
+            "node_fx_add_4_26_e488c814:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 15,
+      "name": "Timestep conditioning"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_d47bde38",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_bottleneck_16_d2370ead_node_f_1525caf6"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__07152f17",
+            "figure_object_model_figure_tensor_architecture_projectio_3cc6cf37",
+            "figure_object_model_figure_node_architecture_projection__03efde04",
+            "figure_object_model_figure_tensor_architecture_projectio_83d5db54",
+            "figure_object_model_figure_edge_architecture_projection__7e1a12ce",
+            "figure_object_model_figure_edge_architecture_projection__5dfdb7b2",
+            "figure_object_model_figure_edge_architecture_projection__5555145d",
+            "figure_object_model_figure_edge_architecture_projection__268cf45f",
+            "figure_object_model_figure_edge_architecture_projection__2d82969b",
+            "figure_object_model_figure_edge_architecture_projection__cec568fd"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_bottleneck_16_d2370ead_node_f_1525caf6",
+            "module_bottleneck_d9c36240",
+            "node_fx_add_2_19_cd19cadb",
+            "module_bottleneck_d9c36240:output:binding_node_fx_bottleneck_16_d2370ead_node_fx_bot_524a743f",
+            "node_fx_add_2_19_cd19cadb:input:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 16,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "tube",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_d85221bd",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "conditioning",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_224c21f0",
+              "module_edge_edge_node_fx_getitem_1_18_16efded9_node_fx_f0858e82",
+              "module_edge_edge_node_fx_getitem_2_25_18c74721_node_fx_d5f11ecf"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__07152f17",
+            "figure_object_model_figure_tensor_architecture_projectio_3cc6cf37",
+            "figure_object_model_figure_edge_architecture_projection__7e1a12ce",
+            "figure_object_model_figure_edge_architecture_projection__6fd7ea28",
+            "figure_object_model_figure_edge_architecture_projection__5dfdb7b2",
+            "figure_object_model_figure_edge_architecture_projection__5555145d",
+            "figure_object_model_figure_edge_architecture_projection__268cf45f",
+            "figure_object_model_figure_edge_architecture_projection__15729a10",
+            "figure_object_model_figure_edge_architecture_projection__26657bfa",
+            "figure_object_model_figure_edge_architecture_projection__cec568fd",
+            "figure_object_model_figure_edge_architecture_projection__94617287"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_224c21f0",
+            "module_edge_edge_node_fx_getitem_1_18_16efded9_node_fx_f0858e82",
+            "module_edge_edge_node_fx_getitem_2_25_18c74721_node_fx_d5f11ecf",
+            "node_fx_getitem_10_957ae78a",
+            "node_fx_getitem_1_18_16efded9",
+            "node_fx_getitem_2_25_18c74721",
+            "node_fx_add_11_b7b1b6d4",
+            "node_fx_add_2_19_cd19cadb",
+            "node_fx_add_4_26_e488c814",
+            "node_fx_getitem_10_957ae78a:output:0",
+            "node_fx_add_11_b7b1b6d4:input:1",
+            "node_fx_getitem_1_18_16efded9:output:0",
+            "node_fx_add_2_19_cd19cadb:input:1",
+            "node_fx_getitem_2_25_18c74721:output:0",
+            "node_fx_add_4_26_e488c814:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 17,
+      "name": "Timestep conditioning"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_f3aa80cf",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_add_1_14_7f14391f_node_fx_add_efbffefd"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__9f79016f",
+            "figure_object_model_figure_tensor_architecture_projectio_5b4fe4aa",
+            "figure_object_model_figure_node_architecture_projection__a5ac90ac",
+            "figure_object_model_figure_tensor_architecture_projectio_9f9fd272",
+            "figure_object_model_figure_edge_architecture_projection__70567c7e"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_add_1_14_7f14391f_node_fx_add_efbffefd",
+            "node_fx_add_1_14_7f14391f",
+            "node_fx_add_3_22_17489669",
+            "node_fx_add_1_14_7f14391f:output:0",
+            "node_fx_add_3_22_17489669:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 18,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_faad3af7",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_decoder_conditioned_conv1_23__8d740071"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__07152f17",
+            "figure_object_model_figure_tensor_architecture_projectio_3cc6cf37",
+            "figure_object_model_figure_node_architecture_projection__a5ac90ac",
+            "figure_object_model_figure_tensor_architecture_projectio_9f9fd272",
+            "figure_object_model_figure_edge_architecture_projection__7e1a12ce",
+            "figure_object_model_figure_edge_architecture_projection__5dfdb7b2",
+            "figure_object_model_figure_edge_architecture_projection__268cf45f",
+            "figure_object_model_figure_edge_architecture_projection__15729a10",
+            "figure_object_model_figure_edge_architecture_projection__94617287"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_decoder_conditioned_conv1_23__8d740071",
+            "module_decoder_conditioned_conv1_a8c0b742",
+            "node_fx_add_4_26_e488c814",
+            "module_decoder_conditioned_conv1_a8c0b742:output:binding_node_fx_decoder_conditioned_conv1_23_24ce4_7a570bcf",
+            "node_fx_add_4_26_e488c814:input:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_decoder_module_decoder_conditioned_c_1f7c3355",
+            "semantic_stage_unknown_module_bottleneck_d9c36240_m_58335703"
+          ],
+          "source_id": "semantic_stage_decoder_module_decoder_conditioned_c_1f7c3355"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 19,
+      "name": "Traced main flow"
+    },
+    {
+      "camera": 0,
+      "extras": {
+        "kind": "camera",
+        "objectId": "scene_camera_diffusionunet___module___architecture_evid_53e50e46"
+      },
+      "matrix": [
+        0.759256602,
+        0.0,
+        -0.650791373,
+        0.0,
+        -0.310252614,
+        0.879049073,
+        -0.361961383,
+        0.0,
+        0.572077554,
+        0.476731295,
+        0.667423812,
+        0.0,
+        12.0,
+        10.0,
+        14.0,
+        1.0
+      ],
+      "name": "DiffusionUNet · Module · Architecture Evidence 3D isometric camera"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "extras": {
+        "kind": "light",
+        "objectId": "scene_light_diffusionunet___module___architecture_evid_0841e000"
+      },
+      "name": "Key light",
+      "translation": [
+        8.0,
+        10.0,
+        12.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "activeCameraId": "scene_camera_diffusionunet___module___architecture_evid_53e50e46",
+        "sceneId": "scene_diffusionunet___module___architecture_evid_9d0c3da4",
+        "sourceDigest": "5216f877d110e7dd565fd715c4e296ea67c48de45c7a3772013aed5bd8e892de"
+      },
+      "name": "DiffusionUNet · Module · Architecture Evidence 3D",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    }
+  ]
+}

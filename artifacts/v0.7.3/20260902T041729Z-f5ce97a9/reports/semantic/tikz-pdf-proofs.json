@@ -1,0 +1,135 @@
+{
+  "case_count": 7,
+  "failures": [],
+  "proofs": [
+    {
+      "bytes": 22247,
+      "case": "bert_encoder",
+      "commands": [
+        {
+          "pass": 1,
+          "returncode": 0
+        },
+        {
+          "pass": 2,
+          "returncode": 0
+        }
+      ],
+      "pdf": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/tikz-pdf-proofs/bert_encoder/scene-tikz.pdf",
+      "pdf_sha256": "2eab117860773cd893fd4145dba0f841cc18624a02822f63c1a006b8888ce713",
+      "source": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/bert_encoder/scene.tex",
+      "source_sha256": "6ecf5cf042d02cf31bea6d21884ffca805f6f6a0279def8d7071637ac078345a"
+    },
+    {
+      "bytes": 21427,
+      "case": "diffusion_unet",
+      "commands": [
+        {
+          "pass": 1,
+          "returncode": 0
+        },
+        {
+          "pass": 2,
+          "returncode": 0
+        }
+      ],
+      "pdf": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/tikz-pdf-proofs/diffusion_unet/scene-tikz.pdf",
+      "pdf_sha256": "b9819e1b4bb096602140db3a36afac6e0b3d7b929a59bdd162fc2fe10f416453",
+      "source": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/diffusion_unet/scene.tex",
+      "source_sha256": "109aa980ffb510990fd4be427c661f17935b3678b1f8de0655bd299c001822d2"
+    },
+    {
+      "bytes": 20261,
+      "case": "image_text",
+      "commands": [
+        {
+          "pass": 1,
+          "returncode": 0
+        },
+        {
+          "pass": 2,
+          "returncode": 0
+        }
+      ],
+      "pdf": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/tikz-pdf-proofs/image_text/scene-tikz.pdf",
+      "pdf_sha256": "34aa65ccb7a0c0ef2037d85b883b15a1c0a9b1c420ddd89795a221d57d6f28ae",
+      "source": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/image_text/scene.tex",
+      "source_sha256": "906b6abf99172057a491636d8b22032f14677b2248630427403f3c40cd4163c3"
+    },
+    {
+      "bytes": 22365,
+      "case": "multiscale_unet",
+      "commands": [
+        {
+          "pass": 1,
+          "returncode": 0
+        },
+        {
+          "pass": 2,
+          "returncode": 0
+        }
+      ],
+      "pdf": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/tikz-pdf-proofs/multiscale_unet/scene-tikz.pdf",
+      "pdf_sha256": "ed5006a9338f680725ff451b31196424468a1de8c631ee536bef5a28f16adec1",
+      "source": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/multiscale_unet/scene.tex",
+      "source_sha256": "52044119858a0dc404e28bee86a170dd0cbdaf544cb35ea0257fe9cb67c98e1c"
+    },
+    {
+      "bytes": 22605,
+      "case": "resnet50",
+      "commands": [
+        {
+          "pass": 1,
+          "returncode": 0
+        },
+        {
+          "pass": 2,
+          "returncode": 0
+        }
+      ],
+      "pdf": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/tikz-pdf-proofs/resnet50/scene-tikz.pdf",
+      "pdf_sha256": "3dd716a03efdbaa7c36655dd49cc6aaee675d3cd81d65ba2a9885e064969154c",
+      "source": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/resnet50/scene.tex",
+      "source_sha256": "c45e8de9f6a89ef1f6cd846b557a2d2aee04cb5a14608996d7717a667c944323"
+    },
+    {
+      "bytes": 22661,
+      "case": "topk_moe",
+      "commands": [
+        {
+          "pass": 1,
+          "returncode": 0
+        },
+        {
+          "pass": 2,
+          "returncode": 0
+        }
+      ],
+      "pdf": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/tikz-pdf-proofs/topk_moe/scene-tikz.pdf",
+      "pdf_sha256": "d779b3863efbd0af32088320843480c14dffe272b6804bd470fce3fc5cbbcba5",
+      "source": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/topk_moe/scene.tex",
+      "source_sha256": "ec642638ddb64e5d1a43121e9db1bdd3850fc17e84bced6cac262de3d19892a5"
+    },
+    {
+      "bytes": 22579,
+      "case": "vision_transformer",
+      "commands": [
+        {
+          "pass": 1,
+          "returncode": 0
+        },
+        {
+          "pass": 2,
+          "returncode": 0
+        }
+      ],
+      "pdf": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/tikz-pdf-proofs/vision_transformer/scene-tikz.pdf",
+      "pdf_sha256": "8c20e7e1446759530de794f15dbccab6b35247990287296b40b2b97dff02a9d1",
+      "source": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/vision_transformer/scene.tex",
+      "source_sha256": "b56860506fcea18988261dde6bdd8e503381db8ffc1bbd0db6908c0bcea782b9"
+    }
+  ],
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "schema_version": "nndv-0.7.3-tikz-pdf-proofs-1",
+  "status": "PASS"
+}

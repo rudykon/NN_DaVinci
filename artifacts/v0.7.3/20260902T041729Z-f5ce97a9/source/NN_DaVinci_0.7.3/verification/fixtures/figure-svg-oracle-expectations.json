@@ -1,0 +1,230 @@
+{
+  "schema_version": "nndv-figure-svg-oracle-expectations-1",
+  "oracle": "figure-final-svg-chrome-v1",
+  "required_coverage": [
+    "positive",
+    "1000-character-caption",
+    "long-node-name",
+    "adjacent-shape-labels",
+    "local-6pt-style",
+    "text-translate-scale",
+    "textLength-compression",
+    "polyline-through-node",
+    "curve-through-tensor-polygon",
+    "caption-panel-clipping",
+    "panel-label-title-collision",
+    "hidden-text",
+    "transparent-text",
+    "zero-size-text",
+    "off-page-text",
+    "font-fallback",
+    "cjk-math",
+    "multipage-second-page-clipping",
+    "node-tensor-polygon-overlap",
+    "text-shape-collision",
+    "edge-crossing",
+    "marker-clipping",
+    "edge-panel-clipping",
+    "page-occupancy",
+    "off-page-object"
+  ],
+  "fixtures": {
+    "positive.svg": {
+      "expected_pass": true,
+      "expected_issue_counts": {},
+      "covers": ["positive"],
+      "assertions": [
+        {"path": "source.loaded_from_persisted_file", "op": "eq", "value": true},
+        {"path": "source.metadata_consulted", "op": "eq", "value": false},
+        {"path": "summary.text_count", "op": "eq", "value": 5},
+        {"path": "summary.marker_count", "op": "eq", "value": 1},
+        {"path": "summary.minimum_font_pt", "op": "ge", "value": 6.99},
+        {"path": "summary.minimum_horizontal_ctm_scale", "op": "ge", "value": 0.999},
+        {"path": "summary.minimum_vertical_ctm_scale", "op": "ge", "value": 0.999},
+        {"path": "occupancy.0.bbox_occupancy", "op": "between", "value": [0.2, 0.9]}
+      ]
+    },
+    "cjk-math-pass.svg": {
+      "expected_pass": true,
+      "expected_issue_counts": {},
+      "covers": ["positive", "cjk-math"],
+      "assertions": [
+        {"path": "summary.text_count", "op": "eq", "value": 2},
+        {"path": "summary.maximum_text_characters", "op": "ge", "value": 20},
+        {"path": "summary.fallback_text_count", "op": "eq", "value": 0},
+        {"path": "summary.minimum_font_pt", "op": "ge", "value": 7.99}
+      ]
+    },
+    "caption-1000.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"TEXT_PAGE_CLIP": 1, "TEXT_PANEL_CLIP": 1},
+      "covers": ["1000-character-caption"],
+      "assertions": [
+        {"path": "summary.maximum_text_characters", "op": "eq", "value": 1000},
+        {"path": "summary.visible_text_count", "op": "eq", "value": 1}
+      ]
+    },
+    "long-node-name.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"TEXT_OWNER_OVERFLOW": 1},
+      "covers": ["long-node-name"],
+      "assertions": [
+        {"path": "summary.maximum_text_characters", "op": "ge", "value": 70}
+      ]
+    },
+    "adjacent-shape-labels.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"TEXT_TEXT_COLLISION": 1},
+      "covers": ["adjacent-shape-labels"],
+      "assertions": [
+        {"path": "summary.text_count", "op": "eq", "value": 2},
+        {"path": "summary.shape_component_count", "op": "eq", "value": 2}
+      ]
+    },
+    "local-6pt-style.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"TEXT_FONT_TOO_SMALL": 1},
+      "covers": ["local-6pt-style"],
+      "assertions": [
+        {"path": "summary.minimum_font_pt", "op": "between", "value": [5.99, 6.01]}
+      ]
+    },
+    "text-translate-scale.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"TEXT_CTM_SCALE": 1, "TEXT_TRANSFORM_SHAPE": 1},
+      "covers": ["text-translate-scale"],
+      "assertions": [
+        {"path": "summary.minimum_horizontal_ctm_scale", "op": "between", "value": [0.54, 0.56]},
+        {"path": "summary.minimum_vertical_ctm_scale", "op": "between", "value": [0.99, 1.01]},
+        {"path": "summary.minimum_transform_shape", "op": "between", "value": [0.54, 0.56]}
+      ]
+    },
+    "textlength-compression.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"TEXT_GLYPH_COMPRESSION": 1},
+      "covers": ["textLength-compression"],
+      "assertions": [
+        {"path": "texts.0.glyph_advance_scale", "op": "lt", "value": 0.7},
+        {"path": "summary.minimum_horizontal_ctm_scale", "op": "between", "value": [0.99, 1.01]}
+      ]
+    },
+    "polyline-through-node.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"EDGE_SHAPE_COLLISION": 1},
+      "covers": ["polyline-through-node"],
+      "assertions": [
+        {"path": "summary.edge_count", "op": "eq", "value": 1},
+        {"path": "edges.0.flattened_point_count", "op": "eq", "value": 2}
+      ]
+    },
+    "curve-through-tensor.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"EDGE_SHAPE_COLLISION": 1},
+      "covers": ["curve-through-tensor-polygon"],
+      "assertions": [
+        {"path": "summary.edge_count", "op": "eq", "value": 1},
+        {"path": "edges.0.flattened_point_count", "op": "ge", "value": 8},
+        {"path": "shapes.0.tensor_face", "op": "eq", "value": "front"}
+      ]
+    },
+    "caption-outside-panel.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"TEXT_PANEL_CLIP": 1},
+      "covers": ["caption-panel-clipping"],
+      "assertions": [
+        {"path": "summary.text_count", "op": "eq", "value": 1}
+      ]
+    },
+    "panel-label-title-collision.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"PANEL_LABEL_TITLE_COLLISION": 1},
+      "covers": ["panel-label-title-collision"],
+      "assertions": [
+        {"path": "summary.text_count", "op": "eq", "value": 2}
+      ]
+    },
+    "hidden-transparent-zero-offpage.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {
+        "TEXT_HIDDEN": 1,
+        "TEXT_TRANSPARENT": 1,
+        "TEXT_ZERO_SIZE": 1,
+        "TEXT_OFF_PAGE": 1,
+        "TEXT_OFF_PANEL": 1
+      },
+      "covers": ["hidden-text", "transparent-text", "zero-size-text", "off-page-text"],
+      "assertions": [
+        {"path": "summary.hidden_text_count", "op": "eq", "value": 1},
+        {"path": "summary.transparent_text_count", "op": "eq", "value": 1},
+        {"path": "summary.zero_size_text_count", "op": "eq", "value": 2}
+      ]
+    },
+    "font-fallback.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"FONT_FALLBACK": 1},
+      "covers": ["font-fallback"],
+      "assertions": [
+        {"path": "summary.fallback_text_count", "op": "eq", "value": 1},
+        {"path": "font_set_status", "op": "eq", "value": "loaded"}
+      ]
+    },
+    "multipage-second-page-clip.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"TEXT_PAGE_CLIP": 1, "TEXT_OFF_PANEL": 1},
+      "covers": ["multipage-second-page-clipping"],
+      "assertions": [
+        {"path": "summary.page_count", "op": "eq", "value": 2},
+        {"path": "summary.panel_count", "op": "eq", "value": 2},
+        {"path": "occupancy.1.page_id", "op": "eq", "value": "page-2"}
+      ]
+    },
+    "node-tensor-overlap.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"SHAPE_SHAPE_OVERLAP": 1},
+      "covers": ["node-tensor-polygon-overlap"],
+      "assertions": [
+        {"path": "summary.shape_component_count", "op": "eq", "value": 2}
+      ]
+    },
+    "text-shape-collision.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"TEXT_SHAPE_COLLISION": 1},
+      "covers": ["text-shape-collision"],
+      "assertions": [
+        {"path": "summary.text_count", "op": "eq", "value": 1}
+      ]
+    },
+    "edge-crossing.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"EDGE_EDGE_CROSSING": 1},
+      "covers": ["edge-crossing"],
+      "assertions": [
+        {"path": "summary.edge_count", "op": "eq", "value": 2}
+      ]
+    },
+    "marker-clipped.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"EDGE_PANEL_CLIP": 1, "MARKER_PAGE_CLIP": 1, "MARKER_PANEL_CLIP": 1},
+      "covers": ["marker-clipping", "edge-panel-clipping"],
+      "assertions": [
+        {"path": "summary.marker_count", "op": "eq", "value": 1}
+      ]
+    },
+    "low-occupancy.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"PAGE_OCCUPANCY_LOW": 1},
+      "covers": ["page-occupancy"],
+      "assertions": [
+        {"path": "occupancy.0.bbox_occupancy", "op": "lt", "value": 0.001}
+      ]
+    },
+    "off-page-object.svg": {
+      "expected_pass": false,
+      "expected_issue_counts": {"OBJECT_OFF_PAGE": 1, "OBJECT_OFF_PANEL": 1},
+      "covers": ["off-page-object"],
+      "assertions": [
+        {"path": "summary.shape_component_count", "op": "eq", "value": 2}
+      ]
+    }
+  }
+}

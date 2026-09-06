@@ -1,0 +1,1959 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.1,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.1,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.05,
+        1.1,
+        1.1
+      ],
+      "min": [
+        -1.05,
+        -1.1,
+        -1.1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        1.2,
+        1.2
+      ],
+      "min": [
+        -0.9,
+        -1.2,
+        -1.2
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.05,
+        1.1,
+        1.1
+      ],
+      "min": [
+        -1.05,
+        -1.1,
+        -1.1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        8.5,
+        5.5,
+        4.0
+      ],
+      "min": [
+        -8.5,
+        -5.5,
+        -4.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -3.8,
+        3.0,
+        0.8
+      ],
+      "min": [
+        -7.0,
+        1.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -3.8,
+        1.376474331033568,
+        0.8790416642365209
+      ],
+      "min": [
+        -4.255187857533175,
+        1.0,
+        0.5394917891856548
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        1.0,
+        1.8
+      ],
+      "min": [
+        -3.8,
+        -1.3,
+        0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.0,
+        -0.9279633008709872,
+        1.8731479969094997
+      ],
+      "min": [
+        -0.4570861892153041,
+        -1.3,
+        1.5346719088675735
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        3.8,
+        1.0,
+        1.8
+      ],
+      "min": [
+        0.0,
+        -1.3,
+        0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        3.8,
+        1.0,
+        1.0653280911324265
+      ],
+      "min": [
+        3.342913810784696,
+        0.6279633008709871,
+        0.7268520030905004
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        7.0,
+        3.0,
+        0.8
+      ],
+      "min": [
+        3.8,
+        1.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        7.0,
+        3.0,
+        0.26050821081434533
+      ],
+      "min": [
+        6.544812142466824,
+        2.623525668966432,
+        -0.07904166423652088
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        1.2,
+        1.2
+      ],
+      "min": [
+        -0.9,
+        -1.2,
+        -1.2
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 23,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        3.8,
+        4.2,
+        4.0
+      ],
+      "min": [
+        0.0,
+        1.0,
+        0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 25,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        0.0,
+        4.2,
+        4.0
+      ],
+      "min": [
+        -3.8,
+        1.0,
+        0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 26,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.1,
+        0.7,
+        0.8
+      ],
+      "min": [
+        -1.1,
+        -0.7,
+        -0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 27,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 28,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        3.8,
+        2.8,
+        4.0
+      ],
+      "min": [
+        -3.8,
+        1.0,
+        0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 29,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        4.0249999999999995,
+        1.471876443146338,
+        1.4005700185498848
+      ],
+      "min": [
+        3.5749999999999997,
+        1.0,
+        0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 30,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "schemaVersion": "nndv-scene-gltf-1"
+    },
+    "generator": "NN_DaVinci Scene IR 1.0 deterministic exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 336,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 816,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1056,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1200,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1224,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1332,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1500,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1524,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1632,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1800,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1824,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1932,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2100,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2124,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2232,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 2400,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 2496,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36,
+      "byteOffset": 2640,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36,
+      "byteOffset": 2676,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 2712,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 2808,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 2952,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3000,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3108,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3276,
+      "uri": "data:application/octet-stream;base64,zcyMvwAAgL8AAIC/zcyMPwAAgL8AAIC/zcyMPwAAgD8AAIC/zcyMvwAAgD8AAIC/zcyMvwAAgL8AAIA/zcyMPwAAgL8AAIA/zcyMPwAAgD8AAIA/zcyMvwAAgD8AAIA/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAZmaGv83MjL/NzIy/ZmaGP83MjL/NzIy/ZmaGP83MjD/NzIy/ZmaGv83MjD/NzIy/ZmaGv83MjL/NzIw/ZmaGP83MjL/NzIw/ZmaGP83MjD/NzIw/ZmaGv83MjD/NzIw/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAZmZmv5qZmb+amZm/ZmZmP5qZmb+amZm/ZmZmP5qZmT+amZm/ZmZmv5qZmT+amZm/ZmZmv5qZmb+amZk/ZmZmP5qZmb+amZk/ZmZmP5qZmT+amZk/ZmZmv5qZmT+amZk/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAZmaGv83MjL/NzIy/ZmaGP83MjL/NzIy/ZmaGP83MjD/NzIy/ZmaGv83MjD/NzIy/ZmaGv83MjL/NzIw/ZmaGP83MjL/NzIw/ZmaGP83MjD/NzIw/ZmaGv83MjD/NzIw/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAA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"
+    }
+  ],
+  "cameras": [
+    {
+      "extras": {
+        "nndvProjection": "orthographic",
+        "objectId": "scene_camera_diffusion_unet_editable_3d_template_camera_7e18fe49"
+      },
+      "name": "diffusion-unet editable 3D template isometric camera",
+      "orthographic": {
+        "xmag": 13.5,
+        "ymag": 9.0,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "orthographic"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "extras": {
+            "nndvLight": {
+              "color": "#ffffff",
+              "direction": [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              "id": "scene_light_diffusion_unet_editable_3d_template_light__3097107f",
+              "intensity": 1.0,
+              "kind": "directional",
+              "locked": false,
+              "metadata": {},
+              "name": "Key light",
+              "position": [
+                8.0,
+                10.0,
+                12.0
+              ],
+              "visible": true
+            },
+            "objectId": "scene_light_diffusion_unet_editable_3d_template_light__3097107f"
+          },
+          "intensity": 1.0,
+          "name": "Key light",
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#c4b5fdff",
+        "nndvMaterial": {
+          "base_color": "#c4b5fd",
+          "face_colors": {
+            "front": "#c4b5fd",
+            "top": "#c4b5fd"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_diffusion_unet_bottleneck_0cf844e1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7686275,
+          0.7098039,
+          0.9921569,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#a7f3d0ff",
+        "nndvMaterial": {
+          "base_color": "#a7f3d0",
+          "face_colors": {
+            "front": "#a7f3d0",
+            "top": "#a7f3d0"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_diffusion_unet_decoder_271a11ff",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.654902,
+          0.9529412,
+          0.8156863,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#bfdbfeff",
+        "nndvMaterial": {
+          "base_color": "#bfdbfe",
+          "face_colors": {
+            "front": "#bfdbfe",
+            "top": "#bfdbfe"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_diffusion_unet_denoised_1ef60736",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7490196,
+          0.8588235,
+          0.9960784,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#93c5fdff",
+        "nndvMaterial": {
+          "base_color": "#93c5fd",
+          "face_colors": {
+            "front": "#93c5fd",
+            "top": "#93c5fd"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_diffusion_unet_encoder_be6c2383",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5764706,
+          0.772549,
+          0.9921569,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#f8fafcff",
+        "nndvMaterial": {
+          "base_color": "#f8fafc",
+          "face_colors": {
+            "front": "#f8fafc",
+            "top": "#f8fafc"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_diffusion_unet_geometry_leg_ee4cc7fc",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.972549,
+          0.9803922,
+          0.9882353,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#e2e8f0ff",
+        "nndvMaterial": {
+          "base_color": "#e2e8f0",
+          "face_colors": {
+            "front": "#e2e8f0",
+            "top": "#e2e8f0"
+          },
+          "metallic": 0.0,
+          "opacity": 0.025,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_diffusion_unet_group_frame_e6510fd3",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8862745,
+          0.9098039,
+          0.9411765,
+          0.025
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#475569ff",
+        "nndvMaterial": {
+          "base_color": "#475569",
+          "face_colors": {
+            "front": "#475569",
+            "top": "#475569"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#475569",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_diffusion_unet_main_0_37d3f5a1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2784314,
+          0.3333333,
+          0.4117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#fbbf24ff",
+        "nndvMaterial": {
+          "base_color": "#fbbf24",
+          "face_colors": {
+            "front": "#fbbf24",
+            "top": "#fbbf24"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#fbbf24",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_diffusion_unet_time_decoder_9dae0df1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9843137,
+          0.7490196,
+          0.1411765,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#ef4444ff",
+        "nndvMaterial": {
+          "base_color": "#ef4444",
+          "face_colors": {
+            "front": "#ef4444",
+            "top": "#ef4444"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#ef4444",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_diffusion_unet_unet_skip_c8fa2bb5",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9372549,
+          0.2666667,
+          0.2666667,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_bottleneck_0cf844e1"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_bottleneck_0cf844e1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_decoder_271a11ff"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_decoder_271a11ff",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_denoised_1ef60736"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_denoised_1ef60736",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_encoder_be6c2383"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_encoder_be6c2383",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "indices": 7,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_group_frame_e6510fd3"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_group_frame_e6510fd3",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "indices": 9,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_main_0_37d3f5a1"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_main_0_37d3f5a1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 11
+          },
+          "indices": 12,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_main_1_b9473125"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_main_1_b9473125",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 14
+          },
+          "indices": 15,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_main_2_080331af"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_main_2_080331af",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 17
+          },
+          "indices": 18,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_main_3_c95ba36b"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_main_3_c95ba36b",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 19
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 20
+          },
+          "indices": 21,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_noisy_latent_1f256134"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_noisy_latent_1f256134",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 22
+          },
+          "indices": 23,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_time_decoder_9dae0df1"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_time_decoder_9dae0df1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 24
+          },
+          "material": 7,
+          "mode": 3
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_time_encoder_77d81dc0"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_time_encoder_77d81dc0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25
+          },
+          "material": 7,
+          "mode": 3
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_timestep_2d5d3a0f"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_timestep_2d5d3a0f",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26
+          },
+          "indices": 27,
+          "material": 7,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_diffusion_unet_unet_skip_c8fa2bb5"
+      },
+      "name": "Mesh scene_object_scene_template_diffusion_unet_unet_skip_c8fa2bb5",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 28
+          },
+          "material": 8,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 29
+          },
+          "indices": 30,
+          "material": 8,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_bottleneck_0cf844e1",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:bottleneck"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.3,
+        1.8,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Bottleneck"
+    },
+    {
+      "extras": {
+        "kind": "upsample",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_decoder_271a11ff",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:decoder"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3.8,
+        1.0,
+        0.8,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Conditioned decoder"
+    },
+    {
+      "extras": {
+        "kind": "tensor-volume",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_denoised_1ef60736",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:denoised"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        7.0,
+        3.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "Denoised output"
+    },
+    {
+      "extras": {
+        "kind": "downsample",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_encoder_be6c2383",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:encoder"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3.8,
+        1.0,
+        0.8,
+        1.0
+      ],
+      "mesh": 3,
+      "name": "Conditioned encoder"
+    },
+    {
+      "extras": {
+        "geometry": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            10.0,
+            0.5,
+            0.2
+          ],
+          "text": "3D depth and thickness are editable visual mappings, not literal tensor dimensions."
+        },
+        "kind": "legend",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_geometry_leg_ee4cc7fc",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:geometry-legend"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -5.0,
+        0.0,
+        1.0
+      ],
+      "name": "Geometry mapping legend"
+    },
+    {
+      "extras": {
+        "kind": "group-frame",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_group_frame_e6510fd3",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:group-frame"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 4,
+      "name": "Architecture group frame"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_main_0_37d3f5a1",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:main-0"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 5,
+      "name": "Denoising path"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_main_1_b9473125",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:main-1"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 6,
+      "name": "Denoising path"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_main_2_080331af",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:main-2"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 7,
+      "name": "Denoising path"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_main_3_c95ba36b",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:main-3"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 8,
+      "name": "Denoising path"
+    },
+    {
+      "extras": {
+        "kind": "tensor-volume",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_noisy_latent_1f256134",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:noisy-latent"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -7.0,
+        3.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 9,
+      "name": "Noisy latent"
+    },
+    {
+      "extras": {
+        "kind": "polyline",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_time_decoder_9dae0df1",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:time-decoder"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 10,
+      "name": "Timestep conditions decoder"
+    },
+    {
+      "extras": {
+        "kind": "polyline",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_time_encoder_77d81dc0",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:time-encoder"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 11,
+      "name": "Timestep conditions encoder"
+    },
+    {
+      "extras": {
+        "kind": "timestep-conditioning",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_timestep_2d5d3a0f",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:timestep"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        4.2,
+        4.0,
+        1.0
+      ],
+      "mesh": 12,
+      "name": "Timestep embedding"
+    },
+    {
+      "extras": {
+        "kind": "unet-skip",
+        "locked": false,
+        "objectId": "scene_object_scene_template_diffusion_unet_unet_skip_c8fa2bb5",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:diffusion-unet:unet-skip"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 13,
+      "name": "Diffusion U-Net skip"
+    },
+    {
+      "camera": 0,
+      "extras": {
+        "kind": "camera",
+        "objectId": "scene_camera_diffusion_unet_editable_3d_template_camera_7e18fe49"
+      },
+      "matrix": [
+        0.759256602,
+        0.0,
+        -0.650791373,
+        0.0,
+        -0.310252614,
+        0.879049073,
+        -0.361961383,
+        0.0,
+        0.572077554,
+        0.476731295,
+        0.667423812,
+        0.0,
+        12.0,
+        10.0,
+        14.0,
+        1.0
+      ],
+      "name": "diffusion-unet editable 3D template isometric camera"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "extras": {
+        "kind": "light",
+        "objectId": "scene_light_diffusion_unet_editable_3d_template_light__3097107f"
+      },
+      "name": "Key light",
+      "translation": [
+        8.0,
+        10.0,
+        12.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "activeCameraId": "scene_camera_diffusion_unet_editable_3d_template_camera_7e18fe49",
+        "sceneId": "scene_diffusion_unet_editable_3d_template_6aee4962",
+        "sourceDigest": "fec14eebe89d70f03bbbdb5d4b0061d9f33f7693f5f92298dd2a972fb21820cc"
+      },
+      "name": "diffusion-unet editable 3D template",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  ]
+}

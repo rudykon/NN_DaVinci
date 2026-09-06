@@ -1,0 +1,637 @@
+{
+  "after": {
+    "fresh_current_output": true,
+    "release": "0.7.3"
+  },
+  "before": {
+    "read_only": true,
+    "release": "0.7.2",
+    "run_id": "20260901T142604Z-010606e8"
+  },
+  "case_count": 14,
+  "cases": [
+    {
+      "after": {
+        "bytes": 55019,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "0492379a8d927a2eb5c86e11a01a8c93520530cb5f6a90a8bef5c644adc4e1a5",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 55019,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "0492379a8d927a2eb5c86e11a01a8c93520530cb5f6a90a8bef5c644adc4e1a5",
+        "width": 2126
+      },
+      "case": "templates:cnn",
+      "changed": false,
+      "comparison": {
+        "bytes": 81955,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "c32a7eeb0f522a12dcdf34c5f22cf1137219c6b044f0257a3f018d56a475dc6d",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "templates/cnn/after-0.7.3.png",
+        "before": "templates/cnn/before-0.7.2.png",
+        "comparison": "templates/cnn/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 50978,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "5a4b43f73c702582055bf6db3c4486e95ec4bfc9fafedc4df9a906604638e512",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 50978,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "5a4b43f73c702582055bf6db3c4486e95ec4bfc9fafedc4df9a906604638e512",
+        "width": 2126
+      },
+      "case": "templates:resnet",
+      "changed": false,
+      "comparison": {
+        "bytes": 79009,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "4b5709a1ce918b7998ca8ce5a348e1523024ae20b80fc66cfa70f64aaacb3faf",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "templates/resnet/after-0.7.3.png",
+        "before": "templates/resnet/before-0.7.2.png",
+        "comparison": "templates/resnet/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 49798,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "77e0ed3277f5b0b2c59179c4c0bec45c67d68074dffdd17e4fd7f97fc028cb36",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 49798,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "77e0ed3277f5b0b2c59179c4c0bec45c67d68074dffdd17e4fd7f97fc028cb36",
+        "width": 2126
+      },
+      "case": "templates:unet",
+      "changed": false,
+      "comparison": {
+        "bytes": 77084,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "42ae5e05c28e87c29f7d5521ee21d3601cfd90829e9be07505b719cdc5f44cdb",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "templates/unet/after-0.7.3.png",
+        "before": "templates/unet/before-0.7.2.png",
+        "comparison": "templates/unet/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 60444,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "9ad4354488aa12e6e10f397c41a3fc195e86ab39f81a2619cd982e65a012a7fd",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 60444,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "9ad4354488aa12e6e10f397c41a3fc195e86ab39f81a2619cd982e65a012a7fd",
+        "width": 2126
+      },
+      "case": "templates:transformer",
+      "changed": false,
+      "comparison": {
+        "bytes": 89285,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "3d00153379db14ff75d4a252ebcdc54ffbc9836a8371f8eb3644cac5585a1ec5",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "templates/transformer/after-0.7.3.png",
+        "before": "templates/transformer/before-0.7.2.png",
+        "comparison": "templates/transformer/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 58360,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "a36cfb71524f76226c3b3a152ab5bedb5545fe2f0b0a1eb17c3a92009a18fc0e",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 58360,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "a36cfb71524f76226c3b3a152ab5bedb5545fe2f0b0a1eb17c3a92009a18fc0e",
+        "width": 2126
+      },
+      "case": "templates:moe",
+      "changed": false,
+      "comparison": {
+        "bytes": 85931,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "54ffe09d179b2669cf178f222df4e8db18450265b7ff43fb6a7db1cc6960753b",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "templates/moe/after-0.7.3.png",
+        "before": "templates/moe/before-0.7.2.png",
+        "comparison": "templates/moe/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 55296,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "e4c1107347d7da674444f7ebd860f168d6ca071628cbc9cb165f87cb1570de2c",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 55296,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "e4c1107347d7da674444f7ebd860f168d6ca071628cbc9cb165f87cb1570de2c",
+        "width": 2126
+      },
+      "case": "templates:multimodal-fusion",
+      "changed": false,
+      "comparison": {
+        "bytes": 83485,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "72c44ec50ffe72eefe4a3eea22729c57ed370351e00026c8b6ee66c08d6cbf14",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "templates/multimodal-fusion/after-0.7.3.png",
+        "before": "templates/multimodal-fusion/before-0.7.2.png",
+        "comparison": "templates/multimodal-fusion/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 59511,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "fd45df305507e514c7558ce94bf174b7c0a31d4b9e550ccf962bd937f3ec0efc",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 59511,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "fd45df305507e514c7558ce94bf174b7c0a31d4b9e550ccf962bd937f3ec0efc",
+        "width": 2126
+      },
+      "case": "templates:diffusion-unet",
+      "changed": false,
+      "comparison": {
+        "bytes": 88275,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "746324f28d7f633062e50de1202adb9df3a166998dbb00f80c64aee16eb641d5",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "templates/diffusion-unet/after-0.7.3.png",
+        "before": "templates/diffusion-unet/before-0.7.2.png",
+        "comparison": "templates/diffusion-unet/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 64296,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "99c3abb2d7d4ff7ee0bbf71491aa7cd04bf0371c8af3b85ce57fcc02f19ec9d7",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 60964,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "0a4cf53d63117ee9353669591609acfcc223eb6949c57bc9cfc7d31c97b215ed",
+        "width": 2126
+      },
+      "case": "real-models:resnet50",
+      "changed": true,
+      "comparison": {
+        "bytes": 126368,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "5bc0bce2f23ae4a7043e940815e8a143decc3bee4235d3d3468e89f6e060d4e1",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "real-models/resnet50/after-0.7.3.png",
+        "before": "real-models/resnet50/before-0.7.2.png",
+        "comparison": "real-models/resnet50/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 52846,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "3ee73f1a8690e27da77b3235bdfaa7182693bb6ac03762ae80e0b0999a91aece",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 44689,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "0124b875c4f45b4e8e043bed5cbf2711c9602c7c431e59b0a7fa80d97c9b88fa",
+        "width": 2126
+      },
+      "case": "real-models:vision_transformer",
+      "changed": true,
+      "comparison": {
+        "bytes": 101685,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "190d58e1a6ed5fff9dfeaeee8792f0b6d2ae86227cd7a7fd5b46f4bce974e089",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "real-models/vision_transformer/after-0.7.3.png",
+        "before": "real-models/vision_transformer/before-0.7.2.png",
+        "comparison": "real-models/vision_transformer/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 52065,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "0363b9b20123c3242b82e8ca90b5414fc05a71863c7bf82a54e57d839e83e9b7",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 45633,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "b6f9f3d72dd45f50667606ac9eeb93f995c6c9ab8e2574df2e5b62cdbbd539ee",
+        "width": 2126
+      },
+      "case": "real-models:bert_encoder",
+      "changed": true,
+      "comparison": {
+        "bytes": 95559,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "7d688603c284d5108b026dcaf66c65debb88e15c8dbbaa561b53a9619bdaa34a",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "real-models/bert_encoder/after-0.7.3.png",
+        "before": "real-models/bert_encoder/before-0.7.2.png",
+        "comparison": "real-models/bert_encoder/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 67310,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "f747c8ec990a4e245e8c5989a39724645e4c1da48eae45767162e349e7d6c299",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 58667,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "ade498da7c647e8bad5f7a4ebeb753c0b900640f500cc0d3dda823d9186075da",
+        "width": 2126
+      },
+      "case": "real-models:multiscale_unet",
+      "changed": true,
+      "comparison": {
+        "bytes": 124876,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "485d9f1c85373ad17dba66b7d404bedb8b409e51b2383f45b51cee2b3c6b8dbe",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "real-models/multiscale_unet/after-0.7.3.png",
+        "before": "real-models/multiscale_unet/before-0.7.2.png",
+        "comparison": "real-models/multiscale_unet/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 57049,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "a4ac6dae1200e7647e5ff5d94a1e1eaafa019b8f808f172c6a229753c0ac882b",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 45821,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "c1be37ae6a3e91e09cdc238f674d6565dcadea0314b3c3ec8d3de438fec9d4e8",
+        "width": 2126
+      },
+      "case": "real-models:diffusion_unet",
+      "changed": true,
+      "comparison": {
+        "bytes": 107097,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "86305803729cd24398bec7bd1f66bfa2bb33228a6a18073ceaa8bc4d60f1bce4",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "real-models/diffusion_unet/after-0.7.3.png",
+        "before": "real-models/diffusion_unet/before-0.7.2.png",
+        "comparison": "real-models/diffusion_unet/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 52476,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "4b1d17f92791b0b27bacc640a5d0f45a04071cc4232e82293e246c9c7c9f35ef",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 45417,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "2b5cf9dd6535e097de584fddbd7accee1d1fb590643e593837ca50db272888d1",
+        "width": 2126
+      },
+      "case": "real-models:topk_moe",
+      "changed": true,
+      "comparison": {
+        "bytes": 101565,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "511a7e2e5340477364355e09b2ac638c91ba5533b06f19a7b454cec4a1cf2778",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "real-models/topk_moe/after-0.7.3.png",
+        "before": "real-models/topk_moe/before-0.7.2.png",
+        "comparison": "real-models/topk_moe/before-after.png"
+      },
+      "status": "PASS"
+    },
+    {
+      "after": {
+        "bytes": 46520,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "0e25f69ef0db495a2dd139f17298a740ab909d36e263da6483b28e6e5a493dbc",
+        "width": 2126
+      },
+      "before": {
+        "bytes": 47893,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1417,
+        "mode": "RGBA",
+        "sha256": "ccb4c591fd8ceed571d0bd4cd14023ef5bd45b789f2219eadf4703e0493872ca",
+        "width": 2126
+      },
+      "case": "real-models:image_text",
+      "changed": true,
+      "comparison": {
+        "bytes": 99151,
+        "dpi": [
+          299.999,
+          299.999
+        ],
+        "height": 1529,
+        "mode": "RGB",
+        "sha256": "2a6adf68c3c5f82a28cfdef19abb4b4acbe944c2407301c7bbd41a68db96fca0",
+        "width": 4288
+      },
+      "failures": [],
+      "paths": {
+        "after": "real-models/image_text/after-0.7.3.png",
+        "before": "real-models/image_text/before-0.7.2.png",
+        "comparison": "real-models/image_text/before-after.png"
+      },
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "generated_at": "2026-09-02T04:21:35.693760+00:00",
+  "original_pixels_preserved": true,
+  "proof_png_count": 42,
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "schema_version": "nndv-0.7.3-scene-before-after-report-1",
+  "status": "PASS"
+}

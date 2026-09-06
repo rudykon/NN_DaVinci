@@ -1,0 +1,11 @@
+{
+  "name": "LSTM Sequence Model",
+  "layers": [
+    {"name": "Token Sequence", "type": "Input", "category": "input", "outputs": [[1, 12, 64]]},
+    {"name": "Embedding", "type": "Embedding", "category": "embedding", "parameters": 64000, "inputs": [[1, 12]], "outputs": [[1, 12, 64]]},
+    {"name": "Recurrent Memory", "type": "LSTM", "parameters": 33024, "inputs": [[1, 12, 64]], "outputs": [[1, 12, 128]], "tags": ["recurrent"]},
+    {"name": "Sequence Head", "type": "Linear", "category": "linear", "parameters": 1290, "inputs": [[1, 128]], "outputs": [[1, 10]]},
+    {"name": "Prediction", "type": "Output", "category": "output", "inputs": [[1, 10]]}
+  ],
+  "groups": [{"name": "Temporal Encoder", "nodes": ["Embedding", "Recurrent Memory"], "level": "stage"}]
+}

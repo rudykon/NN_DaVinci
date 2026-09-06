@@ -1,0 +1,1769 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.9,
+        0.9
+      ],
+      "min": [
+        -1.0,
+        -0.9,
+        -0.9
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        1.1,
+        1.1
+      ],
+      "min": [
+        -0.9,
+        -1.1,
+        -1.1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        1.1,
+        1.1
+      ],
+      "min": [
+        -0.9,
+        -1.1,
+        -1.1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        1.1,
+        1.1
+      ],
+      "min": [
+        -0.9,
+        -1.1,
+        -1.1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        1.1,
+        1.1
+      ],
+      "min": [
+        -0.9,
+        -1.1,
+        -1.1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        8.5,
+        5.5,
+        4.0
+      ],
+      "min": [
+        -8.5,
+        -5.5,
+        -4.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -3.4,
+        3.2,
+        0.8
+      ],
+      "min": [
+        -6.0,
+        1.3,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -3.4,
+        1.6939871789279266,
+        0.8617802909575317
+      ],
+      "min": [
+        -3.8469283020539624,
+        1.3,
+        0.5272576379048491
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        1.3,
+        1.8
+      ],
+      "min": [
+        -3.4,
+        -1.2,
+        0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.0,
+        -0.8048116338851982,
+        1.8670139367945033
+      ],
+      "min": [
+        -0.44632236945359555,
+        -1.2,
+        1.5312360112445584
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        3.4,
+        1.3,
+        1.8
+      ],
+      "min": [
+        0.0,
+        -1.2,
+        0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        3.4,
+        1.3,
+        1.0687639887554417
+      ],
+      "min": [
+        2.9536776305464043,
+        0.9048116338851983,
+        0.732986063205497
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        6.0,
+        3.2,
+        0.8
+      ],
+      "min": [
+        3.4,
+        1.3,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        6.0,
+        3.2,
+        0.2727423620951509
+      ],
+      "min": [
+        5.553071697946038,
+        2.8060128210720734,
+        -0.06178029095753165
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 23,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        6.0,
+        3.2,
+        0.0
+      ],
+      "min": [
+        -6.0,
+        3.2,
+        -2.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 25,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        6.225,
+        3.4250000000000003,
+        0.0
+      ],
+      "min": [
+        5.775,
+        2.975,
+        -0.5625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 26,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 27,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        3.4,
+        1.3,
+        0.8
+      ],
+      "min": [
+        -3.4,
+        1.3,
+        -3.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 28,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        3.625,
+        1.525,
+        0.8
+      ],
+      "min": [
+        3.175,
+        1.0750000000000002,
+        0.23750000000000004
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 29,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "schemaVersion": "nndv-scene-gltf-1"
+    },
+    "generator": "NN_DaVinci Scene IR 1.0 deterministic exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 336,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 816,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1056,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1200,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1296,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1440,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1464,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1572,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1740,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1764,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1872,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2064,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2172,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2340,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2364,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2472,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 2640,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2688,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2796,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 2964,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3012,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3120,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3288,
+      "uri": "data:application/octet-stream;base64,AACAv2ZmZr9mZma/AACAP2ZmZr9mZma/AACAP2ZmZj9mZma/AACAv2ZmZj9mZma/AACAv2ZmZr9mZmY/AACAP2ZmZr9mZmY/AACAP2ZmZj9mZmY/AACAv2ZmZj9mZmY/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAZmZmv83MjL/NzIy/ZmZmP83MjL/NzIy/ZmZmP83MjD/NzIy/ZmZmv83MjD/NzIy/ZmZmv83MjL/NzIw/ZmZmP83MjL/NzIw/ZmZmP83MjD/NzIw/ZmZmv83MjD/NzIw/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAZmZmv83MjL/NzIy/ZmZmP83MjL/NzIy/ZmZmP83MjD/NzIy/ZmZmv83MjD/NzIy/ZmZmv83MjL/NzIw/ZmZmP83MjL/NzIw/ZmZmP83MjD/NzIw/ZmZmv83MjD/NzIw/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAZmZmv83MjL/NzIy/ZmZmP83MjL/NzIy/ZmZmP83MjD/NzIy/ZmZmv83MjD/NzIy/ZmZmv83MjL/NzIw/ZmZmP83MjL/NzIw/ZmZmP83MjD/NzIw/ZmZmv83MjD/NzIw/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAA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"
+    }
+  ],
+  "cameras": [
+    {
+      "extras": {
+        "nndvProjection": "orthographic",
+        "objectId": "scene_camera_unet_editable_3d_template_camera_isometric_8e3e8925"
+      },
+      "name": "unet editable 3D template isometric camera",
+      "orthographic": {
+        "xmag": 13.5,
+        "ymag": 9.0,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "orthographic"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "extras": {
+            "nndvLight": {
+              "color": "#ffffff",
+              "direction": [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              "id": "scene_light_unet_editable_3d_template_light_key_c521ed62",
+              "intensity": 1.0,
+              "kind": "directional",
+              "locked": false,
+              "metadata": {},
+              "name": "Key light",
+              "position": [
+                8.0,
+                10.0,
+                12.0
+              ],
+              "visible": true
+            },
+            "objectId": "scene_light_unet_editable_3d_template_light_key_c521ed62"
+          },
+          "intensity": 1.0,
+          "name": "Key light",
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#c4b5fdff",
+        "nndvMaterial": {
+          "base_color": "#c4b5fd",
+          "face_colors": {
+            "front": "#c4b5fd",
+            "top": "#c4b5fd"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_unet_bottleneck_bb972d42",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7686275,
+          0.7098039,
+          0.9921569,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#a7f3d0ff",
+        "nndvMaterial": {
+          "base_color": "#a7f3d0",
+          "face_colors": {
+            "front": "#a7f3d0",
+            "top": "#a7f3d0"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_unet_dec_1_58eceb1c",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.654902,
+          0.9529412,
+          0.8156863,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#93c5fdff",
+        "nndvMaterial": {
+          "base_color": "#93c5fd",
+          "face_colors": {
+            "front": "#93c5fd",
+            "top": "#93c5fd"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_unet_enc_1_4bb8aef9",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5764706,
+          0.772549,
+          0.9921569,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#f8fafcff",
+        "nndvMaterial": {
+          "base_color": "#f8fafc",
+          "face_colors": {
+            "front": "#f8fafc",
+            "top": "#f8fafc"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_unet_geometry_legend_120564ac",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.972549,
+          0.9803922,
+          0.9882353,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#e2e8f0ff",
+        "nndvMaterial": {
+          "base_color": "#e2e8f0",
+          "face_colors": {
+            "front": "#e2e8f0",
+            "top": "#e2e8f0"
+          },
+          "metallic": 0.0,
+          "opacity": 0.025,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_unet_group_frame_bb240845",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8862745,
+          0.9098039,
+          0.9411765,
+          0.025
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#475569ff",
+        "nndvMaterial": {
+          "base_color": "#475569",
+          "face_colors": {
+            "front": "#475569",
+            "top": "#475569"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#475569",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_unet_main_0_77c4f293",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2784314,
+          0.3333333,
+          0.4117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#ef4444ff",
+        "nndvMaterial": {
+          "base_color": "#ef4444",
+          "face_colors": {
+            "front": "#ef4444",
+            "top": "#ef4444"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#ef4444",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_unet_skip_0_8cd1c395",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9372549,
+          0.2666667,
+          0.2666667,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_bottleneck_bb972d42"
+      },
+      "name": "Mesh scene_object_scene_template_unet_bottleneck_bb972d42",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_dec_1_58eceb1c"
+      },
+      "name": "Mesh scene_object_scene_template_unet_dec_1_58eceb1c",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_dec_2_57c3fe05"
+      },
+      "name": "Mesh scene_object_scene_template_unet_dec_2_57c3fe05",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_enc_1_4bb8aef9"
+      },
+      "name": "Mesh scene_object_scene_template_unet_enc_1_4bb8aef9",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "indices": 7,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_enc_2_82b4b36d"
+      },
+      "name": "Mesh scene_object_scene_template_unet_enc_2_82b4b36d",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "indices": 9,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_group_frame_bb240845"
+      },
+      "name": "Mesh scene_object_scene_template_unet_group_frame_bb240845",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10
+          },
+          "indices": 11,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_main_0_77c4f293"
+      },
+      "name": "Mesh scene_object_scene_template_unet_main_0_77c4f293",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12
+          },
+          "material": 5,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 13
+          },
+          "indices": 14,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_main_1_20120a61"
+      },
+      "name": "Mesh scene_object_scene_template_unet_main_1_20120a61",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15
+          },
+          "material": 5,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 16
+          },
+          "indices": 17,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_main_2_764ef70a"
+      },
+      "name": "Mesh scene_object_scene_template_unet_main_2_764ef70a",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 18
+          },
+          "material": 5,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 19
+          },
+          "indices": 20,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_main_3_5b248fa0"
+      },
+      "name": "Mesh scene_object_scene_template_unet_main_3_5b248fa0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21
+          },
+          "material": 5,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 22
+          },
+          "indices": 23,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_skip_0_8cd1c395"
+      },
+      "name": "Mesh scene_object_scene_template_unet_skip_0_8cd1c395",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 24
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 25
+          },
+          "indices": 26,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_unet_skip_1_ac1a90bb"
+      },
+      "name": "Mesh scene_object_scene_template_unet_skip_1_ac1a90bb",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 27
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 28
+          },
+          "indices": 29,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_bottleneck_bb972d42",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:bottleneck"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.2,
+        1.8,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Bottleneck"
+    },
+    {
+      "extras": {
+        "kind": "upsample",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_dec_1_58eceb1c",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:dec-1"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        6.0,
+        3.2,
+        0.0,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Decoder 1"
+    },
+    {
+      "extras": {
+        "kind": "upsample",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_dec_2_57c3fe05",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:dec-2"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3.4,
+        1.3,
+        0.8,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "Decoder 2"
+    },
+    {
+      "extras": {
+        "kind": "downsample",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_enc_1_4bb8aef9",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:enc-1"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -6.0,
+        3.2,
+        0.0,
+        1.0
+      ],
+      "mesh": 3,
+      "name": "Encoder 1"
+    },
+    {
+      "extras": {
+        "kind": "downsample",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_enc_2_82b4b36d",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:enc-2"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3.4,
+        1.3,
+        0.8,
+        1.0
+      ],
+      "mesh": 4,
+      "name": "Encoder 2"
+    },
+    {
+      "extras": {
+        "geometry": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            10.0,
+            0.5,
+            0.2
+          ],
+          "text": "3D depth and thickness are editable visual mappings, not literal tensor dimensions."
+        },
+        "kind": "legend",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_geometry_legend_120564ac",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:geometry-legend"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -5.0,
+        0.0,
+        1.0
+      ],
+      "name": "Geometry mapping legend"
+    },
+    {
+      "extras": {
+        "kind": "group-frame",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_group_frame_bb240845",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:group-frame"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 5,
+      "name": "Architecture group frame"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_main_0_77c4f293",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:main-0"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 6,
+      "name": "U-Net main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_main_1_20120a61",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:main-1"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 7,
+      "name": "U-Net main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_main_2_764ef70a",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:main-2"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 8,
+      "name": "U-Net main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_main_3_5b248fa0",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:main-3"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 9,
+      "name": "U-Net main flow"
+    },
+    {
+      "extras": {
+        "kind": "unet-skip",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_skip_0_8cd1c395",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:skip-0"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 10,
+      "name": "Cross-level skip"
+    },
+    {
+      "extras": {
+        "kind": "unet-skip",
+        "locked": false,
+        "objectId": "scene_object_scene_template_unet_skip_1_ac1a90bb",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:unet:skip-1"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 11,
+      "name": "Cross-level skip"
+    },
+    {
+      "camera": 0,
+      "extras": {
+        "kind": "camera",
+        "objectId": "scene_camera_unet_editable_3d_template_camera_isometric_8e3e8925"
+      },
+      "matrix": [
+        0.759256602,
+        0.0,
+        -0.650791373,
+        0.0,
+        -0.310252614,
+        0.879049073,
+        -0.361961383,
+        0.0,
+        0.572077554,
+        0.476731295,
+        0.667423812,
+        0.0,
+        12.0,
+        10.0,
+        14.0,
+        1.0
+      ],
+      "name": "unet editable 3D template isometric camera"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "extras": {
+        "kind": "light",
+        "objectId": "scene_light_unet_editable_3d_template_light_key_c521ed62"
+      },
+      "name": "Key light",
+      "translation": [
+        8.0,
+        10.0,
+        12.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "activeCameraId": "scene_camera_unet_editable_3d_template_camera_isometric_8e3e8925",
+        "sceneId": "scene_unet_editable_3d_template_ca99299d",
+        "sourceDigest": "efcd1d0ca6511165b57654c962ad15a541d917ebc40664e6966e79382ae146e1"
+      },
+      "name": "unet editable 3D template",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ]
+}

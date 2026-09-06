@@ -1,0 +1,2410 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        0.6,
+        0.7
+      ],
+      "min": [
+        -0.9,
+        -0.6,
+        -0.7
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        0.6,
+        0.7
+      ],
+      "min": [
+        -0.9,
+        -0.6,
+        -0.7
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        0.6,
+        0.7
+      ],
+      "min": [
+        -0.9,
+        -0.6,
+        -0.7
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        0.6,
+        0.7
+      ],
+      "min": [
+        -0.9,
+        -0.6,
+        -0.7
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        8.5,
+        5.5,
+        4.0
+      ],
+      "min": [
+        -8.5,
+        -5.5,
+        -4.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -3.9,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -3.9,
+        0.17500000000000002,
+        0.17500000000000002
+      ],
+      "min": [
+        -4.3375,
+        -0.17500000000000002,
+        -0.17500000000000002
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        1.1,
+        1.1
+      ],
+      "min": [
+        -1.0,
+        -1.1,
+        -1.1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        3.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.5,
+        -3.0,
+        -1.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        3.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        2.5701248482571573,
+        -0.4668328062072674,
+        -0.33068577855660547
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        3.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.5,
+        -1.0,
+        -0.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        3.0,
+        0.003389701326747402,
+        0.09827722708186534
+      ],
+      "min": [
+        2.4986180224189845,
+        -0.3457162997674762,
+        -0.2694405263022297
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        3.0,
+        1.0,
+        0.5
+      ],
+      "min": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        3.0,
+        0.3457162997674762,
+        0.2694405263022297
+      ],
+      "min": [
+        2.4986180224189845,
+        -0.003389701326747402,
+        -0.09827722708186534
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 23,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        3.0,
+        3.0,
+        1.5
+      ],
+      "min": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 25,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        3.1875,
+        0.46875,
+        0.1875
+      ],
+      "min": [
+        2.8125,
+        0.0,
+        -0.1875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 26,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 27,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -2.1,
+        -3.0,
+        -1.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 28,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.5,
+        -2.536016404775237,
+        -1.1719080672004007
+      ],
+      "min": [
+        0.06538081785630984,
+        -3.0,
+        -1.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 29,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 30,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -2.1,
+        -1.0,
+        -0.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 31,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.5,
+        -0.6589695016532378,
+        -0.23306145681563178
+      ],
+      "min": [
+        -0.0016648118018621622,
+        -1.0097811608447749,
+        -0.6013138744333746
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 32,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 33,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.5,
+        1.0,
+        0.5
+      ],
+      "min": [
+        -2.1,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 34,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.5,
+        1.0097811608447749,
+        0.6013138744333746
+      ],
+      "min": [
+        -0.0016648118018621622,
+        0.6589695016532378,
+        0.23306145681563178
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 35,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 36,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.5,
+        3.0,
+        1.5
+      ],
+      "min": [
+        -2.1,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 37,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.5,
+        3.0,
+        1.5
+      ],
+      "min": [
+        0.06538081785630984,
+        2.536016404775237,
+        1.1719080672004007
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 38,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 39,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.9,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 40,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 41,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.6,
+        1.75
+      ],
+      "min": [
+        -1.0,
+        -0.6,
+        -1.75
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 42,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "schemaVersion": "nndv-scene-gltf-1"
+    },
+    "generator": "NN_DaVinci Scene IR 1.0 deterministic exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 336,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 816,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1056,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1200,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1224,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1332,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1500,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1596,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1740,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1764,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1872,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2064,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2172,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2340,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2364,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2472,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 2640,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2688,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2796,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2964,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2988,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3096,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3264,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3396,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3564,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3588,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3696,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3864,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3888,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3996,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 4164,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 4260,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 4404,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 4500,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4644,
+      "uri": "data:application/octet-stream;base64,ZmZmv5qZGb8zMzO/ZmZmP5qZGb8zMzO/ZmZmP5qZGT8zMzO/ZmZmv5qZGT8zMzO/ZmZmv5qZGb8zMzM/ZmZmP5qZGb8zMzM/ZmZmP5qZGT8zMzM/ZmZmv5qZGT8zMzM/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAZmZmv5qZGb8zMzO/ZmZmP5qZGb8zMzO/ZmZmP5qZGT8zMzO/ZmZmv5qZGT8zMzO/ZmZmv5qZGb8zMzM/ZmZmP5qZGb8zMzM/ZmZmP5qZGT8zMzM/ZmZmv5qZGT8zMzM/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAZmZmv5qZGb8zMzO/ZmZmP5qZGb8zMzO/ZmZmP5qZGT8zMzO/ZmZmv5qZGT8zMzO/ZmZmv5qZGb8zMzM/ZmZmP5qZGb8zMzM/ZmZmP5qZGT8zMzM/ZmZmv5qZGT8zMzM/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAZmZmv5qZGb8zMzO/ZmZmP5qZGb8zMzO/ZmZmP5qZGT8zMzO/ZmZmv5qZGT8zMzO/ZmZmv5qZGb8zMzM/ZmZmP5qZGb8zMzM/ZmZmP5qZGT8zMzM/ZmZmv5qZGT8zMzM/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAA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"
+    }
+  ],
+  "cameras": [
+    {
+      "extras": {
+        "nndvProjection": "orthographic",
+        "objectId": "scene_camera_moe_editable_3d_template_camera_isometric_4b61215d"
+      },
+      "name": "moe editable 3D template isometric camera",
+      "orthographic": {
+        "xmag": 13.5,
+        "ymag": 9.0,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "orthographic"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "extras": {
+            "nndvLight": {
+              "color": "#ffffff",
+              "direction": [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              "id": "scene_light_moe_editable_3d_template_light_key_e9d35050",
+              "intensity": 1.0,
+              "kind": "directional",
+              "locked": false,
+              "metadata": {},
+              "name": "Key light",
+              "position": [
+                8.0,
+                10.0,
+                12.0
+              ],
+              "visible": true
+            },
+            "objectId": "scene_light_moe_editable_3d_template_light_key_e9d35050"
+          },
+          "intensity": 1.0,
+          "name": "Key light",
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#a7f3d0ff",
+        "nndvMaterial": {
+          "base_color": "#a7f3d0",
+          "face_colors": {
+            "front": "#a7f3d0",
+            "top": "#a7f3d0"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_moe_expert_0_947072f1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.654902,
+          0.9529412,
+          0.8156863,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#f8fafcff",
+        "nndvMaterial": {
+          "base_color": "#f8fafc",
+          "face_colors": {
+            "front": "#f8fafc",
+            "top": "#f8fafc"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_moe_geometry_legend_17e3447b",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.972549,
+          0.9803922,
+          0.9882353,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#e2e8f0ff",
+        "nndvMaterial": {
+          "base_color": "#e2e8f0",
+          "face_colors": {
+            "front": "#e2e8f0",
+            "top": "#e2e8f0"
+          },
+          "metallic": 0.0,
+          "opacity": 0.025,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_moe_group_frame_944d180d",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8862745,
+          0.9098039,
+          0.9411765,
+          0.025
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#475569ff",
+        "nndvMaterial": {
+          "base_color": "#475569",
+          "face_colors": {
+            "front": "#475569",
+            "top": "#475569"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#475569",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_moe_input_route_2073e488",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2784314,
+          0.3333333,
+          0.4117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#c4b5fdff",
+        "nndvMaterial": {
+          "base_color": "#c4b5fd",
+          "face_colors": {
+            "front": "#c4b5fd",
+            "top": "#c4b5fd"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_moe_merge_41f278f3",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7686275,
+          0.7098039,
+          0.9921569,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#8b5cf6ff",
+        "nndvMaterial": {
+          "base_color": "#8b5cf6",
+          "face_colors": {
+            "front": "#8b5cf6",
+            "top": "#8b5cf6"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#8b5cf6",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_moe_merge_route_0_315b2805",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.545098,
+          0.3607843,
+          0.9647059,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#10b981ff",
+        "nndvMaterial": {
+          "base_color": "#10b981",
+          "face_colors": {
+            "front": "#10b981",
+            "top": "#10b981"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#10b981",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_moe_route_0_ff1ae896",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0627451,
+          0.7254902,
+          0.5058824,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#fbbf24ff",
+        "nndvMaterial": {
+          "base_color": "#fbbf24",
+          "face_colors": {
+            "front": "#fbbf24",
+            "top": "#fbbf24"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_moe_router_6272f25e",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9843137,
+          0.7490196,
+          0.1411765,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#bfdbfeff",
+        "nndvMaterial": {
+          "base_color": "#bfdbfe",
+          "face_colors": {
+            "front": "#bfdbfe",
+            "top": "#bfdbfe"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_moe_tokens_dae5b0e1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7490196,
+          0.8588235,
+          0.9960784,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_expert_0_947072f1"
+      },
+      "name": "Mesh scene_object_scene_template_moe_expert_0_947072f1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_expert_1_7fa785bc"
+      },
+      "name": "Mesh scene_object_scene_template_moe_expert_1_7fa785bc",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_expert_2_a42a68ec"
+      },
+      "name": "Mesh scene_object_scene_template_moe_expert_2_a42a68ec",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_expert_3_ea48ec9c"
+      },
+      "name": "Mesh scene_object_scene_template_moe_expert_3_ea48ec9c",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_group_frame_944d180d"
+      },
+      "name": "Mesh scene_object_scene_template_moe_group_frame_944d180d",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "indices": 9,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_input_route_2073e488"
+      },
+      "name": "Mesh scene_object_scene_template_moe_input_route_2073e488",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 11
+          },
+          "indices": 12,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_merge_41f278f3"
+      },
+      "name": "Mesh scene_object_scene_template_moe_merge_41f278f3",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13
+          },
+          "indices": 14,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_merge_route_0_315b2805"
+      },
+      "name": "Mesh scene_object_scene_template_moe_merge_route_0_315b2805",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15
+          },
+          "material": 5,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 16
+          },
+          "indices": 17,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_merge_route_1_4e0d237e"
+      },
+      "name": "Mesh scene_object_scene_template_moe_merge_route_1_4e0d237e",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 18
+          },
+          "material": 5,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 19
+          },
+          "indices": 20,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_merge_route_2_f6cdb900"
+      },
+      "name": "Mesh scene_object_scene_template_moe_merge_route_2_f6cdb900",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21
+          },
+          "material": 5,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 22
+          },
+          "indices": 23,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_merge_route_3_b484c135"
+      },
+      "name": "Mesh scene_object_scene_template_moe_merge_route_3_b484c135",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 24
+          },
+          "material": 5,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 25
+          },
+          "indices": 26,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_route_0_ff1ae896"
+      },
+      "name": "Mesh scene_object_scene_template_moe_route_0_ff1ae896",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 27
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 28
+          },
+          "indices": 29,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_route_1_277cd2b8"
+      },
+      "name": "Mesh scene_object_scene_template_moe_route_1_277cd2b8",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 31
+          },
+          "indices": 32,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_route_2_96f458e9"
+      },
+      "name": "Mesh scene_object_scene_template_moe_route_2_96f458e9",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 33
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 34
+          },
+          "indices": 35,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_route_3_c91c1f0a"
+      },
+      "name": "Mesh scene_object_scene_template_moe_route_3_c91c1f0a",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 36
+          },
+          "material": 6,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 37
+          },
+          "indices": 38,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_router_6272f25e"
+      },
+      "name": "Mesh scene_object_scene_template_moe_router_6272f25e",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 39
+          },
+          "indices": 40,
+          "material": 7,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_moe_tokens_dae5b0e1"
+      },
+      "name": "Mesh scene_object_scene_template_moe_tokens_dae5b0e1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 41
+          },
+          "indices": 42,
+          "material": 8,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_expert_0_947072f1",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:expert-0"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.5,
+        -3.0,
+        -1.5,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Expert 1"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_expert_1_7fa785bc",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:expert-1"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.5,
+        -1.0,
+        -0.5,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Expert 2"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_expert_2_a42a68ec",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:expert-2"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.5,
+        1.0,
+        0.5,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "Expert 3"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_expert_3_ea48ec9c",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:expert-3"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.5,
+        3.0,
+        1.5,
+        1.0
+      ],
+      "mesh": 3,
+      "name": "Expert 4"
+    },
+    {
+      "extras": {
+        "geometry": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            10.0,
+            0.5,
+            0.2
+          ],
+          "text": "3D depth and thickness are editable visual mappings, not literal tensor dimensions."
+        },
+        "kind": "legend",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_geometry_legend_17e3447b",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:geometry-legend"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -5.0,
+        0.0,
+        1.0
+      ],
+      "name": "Geometry mapping legend"
+    },
+    {
+      "extras": {
+        "kind": "group-frame",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_group_frame_944d180d",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:group-frame"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 4,
+      "name": "Architecture group frame"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_input_route_2073e488",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:input-route"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 5,
+      "name": "Tokens to router"
+    },
+    {
+      "extras": {
+        "kind": "merge",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_merge_41f278f3",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:merge"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 6,
+      "name": "Weighted merge"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_merge_route_0_315b2805",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:merge-route-0"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 7,
+      "name": "Expert merge route"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_merge_route_1_4e0d237e",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:merge-route-1"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 8,
+      "name": "Expert merge route"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_merge_route_2_f6cdb900",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:merge-route-2"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 9,
+      "name": "Expert merge route"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_merge_route_3_b484c135",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:merge-route-3"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 10,
+      "name": "Expert merge route"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_route_0_ff1ae896",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:route-0"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 11,
+      "name": "Top-k expert route"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_route_1_277cd2b8",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:route-1"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 12,
+      "name": "Top-k expert route"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_route_2_96f458e9",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:route-2"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 13,
+      "name": "Top-k expert route"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_route_3_c91c1f0a",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:route-3"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 14,
+      "name": "Top-k expert route"
+    },
+    {
+      "extras": {
+        "kind": "moe-router",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_router_6272f25e",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:router"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 15,
+      "name": "Top-k router"
+    },
+    {
+      "extras": {
+        "kind": "token-sequence",
+        "locked": false,
+        "objectId": "scene_object_scene_template_moe_tokens_dae5b0e1",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:moe:tokens"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -6.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 16,
+      "name": "Tokens"
+    },
+    {
+      "camera": 0,
+      "extras": {
+        "kind": "camera",
+        "objectId": "scene_camera_moe_editable_3d_template_camera_isometric_4b61215d"
+      },
+      "matrix": [
+        0.759256602,
+        0.0,
+        -0.650791373,
+        0.0,
+        -0.310252614,
+        0.879049073,
+        -0.361961383,
+        0.0,
+        0.572077554,
+        0.476731295,
+        0.667423812,
+        0.0,
+        12.0,
+        10.0,
+        14.0,
+        1.0
+      ],
+      "name": "moe editable 3D template isometric camera"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "extras": {
+        "kind": "light",
+        "objectId": "scene_light_moe_editable_3d_template_light_key_e9d35050"
+      },
+      "name": "Key light",
+      "translation": [
+        8.0,
+        10.0,
+        12.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "activeCameraId": "scene_camera_moe_editable_3d_template_camera_isometric_4b61215d",
+        "sceneId": "scene_moe_editable_3d_template_cd8b0855",
+        "sourceDigest": "b234286c81b23f31aac472c5d86b2ee121ccbfddde6e13f408cce901b4c25754"
+      },
+      "name": "moe editable 3D template",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ]
+}

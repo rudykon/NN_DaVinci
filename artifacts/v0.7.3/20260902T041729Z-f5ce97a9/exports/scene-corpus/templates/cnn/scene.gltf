@@ -1,0 +1,1551 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        2.0,
+        2.0
+      ],
+      "min": [
+        -1.0,
+        -2.0,
+        -2.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.1,
+        1.1,
+        1.1
+      ],
+      "min": [
+        -1.1,
+        -1.1,
+        -1.1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -4.5,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -6.5,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -4.5,
+        0.17500000000000002,
+        0.17500000000000002
+      ],
+      "min": [
+        -4.9375,
+        -0.17500000000000002,
+        -0.17500000000000002
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.4,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -2.5,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.4,
+        0.17500000000000002,
+        0.17500000000000002
+      ],
+      "min": [
+        -0.03750000000000003,
+        -0.17500000000000002,
+        -0.17500000000000002
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        4.3,
+        0.0,
+        0.0
+      ],
+      "min": [
+        3.4,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        4.3,
+        0.17500000000000002,
+        0.17500000000000002
+      ],
+      "min": [
+        3.94,
+        -0.17500000000000002,
+        -0.17500000000000002
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        8.5,
+        5.5,
+        4.0
+      ],
+      "min": [
+        -8.5,
+        -5.5,
+        -4.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.05,
+        0.8,
+        0.8
+      ],
+      "min": [
+        -1.05,
+        -0.8,
+        -0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.5,
+        2.5,
+        2.5
+      ],
+      "min": [
+        -0.5,
+        -2.5,
+        -2.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.125,
+        0.8,
+        0.8
+      ],
+      "min": [
+        -0.125,
+        -0.8,
+        -0.8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.8,
+        1.5,
+        1.5
+      ],
+      "min": [
+        -0.8,
+        -1.5,
+        -1.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "schemaVersion": "nndv-scene-gltf-1"
+    },
+    "generator": "NN_DaVinci Scene IR 1.0 deterministic exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 336,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 504,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 612,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 780,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 804,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 912,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1080,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1104,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1212,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1380,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1476,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1620,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1716,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1860,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1956,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 2100,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 2196,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 2340,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 2436,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2580,
+      "uri": "data:application/octet-stream;base64,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AQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAAAAvwAAIMAAACDAAAAAPwAAIMAAACDAAAAAPwAAIEAAACDAAAAAvwAAIEAAACDAAAAAvwAAIMAAACBAAAAAPwAAIMAAACBAAAAAPwAAIEAAACBAAAAAvwAAIEAAACBAAAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAAAAvs3MTL/NzEy/AAAAPs3MTL/NzEy/AAAAPs3MTD/NzEy/AAAAvs3MTD/NzEy/AAAAvs3MTL/NzEw/AAAAPs3MTL/NzEw/AAAAPs3MTD/NzEw/AAAAvs3MTD/NzEw/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAzcxMvwAAwL8AAMC/zcxMPwAAwL8AAMC/zcxMPwAAwD8AAMC/zcxMvwAAwD8AAMC/zcxMvwAAwL8AAMA/zcxMPwAAwL8AAMA/zcxMPwAAwD8AAMA/zcxMvwAAwD8AAMA/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAA"
+    }
+  ],
+  "cameras": [
+    {
+      "extras": {
+        "nndvProjection": "orthographic",
+        "objectId": "scene_camera_cnn_editable_3d_template_camera_isometric_c7b01767"
+      },
+      "name": "cnn editable 3D template isometric camera",
+      "orthographic": {
+        "xmag": 13.5,
+        "ymag": 9.0,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "orthographic"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "extras": {
+            "nndvLight": {
+              "color": "#ffffff",
+              "direction": [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              "id": "scene_light_cnn_editable_3d_template_light_key_12dd47b1",
+              "intensity": 1.0,
+              "kind": "directional",
+              "locked": false,
+              "metadata": {},
+              "name": "Key light",
+              "position": [
+                8.0,
+                10.0,
+                12.0
+              ],
+              "visible": true
+            },
+            "objectId": "scene_light_cnn_editable_3d_template_light_key_12dd47b1"
+          },
+          "intensity": 1.0,
+          "name": "Key light",
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#93c5fdff",
+        "nndvMaterial": {
+          "base_color": "#93c5fd",
+          "face_colors": {
+            "front": "#93c5fd",
+            "top": "#93c5fd"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_cnn_features_1_f3e7a0f2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5764706,
+          0.772549,
+          0.9921569,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#60a5faff",
+        "nndvMaterial": {
+          "base_color": "#60a5fa",
+          "face_colors": {
+            "front": "#60a5fa",
+            "top": "#60a5fa"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_cnn_features_2_1fc5ceed",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3764706,
+          0.6470588,
+          0.9803922,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#475569ff",
+        "nndvMaterial": {
+          "base_color": "#475569",
+          "face_colors": {
+            "front": "#475569",
+            "top": "#475569"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#475569",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_cnn_flow_0_656403c7",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2784314,
+          0.3333333,
+          0.4117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#f8fafcff",
+        "nndvMaterial": {
+          "base_color": "#f8fafc",
+          "face_colors": {
+            "front": "#f8fafc",
+            "top": "#f8fafc"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_cnn_geometry_legend_bf63b839",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.972549,
+          0.9803922,
+          0.9882353,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#e2e8f0ff",
+        "nndvMaterial": {
+          "base_color": "#e2e8f0",
+          "face_colors": {
+            "front": "#e2e8f0",
+            "top": "#e2e8f0"
+          },
+          "metallic": 0.0,
+          "opacity": 0.025,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_cnn_group_frame_b0620bd1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8862745,
+          0.9098039,
+          0.9411765,
+          0.025
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#fde68aff",
+        "nndvMaterial": {
+          "base_color": "#fde68a",
+          "face_colors": {
+            "front": "#fde68a",
+            "top": "#fde68a"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_cnn_head_4117f49c",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9921569,
+          0.9019608,
+          0.5411765,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#bfdbfeff",
+        "nndvMaterial": {
+          "base_color": "#bfdbfe",
+          "face_colors": {
+            "front": "#bfdbfe",
+            "top": "#bfdbfe"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_cnn_input_9c93da68",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7490196,
+          0.8588235,
+          0.9960784,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#8b5cf6ff",
+        "nndvMaterial": {
+          "base_color": "#8b5cf6",
+          "face_colors": {
+            "front": "#8b5cf6",
+            "top": "#8b5cf6"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_cnn_kernel_7341e8a2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.545098,
+          0.3607843,
+          0.9647059,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#a7f3d0ff",
+        "nndvMaterial": {
+          "base_color": "#a7f3d0",
+          "face_colors": {
+            "front": "#a7f3d0",
+            "top": "#a7f3d0"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_scene_template_cnn_pool_da28a912",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.654902,
+          0.9529412,
+          0.8156863,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_cnn_features_1_f3e7a0f2"
+      },
+      "name": "Mesh scene_object_scene_template_cnn_features_1_f3e7a0f2",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_cnn_features_2_1fc5ceed"
+      },
+      "name": "Mesh scene_object_scene_template_cnn_features_2_1fc5ceed",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_cnn_flow_0_656403c7"
+      },
+      "name": "Mesh scene_object_scene_template_cnn_flow_0_656403c7",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "material": 2,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 5
+          },
+          "indices": 6,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_cnn_flow_1_56fece14"
+      },
+      "name": "Mesh scene_object_scene_template_cnn_flow_1_56fece14",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "material": 2,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "indices": 9,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_cnn_flow_2_a4cdf237"
+      },
+      "name": "Mesh scene_object_scene_template_cnn_flow_2_a4cdf237",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10
+          },
+          "material": 2,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 11
+          },
+          "indices": 12,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_cnn_group_frame_b0620bd1"
+      },
+      "name": "Mesh scene_object_scene_template_cnn_group_frame_b0620bd1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13
+          },
+          "indices": 14,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_cnn_head_4117f49c"
+      },
+      "name": "Mesh scene_object_scene_template_cnn_head_4117f49c",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15
+          },
+          "indices": 16,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_cnn_input_9c93da68"
+      },
+      "name": "Mesh scene_object_scene_template_cnn_input_9c93da68",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17
+          },
+          "indices": 18,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_cnn_kernel_7341e8a2"
+      },
+      "name": "Mesh scene_object_scene_template_cnn_kernel_7341e8a2",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 19
+          },
+          "indices": 20,
+          "material": 7,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_scene_template_cnn_pool_da28a912"
+      },
+      "name": "Mesh scene_object_scene_template_cnn_pool_da28a912",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21
+          },
+          "indices": 22,
+          "material": 8,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "kind": "feature-map-stack",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_features_1_f3e7a0f2",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:features-1"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Feature maps"
+    },
+    {
+      "extras": {
+        "kind": "feature-map-stack",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_features_2_1fc5ceed",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:features-2"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2.3,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Deep features"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_flow_0_656403c7",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:flow-0"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "Data flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_flow_1_56fece14",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:flow-1"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 3,
+      "name": "Data flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_flow_2_a4cdf237",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:flow-2"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 4,
+      "name": "Data flow"
+    },
+    {
+      "extras": {
+        "geometry": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            10.0,
+            0.5,
+            0.2
+          ],
+          "text": "3D depth and thickness are editable visual mappings, not literal tensor dimensions."
+        },
+        "kind": "legend",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_geometry_legend_bf63b839",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:geometry-legend"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -5.0,
+        0.0,
+        1.0
+      ],
+      "name": "Geometry mapping legend"
+    },
+    {
+      "extras": {
+        "kind": "group-frame",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_group_frame_b0620bd1",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:group-frame"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 5,
+      "name": "Architecture group frame"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_head_4117f49c",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:head"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        5.3,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 6,
+      "name": "Classifier head"
+    },
+    {
+      "extras": {
+        "kind": "tensor-volume",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_input_9c93da68",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:input"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -7.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 7,
+      "name": "Input image"
+    },
+    {
+      "extras": {
+        "kind": "convolution-window",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_kernel_7341e8a2",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:kernel"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -5.4,
+        0.0,
+        1.7,
+        1.0
+      ],
+      "mesh": 8,
+      "name": "Convolution window"
+    },
+    {
+      "extras": {
+        "kind": "downsample",
+        "locked": false,
+        "objectId": "scene_object_scene_template_cnn_pool_da28a912",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {},
+          "figure_ir_ids": [],
+          "graph_ir_ids": [],
+          "kind": "template",
+          "reason": "Explicit editable Scene template; not model evidence.",
+          "semantic_view_ids": [],
+          "source_id": "scene-template:cnn:pool"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 9,
+      "name": "Pooling / downsample"
+    },
+    {
+      "camera": 0,
+      "extras": {
+        "kind": "camera",
+        "objectId": "scene_camera_cnn_editable_3d_template_camera_isometric_c7b01767"
+      },
+      "matrix": [
+        0.759256602,
+        0.0,
+        -0.650791373,
+        0.0,
+        -0.310252614,
+        0.879049073,
+        -0.361961383,
+        0.0,
+        0.572077554,
+        0.476731295,
+        0.667423812,
+        0.0,
+        12.0,
+        10.0,
+        14.0,
+        1.0
+      ],
+      "name": "cnn editable 3D template isometric camera"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "extras": {
+        "kind": "light",
+        "objectId": "scene_light_cnn_editable_3d_template_light_key_12dd47b1"
+      },
+      "name": "Key light",
+      "translation": [
+        8.0,
+        10.0,
+        12.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "activeCameraId": "scene_camera_cnn_editable_3d_template_camera_isometric_c7b01767",
+        "sceneId": "scene_cnn_editable_3d_template_5af6aa97",
+        "sourceDigest": "dfce2ef0fd83a39ab3a0a0677aebe1f21c58020440286363fb90f29935bed637"
+      },
+      "name": "cnn editable 3D template",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ]
+}

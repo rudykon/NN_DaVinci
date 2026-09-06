@@ -1,0 +1,1356 @@
+{
+  "schema_version": "nndv-0.7.1-scene-studio-e2e-1",
+  "release": "0.7.1 — 3D Publication Quality & UX Completion",
+  "status": "PASS",
+  "succeeded": true,
+  "human_participants": 0,
+  "failures": [],
+  "assertions": [
+    "Start Center exposes explicit Blank 2D and Blank 3D paths",
+    "Scene viewport uses a real WebGL2 context with the depth buffer enabled",
+    "hidden-line occlusion uses a real depth buffer with at least 16 depth bits",
+    "blank Scene IR contains explicit locked XYZ world helpers",
+    "box, sphere, and semantic tensor primitives are editable Scene objects",
+    "Scene exposes the exact six-group Inspector, per-property pins, XYZ gizmo, and searchable/filterable tree ({\"inspectorGroups\":[\"transform\",\"geometry\",\"appearance\",\"layout\",\"semantics\",\"provenance\"],\"propertyPins\":8,\"gizmoModes\":3,\"gizmoAxes\":3,\"treeSearch\":true,\"treeFilter\":true})",
+    "per-property Inspector pin persists independently",
+    "Scene content density switches independently between Compact, Paper, and Detailed",
+    "Scene batch dialog exposes all ten export formats with cancellation",
+    "Scene batch isolates failures and cancels remaining work ({\"partial\":\"partial\",\"successes\":[\"svg\",\"png\"],\"failures\":[\"pdf\"],\"cancelled\":[\"svg\",\"pdf\"]})",
+    "all four application themes preserve >=4.5:1 text contrast ({\"light\":15.01,\"dark\":16.27,\"high-contrast\":21,\"paper\":12.87})",
+    "Paper theme changes the actual WebGL clear surface to paper-light RGB (248,246,239,255)",
+    "top application chrome uses <=7 groups (7)",
+    "every visible button has text, title, or an accessible label",
+    "application font is resolved and readable (Inter, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", sans-serif, 16px)",
+    "tree selection supports additive multi-selection and contextual actions",
+    "locked Scene selection disables transform editing",
+    "camera switches between perspective and orthographic projection",
+    "camera lock is explicit and stateful",
+    "WebGL Scene canvas has interactive geometry",
+    "orbit and wheel zoom run through the Scene interaction controller",
+    "Ctrl/Cmd+K registry searches contextual commands and shortcuts",
+    "closing the command surface restores focus to its trigger",
+    "application theme and density are independent persisted preferences",
+    "keyboard-resizable sidebar width is persisted",
+    "Inspector property pin/unpin state is user-controlled and persisted",
+    "autosave persists Project 1.4 Scene IR, camera, objects, group, and workspace context",
+    "Scene objects persist explicit XYZ world coordinates",
+    "autosave conflict compares current and stored revisions before overwrite",
+    "autosave comparison dialog remains fully bounded ({\"bounded\":true,\"left\":620,\"top\":382,\"right\":1300,\"bottom\":699,\"viewportWidth\":1920,\"viewportHeight\":1080,\"horizontalOverflow\":false})",
+    "cancelling revision comparison leaves the competing autosave untouched and exposes Retry ({\"saveState\":\"conflict\",\"retryVisible\":true,\"actionHidden\":false,\"storedRevision\":\"2026-09-02T04:24:46.268Z\"})",
+    "Retry reopens the same autosave revision comparison",
+    "explicit overwrite resolves the reviewed autosave conflict with a new revision",
+    "malformed competing autosave enters an explicit recoverable error state",
+    "autosave Retry succeeds after the invalid stored revision is repaired",
+    "Start Center exposes seven distinct offline architectures (resnet50, vision_transformer, bert_encoder, multiscale_unet, diffusion_unet, topk_moe, image_text)",
+    "vision_transformer imports as a non-empty offline Graph IR architecture",
+    "vision_transformer Graph/Semantic → Scene renders 18 non-helper model objects, 13 routes, and 5 visible projected labels",
+    "bert_encoder imports as a non-empty offline Graph IR architecture",
+    "bert_encoder Graph/Semantic → Scene renders 17 non-helper model objects, 12 routes, and 5 visible projected labels",
+    "multiscale_unet imports as a non-empty offline Graph IR architecture",
+    "multiscale_unet Graph/Semantic → Scene renders 23 non-helper model objects, 14 routes, and 9 visible projected labels",
+    "diffusion_unet imports as a non-empty offline Graph IR architecture",
+    "diffusion_unet Graph/Semantic → Scene renders 20 non-helper model objects, 14 routes, and 6 visible projected labels",
+    "topk_moe imports as a non-empty offline Graph IR architecture",
+    "topk_moe Graph/Semantic → Scene renders 16 non-helper model objects, 12 routes, and 5 visible projected labels",
+    "image_text imports as a non-empty offline Graph IR architecture",
+    "image_text Graph/Semantic → Scene renders 9 non-helper model objects, 5 routes, and 4 visible projected labels",
+    "resnet50 imports as a non-empty offline Graph IR architecture",
+    "resnet50 Graph/Semantic → Scene renders 17 non-helper model objects, 11 routes, and 6 visible projected labels",
+    "all seven offline architectures have genuine non-helper 3D Scenes and paired 2D/3D screenshots",
+    "real ResNet50 materializes an evidence-backed Block Semantic View",
+    "real-model Semantic View enters editable Figure Studio before Structure Lens",
+    "Structure Lens returns bounded Graph IR evidence and a provenance-backed preview",
+    "real model → Block Semantic View → Scene uses the live Scene API and retains Graph provenance",
+    "Structure Lens node evidence becomes the bounded focus for Scene generation",
+    "Structure Lens → Scene context is explicit and persists in Scene IR metadata",
+    "returning from 3D to 2D synchronizes selection and provenance to the semantic canvas",
+    "pre-reload Project 1.4 payload passes canonical validation",
+    "a genuine page.reload restores Scene IR, active camera, selection, Lens context, and workspace",
+    "Scene export menu remains bounded ({\"bounded\":true,\"left\":1556,\"top\":57,\"right\":1826,\"bottom\":636,\"viewportWidth\":1920,\"viewportHeight\":1080,\"horizontalOverflow\":false})",
+    "Scene SVG export downloads a non-empty artifact",
+    "Scene PDF export downloads a non-empty artifact",
+    "Scene TIKZ export downloads a non-empty artifact",
+    "Scene PPTX export downloads a non-empty artifact",
+    "Scene PNG export downloads a non-empty artifact",
+    "Scene EPS export downloads a non-empty artifact",
+    "Scene HTML export downloads a non-empty artifact",
+    "Scene JSON export downloads a non-empty artifact",
+    "Scene GLTF export downloads a non-empty artifact",
+    "Scene export failure is explicit and provides a contextual Retry action",
+    "Retry completes the previously failed GLB Scene download",
+    "all 10 Scene formats download: SVG/PDF/TikZ/PPTX/PNG/EPS/HTML/JSON/glTF/GLB",
+    "responsive Scene area gates start from the default balanced density and 245px/270px sidebar preferences",
+    "1920×1080 uses the exact requested viewport and preserves Scene canvas geometry",
+    "1920×1080 Scene canvas area ratio is 0.691117 (required >= 0.60)",
+    "1920×1080 has no horizontal or vertical page overflow",
+    "1920×1080 topbar is bounded and does not cover the Scene canvas",
+    "1920×1080 Scene toolbar has no clipped or truncated local controls",
+    "1440×900 uses the exact requested viewport and preserves Scene canvas geometry",
+    "1440×900 Scene canvas area ratio is 0.625341 (required >= 0.60)",
+    "1440×900 has no horizontal or vertical page overflow",
+    "1440×900 topbar is bounded and does not cover the Scene canvas",
+    "1440×900 Scene toolbar has no clipped or truncated local controls",
+    "1280×720 uses the exact requested viewport and preserves Scene canvas geometry",
+    "1280×720 Scene canvas area ratio is 0.614173 (required >= 0.60)",
+    "1280×720 has no horizontal or vertical page overflow",
+    "1280×720 topbar is bounded and does not cover the Scene canvas",
+    "1280×720 Scene toolbar has no clipped or truncated local controls",
+    "1024×768 uses the exact requested viewport and preserves Scene canvas geometry",
+    "1024×768 Scene canvas area ratio is 0.617669 (required >= 0.60)",
+    "1024×768 has no horizontal or vertical page overflow",
+    "1024×768 topbar is bounded and does not cover the Scene canvas",
+    "1024×768 Scene toolbar has no clipped or truncated local controls",
+    "800×600 uses the exact requested viewport and preserves Scene canvas geometry",
+    "800×600 Scene canvas area ratio is 0.900000 (required >= 0.70)",
+    "800×600 has no horizontal or vertical page overflow",
+    "800×600 topbar is bounded and does not cover the Scene canvas",
+    "800×600 Scene toolbar has no clipped or truncated local controls",
+    "800×600 measures the >=70% Scene canvas gate with both responsive drawers closed",
+    "568×320 uses the exact requested viewport and preserves Scene canvas geometry",
+    "568×320 Scene canvas area ratio is 0.812500 (required >= 0.70)",
+    "568×320 has no horizontal or vertical page overflow",
+    "568×320 topbar is bounded and does not cover the Scene canvas",
+    "568×320 Scene toolbar has no clipped or truncated local controls",
+    "568×320 measures the >=70% Scene canvas gate with both responsive drawers closed",
+    "390×844 uses the exact requested viewport and preserves Scene canvas geometry",
+    "390×844 Scene canvas area ratio is 0.928910 (required >= 0.70)",
+    "390×844 has no horizontal or vertical page overflow",
+    "390×844 topbar is bounded and does not cover the Scene canvas",
+    "390×844 Scene toolbar has no clipped or truncated local controls",
+    "390×844 measures the >=70% Scene canvas gate with both responsive drawers closed",
+    "all seven exact viewport geometry checks pass",
+    "all seven exact viewports pass independent horizontal and vertical overflow checks",
+    "all seven exact Scene canvas area gates pass (1920×1080=0.691117, 1440×900=0.625341, 1280×720=0.614173, 1024×768=0.617669, 800×600=0.900000, 568×320=0.812500, 390×844=0.928910)",
+    "the topbar stays bounded and does not overlap the Scene canvas at all seven exact viewports",
+    "the 800×600, 568×320, and 390×844 area gates are measured with both drawers closed",
+    "Start Center exposes the exact seven editable Scene architecture families (cnn, resnet, unet, transformer, moe, multimodal-fusion, diffusion-unet)",
+    "cnn opens a real editable 3D Scene template with 11 non-helper objects, 3 routes, and template-only provenance",
+    "resnet opens a real editable 3D Scene template with 13 non-helper objects, 6 routes, and template-only provenance",
+    "unet opens a real editable 3D Scene template with 13 non-helper objects, 6 routes, and template-only provenance",
+    "transformer opens a real editable 3D Scene template with 15 non-helper objects, 3 routes, and template-only provenance",
+    "moe opens a real editable 3D Scene template with 18 non-helper objects, 10 routes, and template-only provenance",
+    "multimodal-fusion opens a real editable 3D Scene template with 17 non-helper objects, 7 routes, and template-only provenance",
+    "diffusion-unet opens a real editable 3D Scene template with 15 non-helper objects, 7 routes, and template-only provenance",
+    "CNN, ResNet, U-Net, Transformer, MoE, Multimodal Fusion, and Diffusion U-Net each have an editable 3D Scene template screenshot",
+    "visible Scene DOM labels avoid overlap and clipping ({\"passed\":true,\"candidate_count\":8,\"visible_count\":8,\"label_count\":8,\"overlap_count\":0,\"clipped_count\":0,\"method\":\"DOM getBoundingClientRect geometry for visible projected Scene label bounds within #scene-label-layer\"})",
+    "WebGL loss degrades explicitly to a vector CPU SVG projection",
+    "CPU vector fallback retains explicit visible stroke geometry",
+    "CPU SVG labels retain print-size semantics without browser-scale overlap ({\"count\":7,\"overlaps\":0,\"min_font_pt\":7,\"max_font_user_units\":2.469445,\"max_rendered_height_px\":10})",
+    "browser has no unexpected errors: "
+  ],
+  "assertion_count": 131,
+  "viewports": [
+    {
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "width": 800,
+      "height": 600
+    },
+    {
+      "width": 568,
+      "height": 320
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "viewport_results": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "minimumAreaRatio": 0.6,
+      "compact": false,
+      "viewportWidth": 1920,
+      "viewportHeight": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "bodyWidth": 1920,
+      "bodyHeight": 1080,
+      "canvasWidth": 1405,
+      "canvasHeight": 1020,
+      "canvasArea": 1433100,
+      "viewportArea": 2073600,
+      "canvasAreaRatio": 0.691117,
+      "canvasBounds": {
+        "left": 245,
+        "top": 60,
+        "right": 1650,
+        "bottom": 1080
+      },
+      "topbarBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 60
+      },
+      "topbarOverlap": 0,
+      "compactDrawersClosed": false,
+      "toolbarTruncations": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "minimumAreaRatio": 0.6,
+      "compact": false,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "bodyWidth": 1440,
+      "bodyHeight": 900,
+      "canvasWidth": 964.8125,
+      "canvasHeight": 840,
+      "canvasArea": 810442.5,
+      "viewportArea": 1296000,
+      "canvasAreaRatio": 0.625341,
+      "canvasBounds": {
+        "left": 230.390625,
+        "top": 60,
+        "right": 1195.203125,
+        "bottom": 900
+      },
+      "topbarBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1440,
+        "bottom": 60
+      },
+      "topbarOverlap": 0,
+      "compactDrawersClosed": false,
+      "toolbarTruncations": []
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "minimumAreaRatio": 0.6,
+      "compact": false,
+      "viewportWidth": 1280,
+      "viewportHeight": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "bodyWidth": 1280,
+      "bodyHeight": 720,
+      "canvasWidth": 857.609375,
+      "canvasHeight": 660,
+      "canvasArea": 566022.1875,
+      "viewportArea": 921600,
+      "canvasAreaRatio": 0.614173,
+      "canvasBounds": {
+        "left": 204.796875,
+        "top": 60,
+        "right": 1062.40625,
+        "bottom": 720
+      },
+      "topbarBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1280,
+        "bottom": 60
+      },
+      "topbarOverlap": 0,
+      "compactDrawersClosed": false,
+      "toolbarTruncations": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "minimumAreaRatio": 0.6,
+      "compact": false,
+      "viewportWidth": 1024,
+      "viewportHeight": 768,
+      "documentWidth": 1024,
+      "documentHeight": 768,
+      "bodyWidth": 1024,
+      "bodyHeight": 768,
+      "canvasWidth": 686.09375,
+      "canvasHeight": 708,
+      "canvasArea": 485754.375,
+      "viewportArea": 786432,
+      "canvasAreaRatio": 0.617669,
+      "canvasBounds": {
+        "left": 163.828125,
+        "top": 60,
+        "right": 849.921875,
+        "bottom": 768
+      },
+      "topbarBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1024,
+        "bottom": 60
+      },
+      "topbarOverlap": 0,
+      "compactDrawersClosed": false,
+      "toolbarTruncations": []
+    },
+    {
+      "width": 800,
+      "height": 600,
+      "minimumAreaRatio": 0.7,
+      "compact": true,
+      "viewportWidth": 800,
+      "viewportHeight": 600,
+      "documentWidth": 800,
+      "documentHeight": 600,
+      "bodyWidth": 800,
+      "bodyHeight": 600,
+      "canvasWidth": 800,
+      "canvasHeight": 540,
+      "canvasArea": 432000,
+      "viewportArea": 480000,
+      "canvasAreaRatio": 0.9,
+      "canvasBounds": {
+        "left": 0,
+        "top": 60,
+        "right": 800,
+        "bottom": 600
+      },
+      "topbarBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 800,
+        "bottom": 60
+      },
+      "topbarOverlap": 0,
+      "compactDrawersClosed": true,
+      "toolbarTruncations": []
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "minimumAreaRatio": 0.7,
+      "compact": true,
+      "viewportWidth": 568,
+      "viewportHeight": 320,
+      "documentWidth": 568,
+      "documentHeight": 320,
+      "bodyWidth": 568,
+      "bodyHeight": 320,
+      "canvasWidth": 568,
+      "canvasHeight": 260,
+      "canvasArea": 147680,
+      "viewportArea": 181760,
+      "canvasAreaRatio": 0.8125,
+      "canvasBounds": {
+        "left": 0,
+        "top": 60,
+        "right": 568,
+        "bottom": 320
+      },
+      "topbarBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 568,
+        "bottom": 60
+      },
+      "topbarOverlap": 0,
+      "compactDrawersClosed": true,
+      "toolbarTruncations": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "minimumAreaRatio": 0.7,
+      "compact": true,
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "bodyWidth": 390,
+      "bodyHeight": 844,
+      "canvasWidth": 390,
+      "canvasHeight": 784,
+      "canvasArea": 305760,
+      "viewportArea": 329160,
+      "canvasAreaRatio": 0.92891,
+      "canvasBounds": {
+        "left": 0,
+        "top": 60,
+        "right": 390,
+        "bottom": 844
+      },
+      "topbarBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 390,
+        "bottom": 60
+      },
+      "topbarOverlap": 0,
+      "compactDrawersClosed": true,
+      "toolbarTruncations": []
+    }
+  ],
+  "architecture_comparisons": {
+    "vision_transformer": {
+      "two_d": {
+        "screenshot_id": "architecture-vision_transformer-2d",
+        "path": "screenshots/architecture-vision_transformer-2d.png"
+      },
+      "three_d": {
+        "screenshot_id": "architecture-vision_transformer-3d",
+        "path": "screenshots/architecture-vision_transformer-3d.png"
+      },
+      "non_helper_model_objects": 18,
+      "route_objects": 13,
+      "visible_labels": 5
+    },
+    "bert_encoder": {
+      "two_d": {
+        "screenshot_id": "architecture-bert_encoder-2d",
+        "path": "screenshots/architecture-bert_encoder-2d.png"
+      },
+      "three_d": {
+        "screenshot_id": "architecture-bert_encoder-3d",
+        "path": "screenshots/architecture-bert_encoder-3d.png"
+      },
+      "non_helper_model_objects": 17,
+      "route_objects": 12,
+      "visible_labels": 5
+    },
+    "multiscale_unet": {
+      "two_d": {
+        "screenshot_id": "architecture-multiscale_unet-2d",
+        "path": "screenshots/architecture-multiscale_unet-2d.png"
+      },
+      "three_d": {
+        "screenshot_id": "architecture-multiscale_unet-3d",
+        "path": "screenshots/architecture-multiscale_unet-3d.png"
+      },
+      "non_helper_model_objects": 23,
+      "route_objects": 14,
+      "visible_labels": 9
+    },
+    "diffusion_unet": {
+      "two_d": {
+        "screenshot_id": "architecture-diffusion_unet-2d",
+        "path": "screenshots/architecture-diffusion_unet-2d.png"
+      },
+      "three_d": {
+        "screenshot_id": "architecture-diffusion_unet-3d",
+        "path": "screenshots/architecture-diffusion_unet-3d.png"
+      },
+      "non_helper_model_objects": 20,
+      "route_objects": 14,
+      "visible_labels": 6
+    },
+    "topk_moe": {
+      "two_d": {
+        "screenshot_id": "architecture-topk_moe-2d",
+        "path": "screenshots/architecture-topk_moe-2d.png"
+      },
+      "three_d": {
+        "screenshot_id": "architecture-topk_moe-3d",
+        "path": "screenshots/architecture-topk_moe-3d.png"
+      },
+      "non_helper_model_objects": 16,
+      "route_objects": 12,
+      "visible_labels": 5
+    },
+    "image_text": {
+      "two_d": {
+        "screenshot_id": "architecture-image_text-2d",
+        "path": "screenshots/architecture-image_text-2d.png"
+      },
+      "three_d": {
+        "screenshot_id": "architecture-image_text-3d",
+        "path": "screenshots/architecture-image_text-3d.png"
+      },
+      "non_helper_model_objects": 9,
+      "route_objects": 5,
+      "visible_labels": 4
+    },
+    "resnet50": {
+      "two_d": {
+        "screenshot_id": "architecture-resnet50-2d",
+        "path": "screenshots/architecture-resnet50-2d.png"
+      },
+      "three_d": {
+        "screenshot_id": "architecture-resnet50-3d",
+        "path": "screenshots/architecture-resnet50-3d.png"
+      },
+      "non_helper_model_objects": 17,
+      "route_objects": 11,
+      "visible_labels": 6
+    }
+  },
+  "scene_template_architectures": {
+    "cnn": {
+      "screenshot_id": "template-architecture-cnn-3d",
+      "path": "screenshots/template-architecture-cnn-3d.png",
+      "non_helper_model_objects": 11,
+      "route_objects": 3
+    },
+    "resnet": {
+      "screenshot_id": "template-architecture-resnet-3d",
+      "path": "screenshots/template-architecture-resnet-3d.png",
+      "non_helper_model_objects": 13,
+      "route_objects": 6
+    },
+    "unet": {
+      "screenshot_id": "template-architecture-unet-3d",
+      "path": "screenshots/template-architecture-unet-3d.png",
+      "non_helper_model_objects": 13,
+      "route_objects": 6
+    },
+    "transformer": {
+      "screenshot_id": "template-architecture-transformer-3d",
+      "path": "screenshots/template-architecture-transformer-3d.png",
+      "non_helper_model_objects": 15,
+      "route_objects": 3
+    },
+    "moe": {
+      "screenshot_id": "template-architecture-moe-3d",
+      "path": "screenshots/template-architecture-moe-3d.png",
+      "non_helper_model_objects": 18,
+      "route_objects": 10
+    },
+    "multimodal-fusion": {
+      "screenshot_id": "template-architecture-multimodal-fusion-3d",
+      "path": "screenshots/template-architecture-multimodal-fusion-3d.png",
+      "non_helper_model_objects": 17,
+      "route_objects": 7
+    },
+    "diffusion-unet": {
+      "screenshot_id": "template-architecture-diffusion-unet-3d",
+      "path": "screenshots/template-architecture-diffusion-unet-3d.png",
+      "non_helper_model_objects": 15,
+      "route_objects": 7
+    }
+  },
+  "required_workflows": {
+    "blank_2d_3d": true,
+    "real_model_semantic_scene": true,
+    "structure_lens_scene": true,
+    "autosave_reload": true,
+    "scene_exports_10": true,
+    "selection_provenance_3d_to_2d": true,
+    "error_cancel_retry": true,
+    "architectures_7": true,
+    "scene_templates_7": true
+  },
+  "quality_checks": {
+    "hidden_line": true,
+    "contrast": true,
+    "contrast_ratios": {
+      "light": 15.01,
+      "dark": 16.27,
+      "high-contrast": 21,
+      "paper": 12.87
+    },
+    "paper_canvas_light": true,
+    "toolbar": true,
+    "label": true,
+    "accessibility_labels": true,
+    "font": true,
+    "focus": true,
+    "dialog": true,
+    "menu": true,
+    "default_scene_layout": true,
+    "geometry": true,
+    "overflow": true,
+    "canvas_area": true,
+    "topbar_clear": true,
+    "compact_drawers_closed": true,
+    "scene_label_occlusion": {
+      "passed": true,
+      "candidate_count": 8,
+      "visible_count": 8,
+      "label_count": 8,
+      "overlap_count": 0,
+      "clipped_count": 0,
+      "method": "DOM getBoundingClientRect geometry for visible projected Scene label bounds within #scene-label-layer"
+    },
+    "stroke": true,
+    "cpu_fallback_labels": {
+      "count": 7,
+      "overlaps": 0,
+      "min_font_pt": 7,
+      "max_font_user_units": 2.469445,
+      "max_rendered_height_px": 10
+    }
+  },
+  "screenshot_manifest": [
+    {
+      "id": "start-center-blank-import-architectures",
+      "path": "screenshots/start-center-blank-import-architectures.png",
+      "coverage": [
+        "blank",
+        "import",
+        "seven-architectures"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 344889,
+      "sha256": "13fde54c5fafb8eb87a9ab943fa9d57e62c319623fdd6ac3360fbb1e2e764323"
+    },
+    {
+      "id": "blank-2d-workspace",
+      "path": "screenshots/blank-2d-workspace.png",
+      "coverage": [
+        "blank",
+        "2d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 138391,
+      "sha256": "00853e4a567456d3a64e9fc5bfd04d94b80b98b495441764731a0ea2eab41d1d"
+    },
+    {
+      "id": "blank-3d-scene",
+      "path": "screenshots/blank-3d-scene.png",
+      "coverage": [
+        "blank",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 135310,
+      "sha256": "6bf0e2c576b17d5522c896626b3e1aad3dc517e9f82a477f1fa33efa6b9d959a"
+    },
+    {
+      "id": "theme-light-scene",
+      "path": "screenshots/theme-light-scene.png",
+      "coverage": [
+        "theme",
+        "light",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 155442,
+      "sha256": "89ad4a461fb879b233408ec804095342d767f784141fe26159e326ff36720a58"
+    },
+    {
+      "id": "theme-dark-scene",
+      "path": "screenshots/theme-dark-scene.png",
+      "coverage": [
+        "theme",
+        "dark",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 159205,
+      "sha256": "fbd8b36c09d8f48ec94ad02512697c386745d0a9ea3055c0cc54e91ca97bd3f4"
+    },
+    {
+      "id": "theme-high-contrast-scene",
+      "path": "screenshots/theme-high-contrast-scene.png",
+      "coverage": [
+        "theme",
+        "high-contrast",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 152440,
+      "sha256": "30935731db5e2f817c3b2cbeabccb419fba59e83c22e47f692763b05ce7d06a5"
+    },
+    {
+      "id": "theme-paper-scene",
+      "path": "screenshots/theme-paper-scene.png",
+      "coverage": [
+        "theme",
+        "paper",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 162016,
+      "sha256": "d79506d7328105653268b2f7bc06df97f10aac8280ddc4dcf9062156af62d35e"
+    },
+    {
+      "id": "autosave-revision-comparison",
+      "path": "screenshots/autosave-revision-comparison.png",
+      "coverage": [
+        "dialog",
+        "autosave-conflict",
+        "cancel-retry"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 238621,
+      "sha256": "e51da742eb6a0735524b8a0e9a6aee4c351c5993b4e35cf0ba48e6f9013a94bd"
+    },
+    {
+      "id": "architecture-vision_transformer-2d",
+      "path": "screenshots/architecture-vision_transformer-2d.png",
+      "coverage": [
+        "architecture",
+        "vision_transformer",
+        "import",
+        "2d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 218448,
+      "sha256": "9626f7d7a2838e3e8607bea13873607d72a17b98aad5349ef1da695b3bb90335"
+    },
+    {
+      "id": "architecture-vision_transformer-3d",
+      "path": "screenshots/architecture-vision_transformer-3d.png",
+      "coverage": [
+        "architecture",
+        "vision_transformer",
+        "3d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 201351,
+      "sha256": "2fb26fc81302ed52ab0f33f41b8d943422ea74af0512630bce3fcf67e81a99fd"
+    },
+    {
+      "id": "architecture-bert_encoder-2d",
+      "path": "screenshots/architecture-bert_encoder-2d.png",
+      "coverage": [
+        "architecture",
+        "bert_encoder",
+        "import",
+        "2d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 222732,
+      "sha256": "0c93016650ca41bceba1b7e219f0fb65edc3e885483c4b517776ef6344b21dc3"
+    },
+    {
+      "id": "architecture-bert_encoder-3d",
+      "path": "screenshots/architecture-bert_encoder-3d.png",
+      "coverage": [
+        "architecture",
+        "bert_encoder",
+        "3d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 201070,
+      "sha256": "60e60ed82957247f00e12017517de4a002110757fcccc1fe535a8357009858b9"
+    },
+    {
+      "id": "architecture-multiscale_unet-2d",
+      "path": "screenshots/architecture-multiscale_unet-2d.png",
+      "coverage": [
+        "architecture",
+        "multiscale_unet",
+        "import",
+        "2d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 168050,
+      "sha256": "d8f2b6a407e169db6502dd95132ed99c39619c143b00ac87984b5ca371c3b98f"
+    },
+    {
+      "id": "architecture-multiscale_unet-3d",
+      "path": "screenshots/architecture-multiscale_unet-3d.png",
+      "coverage": [
+        "architecture",
+        "multiscale_unet",
+        "3d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 213172,
+      "sha256": "55b3306008d56a486c061349c7f4a41cfd86886e1fbc5e8bb44af251f3a78801"
+    },
+    {
+      "id": "architecture-diffusion_unet-2d",
+      "path": "screenshots/architecture-diffusion_unet-2d.png",
+      "coverage": [
+        "architecture",
+        "diffusion_unet",
+        "import",
+        "2d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 209107,
+      "sha256": "4077ccac4ea2a63fb67eea02fde19172483391a5435c6abbb0baaa6d68c31953"
+    },
+    {
+      "id": "architecture-diffusion_unet-3d",
+      "path": "screenshots/architecture-diffusion_unet-3d.png",
+      "coverage": [
+        "architecture",
+        "diffusion_unet",
+        "3d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 205355,
+      "sha256": "19cceffda275dae4d9f36c4e399471187554f042dd4fc01348d482f9d4c034cf"
+    },
+    {
+      "id": "architecture-topk_moe-2d",
+      "path": "screenshots/architecture-topk_moe-2d.png",
+      "coverage": [
+        "architecture",
+        "topk_moe",
+        "import",
+        "2d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 183196,
+      "sha256": "aed7ed62ff9abb1189ebdc258d11b14b0c1399be52a5fb3dd75c7f0c659e19e5"
+    },
+    {
+      "id": "architecture-topk_moe-3d",
+      "path": "screenshots/architecture-topk_moe-3d.png",
+      "coverage": [
+        "architecture",
+        "topk_moe",
+        "3d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 208662,
+      "sha256": "20f04404b29fb3f2f1d458f2552480dbe353399808c9a695aece96d307d12646"
+    },
+    {
+      "id": "architecture-image_text-2d",
+      "path": "screenshots/architecture-image_text-2d.png",
+      "coverage": [
+        "architecture",
+        "image_text",
+        "import",
+        "2d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 215023,
+      "sha256": "d5fa61cfff9eeded98fd0bf3277d51d8ef2e41c59ce9cf1aaa0c336a86c3eb93"
+    },
+    {
+      "id": "architecture-image_text-3d",
+      "path": "screenshots/architecture-image_text-3d.png",
+      "coverage": [
+        "architecture",
+        "image_text",
+        "3d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 175919,
+      "sha256": "bfe4359c6527611c2a2814d2d0b5d0653b6f2915d5d9ca583a7f38227153c6a1"
+    },
+    {
+      "id": "architecture-resnet50-2d",
+      "path": "screenshots/architecture-resnet50-2d.png",
+      "coverage": [
+        "architecture",
+        "resnet50",
+        "import",
+        "2d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 182992,
+      "sha256": "64cf1b2b0453a88502c21bea9906b107116ebe8c83e8cbc2a8170b22a16e34e2"
+    },
+    {
+      "id": "architecture-resnet50-3d",
+      "path": "screenshots/architecture-resnet50-3d.png",
+      "coverage": [
+        "architecture",
+        "resnet50",
+        "3d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 204610,
+      "sha256": "9d2ff8c66cc466faeadac66a34bf2900e9ef2c02bbc6f9efb086b285c22f28d7"
+    },
+    {
+      "id": "comparison-resnet50-semantic-2d",
+      "path": "screenshots/comparison-resnet50-semantic-2d.png",
+      "coverage": [
+        "real-model",
+        "semantic",
+        "2d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 237577,
+      "sha256": "fd37f927f8b55fc8fd3d3abad4a76f85ca5cc9c83aa290ff88901882e73df3d5"
+    },
+    {
+      "id": "figure-proof-resnet50",
+      "path": "screenshots/figure-proof-resnet50.png",
+      "coverage": [
+        "proof",
+        "figure",
+        "real-model"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 232691,
+      "sha256": "bf9dd37aff31f94fb1de8196d186d267d53bfbce8dbec2f4845468ab9b5cbbab"
+    },
+    {
+      "id": "structure-lens-bounded-result",
+      "path": "screenshots/structure-lens-bounded-result.png",
+      "coverage": [
+        "structure-lens",
+        "dialog",
+        "provenance"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 338906,
+      "sha256": "cb785f9b628e392bf4c441defce3f73422b55bda9c0d098984935345b43dad40"
+    },
+    {
+      "id": "comparison-resnet50-scene-3d",
+      "path": "screenshots/comparison-resnet50-scene-3d.png",
+      "coverage": [
+        "real-model",
+        "semantic",
+        "structure-lens",
+        "3d",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 147435,
+      "sha256": "cafb342f0fbed18d15ded11d69be9f65d8d5fcf4584eecb488e87db3f9b991ab"
+    },
+    {
+      "id": "comparison-return-to-2d-selection",
+      "path": "screenshots/comparison-return-to-2d-selection.png",
+      "coverage": [
+        "2d",
+        "3d-to-2d",
+        "selection",
+        "provenance",
+        "comparison-pair"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 228863,
+      "sha256": "b8f7fb9ce9fc2a64d75a516eff7719897b7f101175ce8509b66b87df2b41157a"
+    },
+    {
+      "id": "autosave-restored-after-page-reload",
+      "path": "screenshots/autosave-restored-after-page-reload.png",
+      "coverage": [
+        "autosave",
+        "reload",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 156942,
+      "sha256": "0e16fb09d48e80b08fb875ff99786f7d3d67da4ca5b8eec093f3f0ca0f35aef2"
+    },
+    {
+      "id": "scene-export-menu-10-formats",
+      "path": "screenshots/scene-export-menu-10-formats.png",
+      "coverage": [
+        "export",
+        "menu",
+        "ten-formats"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 170725,
+      "sha256": "cd4dd0afe15b20a13efcabeeda4392e1972de2c298e5ed337bafd1dddc103d42"
+    },
+    {
+      "id": "viewport-1920x1080",
+      "path": "screenshots/viewport-1920x1080.png",
+      "coverage": [
+        "responsive",
+        "3d",
+        "exact-viewport",
+        "canvas-area-gate",
+        "desktop-sidebars"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 141807,
+      "sha256": "f1cc55c040b6ec25aea2d050f78dd14148b2305ec26203e7a247955841703e41"
+    },
+    {
+      "id": "viewport-1440x900",
+      "path": "screenshots/viewport-1440x900.png",
+      "coverage": [
+        "responsive",
+        "3d",
+        "exact-viewport",
+        "canvas-area-gate",
+        "desktop-sidebars"
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "bytes": 128872,
+      "sha256": "dbbf04da43cb7c413919a62ffdadeb9f2666320c6c8d197f8402751f3aba6bb7"
+    },
+    {
+      "id": "viewport-1280x720",
+      "path": "screenshots/viewport-1280x720.png",
+      "coverage": [
+        "responsive",
+        "3d",
+        "exact-viewport",
+        "canvas-area-gate",
+        "desktop-sidebars"
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "bytes": 111860,
+      "sha256": "aed4c1fd97b9717687edc5bd1ebed76a084d15690f7b63c9b9ac3f5bf87e374f"
+    },
+    {
+      "id": "viewport-1024x768",
+      "path": "screenshots/viewport-1024x768.png",
+      "coverage": [
+        "responsive",
+        "3d",
+        "exact-viewport",
+        "canvas-area-gate",
+        "desktop-sidebars"
+      ],
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bytes": 97941,
+      "sha256": "b27650738a293c6faa085fd3071de28d358c96698602a354fe429d9b61367cc0"
+    },
+    {
+      "id": "viewport-800x600",
+      "path": "screenshots/viewport-800x600.png",
+      "coverage": [
+        "responsive",
+        "3d",
+        "exact-viewport",
+        "canvas-area-gate",
+        "drawers-closed"
+      ],
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "bytes": 44122,
+      "sha256": "759cf5d532e57295d99d402f25d805067e8be5d9099183133597e88c89eb7ff6"
+    },
+    {
+      "id": "viewport-568x320",
+      "path": "screenshots/viewport-568x320.png",
+      "coverage": [
+        "responsive",
+        "3d",
+        "exact-viewport",
+        "canvas-area-gate",
+        "drawers-closed"
+      ],
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bytes": 39400,
+      "sha256": "8899e6cdebb9a87bfc31fd07e9311abde64a4e8c69fe7c404ff402baad09815b"
+    },
+    {
+      "id": "viewport-390x844",
+      "path": "screenshots/viewport-390x844.png",
+      "coverage": [
+        "responsive",
+        "3d",
+        "exact-viewport",
+        "canvas-area-gate",
+        "drawers-closed"
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bytes": 32248,
+      "sha256": "067c554b6c1a8bcdad888ca848d52d0e10cfe21a85ed03d102ef4107290ec5d5"
+    },
+    {
+      "id": "template-architecture-cnn-3d",
+      "path": "screenshots/template-architecture-cnn-3d.png",
+      "coverage": [
+        "template-architecture",
+        "cnn",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 185536,
+      "sha256": "d0fb1befecf72e7a6cef3995d63b3b115b77826101377e2cda88d9d86c0eb0e2"
+    },
+    {
+      "id": "template-architecture-resnet-3d",
+      "path": "screenshots/template-architecture-resnet-3d.png",
+      "coverage": [
+        "template-architecture",
+        "resnet",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 188243,
+      "sha256": "eb4998b896690705d53b421b8f7db4441e754ab55e7c0edfe1a3271348a0fda0"
+    },
+    {
+      "id": "template-architecture-unet-3d",
+      "path": "screenshots/template-architecture-unet-3d.png",
+      "coverage": [
+        "template-architecture",
+        "unet",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 189854,
+      "sha256": "2365f48386267c8da207aa846d3bf098cb94a802cd8ef8f5a528ba9ea716dc8d"
+    },
+    {
+      "id": "template-architecture-transformer-3d",
+      "path": "screenshots/template-architecture-transformer-3d.png",
+      "coverage": [
+        "template-architecture",
+        "transformer",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 204420,
+      "sha256": "32918d677a16ef5e5daed67d7f3e17c8e1250d006ba6e7e1fba1befb37aa2e59"
+    },
+    {
+      "id": "template-architecture-moe-3d",
+      "path": "screenshots/template-architecture-moe-3d.png",
+      "coverage": [
+        "template-architecture",
+        "moe",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 208055,
+      "sha256": "4de1618310fc680578e6b7587b5457b536ac40c2840027782555f48f78efba2e"
+    },
+    {
+      "id": "template-architecture-multimodal-fusion-3d",
+      "path": "screenshots/template-architecture-multimodal-fusion-3d.png",
+      "coverage": [
+        "template-architecture",
+        "multimodal-fusion",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 210084,
+      "sha256": "c6f1c6a70abf98dd92e48468fe605b7d685b9c786a03e4ce2d651514c901e0b6"
+    },
+    {
+      "id": "template-architecture-diffusion-unet-3d",
+      "path": "screenshots/template-architecture-diffusion-unet-3d.png",
+      "coverage": [
+        "template-architecture",
+        "diffusion-unet",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bytes": 200514,
+      "sha256": "d0a3324b78edc882c5d7be225e5e69c3c9c0cc28389b65d832cbe949fee57b00"
+    },
+    {
+      "id": "cpu-svg-vector-fallback",
+      "path": "screenshots/cpu-svg-vector-fallback.png",
+      "coverage": [
+        "fallback",
+        "cpu-svg",
+        "stroke",
+        "3d"
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "bytes": 135719,
+      "sha256": "e78b7d4bb224c6f02f898448831ea9c7e3854906df637906eb389181c9d79bd8"
+    }
+  ],
+  "download_manifest": [
+    {
+      "format": "svg",
+      "path": "downloads/svg-ResNet_3D.svg",
+      "bytes": 133536,
+      "sha256": "759bb039e2cc207ea9d4773bd398efdd494d70f0e7002a4c6a6b60eee79917a3"
+    },
+    {
+      "format": "pdf",
+      "path": "downloads/pdf-ResNet_3D.pdf",
+      "bytes": 266336,
+      "sha256": "47cd6c5f386a8d8a87ca14ec6cf06c8da7a49044fb24a32b2e1989999dac8fe8"
+    },
+    {
+      "format": "tikz",
+      "path": "downloads/tikz-ResNet_3D.tex",
+      "bytes": 8516,
+      "sha256": "8cde6b23588a179d3a7a34b2cc3c4c711c74b87a3f8e14cb95ac5e6cb2bed4a3"
+    },
+    {
+      "format": "pptx",
+      "path": "downloads/pptx-ResNet_3D.pptx",
+      "bytes": 31368,
+      "sha256": "d649da4bd63e599e4e01168aa4fa7d445b9ebc31c1813e6d16c49e161a2d3864"
+    },
+    {
+      "format": "png",
+      "path": "downloads/png-ResNet_3D.png",
+      "bytes": 31066,
+      "sha256": "3c0a7cdde0133cabbfdbe9682e8788088bb7c787371d0a44ddef82fc351385bb"
+    },
+    {
+      "format": "eps",
+      "path": "downloads/eps-ResNet_3D.eps",
+      "bytes": 8439,
+      "sha256": "3bc86e4c051c1ca22e097b80e509f3699ebdd8d5d1c4cf1c6734f28f9d9ec33c"
+    },
+    {
+      "format": "html",
+      "path": "downloads/html-ResNet_3D.html",
+      "bytes": 216707,
+      "sha256": "b34a48cfbf8442c3cca3d2323f54e619f6bb329a6161389f756af9fe38bbfaee"
+    },
+    {
+      "format": "json",
+      "path": "downloads/json-ResNet_3D.scene.json",
+      "bytes": 107635,
+      "sha256": "a185961bd8f918bd4b55106a13eb078a44bd1ccfe2bab190a8b8d8b29f5bbfd8"
+    },
+    {
+      "format": "gltf",
+      "path": "downloads/gltf-ResNet_3D.gltf",
+      "bytes": 22929,
+      "sha256": "a510e37fd848615a68ae4da0cdcad863b0a248a1fc03c5ce7768fbe8d439fac3"
+    },
+    {
+      "format": "glb",
+      "path": "downloads/glb-ResNet_3D.glb",
+      "bytes": 13904,
+      "sha256": "b0475df99adf0796dc1dba207c0a22bd981c077cc1859d594631d5dcf7bf1081"
+    }
+  ],
+  "artifact_root": ".",
+  "expected_fallback_errors": [],
+  "expected_recovery_errors": [
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+  ],
+  "browser_errors": []
+}

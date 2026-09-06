@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "release": "0.2.2",
+  "inherits": "verification/core-coverage-manifest.json",
+  "core_files": [
+    "src/nn_davinci/ir.py",
+    "src/nn_davinci/labels.py",
+    "src/nn_davinci/layout/__init__.py",
+    "src/nn_davinci/layout/engine.py",
+    "src/nn_davinci/project.py",
+    "src/nn_davinci/quality.py",
+    "src/nn_davinci/render/__init__.py",
+    "src/nn_davinci/render/export.py",
+    "src/nn_davinci/render/html.py",
+    "src/nn_davinci/render/svg.py",
+    "src/nn_davinci/render/tikz.py",
+    "src/nn_davinci/scaling.py",
+    "src/nn_davinci/server.py",
+    "src/nn_davinci/verification.py"
+  ],
+  "coverage_exclusions": [],
+  "minimum": {
+    "line_fraction": 0.885,
+    "branch_fraction": 0.8
+  },
+  "change_policy": "The old-core gate remains separate. Required additions may not be removed, and exclusions remain empty."
+}

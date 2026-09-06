@@ -1,0 +1,152 @@
+{
+  "all_critical_routes_landed_with_direction": true,
+  "all_roles_reader_visible": true,
+  "failures": [],
+  "formats": [
+    "svg",
+    "pdf",
+    "tikz",
+    "pptx",
+    "tikz_pdf"
+  ],
+  "generated_at": "2026-09-02T08:58:17.672837+00:00",
+  "model_count": 7,
+  "models": [
+    {
+      "blockers": [],
+      "browser_visible_in_page_role_count": 6,
+      "evidence_digest": "dfcdd2b29c760191a847b7626acff38001bd613e975b1708ed072b2f9ccd2e86",
+      "expected_critical_route_count": 4,
+      "expected_role_count": 6,
+      "family": "resnet",
+      "format_semantic_consistency": {
+        "pdf": true,
+        "pptx": true,
+        "svg": true,
+        "tikz": true,
+        "tikz_pdf": true
+      },
+      "landed_critical_route_count": 4,
+      "model": "resnet50",
+      "status": "PASS",
+      "visible_role_count": 6
+    },
+    {
+      "blockers": [],
+      "browser_visible_in_page_role_count": 5,
+      "evidence_digest": "8929ce28d5acaa33d7cc4efd3929474a60d0b873d614fab0b2c7dc7b5b4bff00",
+      "expected_critical_route_count": 1,
+      "expected_role_count": 5,
+      "family": "transformer",
+      "format_semantic_consistency": {
+        "pdf": true,
+        "pptx": true,
+        "svg": true,
+        "tikz": true,
+        "tikz_pdf": true
+      },
+      "landed_critical_route_count": 1,
+      "model": "vision_transformer",
+      "status": "PASS",
+      "visible_role_count": 5
+    },
+    {
+      "blockers": [],
+      "browser_visible_in_page_role_count": 5,
+      "evidence_digest": "19753d5bc4f9a152b9ce0be5db362eb735e282486f0f6659bd61ea2192353d05",
+      "expected_critical_route_count": 1,
+      "expected_role_count": 5,
+      "family": "transformer",
+      "format_semantic_consistency": {
+        "pdf": true,
+        "pptx": true,
+        "svg": true,
+        "tikz": true,
+        "tikz_pdf": true
+      },
+      "landed_critical_route_count": 1,
+      "model": "bert_encoder",
+      "status": "PASS",
+      "visible_role_count": 5
+    },
+    {
+      "blockers": [],
+      "browser_visible_in_page_role_count": 9,
+      "evidence_digest": "8f38b186a55e9ee207a00d2796ca8208742f2d46b1e3bf2722af7557ed3ef42f",
+      "expected_critical_route_count": 3,
+      "expected_role_count": 9,
+      "family": "unet",
+      "format_semantic_consistency": {
+        "pdf": true,
+        "pptx": true,
+        "svg": true,
+        "tikz": true,
+        "tikz_pdf": true
+      },
+      "landed_critical_route_count": 3,
+      "model": "multiscale_unet",
+      "status": "PASS",
+      "visible_role_count": 9
+    },
+    {
+      "blockers": [],
+      "browser_visible_in_page_role_count": 6,
+      "evidence_digest": "e37ae36979653331c6608c6d22ee880139314da85adebebf6d02bc1f3ade83c1",
+      "expected_critical_route_count": 3,
+      "expected_role_count": 6,
+      "family": "diffusion-unet",
+      "format_semantic_consistency": {
+        "pdf": true,
+        "pptx": true,
+        "svg": true,
+        "tikz": true,
+        "tikz_pdf": true
+      },
+      "landed_critical_route_count": 3,
+      "model": "diffusion_unet",
+      "status": "PASS",
+      "visible_role_count": 6
+    },
+    {
+      "blockers": [],
+      "browser_visible_in_page_role_count": 5,
+      "evidence_digest": "b30487748ccffa2b977379e6c24c62a0b72695aca92bd29200e830fffd54ef7d",
+      "expected_critical_route_count": 5,
+      "expected_role_count": 5,
+      "family": "moe",
+      "format_semantic_consistency": {
+        "pdf": true,
+        "pptx": true,
+        "svg": true,
+        "tikz": true,
+        "tikz_pdf": true
+      },
+      "landed_critical_route_count": 5,
+      "model": "topk_moe",
+      "status": "PASS",
+      "visible_role_count": 5
+    },
+    {
+      "blockers": [],
+      "browser_visible_in_page_role_count": 4,
+      "evidence_digest": "b53e0933defbb0a89f4232c043692407e575e4b632e8e182b6e85ad8fc33cb9e",
+      "expected_critical_route_count": 2,
+      "expected_role_count": 4,
+      "family": "multimodal-fusion",
+      "format_semantic_consistency": {
+        "pdf": true,
+        "pptx": true,
+        "svg": true,
+        "tikz": true,
+        "tikz_pdf": true
+      },
+      "landed_critical_route_count": 2,
+      "model": "image_text",
+      "status": "PASS",
+      "visible_role_count": 4
+    }
+  ],
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "schema_version": "nndv-0.7.3-semantic-completeness-matrix-1",
+  "status": "PASS"
+}

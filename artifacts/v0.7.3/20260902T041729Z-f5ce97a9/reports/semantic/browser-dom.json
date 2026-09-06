@@ -1,0 +1,919 @@
+{
+  "schema_version": "nndv-0.7.3-semantic-svg-dom-oracle-1",
+  "oracle": "independent-browser-dom-ctm",
+  "status": "PASS",
+  "cases": [
+    {
+      "case_dir": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/bert_encoder",
+      "family": "transformer",
+      "expected_role_count": 5,
+      "expected_route_count": 1,
+      "status": "PASS",
+      "blockers": [],
+      "label_rows": [
+        {
+          "role_id": "architecture_role_embedding_0_node_fx_token_ids_0_2186a7db_m_5f5b5fd0",
+          "text": "Token + position embed.",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 69.03686163872479,
+            "top": 139.48632621765137,
+            "right": 170.42750027378398,
+            "bottom": 149.48632679662356
+          }
+        },
+        {
+          "role_id": "architecture_role_attention_1_module_encoder_0_self_attentio_1eb4f949",
+          "text": "Self-attention ×3",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 246.59452450076736,
+            "top": 178.81956481138866,
+            "right": 314.7976385464271,
+            "bottom": 188.81956539036085
+          }
+        },
+        {
+          "role_id": "architecture_role_feed_forward_2_module_encoder_0_feed_forwa_b7ed392a",
+          "text": "FFN ×3",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 289.8642530083656,
+            "top": 340.29670573472976,
+            "right": 321.2392546559373,
+            "bottom": 350.296706313702
+          }
+        },
+        {
+          "role_id": "architecture_role_residual_norm_3_module_encoder_1_output_no_0831d771",
+          "text": "Residual + norm ×3",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 428.0259977598985,
+            "top": 237.42918774386246,
+            "right": 509.4478794803222,
+            "bottom": 247.42918832283468
+          }
+        },
+        {
+          "role_id": "architecture_role_output_head_4_module_encoder_2_feed_forwar_5755f99e",
+          "text": "Classifier / output",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 482.63072035710013,
+            "top": 285.1916138887405,
+            "right": 555.1043892006079,
+            "bottom": 295.1916144677127
+          }
+        }
+      ],
+      "boundary": {
+        "left": 0,
+        "top": 0,
+        "right": 680.3125,
+        "bottom": 453.53125
+      }
+    },
+    {
+      "case_dir": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/diffusion_unet",
+      "family": "diffusion-unet",
+      "expected_role_count": 6,
+      "expected_route_count": 3,
+      "status": "PASS",
+      "blockers": [],
+      "label_rows": [
+        {
+          "role_id": "architecture_role_input_0_node_fx_noisy_latent_0_6bca5c91_e18d48aa",
+          "text": "Noisy latent / input",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 80.99054833402235,
+            "top": 92.71618999143442,
+            "right": 158.13742749790347,
+            "bottom": 102.71619057040661
+          }
+        },
+        {
+          "role_id": "architecture_role_conditioning_1_node_fx_float_1_3_cfe5efc3__2f493561",
+          "text": "Timestep conditioning",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 278.5514616688092,
+            "top": 128.4051643470923,
+            "right": 368.9577150305112,
+            "bottom": 138.40516492606451
+          }
+        },
+        {
+          "role_id": "architecture_role_down_path_2_module_downsample_fce0c560_mod_31673ef0",
+          "text": "Conditioned down path",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 54.36789395163455,
+            "top": 205.20048314829666,
+            "right": 149.80539860427376,
+            "bottom": 215.20048372726887
+          }
+        },
+        {
+          "role_id": "architecture_role_bottleneck_3_node_fx_silu_1_20_0560e3e3_mo_9e2af987",
+          "text": "Mid / bottleneck",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 245.93544884125387,
+            "top": 351.81488692959147,
+            "right": 311.60023348778486,
+            "bottom": 361.8148875085637
+          }
+        },
+        {
+          "role_id": "architecture_role_up_path_4_module_decoder_conditioned_conv1_a17fc891",
+          "text": "Conditioned up path",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 377.8465427597364,
+            "top": 332.1929326454798,
+            "right": 461.362172644337,
+            "bottom": 342.192933224452
+          }
+        },
+        {
+          "role_id": "architecture_role_output_head_5_module_denoised_output_91b07_3425aee8",
+          "text": "Denoised output",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 498.057998462518,
+            "top": 249.2047622481982,
+            "right": 566.4050483231744,
+            "bottom": 259.2047628271704
+          }
+        }
+      ],
+      "boundary": {
+        "left": 0,
+        "top": 0,
+        "right": 680.3125,
+        "bottom": 453.53125
+      }
+    },
+    {
+      "case_dir": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/image_text",
+      "family": "multimodal-fusion",
+      "expected_role_count": 4,
+      "expected_route_count": 2,
+      "status": "PASS",
+      "blockers": [],
+      "label_rows": [
+        {
+          "role_id": "architecture_role_image_lane_0_module_image_encoder_4_b28556_e21b32f1",
+          "text": "Image encoder / representation",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 77.96229507078725,
+            "top": 247.22776594758034,
+            "right": 207.60292711903648,
+            "bottom": 257.2277512080967
+          }
+        },
+        {
+          "role_id": "architecture_role_text_lane_1_node_fx_getitem_1_11_cb816ebb__391ff0b4",
+          "text": "Text encoder / attention",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 72.48163272589443,
+            "top": 75.63054667462904,
+            "right": 169.4660130664706,
+            "bottom": 85.63054725360125
+          }
+        },
+        {
+          "role_id": "architecture_role_fusion_2_node_fx_cat_15_cd86490b_module_mo_a805efa2",
+          "text": "Gated fusion",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 308.9557922442754,
+            "top": 325.91465813120203,
+            "right": 361.86204411064585,
+            "bottom": 335.91465871017425
+          }
+        },
+        {
+          "role_id": "architecture_role_output_head_3_node_fx_mul_18_d9198197_node_fbb12308",
+          "text": "Output head",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 505.99072387218473,
+            "top": 303.22013158798217,
+            "right": 557.3501000506183,
+            "bottom": 313.2201321669544
+          }
+        }
+      ],
+      "boundary": {
+        "left": 0,
+        "top": 0,
+        "right": 680.3125,
+        "bottom": 453.53125
+      }
+    },
+    {
+      "case_dir": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/multiscale_unet",
+      "family": "unet",
+      "expected_role_count": 9,
+      "expected_route_count": 3,
+      "status": "PASS",
+      "blockers": [],
+      "label_rows": [
+        {
+          "role_id": "architecture_role_input_0_node_fx_image_0_a96ed448_7702b4c9",
+          "text": "Image input",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 115.75226952781279,
+            "top": 81.80405015995105,
+            "right": 164.90561506325997,
+            "bottom": 91.80405073892325
+          }
+        },
+        {
+          "role_id": "architecture_role_encoder_level_1_module_encoder1_5_8ba19639_01a447ee",
+          "text": "Encoder level 1",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 93.36625307997066,
+            "top": 160.05083049337068,
+            "right": 157.67874607493476,
+            "bottom": 170.05083107234287
+          }
+        },
+        {
+          "role_id": "architecture_role_encoder_level_2_module_encoder2_5_17c26924_6a5921cb",
+          "text": "Encoder level 2",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 131.90261479020114,
+            "top": 222.46206884185472,
+            "right": 196.21511499385036,
+            "bottom": 232.46206942082694
+          }
+        },
+        {
+          "role_id": "architecture_role_encoder_level_3_module_encoder3_5_b4081b1c_45dcb163",
+          "text": "Encoder level 3",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 170.3824315746625,
+            "top": 284.8732495208581,
+            "right": 234.69493177831168,
+            "bottom": 294.87325009983033
+          }
+        },
+        {
+          "role_id": "architecture_role_bottleneck_4_module_bottleneck_2_485ca928__fd91f8a6",
+          "text": "Bottleneck",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 270.84924117326733,
+            "top": 375.45856661995253,
+            "right": 314.7422794493536,
+            "bottom": 385.4585671989247
+          }
+        },
+        {
+          "role_id": "architecture_role_decoder_level_5_node_fx_cat_29_2b5dd4a7_a3089f9b",
+          "text": "Decoder level 1",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 379.0617828905582,
+            "top": 343.0594198743502,
+            "right": 443.8899131293098,
+            "bottom": 353.05942045332245
+          }
+        },
+        {
+          "role_id": "architecture_role_decoder_level_6_node_fx_cat_1_37_a682ee08_b7dae19e",
+          "text": "Decoder level 2",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 440.45861507455504,
+            "top": 321.2493124862512,
+            "right": 505.28674531330665,
+            "bottom": 331.24931306522336
+          }
+        },
+        {
+          "role_id": "architecture_role_decoder_level_7_node_fx_cat_2_45_33f41fce_5c9f5ae9",
+          "text": "Decoder level 3",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 501.8920962134997,
+            "top": 299.4906751096249,
+            "right": 566.7202264522513,
+            "bottom": 309.49067568859704
+          }
+        },
+        {
+          "role_id": "architecture_role_output_head_8_module_segmentation_head_e43_3bc6a70a",
+          "text": "Segmentation head",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 483.08339694539706,
+            "top": 231.14991843104363,
+            "right": 563.9896486307184,
+            "bottom": 241.14991901001582
+          }
+        }
+      ],
+      "boundary": {
+        "left": 0,
+        "top": 0,
+        "right": 680.3125,
+        "bottom": 453.53125
+      }
+    },
+    {
+      "case_dir": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/resnet50",
+      "family": "resnet",
+      "expected_role_count": 6,
+      "expected_route_count": 4,
+      "status": "PASS",
+      "blockers": [],
+      "label_rows": [
+        {
+          "role_id": "architecture_role_input_stem_0_module_maxpool_d1478f2a_modul_5d7d403e",
+          "text": "Input / stem",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 106.58015489230552,
+            "top": 198.45420638124148,
+            "right": 155.54563488587735,
+            "bottom": 208.45420696021367
+          }
+        },
+        {
+          "role_id": "architecture_role_residual_stage_1_module_layer1_1_relu_86f1_2f0b7943",
+          "text": "Stage 1 ×3 Bottleneck",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 58.404425997038665,
+            "top": 242.9977383772532,
+            "right": 150.27271603196857,
+            "bottom": 252.99773895622542
+          }
+        },
+        {
+          "role_id": "architecture_role_residual_stage_2_module_layer2_2_bn3_20cf9_eb26e13e",
+          "text": "Stage 2 ×4 Bottleneck",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 128.85494132935997,
+            "top": 284.368872243166,
+            "right": 220.7232313642899,
+            "bottom": 294.36887282213814
+          }
+        },
+        {
+          "role_id": "architecture_role_residual_stage_3_module_layer3_0_relu_9d91_f620fccb",
+          "text": "Stage 3 ×6 Bottleneck",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 197.54497321744756,
+            "top": 328.4030673861503,
+            "right": 289.4132776697477,
+            "bottom": 338.40306796512255
+          }
+        },
+        {
+          "role_id": "architecture_role_residual_stage_4_node_fx_add_15_171_5e3d5c_ef59fc3f",
+          "text": "Stage 4 ×3 Bottleneck",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 360.2029976785183,
+            "top": 366.48767521977425,
+            "right": 452.0712877134482,
+            "bottom": 376.4876757987464
+          }
+        },
+        {
+          "role_id": "architecture_role_output_head_5_module_layer4_2_conv2_344e40_16a9b91e",
+          "text": "Pooling / classifier",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 479.71647965709366,
+            "top": 287.33057492574056,
+            "right": 554.9039517119527,
+            "bottom": 297.3305755047127
+          }
+        }
+      ],
+      "boundary": {
+        "left": 0,
+        "top": 0,
+        "right": 680.3125,
+        "bottom": 453.53125
+      }
+    },
+    {
+      "case_dir": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/topk_moe",
+      "family": "moe",
+      "expected_role_count": 5,
+      "expected_route_count": 5,
+      "status": "PASS",
+      "blockers": [],
+      "label_rows": [
+        {
+          "role_id": "architecture_role_input_0_module_token_embedding_6c4877e2_no_f9cf0520",
+          "text": "Tokens / embedding",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 85.9294635777672,
+            "top": 121.50630855162937,
+            "right": 169.42946503311393,
+            "bottom": 131.50630913060158
+          }
+        },
+        {
+          "role_id": "architecture_role_router_1_module_router_router_logits_f60d1_aa199a8c",
+          "text": "Router + top-2",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 168.09391915698842,
+            "top": 95.66466473688682,
+            "right": 227.98454705427088,
+            "bottom": 105.66466531585901
+          }
+        },
+        {
+          "role_id": "architecture_role_experts_2_module_experts_3_feed_forward_2__38e85578",
+          "text": "Experts ×4",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 272.7192894220352,
+            "top": 320.99178942044574,
+            "right": 317.5786663504938,
+            "bottom": 330.99178999941796
+          }
+        },
+        {
+          "role_id": "architecture_role_weighted_combine_3_node_fx_add_29_6d5cabfa_66d5db91",
+          "text": "Weighted combine",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 386.9164814929167,
+            "top": 324.1302490611871,
+            "right": 464.0102326477567,
+            "bottom": 334.1302496401593
+          }
+        },
+        {
+          "role_id": "architecture_role_output_head_4_module_output_norm_f11a6f83__dd039697",
+          "text": "Normalization / output",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 478.65282375613845,
+            "top": 278.65379787683486,
+            "right": 569.7964751407504,
+            "bottom": 288.6537984558071
+          }
+        }
+      ],
+      "boundary": {
+        "left": 0,
+        "top": 0,
+        "right": 680.3125,
+        "bottom": 453.53125
+      }
+    },
+    {
+      "case_dir": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/vision_transformer",
+      "family": "transformer",
+      "expected_role_count": 5,
+      "expected_route_count": 1,
+      "status": "PASS",
+      "blockers": [],
+      "label_rows": [
+        {
+          "role_id": "architecture_role_embedding_0_node_fx_flatten_2_4695a9f7_mod_f48bc7ac",
+          "text": "Patch + class token embed.",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 63.401500912010654,
+            "top": 130.34924579163393,
+            "right": 178.2608827943603,
+            "bottom": 140.34924637060612
+          }
+        },
+        {
+          "role_id": "architecture_role_attention_1_module_encoder_0_self_attentio_1eb4f949",
+          "text": "Self-attention ×3",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 250.9290780047575,
+            "top": 183.91490852137406,
+            "right": 319.1322064677874,
+            "bottom": 193.91490910034625
+          }
+        },
+        {
+          "role_id": "architecture_role_feed_forward_2_module_encoder_0_feed_forwa_b7ed392a",
+          "text": "FFN ×3",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 295.0145701507727,
+            "top": 351.53965933322905,
+            "right": 326.38957179834443,
+            "bottom": 361.5396599122013
+          }
+        },
+        {
+          "role_id": "architecture_role_residual_norm_3_module_encoder_1_norm1_e1e_470c855b",
+          "text": "Residual + norm ×3",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 434.5865643819173,
+            "top": 239.0772517442703,
+            "right": 516.008446102341,
+            "bottom": 249.0772523232425
+          }
+        },
+        {
+          "role_id": "architecture_role_output_head_4_node_fx_output_44_81582432_m_81e64aec",
+          "text": "Classifier / output",
+          "visible": true,
+          "in_page": true,
+          "ctm": [
+            3.779427083333333,
+            0,
+            0,
+            3.779427083333333,
+            0.007812499999985767,
+            0
+          ],
+          "box": {
+            "left": 490.6076205889384,
+            "top": 358.42963402867315,
+            "right": 563.0813182671865,
+            "bottom": 368.42963460764537
+          }
+        }
+      ],
+      "boundary": {
+        "left": 0,
+        "top": 0,
+        "right": 680.3125,
+        "bottom": 453.53125
+      }
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nn-davinci.local/schemas/scene-ir-1.0.schema.json",
+  "title": "NN_DaVinci Scene IR 1.0",
+  "type": "object",
+  "required": [
+    "schema_version", "id", "name", "cameras", "active_camera_id",
+    "lights", "layers", "selection_ids", "metadata", "migrations"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "id": { "$ref": "#/$defs/id" },
+    "name": { "$ref": "#/$defs/name" },
+    "cameras": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "items": { "$ref": "#/$defs/camera" }
+    },
+    "active_camera_id": { "$ref": "#/$defs/id" },
+    "lights": {
+      "type": "array",
+      "maxItems": 64,
+      "items": { "$ref": "#/$defs/light" }
+    },
+    "layers": {
+      "type": "array",
+      "maxItems": 128,
+      "items": { "$ref": "#/$defs/layer" }
+    },
+    "selection_ids": {
+      "type": "array",
+      "maxItems": 10000,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/id" }
+    },
+    "metadata": { "$ref": "#/$defs/metadata" },
+    "migrations": {
+      "type": "array",
+      "maxItems": 128,
+      "items": { "type": "object" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 16384,
+      "pattern": "^\\S+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 16384
+    },
+    "color": {
+      "type": "string",
+      "pattern": "^#[0-9a-fA-F]{6}([0-9a-fA-F]{2})?$"
+    },
+    "finite": { "type": "number" },
+    "vec3": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "prefixItems": [
+        { "$ref": "#/$defs/finite" },
+        { "$ref": "#/$defs/finite" },
+        { "$ref": "#/$defs/finite" }
+      ],
+      "items": false
+    },
+    "vec2": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "prefixItems": [
+        { "$ref": "#/$defs/finite" },
+        { "$ref": "#/$defs/finite" }
+      ],
+      "items": false
+    },
+    "matrix4": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "array",
+        "minItems": 4,
+        "maxItems": 4,
+        "items": { "$ref": "#/$defs/finite" }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "propertyNames": {
+        "not": { "enum": ["__proto__", "prototype", "constructor"] }
+      }
+    },
+    "transform": {
+      "type": "object",
+      "required": ["position", "rotation", "scale"],
+      "properties": {
+        "position": { "$ref": "#/$defs/vec3" },
+        "rotation": { "$ref": "#/$defs/vec3" },
+        "scale": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": { "type": "number", "exclusiveMinimum": 0, "maximum": 10000 }
+        }
+      },
+      "additionalProperties": false
+    },
+    "material": {
+      "type": "object",
+      "required": [
+        "base_color", "face_colors", "stroke_color", "stroke_width",
+        "opacity", "metallic", "roughness", "unlit"
+      ],
+      "properties": {
+        "base_color": { "$ref": "#/$defs/color" },
+        "face_colors": {
+          "type": "object",
+          "maxProperties": 32,
+          "additionalProperties": { "$ref": "#/$defs/color" }
+        },
+        "stroke_color": { "$ref": "#/$defs/color" },
+        "stroke_width": { "type": "number", "minimum": 0, "maximum": 100 },
+        "opacity": { "type": "number", "minimum": 0, "maximum": 1 },
+        "metallic": { "type": "number", "minimum": 0, "maximum": 1 },
+        "roughness": { "type": "number", "minimum": 0, "maximum": 1 },
+        "unlit": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "kind", "source_id", "graph_ir_ids", "semantic_view_ids",
+        "figure_ir_ids", "evidence", "reason", "author_annotation"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "graph_ir", "semantic_view", "figure_ir", "source", "template",
+            "author_annotation", "external_3d", "unknown"
+          ]
+        },
+        "source_id": { "type": "string", "maxLength": 16384 },
+        "graph_ir_ids": {
+          "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" }
+        },
+        "semantic_view_ids": {
+          "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" }
+        },
+        "figure_ir_ids": {
+          "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" }
+        },
+        "evidence": { "$ref": "#/$defs/metadata" },
+        "reason": { "type": "string", "maxLength": 16384 },
+        "author_annotation": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "world": {
+      "type": "object",
+      "required": ["matrix", "position", "bounds_min", "bounds_max"],
+      "properties": {
+        "matrix": { "$ref": "#/$defs/matrix4" },
+        "position": { "$ref": "#/$defs/vec3" },
+        "bounds_min": { "$ref": "#/$defs/vec3" },
+        "bounds_max": { "$ref": "#/$defs/vec3" }
+      },
+      "additionalProperties": false
+    },
+    "projection_record": {
+      "type": "object",
+      "required": ["camera_id", "viewport", "point", "depth", "visible", "ndc"],
+      "properties": {
+        "camera_id": { "$ref": "#/$defs/id" },
+        "viewport": { "$ref": "#/$defs/vec2" },
+        "point": { "$ref": "#/$defs/vec2" },
+        "depth": { "$ref": "#/$defs/finite" },
+        "visible": { "type": "boolean" },
+        "ndc": { "$ref": "#/$defs/vec3" }
+      },
+      "additionalProperties": false
+    },
+    "camera": {
+      "type": "object",
+      "required": [
+        "id", "name", "projection", "position", "target", "up", "rotation",
+        "fov_y_deg", "ortho_height", "near", "far", "aspect", "locked", "metadata"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "$ref": "#/$defs/name" },
+        "projection": { "enum": ["orthographic", "perspective"] },
+        "position": { "$ref": "#/$defs/vec3" },
+        "target": { "$ref": "#/$defs/vec3" },
+        "up": { "$ref": "#/$defs/vec3" },
+        "rotation": { "$ref": "#/$defs/vec3" },
+        "fov_y_deg": { "type": "number", "minimum": 0.01, "exclusiveMaximum": 179 },
+        "ortho_height": { "type": "number", "exclusiveMinimum": 0 },
+        "near": { "type": "number", "exclusiveMinimum": 0 },
+        "far": { "type": "number", "exclusiveMinimum": 0 },
+        "aspect": { "type": "number", "exclusiveMinimum": 0 },
+        "locked": { "type": "boolean" },
+        "metadata": { "$ref": "#/$defs/metadata" }
+      },
+      "additionalProperties": false
+    },
+    "light": {
+      "type": "object",
+      "required": [
+        "id", "name", "kind", "color", "intensity", "position", "direction",
+        "visible", "locked", "metadata"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "$ref": "#/$defs/name" },
+        "kind": { "enum": ["ambient", "directional", "point"] },
+        "color": { "$ref": "#/$defs/color" },
+        "intensity": { "type": "number", "minimum": 0, "maximum": 100000 },
+        "position": { "$ref": "#/$defs/vec3" },
+        "direction": { "$ref": "#/$defs/vec3" },
+        "visible": { "type": "boolean" },
+        "locked": { "type": "boolean" },
+        "metadata": { "$ref": "#/$defs/metadata" }
+      },
+      "additionalProperties": false
+    },
+    "object": {
+      "type": "object",
+      "required": [
+        "id", "kind", "name", "transform", "geometry", "material", "provenance",
+        "visible", "locked", "selected", "parent_group_id", "world", "projections",
+        "metadata", "order"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "kind": {
+          "enum": [
+            "cuboid", "tensor-volume", "tensor-stack", "feature-map-stack",
+            "layer-plane", "operation-block", "convolution-window", "conv-window",
+            "pooling", "downsample", "upsample", "residual-skip", "unet-skip",
+            "attention-head", "attention-ribbon", "qkv-branch", "token-sequence",
+            "moe-router", "expert-branch", "merge", "multimodal-stream", "fusion",
+            "timestep-conditioning", "group-frame", "annotation", "legend", "arrow",
+            "tube", "polyline", "bezier-route", "unknown"
+          ]
+        },
+        "name": { "$ref": "#/$defs/name" },
+        "transform": { "$ref": "#/$defs/transform" },
+        "geometry": { "$ref": "#/$defs/metadata" },
+        "material": { "$ref": "#/$defs/material" },
+        "provenance": { "$ref": "#/$defs/provenance" },
+        "visible": { "type": "boolean" },
+        "locked": { "type": "boolean" },
+        "selected": { "type": "boolean" },
+        "parent_group_id": {
+          "oneOf": [{ "$ref": "#/$defs/id" }, { "type": "null" }]
+        },
+        "world": { "$ref": "#/$defs/world" },
+        "projections": {
+          "type": "array", "maxItems": 32,
+          "items": { "$ref": "#/$defs/projection_record" }
+        },
+        "metadata": { "$ref": "#/$defs/metadata" },
+        "order": { "type": "integer", "minimum": -1000000000, "maximum": 1000000000 }
+      },
+      "additionalProperties": false
+    },
+    "group": {
+      "type": "object",
+      "required": [
+        "id", "name", "object_ids", "transform", "provenance", "parent_group_id",
+        "visible", "locked", "selected", "metadata", "order"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "$ref": "#/$defs/name" },
+        "object_ids": {
+          "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" }
+        },
+        "transform": { "$ref": "#/$defs/transform" },
+        "provenance": { "$ref": "#/$defs/provenance" },
+        "parent_group_id": {
+          "oneOf": [{ "$ref": "#/$defs/id" }, { "type": "null" }]
+        },
+        "visible": { "type": "boolean" },
+        "locked": { "type": "boolean" },
+        "selected": { "type": "boolean" },
+        "metadata": { "$ref": "#/$defs/metadata" },
+        "order": { "type": "integer" }
+      },
+      "additionalProperties": false
+    },
+    "layer": {
+      "type": "object",
+      "required": ["id", "name", "objects", "groups", "visible", "locked", "order", "metadata"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "$ref": "#/$defs/name" },
+        "objects": {
+          "type": "array", "maxItems": 10000, "items": { "$ref": "#/$defs/object" }
+        },
+        "groups": {
+          "type": "array", "maxItems": 4096, "items": { "$ref": "#/$defs/group" }
+        },
+        "visible": { "type": "boolean" },
+        "locked": { "type": "boolean" },
+        "order": { "type": "integer" },
+        "metadata": { "$ref": "#/$defs/metadata" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

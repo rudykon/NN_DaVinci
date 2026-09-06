@@ -1,0 +1,220 @@
+{
+  "schema_version": "nndv-0.6.1-figure-studio-e2e-1",
+  "status": "PASS",
+  "browser": "150.0.7871.100",
+  "counts": {
+    "scenarios": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0,
+    "assertions": 76,
+    "console_page_request_errors": 0
+  },
+  "tested_viewports": [
+    1440,
+    800,
+    390
+  ],
+  "median_interaction_ms": 73.7,
+  "interaction_samples_ms": [
+    61.6,
+    63.5,
+    81.7,
+    91.4,
+    72.4,
+    75
+  ],
+  "behaviors": [
+    "Start Center exposes all seven offline real-model fixtures",
+    "real torchvision ResNet50 import is served by the local real-model endpoint",
+    "real-model Graph IR carries executable nodes, edges, and tensor ports",
+    "Semantic View is materialized as block/paper through /api/semantic",
+    "Semantic View returns evidence-backed source-to-semantic mappings",
+    "the visible model canvas is in Block Semantic View",
+    "Figure Studio opens as a distinct workspace",
+    "real Graph IR is converted using the author-selected Block/Paper Semantic View",
+    "automatic mixed Figure contains editable objects with Graph IR provenance",
+    "automatic mixed Figure references only entities in its returned Semantic View",
+    "automatic mixed Figure renders genuine tensor geometry",
+    "seven bundled offline templates remain available beside model-to-figure",
+    "left sidebar resize handle does not cover the Layers tab hit target ({\"passed\":true,\"tab\":{\"left\":181.25,\"right\":236,\"top\":68,\"bottom\":104},\"resizer\":{\"left\":243,\"right\":250,\"top\":60},\"hit\":\"BUTTON\"})",
+    "automatic tensor glyph and its source tensor evidence are exposed in the object tree",
+    "tensor shape property renders an explicit author override label",
+    "tensor style property updates the editable front-face vector fill",
+    "long author label is retained as an editable Figure object",
+    "final SVG auto-wraps the long label into multiple tspans",
+    "final SVG long label has a non-empty Chrome getBBox measurement",
+    "Chrome getBBox and CTM place the full long label inside its panel",
+    "Chrome getBoundingClientRect confirms the long label is not page-clipped",
+    "final SVG text CTM preserves 1:1 horizontal/vertical scale",
+    "final SVG embeds versioned Figure IR plus explicit mm/pt unit metadata",
+    "native SVG metadata round-trip restores the page and exact long-label object",
+    "native SVG metadata round-trip restores the author shape override and style without changing source evidence",
+    "Structure Lens returns a bounded downstream result from real Graph IR",
+    "Structure Lens result includes an evidence-backed provenance Panel preview",
+    "Structure Lens query alone does not create a Figure Page",
+    "Structure Lens preview alone does not create a Figure Panel",
+    "explicit Structure Lens Add creates exactly one new provenance Page",
+    "explicit Structure Lens Add creates exactly one new provenance Panel",
+    "new Structure Lens Page becomes the active editable page",
+    "Figure Studio supports at least six editable Panels (observed 6)",
+    "Figure Studio preserves a real second Page while adding Panels",
+    "Figure rebuild forwards the prior Figure and selected Semantic View for reconciliation",
+    "Undo after rebuild restores the complete prior Figure and author tensor override",
+    "saved project uses schema 1.4",
+    "saved project persists the exact Semantic View used by its model-derived Figure",
+    "saved project retains every Figure Page",
+    "saved project retains all six-or-more Panels",
+    "saved Structure Lens Page retains Graph IR provenance",
+    "saved project retains the author shape override and style without changing model evidence",
+    "saved project retains the exact wrapped long-label source text",
+    "refresh recovers directly into the Figure Studio workspace",
+    "save, refresh, and local recovery restore all Pages and Panels",
+    "refresh recovery retains the author tensor shape override label",
+    "SVG browser download is non-empty",
+    "SVG browser download has the expected native/ZIP signature",
+    "PDF browser download is non-empty",
+    "PDF browser download has the expected native/ZIP signature",
+    "TIKZ browser download is non-empty",
+    "TIKZ browser download has the expected native/ZIP signature",
+    "PPTX browser download is non-empty",
+    "PPTX browser download has the expected native/ZIP signature",
+    "PNG browser download is non-empty",
+    "PNG browser download has the expected native/ZIP signature",
+    "EPS browser download is non-empty",
+    "EPS browser download has the expected native/ZIP signature",
+    "HTML browser download is non-empty",
+    "HTML browser download has the expected native/ZIP signature",
+    "submission package is generated as a non-empty seven-format archive",
+    "submission package download is a real ZIP archive",
+    "1440px Figure Studio has no horizontal page overflow",
+    "1440px Figure Studio toolbar remains bounded",
+    "800px Figure Studio has no horizontal page overflow",
+    "800px Figure Studio toolbar remains bounded",
+    "800px reuses the canonical left/right drawer controls",
+    "800px opens the canonical Figure layer drawer",
+    "390px Figure Studio has no horizontal page overflow",
+    "390px Figure Studio toolbar remains bounded",
+    "390px reuses the canonical left/right drawer controls",
+    "390px opens the canonical Figure layer drawer",
+    "tampered persisted project is rejected before Figure workspace hydration",
+    "rejected autosave is reported and retained without silent reindex or overwrite",
+    "median Figure Studio interaction is 73.70 ms (target <= 100 ms)",
+    "unexpected console/page/request errors = 0"
+  ],
+  "required_workflows": {
+    "real_model_semantic_mixed_figure": true,
+    "structure_lens_explicit_panel": true,
+    "tensor_shape_style_edit": true,
+    "long_label_final_svg_bbox": true,
+    "second_page": true,
+    "six_panels": true,
+    "rebuild_undo_restores_evidence": true,
+    "save_refresh_restore": true,
+    "tampered_project_rejected": true,
+    "svg_metadata_roundtrip": true,
+    "seven_format_exports": true,
+    "submission_package": true,
+    "responsive_1440_800_390": true,
+    "zero_browser_errors": true
+  },
+  "workflow_measurements": {
+    "model": {
+      "key": "resnet50",
+      "graph_id": "graph_42780b80597940a20296",
+      "nodes": 177,
+      "edges": 192
+    },
+    "semantic": {
+      "level": "block",
+      "view": "paper",
+      "nodes": 16
+    },
+    "mixed_figure": {
+      "pages": 1,
+      "panels": 1,
+      "objects": 21,
+      "mode": "mixed"
+    },
+    "long_label_svg": {
+      "line_count": 2,
+      "bbox": {
+        "x": 14,
+        "y": 24.877866744995117,
+        "width": 149.72256469726562,
+        "height": 5.873819351196289
+      },
+      "transformed_bbox": {
+        "x": 52.92028601694913,
+        "y": 94.0233147028139,
+        "width": 565.8608900409633,
+        "height": 22.19949045575271
+      },
+      "panel_bbox": {
+        "x": 15.126324152542349,
+        "y": 15.117584745762711,
+        "width": 642.4973516949153,
+        "height": 415.7335805084746
+      },
+      "client_rect": {
+        "left": 52.920284271240234,
+        "top": 94.0233154296875,
+        "right": 618.7811851501465,
+        "bottom": 116.22280883789062
+      },
+      "svg_client_rect": {
+        "left": 0,
+        "top": 0,
+        "right": 672.75,
+        "bottom": 445.96875
+      },
+      "ctm": {
+        "a": 3.7793961864406778,
+        "b": 0,
+        "c": 0,
+        "d": 3.7793961864406778,
+        "e": 0.008739406779637533,
+        "f": 0
+      },
+      "ctm_scale_ratio": 1,
+      "within_panel": true,
+      "within_svg_client_rect": true,
+      "clip_path": "none"
+    },
+    "exports": {
+      "svg": {
+        "bytes": 241844,
+        "signature": "zip"
+      },
+      "pdf": {
+        "bytes": 43183,
+        "signature": "pdf"
+      },
+      "tikz": {
+        "bytes": 4944,
+        "signature": "zip"
+      },
+      "pptx": {
+        "bytes": 37445,
+        "signature": "pptx-zip"
+      },
+      "png": {
+        "bytes": 105892,
+        "signature": "zip"
+      },
+      "eps": {
+        "bytes": 70017,
+        "signature": "zip"
+      },
+      "html": {
+        "bytes": 4077168,
+        "signature": "html"
+      }
+    }
+  },
+  "errors": [],
+  "expected_negative_control_errors": [
+    "Failed to load resource: the server responded with a status of 400 (BAD REQUEST)"
+  ],
+  "temporary": "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/work/figure/runtime"
+}

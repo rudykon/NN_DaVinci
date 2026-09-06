@@ -1,0 +1,17 @@
+{
+  "name": "U-Net",
+  "nodes": [
+    {"name":"Image","type":"Input","category":"input","outputs":[[1,3,256,256]]},
+    {"name":"Encoder 1","type":"ConvBlock","category":"convolution","outputs":[[1,64,256,256]]},
+    {"name":"Encoder 2 Down","type":"ConvBlock","category":"convolution","outputs":[[1,128,128,128]]},
+    {"name":"Encoder 3 Down","type":"ConvBlock","category":"convolution","outputs":[[1,256,64,64]]},
+    {"name":"Bottleneck","type":"ConvBlock","category":"convolution","outputs":[[1,512,32,32]]},
+    {"name":"Decoder 3 Up","type":"UpConv","category":"convolution","outputs":[[1,256,64,64]]},
+    {"name":"Decoder 2 Up","type":"UpConv","category":"convolution","outputs":[[1,128,128,128]]},
+    {"name":"Decoder 1 Up","type":"UpConv","category":"convolution","outputs":[[1,64,256,256]]},
+    {"name":"Mask","type":"Output","category":"output","inputs":[[1,1,256,256]]}
+  ],
+  "edges":[["Image","Encoder 1"],["Encoder 1","Encoder 2 Down"],["Encoder 2 Down","Encoder 3 Down"],["Encoder 3 Down","Bottleneck"],["Bottleneck","Decoder 3 Up"],["Decoder 3 Up","Decoder 2 Up"],["Decoder 2 Up","Decoder 1 Up"],["Decoder 1 Up","Mask"],["Encoder 3 Down","Decoder 3 Up"],["Encoder 2 Down","Decoder 2 Up"],["Encoder 1","Decoder 1 Up"]],
+  "groups":[{"name":"Encoder","nodes":["Encoder 1","Encoder 2 Down","Encoder 3 Down"],"level":"stage"},{"name":"Decoder","nodes":["Decoder 3 Up","Decoder 2 Up","Decoder 1 Up"],"level":"stage"}]
+}
+

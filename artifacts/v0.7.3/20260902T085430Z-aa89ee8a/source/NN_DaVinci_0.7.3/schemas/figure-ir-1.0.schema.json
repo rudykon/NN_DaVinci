@@ -1,0 +1,275 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nn-davinci.local/schemas/figure-ir-1.0.schema.json",
+  "title": "NN_DaVinci Figure IR 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "name", "pages", "design_tokens", "theme", "metadata"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "name": { "type": "string", "minLength": 1 },
+    "theme": { "type": "string", "minLength": 1 },
+    "metadata": { "type": "object" },
+    "design_tokens": {
+      "type": "object",
+      "required": [
+        "font.family",
+        "font.size.pt",
+        "font.minimum.pt",
+        "line.width.pt",
+        "line.data.color",
+        "line.annotation.color",
+        "color.background",
+        "color.foreground"
+      ],
+      "properties": {
+        "font.family": { "type": "string", "minLength": 1 },
+        "font.size.pt": { "type": "number", "minimum": 7 },
+        "font.minimum.pt": { "type": "number", "minimum": 7 },
+        "line.width.pt": { "type": "number", "exclusiveMinimum": 0 },
+        "line.data.color": { "$ref": "#/$defs/colour" },
+        "line.annotation.color": { "$ref": "#/$defs/colour" },
+        "color.background": { "$ref": "#/$defs/colour" },
+        "color.foreground": { "$ref": "#/$defs/colour" }
+      },
+      "additionalProperties": true
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/page" }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "minLength": 1 },
+    "colour": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "source_id",
+        "graph_ir_ids",
+        "source_locator",
+        "evidence",
+        "reason",
+        "author_annotation"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "graph_ir",
+            "semantic_view",
+            "source",
+            "template",
+            "author_annotation",
+            "external_vector",
+            "unknown"
+          ]
+        },
+        "source_id": { "type": "string" },
+        "graph_ir_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+        "source_locator": { "type": "object" },
+        "evidence": { "type": "object" },
+        "reason": { "type": "string" },
+        "author_annotation": { "type": "boolean" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "kind": { "const": "author_annotation" } } },
+          "then": {
+            "properties": {
+              "author_annotation": { "const": true },
+              "reason": { "minLength": 1 }
+            }
+          },
+          "else": { "properties": { "author_annotation": { "const": false } } }
+        },
+        {
+          "if": { "properties": { "kind": { "enum": ["unknown", "external_vector"] } } },
+          "then": { "properties": { "reason": { "minLength": 1 } } }
+        }
+      ]
+    },
+    "style": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["token_refs", "overrides"],
+      "properties": {
+        "token_refs": { "type": "object", "additionalProperties": { "type": "string" } },
+        "overrides": { "type": "object" }
+      }
+    },
+    "constraint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "target_ids", "value", "locked"],
+      "properties": {
+        "kind": {
+          "enum": [
+            "align-left",
+            "align-center-x",
+            "align-right",
+            "align-top",
+            "align-center-y",
+            "align-bottom",
+            "equal-gap-x",
+            "equal-gap-y",
+            "snap-page",
+            "snap-column",
+            "snap-baseline",
+            "snap-object",
+            "pin"
+          ]
+        },
+        "target_ids": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/id" } },
+        "value": true,
+        "locked": { "type": "boolean" }
+      }
+    },
+    "object": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "name",
+        "geometry",
+        "provenance",
+        "style",
+        "locked",
+        "visible",
+        "manual_route",
+        "constraints",
+        "metadata",
+        "order"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "kind": {
+          "enum": [
+            "node-glyph",
+            "tensor-glyph",
+            "operator-glyph",
+            "edge",
+            "annotation",
+            "title",
+            "caption",
+            "legend",
+            "equation",
+            "image",
+            "callout",
+            "guide",
+            "bracket",
+            "region",
+            "inset",
+            "panel-label",
+            "external-vector-group"
+          ]
+        },
+        "name": { "type": "string", "minLength": 1 },
+        "geometry": { "type": "object", "additionalProperties": { "type": "number" } },
+        "provenance": { "$ref": "#/$defs/provenance" },
+        "style": { "$ref": "#/$defs/style" },
+        "locked": { "type": "boolean" },
+        "visible": { "type": "boolean" },
+        "manual_route": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "prefixItems": [{ "type": "number" }, { "type": "number" }],
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "constraints": { "type": "array", "items": { "$ref": "#/$defs/constraint" } },
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "tensor_shape": {
+              "type": "array",
+              "items": { "type": ["integer", "string", "null"] }
+            },
+            "shape_label": { "type": "string" },
+            "geometry_scale": { "enum": ["linear", "sqrt", "log", "normalized", "manual"] }
+          },
+          "additionalProperties": true
+        },
+        "order": { "type": "integer" }
+      }
+    },
+    "group": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "object_ids", "provenance", "locked", "visible", "order"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "object_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+        "provenance": { "$ref": "#/$defs/provenance" },
+        "locked": { "type": "boolean" },
+        "visible": { "type": "boolean" },
+        "order": { "type": "integer" }
+      }
+    },
+    "layer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "role", "objects", "groups", "visible", "locked", "order"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "role": { "enum": ["model-data", "semantic-annotation", "author-annotation", "legend-caption"] },
+        "objects": { "type": "array", "items": { "$ref": "#/$defs/object" } },
+        "groups": { "type": "array", "items": { "$ref": "#/$defs/group" } },
+        "visible": { "type": "boolean" },
+        "locked": { "type": "boolean" },
+        "order": { "type": "integer" }
+      }
+    },
+    "panel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "title", "mode", "geometry", "layers", "constraints", "locked", "layout_mode", "order"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "label": { "enum": ["A", "B", "C", "D", "E", "F", "G", "H"] },
+        "title": { "type": "string" },
+        "mode": { "enum": ["schematic", "tensor-geometry", "mixed"] },
+        "geometry": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["x", "y", "width", "height"],
+          "properties": {
+            "x": { "type": "number" },
+            "y": { "type": "number" },
+            "width": { "type": "number", "minimum": 0 },
+            "height": { "type": "number", "minimum": 0 }
+          }
+        },
+        "layers": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/layer" } },
+        "constraints": { "type": "array", "items": { "$ref": "#/$defs/constraint" } },
+        "locked": { "type": "boolean" },
+        "layout_mode": { "enum": ["grid", "horizontal", "vertical", "free"] },
+        "order": { "type": "integer" }
+      }
+    },
+    "page": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "width_mm", "height_mm", "panels", "margin_mm", "columns", "column_gap_mm", "baseline_grid_pt", "order"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string" },
+        "width_mm": { "type": "number", "exclusiveMinimum": 0 },
+        "height_mm": { "type": "number", "exclusiveMinimum": 0 },
+        "panels": { "type": "array", "minItems": 1, "maxItems": 8, "items": { "$ref": "#/$defs/panel" } },
+        "margin_mm": { "type": "number", "minimum": 0 },
+        "columns": { "type": "integer", "minimum": 1, "maximum": 12 },
+        "column_gap_mm": { "type": "number", "minimum": 0 },
+        "baseline_grid_pt": { "type": "number", "minimum": 1 },
+        "order": { "type": "integer" }
+      }
+    }
+  }
+}

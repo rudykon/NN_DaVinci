@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "baseline_release": "0.2.0",
+  "core_files": [
+    "src/nn_davinci/ir.py",
+    "src/nn_davinci/layout/__init__.py",
+    "src/nn_davinci/layout/engine.py",
+    "src/nn_davinci/project.py",
+    "src/nn_davinci/quality.py",
+    "src/nn_davinci/render/__init__.py",
+    "src/nn_davinci/render/export.py",
+    "src/nn_davinci/render/html.py",
+    "src/nn_davinci/render/svg.py",
+    "src/nn_davinci/render/tikz.py",
+    "src/nn_davinci/server.py"
+  ],
+  "coverage_exclusions": [],
+  "baseline_denominators_by_file": {
+    "src/nn_davinci/ir.py": {"statements": 221, "branches": 54},
+    "src/nn_davinci/layout/__init__.py": {"statements": 2, "branches": 0},
+    "src/nn_davinci/layout/engine.py": {"statements": 926, "branches": 438},
+    "src/nn_davinci/project.py": {"statements": 88, "branches": 12},
+    "src/nn_davinci/quality.py": {"statements": 50, "branches": 8},
+    "src/nn_davinci/render/__init__.py": {"statements": 5, "branches": 0},
+    "src/nn_davinci/render/export.py": {"statements": 88, "branches": 28},
+    "src/nn_davinci/render/html.py": {"statements": 25, "branches": 12},
+    "src/nn_davinci/render/svg.py": {"statements": 276, "branches": 108},
+    "src/nn_davinci/render/tikz.py": {"statements": 94, "branches": 46},
+    "src/nn_davinci/server.py": {"statements": 177, "branches": 28}
+  },
+  "thresholds": {
+    "core_line_fraction": 0.885,
+    "core_branch_fraction": 0.8,
+    "all_package_line_baseline_fraction": 0.8174,
+    "all_package_branch_baseline_fraction": 0.7176
+  },
+  "observed_0_2_0": {
+    "core": {
+      "covered_lines": 1736,
+      "num_statements": 1952,
+      "covered_branches": 573,
+      "num_branches": 734,
+      "combined_covered": 2309,
+      "combined_total": 2686
+    },
+    "all_package": {
+      "covered_lines": 3621,
+      "num_statements": 4430,
+      "covered_branches": 1141,
+      "num_branches": 1590,
+      "combined_covered": 4762,
+      "combined_total": 6020
+    }
+  },
+  "change_policy": "Every file addition/removal and every denominator change requires a per-file diff in verification.json; exclusions cannot change without a documented, blocking manifest review."
+}

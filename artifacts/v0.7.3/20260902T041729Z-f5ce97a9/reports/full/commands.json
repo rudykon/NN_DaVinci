@@ -1,0 +1,670 @@
+{
+  "command_count": 33,
+  "commands": [
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/create_clean_snapshot.py",
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.3_Dev",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/source/NN_DaVinci_0.7.3",
+        "--allowlist",
+        "verification/source-allowlist-0.7.3.json",
+        "--reject-symlinks",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/source/snapshot.json"
+      ],
+      "duration_seconds": 0.15137,
+      "ended_utc": "2026-09-02T04:17:29Z",
+      "exit_code": 0,
+      "id": "clean-current-source",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/source-snapshot.log",
+      "started_utc": "2026-09-02T04:17:29Z",
+      "working_directory": "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.3_Dev"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.2_Dev/scripts/create_clean_snapshot.py",
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.2_Dev",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/parent-source/NN_DaVinci_0.7.2",
+        "--allowlist",
+        "verification/source-allowlist-0.7.2.json",
+        "--reject-symlinks",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/source/parent-0.7.2-snapshot.json"
+      ],
+      "duration_seconds": 0.147649,
+      "ended_utc": "2026-09-02T04:17:29Z",
+      "exit_code": 0,
+      "id": "clean-parent-source",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/parent-source-snapshot.log",
+      "started_utc": "2026-09-02T04:17:29Z",
+      "working_directory": "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.3_Dev"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/parent-source/NN_DaVinci_0.7.2/scripts/verify_release_artifact_0_7_2.py",
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.2_Dev/artifacts/v0.7.2/20260901T142604Z-010606e8",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/source/parent-0.7.2-artifact-verification.json",
+        "--expected-run-id",
+        "20260901T142604Z-010606e8"
+      ],
+      "duration_seconds": 0.622973,
+      "ended_utc": "2026-09-02T04:17:30Z",
+      "exit_code": 0,
+      "id": "verify-parent-artifact",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/parent-artifact.log",
+      "started_utc": "2026-09-02T04:17:29Z",
+      "working_directory": "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.3_Dev"
+    },
+    {
+      "argv": [
+        "cp",
+        "-a",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/source/NN_DaVinci_0.7.3",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+      ],
+      "duration_seconds": 0.017988,
+      "ended_utc": "2026-09-02T04:17:30Z",
+      "exit_code": 0,
+      "id": "prepare-execution-source",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/execution-copy.log",
+      "started_utc": "2026-09-02T04:17:30Z",
+      "working_directory": "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.3_Dev"
+    },
+    {
+      "argv": [
+        "npm",
+        "ci",
+        "--offline",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "duration_seconds": 0.610771,
+      "ended_utc": "2026-09-02T04:17:31Z",
+      "exit_code": 0,
+      "id": "npm-ci-offline",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/npm-ci.log",
+      "started_utc": "2026-09-02T04:17:30Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "env",
+        "NN_DAVINCI_PYTHON=/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "NNDV_QUICK_RUN_DIR=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/quick",
+        "NNDV_KEEP_DIAGNOSTICS=1",
+        "NNDV_PARENT_072_TEST_IDS=/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.2_Dev/artifacts/v0.7.2/20260901T142604Z-010606e8/reports/quick/collected-test-ids.txt",
+        "./scripts/verify-quick-0.7.3.sh"
+      ],
+      "duration_seconds": 168.013945,
+      "ended_utc": "2026-09-02T04:20:19Z",
+      "exit_code": 0,
+      "id": "quick-0.7.3",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/quick.log",
+      "started_utc": "2026-09-02T04:17:31Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/audit_release_0_7_3.py",
+        "--project-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/docs/release-audit.json"
+      ],
+      "duration_seconds": 0.086216,
+      "ended_utc": "2026-09-02T04:20:19Z",
+      "exit_code": 0,
+      "id": "release-audit",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/release-audit.log",
+      "started_utc": "2026-09-02T04:20:19Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/benchmark_scene_studio_0_7_3.py",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/performance/scene-studio.json",
+        "--baseline-scene-report",
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.2_Dev/artifacts/v0.7.2/20260901T142604Z-010606e8/reports/performance/scene-studio.json",
+        "--parent-source",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/parent-source/NN_DaVinci_0.7.2",
+        "--repeats",
+        "3"
+      ],
+      "duration_seconds": 19.362747,
+      "ended_utc": "2026-09-02T04:20:38Z",
+      "exit_code": 0,
+      "id": "scene-performance",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/performance.log",
+      "started_utc": "2026-09-02T04:20:19Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/generate_scene_artifacts_0_7_3.py",
+        "--output-dir",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus",
+        "--report",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/exports/scene-artifacts.json"
+      ],
+      "duration_seconds": 26.034467,
+      "ended_utc": "2026-09-02T04:21:04Z",
+      "exit_code": 0,
+      "id": "scene-corpus-generate",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/corpus-generate.log",
+      "started_utc": "2026-09-02T04:20:38Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/validate_scene_artifacts_0_7_3.py",
+        "--output-dir",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus",
+        "--generation-report",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/exports/scene-artifacts.json",
+        "--report",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/exports/scene-artifacts-validation.json"
+      ],
+      "duration_seconds": 3.869846,
+      "ended_utc": "2026-09-02T04:21:08Z",
+      "exit_code": 0,
+      "id": "scene-corpus-validate",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/corpus-validate.log",
+      "started_utc": "2026-09-02T04:21:04Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "node",
+        "scripts/scene_svg_oracle_0_7_2.mjs",
+        "--input-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/visual/scene-svg-oracle.json"
+      ],
+      "duration_seconds": 1.678746,
+      "ended_utc": "2026-09-02T04:21:10Z",
+      "exit_code": 0,
+      "id": "svg-geometry-oracle",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/svg-oracle.log",
+      "started_utc": "2026-09-02T04:21:08Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/scene_publication_oracle_0_7_2.py",
+        "--input-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus",
+        "--svg-report",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/visual/scene-svg-oracle.json",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/visual/scene-publication-oracle.json",
+        "--expected-cases",
+        "14"
+      ],
+      "duration_seconds": 11.960829,
+      "ended_utc": "2026-09-02T04:21:22Z",
+      "exit_code": 0,
+      "id": "publication-oracle",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/publication-oracle.log",
+      "started_utc": "2026-09-02T04:21:10Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/compile_tikz_proofs_0_7_3.py",
+        "--input-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus",
+        "--output-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/tikz-pdf-proofs",
+        "--report",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/semantic/tikz-pdf-proofs.json"
+      ],
+      "duration_seconds": 4.31685,
+      "ended_utc": "2026-09-02T04:21:26Z",
+      "exit_code": 0,
+      "id": "compile-tikz-proofs",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/tikz-proofs.log",
+      "started_utc": "2026-09-02T04:21:22Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "node",
+        "scripts/semantic_svg_dom_oracle_0_7_3.mjs",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/bert_encoder",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/diffusion_unet",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/image_text",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/multiscale_unet",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/resnet50",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/topk_moe",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/vision_transformer",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/semantic/browser-dom.json"
+      ],
+      "duration_seconds": 1.108278,
+      "ended_utc": "2026-09-02T04:21:27Z",
+      "exit_code": 0,
+      "id": "semantic-browser-dom",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/semantic-dom.log",
+      "started_utc": "2026-09-02T04:21:26Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/semantic_presentation_oracle_0_7_3.py",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/bert_encoder",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/diffusion_unet",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/image_text",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/multiscale_unet",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/resnet50",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/topk_moe",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/vision_transformer",
+        "--require-tikz-pdf",
+        "--tikz-pdf-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/tikz-pdf-proofs",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/semantic/presentation.json"
+      ],
+      "duration_seconds": 0.33446,
+      "ended_utc": "2026-09-02T04:21:28Z",
+      "exit_code": 0,
+      "id": "semantic-presentation",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/semantic-presentation.log",
+      "started_utc": "2026-09-02T04:21:27Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/generate_semantic_completeness_matrix_0_7_3.py",
+        "--presentation",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/semantic/presentation.json",
+        "--browser-dom",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/semantic/browser-dom.json",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/semantic/completeness-matrix.json"
+      ],
+      "duration_seconds": 0.036903,
+      "ended_utc": "2026-09-02T04:21:28Z",
+      "exit_code": 0,
+      "id": "semantic-completeness-matrix",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/semantic-matrix.log",
+      "started_utc": "2026-09-02T04:21:28Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/generate_semantic_mutation_report_0_7_3.py",
+        "--case-dir",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus/real-models/resnet50",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/semantic/negative-mutations.json"
+      ],
+      "duration_seconds": 0.47764,
+      "ended_utc": "2026-09-02T04:21:28Z",
+      "exit_code": 0,
+      "id": "semantic-negative-mutations",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/semantic-mutations.log",
+      "started_utc": "2026-09-02T04:21:28Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/generate_generalization_report_0_7_3.py",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/generalization/metamorphic-corpus.json",
+        "--seed",
+        "7300"
+      ],
+      "duration_seconds": 3.384874,
+      "ended_utc": "2026-09-02T04:21:32Z",
+      "exit_code": 0,
+      "id": "architecture-generalization",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/generalization.log",
+      "started_utc": "2026-09-02T04:21:28Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/generate_scene_before_after_0_7_1.py",
+        "--before-root",
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.2_Dev/artifacts/v0.7.2/20260901T142604Z-010606e8/exports/scene-corpus",
+        "--after-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/exports/scene-corpus",
+        "--output-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after",
+        "--report",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/visual/before-after.json",
+        "--before-release",
+        "0.7.2",
+        "--after-release",
+        "0.7.3",
+        "--before-run-id",
+        "20260901T142604Z-010606e8",
+        "--release-title",
+        "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+        "--report-schema",
+        "nndv-0.7.3-scene-before-after-report-1",
+        "--proof-schema",
+        "nndv-0.7.3-scene-before-after-proof-1",
+        "--allow-identical"
+      ],
+      "duration_seconds": 3.496787,
+      "ended_utc": "2026-09-02T04:21:35Z",
+      "exit_code": 0,
+      "id": "before-after-proof",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/before-after.log",
+      "started_utc": "2026-09-02T04:21:32Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/write_visual_inspection_report_0_7_3.py",
+        "--before-after-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/publication-before-after",
+        "--before-after-report",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/visual/before-after.json",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/visual/original-resolution-inspection.json"
+      ],
+      "duration_seconds": 0.077627,
+      "ended_utc": "2026-09-02T04:21:35Z",
+      "exit_code": 0,
+      "id": "original-resolution-inspection",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/visual-inspection.log",
+      "started_utc": "2026-09-02T04:21:35Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/verify_service_lifecycle_0_7_3.py",
+        "--port",
+        "8766",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/service/lifecycle.json"
+      ],
+      "duration_seconds": 3.234882,
+      "ended_utc": "2026-09-02T04:21:39Z",
+      "exit_code": 0,
+      "id": "service-lifecycle",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/service-lifecycle.log",
+      "started_utc": "2026-09-02T04:21:35Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "env",
+        "TMPDIR=/tmp/nndv-073-browser-zuckiH/editor",
+        "NNDV_PYTHON=/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "NNDV_TASK_ROOT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/editor/tasks",
+        "NNDV_E2E_DIR=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/editor/runtime",
+        "NNDV_E2E_REPORT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/editor.json",
+        "NNDV_KEEP_DIAGNOSTICS=1",
+        "npm",
+        "run",
+        "e2e"
+      ],
+      "duration_seconds": 18.230738,
+      "ended_utc": "2026-09-02T04:21:57Z",
+      "exit_code": 0,
+      "id": "e2e-editor",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/e2e-editor.log",
+      "started_utc": "2026-09-02T04:21:39Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "env",
+        "TMPDIR=/tmp/nndv-073-browser-zuckiH/responsive",
+        "NNDV_PYTHON=/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "NNDV_TASK_ROOT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/responsive/tasks",
+        "NNDV_RESPONSIVE_SCREENSHOT_DIR=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/screenshots/responsive",
+        "NNDV_RESPONSIVE_E2E_REPORT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/responsive.json",
+        "NNDV_KEEP_DIAGNOSTICS=1",
+        "npm",
+        "run",
+        "e2e:responsive"
+      ],
+      "duration_seconds": 6.271073,
+      "ended_utc": "2026-09-02T04:22:03Z",
+      "exit_code": 0,
+      "id": "e2e-responsive",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/e2e-responsive.log",
+      "started_utc": "2026-09-02T04:21:57Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "env",
+        "TMPDIR=/tmp/nndv-073-browser-zuckiH/semantic",
+        "NNDV_PYTHON=/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "NNDV_TASK_ROOT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/semantic/tasks",
+        "NNDV_SEMANTIC_E2E_DIR=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/semantic/runtime",
+        "NNDV_SEMANTIC_E2E_REPORT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/semantic.json",
+        "NNDV_KEEP_DIAGNOSTICS=1",
+        "npm",
+        "run",
+        "e2e:semantic"
+      ],
+      "duration_seconds": 11.723969,
+      "ended_utc": "2026-09-02T04:22:15Z",
+      "exit_code": 0,
+      "id": "e2e-semantic",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/e2e-semantic.log",
+      "started_utc": "2026-09-02T04:22:03Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "env",
+        "TMPDIR=/tmp/nndv-073-browser-zuckiH/product",
+        "NNDV_PYTHON=/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "NNDV_TASK_ROOT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/product/tasks",
+        "NNDV_PRODUCT_E2E_DIR=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/product/runtime",
+        "NNDV_PRODUCT_E2E_REPORT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/product.json",
+        "NNDV_KEEP_DIAGNOSTICS=1",
+        "npm",
+        "run",
+        "e2e:product"
+      ],
+      "duration_seconds": 12.274815,
+      "ended_utc": "2026-09-02T04:22:27Z",
+      "exit_code": 0,
+      "id": "e2e-product",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/e2e-product.log",
+      "started_utc": "2026-09-02T04:22:15Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "env",
+        "TMPDIR=/tmp/nndv-073-browser-zuckiH/trial",
+        "NNDV_PYTHON=/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "NNDV_TASK_ROOT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/trial/tasks",
+        "NNDV_TRIAL_E2E_DIR=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/trial/runtime",
+        "NNDV_TRIAL_E2E_REPORT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/trial.json",
+        "NNDV_KEEP_DIAGNOSTICS=1",
+        "npm",
+        "run",
+        "e2e:trial"
+      ],
+      "duration_seconds": 44.888825,
+      "ended_utc": "2026-09-02T04:23:12Z",
+      "exit_code": 0,
+      "id": "e2e-trial",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/e2e-trial.log",
+      "started_utc": "2026-09-02T04:22:27Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "env",
+        "TMPDIR=/tmp/nndv-073-browser-zuckiH/figure",
+        "NNDV_PYTHON=/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "NNDV_TASK_ROOT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/figure/tasks",
+        "NNDV_FIGURE_E2E_DIR=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/figure/runtime",
+        "NNDV_FIGURE_E2E_REPORT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/figure-studio.json",
+        "NNDV_KEEP_DIAGNOSTICS=1",
+        "npm",
+        "run",
+        "e2e:figure"
+      ],
+      "duration_seconds": 22.183306,
+      "ended_utc": "2026-09-02T04:23:34Z",
+      "exit_code": 0,
+      "id": "e2e-figure",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/e2e-figure.log",
+      "started_utc": "2026-09-02T04:23:12Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "env",
+        "TMPDIR=/tmp/nndv-073-browser-zuckiH/scene",
+        "NNDV_PYTHON=/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "NNDV_TASK_ROOT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/scene/tasks",
+        "NNDV_SCENE_E2E_DIR=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/scene-studio",
+        "NNDV_SCENE_E2E_REPORT=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/scene-studio.json",
+        "NNDV_KEEP_DIAGNOSTICS=1",
+        "npm",
+        "run",
+        "e2e:scene"
+      ],
+      "duration_seconds": 67.049878,
+      "ended_utc": "2026-09-02T04:24:41Z",
+      "exit_code": 0,
+      "id": "e2e-scene",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/e2e-scene.log",
+      "started_utc": "2026-09-02T04:23:34Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/validate_scene_visual_evidence_0_7_1.py",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/scene-studio.json",
+        "--artifact-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/scene-studio/scene-studio-artifacts",
+        "--screenshots-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/evidence/scene-studio/scene-studio-artifacts/screenshots",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/visual/scene-studio.json"
+      ],
+      "duration_seconds": 0.098505,
+      "ended_utc": "2026-09-02T04:24:42Z",
+      "exit_code": 0,
+      "id": "scene-visual-validation",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/scene-visual.log",
+      "started_utc": "2026-09-02T04:24:41Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/aggregate_e2e_0_7_3.py",
+        "--suite",
+        "editor=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/editor.json",
+        "--suite",
+        "responsive=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/responsive.json",
+        "--suite",
+        "semantic=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/semantic.json",
+        "--suite",
+        "product=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/product.json",
+        "--suite",
+        "trial=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/trial.json",
+        "--suite",
+        "figure=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/figure-studio.json",
+        "--suite",
+        "scene=/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/scene-studio.json",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/e2e/aggregate.json"
+      ],
+      "duration_seconds": 0.039891,
+      "ended_utc": "2026-09-02T04:24:42Z",
+      "exit_code": 0,
+      "id": "aggregate-e2e",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/e2e-aggregate.log",
+      "started_utc": "2026-09-02T04:24:42Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "-m",
+        "build",
+        "--no-isolation",
+        "--outdir",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/distributions",
+        "."
+      ],
+      "duration_seconds": 2.514284,
+      "ended_utc": "2026-09-02T04:24:44Z",
+      "exit_code": 0,
+      "id": "package-build",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/package-build.log",
+      "started_utc": "2026-09-02T04:24:42Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/verify_package_install.py",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/distributions",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/package-install/venvs",
+        "--project-root",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source",
+        "--expected-version",
+        "0.7.3",
+        "--output",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/packaging/package-install.json"
+      ],
+      "duration_seconds": 5.618463,
+      "ended_utc": "2026-09-02T04:24:50Z",
+      "exit_code": 0,
+      "id": "package-install",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/package-install.log",
+      "started_utc": "2026-09-02T04:24:44Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    },
+    {
+      "argv": [
+        "/home/wangrj/桌面/KMH/神经网络绘图工具/envs/python-tools/bin/python",
+        "scripts/write_environment_manifest.py",
+        "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/reports/environment.json"
+      ],
+      "duration_seconds": 0.302224,
+      "ended_utc": "2026-09-02T04:24:50Z",
+      "exit_code": 0,
+      "id": "environment-manifest",
+      "log": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/artifact-staging/logs/environment.log",
+      "started_utc": "2026-09-02T04:24:50Z",
+      "working_directory": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source"
+    }
+  ],
+  "completed": 33,
+  "failed": 0,
+  "fresh_control_root": true,
+  "old_artifacts_used_as_current_output": false,
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "run_id": "20260902T041729Z-f5ce97a9",
+  "schema_version": "nndv-0.7.3-full-command-report-1",
+  "status": "PASS"
+}

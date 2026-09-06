@@ -1,0 +1,50 @@
+{
+  "case_key": "bert_encoder",
+  "case_kind": "real-model",
+  "evidence_provenance_digest": "118760ba97961792c4feae9e9ceda64d9f40847683d272fd67202081651a71f2",
+  "evidence_version": "1.0",
+  "expected_critical_route_count": 1,
+  "expected_role_count": 5,
+  "failures": [],
+  "family": "transformer",
+  "figure_critical_route_count": 1,
+  "figure_role_count": 5,
+  "input_role_ids": [
+    "architecture_role_embedding_0_node_fx_token_ids_0_2186a7db_m_5f5b5fd0"
+  ],
+  "landed_documents": {
+    "figure": {
+      "path": "figure.figure.json",
+      "sha256": "347a969cca10378fbb6e1886205ad7135c8d51631c7b0baa75faa34897605eb4"
+    },
+    "graph": {
+      "path": "graph.graph.json",
+      "sha256": "450729095a7934e460e1026122cf1d6f199ddb438f8b33dbd7629ca1786571c2"
+    },
+    "scene": {
+      "path": "scene.scene.json",
+      "sha256": "a3cf462111878ee903fece9cf6b1abca218f555a859b686bc3b49a3214fb78c5"
+    },
+    "semantic": {
+      "path": "semantic.semantic.json",
+      "sha256": "84d5a4dee21ab92b3e1357e9c2582d226380bd72ed68b6a12fcdec3e9733d7ff"
+    }
+  },
+  "oracle_version": "1.0",
+  "output_role_ids": [
+    "architecture_role_output_head_4_module_encoder_2_feed_forwar_5755f99e"
+  ],
+  "passed": true,
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "scene_critical_route_count": 1,
+  "scene_role_count": 5,
+  "schema_version": "nndv-architecture-parity-1",
+  "uncertain_claims": [
+    {
+      "claim": "class_token",
+      "reason": "Image-token role requires a rank-4 floating input and the importer embedding/concatenation path.",
+      "status": "not-applicable"
+    }
+  ],
+  "unknown_reason": null
+}

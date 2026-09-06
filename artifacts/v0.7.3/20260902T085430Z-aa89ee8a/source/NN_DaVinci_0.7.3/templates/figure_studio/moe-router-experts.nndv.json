@@ -1,0 +1,1745 @@
+{
+  "created_at": "2026-08-29T00:00:00+00:00",
+  "environment": {
+    "nn_davinci": "0.6.1",
+    "template_version": "1.0"
+  },
+  "figure_ir": {
+    "design_tokens": {
+      "arrow.kind": "end",
+      "arrow.size.pt": 4.0,
+      "color.background": "#ffffff",
+      "color.foreground": "#0f172a",
+      "color.operator": "#f8fafc",
+      "color.tensor.front": "#dbeafe",
+      "color.tensor.side": "#93c5fd",
+      "color.tensor.top": "#bfdbfe",
+      "corner.radius.pt": 3.0,
+      "font.family": "DejaVu Sans, Arial, sans-serif",
+      "font.minimum.pt": 7.0,
+      "font.size.pt": 9.0,
+      "font.weight": 500,
+      "guide.baseline.color": "#e2e8f0",
+      "guide.column.color": "#cbd5e1",
+      "guide.margin.color": "#94a3b8",
+      "line.annotation.color": "#7c3aed",
+      "line.annotation.dash": "4 3",
+      "line.data.color": "#334155",
+      "line.width.pt": 0.8,
+      "opacity": 1.0
+    },
+    "metadata": {
+      "accuracy_claims": false,
+      "authoring_mode": "figure-studio",
+      "editable": true,
+      "offline": true,
+      "page_preset": "double-column",
+      "paper_claims": false,
+      "supported_modes": [
+        "schematic",
+        "tensor-geometry",
+        "mixed"
+      ],
+      "supported_page_presets": [
+        "single-column",
+        "double-column",
+        "178mm"
+      ],
+      "template": "moe-router-experts",
+      "template_version": "1.0"
+    },
+    "name": "MoE router + experts",
+    "pages": [
+      {
+        "baseline_grid_pt": 4.0,
+        "column_gap_mm": 4.0,
+        "columns": 1,
+        "height_mm": 118.0,
+        "id": "figure_page_moe_router___experts_86fd7e8f",
+        "margin_mm": 4.0,
+        "order": 0,
+        "panels": [
+          {
+            "constraints": [],
+            "geometry": {
+              "height": 53.0,
+              "width": 170.0,
+              "x": 4.0,
+              "y": 4.0
+            },
+            "id": "figure_panel_moe_router___experts_a_f2f03e45",
+            "label": "A",
+            "layers": [
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_moe_router___experts_a_f2f03e_ae018047",
+                "locked": false,
+                "name": "Model data",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 10.0,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_moe_router_experts_schematic_tokens_79503a29",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Tokens",
+                      "label_lane_width_mm": 30.1,
+                      "operator_family": "generic",
+                      "template": "moe-router-experts"
+                    },
+                    "name": "Tokens",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Tokens"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:Tokens",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 41.6,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_moe_router_experts_schematic_router_20cfb6bd",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Router",
+                      "label_lane_width_mm": 30.1,
+                      "operator_family": "routing",
+                      "template": "moe-router-experts"
+                    },
+                    "name": "Router",
+                    "order": 2,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Router"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:Router",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 73.2,
+                      "y": 11.0
+                    },
+                    "id": "figure_object_moe_router_experts_schematic_expert_1_06c594f2",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Expert 1",
+                      "label_lane_width_mm": 30.1,
+                      "operator_family": "expert",
+                      "template": "moe-router-experts"
+                    },
+                    "name": "Expert 1",
+                    "order": 4,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Expert 1"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:Expert 1",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 73.20000000000002,
+                      "y": 33.0
+                    },
+                    "id": "figure_object_moe_router_experts_schematic_expert_2_514573b1",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Expert 2",
+                      "label_lane_width_mm": 30.1,
+                      "operator_family": "expert",
+                      "template": "moe-router-experts"
+                    },
+                    "name": "Expert 2",
+                    "order": 6,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Expert 2"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:Expert 2",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 136.4,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_moe_router_experts_schematic_merge_9551363e",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Merge",
+                      "label_lane_width_mm": 30.1,
+                      "operator_family": "concatenate",
+                      "template": "moe-router-experts"
+                    },
+                    "name": "Merge",
+                    "order": 8,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Merge"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:Merge",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 24.0,
+                      "x2": 41.6,
+                      "y": 28.0,
+                      "y2": 28.0
+                    },
+                    "id": "figure_object_moe_router_experts_schematic_edge_0_40ddd1d1",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        24.0,
+                        28.0
+                      ],
+                      [
+                        41.6,
+                        28.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_moe_router_experts_schematic_tokens_79503a29",
+                        "figure_object_moe_router_experts_schematic_router_20cfb6bd"
+                      ],
+                      "template_edge_kind": "routing"
+                    },
+                    "name": "routing",
+                    "order": 10000,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-0"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:edge-0",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 55.6,
+                      "x2": 73.2,
+                      "y": 25.563291139240505,
+                      "y2": 19.436708860759495
+                    },
+                    "id": "figure_object_moe_router_experts_schematic_edge_1_bf8d5771",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        55.6,
+                        25.563291139240505
+                      ],
+                      [
+                        73.2,
+                        19.436708860759495
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_moe_router_experts_schematic_router_20cfb6bd",
+                        "figure_object_moe_router_experts_schematic_expert_1_06c594f2"
+                      ],
+                      "template_edge_kind": "routing"
+                    },
+                    "name": "routing",
+                    "order": 10001,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-1"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:edge-1",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 55.6,
+                      "x2": 73.20000000000002,
+                      "y": 30.43670886075949,
+                      "y2": 36.563291139240505
+                    },
+                    "id": "figure_object_moe_router_experts_schematic_edge_2_77c275de",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        55.6,
+                        30.43670886075949
+                      ],
+                      [
+                        73.20000000000002,
+                        36.563291139240505
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_moe_router_experts_schematic_router_20cfb6bd",
+                        "figure_object_moe_router_experts_schematic_expert_2_514573b1"
+                      ],
+                      "template_edge_kind": "routing"
+                    },
+                    "name": "routing",
+                    "order": 10002,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-2"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:edge-2",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 87.2,
+                      "x2": 136.4,
+                      "y": 18.218354430379748,
+                      "y2": 26.781645569620252
+                    },
+                    "id": "figure_object_moe_router_experts_schematic_edge_3_97b68a3b",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        87.2,
+                        18.218354430379748
+                      ],
+                      [
+                        136.4,
+                        26.781645569620252
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_moe_router_experts_schematic_expert_1_06c594f2",
+                        "figure_object_moe_router_experts_schematic_merge_9551363e"
+                      ],
+                      "template_edge_kind": "routing"
+                    },
+                    "name": "routing",
+                    "order": 10003,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-3"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:edge-3",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 87.20000000000002,
+                      "x2": 136.4,
+                      "y": 37.78164556962025,
+                      "y2": 29.218354430379748
+                    },
+                    "id": "figure_object_moe_router_experts_schematic_edge_4_4baba038",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        87.20000000000002,
+                        37.78164556962025
+                      ],
+                      [
+                        136.4,
+                        29.218354430379748
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_moe_router_experts_schematic_expert_2_514573b1",
+                        "figure_object_moe_router_experts_schematic_merge_9551363e"
+                      ],
+                      "template_edge_kind": "routing"
+                    },
+                    "name": "routing",
+                    "order": 10004,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-4"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:edge-4",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 0,
+                "role": "model-data",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_moe_router___experts_a_f2f03e_9a4595ce",
+                "locked": false,
+                "name": "Semantic annotation",
+                "objects": [],
+                "order": 1,
+                "role": "semantic-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_moe_router___experts_a_f2f03e_cb0e52ff",
+                "locked": false,
+                "name": "Author annotation",
+                "objects": [],
+                "order": 2,
+                "role": "author-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_moe_router___experts_a_f2f03e_7d63ccb8",
+                "locked": false,
+                "name": "Legend / Caption",
+                "objects": [],
+                "order": 3,
+                "role": "legend-caption",
+                "visible": true
+              }
+            ],
+            "layout_mode": "grid",
+            "locked": false,
+            "mode": "schematic",
+            "order": 0,
+            "title": "Schematic"
+          },
+          {
+            "constraints": [],
+            "geometry": {
+              "height": 53.0,
+              "width": 170.0,
+              "x": 4.0,
+              "y": 61.0
+            },
+            "id": "figure_panel_moe_router___experts_b_3beca73b",
+            "label": "B",
+            "layers": [
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_moe_router___experts_b_3beca7_df4ff4db",
+                "locked": false,
+                "name": "Model data",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 10.0,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_moe_router_experts_tensor_tokens_d3bca3fa",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 30.1,
+                      "layout": "auto",
+                      "shape_label": "[B, T, D]",
+                      "template": "moe-router-experts",
+                      "tensor_shape": [
+                        "B",
+                        "T",
+                        "D"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Tokens",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Tokens"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:Tokens",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 41.6,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_moe_router_experts_tensor_router_be372acf",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 30.1,
+                      "layout": "auto",
+                      "shape_label": "[B, T, E]",
+                      "template": "moe-router-experts",
+                      "tensor_shape": [
+                        "B",
+                        "T",
+                        "E"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Router",
+                    "order": 2,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Router"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:Router",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 73.2,
+                      "y": 64.0
+                    },
+                    "id": "figure_object_moe_router_experts_tensor_expert_1_7a7a5e86",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 30.1,
+                      "layout": "auto",
+                      "shape_label": "[?, D]",
+                      "template": "moe-router-experts",
+                      "tensor_shape": [
+                        "?",
+                        "D"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Expert 1",
+                    "order": 4,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Expert 1"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:Expert 1",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 73.20000000000002,
+                      "y": 81.0
+                    },
+                    "id": "figure_object_moe_router_experts_tensor_expert_2_e4271dd9",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 30.1,
+                      "layout": "auto",
+                      "shape_label": "[?, D]",
+                      "template": "moe-router-experts",
+                      "tensor_shape": [
+                        "?",
+                        "D"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Expert 2",
+                    "order": 6,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Expert 2"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:Expert 2",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 136.4,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_moe_router_experts_tensor_merge_b62b929a",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 30.1,
+                      "layout": "auto",
+                      "shape_label": "[B, T, D]",
+                      "template": "moe-router-experts",
+                      "tensor_shape": [
+                        "B",
+                        "T",
+                        "D"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Merge",
+                    "order": 8,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Merge"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:Merge",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 22.8,
+                      "x2": 44.4,
+                      "y": 75.0,
+                      "y2": 75.0
+                    },
+                    "id": "figure_object_moe_router_experts_tensor_edge_0_87b36cae",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        22.8,
+                        75.0
+                      ],
+                      [
+                        44.4,
+                        75.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_moe_router_experts_tensor_tokens_d3bca3fa",
+                        "figure_object_moe_router_experts_tensor_router_be372acf"
+                      ],
+                      "template_edge_kind": "routing"
+                    },
+                    "name": "routing",
+                    "order": 10000,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-0"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:edge-0",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 54.4,
+                      "x2": 76.0,
+                      "y": 73.89240506329114,
+                      "y2": 69.10759493670886
+                    },
+                    "id": "figure_object_moe_router_experts_tensor_edge_1_b5f60c7d",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        54.4,
+                        73.89240506329114
+                      ],
+                      [
+                        76.0,
+                        69.10759493670886
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_moe_router_experts_tensor_router_be372acf",
+                        "figure_object_moe_router_experts_tensor_expert_1_7a7a5e86"
+                      ],
+                      "template_edge_kind": "routing"
+                    },
+                    "name": "routing",
+                    "order": 10001,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-1"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:edge-1",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 54.4,
+                      "x2": 76.00000000000001,
+                      "y": 76.58227848101265,
+                      "y2": 83.41772151898735
+                    },
+                    "id": "figure_object_moe_router_experts_tensor_edge_2_cae7fd1a",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        54.4,
+                        76.58227848101265
+                      ],
+                      [
+                        76.00000000000001,
+                        83.41772151898735
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_moe_router_experts_tensor_router_be372acf",
+                        "figure_object_moe_router_experts_tensor_expert_2_e4271dd9"
+                      ],
+                      "template_edge_kind": "routing"
+                    },
+                    "name": "routing",
+                    "order": 10002,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-2"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:edge-2",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 86.0,
+                      "x2": 139.20000000000002,
+                      "y": 68.55379746835443,
+                      "y2": 74.44620253164557
+                    },
+                    "id": "figure_object_moe_router_experts_tensor_edge_3_cdb8ea88",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        86.0,
+                        68.55379746835443
+                      ],
+                      [
+                        139.20000000000002,
+                        74.44620253164557
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_moe_router_experts_tensor_expert_1_7a7a5e86",
+                        "figure_object_moe_router_experts_tensor_merge_b62b929a"
+                      ],
+                      "template_edge_kind": "routing"
+                    },
+                    "name": "routing",
+                    "order": 10003,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-3"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:edge-3",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 86.00000000000001,
+                      "x2": 139.20000000000002,
+                      "y": 84.20886075949367,
+                      "y2": 75.79113924050633
+                    },
+                    "id": "figure_object_moe_router_experts_tensor_edge_4_30d11d8a",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        86.00000000000001,
+                        84.20886075949367
+                      ],
+                      [
+                        139.20000000000002,
+                        75.79113924050633
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_moe_router_experts_tensor_expert_2_e4271dd9",
+                        "figure_object_moe_router_experts_tensor_merge_b62b929a"
+                      ],
+                      "template_edge_kind": "routing"
+                    },
+                    "name": "routing",
+                    "order": 10004,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-4"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:moe-router-experts:edge-4",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/moe-router-experts.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 0,
+                "role": "model-data",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_moe_router___experts_b_3beca7_6f61f4b0",
+                "locked": false,
+                "name": "Semantic annotation",
+                "objects": [],
+                "order": 1,
+                "role": "semantic-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_moe_router___experts_b_3beca7_a93acacc",
+                "locked": false,
+                "name": "Author annotation",
+                "objects": [],
+                "order": 2,
+                "role": "author-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_moe_router___experts_b_3beca7_bd35460d",
+                "locked": false,
+                "name": "Legend / Caption",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 7.0,
+                      "y": 112.0
+                    },
+                    "id": "figure_object_moe_router_experts_caption_77640856",
+                    "kind": "caption",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "text": "MoE router + experts: Router and expert branches; unknown expert loads remain '?'."
+                    },
+                    "name": "MoE router + experts: Router and expert branches; unknown expert loads remain '?'.",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": true,
+                      "evidence": {},
+                      "graph_ir_ids": [],
+                      "kind": "author_annotation",
+                      "reason": "Bundled editable caption describing only the template structure.",
+                      "source_id": "",
+                      "source_locator": {}
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 3,
+                "role": "legend-caption",
+                "visible": true
+              }
+            ],
+            "layout_mode": "grid",
+            "locked": false,
+            "mode": "tensor-geometry",
+            "order": 1,
+            "title": "Tensor geometry"
+          }
+        ],
+        "title": "MoE router + experts",
+        "width_mm": 178.0
+      }
+    ],
+    "schema_version": "1.0",
+    "theme": "neurips"
+  },
+  "graph": {
+    "analysis": {},
+    "annotations": [],
+    "constraints": [],
+    "edges": [
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "moe-router-experts"
+        },
+        "id": "edge_node_template_moe_router_experts_tokens_50_0090918a",
+        "kind": "routing",
+        "label": "",
+        "source": "node_template_moe_router_experts_tokens_50a778ac",
+        "source_port": null,
+        "target": "node_template_moe_router_experts_router_2b283f70",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Tokens tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "T",
+            "D"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "moe-router-experts"
+        },
+        "id": "edge_node_template_moe_router_experts_router_2b_880be6d5",
+        "kind": "routing",
+        "label": "",
+        "source": "node_template_moe_router_experts_router_2b283f70",
+        "source_port": null,
+        "target": "node_template_moe_router_experts_expert_1_024cdda2",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Router tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "T",
+            "E"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "moe-router-experts"
+        },
+        "id": "edge_node_template_moe_router_experts_router_2b_b5023411",
+        "kind": "routing",
+        "label": "",
+        "source": "node_template_moe_router_experts_router_2b283f70",
+        "source_port": null,
+        "target": "node_template_moe_router_experts_expert_2_cd969502",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Router tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "T",
+            "E"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "moe-router-experts"
+        },
+        "id": "edge_node_template_moe_router_experts_expert_1__157674c7",
+        "kind": "routing",
+        "label": "",
+        "source": "node_template_moe_router_experts_expert_1_024cdda2",
+        "source_port": null,
+        "target": "node_template_moe_router_experts_merge_b0604c32",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Expert 1 tensor",
+          "semantic": null,
+          "shape": [
+            "?",
+            "D"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "moe-router-experts"
+        },
+        "id": "edge_node_template_moe_router_experts_expert_2__9197a0c0",
+        "kind": "routing",
+        "label": "",
+        "source": "node_template_moe_router_experts_expert_2_cd969502",
+        "source_port": null,
+        "target": "node_template_moe_router_experts_merge_b0604c32",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Expert 2 tensor",
+          "semantic": null,
+          "shape": [
+            "?",
+            "D"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      }
+    ],
+    "inputs": [],
+    "ir_version": "1.0",
+    "metadata": {
+      "accuracy_claims": false,
+      "model_instance": false,
+      "paper_claims": false,
+      "source_format": "nndv-bundled-figure-template",
+      "template": "moe-router-experts",
+      "template_version": "1.0"
+    },
+    "name": "MoE router + experts",
+    "nodes": [
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "generic",
+          "template_role": "Tokens"
+        },
+        "buffers": 0,
+        "category": "operation",
+        "id": "node_template_moe_router_experts_tokens_50a778ac",
+        "inputs": [],
+        "level": "operation",
+        "name": "Tokens",
+        "namespace": "",
+        "op_type": "generic",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_moe_router_experts_tokens_50_90c7c60f",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Tokens tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/moe-router-experts/0",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Tokens",
+          "template": "moe-router-experts"
+        },
+        "tags": [
+          "template",
+          "generic"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "routing",
+          "template_role": "Router"
+        },
+        "buffers": 0,
+        "category": "routing",
+        "id": "node_template_moe_router_experts_router_2b283f70",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_moe_router_experts_router_2b_f69c6e68",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Router tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "E"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Router",
+        "namespace": "",
+        "op_type": "routing",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_moe_router_experts_router_2b_a4acfcf4",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Router tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "E"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/moe-router-experts/1",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Router",
+          "template": "moe-router-experts"
+        },
+        "tags": [
+          "template",
+          "routing"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "expert",
+          "template_role": "Expert 1"
+        },
+        "buffers": 0,
+        "category": "expert",
+        "id": "node_template_moe_router_experts_expert_1_024cdda2",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_moe_router_experts_expert_1__0e241792",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Expert 1 tensor",
+              "semantic": null,
+              "shape": [
+                "?",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Expert 1",
+        "namespace": "",
+        "op_type": "expert",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_moe_router_experts_expert_1__9e5fa4ed",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Expert 1 tensor",
+              "semantic": null,
+              "shape": [
+                "?",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/moe-router-experts/2",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Expert 1",
+          "template": "moe-router-experts"
+        },
+        "tags": [
+          "template",
+          "expert"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "expert",
+          "template_role": "Expert 2"
+        },
+        "buffers": 0,
+        "category": "expert",
+        "id": "node_template_moe_router_experts_expert_2_cd969502",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_moe_router_experts_expert_2__cea6bf4e",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Expert 2 tensor",
+              "semantic": null,
+              "shape": [
+                "?",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Expert 2",
+        "namespace": "",
+        "op_type": "expert",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_moe_router_experts_expert_2__c02d919c",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Expert 2 tensor",
+              "semantic": null,
+              "shape": [
+                "?",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/moe-router-experts/3",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Expert 2",
+          "template": "moe-router-experts"
+        },
+        "tags": [
+          "template",
+          "expert"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "concatenate",
+          "template_role": "Merge"
+        },
+        "buffers": 0,
+        "category": "concatenate",
+        "id": "node_template_moe_router_experts_merge_b0604c32",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_moe_router_experts_merge_b06_2320fcd0",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Merge tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Merge",
+        "namespace": "",
+        "op_type": "concatenate",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_moe_router_experts_merge_b06_7eedf075",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Merge tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "T",
+                "D"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/moe-router-experts/4",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Merge",
+          "template": "moe-router-experts"
+        },
+        "tags": [
+          "template",
+          "concatenate"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      }
+    ],
+    "outputs": [],
+    "subgraphs": []
+  },
+  "model_source": {
+    "kind": "bundled-figure-template",
+    "model_instance": false,
+    "template": "moe-router-experts"
+  },
+  "name": "MoE router + experts",
+  "project_version": "1.3",
+  "theme": "neurips",
+  "updated_at": "2026-08-29T00:00:00+00:00"
+}

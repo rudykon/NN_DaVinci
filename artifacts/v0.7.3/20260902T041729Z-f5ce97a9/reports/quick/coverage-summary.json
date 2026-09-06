@@ -1,0 +1,1417 @@
+{
+  "all_package": {
+    "branch": {
+      "covered": 5430,
+      "fraction": 0.7786062517923716,
+      "percent": 77.86062517923716,
+      "total": 6974
+    },
+    "combined": {
+      "covered": 21905,
+      "fraction": 0.8519699739411147,
+      "percent": 85.19699739411146,
+      "total": 25711
+    },
+    "line": {
+      "covered": 16475,
+      "fraction": 0.8792762982334419,
+      "percent": 87.92762982334419,
+      "total": 18737
+    }
+  },
+  "all_package_denominator_diff_by_file": {
+    "src/nn_davinci/__init__.py": {
+      "baseline_0_2_1": {
+        "branches": 0,
+        "statements": 6
+      },
+      "current_0_2_2": {
+        "branches": 0,
+        "statements": 11
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 5
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/__main__.py": {
+      "baseline_0_2_1": {
+        "branches": 0,
+        "statements": 2
+      },
+      "current_0_2_2": {
+        "branches": 0,
+        "statements": 2
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/adapters/__init__.py": {
+      "baseline_0_2_1": {
+        "branches": 2,
+        "statements": 11
+      },
+      "current_0_2_2": {
+        "branches": 2,
+        "statements": 11
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/adapters/base.py": {
+      "baseline_0_2_1": {
+        "branches": 6,
+        "statements": 58
+      },
+      "current_0_2_2": {
+        "branches": 6,
+        "statements": 58
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/adapters/config.py": {
+      "baseline_0_2_1": {
+        "branches": 14,
+        "statements": 52
+      },
+      "current_0_2_2": {
+        "branches": 14,
+        "statements": 52
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/adapters/jax.py": {
+      "baseline_0_2_1": {
+        "branches": 50,
+        "statements": 135
+      },
+      "current_0_2_2": {
+        "branches": 50,
+        "statements": 135
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/adapters/keras.py": {
+      "baseline_0_2_1": {
+        "branches": 32,
+        "statements": 87
+      },
+      "current_0_2_2": {
+        "branches": 32,
+        "statements": 87
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/adapters/manual.py": {
+      "baseline_0_2_1": {
+        "branches": 36,
+        "statements": 108
+      },
+      "current_0_2_2": {
+        "branches": 36,
+        "statements": 108
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/adapters/onnx.py": {
+      "baseline_0_2_1": {
+        "branches": 90,
+        "statements": 207
+      },
+      "current_0_2_2": {
+        "branches": 90,
+        "statements": 207
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/adapters/pytorch.py": {
+      "baseline_0_2_1": {
+        "branches": 108,
+        "statements": 287
+      },
+      "current_0_2_2": {
+        "branches": 138,
+        "statements": 346
+      },
+      "delta": {
+        "branches": 30,
+        "statements": 59
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/adapters/tensorflow.py": {
+      "baseline_0_2_1": {
+        "branches": 62,
+        "statements": 135
+      },
+      "current_0_2_2": {
+        "branches": 62,
+        "statements": 135
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/analysis/__init__.py": {
+      "baseline_0_2_1": {
+        "branches": 2,
+        "statements": 11
+      },
+      "current_0_2_2": {
+        "branches": 2,
+        "statements": 11
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/analysis/diff.py": {
+      "baseline_0_2_1": {
+        "branches": 38,
+        "statements": 112
+      },
+      "current_0_2_2": {
+        "branches": 98,
+        "statements": 275
+      },
+      "delta": {
+        "branches": 60,
+        "statements": 163
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/analysis/explain.py": {
+      "baseline_0_2_1": {
+        "branches": 38,
+        "statements": 127
+      },
+      "current_0_2_2": {
+        "branches": 38,
+        "statements": 127
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/analysis/runtime.py": {
+      "baseline_0_2_1": {
+        "branches": 42,
+        "statements": 113
+      },
+      "current_0_2_2": {
+        "branches": 42,
+        "statements": 113
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/analysis/static.py": {
+      "baseline_0_2_1": {
+        "branches": 76,
+        "statements": 166
+      },
+      "current_0_2_2": {
+        "branches": 76,
+        "statements": 166
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/analysis/torchlens.py": {
+      "baseline_0_2_1": {
+        "branches": 36,
+        "statements": 118
+      },
+      "current_0_2_2": {
+        "branches": 36,
+        "statements": 118
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/api.py": {
+      "baseline_0_2_1": {
+        "branches": 62,
+        "statements": 142
+      },
+      "current_0_2_2": {
+        "branches": 76,
+        "statements": 182
+      },
+      "delta": {
+        "branches": 14,
+        "statements": 40
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/architecture_evidence.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 248,
+        "statements": 670
+      },
+      "delta": {
+        "branches": 248,
+        "statements": 670
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/architecture_parity.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 92,
+        "statements": 181
+      },
+      "delta": {
+        "branches": 92,
+        "statements": 181
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/architecture_role_graph.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 74,
+        "statements": 163
+      },
+      "delta": {
+        "branches": 74,
+        "statements": 163
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/batch.py": {
+      "baseline_0_2_1": {
+        "branches": 12,
+        "statements": 40
+      },
+      "current_0_2_2": {
+        "branches": 12,
+        "statements": 40
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/cli.py": {
+      "baseline_0_2_1": {
+        "branches": 44,
+        "statements": 193
+      },
+      "current_0_2_2": {
+        "branches": 64,
+        "statements": 265
+      },
+      "delta": {
+        "branches": 20,
+        "statements": 72
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/composer.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 128,
+        "statements": 401
+      },
+      "delta": {
+        "branches": 128,
+        "statements": 401
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/diff_corpus.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 2,
+        "statements": 114
+      },
+      "delta": {
+        "branches": 2,
+        "statements": 114
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/editor.py": {
+      "baseline_0_2_1": {
+        "branches": 38,
+        "statements": 147
+      },
+      "current_0_2_2": {
+        "branches": 38,
+        "statements": 147
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/errors.py": {
+      "baseline_0_2_1": {
+        "branches": 4,
+        "statements": 29
+      },
+      "current_0_2_2": {
+        "branches": 4,
+        "statements": 29
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/figure_export.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 382,
+        "statements": 941
+      },
+      "delta": {
+        "branches": 382,
+        "statements": 941
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/figure_ir.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 156,
+        "statements": 418
+      },
+      "delta": {
+        "branches": 156,
+        "statements": 418
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/figure_templates.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 62,
+        "statements": 197
+      },
+      "delta": {
+        "branches": 62,
+        "statements": 197
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/formula.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 74,
+        "statements": 156
+      },
+      "delta": {
+        "branches": 74,
+        "statements": 156
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/import_wizard.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 74,
+        "statements": 178
+      },
+      "delta": {
+        "branches": 74,
+        "statements": 178
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/ir.py": {
+      "baseline_0_2_1": {
+        "branches": 54,
+        "statements": 221
+      },
+      "current_0_2_2": {
+        "branches": 60,
+        "statements": 235
+      },
+      "delta": {
+        "branches": 6,
+        "statements": 14
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/labels.py": {
+      "baseline_0_2_1": {
+        "branches": 44,
+        "statements": 80
+      },
+      "current_0_2_2": {
+        "branches": 68,
+        "statements": 133
+      },
+      "delta": {
+        "branches": 24,
+        "statements": 53
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/layout/__init__.py": {
+      "baseline_0_2_1": {
+        "branches": 0,
+        "statements": 2
+      },
+      "current_0_2_2": {
+        "branches": 0,
+        "statements": 2
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/layout/engine.py": {
+      "baseline_0_2_1": {
+        "branches": 502,
+        "statements": 1054
+      },
+      "current_0_2_2": {
+        "branches": 498,
+        "statements": 1054
+      },
+      "delta": {
+        "branches": -4,
+        "statements": 0
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/metamorphic_corpus.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 62,
+        "statements": 270
+      },
+      "delta": {
+        "branches": 62,
+        "statements": 270
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/model_figure.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 458,
+        "statements": 962
+      },
+      "delta": {
+        "branches": 458,
+        "statements": 962
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/model_scene.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 334,
+        "statements": 777
+      },
+      "delta": {
+        "branches": 334,
+        "statements": 777
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/operators.py": {
+      "baseline_0_2_1": {
+        "branches": 4,
+        "statements": 13
+      },
+      "current_0_2_2": {
+        "branches": 4,
+        "statements": 13
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/optimizer.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 98,
+        "statements": 240
+      },
+      "delta": {
+        "branches": 98,
+        "statements": 240
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/paper_production.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 274,
+        "statements": 694
+      },
+      "delta": {
+        "branches": 274,
+        "statements": 694
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/pdf_fonts.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 52,
+        "statements": 148
+      },
+      "delta": {
+        "branches": 52,
+        "statements": 148
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/plugins.py": {
+      "baseline_0_2_1": {
+        "branches": 36,
+        "statements": 120
+      },
+      "current_0_2_2": {
+        "branches": 52,
+        "statements": 169
+      },
+      "delta": {
+        "branches": 16,
+        "statements": 49
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/project.py": {
+      "baseline_0_2_1": {
+        "branches": 12,
+        "statements": 88
+      },
+      "current_0_2_2": {
+        "branches": 58,
+        "statements": 203
+      },
+      "delta": {
+        "branches": 46,
+        "statements": 115
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/quality.py": {
+      "baseline_0_2_1": {
+        "branches": 8,
+        "statements": 50
+      },
+      "current_0_2_2": {
+        "branches": 8,
+        "statements": 51
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 1
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/real_models.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 54,
+        "statements": 420
+      },
+      "delta": {
+        "branches": 54,
+        "statements": 420
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/render/__init__.py": {
+      "baseline_0_2_1": {
+        "branches": 0,
+        "statements": 5
+      },
+      "current_0_2_2": {
+        "branches": 0,
+        "statements": 5
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/render/export.py": {
+      "baseline_0_2_1": {
+        "branches": 28,
+        "statements": 88
+      },
+      "current_0_2_2": {
+        "branches": 30,
+        "statements": 96
+      },
+      "delta": {
+        "branches": 2,
+        "statements": 8
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/render/html.py": {
+      "baseline_0_2_1": {
+        "branches": 12,
+        "statements": 25
+      },
+      "current_0_2_2": {
+        "branches": 12,
+        "statements": 25
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/render/svg.py": {
+      "baseline_0_2_1": {
+        "branches": 82,
+        "statements": 252
+      },
+      "current_0_2_2": {
+        "branches": 84,
+        "statements": 262
+      },
+      "delta": {
+        "branches": 2,
+        "statements": 10
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/render/tikz.py": {
+      "baseline_0_2_1": {
+        "branches": 46,
+        "statements": 95
+      },
+      "current_0_2_2": {
+        "branches": 46,
+        "statements": 95
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/reporting.py": {
+      "baseline_0_2_1": {
+        "branches": 10,
+        "statements": 42
+      },
+      "current_0_2_2": {
+        "branches": 10,
+        "statements": 42
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/scaling.py": {
+      "baseline_0_2_1": {
+        "branches": 8,
+        "statements": 34
+      },
+      "current_0_2_2": {
+        "branches": 12,
+        "statements": 48
+      },
+      "delta": {
+        "branches": 4,
+        "statements": 14
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/scene_export.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 240,
+        "statements": 604
+      },
+      "delta": {
+        "branches": 240,
+        "statements": 604
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/scene_gltf.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 156,
+        "statements": 393
+      },
+      "delta": {
+        "branches": 156,
+        "statements": 393
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/scene_ir.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 362,
+        "statements": 953
+      },
+      "delta": {
+        "branches": 362,
+        "statements": 953
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/scene_math.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 60,
+        "statements": 234
+      },
+      "delta": {
+        "branches": 60,
+        "statements": 234
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/scene_projection.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 370,
+        "statements": 851
+      },
+      "delta": {
+        "branches": 370,
+        "statements": 851
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/semantic.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 466,
+        "statements": 891
+      },
+      "delta": {
+        "branches": 466,
+        "statements": 891
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/server.py": {
+      "baseline_0_2_1": {
+        "branches": 34,
+        "statements": 196
+      },
+      "current_0_2_2": {
+        "branches": 208,
+        "statements": 851
+      },
+      "delta": {
+        "branches": 174,
+        "statements": 655
+      },
+      "status": "changed"
+    },
+    "src/nn_davinci/spatial.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 50,
+        "statements": 137
+      },
+      "delta": {
+        "branches": 50,
+        "statements": 137
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/structure_lens.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 174,
+        "statements": 383
+      },
+      "delta": {
+        "branches": 174,
+        "statements": 383
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/tasks.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 50,
+        "statements": 244
+      },
+      "delta": {
+        "branches": 50,
+        "statements": 244
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/tensor_geometry.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 76,
+        "statements": 189
+      },
+      "delta": {
+        "branches": 76,
+        "statements": 189
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/text_layout.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 102,
+        "statements": 229
+      },
+      "delta": {
+        "branches": 102,
+        "statements": 229
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/themes.py": {
+      "baseline_0_2_1": {
+        "branches": 18,
+        "statements": 31
+      },
+      "current_0_2_2": {
+        "branches": 18,
+        "statements": 31
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/trial.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 66,
+        "statements": 226
+      },
+      "delta": {
+        "branches": 66,
+        "statements": 226
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/trial_cases/__init__.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 0,
+        "statements": 3
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 3
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/trial_cases/onnx_case.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 0,
+        "statements": 15
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 15
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/trial_cases/pytorch_cases.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 2,
+        "statements": 94
+      },
+      "delta": {
+        "branches": 2,
+        "statements": 94
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/trial_models.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 22,
+        "statements": 121
+      },
+      "delta": {
+        "branches": 22,
+        "statements": 121
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/units.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 8,
+        "statements": 58
+      },
+      "delta": {
+        "branches": 8,
+        "statements": 58
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/verification.py": {
+      "baseline_0_2_1": {
+        "branches": 0,
+        "statements": 34
+      },
+      "current_0_2_2": {
+        "branches": 0,
+        "statements": 34
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 0
+      },
+      "status": "unchanged"
+    },
+    "src/nn_davinci/version.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 0,
+        "statements": 1
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 1
+      },
+      "status": "added"
+    },
+    "src/nn_davinci/viewport.py": {
+      "baseline_0_2_1": null,
+      "current_0_2_2": {
+        "branches": 62,
+        "statements": 207
+      },
+      "delta": {
+        "branches": 62,
+        "statements": 207
+      },
+      "status": "added"
+    }
+  },
+  "all_package_passed": true,
+  "all_package_total_denominator_diff": {
+    "baseline": {
+      "branches": 1690,
+      "statements": 4716
+    },
+    "baseline_release": "0.2.1",
+    "current": {
+      "branches": 6974,
+      "statements": 18737
+    },
+    "delta": {
+      "branches": 5284,
+      "statements": 14021
+    },
+    "diagnostic_inventory_authoritative_for_pass": false,
+    "reason": "0.2.2 adds adversarial geometry, scale recovery, publication-role, and verification closure code; the all-package source selection is not reduced.",
+    "release_threshold_source": "docs/TRUST_ANCHOR_0.2.2.json"
+  },
+  "core": {
+    "branch": {
+      "covered": 837,
+      "fraction": 0.8336653386454184,
+      "percent": 83.36653386454184,
+      "total": 1004
+    },
+    "combined": {
+      "covered": 3467,
+      "fraction": 0.8928663404584084,
+      "percent": 89.28663404584084,
+      "total": 3883
+    },
+    "line": {
+      "covered": 2630,
+      "fraction": 0.913511635984717,
+      "percent": 91.35116359847169,
+      "total": 2879
+    }
+  },
+  "core_denominator_diff": {
+    "src/nn_davinci/ir.py": {
+      "baseline": {
+        "branches": 54,
+        "statements": 221
+      },
+      "baseline_release": "0.2.1",
+      "current": {
+        "branches": 60,
+        "statements": 235
+      },
+      "delta": {
+        "branches": 6,
+        "statements": 14
+      }
+    },
+    "src/nn_davinci/layout/engine.py": {
+      "baseline": {
+        "branches": 502,
+        "statements": 1054
+      },
+      "baseline_release": "0.2.1",
+      "current": {
+        "branches": 498,
+        "statements": 1054
+      },
+      "delta": {
+        "branches": -4,
+        "statements": 0
+      }
+    },
+    "src/nn_davinci/project.py": {
+      "baseline": {
+        "branches": 12,
+        "statements": 88
+      },
+      "baseline_release": "0.2.1",
+      "current": {
+        "branches": 58,
+        "statements": 203
+      },
+      "delta": {
+        "branches": 46,
+        "statements": 115
+      }
+    },
+    "src/nn_davinci/quality.py": {
+      "baseline": {
+        "branches": 8,
+        "statements": 50
+      },
+      "baseline_release": "0.2.1",
+      "current": {
+        "branches": 8,
+        "statements": 51
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 1
+      }
+    },
+    "src/nn_davinci/render/export.py": {
+      "baseline": {
+        "branches": 28,
+        "statements": 88
+      },
+      "baseline_release": "0.2.1",
+      "current": {
+        "branches": 30,
+        "statements": 96
+      },
+      "delta": {
+        "branches": 2,
+        "statements": 8
+      }
+    },
+    "src/nn_davinci/render/svg.py": {
+      "baseline": {
+        "branches": 82,
+        "statements": 252
+      },
+      "baseline_release": "0.2.1",
+      "current": {
+        "branches": 84,
+        "statements": 262
+      },
+      "delta": {
+        "branches": 2,
+        "statements": 10
+      }
+    },
+    "src/nn_davinci/server.py": {
+      "baseline": {
+        "branches": 34,
+        "statements": 196
+      },
+      "baseline_release": "0.2.1",
+      "current": {
+        "branches": 208,
+        "statements": 851
+      },
+      "delta": {
+        "branches": 174,
+        "statements": 655
+      }
+    }
+  },
+  "core_files": [
+    "src/nn_davinci/ir.py",
+    "src/nn_davinci/layout/__init__.py",
+    "src/nn_davinci/layout/engine.py",
+    "src/nn_davinci/project.py",
+    "src/nn_davinci/quality.py",
+    "src/nn_davinci/render/__init__.py",
+    "src/nn_davinci/render/export.py",
+    "src/nn_davinci/render/html.py",
+    "src/nn_davinci/render/svg.py",
+    "src/nn_davinci/render/tikz.py",
+    "src/nn_davinci/server.py"
+  ],
+  "core_passed": true,
+  "coverage_exclusions": [],
+  "expanded_core": {
+    "branch": {
+      "covered": 907,
+      "fraction": 0.8367158671586716,
+      "percent": 83.67158671586716,
+      "total": 1084
+    },
+    "combined": {
+      "covered": 3739,
+      "fraction": 0.8949258018190521,
+      "percent": 89.49258018190521,
+      "total": 4178
+    },
+    "line": {
+      "covered": 2832,
+      "fraction": 0.9153199741435035,
+      "percent": 91.53199741435036,
+      "total": 3094
+    }
+  },
+  "expanded_core_files": [
+    "src/nn_davinci/ir.py",
+    "src/nn_davinci/labels.py",
+    "src/nn_davinci/layout/__init__.py",
+    "src/nn_davinci/layout/engine.py",
+    "src/nn_davinci/project.py",
+    "src/nn_davinci/quality.py",
+    "src/nn_davinci/render/__init__.py",
+    "src/nn_davinci/render/export.py",
+    "src/nn_davinci/render/html.py",
+    "src/nn_davinci/render/svg.py",
+    "src/nn_davinci/render/tikz.py",
+    "src/nn_davinci/scaling.py",
+    "src/nn_davinci/server.py",
+    "src/nn_davinci/verification.py"
+  ],
+  "expanded_core_passed": true,
+  "legacy_0_2_0_core_denominator_diff": {
+    "src/nn_davinci/ir.py": {
+      "baseline": {
+        "branches": 54,
+        "statements": 221
+      },
+      "current": {
+        "branches": 60,
+        "statements": 235
+      },
+      "delta": {
+        "branches": 6,
+        "statements": 14
+      }
+    },
+    "src/nn_davinci/layout/engine.py": {
+      "baseline": {
+        "branches": 438,
+        "statements": 926
+      },
+      "current": {
+        "branches": 498,
+        "statements": 1054
+      },
+      "delta": {
+        "branches": 60,
+        "statements": 128
+      }
+    },
+    "src/nn_davinci/project.py": {
+      "baseline": {
+        "branches": 12,
+        "statements": 88
+      },
+      "current": {
+        "branches": 58,
+        "statements": 203
+      },
+      "delta": {
+        "branches": 46,
+        "statements": 115
+      }
+    },
+    "src/nn_davinci/quality.py": {
+      "baseline": {
+        "branches": 8,
+        "statements": 50
+      },
+      "current": {
+        "branches": 8,
+        "statements": 51
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 1
+      }
+    },
+    "src/nn_davinci/render/export.py": {
+      "baseline": {
+        "branches": 28,
+        "statements": 88
+      },
+      "current": {
+        "branches": 30,
+        "statements": 96
+      },
+      "delta": {
+        "branches": 2,
+        "statements": 8
+      }
+    },
+    "src/nn_davinci/render/svg.py": {
+      "baseline": {
+        "branches": 108,
+        "statements": 276
+      },
+      "current": {
+        "branches": 84,
+        "statements": 262
+      },
+      "delta": {
+        "branches": -24,
+        "statements": -14
+      }
+    },
+    "src/nn_davinci/render/tikz.py": {
+      "baseline": {
+        "branches": 46,
+        "statements": 94
+      },
+      "current": {
+        "branches": 46,
+        "statements": 95
+      },
+      "delta": {
+        "branches": 0,
+        "statements": 1
+      }
+    },
+    "src/nn_davinci/server.py": {
+      "baseline": {
+        "branches": 28,
+        "statements": 177
+      },
+      "current": {
+        "branches": 208,
+        "statements": 851
+      },
+      "delta": {
+        "branches": 180,
+        "statements": 674
+      }
+    }
+  },
+  "old_core": {
+    "branch": {
+      "covered": 837,
+      "fraction": 0.8336653386454184,
+      "percent": 83.36653386454184,
+      "total": 1004
+    },
+    "combined": {
+      "covered": 3467,
+      "fraction": 0.8928663404584084,
+      "percent": 89.28663404584084,
+      "total": 3883
+    },
+    "line": {
+      "covered": 2630,
+      "fraction": 0.913511635984717,
+      "percent": 91.35116359847169,
+      "total": 2879
+    }
+  },
+  "old_core_passed": true,
+  "python_tests": {
+    "baseline_count": 353,
+    "baseline_ids_missing": [],
+    "collected": 378,
+    "deselected": 0,
+    "duration_seconds": 150.058,
+    "errors": 0,
+    "failures": 0,
+    "inherited_0_3_tests": 359,
+    "passed": 378,
+    "product_0_4_tests": 14,
+    "product_0_5_tests": 5,
+    "skipped": 0,
+    "successful": true,
+    "tests": 378
+  },
+  "thresholds": {
+    "all_package_branch_baseline_fraction": 0.7176,
+    "all_package_branch_fraction": 0.7479289940828402,
+    "all_package_line_baseline_fraction": 0.8174,
+    "all_package_line_fraction": 0.8324851569126378,
+    "core_branch_fraction": 0.8,
+    "core_line_fraction": 0.885,
+    "expanded_core_branch_fraction": 0.8,
+    "expanded_core_line_fraction": 0.885,
+    "old_core_branch_fraction": 0.8329048843187661,
+    "old_core_line_fraction": 0.911849710982659
+  }
+}

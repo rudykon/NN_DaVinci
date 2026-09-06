@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.5.2-responsive-workspace-e2e-1",
+  "status": "passed",
+  "scenario": "responsive-workspace-mobile-paper-loop",
+  "assertion_count": 168,
+  "duration_ms": 5710,
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "width": 800,
+      "height": 720
+    },
+    {
+      "width": 768,
+      "height": 720
+    },
+    {
+      "width": 568,
+      "height": 320
+    },
+    {
+      "width": 390,
+      "height": 780
+    },
+    {
+      "width": 320,
+      "height": 568
+    }
+  ],
+  "viewport_count": 7,
+  "coverage": {
+    "canonical_workspace_drawers": true,
+    "inspector_selection_entry": true,
+    "mutually_exclusive_surfaces": true,
+    "keyboard_and_focus_restore": true,
+    "breakpoint_cleanup": true,
+    "bounded_workflow_dialogs": true,
+    "composer_default_panels": [
+      {
+        "id": "A",
+        "title": "Semantic blocks",
+        "level": "block"
+      },
+      {
+        "id": "B",
+        "title": "Operation evidence",
+        "level": "operation"
+      }
+    ],
+    "duplicate_composer_initializations": 0,
+    "mobile_workflow": [
+      "import-model",
+      "block-view",
+      "paper-view",
+      "composer-a-b",
+      "save-project",
+      "export-svg"
+    ],
+    "unexpected_browser_errors": 0
+  }
+}

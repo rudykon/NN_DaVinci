@@ -1,0 +1,2135 @@
+{
+  "active_camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+  "cameras": [
+    {
+      "aspect": 1.5,
+      "far": 10000.0,
+      "fov_y_deg": 45.0,
+      "id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+      "locked": false,
+      "metadata": {},
+      "name": "transformer editable 3D template isometric camera",
+      "near": 0.1,
+      "ortho_height": 18.0,
+      "position": [
+        12.0,
+        10.0,
+        14.0
+      ],
+      "projection": "orthographic",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  ],
+  "id": "scene_transformer_editable_3d_template_acdd9693",
+  "layers": [
+    {
+      "groups": [],
+      "id": "scene_layer_transformer_editable_3d_template_layer_mod_7c000d07",
+      "locked": false,
+      "metadata": {},
+      "name": "Model",
+      "objects": [
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              17.0,
+              11.0,
+              8.0
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_group_frame_1da6305b",
+          "kind": "group-frame",
+          "locked": false,
+          "material": {
+            "base_color": "#e2e8f0",
+            "face_colors": {
+              "front": "#e2e8f0",
+              "top": "#e2e8f0"
+            },
+            "metallic": 0.0,
+            "opacity": 0.025,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "group-frame",
+            "decorative": true,
+            "default_hidden_in_publication": true,
+            "editable": true,
+            "exclude_from_framing": true,
+            "frame_role": "template-boundary",
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Architecture group frame",
+          "order": -100,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.995824722854548,
+              "ndc": [
+                1.3158198810372225e-16,
+                -9.868649107779169e-17,
+                -0.995824722854548
+              ],
+              "point": [
+                600.0000000000001,
+                400.0
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:group-frame"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              8.5,
+              5.5,
+              4.0
+            ],
+            "bounds_min": [
+              -8.5,
+              -5.5,
+              -4.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "points": [
+              [
+                -2.8,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -2.0
+              ],
+              [
+                2.1,
+                0.0,
+                0.0
+              ]
+            ],
+            "radius": 0.12
+          },
+          "id": "scene_object_scene_template_transformer_attention_63142cae",
+          "kind": "attention-ribbon",
+          "locked": false,
+          "material": {
+            "base_color": "#f59e0b",
+            "face_colors": {
+              "front": "#f59e0b",
+              "top": "#f59e0b"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#f59e0b",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "attention",
+            "editable": true,
+            "endpoint_object_ids": [
+              "scene_object_scene_template_transformer_k_0c328f34",
+              "scene_object_scene_template_transformer_concat_ae9e295a"
+            ],
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Multi-head attention",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.995824722854548,
+              "ndc": [
+                1.3158198810372225e-16,
+                -9.868649107779169e-17,
+                -0.995824722854548
+              ],
+              "point": [
+                600.0000000000001,
+                400.0
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:attention"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              2.22,
+              0.12,
+              0.12
+            ],
+            "bounds_min": [
+              -2.92,
+              -0.12,
+              -2.12
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              1.8,
+              2.2,
+              2.2
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_concat_ae9e295a",
+          "kind": "merge",
+          "locked": false,
+          "material": {
+            "base_color": "#c4b5fd",
+            "face_colors": {
+              "front": "#c4b5fd",
+              "top": "#c4b5fd"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "concat",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Concatenate heads",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.9961679728191761,
+              "ndc": [
+                0.16872368941451046,
+                -0.10341753799900395,
+                -0.9961679728191761
+              ],
+              "point": [
+                701.2342136487064,
+                441.36701519960155
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:concat"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              3.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              3.9,
+              1.1,
+              1.1
+            ],
+            "bounds_min": [
+              2.1,
+              -1.1,
+              -1.1
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                3.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              3.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              2.2,
+              2.2,
+              2.2
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_ffn_c3ed74b9",
+          "kind": "operation-block",
+          "locked": false,
+          "material": {
+            "base_color": "#a7f3d0",
+            "face_colors": {
+              "front": "#a7f3d0",
+              "top": "#a7f3d0"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "ffn",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Feed-forward network",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.9965112227838041,
+              "ndc": [
+                0.33744737882902076,
+                -0.20683507599800782,
+                -0.9965112227838041
+              ],
+              "point": [
+                802.4684272974124,
+                482.7340303992031
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:ffn"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              6.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              7.1,
+              1.1,
+              1.1
+            ],
+            "bounds_min": [
+              4.9,
+              -1.1,
+              -1.1
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                6.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              6.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "points": [
+              [
+                3.9,
+                0.0,
+                0.0
+              ],
+              [
+                4.9,
+                0.0,
+                0.0
+              ]
+            ],
+            "radius": 0.07
+          },
+          "id": "scene_object_scene_template_transformer_ffn_flow_4e4a1bd9",
+          "kind": "arrow",
+          "locked": false,
+          "material": {
+            "base_color": "#475569",
+            "face_colors": {
+              "front": "#475569",
+              "top": "#475569"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#475569",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "ffn-flow",
+            "editable": true,
+            "endpoint_object_ids": [
+              "scene_object_scene_template_transformer_concat_ae9e295a",
+              "scene_object_scene_template_transformer_ffn_c3ed74b9"
+            ],
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Attention to FFN",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.995824722854548,
+              "ndc": [
+                1.3158198810372225e-16,
+                -9.868649107779169e-17,
+                -0.995824722854548
+              ],
+              "point": [
+                600.0000000000001,
+                400.0
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:ffn-flow"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              4.970000000000001,
+              0.07,
+              0.07
+            ],
+            "bounds_min": [
+              3.83,
+              -0.07,
+              -0.07
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              1.5,
+              1.0,
+              1.2
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_head_0_db2d8aba",
+          "kind": "attention-head",
+          "locked": false,
+          "material": {
+            "base_color": "#fbbf24",
+            "face_colors": {
+              "front": "#fbbf24",
+              "top": "#fbbf24"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "head-0",
+            "editable": true,
+            "expanded_heads": 4,
+            "head_index": 0,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Attention head 1",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.9954099624806224,
+              "ndc": [
+                0.07231015260621886,
+                -0.15943537108179764,
+                -0.9954099624806224
+              ],
+              "point": [
+                643.3860915637313,
+                463.7741484327191
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:head-0"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              -2.25,
+              -1.5
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              0.75,
+              -1.75,
+              -0.9
+            ],
+            "bounds_min": [
+              -0.75,
+              -2.75,
+              -2.1
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -2.25
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -1.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              -2.25,
+              -1.5
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              1.5,
+              1.0,
+              1.2
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_head_1_e7b8fc32",
+          "kind": "attention-head",
+          "locked": false,
+          "material": {
+            "base_color": "#fbbf24",
+            "face_colors": {
+              "front": "#fbbf24",
+              "top": "#fbbf24"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "head-1",
+            "editable": true,
+            "expanded_heads": 4,
+            "head_index": 1,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Attention head 2",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.9956864693965728,
+              "ndc": [
+                0.02410338420207304,
+                -0.053145123693932615,
+                -0.9956864693965728
+              ],
+              "point": [
+                614.4620305212438,
+                421.2580494775731
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:head-1"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              -0.75,
+              -0.5
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              0.75,
+              -0.25,
+              0.09999999999999998
+            ],
+            "bounds_min": [
+              -0.75,
+              -1.25,
+              -1.1
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.75
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              -0.75,
+              -0.5
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              1.5,
+              1.0,
+              1.2
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_head_2_7cd9b8b4",
+          "kind": "attention-head",
+          "locked": false,
+          "material": {
+            "base_color": "#fbbf24",
+            "face_colors": {
+              "front": "#fbbf24",
+              "top": "#fbbf24"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "head-2",
+            "editable": true,
+            "expanded_heads": 4,
+            "head_index": 2,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Attention head 3",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.9959629763125233,
+              "ndc": [
+                -0.024103384202072777,
+                0.053145123693932414,
+                -0.9959629763125233
+              ],
+              "point": [
+                585.5379694787563,
+                378.74195052242703
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:head-2"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              0.75,
+              0.5
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              0.75,
+              1.25,
+              1.1
+            ],
+            "bounds_min": [
+              -0.75,
+              0.25,
+              -0.09999999999999998
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.75
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              0.75,
+              0.5
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              1.5,
+              1.0,
+              1.2
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_head_3_5fd1a2b5",
+          "kind": "attention-head",
+          "locked": false,
+          "material": {
+            "base_color": "#fbbf24",
+            "face_colors": {
+              "front": "#fbbf24",
+              "top": "#fbbf24"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "head-3",
+            "editable": true,
+            "expanded_heads": 4,
+            "head_index": 3,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Attention head 4",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.9962394832284737,
+              "ndc": [
+                -0.0723101526062186,
+                0.15943537108179745,
+                -0.9962394832284737
+              ],
+              "point": [
+                556.6139084362688,
+                336.225851567281
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:head-3"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              2.25,
+              1.5
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              0.75,
+              2.75,
+              2.1
+            ],
+            "bounds_min": [
+              -0.75,
+              1.75,
+              0.9
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                2.25
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                1.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              2.25,
+              1.5
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              1.2,
+              1.0,
+              2.6
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_k_0c328f34",
+          "kind": "layer-plane",
+          "locked": false,
+          "material": {
+            "base_color": "#fde68a",
+            "face_colors": {
+              "front": "#fde68a",
+              "top": "#fde68a"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "k",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "K",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.9954357062279696,
+              "ndc": [
+                -0.1912201813364449,
+                0.1172065430655376,
+                -0.9954357062279696
+              ],
+              "point": [
+                485.26789119813304,
+                353.117382773785
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:k"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              -3.4,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              -2.8,
+              0.5,
+              1.3
+            ],
+            "bounds_min": [
+              -4.0,
+              -0.5,
+              -1.3
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -3.4
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              -3.4,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              1.2,
+              1.0,
+              2.6
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_q_d58cbf4e",
+          "kind": "layer-plane",
+          "locked": false,
+          "material": {
+            "base_color": "#fef3c7",
+            "face_colors": {
+              "front": "#fef3c7",
+              "top": "#fef3c7"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "q",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Q",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.995626400652763,
+              "ndc": [
+                -0.1912201813364449,
+                0.31255078150810034,
+                -0.995626400652763
+              ],
+              "point": [
+                485.26789119813304,
+                274.97968739675986
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:q"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              -3.4,
+              2.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              -2.8,
+              2.5,
+              1.3
+            ],
+            "bounds_min": [
+              -4.0,
+              1.5,
+              -1.3
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -3.4
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                2.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              -3.4,
+              2.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "points": [
+              [
+                -4.8,
+                0.0,
+                0.0
+              ],
+              [
+                -4.2,
+                0.0,
+                2.0
+              ],
+              [
+                -3.4,
+                2.0,
+                0.0
+              ]
+            ],
+            "radius": 0.07
+          },
+          "id": "scene_object_scene_template_transformer_qkv_ba468369",
+          "kind": "qkv-branch",
+          "locked": false,
+          "material": {
+            "base_color": "#f59e0b",
+            "face_colors": {
+              "front": "#f59e0b",
+              "top": "#f59e0b"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#f59e0b",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "qkv",
+            "editable": true,
+            "endpoint_object_ids": [
+              "scene_object_scene_template_transformer_tokens_189f3d9f",
+              "scene_object_scene_template_transformer_q_d58cbf4e"
+            ],
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Q/K/V branches",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.995824722854548,
+              "ndc": [
+                1.3158198810372225e-16,
+                -9.868649107779169e-17,
+                -0.995824722854548
+              ],
+              "point": [
+                600.0000000000001,
+                400.0
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:qkv"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              -3.33,
+              2.07,
+              2.07
+            ],
+            "bounds_min": [
+              -4.87,
+              -0.07,
+              -0.07
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              2.4,
+              1.0,
+              3.8
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_tokens_189f3d9f",
+          "kind": "token-sequence",
+          "locked": false,
+          "material": {
+            "base_color": "#bfdbfe",
+            "face_colors": {
+              "front": "#bfdbfe",
+              "top": "#bfdbfe"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "tokens",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true,
+            "tensor_shape": [
+              "B",
+              "T",
+              "D"
+            ]
+          },
+          "name": "Token sequence",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.995138222925292,
+              "ndc": [
+                -0.33744737882902054,
+                0.2068350759980076,
+                -0.995138222925292
+              ],
+              "point": [
+                397.53157270258765,
+                317.265969600797
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:tokens"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              -6.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              -4.8,
+              0.5,
+              1.9
+            ],
+            "bounds_min": [
+              -7.2,
+              -0.5,
+              -1.9
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -6.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              -6.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              1.2,
+              1.0,
+              2.6
+            ]
+          },
+          "id": "scene_object_scene_template_transformer_v_f36fcd6a",
+          "kind": "layer-plane",
+          "locked": false,
+          "material": {
+            "base_color": "#fcd34d",
+            "face_colors": {
+              "front": "#fcd34d",
+              "top": "#fcd34d"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "v",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "V",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.9952450118031763,
+              "ndc": [
+                -0.1912201813364449,
+                -0.07813769537702517,
+                -0.9952450118031763
+              ],
+              "point": [
+                485.26789119813304,
+                431.25507815081005
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:v"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              -3.4,
+              -2.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              -2.8,
+              -1.5,
+              1.3
+            ],
+            "bounds_min": [
+              -4.0,
+              -2.5,
+              -1.3
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -3.4
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -2.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              -3.4,
+              -2.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              10.0,
+              0.5,
+              0.2
+            ],
+            "text": "3D depth and thickness are editable visual mappings, not literal tensor dimensions."
+          },
+          "id": "scene_object_scene_template_transformer_geometry_legend_3fc83918",
+          "kind": "legend",
+          "locked": false,
+          "material": {
+            "base_color": "#f8fafc",
+            "face_colors": {
+              "front": "#f8fafc",
+              "top": "#f8fafc"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "transformer",
+            "architecture_role": "legend",
+            "caption": true,
+            "editable": true,
+            "exclude_from_framing": true,
+            "model_fact": false,
+            "template_only": true,
+            "visual_geometry_is_literal_tensor_size": false
+          },
+          "name": "Geometry mapping legend",
+          "order": 1000000,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_transformer_editable_3d_template_camera_is_0f30bd81",
+              "depth": -0.9953479867925646,
+              "ndc": [
+                1.3158198810372225e-16,
+                -0.48836059610640703,
+                -0.9953479867925646
+              ],
+              "point": [
+                600.0000000000001,
+                595.3442384425628
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:transformer:geometry-legend"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              -5.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              5.0,
+              -4.75,
+              0.1
+            ],
+            "bounds_min": [
+              -5.0,
+              -5.25,
+              -0.1
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -5.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              -5.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "order": 0,
+      "visible": true
+    }
+  ],
+  "lights": [
+    {
+      "color": "#ffffff",
+      "direction": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "id": "scene_light_transformer_editable_3d_template_light_key_2be74c34",
+      "intensity": 1.0,
+      "kind": "directional",
+      "locked": false,
+      "metadata": {},
+      "name": "Key light",
+      "position": [
+        8.0,
+        10.0,
+        12.0
+      ],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "architecture_family": "transformer",
+    "authoring_mode": "scene-studio",
+    "contains_model_evidence": false,
+    "coordinate_system": "right-handed-y-up",
+    "evidenced_architecture_family": "template",
+    "matrix_convention": "row-major-column-vector",
+    "model_scene_pipeline": {
+      "architecture_was_not_inferred": true,
+      "mode": "explicit-template",
+      "version": "1.0"
+    },
+    "provenance_index": {
+      "figure_to_scene": {},
+      "graph_to_scene": {},
+      "scene_to_source": {},
+      "semantic_to_scene": {}
+    },
+    "rotation_unit": "degrees",
+    "template_id": "nn-davinci-scene-transformer-1.0",
+    "template_provenance_only": true,
+    "viewport": [
+      1200.0,
+      800.0
+    ]
+  },
+  "migrations": [],
+  "name": "transformer editable 3D template",
+  "schema_version": "1.0",
+  "selection_ids": []
+}

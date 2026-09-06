@@ -1,0 +1,63 @@
+{
+  "checks": 16,
+  "cli_smoke": true,
+  "figure_templates": true,
+  "lock_check": "{\"lock\": \"/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/work/execution-source/requirements/verification-linux-x86_64-py313-0.2.3.lock\", \"matched\": true, \"packages\": 102}",
+  "lock_matches": true,
+  "passed": true,
+  "pip_check_passed": true,
+  "scene_templates": true,
+  "sdist": {
+    "bytes": 3400760,
+    "name": "nn_davinci-0.7.3.tar.gz",
+    "sha256": "1c6e6eb19a15b57a89b49920372ca866469389cfe52cdc14a712028c95be83b6"
+  },
+  "sdist_install": {
+    "cli_version": "NN_DaVinci 0.7.3",
+    "figure_templates": true,
+    "install_command": [
+      "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/work/package-install/venvs/sdist-venv/bin/python",
+      "-m",
+      "pip",
+      "install",
+      "--no-index",
+      "--no-build-isolation",
+      "--force-reinstall",
+      "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/distributions/nn_davinci-0.7.3.tar.gz"
+    ],
+    "passed": true,
+    "pip_check": "No broken requirements found.",
+    "scene_templates": true,
+    "svg_bytes": 36811,
+    "version": "0.7.3",
+    "web_assets": true
+  },
+  "sdist_installed_with_dependencies": true,
+  "web_assets": true,
+  "wheel": {
+    "bytes": 3334716,
+    "name": "nn_davinci-0.7.3-py3-none-any.whl",
+    "sha256": "97b553042e5b19441c937eb3fe1eb9354a49f4e3c4a993c01d88aca66c1be51e"
+  },
+  "wheel_install": {
+    "cli_version": "NN_DaVinci 0.7.3",
+    "figure_templates": true,
+    "install_command": [
+      "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/work/package-install/venvs/wheel-venv/bin/python",
+      "-m",
+      "pip",
+      "install",
+      "--no-index",
+      "--no-build-isolation",
+      "--force-reinstall",
+      "/tmp/nndv-073-full-20260902T085430Z-aa89ee8a-piF1PH/artifact-staging/distributions/nn_davinci-0.7.3-py3-none-any.whl"
+    ],
+    "passed": true,
+    "pip_check": "No broken requirements found.",
+    "scene_templates": true,
+    "svg_bytes": 36811,
+    "version": "0.7.3",
+    "web_assets": true
+  },
+  "wheel_installed_with_dependencies": true
+}

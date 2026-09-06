@@ -1,0 +1,1308 @@
+{
+  "created_at": "2026-08-29T00:00:00+00:00",
+  "environment": {
+    "nn_davinci": "0.6.1",
+    "template_version": "1.0"
+  },
+  "figure_ir": {
+    "design_tokens": {
+      "arrow.kind": "end",
+      "arrow.size.pt": 4.0,
+      "color.background": "#ffffff",
+      "color.foreground": "#0f172a",
+      "color.operator": "#f8fafc",
+      "color.tensor.front": "#dbeafe",
+      "color.tensor.side": "#93c5fd",
+      "color.tensor.top": "#bfdbfe",
+      "corner.radius.pt": 3.0,
+      "font.family": "DejaVu Sans, Arial, sans-serif",
+      "font.minimum.pt": 7.0,
+      "font.size.pt": 9.0,
+      "font.weight": 500,
+      "guide.baseline.color": "#e2e8f0",
+      "guide.column.color": "#cbd5e1",
+      "guide.margin.color": "#94a3b8",
+      "line.annotation.color": "#7c3aed",
+      "line.annotation.dash": "4 3",
+      "line.data.color": "#334155",
+      "line.width.pt": 0.8,
+      "opacity": 1.0
+    },
+    "metadata": {
+      "accuracy_claims": false,
+      "authoring_mode": "figure-studio",
+      "editable": true,
+      "offline": true,
+      "page_preset": "double-column",
+      "paper_claims": false,
+      "supported_modes": [
+        "schematic",
+        "tensor-geometry",
+        "mixed"
+      ],
+      "supported_page_presets": [
+        "single-column",
+        "double-column",
+        "178mm"
+      ],
+      "template": "cnn-feature-pipeline",
+      "template_version": "1.0"
+    },
+    "name": "CNN feature pipeline",
+    "pages": [
+      {
+        "baseline_grid_pt": 4.0,
+        "column_gap_mm": 4.0,
+        "columns": 1,
+        "height_mm": 118.0,
+        "id": "figure_page_cnn_feature_pipeline_42bcfe7b",
+        "margin_mm": 4.0,
+        "order": 0,
+        "panels": [
+          {
+            "constraints": [],
+            "geometry": {
+              "height": 53.0,
+              "width": 170.0,
+              "x": 4.0,
+              "y": 4.0
+            },
+            "id": "figure_panel_cnn_feature_pipeline_a_f0ab6b8b",
+            "label": "A",
+            "layers": [
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_cnn_feature_pipeline_a_f0ab6b_8d97850c",
+                "locked": false,
+                "name": "Model data",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 10.0,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_schematic_input_f4cd8f0d",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Input",
+                      "label_lane_width_mm": 38.0,
+                      "operator_family": "generic",
+                      "template": "cnn-feature-pipeline"
+                    },
+                    "name": "Input",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Input"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:Input",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 49.5,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_schematic_stem_cb4eeb73",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Stem",
+                      "label_lane_width_mm": 38.0,
+                      "operator_family": "convolution",
+                      "template": "cnn-feature-pipeline"
+                    },
+                    "name": "Stem",
+                    "order": 2,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Stem"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:Stem",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 89.0,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_schematic_feature_sta_3a145bcf",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Feature stage",
+                      "label_lane_width_mm": 38.0,
+                      "operator_family": "convolution",
+                      "template": "cnn-feature-pipeline"
+                    },
+                    "name": "Feature stage",
+                    "order": 4,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Feature stage"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:Feature stage",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 128.5,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_schematic_classifier_3f57e923",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Classifier",
+                      "label_lane_width_mm": 38.0,
+                      "operator_family": "generic",
+                      "template": "cnn-feature-pipeline"
+                    },
+                    "name": "Classifier",
+                    "order": 6,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Classifier"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:Classifier",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 24.0,
+                      "x2": 49.5,
+                      "y": 28.0,
+                      "y2": 28.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_schematic_edge_0_6d6b8f37",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        24.0,
+                        28.0
+                      ],
+                      [
+                        49.5,
+                        28.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_cnn_feature_pipeline_schematic_input_f4cd8f0d",
+                        "figure_object_cnn_feature_pipeline_schematic_stem_cb4eeb73"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10000,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-0"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:edge-0",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 63.5,
+                      "x2": 89.0,
+                      "y": 28.0,
+                      "y2": 28.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_schematic_edge_1_17a08047",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        63.5,
+                        28.0
+                      ],
+                      [
+                        89.0,
+                        28.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_cnn_feature_pipeline_schematic_stem_cb4eeb73",
+                        "figure_object_cnn_feature_pipeline_schematic_feature_sta_3a145bcf"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10001,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-1"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:edge-1",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 103.0,
+                      "x2": 128.5,
+                      "y": 28.0,
+                      "y2": 28.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_schematic_edge_2_86844164",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        103.0,
+                        28.0
+                      ],
+                      [
+                        128.5,
+                        28.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_cnn_feature_pipeline_schematic_feature_sta_3a145bcf",
+                        "figure_object_cnn_feature_pipeline_schematic_classifier_3f57e923"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10002,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-2"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:edge-2",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 0,
+                "role": "model-data",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_cnn_feature_pipeline_a_f0ab6b_684b9c54",
+                "locked": false,
+                "name": "Semantic annotation",
+                "objects": [],
+                "order": 1,
+                "role": "semantic-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_cnn_feature_pipeline_a_f0ab6b_9348aa34",
+                "locked": false,
+                "name": "Author annotation",
+                "objects": [],
+                "order": 2,
+                "role": "author-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_cnn_feature_pipeline_a_f0ab6b_48e21234",
+                "locked": false,
+                "name": "Legend / Caption",
+                "objects": [],
+                "order": 3,
+                "role": "legend-caption",
+                "visible": true
+              }
+            ],
+            "layout_mode": "grid",
+            "locked": false,
+            "mode": "schematic",
+            "order": 0,
+            "title": "Schematic"
+          },
+          {
+            "constraints": [],
+            "geometry": {
+              "height": 53.0,
+              "width": 170.0,
+              "x": 4.0,
+              "y": 61.0
+            },
+            "id": "figure_panel_cnn_feature_pipeline_b_379694e4",
+            "label": "B",
+            "layers": [
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_cnn_feature_pipeline_b_379694_91ceaa1e",
+                "locked": false,
+                "name": "Model data",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 10.0,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_tensor_input_6dd471be",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 38.0,
+                      "layout": "auto",
+                      "shape_label": "[B, 3, H, W]",
+                      "template": "cnn-feature-pipeline",
+                      "tensor_shape": [
+                        "B",
+                        3,
+                        "H",
+                        "W"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Input",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Input"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:Input",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 49.5,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_tensor_stem_d20ddb3b",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 38.0,
+                      "layout": "auto",
+                      "shape_label": "[B, 64, H/2, W/2]",
+                      "template": "cnn-feature-pipeline",
+                      "tensor_shape": [
+                        "B",
+                        64,
+                        "H/2",
+                        "W/2"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Stem",
+                    "order": 2,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Stem"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:Stem",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 89.0,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_tensor_feature_stage_7fc8ade2",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 38.0,
+                      "layout": "auto",
+                      "shape_label": "[B, C, H/s, W/s]",
+                      "template": "cnn-feature-pipeline",
+                      "tensor_shape": [
+                        "B",
+                        "C",
+                        "H/s",
+                        "W/s"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Feature stage",
+                    "order": 4,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Feature stage"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:Feature stage",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 128.5,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_tensor_classifier_901c26ed",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 38.0,
+                      "layout": "auto",
+                      "shape_label": "[B, K]",
+                      "template": "cnn-feature-pipeline",
+                      "tensor_shape": [
+                        "B",
+                        "K"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Classifier",
+                    "order": 6,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Classifier"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:Classifier",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 22.8,
+                      "x2": 52.3,
+                      "y": 75.0,
+                      "y2": 75.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_tensor_edge_0_4b28e4a3",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        22.8,
+                        75.0
+                      ],
+                      [
+                        52.3,
+                        75.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_cnn_feature_pipeline_tensor_input_6dd471be",
+                        "figure_object_cnn_feature_pipeline_tensor_stem_d20ddb3b"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10000,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-0"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:edge-0",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 62.3,
+                      "x2": 91.8,
+                      "y": 75.0,
+                      "y2": 75.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_tensor_edge_1_152be2e6",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        62.3,
+                        75.0
+                      ],
+                      [
+                        91.8,
+                        75.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_cnn_feature_pipeline_tensor_stem_d20ddb3b",
+                        "figure_object_cnn_feature_pipeline_tensor_feature_stage_7fc8ade2"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10001,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-1"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:edge-1",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 101.8,
+                      "x2": 131.3,
+                      "y": 75.0,
+                      "y2": 75.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_tensor_edge_2_0abf20d8",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        101.8,
+                        75.0
+                      ],
+                      [
+                        131.3,
+                        75.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_cnn_feature_pipeline_tensor_feature_stage_7fc8ade2",
+                        "figure_object_cnn_feature_pipeline_tensor_classifier_901c26ed"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10002,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-2"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:cnn-feature-pipeline:edge-2",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/cnn-feature-pipeline.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 0,
+                "role": "model-data",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_cnn_feature_pipeline_b_379694_1c291fc7",
+                "locked": false,
+                "name": "Semantic annotation",
+                "objects": [],
+                "order": 1,
+                "role": "semantic-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_cnn_feature_pipeline_b_379694_eedcf706",
+                "locked": false,
+                "name": "Author annotation",
+                "objects": [],
+                "order": 2,
+                "role": "author-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_cnn_feature_pipeline_b_379694_3642f5cf",
+                "locked": false,
+                "name": "Legend / Caption",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 7.0,
+                      "y": 112.0
+                    },
+                    "id": "figure_object_cnn_feature_pipeline_caption_50edeef7",
+                    "kind": "caption",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "text": "CNN feature pipeline: Editable feature-extraction stages with symbolic spatial dimensions."
+                    },
+                    "name": "CNN feature pipeline: Editable feature-extraction stages with symbolic spatial dimensions.",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": true,
+                      "evidence": {},
+                      "graph_ir_ids": [],
+                      "kind": "author_annotation",
+                      "reason": "Bundled editable caption describing only the template structure.",
+                      "source_id": "",
+                      "source_locator": {}
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 3,
+                "role": "legend-caption",
+                "visible": true
+              }
+            ],
+            "layout_mode": "grid",
+            "locked": false,
+            "mode": "tensor-geometry",
+            "order": 1,
+            "title": "Tensor geometry"
+          }
+        ],
+        "title": "CNN feature pipeline",
+        "width_mm": 178.0
+      }
+    ],
+    "schema_version": "1.0",
+    "theme": "neurips"
+  },
+  "graph": {
+    "analysis": {},
+    "annotations": [],
+    "constraints": [],
+    "edges": [
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "cnn-feature-pipeline"
+        },
+        "id": "edge_node_template_cnn_feature_pipeline_input_0_2912d9b2",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_cnn_feature_pipeline_input_0155ab57",
+        "source_port": null,
+        "target": "node_template_cnn_feature_pipeline_stem_ee981bc9",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Input tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            3,
+            "H",
+            "W"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "cnn-feature-pipeline"
+        },
+        "id": "edge_node_template_cnn_feature_pipeline_stem_ee_caa8bf6e",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_cnn_feature_pipeline_stem_ee981bc9",
+        "source_port": null,
+        "target": "node_template_cnn_feature_pipeline_feature_stag_39a7b332",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Stem tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            64,
+            "H/2",
+            "W/2"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "cnn-feature-pipeline"
+        },
+        "id": "edge_node_template_cnn_feature_pipeline_feature_53e8020f",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_cnn_feature_pipeline_feature_stag_39a7b332",
+        "source_port": null,
+        "target": "node_template_cnn_feature_pipeline_classifier_cf101cf7",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Feature stage tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "C",
+            "H/s",
+            "W/s"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      }
+    ],
+    "inputs": [],
+    "ir_version": "1.0",
+    "metadata": {
+      "accuracy_claims": false,
+      "model_instance": false,
+      "paper_claims": false,
+      "source_format": "nndv-bundled-figure-template",
+      "template": "cnn-feature-pipeline",
+      "template_version": "1.0"
+    },
+    "name": "CNN feature pipeline",
+    "nodes": [
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "generic",
+          "template_role": "Input"
+        },
+        "buffers": 0,
+        "category": "operation",
+        "id": "node_template_cnn_feature_pipeline_input_0155ab57",
+        "inputs": [],
+        "level": "operation",
+        "name": "Input",
+        "namespace": "",
+        "op_type": "generic",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_cnn_feature_pipeline_input_0_2d3eae7b",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Input tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                3,
+                "H",
+                "W"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/cnn-feature-pipeline/0",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Input",
+          "template": "cnn-feature-pipeline"
+        },
+        "tags": [
+          "template",
+          "generic"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "convolution",
+          "template_role": "Stem"
+        },
+        "buffers": 0,
+        "category": "convolution",
+        "id": "node_template_cnn_feature_pipeline_stem_ee981bc9",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_cnn_feature_pipeline_stem_ee_22a0b13f",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Stem tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                64,
+                "H/2",
+                "W/2"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Stem",
+        "namespace": "",
+        "op_type": "convolution",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_cnn_feature_pipeline_stem_ee_f35a67b9",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Stem tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                64,
+                "H/2",
+                "W/2"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/cnn-feature-pipeline/1",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Stem",
+          "template": "cnn-feature-pipeline"
+        },
+        "tags": [
+          "template",
+          "convolution"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "convolution",
+          "template_role": "Feature stage"
+        },
+        "buffers": 0,
+        "category": "convolution",
+        "id": "node_template_cnn_feature_pipeline_feature_stag_39a7b332",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_cnn_feature_pipeline_feature_10ad90f8",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Feature stage tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C",
+                "H/s",
+                "W/s"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Feature stage",
+        "namespace": "",
+        "op_type": "convolution",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_cnn_feature_pipeline_feature_b6fa3c44",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Feature stage tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C",
+                "H/s",
+                "W/s"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/cnn-feature-pipeline/2",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Feature stage",
+          "template": "cnn-feature-pipeline"
+        },
+        "tags": [
+          "template",
+          "convolution"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "generic",
+          "template_role": "Classifier"
+        },
+        "buffers": 0,
+        "category": "operation",
+        "id": "node_template_cnn_feature_pipeline_classifier_cf101cf7",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_cnn_feature_pipeline_classif_84e52bfd",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Classifier tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "K"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Classifier",
+        "namespace": "",
+        "op_type": "generic",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_cnn_feature_pipeline_classif_390bee3b",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Classifier tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "K"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/cnn-feature-pipeline/3",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Classifier",
+          "template": "cnn-feature-pipeline"
+        },
+        "tags": [
+          "template",
+          "generic"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      }
+    ],
+    "outputs": [],
+    "subgraphs": []
+  },
+  "model_source": {
+    "kind": "bundled-figure-template",
+    "model_instance": false,
+    "template": "cnn-feature-pipeline"
+  },
+  "name": "CNN feature pipeline",
+  "project_version": "1.3",
+  "theme": "neurips",
+  "updated_at": "2026-08-29T00:00:00+00:00"
+}

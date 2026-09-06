@@ -1,0 +1,45 @@
+{
+  "case_key": "image_text",
+  "case_kind": "real-model",
+  "evidence_provenance_digest": "05b44a215e02f7c8a32cbe8196798440c10cac660543e965f8c75dde788d3039",
+  "evidence_version": "1.0",
+  "expected_critical_route_count": 2,
+  "expected_role_count": 4,
+  "failures": [],
+  "family": "multimodal-fusion",
+  "figure_critical_route_count": 2,
+  "figure_role_count": 4,
+  "input_role_ids": [
+    "architecture_role_image_lane_0_node_fx_flatten_7_21ff2525_mo_1a8e824e",
+    "architecture_role_text_lane_1_node_fx_mean_12_0803e404_node__fee7d171"
+  ],
+  "landed_documents": {
+    "figure": {
+      "path": "figure.figure.json",
+      "sha256": "6dd62f9093ff312025c1055c07c56f6b1970ae6887d4995d64fe222108d7cc2e"
+    },
+    "graph": {
+      "path": "graph.graph.json",
+      "sha256": "022ca0a4adf02e935d3aaff6f2793312a7a0059937b9bf2b4a0144d3b1885295"
+    },
+    "scene": {
+      "path": "scene.scene.json",
+      "sha256": "5aa89c451e235a9f39e49bee75be0b12cd01ec9dd0e99e2a553c8fa79caaf99c"
+    },
+    "semantic": {
+      "path": "semantic.semantic.json",
+      "sha256": "389175820bebfc28f0e823280e35617f5039ca0bad375a0fdd70f6715e1dccc4"
+    }
+  },
+  "oracle_version": "1.0",
+  "output_role_ids": [
+    "architecture_role_output_head_3_module_modality_fusion_fusio_91aaadaa"
+  ],
+  "passed": true,
+  "release": "0.7.2 — Scientific Fidelity & Semantic Scene Hotfix",
+  "scene_critical_route_count": 2,
+  "scene_role_count": 4,
+  "schema_version": "nndv-architecture-parity-1",
+  "uncertain_claims": [],
+  "unknown_reason": null
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "preprocessor_version": "0.2.1-rnn3-moe-repeat-v1",
+  "fixtures": {
+    "resnet": {
+      "path": "examples/resnet.json",
+      "sha256": "e0a48b8d3a648732faff89e189d382c436e1a2d2c27cdbb08d2501cfce3e8cf0",
+      "source_node_ids": ["node_classes_c948d38f", "node_classifier_38017e71", "node_conv_1_c3a7d86a", "node_conv_2_e5f7e4cc", "node_global_pool_ef4be9fb", "node_image_ed5abbad", "node_norm___relu_e25c4f51", "node_residual_add_6314ee5d", "node_stem_conv_ec8ae17a", "node_stem_pool_c5f1d107"],
+      "source_edge_ids": ["edge_node_classifier_38017e71___node_classes_c9_6ba4cc23", "edge_node_conv_1_c3a7d86a___node_norm___relu_e2_c236979e", "edge_node_conv_2_e5f7e4cc___node_residual_add_6_4c85beeb", "edge_node_global_pool_ef4be9fb___node_classifie_2aa462a3", "edge_node_image_ed5abbad___node_stem_conv_ec8ae_ff01c1ce", "edge_node_norm___relu_e25c4f51___node_conv_2_e5_80561f4b", "edge_node_residual_add_6314ee5d___node_global_p_845319bc", "edge_node_stem_conv_ec8ae17a___node_stem_pool_c_b4537f5a", "edge_node_stem_pool_c5f1d107___node_conv_1_c3a7_5fbe6c5b", "edge_node_stem_pool_c5f1d107___node_residual_ad_82dfb7df"],
+      "processed_node_ids": ["node_classes_c948d38f", "node_classifier_38017e71", "node_conv_1_c3a7d86a", "node_conv_2_e5f7e4cc", "node_global_pool_ef4be9fb", "node_image_ed5abbad", "node_norm___relu_e25c4f51", "node_residual_add_6314ee5d", "node_stem_conv_ec8ae17a", "node_stem_pool_c5f1d107"],
+      "processed_edge_ids": ["edge_node_classifier_38017e71___node_classes_c9_6ba4cc23", "edge_node_conv_1_c3a7d86a___node_norm___relu_e2_c236979e", "edge_node_conv_2_e5f7e4cc___node_residual_add_6_4c85beeb", "edge_node_global_pool_ef4be9fb___node_classifie_2aa462a3", "edge_node_image_ed5abbad___node_stem_conv_ec8ae_ff01c1ce", "edge_node_norm___relu_e25c4f51___node_conv_2_e5_80561f4b", "edge_node_residual_add_6314ee5d___node_global_p_845319bc", "edge_node_stem_conv_ec8ae17a___node_stem_pool_c_b4537f5a", "edge_node_stem_pool_c5f1d107___node_conv_1_c3a7_5fbe6c5b", "edge_node_stem_pool_c5f1d107___node_residual_ad_82dfb7df"],
+      "critical_edge_ids": ["edge_node_conv_2_e5f7e4cc___node_residual_add_6_4c85beeb", "edge_node_stem_pool_c5f1d107___node_residual_ad_82dfb7df", "edge_node_residual_add_6314ee5d___node_global_p_845319bc"],
+      "provenance": {}
+    },
+    "transformer": {
+      "path": "examples/transformer.json",
+      "sha256": "bbf22af958c770054980b3ca893ea193afec1eb6fea0de50fb9ff74bdb8897e4",
+      "source_node_ids": ["node_attention_30217a4f", "node_features_fbe695a0", "node_k_8991623c", "node_layer_norm_1_2f7bfabd", "node_layer_norm_2_591421c3", "node_mlp_ec46266f", "node_projection_93a065ad", "node_q_9fe252bf", "node_residual_1_be5ee682", "node_residual_2_466dea80", "node_tokens_51b4b702", "node_v_2886414a"],
+      "source_edge_ids": ["edge_node_attention_30217a4f___node_projection__51292c6b", "edge_node_k_8991623c___node_attention_30217a4f__422745fe", "edge_node_layer_norm_1_2f7bfabd___node_k_899162_d979f204", "edge_node_layer_norm_1_2f7bfabd___node_q_9fe252_6db5c2e0", "edge_node_layer_norm_1_2f7bfabd___node_v_288641_4e4fa880", "edge_node_layer_norm_2_591421c3___node_mlp_ec46_26691cb1", "edge_node_mlp_ec46266f___node_residual_2_466dea_d03a4fc7", "edge_node_projection_93a065ad___node_residual_1_da00b859", "edge_node_q_9fe252bf___node_attention_30217a4f__92d971d6", "edge_node_residual_1_be5ee682___node_layer_norm_6072ce55", "edge_node_residual_1_be5ee682___node_residual_2_d48d9a3f", "edge_node_residual_2_466dea80___node_features_f_c3d09d93", "edge_node_tokens_51b4b702___node_layer_norm_1_2_d064968f", "edge_node_tokens_51b4b702___node_residual_1_be5_f8c129ef", "edge_node_v_2886414a___node_attention_30217a4f__690849cf"],
+      "processed_node_ids": ["node_attention_30217a4f", "node_features_fbe695a0", "node_k_8991623c", "node_layer_norm_1_2f7bfabd", "node_layer_norm_2_591421c3", "node_mlp_ec46266f", "node_projection_93a065ad", "node_q_9fe252bf", "node_residual_1_be5ee682", "node_residual_2_466dea80", "node_tokens_51b4b702", "node_v_2886414a"],
+      "processed_edge_ids": ["edge_node_attention_30217a4f___node_projection__51292c6b", "edge_node_k_8991623c___node_attention_30217a4f__422745fe", "edge_node_layer_norm_1_2f7bfabd___node_k_899162_d979f204", "edge_node_layer_norm_1_2f7bfabd___node_q_9fe252_6db5c2e0", "edge_node_layer_norm_1_2f7bfabd___node_v_288641_4e4fa880", "edge_node_layer_norm_2_591421c3___node_mlp_ec46_26691cb1", "edge_node_mlp_ec46266f___node_residual_2_466dea_d03a4fc7", "edge_node_projection_93a065ad___node_residual_1_da00b859", "edge_node_q_9fe252bf___node_attention_30217a4f__92d971d6", "edge_node_residual_1_be5ee682___node_layer_norm_6072ce55", "edge_node_residual_1_be5ee682___node_residual_2_d48d9a3f", "edge_node_residual_2_466dea80___node_features_f_c3d09d93", "edge_node_tokens_51b4b702___node_layer_norm_1_2_d064968f", "edge_node_tokens_51b4b702___node_residual_1_be5_f8c129ef", "edge_node_v_2886414a___node_attention_30217a4f__690849cf"],
+      "critical_edge_ids": ["edge_node_layer_norm_1_2f7bfabd___node_q_9fe252_6db5c2e0", "edge_node_layer_norm_1_2f7bfabd___node_k_899162_d979f204", "edge_node_layer_norm_1_2f7bfabd___node_v_288641_4e4fa880", "edge_node_q_9fe252bf___node_attention_30217a4f__92d971d6", "edge_node_k_8991623c___node_attention_30217a4f__422745fe", "edge_node_v_2886414a___node_attention_30217a4f__690849cf", "edge_node_attention_30217a4f___node_projection__51292c6b", "edge_node_projection_93a065ad___node_residual_1_da00b859", "edge_node_tokens_51b4b702___node_residual_1_be5_f8c129ef", "edge_node_residual_1_be5ee682___node_layer_norm_6072ce55", "edge_node_mlp_ec46266f___node_residual_2_466dea_d03a4fc7", "edge_node_residual_1_be5ee682___node_residual_2_d48d9a3f", "edge_node_residual_2_466dea80___node_features_f_c3d09d93"],
+      "provenance": {}
+    },
+    "unet": {
+      "path": "examples/unet.json",
+      "sha256": "970b9c3abc1b07313ed19bd65c3940e855def73d11ff5925160b75e580631156",
+      "source_node_ids": ["node_bottleneck_64b0903b", "node_decoder_1_up_23948b68", "node_decoder_2_up_bc928d62", "node_decoder_3_up_efefc85b", "node_encoder_1_6088ab48", "node_encoder_2_down_3421a388", "node_encoder_3_down_38435d34", "node_image_ed5abbad", "node_mask_92fcb4a8"],
+      "source_edge_ids": ["edge_node_bottleneck_64b0903b___node_decoder_3__35e63935", "edge_node_decoder_1_up_23948b68___node_mask_92f_ebc724da", "edge_node_decoder_2_up_bc928d62___node_decoder__a8db7f73", "edge_node_decoder_3_up_efefc85b___node_decoder__e7b0150b", "edge_node_encoder_1_6088ab48___node_decoder_1_u_8d820a81", "edge_node_encoder_1_6088ab48___node_encoder_2_d_b455e341", "edge_node_encoder_2_down_3421a388___node_decode_1b50c417", "edge_node_encoder_2_down_3421a388___node_encode_f0d88caa", "edge_node_encoder_3_down_38435d34___node_bottle_92c15fd0", "edge_node_encoder_3_down_38435d34___node_decode_c5dfc3f3", "edge_node_image_ed5abbad___node_encoder_1_6088a_ee177957"],
+      "processed_node_ids": ["node_bottleneck_64b0903b", "node_decoder_1_up_23948b68", "node_decoder_2_up_bc928d62", "node_decoder_3_up_efefc85b", "node_encoder_1_6088ab48", "node_encoder_2_down_3421a388", "node_encoder_3_down_38435d34", "node_image_ed5abbad", "node_mask_92fcb4a8"],
+      "processed_edge_ids": ["edge_node_bottleneck_64b0903b___node_decoder_3__35e63935", "edge_node_decoder_1_up_23948b68___node_mask_92f_ebc724da", "edge_node_decoder_2_up_bc928d62___node_decoder__a8db7f73", "edge_node_decoder_3_up_efefc85b___node_decoder__e7b0150b", "edge_node_encoder_1_6088ab48___node_decoder_1_u_8d820a81", "edge_node_encoder_1_6088ab48___node_encoder_2_d_b455e341", "edge_node_encoder_2_down_3421a388___node_decode_1b50c417", "edge_node_encoder_2_down_3421a388___node_encode_f0d88caa", "edge_node_encoder_3_down_38435d34___node_bottle_92c15fd0", "edge_node_encoder_3_down_38435d34___node_decode_c5dfc3f3", "edge_node_image_ed5abbad___node_encoder_1_6088a_ee177957"],
+      "critical_edge_ids": ["edge_node_encoder_3_down_38435d34___node_decode_c5dfc3f3", "edge_node_encoder_2_down_3421a388___node_decode_1b50c417", "edge_node_encoder_1_6088ab48___node_decoder_1_u_8d820a81"],
+      "provenance": {}
+    },
+    "rnn": {
+      "path": "examples/rnn.json",
+      "sha256": "3b287b1b1b4a1cc1ffcfb9e2020e13db0dfdf98b528234cfbc06376922a1e384",
+      "preprocess": {"unroll_steps": 3},
+      "source_node_ids": ["node_embedding_0c461d5e", "node_prediction_dbd843bc", "node_recurrent_memory_29ada902", "node_sequence_head_09d74c2a", "node_token_sequence_40c7af73"],
+      "source_edge_ids": ["edge_node_embedding_0c461d5e___node_recurrent_m_60458ed1", "edge_node_recurrent_memory_29ada902___node_sequ_f6404119", "edge_node_sequence_head_09d74c2a___node_predict_1a8df6b6", "edge_node_token_sequence_40c7af73___node_embedd_f10109db"],
+      "processed_node_ids": ["node_embedding_0c461d5e", "node_prediction_dbd843bc", "node_sequence_head_09d74c2a", "node_token_sequence_40c7af73", "node_unroll_node_recurrent_memory_29ada902_t0_57dd40ad", "node_unroll_node_recurrent_memory_29ada902_t1_93882a07", "node_unroll_node_recurrent_memory_29ada902_t2_28cc2b7e"],
+      "processed_edge_ids": ["edge_node_sequence_head_09d74c2a___node_predict_1a8df6b6", "edge_node_token_sequence_40c7af73___node_embedd_f10109db", "edge_node_unroll_node_recurrent_memory_29ada902_07123d7f", "edge_node_unroll_node_recurrent_memory_29ada902_477a105f", "edge_unroll_edge_node_embedding_0c461d5e___node_a1c82c5a", "edge_unroll_edge_node_recurrent_memory_29ada902_5acb64f4"],
+      "critical_edge_ids": ["edge_node_unroll_node_recurrent_memory_29ada902_07123d7f", "edge_node_unroll_node_recurrent_memory_29ada902_477a105f"],
+      "provenance": {
+        "source_node_id": "node_recurrent_memory_29ada902",
+        "unrolled_node_ids": ["node_unroll_node_recurrent_memory_29ada902_t0_57dd40ad", "node_unroll_node_recurrent_memory_29ada902_t1_93882a07", "node_unroll_node_recurrent_memory_29ada902_t2_28cc2b7e"],
+        "source_edge_mapping": {
+          "edge_unroll_edge_node_embedding_0c461d5e___node_a1c82c5a": ["edge_node_embedding_0c461d5e___node_recurrent_m_60458ed1"],
+          "edge_unroll_edge_node_recurrent_memory_29ada902_5acb64f4": ["edge_node_recurrent_memory_29ada902___node_sequ_f6404119"],
+          "edge_node_unroll_node_recurrent_memory_29ada902_07123d7f": ["node_recurrent_memory_29ada902"],
+          "edge_node_unroll_node_recurrent_memory_29ada902_477a105f": ["node_recurrent_memory_29ada902"]
+        }
+      }
+    },
+    "moe": {
+      "path": "examples/moe.json",
+      "sha256": "634075642c90e34baadb395b340d582764cf804cec2f3de7f0a32a190038661d",
+      "preprocess": {"aggregate_repeat_count": 4},
+      "source_node_ids": ["node_expert_1_fab717c8", "node_expert_2_c1eafc9e", "node_expert_3_731536f4", "node_expert_4_d2ff96b2", "node_features_fbe695a0", "node_router_79f5fb9a", "node_tokens_51b4b702", "node_weighted_merge_19b380e2"],
+      "source_edge_ids": ["edge_node_expert_1_fab717c8___node_weighted_mer_8d11a3b2", "edge_node_expert_2_c1eafc9e___node_weighted_mer_540d0e7f", "edge_node_expert_3_731536f4___node_weighted_mer_d44ba4f1", "edge_node_expert_4_d2ff96b2___node_weighted_mer_cb87fb58", "edge_node_router_79f5fb9a___node_expert_1_fab71_09215eab", "edge_node_router_79f5fb9a___node_expert_2_c1eaf_431e6cd0", "edge_node_router_79f5fb9a___node_expert_3_73153_8e69c085", "edge_node_router_79f5fb9a___node_expert_4_d2ff9_eb325472", "edge_node_tokens_51b4b702___node_router_79f5fb9_95b597ac", "edge_node_weighted_merge_19b380e2___node_featur_8b7cbd5d"],
+      "processed_node_ids": ["node_aggregate_parallel_node_expert_1_fab717c8__3f3e1cd5", "node_features_fbe695a0", "node_router_79f5fb9a", "node_tokens_51b4b702", "node_weighted_merge_19b380e2"],
+      "processed_edge_ids": ["edge_aggregate_edge_node_expert_1_fab717c8___no_e0b1d237", "edge_aggregate_edge_node_router_79f5fb9a___node_db98d63f", "edge_node_tokens_51b4b702___node_router_79f5fb9_95b597ac", "edge_node_weighted_merge_19b380e2___node_featur_8b7cbd5d"],
+      "critical_edge_ids": ["edge_node_tokens_51b4b702___node_router_79f5fb9_95b597ac", "edge_aggregate_edge_node_router_79f5fb9a___node_db98d63f", "edge_aggregate_edge_node_expert_1_fab717c8___no_e0b1d237", "edge_node_weighted_merge_19b380e2___node_featur_8b7cbd5d"],
+      "provenance": {
+        "proxy_id": "node_aggregate_parallel_node_expert_1_fab717c8__3f3e1cd5",
+        "repeat_count": 4,
+        "aggregated_node_ids": ["node_expert_1_fab717c8", "node_expert_2_c1eafc9e", "node_expert_3_731536f4", "node_expert_4_d2ff96b2"],
+        "source_edge_mapping": {
+          "edge_aggregate_edge_node_router_79f5fb9a___node_db98d63f": ["edge_node_router_79f5fb9a___node_expert_1_fab71_09215eab", "edge_node_router_79f5fb9a___node_expert_2_c1eaf_431e6cd0", "edge_node_router_79f5fb9a___node_expert_3_73153_8e69c085", "edge_node_router_79f5fb9a___node_expert_4_d2ff9_eb325472"],
+          "edge_aggregate_edge_node_expert_1_fab717c8___no_e0b1d237": ["edge_node_expert_1_fab717c8___node_weighted_mer_8d11a3b2", "edge_node_expert_2_c1eafc9e___node_weighted_mer_540d0e7f", "edge_node_expert_3_731536f4___node_weighted_mer_d44ba4f1", "edge_node_expert_4_d2ff96b2___node_weighted_mer_cb87fb58"]
+        }
+      }
+    },
+    "multimodal": {
+      "path": "examples/multimodal.json",
+      "sha256": "d38061f1c103f4ec654e1778661751e3985c69b8a1e25958addae4da1fc27b83",
+      "source_node_ids": ["node_audio_1040eaa7", "node_audio_encoder_a22b9160", "node_cross_modal_fusion_37abd678", "node_image_ed5abbad", "node_joint_prediction_7890c742", "node_text_c116b4ae", "node_text_encoder_e444ff88", "node_vision_encoder_b4182dcd"],
+      "source_edge_ids": ["edge_node_audio_1040eaa7___node_audio_encoder_a_4c822936", "edge_node_audio_encoder_a22b9160___node_cross_m_6527c56f", "edge_node_cross_modal_fusion_37abd678___node_jo_493ea9b0", "edge_node_image_ed5abbad___node_vision_encoder__5bf52e11", "edge_node_text_c116b4ae___node_text_encoder_e44_9a0d26d2", "edge_node_text_encoder_e444ff88___node_cross_mo_b5cf9fef", "edge_node_vision_encoder_b4182dcd___node_cross__2fe51636"],
+      "processed_node_ids": ["node_audio_1040eaa7", "node_audio_encoder_a22b9160", "node_cross_modal_fusion_37abd678", "node_image_ed5abbad", "node_joint_prediction_7890c742", "node_text_c116b4ae", "node_text_encoder_e444ff88", "node_vision_encoder_b4182dcd"],
+      "processed_edge_ids": ["edge_node_audio_1040eaa7___node_audio_encoder_a_4c822936", "edge_node_audio_encoder_a22b9160___node_cross_m_6527c56f", "edge_node_cross_modal_fusion_37abd678___node_jo_493ea9b0", "edge_node_image_ed5abbad___node_vision_encoder__5bf52e11", "edge_node_text_c116b4ae___node_text_encoder_e44_9a0d26d2", "edge_node_text_encoder_e444ff88___node_cross_mo_b5cf9fef", "edge_node_vision_encoder_b4182dcd___node_cross__2fe51636"],
+      "critical_edge_ids": ["edge_node_vision_encoder_b4182dcd___node_cross__2fe51636", "edge_node_text_encoder_e444ff88___node_cross_mo_b5cf9fef", "edge_node_audio_encoder_a22b9160___node_cross_m_6527c56f", "edge_node_cross_modal_fusion_37abd678___node_jo_493ea9b0"],
+      "provenance": {}
+    },
+    "diffusion": {
+      "path": "examples/diffusion.json",
+      "sha256": "c81c2babf0e77e6564b5887e846b2587bb2119c0a2745b9f32773213748dc2e7",
+      "source_node_ids": ["node_denoising_u_net_212901dd", "node_noise_a4f14688", "node_noise_scheduler_0da8956c", "node_prompt_condition_9ebe3ccb", "node_sampled_image_b6e2c365", "node_timestep_22d65508"],
+      "source_edge_ids": ["edge_node_denoising_u_net_212901dd___node_noise_0e964f58", "edge_node_noise_a4f14688___node_denoising_u_net_a91e0b44", "edge_node_noise_scheduler_0da8956c___node_denoi_4a7f875d", "edge_node_noise_scheduler_0da8956c___node_sampl_09ee7002", "edge_node_prompt_condition_9ebe3ccb___node_deno_ca5676b0", "edge_node_timestep_22d65508___node_denoising_u__20bb7fb5"],
+      "processed_node_ids": ["node_denoising_u_net_212901dd", "node_noise_a4f14688", "node_noise_scheduler_0da8956c", "node_prompt_condition_9ebe3ccb", "node_sampled_image_b6e2c365", "node_timestep_22d65508"],
+      "processed_edge_ids": ["edge_node_denoising_u_net_212901dd___node_noise_0e964f58", "edge_node_noise_a4f14688___node_denoising_u_net_a91e0b44", "edge_node_noise_scheduler_0da8956c___node_denoi_4a7f875d", "edge_node_noise_scheduler_0da8956c___node_sampl_09ee7002", "edge_node_prompt_condition_9ebe3ccb___node_deno_ca5676b0", "edge_node_timestep_22d65508___node_denoising_u__20bb7fb5"],
+      "critical_edge_ids": ["edge_node_noise_scheduler_0da8956c___node_denoi_4a7f875d"],
+      "provenance": {}
+    }
+  }
+}

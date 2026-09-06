@@ -1,0 +1,2564 @@
+{
+  "analysis_options": {},
+  "artifacts": [
+    {
+      "format": "svg",
+      "path": "scene.svg",
+      "role": "scene-export"
+    },
+    {
+      "format": "pdf",
+      "path": "scene.pdf",
+      "role": "scene-export"
+    },
+    {
+      "format": "tex",
+      "path": "scene.tex",
+      "role": "scene-export"
+    },
+    {
+      "format": "pptx",
+      "path": "scene.pptx",
+      "role": "scene-export"
+    },
+    {
+      "format": "png",
+      "path": "scene.png",
+      "role": "scene-export"
+    },
+    {
+      "format": "eps",
+      "path": "scene.eps",
+      "role": "scene-export"
+    },
+    {
+      "format": "html",
+      "path": "scene.html",
+      "role": "scene-export"
+    },
+    {
+      "format": "json",
+      "path": "scene.scene.json",
+      "role": "scene-export"
+    },
+    {
+      "format": "gltf",
+      "path": "scene.gltf",
+      "role": "scene-export"
+    },
+    {
+      "format": "glb",
+      "path": "scene.glb",
+      "role": "scene-export"
+    }
+  ],
+  "canvas_state": {
+    "analysis_metric": "",
+    "breadcrumbs": [],
+    "fixed_layout": false,
+    "focus": [],
+    "positions_by_view": {},
+    "routes_by_view": {},
+    "search": "",
+    "selection": [],
+    "view_box": null,
+    "viewports": {},
+    "zoom": 1.0
+  },
+  "collaboration": {},
+  "comments": [],
+  "created_at": "2026-09-01T00:00:00+00:00",
+  "dynamic_dimensions": {},
+  "environment": {
+    "artifact_corpus": "nndv-0.7.3-scene-artifact-corpus-1",
+    "figure_ir": null,
+    "fixed_seed_models": false,
+    "font": "Inter, Arial, sans-serif",
+    "graph_ir": "1.0",
+    "network_access": false,
+    "nn_davinci": "0.7.3",
+    "platform": "Linux-6.17.0-20-generic-x86_64-with-glibc2.39",
+    "python": "3.13.5",
+    "scene_ir": "1.0"
+  },
+  "export": {
+    "dpi": 300,
+    "formats": [
+      "svg",
+      "pdf",
+      "tikz",
+      "pptx",
+      "png",
+      "eps",
+      "html",
+      "json",
+      "gltf",
+      "glb"
+    ],
+    "offline": true,
+    "transparent": false,
+    "workspace": "scene"
+  },
+  "figure_composer": {},
+  "figure_ir": {},
+  "graph": {
+    "analysis": {},
+    "annotations": [],
+    "constraints": [],
+    "edges": [],
+    "inputs": [],
+    "ir_version": "1.0",
+    "metadata": {
+      "offline": true,
+      "source": "bundled-scene-template",
+      "template_id": "multimodal-fusion"
+    },
+    "name": "multimodal-fusion editable 3D template",
+    "nodes": [],
+    "outputs": [],
+    "subgraphs": []
+  },
+  "import_configurations": [],
+  "layout": {},
+  "model_source": {
+    "architecture": "multimodal-fusion",
+    "architecture_origin": "template",
+    "deterministic": true,
+    "key": "multimodal-fusion",
+    "kind": "template",
+    "offline": true,
+    "weights_downloaded": false
+  },
+  "name": "multimodal-fusion editable 3D template",
+  "paper_workflow": {
+    "applied": null,
+    "preset": "paper",
+    "suggestions": []
+  },
+  "plugin_requirements": [],
+  "presentation": {
+    "perspective_mode": false,
+    "teaching_animation": false
+  },
+  "project_version": "1.4",
+  "sample_inputs": [],
+  "scene_ir": {
+    "active_camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+    "cameras": [
+      {
+        "aspect": 1.5,
+        "far": 10000.0,
+        "fov_y_deg": 45.0,
+        "id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+        "locked": false,
+        "metadata": {},
+        "name": "multimodal-fusion editable 3D template isometric camera",
+        "near": 0.1,
+        "ortho_height": 18.0,
+        "position": [
+          12.0,
+          10.0,
+          14.0
+        ],
+        "projection": "orthographic",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    ],
+    "id": "scene_multimodal_fusion_editable_3d_template_19c62275",
+    "layers": [
+      {
+        "groups": [],
+        "id": "scene_layer_multimodal_fusion_editable_3d_template_lay_d85c292f",
+        "locked": false,
+        "metadata": {},
+        "name": "Model",
+        "objects": [
+          {
+            "geometry": {
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                17.0,
+                11.0,
+                8.0
+              ]
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_group_fra_4db1e141",
+            "kind": "group-frame",
+            "locked": false,
+            "material": {
+              "base_color": "#e2e8f0",
+              "face_colors": {
+                "front": "#e2e8f0",
+                "top": "#e2e8f0"
+              },
+              "metallic": 0.0,
+              "opacity": 0.025,
+              "roughness": 0.9,
+              "stroke_color": "#334155",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "group-frame",
+              "decorative": true,
+              "default_hidden_in_publication": true,
+              "editable": true,
+              "exclude_from_framing": true,
+              "frame_role": "template-boundary",
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Architecture group frame",
+            "order": -100,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995824722854548,
+                "ndc": [
+                  1.3158198810372225e-16,
+                  -9.868649107779169e-17,
+                  -0.995824722854548
+                ],
+                "point": [
+                  600.0000000000001,
+                  400.0
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:group-frame"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                8.5,
+                5.5,
+                4.0
+              ],
+              "bounds_min": [
+                -8.5,
+                -5.5,
+                -4.0
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                2.0,
+                1.6,
+                2.0
+              ]
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_audio_enc_6b7f3403",
+            "kind": "operation-block",
+            "locked": false,
+            "material": {
+              "base_color": "#a7f3d0",
+              "face_colors": {
+                "front": "#a7f3d0",
+                "top": "#a7f3d0"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#334155",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "audio-encoder",
+              "editable": true,
+              "modality": "audio",
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Audio stream encoder",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995824722854548,
+                "ndc": [
+                  -0.1406030745120918,
+                  0.3791976393296806,
+                  -0.995824722854548
+                ],
+                "point": [
+                  515.6381552927448,
+                  248.3209442681278
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:audio-encoder"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                -2.5,
+                3.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                -1.5,
+                3.8,
+                1.0
+              ],
+              "bounds_min": [
+                -3.5,
+                2.2,
+                -1.0
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  -2.5
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  3.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                -2.5,
+                3.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "points": [
+                [
+                  -1.5,
+                  3.0,
+                  0.0
+                ],
+                [
+                  0.4,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "radius": 0.07
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_audio_fus_ef549cd8",
+            "kind": "multimodal-stream",
+            "locked": false,
+            "material": {
+              "base_color": "#a7f3d0",
+              "face_colors": {
+                "front": "#a7f3d0",
+                "top": "#a7f3d0"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#a7f3d0",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "audio-fusion",
+              "editable": true,
+              "endpoint_object_ids": [
+                "scene_object_scene_template_multimodal_fusion_audio_enc_6b7f3403",
+                "scene_object_scene_template_multimodal_fusion_fusion_d51fd46a"
+              ],
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Modality enters fusion",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995824722854548,
+                "ndc": [
+                  1.3158198810372225e-16,
+                  -9.868649107779169e-17,
+                  -0.995824722854548
+                ],
+                "point": [
+                  600.0000000000001,
+                  400.0
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:audio-fusion"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                0.47000000000000003,
+                3.07,
+                0.07
+              ],
+              "bounds_min": [
+                -1.57,
+                -0.07,
+                -0.07
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                1.8,
+                1.4,
+                2.0
+              ]
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_audio_inp_0f4d897e",
+            "kind": "multimodal-stream",
+            "locked": false,
+            "material": {
+              "base_color": "#a7f3d0",
+              "face_colors": {
+                "front": "#a7f3d0",
+                "top": "#a7f3d0"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#334155",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "audio-input",
+              "editable": true,
+              "modality": "audio",
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Audio stream input",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995424264562482,
+                "ndc": [
+                  -0.33744737882902054,
+                  0.49985143366185175,
+                  -0.995424264562482
+                ],
+                "point": [
+                  397.53157270258765,
+                  200.05942653525926
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:audio-input"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                -6.0,
+                3.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                -5.1,
+                3.7,
+                1.0
+              ],
+              "bounds_min": [
+                -6.9,
+                2.3,
+                -1.0
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  -6.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  3.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                -6.0,
+                3.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "points": [
+                [
+                  -5.1,
+                  3.0,
+                  0.0
+                ],
+                [
+                  -3.5,
+                  3.0,
+                  0.0
+                ]
+              ],
+              "radius": 0.07
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_audio_str_edeef78c",
+            "kind": "multimodal-stream",
+            "locked": false,
+            "material": {
+              "base_color": "#a7f3d0",
+              "face_colors": {
+                "front": "#a7f3d0",
+                "top": "#a7f3d0"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#a7f3d0",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "audio-stream",
+              "editable": true,
+              "endpoint_object_ids": [
+                "scene_object_scene_template_multimodal_fusion_audio_inp_0f4d897e",
+                "scene_object_scene_template_multimodal_fusion_audio_enc_6b7f3403"
+              ],
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Audio stream remains independent",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995824722854548,
+                "ndc": [
+                  1.3158198810372225e-16,
+                  -9.868649107779169e-17,
+                  -0.995824722854548
+                ],
+                "point": [
+                  600.0000000000001,
+                  400.0
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:audio-stream"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                -3.43,
+                3.07,
+                0.07
+              ],
+              "bounds_min": [
+                -5.17,
+                2.93,
+                -0.07
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                2.2,
+                3.0,
+                2.5
+              ]
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_fusion_d51fd46a",
+            "kind": "fusion",
+            "locked": false,
+            "material": {
+              "base_color": "#c4b5fd",
+              "face_colors": {
+                "front": "#c4b5fd",
+                "top": "#c4b5fd"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#334155",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "fusion",
+              "editable": true,
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Fusion",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.9959963478368621,
+                "ndc": [
+                  0.08436184470725529,
+                  -0.051708768999502025,
+                  -0.9959963478368621
+                ],
+                "point": [
+                  650.6171068243532,
+                  420.6835075998008
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:fusion"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                1.5,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                2.6,
+                1.5,
+                1.25
+              ],
+              "bounds_min": [
+                0.3999999999999999,
+                -1.5,
+                -1.25
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.5
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                1.5,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                2.0,
+                1.8,
+                2.0
+              ]
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_head_8237e840",
+            "kind": "operation-block",
+            "locked": false,
+            "material": {
+              "base_color": "#fde68a",
+              "face_colors": {
+                "front": "#fde68a",
+                "top": "#fde68a"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#334155",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "head",
+              "editable": true,
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Prediction head",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.9963968061289281,
+                "ndc": [
+                  0.281206149024184,
+                  -0.17236256333167319,
+                  -0.9963968061289281
+                ],
+                "point": [
+                  768.7236894145103,
+                  468.9450253326693
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:head"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                5.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                6.0,
+                0.9,
+                1.0
+              ],
+              "bounds_min": [
+                4.0,
+                -0.9,
+                -1.0
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  5.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                5.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                2.0,
+                1.6,
+                2.0
+              ]
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_image_enc_41c61520",
+            "kind": "operation-block",
+            "locked": false,
+            "material": {
+              "base_color": "#93c5fd",
+              "face_colors": {
+                "front": "#93c5fd",
+                "top": "#93c5fd"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#334155",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "image-encoder",
+              "editable": true,
+              "modality": "image",
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Image stream encoder",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995252639580168,
+                "ndc": [
+                  -0.1406030745120918,
+                  -0.2068350759980077,
+                  -0.995252639580168
+                ],
+                "point": [
+                  515.6381552927448,
+                  482.7340303992031
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:image-encoder"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                -2.5,
+                -3.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                -1.5,
+                -2.2,
+                1.0
+              ],
+              "bounds_min": [
+                -3.5,
+                -3.8,
+                -1.0
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  -2.5
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  -3.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                -2.5,
+                -3.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "points": [
+                [
+                  -1.5,
+                  -3.0,
+                  0.0
+                ],
+                [
+                  0.4,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "radius": 0.07
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_image_fus_99fd0591",
+            "kind": "multimodal-stream",
+            "locked": false,
+            "material": {
+              "base_color": "#93c5fd",
+              "face_colors": {
+                "front": "#93c5fd",
+                "top": "#93c5fd"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#93c5fd",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "image-fusion",
+              "editable": true,
+              "endpoint_object_ids": [
+                "scene_object_scene_template_multimodal_fusion_image_enc_41c61520",
+                "scene_object_scene_template_multimodal_fusion_fusion_d51fd46a"
+              ],
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Modality enters fusion",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995824722854548,
+                "ndc": [
+                  1.3158198810372225e-16,
+                  -9.868649107779169e-17,
+                  -0.995824722854548
+                ],
+                "point": [
+                  600.0000000000001,
+                  400.0
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:image-fusion"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                0.47000000000000003,
+                0.07,
+                0.07
+              ],
+              "bounds_min": [
+                -1.57,
+                -3.07,
+                -0.07
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                1.8,
+                1.4,
+                2.0
+              ]
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_image_inp_9de72684",
+            "kind": "multimodal-stream",
+            "locked": false,
+            "material": {
+              "base_color": "#93c5fd",
+              "face_colors": {
+                "front": "#93c5fd",
+                "top": "#93c5fd"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#334155",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "image-input",
+              "editable": true,
+              "modality": "image",
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Image stream input",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.9948521812881018,
+                "ndc": [
+                  -0.33744737882902054,
+                  -0.08618128166583654,
+                  -0.9948521812881018
+                ],
+                "point": [
+                  397.53157270258765,
+                  434.4725126663346
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:image-input"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                -6.0,
+                -3.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                -5.1,
+                -2.3,
+                1.0
+              ],
+              "bounds_min": [
+                -6.9,
+                -3.7,
+                -1.0
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  -6.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  -3.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                -6.0,
+                -3.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "points": [
+                [
+                  -5.1,
+                  -3.0,
+                  0.0
+                ],
+                [
+                  -3.5,
+                  -3.0,
+                  0.0
+                ]
+              ],
+              "radius": 0.07
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_image_str_257f8548",
+            "kind": "multimodal-stream",
+            "locked": false,
+            "material": {
+              "base_color": "#93c5fd",
+              "face_colors": {
+                "front": "#93c5fd",
+                "top": "#93c5fd"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#93c5fd",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "image-stream",
+              "editable": true,
+              "endpoint_object_ids": [
+                "scene_object_scene_template_multimodal_fusion_image_inp_9de72684",
+                "scene_object_scene_template_multimodal_fusion_image_enc_41c61520"
+              ],
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Image stream remains independent",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995824722854548,
+                "ndc": [
+                  1.3158198810372225e-16,
+                  -9.868649107779169e-17,
+                  -0.995824722854548
+                ],
+                "point": [
+                  600.0000000000001,
+                  400.0
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:image-stream"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                -3.43,
+                -2.93,
+                0.07
+              ],
+              "bounds_min": [
+                -5.17,
+                -3.07,
+                -0.07
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "points": [
+                [
+                  2.6,
+                  0.0,
+                  0.0
+                ],
+                [
+                  4.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "radius": 0.07
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_output_a001ce9d",
+            "kind": "arrow",
+            "locked": false,
+            "material": {
+              "base_color": "#475569",
+              "face_colors": {
+                "front": "#475569",
+                "top": "#475569"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#475569",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "output",
+              "editable": true,
+              "endpoint_object_ids": [
+                "scene_object_scene_template_multimodal_fusion_fusion_d51fd46a",
+                "scene_object_scene_template_multimodal_fusion_head_8237e840"
+              ],
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Fused output",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995824722854548,
+                "ndc": [
+                  1.3158198810372225e-16,
+                  -9.868649107779169e-17,
+                  -0.995824722854548
+                ],
+                "point": [
+                  600.0000000000001,
+                  400.0
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:output"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                4.07,
+                0.07,
+                0.07
+              ],
+              "bounds_min": [
+                2.5300000000000002,
+                -0.07,
+                -0.07
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                2.0,
+                1.6,
+                2.0
+              ]
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_text_enco_350913f2",
+            "kind": "operation-block",
+            "locked": false,
+            "material": {
+              "base_color": "#f0abfc",
+              "face_colors": {
+                "front": "#f0abfc",
+                "top": "#f0abfc"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#334155",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "text-encoder",
+              "editable": true,
+              "modality": "text",
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Text stream encoder",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995538681217358,
+                "ndc": [
+                  -0.1406030745120918,
+                  0.08618128166583644,
+                  -0.995538681217358
+                ],
+                "point": [
+                  515.6381552927448,
+                  365.5274873336654
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:text-encoder"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                -2.5,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                -1.5,
+                0.8,
+                1.0
+              ],
+              "bounds_min": [
+                -3.5,
+                -0.8,
+                -1.0
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  -2.5
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                -2.5,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "points": [
+                [
+                  -1.5,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.4,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "radius": 0.07
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_text_fusi_789f5dc7",
+            "kind": "multimodal-stream",
+            "locked": false,
+            "material": {
+              "base_color": "#f0abfc",
+              "face_colors": {
+                "front": "#f0abfc",
+                "top": "#f0abfc"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#f0abfc",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "text-fusion",
+              "editable": true,
+              "endpoint_object_ids": [
+                "scene_object_scene_template_multimodal_fusion_text_enco_350913f2",
+                "scene_object_scene_template_multimodal_fusion_fusion_d51fd46a"
+              ],
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Modality enters fusion",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995824722854548,
+                "ndc": [
+                  1.3158198810372225e-16,
+                  -9.868649107779169e-17,
+                  -0.995824722854548
+                ],
+                "point": [
+                  600.0000000000001,
+                  400.0
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:text-fusion"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                0.47000000000000003,
+                0.07,
+                0.07
+              ],
+              "bounds_min": [
+                -1.57,
+                -0.07,
+                -0.07
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                1.8,
+                1.4,
+                2.0
+              ]
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_text_inpu_84c75db3",
+            "kind": "multimodal-stream",
+            "locked": false,
+            "material": {
+              "base_color": "#f0abfc",
+              "face_colors": {
+                "front": "#f0abfc",
+                "top": "#f0abfc"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#334155",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "text-input",
+              "editable": true,
+              "modality": "text",
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Text stream input",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995138222925292,
+                "ndc": [
+                  -0.33744737882902054,
+                  0.2068350759980076,
+                  -0.995138222925292
+                ],
+                "point": [
+                  397.53157270258765,
+                  317.265969600797
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:text-input"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                -6.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                -5.1,
+                0.7,
+                1.0
+              ],
+              "bounds_min": [
+                -6.9,
+                -0.7,
+                -1.0
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  -6.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                -6.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "points": [
+                [
+                  -5.1,
+                  0.0,
+                  0.0
+                ],
+                [
+                  -3.5,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "radius": 0.07
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_text_stre_a916a058",
+            "kind": "multimodal-stream",
+            "locked": false,
+            "material": {
+              "base_color": "#f0abfc",
+              "face_colors": {
+                "front": "#f0abfc",
+                "top": "#f0abfc"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#f0abfc",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "text-stream",
+              "editable": true,
+              "endpoint_object_ids": [
+                "scene_object_scene_template_multimodal_fusion_text_inpu_84c75db3",
+                "scene_object_scene_template_multimodal_fusion_text_enco_350913f2"
+              ],
+              "model_fact": false,
+              "template_only": true
+            },
+            "name": "Text stream remains independent",
+            "order": 0,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.995824722854548,
+                "ndc": [
+                  1.3158198810372225e-16,
+                  -9.868649107779169e-17,
+                  -0.995824722854548
+                ],
+                "point": [
+                  600.0000000000001,
+                  400.0
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:text-stream"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                -3.43,
+                0.07,
+                0.07
+              ],
+              "bounds_min": [
+                -5.17,
+                -0.07,
+                -0.07
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "geometry": {
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                10.0,
+                0.5,
+                0.2
+              ],
+              "text": "3D depth and thickness are editable visual mappings, not literal tensor dimensions."
+            },
+            "id": "scene_object_scene_template_multimodal_fusion_geometry__adf9590f",
+            "kind": "legend",
+            "locked": false,
+            "material": {
+              "base_color": "#f8fafc",
+              "face_colors": {
+                "front": "#f8fafc",
+                "top": "#f8fafc"
+              },
+              "metallic": 0.0,
+              "opacity": 1.0,
+              "roughness": 0.9,
+              "stroke_color": "#334155",
+              "stroke_width": 0.8,
+              "unlit": true
+            },
+            "metadata": {
+              "architecture_family": "multimodal-fusion",
+              "architecture_role": "legend",
+              "caption": true,
+              "editable": true,
+              "exclude_from_framing": true,
+              "model_fact": false,
+              "template_only": true,
+              "visual_geometry_is_literal_tensor_size": false
+            },
+            "name": "Geometry mapping legend",
+            "order": 1000000,
+            "parent_group_id": null,
+            "projections": [
+              {
+                "camera_id": "scene_camera_multimodal_fusion_editable_3d_template_cam_7d754d47",
+                "depth": -0.9953479867925646,
+                "ndc": [
+                  1.3158198810372225e-16,
+                  -0.48836059610640703,
+                  -0.9953479867925646
+                ],
+                "point": [
+                  600.0000000000001,
+                  595.3442384425628
+                ],
+                "viewport": [
+                  1200.0,
+                  800.0
+                ],
+                "visible": true
+              }
+            ],
+            "provenance": {
+              "author_annotation": false,
+              "evidence": {},
+              "figure_ir_ids": [],
+              "graph_ir_ids": [],
+              "kind": "template",
+              "reason": "Explicit editable Scene template; not model evidence.",
+              "semantic_view_ids": [],
+              "source_id": "scene-template:multimodal-fusion:geometry-legend"
+            },
+            "selected": false,
+            "transform": {
+              "position": [
+                0.0,
+                -5.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "visible": true,
+            "world": {
+              "bounds_max": [
+                5.0,
+                -4.75,
+                0.1
+              ],
+              "bounds_min": [
+                -5.0,
+                -5.25,
+                -0.1
+              ],
+              "matrix": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  -5.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "position": [
+                0.0,
+                -5.0,
+                0.0
+              ]
+            }
+          }
+        ],
+        "order": 0,
+        "visible": true
+      }
+    ],
+    "lights": [
+      {
+        "color": "#ffffff",
+        "direction": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "id": "scene_light_multimodal_fusion_editable_3d_template_lig_efef4431",
+        "intensity": 1.0,
+        "kind": "directional",
+        "locked": false,
+        "metadata": {},
+        "name": "Key light",
+        "position": [
+          8.0,
+          10.0,
+          12.0
+        ],
+        "visible": true
+      }
+    ],
+    "metadata": {
+      "architecture_family": "multimodal-fusion",
+      "authoring_mode": "scene-studio",
+      "contains_model_evidence": false,
+      "coordinate_system": "right-handed-y-up",
+      "evidenced_architecture_family": "template",
+      "matrix_convention": "row-major-column-vector",
+      "model_scene_pipeline": {
+        "architecture_was_not_inferred": true,
+        "mode": "explicit-template",
+        "version": "1.0"
+      },
+      "provenance_index": {
+        "figure_to_scene": {},
+        "graph_to_scene": {},
+        "scene_to_source": {},
+        "semantic_to_scene": {}
+      },
+      "rotation_unit": "degrees",
+      "template_id": "nn-davinci-scene-multimodal-fusion-1.0",
+      "template_provenance_only": true,
+      "viewport": [
+        1200.0,
+        800.0
+      ]
+    },
+    "migrations": [],
+    "name": "multimodal-fusion editable 3D template",
+    "schema_version": "1.0",
+    "selection_ids": []
+  },
+  "semantic_view": {
+    "level": "template",
+    "version": "1.0",
+    "view": "paper"
+  },
+  "task_history": [],
+  "theme": "neurips",
+  "theme_overrides": {},
+  "updated_at": "2026-09-01T00:00:00+00:00"
+}

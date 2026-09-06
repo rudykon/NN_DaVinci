@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.4.2-semantic-golden-1",
+  "example": "vision_transformer_attention",
+  "panel": "detail",
+  "required_roles": [
+    "block_input",
+    "attention_norm",
+    "attention",
+    "attention_output",
+    "attention_residual_merge",
+    "ffn_norm",
+    "ffn_expand",
+    "ffn_activation",
+    "ffn_contract",
+    "ffn_residual_merge"
+  ],
+  "required_edges": [
+    ["block_input", "attention_norm", "data"],
+    ["attention_norm", "attention", "data"],
+    ["attention", "attention_output", "data"],
+    ["block_input", "attention_residual_merge", "data"],
+    ["attention_output", "attention_residual_merge", "data"],
+    ["attention_residual_merge", "ffn_norm", "data"],
+    ["ffn_norm", "ffn_expand", "data"],
+    ["ffn_expand", "ffn_activation", "data"],
+    ["ffn_activation", "ffn_contract", "data"],
+    ["attention_residual_merge", "ffn_residual_merge", "data"],
+    ["ffn_contract", "ffn_residual_merge", "data"]
+  ],
+  "merge_indegree": {
+    "attention_residual_merge": 2,
+    "ffn_residual_merge": 2
+  },
+  "repetition": {
+    "selected_structural_repeat_count": 3
+  },
+  "caption": {
+    "input_names": ["image"],
+    "output_names": ["output_0"],
+    "forbidden_input_names": ["output_0"]
+  }
+}

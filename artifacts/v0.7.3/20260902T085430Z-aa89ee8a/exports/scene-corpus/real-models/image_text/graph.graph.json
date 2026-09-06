@@ -1,0 +1,2893 @@
+{
+  "analysis": {},
+  "annotations": [],
+  "constraints": [],
+  "edges": [
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_image_0_a96ed448",
+          "source_port": "node_fx_image_0_a96ed448:output:0",
+          "target_node": "node_fx_image_encoder_0_2_72af1587",
+          "target_port": "node_fx_image_encoder_0_2_72af1587:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_image_0_a96ed448_node_fx_image_0_a_488b6a93"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_image_0_a96ed448_node_fx_imag_8513daad",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_image_0_a96ed448",
+      "source_port": "node_fx_image_0_a96ed448:output:0",
+      "target": "module_image_encoder_0_2cd10d09",
+      "target_port": "module_image_encoder_0_2cd10d09:input:binding_node_fx_image_encoder_0_2_72af1587_node_fx_33aa858c",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "image",
+        "semantic": null,
+        "shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_image_encoder_0_2_72af1587",
+          "source_port": "node_fx_image_encoder_0_2_72af1587:output:0",
+          "target_node": "node_fx_image_encoder_1_3_84eb38f6",
+          "target_port": "node_fx_image_encoder_1_3_84eb38f6:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_image_encoder_0_2_72af1587_node_fx_a607e072"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_image_encoder_0_2_72af1587_no_137dc41e",
+      "kind": "data",
+      "label": "",
+      "source": "module_image_encoder_0_2cd10d09",
+      "source_port": "module_image_encoder_0_2cd10d09:output:binding_node_fx_image_encoder_0_2_72af1587_node_fx_015df1e1",
+      "target": "module_image_encoder_1_3c30566b",
+      "target_port": "module_image_encoder_1_3c30566b:input:binding_node_fx_image_encoder_1_3_84eb38f6_node_fx_367dd88f",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_image_encoder_1_3_84eb38f6",
+          "source_port": "node_fx_image_encoder_1_3_84eb38f6:output:0",
+          "target_node": "node_fx_image_encoder_2_4_2fcf1765",
+          "target_port": "node_fx_image_encoder_2_4_2fcf1765:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_image_encoder_1_3_84eb38f6_node_fx_18466ebe"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_image_encoder_1_3_84eb38f6_no_917bc5c4",
+      "kind": "data",
+      "label": "",
+      "source": "module_image_encoder_1_3c30566b",
+      "source_port": "module_image_encoder_1_3c30566b:output:binding_node_fx_image_encoder_1_3_84eb38f6_node_fx_d6d417c7",
+      "target": "module_image_encoder_2_f178f781",
+      "target_port": "module_image_encoder_2_f178f781:input:binding_node_fx_image_encoder_2_4_2fcf1765_node_fx_ba3c5ee3",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          32,
+          32,
+          32
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_image_encoder_2_4_2fcf1765",
+          "source_port": "node_fx_image_encoder_2_4_2fcf1765:output:0",
+          "target_node": "node_fx_image_encoder_3_5_b5915fef",
+          "target_port": "node_fx_image_encoder_3_5_b5915fef:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_image_encoder_2_4_2fcf1765_node_fx_25439984"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_image_encoder_2_4_2fcf1765_no_c401fd24",
+      "kind": "data",
+      "label": "",
+      "source": "module_image_encoder_2_f178f781",
+      "source_port": "module_image_encoder_2_f178f781:output:binding_node_fx_image_encoder_2_4_2fcf1765_node_fx_d2db8d58",
+      "target": "module_image_encoder_3_8aeb31b1",
+      "target_port": "module_image_encoder_3_8aeb31b1:input:binding_node_fx_image_encoder_3_5_b5915fef_node_fx_a24805e9",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64,
+          16,
+          16
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_image_encoder_3_5_b5915fef",
+          "source_port": "node_fx_image_encoder_3_5_b5915fef:output:0",
+          "target_node": "node_fx_image_encoder_4_6_eeae9277",
+          "target_port": "node_fx_image_encoder_4_6_eeae9277:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_image_encoder_3_5_b5915fef_node_fx_e6234a5f"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_image_encoder_3_5_b5915fef_no_6ee7972b",
+      "kind": "data",
+      "label": "",
+      "source": "module_image_encoder_3_8aeb31b1",
+      "source_port": "module_image_encoder_3_8aeb31b1:output:binding_node_fx_image_encoder_3_5_b5915fef_node_fx_47bdf230",
+      "target": "module_image_encoder_4_b28556d3",
+      "target_port": "module_image_encoder_4_b28556d3:input:binding_node_fx_image_encoder_4_6_eeae9277_node_fx_aebf5379",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64,
+          16,
+          16
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_image_encoder_4_6_eeae9277",
+          "source_port": "node_fx_image_encoder_4_6_eeae9277:output:0",
+          "target_node": "node_fx_flatten_7_21ff2525",
+          "target_port": "node_fx_flatten_7_21ff2525:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_image_encoder_4_6_eeae9277_node_fx_feda2c94"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_image_encoder_4_6_eeae9277_no_fef0168c",
+      "kind": "data",
+      "label": "",
+      "source": "module_image_encoder_4_b28556d3",
+      "source_port": "module_image_encoder_4_b28556d3:output:binding_node_fx_image_encoder_4_6_eeae9277_node_fx_99701ff2",
+      "target": "node_fx_flatten_7_21ff2525",
+      "target_port": "node_fx_flatten_7_21ff2525:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64,
+          1,
+          1
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_token_ids_1_52a77bc9",
+          "source_port": "node_fx_token_ids_1_52a77bc9:output:0",
+          "target_node": "node_fx_text_encoder_embedding_8_e406988d",
+          "target_port": "node_fx_text_encoder_embedding_8_e406988d:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_token_ids_1_52a77bc9_node_fx_token_04f6f84f"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_token_ids_1_52a77bc9_node_fx__fa6fb051",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_token_ids_1_52a77bc9",
+      "source_port": "node_fx_token_ids_1_52a77bc9:output:0",
+      "target": "module_text_encoder_embedding_0a4b3959",
+      "target_port": "module_text_encoder_embedding_0a4b3959:input:binding_node_fx_text_encoder_embedding_8_e406988d__c9439151",
+      "tensor": {
+        "dtype": "int64",
+        "dynamic_axes": {},
+        "name": "token_ids",
+        "semantic": null,
+        "shape": [
+          1,
+          12
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_text_encoder_embedding_8_e406988d",
+          "source_port": "node_fx_text_encoder_embedding_8_e406988d:output:0",
+          "target_node": "node_fx_text_encoder_attention_9_4fe36b36",
+          "target_port": "node_fx_text_encoder_attention_9_4fe36b36:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_text_encoder_embedding_8_e406988d__229daf42"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_text_encoder_embedding_8_e406_e6bc5084",
+      "kind": "data",
+      "label": "",
+      "source": "module_text_encoder_embedding_0a4b3959",
+      "source_port": "module_text_encoder_embedding_0a4b3959:output:binding_node_fx_text_encoder_embedding_8_e406988d__4c6ba381",
+      "target": "module_text_encoder_attention_26daf7d7",
+      "target_port": "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__a64f7f30",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          12,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_text_encoder_embedding_8_e406988d",
+          "source_port": "node_fx_text_encoder_embedding_8_e406988d:output:0",
+          "target_node": "node_fx_text_encoder_attention_9_4fe36b36",
+          "target_port": "node_fx_text_encoder_attention_9_4fe36b36:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_text_encoder_embedding_8_e406988d__7b18a96c"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_text_encoder_embedding_8_e406_897e27d0",
+      "kind": "data",
+      "label": "",
+      "source": "module_text_encoder_embedding_0a4b3959",
+      "source_port": "module_text_encoder_embedding_0a4b3959:output:binding_node_fx_text_encoder_embedding_8_e406988d__4c6ba381",
+      "target": "module_text_encoder_attention_26daf7d7",
+      "target_port": "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__58a403f3",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          12,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_text_encoder_embedding_8_e406988d",
+          "source_port": "node_fx_text_encoder_embedding_8_e406988d:output:0",
+          "target_node": "node_fx_text_encoder_attention_9_4fe36b36",
+          "target_port": "node_fx_text_encoder_attention_9_4fe36b36:input:2"
+        },
+        "source_edges": [
+          "edge_node_fx_text_encoder_embedding_8_e406988d__e33d7a4e"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_text_encoder_embedding_8_e406_2a6924c4",
+      "kind": "data",
+      "label": "",
+      "source": "module_text_encoder_embedding_0a4b3959",
+      "source_port": "module_text_encoder_embedding_0a4b3959:output:binding_node_fx_text_encoder_embedding_8_e406988d__4c6ba381",
+      "target": "module_text_encoder_attention_26daf7d7",
+      "target_port": "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__15fd5546",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          12,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_text_encoder_attention_9_4fe36b36",
+          "source_port": "node_fx_text_encoder_attention_9_4fe36b36:output:0",
+          "target_node": "node_fx_getitem_10_957ae78a",
+          "target_port": "node_fx_getitem_10_957ae78a:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_text_encoder_attention_9_4fe36b36__aea78401"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_text_encoder_attention_9_4fe3_bbdf1689",
+      "kind": "data",
+      "label": "",
+      "source": "module_text_encoder_attention_26daf7d7",
+      "source_port": "module_text_encoder_attention_26daf7d7:output:binding_node_fx_text_encoder_attention_9_4fe36b36__00cd5c42",
+      "target": "node_fx_getitem_10_957ae78a",
+      "target_port": "node_fx_getitem_10_957ae78a:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          12,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_text_encoder_attention_9_4fe36b36",
+          "source_port": "node_fx_text_encoder_attention_9_4fe36b36:output:0",
+          "target_node": "node_fx_getitem_1_11_cb816ebb",
+          "target_port": "node_fx_getitem_1_11_cb816ebb:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_text_encoder_attention_9_4fe36b36__2674497c"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_text_encoder_attention_9_4fe3_5c44669c",
+      "kind": "data",
+      "label": "",
+      "source": "module_text_encoder_attention_26daf7d7",
+      "source_port": "module_text_encoder_attention_26daf7d7:output:binding_node_fx_text_encoder_attention_9_4fe36b36__00cd5c42",
+      "target": "node_fx_getitem_1_11_cb816ebb",
+      "target_port": "node_fx_getitem_1_11_cb816ebb:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          12,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_getitem_10_957ae78a",
+          "source_port": "node_fx_getitem_10_957ae78a:output:0",
+          "target_node": "node_fx_mean_12_0803e404",
+          "target_port": "node_fx_mean_12_0803e404:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_getitem_10_957ae78a_node_fx_getite_74b75c9e"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_a3130f35",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_getitem_10_957ae78a",
+      "source_port": "node_fx_getitem_10_957ae78a:output:0",
+      "target": "node_fx_mean_12_0803e404",
+      "target_port": "node_fx_mean_12_0803e404:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          12,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_flatten_7_21ff2525",
+          "source_port": "node_fx_flatten_7_21ff2525:output:0",
+          "target_node": "node_fx_modality_fusion_image_projection_13_75f0c1d8",
+          "target_port": "node_fx_modality_fusion_image_projection_13_75f0c1d8:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_flatten_7_21ff2525_node_fx_flatten_09656eca"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_flatten_7_21ff2525_node_fx_fl_34fbc9f5",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_flatten_7_21ff2525",
+      "source_port": "node_fx_flatten_7_21ff2525:output:0",
+      "target": "module_modality_fusion_image_projection_ea4e2681",
+      "target_port": "module_modality_fusion_image_projection_ea4e2681:input:binding_node_fx_modality_fusion_image_projection_1_1355029d",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_mean_12_0803e404",
+          "source_port": "node_fx_mean_12_0803e404:output:0",
+          "target_node": "node_fx_modality_fusion_text_projection_14_ae4f6e36",
+          "target_port": "node_fx_modality_fusion_text_projection_14_ae4f6e36:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_mean_12_0803e404_node_fx_mean_12_0_381fae10"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_mean_12_0803e404_node_fx_mean_c79fe203",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_mean_12_0803e404",
+      "source_port": "node_fx_mean_12_0803e404:output:0",
+      "target": "module_modality_fusion_text_projection_17dedab8",
+      "target_port": "module_modality_fusion_text_projection_17dedab8:input:binding_node_fx_modality_fusion_text_projection_14_200de6ef",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_modality_fusion_image_projection_13_75f0c1d8",
+          "source_port": "node_fx_modality_fusion_image_projection_13_75f0c1d8:output:0",
+          "target_node": "node_fx_cat_15_cd86490b",
+          "target_port": "node_fx_cat_15_cd86490b:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_modality_fusion_image_projection_1_bfb8b990"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_modality_fusion_image_project_5cfd9206",
+      "kind": "data",
+      "label": "",
+      "source": "module_modality_fusion_image_projection_ea4e2681",
+      "source_port": "module_modality_fusion_image_projection_ea4e2681:output:binding_node_fx_modality_fusion_image_projection_1_9ed70d7b",
+      "target": "node_fx_cat_15_cd86490b",
+      "target_port": "node_fx_cat_15_cd86490b:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_modality_fusion_text_projection_14_ae4f6e36",
+          "source_port": "node_fx_modality_fusion_text_projection_14_ae4f6e36:output:0",
+          "target_node": "node_fx_cat_15_cd86490b",
+          "target_port": "node_fx_cat_15_cd86490b:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_modality_fusion_text_projection_14_06edb820"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_modality_fusion_text_projecti_79f82aee",
+      "kind": "data",
+      "label": "",
+      "source": "module_modality_fusion_text_projection_17dedab8",
+      "source_port": "module_modality_fusion_text_projection_17dedab8:output:binding_node_fx_modality_fusion_text_projection_14_ef59d9f0",
+      "target": "node_fx_cat_15_cd86490b",
+      "target_port": "node_fx_cat_15_cd86490b:input:1",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_cat_15_cd86490b",
+          "source_port": "node_fx_cat_15_cd86490b:output:0",
+          "target_node": "node_fx_modality_fusion_fusion_gate_16_34f964bd",
+          "target_port": "node_fx_modality_fusion_fusion_gate_16_34f964bd:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_cat_15_cd86490b_node_fx_cat_15_cd8_afd6901f"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_cat_15_cd86490b_node_fx_cat_1_149e307a",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_cat_15_cd86490b",
+      "source_port": "node_fx_cat_15_cd86490b:output:0",
+      "target": "module_modality_fusion_fusion_gate_1d9185fb",
+      "target_port": "module_modality_fusion_fusion_gate_1d9185fb:input:binding_node_fx_modality_fusion_fusion_gate_16_34f_f0b82805",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          128
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_modality_fusion_fusion_gate_16_34f964bd",
+          "source_port": "node_fx_modality_fusion_fusion_gate_16_34f964bd:output:0",
+          "target_node": "node_fx_sigmoid_17_82331589",
+          "target_port": "node_fx_sigmoid_17_82331589:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_modality_fusion_fusion_gate_16_34f_d62e9b54"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_modality_fusion_fusion_gate_1_f7534a6f",
+      "kind": "data",
+      "label": "",
+      "source": "module_modality_fusion_fusion_gate_1d9185fb",
+      "source_port": "module_modality_fusion_fusion_gate_1d9185fb:output:binding_node_fx_modality_fusion_fusion_gate_16_34f_577e6547",
+      "target": "node_fx_sigmoid_17_82331589",
+      "target_port": "node_fx_sigmoid_17_82331589:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_sigmoid_17_82331589",
+          "source_port": "node_fx_sigmoid_17_82331589:output:0",
+          "target_node": "node_fx_mul_18_d9198197",
+          "target_port": "node_fx_mul_18_d9198197:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_sigmoid_17_82331589_node_fx_sigmoi_5b529ec0"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_sigmoid_17_82331589_node_fx_s_ccc6a709",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_sigmoid_17_82331589",
+      "source_port": "node_fx_sigmoid_17_82331589:output:0",
+      "target": "node_fx_mul_18_d9198197",
+      "target_port": "node_fx_mul_18_d9198197:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_modality_fusion_image_projection_13_75f0c1d8",
+          "source_port": "node_fx_modality_fusion_image_projection_13_75f0c1d8:output:0",
+          "target_node": "node_fx_mul_18_d9198197",
+          "target_port": "node_fx_mul_18_d9198197:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_modality_fusion_image_projection_1_0428f029"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_modality_fusion_image_project_fcffa83d",
+      "kind": "data",
+      "label": "",
+      "source": "module_modality_fusion_image_projection_ea4e2681",
+      "source_port": "module_modality_fusion_image_projection_ea4e2681:output:binding_node_fx_modality_fusion_image_projection_1_9ed70d7b",
+      "target": "node_fx_mul_18_d9198197",
+      "target_port": "node_fx_mul_18_d9198197:input:1",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_sigmoid_17_82331589",
+          "source_port": "node_fx_sigmoid_17_82331589:output:0",
+          "target_node": "node_fx_sub_19_9f3908ea",
+          "target_port": "node_fx_sub_19_9f3908ea:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_sigmoid_17_82331589_node_fx_sigmoi_e4a47597"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_sigmoid_17_82331589_node_fx_s_9764f9ea",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_sigmoid_17_82331589",
+      "source_port": "node_fx_sigmoid_17_82331589:output:0",
+      "target": "node_fx_sub_19_9f3908ea",
+      "target_port": "node_fx_sub_19_9f3908ea:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_sub_19_9f3908ea",
+          "source_port": "node_fx_sub_19_9f3908ea:output:0",
+          "target_node": "node_fx_mul_1_20_219dc988",
+          "target_port": "node_fx_mul_1_20_219dc988:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_sub_19_9f3908ea_node_fx_sub_19_9f3_098edb9d"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_sub_19_9f3908ea_node_fx_sub_1_28619f34",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_sub_19_9f3908ea",
+      "source_port": "node_fx_sub_19_9f3908ea:output:0",
+      "target": "node_fx_mul_1_20_219dc988",
+      "target_port": "node_fx_mul_1_20_219dc988:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_modality_fusion_text_projection_14_ae4f6e36",
+          "source_port": "node_fx_modality_fusion_text_projection_14_ae4f6e36:output:0",
+          "target_node": "node_fx_mul_1_20_219dc988",
+          "target_port": "node_fx_mul_1_20_219dc988:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_modality_fusion_text_projection_14_c40479ab"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_modality_fusion_text_projecti_2d58db3e",
+      "kind": "data",
+      "label": "",
+      "source": "module_modality_fusion_text_projection_17dedab8",
+      "source_port": "module_modality_fusion_text_projection_17dedab8:output:binding_node_fx_modality_fusion_text_projection_14_ef59d9f0",
+      "target": "node_fx_mul_1_20_219dc988",
+      "target_port": "node_fx_mul_1_20_219dc988:input:1",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_mul_18_d9198197",
+          "source_port": "node_fx_mul_18_d9198197:output:0",
+          "target_node": "node_fx_add_21_ef0f694d",
+          "target_port": "node_fx_add_21_ef0f694d:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_mul_18_d9198197_node_fx_mul_18_d91_32344d7d"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_mul_18_d9198197_node_fx_mul_1_29790c86",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_mul_18_d9198197",
+      "source_port": "node_fx_mul_18_d9198197:output:0",
+      "target": "node_fx_add_21_ef0f694d",
+      "target_port": "node_fx_add_21_ef0f694d:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_mul_1_20_219dc988",
+          "source_port": "node_fx_mul_1_20_219dc988:output:0",
+          "target_node": "node_fx_add_21_ef0f694d",
+          "target_port": "node_fx_add_21_ef0f694d:input:1"
+        },
+        "source_edges": [
+          "edge_node_fx_mul_1_20_219dc988_node_fx_mul_1_20_ae41b1ad"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_mul_1_20_219dc988_node_fx_mul_fdf1d947",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_mul_1_20_219dc988",
+      "source_port": "node_fx_mul_1_20_219dc988:output:0",
+      "target": "node_fx_add_21_ef0f694d",
+      "target_port": "node_fx_add_21_ef0f694d:input:1",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_add_21_ef0f694d",
+          "source_port": "node_fx_add_21_ef0f694d:output:0",
+          "target_node": "node_fx_output_head_22_59165105",
+          "target_port": "node_fx_output_head_22_59165105:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_add_21_ef0f694d_node_fx_add_21_ef0_bb31d5d4"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_add_21_ef0f694d_node_fx_add_2_649b5ff9",
+      "kind": "data",
+      "label": "",
+      "source": "node_fx_add_21_ef0f694d",
+      "source_port": "node_fx_add_21_ef0f694d:output:0",
+      "target": "module_output_head_a3ee7dc1",
+      "target_port": "module_output_head_a3ee7dc1:input:binding_node_fx_output_head_22_59165105_node_fx_ou_be7ca5f7",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          64
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    },
+    {
+      "attributes": {
+        "boundary_count": 1,
+        "operation_binding": {
+          "source_node": "node_fx_output_head_22_59165105",
+          "source_port": "node_fx_output_head_22_59165105:output:0",
+          "target_node": "node_fx_output_23_a1d93912",
+          "target_port": "node_fx_output_23_a1d93912:input:0"
+        },
+        "source_edges": [
+          "edge_node_fx_output_head_22_59165105_node_fx_ou_c948fc53"
+        ]
+      },
+      "id": "module_edge_edge_node_fx_output_head_22_59165105_node__e2517307",
+      "kind": "data",
+      "label": "",
+      "source": "module_output_head_a3ee7dc1",
+      "source_port": "module_output_head_a3ee7dc1:output:binding_node_fx_output_head_22_59165105_node_fx_ou_059c1da3",
+      "target": "node_fx_output_23_a1d93912",
+      "target_port": "node_fx_output_23_a1d93912:input:0",
+      "tensor": {
+        "dtype": "float32",
+        "dynamic_axes": {},
+        "name": "output_0",
+        "semantic": null,
+        "shape": [
+          1,
+          8
+        ],
+        "size_bytes": null
+      },
+      "visible": true
+    }
+  ],
+  "inputs": [
+    {
+      "dtype": "float32",
+      "dynamic_axes": {},
+      "name": "image",
+      "semantic": null,
+      "shape": [
+        1,
+        3,
+        64,
+        64
+      ],
+      "size_bytes": null
+    },
+    {
+      "dtype": "int64",
+      "dynamic_axes": {},
+      "name": "token_ids",
+      "semantic": null,
+      "shape": [
+        1,
+        12
+      ],
+      "size_bytes": null
+    }
+  ],
+  "ir_version": "1.0",
+  "metadata": {
+    "corpus_key": "image_text",
+    "corpus_version": "1.0",
+    "graph_view": "module",
+    "model_class": "_multimodal_image_text.<locals>.ImageTextMultimodalModel",
+    "model_family": "multimodal",
+    "parameter_total": 185736,
+    "random_seed": 4007,
+    "sample_input": "float32[1,3,64,64] + int64[1,12]",
+    "shared_parameters": {},
+    "source_format": "pytorch_fx",
+    "source_operation_nodes": 24,
+    "trainable_parameter_total": 185736,
+    "weights": "random-initialization; no downloaded weights"
+  },
+  "name": "ImageTextMultimodalModel · Module",
+  "nodes": [
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_image_encoder_0_2_72af1587"
+        ],
+        "port_bindings": {
+          "module_image_encoder_0_2cd10d09:input:binding_node_fx_image_encoder_0_2_72af1587_node_fx_33aa858c": {
+            "operation_node": "node_fx_image_encoder_0_2_72af1587",
+            "operation_port": "node_fx_image_encoder_0_2_72af1587:input:0",
+            "source_edge": "edge_node_fx_image_0_a96ed448_node_fx_image_0_a_488b6a93"
+          },
+          "module_image_encoder_0_2cd10d09:output:binding_node_fx_image_encoder_0_2_72af1587_node_fx_015df1e1": {
+            "operation_node": "node_fx_image_encoder_0_2_72af1587",
+            "operation_port": "node_fx_image_encoder_0_2_72af1587:output:0",
+            "source_edge": "edge_node_fx_image_encoder_0_2_72af1587_node_fx_a607e072"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_image_encoder_0_2cd10d09",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_image_encoder_0_2cd10d09:input:binding_node_fx_image_encoder_0_2_72af1587_node_fx_33aa858c",
+          "name": "image",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "image",
+            "semantic": null,
+            "shape": [
+              1,
+              3,
+              64,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "0",
+      "namespace": "image_encoder",
+      "op_type": "Conv2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_image_encoder_0_2cd10d09:output:binding_node_fx_image_encoder_0_2_72af1587_node_fx_015df1e1",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 2432,
+      "parent": null,
+      "path": "image_encoder.0",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_image_encoder_0_2_72af1587"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 2432,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_image_encoder_1_3_84eb38f6"
+        ],
+        "port_bindings": {
+          "module_image_encoder_1_3c30566b:input:binding_node_fx_image_encoder_1_3_84eb38f6_node_fx_367dd88f": {
+            "operation_node": "node_fx_image_encoder_1_3_84eb38f6",
+            "operation_port": "node_fx_image_encoder_1_3_84eb38f6:input:0",
+            "source_edge": "edge_node_fx_image_encoder_0_2_72af1587_node_fx_a607e072"
+          },
+          "module_image_encoder_1_3c30566b:output:binding_node_fx_image_encoder_1_3_84eb38f6_node_fx_d6d417c7": {
+            "operation_node": "node_fx_image_encoder_1_3_84eb38f6",
+            "operation_port": "node_fx_image_encoder_1_3_84eb38f6:output:0",
+            "source_edge": "edge_node_fx_image_encoder_1_3_84eb38f6_node_fx_18466ebe"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "activation",
+      "id": "module_image_encoder_1_3c30566b",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_image_encoder_1_3c30566b:input:binding_node_fx_image_encoder_1_3_84eb38f6_node_fx_367dd88f",
+          "name": "image_encoder_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "1",
+      "namespace": "image_encoder",
+      "op_type": "ReLU",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_image_encoder_1_3c30566b:output:binding_node_fx_image_encoder_1_3_84eb38f6_node_fx_d6d417c7",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "image_encoder.1",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_image_encoder_1_3_84eb38f6"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_image_encoder_2_4_2fcf1765"
+        ],
+        "port_bindings": {
+          "module_image_encoder_2_f178f781:input:binding_node_fx_image_encoder_2_4_2fcf1765_node_fx_ba3c5ee3": {
+            "operation_node": "node_fx_image_encoder_2_4_2fcf1765",
+            "operation_port": "node_fx_image_encoder_2_4_2fcf1765:input:0",
+            "source_edge": "edge_node_fx_image_encoder_1_3_84eb38f6_node_fx_18466ebe"
+          },
+          "module_image_encoder_2_f178f781:output:binding_node_fx_image_encoder_2_4_2fcf1765_node_fx_d2db8d58": {
+            "operation_node": "node_fx_image_encoder_2_4_2fcf1765",
+            "operation_port": "node_fx_image_encoder_2_4_2fcf1765:output:0",
+            "source_edge": "edge_node_fx_image_encoder_2_4_2fcf1765_node_fx_25439984"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "convolution",
+      "id": "module_image_encoder_2_f178f781",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_image_encoder_2_f178f781:input:binding_node_fx_image_encoder_2_4_2fcf1765_node_fx_ba3c5ee3",
+          "name": "image_encoder_1",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              32,
+              32,
+              32
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "2",
+      "namespace": "image_encoder",
+      "op_type": "Conv2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_image_encoder_2_f178f781:output:binding_node_fx_image_encoder_2_4_2fcf1765_node_fx_d2db8d58",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 18496,
+      "parent": null,
+      "path": "image_encoder.2",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_image_encoder_2_4_2fcf1765"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 18496,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_image_encoder_3_5_b5915fef"
+        ],
+        "port_bindings": {
+          "module_image_encoder_3_8aeb31b1:input:binding_node_fx_image_encoder_3_5_b5915fef_node_fx_a24805e9": {
+            "operation_node": "node_fx_image_encoder_3_5_b5915fef",
+            "operation_port": "node_fx_image_encoder_3_5_b5915fef:input:0",
+            "source_edge": "edge_node_fx_image_encoder_2_4_2fcf1765_node_fx_25439984"
+          },
+          "module_image_encoder_3_8aeb31b1:output:binding_node_fx_image_encoder_3_5_b5915fef_node_fx_47bdf230": {
+            "operation_node": "node_fx_image_encoder_3_5_b5915fef",
+            "operation_port": "node_fx_image_encoder_3_5_b5915fef:output:0",
+            "source_edge": "edge_node_fx_image_encoder_3_5_b5915fef_node_fx_e6234a5f"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "activation",
+      "id": "module_image_encoder_3_8aeb31b1",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_image_encoder_3_8aeb31b1:input:binding_node_fx_image_encoder_3_5_b5915fef_node_fx_a24805e9",
+          "name": "image_encoder_2",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "3",
+      "namespace": "image_encoder",
+      "op_type": "ReLU",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_image_encoder_3_8aeb31b1:output:binding_node_fx_image_encoder_3_5_b5915fef_node_fx_47bdf230",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "image_encoder.3",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_image_encoder_3_5_b5915fef"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_image_encoder_4_6_eeae9277"
+        ],
+        "port_bindings": {
+          "module_image_encoder_4_b28556d3:input:binding_node_fx_image_encoder_4_6_eeae9277_node_fx_aebf5379": {
+            "operation_node": "node_fx_image_encoder_4_6_eeae9277",
+            "operation_port": "node_fx_image_encoder_4_6_eeae9277:input:0",
+            "source_edge": "edge_node_fx_image_encoder_3_5_b5915fef_node_fx_e6234a5f"
+          },
+          "module_image_encoder_4_b28556d3:output:binding_node_fx_image_encoder_4_6_eeae9277_node_fx_99701ff2": {
+            "operation_node": "node_fx_image_encoder_4_6_eeae9277",
+            "operation_port": "node_fx_image_encoder_4_6_eeae9277:output:0",
+            "source_edge": "edge_node_fx_image_encoder_4_6_eeae9277_node_fx_feda2c94"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "pooling",
+      "id": "module_image_encoder_4_b28556d3",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_image_encoder_4_b28556d3:input:binding_node_fx_image_encoder_4_6_eeae9277_node_fx_aebf5379",
+          "name": "image_encoder_3",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              16,
+              16
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "4",
+      "namespace": "image_encoder",
+      "op_type": "AdaptiveAvgPool2d",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_image_encoder_4_b28556d3:output:binding_node_fx_image_encoder_4_6_eeae9277_node_fx_99701ff2",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "image_encoder.4",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_image_encoder_4_6_eeae9277"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_modality_fusion_fusion_gate_16_34f964bd"
+        ],
+        "port_bindings": {
+          "module_modality_fusion_fusion_gate_1d9185fb:input:binding_node_fx_modality_fusion_fusion_gate_16_34f_f0b82805": {
+            "operation_node": "node_fx_modality_fusion_fusion_gate_16_34f964bd",
+            "operation_port": "node_fx_modality_fusion_fusion_gate_16_34f964bd:input:0",
+            "source_edge": "edge_node_fx_cat_15_cd86490b_node_fx_cat_15_cd8_afd6901f"
+          },
+          "module_modality_fusion_fusion_gate_1d9185fb:output:binding_node_fx_modality_fusion_fusion_gate_16_34f_577e6547": {
+            "operation_node": "node_fx_modality_fusion_fusion_gate_16_34f964bd",
+            "operation_port": "node_fx_modality_fusion_fusion_gate_16_34f964bd:output:0",
+            "source_edge": "edge_node_fx_modality_fusion_fusion_gate_16_34f_d62e9b54"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "linear",
+      "id": "module_modality_fusion_fusion_gate_1d9185fb",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_modality_fusion_fusion_gate_1d9185fb:input:binding_node_fx_modality_fusion_fusion_gate_16_34f_f0b82805",
+          "name": "cat",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              128
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "fusion_gate",
+      "namespace": "modality_fusion",
+      "op_type": "Linear",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_modality_fusion_fusion_gate_1d9185fb:output:binding_node_fx_modality_fusion_fusion_gate_16_34f_577e6547",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 8256,
+      "parent": null,
+      "path": "modality_fusion.fusion_gate",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_modality_fusion_fusion_gate_16_34f964bd"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 8256,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_modality_fusion_image_projection_13_75f0c1d8"
+        ],
+        "port_bindings": {
+          "module_modality_fusion_image_projection_ea4e2681:input:binding_node_fx_modality_fusion_image_projection_1_1355029d": {
+            "operation_node": "node_fx_modality_fusion_image_projection_13_75f0c1d8",
+            "operation_port": "node_fx_modality_fusion_image_projection_13_75f0c1d8:input:0",
+            "source_edge": "edge_node_fx_flatten_7_21ff2525_node_fx_flatten_09656eca"
+          },
+          "module_modality_fusion_image_projection_ea4e2681:output:binding_node_fx_modality_fusion_image_projection_1_9ed70d7b": {
+            "operation_node": "node_fx_modality_fusion_image_projection_13_75f0c1d8",
+            "operation_port": "node_fx_modality_fusion_image_projection_13_75f0c1d8:output:0",
+            "source_edge": "edge_node_fx_modality_fusion_image_projection_1_bfb8b990"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "linear",
+      "id": "module_modality_fusion_image_projection_ea4e2681",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_modality_fusion_image_projection_ea4e2681:input:binding_node_fx_modality_fusion_image_projection_1_1355029d",
+          "name": "flatten",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "image_projection",
+      "namespace": "modality_fusion",
+      "op_type": "Linear",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_modality_fusion_image_projection_ea4e2681:output:binding_node_fx_modality_fusion_image_projection_1_9ed70d7b",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 4160,
+      "parent": null,
+      "path": "modality_fusion.image_projection",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_modality_fusion_image_projection_13_75f0c1d8"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 4160,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_modality_fusion_text_projection_14_ae4f6e36"
+        ],
+        "port_bindings": {
+          "module_modality_fusion_text_projection_17dedab8:input:binding_node_fx_modality_fusion_text_projection_14_200de6ef": {
+            "operation_node": "node_fx_modality_fusion_text_projection_14_ae4f6e36",
+            "operation_port": "node_fx_modality_fusion_text_projection_14_ae4f6e36:input:0",
+            "source_edge": "edge_node_fx_mean_12_0803e404_node_fx_mean_12_0_381fae10"
+          },
+          "module_modality_fusion_text_projection_17dedab8:output:binding_node_fx_modality_fusion_text_projection_14_ef59d9f0": {
+            "operation_node": "node_fx_modality_fusion_text_projection_14_ae4f6e36",
+            "operation_port": "node_fx_modality_fusion_text_projection_14_ae4f6e36:output:0",
+            "source_edge": "edge_node_fx_modality_fusion_text_projection_14_06edb820"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "linear",
+      "id": "module_modality_fusion_text_projection_17dedab8",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_modality_fusion_text_projection_17dedab8:input:binding_node_fx_modality_fusion_text_projection_14_200de6ef",
+          "name": "mean",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "text_projection",
+      "namespace": "modality_fusion",
+      "op_type": "Linear",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_modality_fusion_text_projection_17dedab8:output:binding_node_fx_modality_fusion_text_projection_14_ef59d9f0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 4160,
+      "parent": null,
+      "path": "modality_fusion.text_projection",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_modality_fusion_text_projection_14_ae4f6e36"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 4160,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_output_head_22_59165105"
+        ],
+        "port_bindings": {
+          "module_output_head_a3ee7dc1:input:binding_node_fx_output_head_22_59165105_node_fx_ou_be7ca5f7": {
+            "operation_node": "node_fx_output_head_22_59165105",
+            "operation_port": "node_fx_output_head_22_59165105:input:0",
+            "source_edge": "edge_node_fx_add_21_ef0f694d_node_fx_add_21_ef0_bb31d5d4"
+          },
+          "module_output_head_a3ee7dc1:output:binding_node_fx_output_head_22_59165105_node_fx_ou_059c1da3": {
+            "operation_node": "node_fx_output_head_22_59165105",
+            "operation_port": "node_fx_output_head_22_59165105:output:0",
+            "source_edge": "edge_node_fx_output_head_22_59165105_node_fx_ou_c948fc53"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "linear",
+      "id": "module_output_head_a3ee7dc1",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_output_head_a3ee7dc1:input:binding_node_fx_output_head_22_59165105_node_fx_ou_be7ca5f7",
+          "name": "add",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "output_head",
+      "namespace": "",
+      "op_type": "Linear",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_output_head_a3ee7dc1:output:binding_node_fx_output_head_22_59165105_node_fx_ou_059c1da3",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              8
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 520,
+      "parent": null,
+      "path": "output_head",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_output_head_22_59165105"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 520,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_text_encoder_attention_9_4fe36b36"
+        ],
+        "port_bindings": {
+          "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__15fd5546": {
+            "operation_node": "node_fx_text_encoder_attention_9_4fe36b36",
+            "operation_port": "node_fx_text_encoder_attention_9_4fe36b36:input:2",
+            "source_edge": "edge_node_fx_text_encoder_embedding_8_e406988d__e33d7a4e"
+          },
+          "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__58a403f3": {
+            "operation_node": "node_fx_text_encoder_attention_9_4fe36b36",
+            "operation_port": "node_fx_text_encoder_attention_9_4fe36b36:input:1",
+            "source_edge": "edge_node_fx_text_encoder_embedding_8_e406988d__7b18a96c"
+          },
+          "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__a64f7f30": {
+            "operation_node": "node_fx_text_encoder_attention_9_4fe36b36",
+            "operation_port": "node_fx_text_encoder_attention_9_4fe36b36:input:0",
+            "source_edge": "edge_node_fx_text_encoder_embedding_8_e406988d__229daf42"
+          },
+          "module_text_encoder_attention_26daf7d7:output:binding_node_fx_text_encoder_attention_9_4fe36b36__00cd5c42": {
+            "operation_node": "node_fx_text_encoder_attention_9_4fe36b36",
+            "operation_port": "node_fx_text_encoder_attention_9_4fe36b36:output:0",
+            "source_edge": "edge_node_fx_text_encoder_attention_9_4fe36b36__aea78401"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "attention",
+      "id": "module_text_encoder_attention_26daf7d7",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__a64f7f30",
+          "name": "text_encoder_embedding",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              12,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__58a403f3",
+          "name": "text_encoder_embedding",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              12,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "module_text_encoder_attention_26daf7d7:input:binding_node_fx_text_encoder_attention_9_4fe36b36__15fd5546",
+          "name": "text_encoder_embedding",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              12,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "text_encoder_attention",
+      "namespace": "",
+      "op_type": "MultiheadAttention",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_text_encoder_attention_26daf7d7:output:binding_node_fx_text_encoder_attention_9_4fe36b36__00cd5c42",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              12,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 12480,
+      "parent": null,
+      "path": "text_encoder_attention",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_text_encoder_attention_9_4fe36b36"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 12480,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "call_count": 1,
+        "faithful": true,
+        "operation_ids": [
+          "node_fx_text_encoder_embedding_8_e406988d"
+        ],
+        "port_bindings": {
+          "module_text_encoder_embedding_0a4b3959:input:binding_node_fx_text_encoder_embedding_8_e406988d__c9439151": {
+            "operation_node": "node_fx_text_encoder_embedding_8_e406988d",
+            "operation_port": "node_fx_text_encoder_embedding_8_e406988d:input:0",
+            "source_edge": "edge_node_fx_token_ids_1_52a77bc9_node_fx_token_04f6f84f"
+          },
+          "module_text_encoder_embedding_0a4b3959:output:binding_node_fx_text_encoder_embedding_8_e406988d__4c6ba381": {
+            "operation_node": "node_fx_text_encoder_embedding_8_e406988d",
+            "operation_port": "node_fx_text_encoder_embedding_8_e406988d:output:0",
+            "source_edge": "edge_node_fx_text_encoder_embedding_8_e406988d__229daf42"
+          }
+        }
+      },
+      "buffers": 0,
+      "category": "embedding",
+      "id": "module_text_encoder_embedding_0a4b3959",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "module_text_encoder_embedding_0a4b3959:input:binding_node_fx_text_encoder_embedding_8_e406988d__c9439151",
+          "name": "token_ids",
+          "tensor": {
+            "dtype": "int64",
+            "dynamic_axes": {},
+            "name": "token_ids",
+            "semantic": null,
+            "shape": [
+              1,
+              12
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "text_encoder_embedding",
+      "namespace": "",
+      "op_type": "Embedding",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "module_text_encoder_embedding_0a4b3959:output:binding_node_fx_text_encoder_embedding_8_e406988d__4c6ba381",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              12,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 131072,
+      "parent": null,
+      "path": "text_encoder_embedding",
+      "shared_weights": [],
+      "source": {
+        "format": "derived-module-view",
+        "source_nodes": [
+          "node_fx_text_encoder_embedding_8_e406988d"
+        ]
+      },
+      "tags": [],
+      "trainable_parameters": 131072,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "placeholder",
+        "operation_ids": [
+          "node_fx_image_0_a96ed448"
+        ],
+        "target": "image"
+      },
+      "buffers": 0,
+      "category": "input",
+      "id": "node_fx_image_0_a96ed448",
+      "inputs": [],
+      "level": "module",
+      "name": "image",
+      "namespace": "",
+      "op_type": "Input",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_image_0_a96ed448:output:0",
+          "name": "image",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "image",
+            "semantic": null,
+            "shape": [
+              1,
+              3,
+              64,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "image",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 0
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "placeholder",
+        "operation_ids": [
+          "node_fx_token_ids_1_52a77bc9"
+        ],
+        "target": "token_ids"
+      },
+      "buffers": 0,
+      "category": "input",
+      "id": "node_fx_token_ids_1_52a77bc9",
+      "inputs": [],
+      "level": "module",
+      "name": "token_ids",
+      "namespace": "",
+      "op_type": "Input",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_token_ids_1_52a77bc9:output:0",
+          "name": "token_ids",
+          "tensor": {
+            "dtype": "int64",
+            "dynamic_axes": {},
+            "name": "token_ids",
+            "semantic": null,
+            "shape": [
+              1,
+              12
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "token_ids",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 1
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_method",
+        "operation_ids": [
+          "node_fx_flatten_7_21ff2525"
+        ],
+        "target": "flatten"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_flatten_7_21ff2525",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_flatten_7_21ff2525:input:0",
+          "name": "image_encoder_4",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64,
+              1,
+              1
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "flatten",
+      "namespace": "",
+      "op_type": "flatten",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_flatten_7_21ff2525:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "flatten",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 7
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_getitem_10_957ae78a"
+        ],
+        "target": "<built-in function getitem>"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_getitem_10_957ae78a",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_getitem_10_957ae78a:input:0",
+          "name": "text_encoder_attention",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              12,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "getitem",
+      "namespace": "",
+      "op_type": "<built-in function getitem>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_getitem_10_957ae78a:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              12,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function getitem>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 10
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_getitem_1_11_cb816ebb"
+        ],
+        "target": "<built-in function getitem>"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_getitem_1_11_cb816ebb",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_getitem_1_11_cb816ebb:input:0",
+          "name": "text_encoder_attention",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              12,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "getitem_1",
+      "namespace": "",
+      "op_type": "<built-in function getitem>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_getitem_1_11_cb816ebb:output:0",
+          "name": "output",
+          "tensor": null,
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function getitem>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 11
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_method",
+        "operation_ids": [
+          "node_fx_mean_12_0803e404"
+        ],
+        "target": "mean"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_mean_12_0803e404",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_mean_12_0803e404:input:0",
+          "name": "getitem",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              12,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "mean",
+      "namespace": "",
+      "op_type": "mean",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_mean_12_0803e404:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "mean",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 12
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_cat_15_cd86490b"
+        ],
+        "target": "<built-in method cat of type object at 0x70e26e5a1dc0>"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_cat_15_cd86490b",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_cat_15_cd86490b:input:0",
+          "name": "modality_fusion_image_projection",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "node_fx_cat_15_cd86490b:input:1",
+          "name": "modality_fusion_text_projection",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "cat",
+      "namespace": "",
+      "op_type": "<built-in method cat of type object at 0x70e26e5a1dc0>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_cat_15_cd86490b:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              128
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in method cat of type object at 0x70e26e5a1dc0>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 15
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_sigmoid_17_82331589"
+        ],
+        "target": "<built-in method sigmoid of type object at 0x70e26e5a1dc0>"
+      },
+      "buffers": 0,
+      "category": "activation",
+      "id": "node_fx_sigmoid_17_82331589",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_sigmoid_17_82331589:input:0",
+          "name": "modality_fusion_fusion_gate",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "sigmoid",
+      "namespace": "",
+      "op_type": "<built-in method sigmoid of type object at 0x70e26e5a1dc0>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_sigmoid_17_82331589:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in method sigmoid of type object at 0x70e26e5a1dc0>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 17
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_mul_18_d9198197"
+        ],
+        "target": "<built-in function mul>"
+      },
+      "buffers": 0,
+      "category": "merge",
+      "id": "node_fx_mul_18_d9198197",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_mul_18_d9198197:input:0",
+          "name": "sigmoid",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "node_fx_mul_18_d9198197:input:1",
+          "name": "modality_fusion_image_projection",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "mul",
+      "namespace": "",
+      "op_type": "<built-in function mul>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_mul_18_d9198197:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function mul>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 18
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_sub_19_9f3908ea"
+        ],
+        "target": "<built-in function sub>"
+      },
+      "buffers": 0,
+      "category": "operation",
+      "id": "node_fx_sub_19_9f3908ea",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_sub_19_9f3908ea:input:0",
+          "name": "sigmoid",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "sub",
+      "namespace": "",
+      "op_type": "<built-in function sub>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_sub_19_9f3908ea:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function sub>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 19
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_mul_1_20_219dc988"
+        ],
+        "target": "<built-in function mul>"
+      },
+      "buffers": 0,
+      "category": "merge",
+      "id": "node_fx_mul_1_20_219dc988",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_mul_1_20_219dc988:input:0",
+          "name": "sub",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "node_fx_mul_1_20_219dc988:input:1",
+          "name": "modality_fusion_text_projection",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "mul_1",
+      "namespace": "",
+      "op_type": "<built-in function mul>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_mul_1_20_219dc988:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function mul>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 20
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "call_function",
+        "operation_ids": [
+          "node_fx_add_21_ef0f694d"
+        ],
+        "target": "<built-in function add>"
+      },
+      "buffers": 0,
+      "category": "merge",
+      "id": "node_fx_add_21_ef0f694d",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_add_21_ef0f694d:input:0",
+          "name": "mul",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        },
+        {
+          "direction": "input",
+          "id": "node_fx_add_21_ef0f694d:input:1",
+          "name": "mul_1",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "add",
+      "namespace": "",
+      "op_type": "<built-in function add>",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_add_21_ef0f694d:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              64
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "<built-in function add>",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 21
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    },
+    {
+      "analysis": {},
+      "attributes": {
+        "faithful": true,
+        "fx_op": "output",
+        "operation_ids": [
+          "node_fx_output_23_a1d93912"
+        ],
+        "target": "output"
+      },
+      "buffers": 0,
+      "category": "output",
+      "id": "node_fx_output_23_a1d93912",
+      "inputs": [
+        {
+          "direction": "input",
+          "id": "node_fx_output_23_a1d93912:input:0",
+          "name": "output_head",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              8
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "level": "module",
+      "name": "output",
+      "namespace": "",
+      "op_type": "Output",
+      "outputs": [
+        {
+          "direction": "output",
+          "id": "node_fx_output_23_a1d93912:output:0",
+          "name": "output_0",
+          "tensor": {
+            "dtype": "float32",
+            "dynamic_axes": {},
+            "name": "output_0",
+            "semantic": null,
+            "shape": [
+              1,
+              8
+            ],
+            "size_bytes": null
+          },
+          "variadic": false
+        }
+      ],
+      "parameters": 0,
+      "parent": null,
+      "path": "output",
+      "shared_weights": [],
+      "source": {
+        "format": "pytorch_fx",
+        "index": 23
+      },
+      "tags": [],
+      "trainable_parameters": 0,
+      "visible": true
+    }
+  ],
+  "outputs": [
+    {
+      "dtype": "float32",
+      "dynamic_axes": {},
+      "name": "output_0",
+      "semantic": null,
+      "shape": [
+        1,
+        8
+      ],
+      "size_bytes": null
+    }
+  ],
+  "subgraphs": [
+    {
+      "attributes": {
+        "path": "image_encoder"
+      },
+      "collapsed": false,
+      "id": "module_group_image_encoder_3c5ff032",
+      "level": "module",
+      "locked": false,
+      "name": "image_encoder",
+      "node_ids": [
+        "module_image_encoder_0_2cd10d09",
+        "module_image_encoder_1_3c30566b",
+        "module_image_encoder_2_f178f781",
+        "module_image_encoder_3_8aeb31b1",
+        "module_image_encoder_4_b28556d3"
+      ],
+      "parent": null
+    },
+    {
+      "attributes": {
+        "path": "modality_fusion"
+      },
+      "collapsed": false,
+      "id": "module_group_modality_fusion_6576c860",
+      "level": "module",
+      "locked": false,
+      "name": "modality_fusion",
+      "node_ids": [
+        "module_modality_fusion_fusion_gate_1d9185fb",
+        "module_modality_fusion_image_projection_ea4e2681",
+        "module_modality_fusion_text_projection_17dedab8"
+      ],
+      "parent": null
+    }
+  ]
+}

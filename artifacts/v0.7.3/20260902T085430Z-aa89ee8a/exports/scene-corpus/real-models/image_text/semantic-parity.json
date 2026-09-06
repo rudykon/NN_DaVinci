@@ -1,0 +1,45 @@
+{
+  "case_key": "image_text",
+  "case_kind": "real-model",
+  "evidence_provenance_digest": "b53e0933defbb0a89f4232c043692407e575e4b632e8e182b6e85ad8fc33cb9e",
+  "evidence_version": "1.0",
+  "expected_critical_route_count": 2,
+  "expected_role_count": 4,
+  "failures": [],
+  "family": "multimodal-fusion",
+  "figure_critical_route_count": 2,
+  "figure_role_count": 4,
+  "input_role_ids": [
+    "architecture_role_image_lane_0_node_fx_image_0_a96ed448_modu_eea979b1",
+    "architecture_role_text_lane_1_node_fx_mean_12_0803e404_modul_faa01af6"
+  ],
+  "landed_documents": {
+    "figure": {
+      "path": "figure.figure.json",
+      "sha256": "624415974b5cfe91051ebee5970f418b868bd107290182e5e307dd32523bc142"
+    },
+    "graph": {
+      "path": "graph.graph.json",
+      "sha256": "5ab109f0c51e37449b5169d814429d63561264c4a28a19f43c580ce3a2d1f6da"
+    },
+    "scene": {
+      "path": "scene.scene.json",
+      "sha256": "a47a6baefb799e7fdc28c28ce26d39846e19a95b7798b697b88bd04b7cb66a8a"
+    },
+    "semantic": {
+      "path": "semantic.semantic.json",
+      "sha256": "e2fa9aaaa5fa1d113b3a9a02359d3f21323b3771bc53ea16c7ac9e10cce19dea"
+    }
+  },
+  "oracle_version": "1.0",
+  "output_role_ids": [
+    "architecture_role_output_head_3_node_fx_sub_19_9f3908ea_node_962ae860"
+  ],
+  "passed": true,
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "scene_critical_route_count": 2,
+  "scene_role_count": 4,
+  "schema_version": "nndv-architecture-parity-1",
+  "uncertain_claims": [],
+  "unknown_reason": null
+}

@@ -1,0 +1,2590 @@
+{
+  "active_camera_id": "scene_camera_resnet___3d_camera_isometric_ad0bf323",
+  "cameras": [
+    {
+      "aspect": 1.5,
+      "far": 10000,
+      "fov_y_deg": 45,
+      "id": "scene_camera_resnet___3d_camera_isometric_ad0bf323",
+      "locked": false,
+      "metadata": {
+        "last_auto_frame": "initial-open",
+        "user_saved_camera": true
+      },
+      "name": "ResNet · 3D isometric camera",
+      "near": 0.1,
+      "ortho_height": 8.562028000317788,
+      "position": [
+        10.418987359201047,
+        8.849156132667538,
+        12.388818585734555
+      ],
+      "projection": "orthographic",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "target": [
+        -0.20000000000000018,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "id": "scene_resnet___3d_455448d7",
+  "layers": [
+    {
+      "groups": [],
+      "id": "scene_layer_resnet___3d_layer_model_a29e9580",
+      "locked": false,
+      "metadata": {},
+      "name": "Model",
+      "objects": [
+        {
+          "geometry": {
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              2,
+              1.12,
+              4.320225366083599
+            ]
+          },
+          "id": "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c",
+          "kind": "operation-block",
+          "locked": false,
+          "material": {
+            "base_color": "#e2e8f0",
+            "face_colors": {
+              "front": "#e2e8f0",
+              "top": "#e2e8f0"
+            },
+            "metallic": 0,
+            "opacity": 1,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_role": "unknown",
+            "architecture_role_origin": "unknown-no-explicit-architecture-role",
+            "dtype": "float32",
+            "evidenced_architecture_family": "resnet",
+            "figure_ir_ids": [
+              "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+              "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+            ],
+            "graph_ir_node_ids": [
+              "node_fx_flatten_174_920541e7"
+            ],
+            "layout_family": "resnet",
+            "semantic_view_ids": [
+              "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562"
+            ],
+            "shape_label": "[1, 2048]",
+            "summary": false,
+            "summary_member_count": 1,
+            "summary_source": {},
+            "tensor_shape": [
+              1,
+              2048
+            ],
+            "unknown_dimensions_preserved": false,
+            "visual_geometry_is_literal_tensor_size": false,
+            "visual_geometry_mapping": "bounded-logarithmic-authoring-cue"
+          },
+          "name": "flatten",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_resnet___3d_camera_isometric_ad0bf323",
+              "depth": -0.9959299588139348,
+              "ndc": [
+                -0.3901796455563224,
+                0.2391568040076812,
+                -0.9959299588139348
+              ],
+              "point": [
+                365.89221266620655,
+                304.3372783969275
+              ],
+              "viewport": [
+                1200,
+                800
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {
+              "dtype": "float32",
+              "node_ids": [
+                "node_fx_flatten_174_920541e7"
+              ],
+              "op_types": [
+                "<built-in method flatten of type object at 0x7f3f35da1dc0>"
+              ],
+              "scene_role_origin": "unknown-no-explicit-architecture-role",
+              "summary": false,
+              "summary_source": {},
+              "tensor_shape": [
+                1,
+                2048
+              ],
+              "visual_geometry_mapping": "nonliteral bounded authoring cue"
+            },
+            "figure_ir_ids": [
+              "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+              "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+            ],
+            "graph_ir_ids": [
+              "node_fx_flatten_174_920541e7",
+              "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+              "node_fx_flatten_174_920541e7:input:0",
+              "node_fx_flatten_174_920541e7:output:0"
+            ],
+            "kind": "semantic_view",
+            "reason": "",
+            "semantic_view_ids": [
+              "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562"
+            ],
+            "source_id": "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              -3.5,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              -2.5,
+              0.56,
+              2.1601126830417994
+            ],
+            "bounds_min": [
+              -4.5,
+              -0.56,
+              -2.1601126830417994
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                -3.5
+              ],
+              [
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              -3.5,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              2,
+              1.12,
+              3.9895124028275175
+            ]
+          },
+          "id": "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414",
+          "kind": "operation-block",
+          "locked": false,
+          "material": {
+            "base_color": "#e2e8f0",
+            "face_colors": {
+              "front": "#e2e8f0",
+              "top": "#e2e8f0"
+            },
+            "metallic": 0,
+            "opacity": 1,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_role": "unknown",
+            "architecture_role_origin": "unknown-no-explicit-architecture-role",
+            "dtype": "float32",
+            "evidenced_architecture_family": "resnet",
+            "figure_ir_ids": [
+              "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+              "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+            ],
+            "graph_ir_node_ids": [
+              "node_fx_fc_175_9af358a5"
+            ],
+            "layout_family": "resnet",
+            "semantic_view_ids": [
+              "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+            ],
+            "shape_label": "[1, 1000]",
+            "summary": false,
+            "summary_member_count": 1,
+            "summary_source": {},
+            "tensor_shape": [
+              1,
+              1000
+            ],
+            "unknown_dimensions_preserved": false,
+            "visual_geometry_is_literal_tensor_size": false,
+            "visual_geometry_mapping": "bounded-logarithmic-authoring-cue"
+          },
+          "name": "fc",
+          "order": 10,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_resnet___3d_camera_isometric_ad0bf323",
+              "depth": -0.9963304171060008,
+              "ndc": [
+                0.023647251245838028,
+                -0.014494351758040806,
+                -0.9963304171060008
+              ],
+              "point": [
+                614.1883507475029,
+                405.7977407032163
+              ],
+              "viewport": [
+                1200,
+                800
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {
+              "dtype": "float32",
+              "node_ids": [
+                "node_fx_fc_175_9af358a5"
+              ],
+              "op_types": [
+                "Linear"
+              ],
+              "scene_role_origin": "unknown-no-explicit-architecture-role",
+              "summary": false,
+              "summary_source": {},
+              "tensor_shape": [
+                1,
+                1000
+              ],
+              "visual_geometry_mapping": "nonliteral bounded authoring cue"
+            },
+            "figure_ir_ids": [
+              "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+              "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+            ],
+            "graph_ir_ids": [
+              "node_fx_fc_175_9af358a5",
+              "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+              "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9",
+              "node_fx_fc_175_9af358a5:input:0",
+              "node_fx_fc_175_9af358a5:output:0"
+            ],
+            "kind": "semantic_view",
+            "reason": "",
+            "semantic_view_ids": [
+              "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+            ],
+            "source_id": "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              1,
+              0.56,
+              1.9947562014137588
+            ],
+            "bounds_min": [
+              -1,
+              -0.56,
+              -1.9947562014137588
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              1.2,
+              1.12,
+              3.9895124028275175
+            ]
+          },
+          "id": "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309",
+          "kind": "tensor-volume",
+          "locked": false,
+          "material": {
+            "base_color": "#bfdbfe",
+            "face_colors": {
+              "front": "#bfdbfe",
+              "top": "#bfdbfe"
+            },
+            "metallic": 0,
+            "opacity": 1,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_role": "tensor-volume",
+            "architecture_role_origin": "graph_ir.category",
+            "dtype": "float32",
+            "evidenced_architecture_family": "resnet",
+            "figure_ir_ids": [
+              "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+              "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+            ],
+            "graph_ir_node_ids": [
+              "node_fx_output_176_a4d4af23"
+            ],
+            "layout_family": "resnet",
+            "semantic_view_ids": [
+              "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+            ],
+            "shape_label": "[1, 1000]",
+            "summary": false,
+            "summary_member_count": 1,
+            "summary_source": {},
+            "tensor_shape": [
+              1,
+              1000
+            ],
+            "unknown_dimensions_preserved": false,
+            "visual_geometry_is_literal_tensor_size": false,
+            "visual_geometry_mapping": "bounded-logarithmic-authoring-cue"
+          },
+          "name": "output",
+          "order": 20,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_resnet___3d_camera_isometric_ad0bf323",
+              "depth": -0.9967308753980668,
+              "ndc": [
+                0.4374741480479985,
+                -0.2681455075237628,
+                -0.9967308753980668
+              ],
+              "point": [
+                862.484488828799,
+                507.25820300950517
+              ],
+              "viewport": [
+                1200,
+                800
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {
+              "dtype": "float32",
+              "node_ids": [
+                "node_fx_output_176_a4d4af23"
+              ],
+              "op_types": [
+                "Output"
+              ],
+              "scene_role_origin": "graph_ir.category",
+              "summary": false,
+              "summary_source": {},
+              "tensor_shape": [
+                1,
+                1000
+              ],
+              "visual_geometry_mapping": "nonliteral bounded authoring cue"
+            },
+            "figure_ir_ids": [
+              "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+              "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+            ],
+            "graph_ir_ids": [
+              "node_fx_output_176_a4d4af23",
+              "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9",
+              "node_fx_output_176_a4d4af23:input:0",
+              "node_fx_output_176_a4d4af23:output:0"
+            ],
+            "kind": "semantic_view",
+            "reason": "",
+            "semantic_view_ids": [
+              "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+            ],
+            "source_id": "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              3.5,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              4.1,
+              0.56,
+              1.9947562014137588
+            ],
+            "bounds_min": [
+              2.9,
+              -0.56,
+              -1.9947562014137588
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                3.5
+              ],
+              [
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              3.5,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "points": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                3.5,
+                0,
+                0
+              ]
+            ],
+            "radius": 0.07
+          },
+          "id": "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+          "kind": "arrow",
+          "locked": false,
+          "material": {
+            "base_color": "#475569",
+            "face_colors": {
+              "front": "#475569",
+              "top": "#475569"
+            },
+            "metallic": 0,
+            "opacity": 1,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_role": "unknown",
+            "architecture_role_origin": [
+              "graph_ir-edge-generic"
+            ],
+            "bundled_edge_count": 1,
+            "endpoint_object_ids": [
+              "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414",
+              "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309"
+            ],
+            "figure_ir_ids": [
+              "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+              "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+            ],
+            "graph_ir_edge_ids": [
+              "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9"
+            ],
+            "semantic_view_ids": [
+              "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b",
+              "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+            ]
+          },
+          "name": "fc to output",
+          "order": 100000,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_resnet___3d_camera_isometric_ad0bf323",
+              "depth": -0.9963304171060008,
+              "ndc": [
+                0.023647251245838028,
+                -0.014494351758040806,
+                -0.9963304171060008
+              ],
+              "point": [
+                614.1883507475029,
+                405.7977407032163
+              ],
+              "viewport": [
+                1200,
+                800
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {
+              "edge_ids": [
+                "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9"
+              ],
+              "scene_role_origin": [
+                "graph_ir-edge-generic"
+              ],
+              "source_ports": [
+                "node_fx_fc_175_9af358a5:output:0"
+              ],
+              "target_ports": [
+                "node_fx_output_176_a4d4af23:input:0"
+              ]
+            },
+            "figure_ir_ids": [
+              "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+              "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+            ],
+            "graph_ir_ids": [
+              "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9",
+              "node_fx_fc_175_9af358a5:output:0",
+              "node_fx_output_176_a4d4af23:input:0",
+              "node_fx_fc_175_9af358a5",
+              "node_fx_output_176_a4d4af23"
+            ],
+            "kind": "semantic_view",
+            "reason": "",
+            "semantic_view_ids": [
+              "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b",
+              "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+            ],
+            "source_id": "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              3.57,
+              0.07,
+              0.07
+            ],
+            "bounds_min": [
+              -0.07,
+              -0.07,
+              -0.07
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "points": [
+              [
+                -3.5,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "radius": 0.07
+          },
+          "id": "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+          "kind": "arrow",
+          "locked": false,
+          "material": {
+            "base_color": "#475569",
+            "face_colors": {
+              "front": "#475569",
+              "top": "#475569"
+            },
+            "metallic": 0,
+            "opacity": 1,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_role": "unknown",
+            "architecture_role_origin": [
+              "graph_ir-edge-generic"
+            ],
+            "bundled_edge_count": 1,
+            "endpoint_object_ids": [
+              "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c",
+              "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414"
+            ],
+            "figure_ir_ids": [
+              "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+              "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+            ],
+            "graph_ir_edge_ids": [
+              "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380"
+            ],
+            "semantic_view_ids": [
+              "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562",
+              "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+            ]
+          },
+          "name": "flatten to fc",
+          "order": 100001,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_resnet___3d_camera_isometric_ad0bf323",
+              "depth": -0.9963304171060008,
+              "ndc": [
+                0.023647251245838028,
+                -0.014494351758040806,
+                -0.9963304171060008
+              ],
+              "point": [
+                614.1883507475029,
+                405.7977407032163
+              ],
+              "viewport": [
+                1200,
+                800
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {
+              "edge_ids": [
+                "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380"
+              ],
+              "scene_role_origin": [
+                "graph_ir-edge-generic"
+              ],
+              "source_ports": [
+                "node_fx_flatten_174_920541e7:output:0"
+              ],
+              "target_ports": [
+                "node_fx_fc_175_9af358a5:input:0"
+              ]
+            },
+            "figure_ir_ids": [
+              "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+              "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+            ],
+            "graph_ir_ids": [
+              "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+              "node_fx_flatten_174_920541e7:output:0",
+              "node_fx_fc_175_9af358a5:input:0",
+              "node_fx_flatten_174_920541e7",
+              "node_fx_fc_175_9af358a5"
+            ],
+            "kind": "semantic_view",
+            "reason": "",
+            "semantic_view_ids": [
+              "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562",
+              "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+            ],
+            "source_id": "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              0.07,
+              0.07,
+              0.07
+            ],
+            "bounds_min": [
+              -3.57,
+              -0.07,
+              -0.07
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "order": 0,
+      "visible": true
+    }
+  ],
+  "lights": [
+    {
+      "color": "#ffffff",
+      "direction": [
+        -1,
+        -1,
+        -1
+      ],
+      "id": "scene_light_resnet___3d_light_key_fcc8f24c",
+      "intensity": 1,
+      "kind": "directional",
+      "locked": false,
+      "metadata": {},
+      "name": "Key light",
+      "position": [
+        8,
+        10,
+        12
+      ],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "architecture_evidence": {
+      "alternative_candidates": [],
+      "confidence": 0.99,
+      "critical_routes": [
+        {
+          "attributes": {},
+          "confidence": 0.86,
+          "id": "architecture_route_residual_skip_architecture_role_input_stem_c5326427",
+          "label": "Stage 1 shortcuts",
+          "protected": true,
+          "reasons": [
+            "A typed elementwise add has two converging source branches."
+          ],
+          "role": "residual-skip",
+          "source_role_id": "architecture_role_input_stem_0_node_fx_layer1_0_conv2_8_6a3d_9ddb11ed",
+          "supporting_edge_ids": [
+            "edge_node_fx_layer1_0_bn3_12_6eb7011c_node_fx_l_af756db0",
+            "edge_node_fx_layer1_0_downsample_1_14_7e1b146f__02de3c3b",
+            "edge_node_fx_layer1_1_bn3_24_6c113f3c_node_fx_l_dba0bc97",
+            "edge_node_fx_layer1_0_relu_2_16_979fbfcd_node_f_44721098",
+            "edge_node_fx_layer1_2_bn3_34_b9b460a9_node_fx_l_5e5ecce3",
+            "edge_node_fx_layer1_1_relu_2_26_9962d8b6_node_f_5ec0d139"
+          ],
+          "supporting_node_ids": [
+            "node_fx_add_15_a1bc4f1b",
+            "node_fx_layer1_0_bn3_12_6eb7011c",
+            "node_fx_layer1_0_downsample_1_14_7e1b146f",
+            "node_fx_add_1_25_164248c2",
+            "node_fx_layer1_1_bn3_24_6c113f3c",
+            "node_fx_layer1_0_relu_2_16_979fbfcd",
+            "node_fx_add_2_35_231c4367",
+            "node_fx_layer1_2_bn3_34_b9b460a9",
+            "node_fx_layer1_1_relu_2_26_9962d8b6"
+          ],
+          "supporting_port_ids": [
+            "node_fx_layer1_0_bn3_12_6eb7011c:input:0",
+            "node_fx_layer1_0_bn3_12_6eb7011c:output:0",
+            "node_fx_layer1_0_downsample_1_14_7e1b146f:input:0",
+            "node_fx_layer1_0_downsample_1_14_7e1b146f:output:0",
+            "node_fx_add_15_a1bc4f1b:input:0",
+            "node_fx_add_15_a1bc4f1b:input:1",
+            "node_fx_add_15_a1bc4f1b:output:0",
+            "node_fx_layer1_0_relu_2_16_979fbfcd:input:0",
+            "node_fx_layer1_0_relu_2_16_979fbfcd:output:0",
+            "node_fx_layer1_1_bn3_24_6c113f3c:input:0",
+            "node_fx_layer1_1_bn3_24_6c113f3c:output:0",
+            "node_fx_add_1_25_164248c2:input:0",
+            "node_fx_add_1_25_164248c2:input:1",
+            "node_fx_add_1_25_164248c2:output:0",
+            "node_fx_layer1_1_relu_2_26_9962d8b6:input:0",
+            "node_fx_layer1_1_relu_2_26_9962d8b6:output:0",
+            "node_fx_layer1_2_bn3_34_b9b460a9:input:0",
+            "node_fx_layer1_2_bn3_34_b9b460a9:output:0",
+            "node_fx_add_2_35_231c4367:input:0",
+            "node_fx_add_2_35_231c4367:input:1",
+            "node_fx_add_2_35_231c4367:output:0"
+          ],
+          "target_role_id": "architecture_role_residual_stage_1_node_fx_layer1_1_relu_2_2_b2a57f91"
+        },
+        {
+          "attributes": {},
+          "confidence": 0.86,
+          "id": "architecture_route_residual_skip_architecture_role_residual_s_03e2a948",
+          "label": "Stage 2 shortcuts",
+          "protected": true,
+          "reasons": [
+            "A typed elementwise add has two converging source branches."
+          ],
+          "role": "residual-skip",
+          "source_role_id": "architecture_role_residual_stage_1_node_fx_layer1_1_relu_2_2_b2a57f91",
+          "supporting_edge_ids": [
+            "edge_node_fx_layer2_0_bn3_44_a8cc61c2_node_fx_l_496b672c",
+            "edge_node_fx_layer2_0_downsample_1_46_0f46f2f1__7757d8f5",
+            "edge_node_fx_layer2_1_bn3_56_eb1357c8_node_fx_l_193c996a",
+            "edge_node_fx_layer2_0_relu_2_48_05cd312b_node_f_c63775bb",
+            "edge_node_fx_layer2_2_bn3_66_85816bb0_node_fx_l_55ae26d6",
+            "edge_node_fx_layer2_1_relu_2_58_6021708b_node_f_716282ba",
+            "edge_node_fx_layer2_3_bn3_76_a8cbeab5_node_fx_l_7e703420",
+            "edge_node_fx_layer2_2_relu_2_68_a22075ae_node_f_b5910556"
+          ],
+          "supporting_node_ids": [
+            "node_fx_add_3_47_96d04362",
+            "node_fx_layer2_0_bn3_44_a8cc61c2",
+            "node_fx_layer2_0_downsample_1_46_0f46f2f1",
+            "node_fx_add_4_57_f67a5aea",
+            "node_fx_layer2_1_bn3_56_eb1357c8",
+            "node_fx_layer2_0_relu_2_48_05cd312b",
+            "node_fx_add_5_67_f2cdaea7",
+            "node_fx_layer2_2_bn3_66_85816bb0",
+            "node_fx_layer2_1_relu_2_58_6021708b",
+            "node_fx_add_6_77_22ae0364",
+            "node_fx_layer2_3_bn3_76_a8cbeab5",
+            "node_fx_layer2_2_relu_2_68_a22075ae"
+          ],
+          "supporting_port_ids": [
+            "node_fx_layer2_0_bn3_44_a8cc61c2:input:0",
+            "node_fx_layer2_0_bn3_44_a8cc61c2:output:0",
+            "node_fx_layer2_0_downsample_1_46_0f46f2f1:input:0",
+            "node_fx_layer2_0_downsample_1_46_0f46f2f1:output:0",
+            "node_fx_add_3_47_96d04362:input:0",
+            "node_fx_add_3_47_96d04362:input:1",
+            "node_fx_add_3_47_96d04362:output:0",
+            "node_fx_layer2_0_relu_2_48_05cd312b:input:0",
+            "node_fx_layer2_0_relu_2_48_05cd312b:output:0",
+            "node_fx_layer2_1_bn3_56_eb1357c8:input:0",
+            "node_fx_layer2_1_bn3_56_eb1357c8:output:0",
+            "node_fx_add_4_57_f67a5aea:input:0",
+            "node_fx_add_4_57_f67a5aea:input:1",
+            "node_fx_add_4_57_f67a5aea:output:0",
+            "node_fx_layer2_1_relu_2_58_6021708b:input:0",
+            "node_fx_layer2_1_relu_2_58_6021708b:output:0",
+            "node_fx_layer2_2_bn3_66_85816bb0:input:0",
+            "node_fx_layer2_2_bn3_66_85816bb0:output:0",
+            "node_fx_add_5_67_f2cdaea7:input:0",
+            "node_fx_add_5_67_f2cdaea7:input:1",
+            "node_fx_add_5_67_f2cdaea7:output:0",
+            "node_fx_layer2_2_relu_2_68_a22075ae:input:0",
+            "node_fx_layer2_2_relu_2_68_a22075ae:output:0",
+            "node_fx_layer2_3_bn3_76_a8cbeab5:input:0",
+            "node_fx_layer2_3_bn3_76_a8cbeab5:output:0",
+            "node_fx_add_6_77_22ae0364:input:0",
+            "node_fx_add_6_77_22ae0364:input:1",
+            "node_fx_add_6_77_22ae0364:output:0"
+          ],
+          "target_role_id": "architecture_role_residual_stage_2_node_fx_layer2_0_relu_2_4_1189bda8"
+        },
+        {
+          "attributes": {},
+          "confidence": 0.86,
+          "id": "architecture_route_residual_skip_architecture_role_residual_s_bab4807d",
+          "label": "Stage 3 shortcuts",
+          "protected": true,
+          "reasons": [
+            "A typed elementwise add has two converging source branches."
+          ],
+          "role": "residual-skip",
+          "source_role_id": "architecture_role_residual_stage_2_node_fx_layer2_0_relu_2_4_1189bda8",
+          "supporting_edge_ids": [
+            "edge_node_fx_layer3_0_bn3_86_c4cff39e_node_fx_l_4d756634",
+            "edge_node_fx_layer3_0_downsample_1_88_e2f25b06__16044ea4",
+            "edge_node_fx_layer3_1_bn3_98_e6ee6421_node_fx_l_42eacae8",
+            "edge_node_fx_layer3_0_relu_2_90_1e68bcee_node_f_f45c443d",
+            "edge_node_fx_layer3_2_bn3_108_e3c5d3f3_node_fx__6b5daa0e",
+            "edge_node_fx_layer3_1_relu_2_100_6097c8ca_node__cf132672",
+            "edge_node_fx_layer3_3_bn3_118_da46ec18_node_fx__08b49480",
+            "edge_node_fx_layer3_2_relu_2_110_c7281315_node__cbd3a1f4",
+            "edge_node_fx_layer3_4_bn3_128_0b9a9202_node_fx__63f8ac5b",
+            "edge_node_fx_layer3_3_relu_2_120_26437efd_node__f4250cae",
+            "edge_node_fx_layer3_5_bn3_138_59741683_node_fx__44ff73cd",
+            "edge_node_fx_layer3_4_relu_2_130_75b29f17_node__4b02df32"
+          ],
+          "supporting_node_ids": [
+            "node_fx_add_7_89_42366444",
+            "node_fx_layer3_0_bn3_86_c4cff39e",
+            "node_fx_layer3_0_downsample_1_88_e2f25b06",
+            "node_fx_add_8_99_41993a89",
+            "node_fx_layer3_1_bn3_98_e6ee6421",
+            "node_fx_layer3_0_relu_2_90_1e68bcee",
+            "node_fx_add_9_109_f5755adb",
+            "node_fx_layer3_2_bn3_108_e3c5d3f3",
+            "node_fx_layer3_1_relu_2_100_6097c8ca",
+            "node_fx_add_10_119_477ae606",
+            "node_fx_layer3_3_bn3_118_da46ec18",
+            "node_fx_layer3_2_relu_2_110_c7281315",
+            "node_fx_add_11_129_f1edfe86",
+            "node_fx_layer3_4_bn3_128_0b9a9202",
+            "node_fx_layer3_3_relu_2_120_26437efd",
+            "node_fx_add_12_139_abdc300d",
+            "node_fx_layer3_5_bn3_138_59741683",
+            "node_fx_layer3_4_relu_2_130_75b29f17"
+          ],
+          "supporting_port_ids": [
+            "node_fx_layer3_0_bn3_86_c4cff39e:input:0",
+            "node_fx_layer3_0_bn3_86_c4cff39e:output:0",
+            "node_fx_layer3_0_downsample_1_88_e2f25b06:input:0",
+            "node_fx_layer3_0_downsample_1_88_e2f25b06:output:0",
+            "node_fx_add_7_89_42366444:input:0",
+            "node_fx_add_7_89_42366444:input:1",
+            "node_fx_add_7_89_42366444:output:0",
+            "node_fx_layer3_0_relu_2_90_1e68bcee:input:0",
+            "node_fx_layer3_0_relu_2_90_1e68bcee:output:0",
+            "node_fx_layer3_1_bn3_98_e6ee6421:input:0",
+            "node_fx_layer3_1_bn3_98_e6ee6421:output:0",
+            "node_fx_add_8_99_41993a89:input:0",
+            "node_fx_add_8_99_41993a89:input:1",
+            "node_fx_add_8_99_41993a89:output:0",
+            "node_fx_layer3_1_relu_2_100_6097c8ca:input:0",
+            "node_fx_layer3_1_relu_2_100_6097c8ca:output:0",
+            "node_fx_layer3_2_bn3_108_e3c5d3f3:input:0",
+            "node_fx_layer3_2_bn3_108_e3c5d3f3:output:0",
+            "node_fx_add_9_109_f5755adb:input:0",
+            "node_fx_add_9_109_f5755adb:input:1",
+            "node_fx_add_9_109_f5755adb:output:0",
+            "node_fx_layer3_2_relu_2_110_c7281315:input:0",
+            "node_fx_layer3_2_relu_2_110_c7281315:output:0",
+            "node_fx_layer3_3_bn3_118_da46ec18:input:0",
+            "node_fx_layer3_3_bn3_118_da46ec18:output:0",
+            "node_fx_add_10_119_477ae606:input:0",
+            "node_fx_add_10_119_477ae606:input:1",
+            "node_fx_add_10_119_477ae606:output:0",
+            "node_fx_layer3_3_relu_2_120_26437efd:input:0",
+            "node_fx_layer3_3_relu_2_120_26437efd:output:0",
+            "node_fx_layer3_4_bn3_128_0b9a9202:input:0",
+            "node_fx_layer3_4_bn3_128_0b9a9202:output:0",
+            "node_fx_add_11_129_f1edfe86:input:0",
+            "node_fx_add_11_129_f1edfe86:input:1",
+            "node_fx_add_11_129_f1edfe86:output:0",
+            "node_fx_layer3_4_relu_2_130_75b29f17:input:0",
+            "node_fx_layer3_4_relu_2_130_75b29f17:output:0",
+            "node_fx_layer3_5_bn3_138_59741683:input:0",
+            "node_fx_layer3_5_bn3_138_59741683:output:0",
+            "node_fx_add_12_139_abdc300d:input:0",
+            "node_fx_add_12_139_abdc300d:input:1",
+            "node_fx_add_12_139_abdc300d:output:0"
+          ],
+          "target_role_id": "architecture_role_residual_stage_3_node_fx_layer3_2_relu_2_1_37a1691b"
+        },
+        {
+          "attributes": {},
+          "confidence": 0.86,
+          "id": "architecture_route_residual_skip_architecture_role_residual_s_45eae869",
+          "label": "Stage 4 shortcuts",
+          "protected": true,
+          "reasons": [
+            "A typed elementwise add has two converging source branches."
+          ],
+          "role": "residual-skip",
+          "source_role_id": "architecture_role_residual_stage_3_node_fx_layer3_2_relu_2_1_37a1691b",
+          "supporting_edge_ids": [
+            "edge_node_fx_layer4_0_bn3_148_24d0732a_node_fx__411c98b4",
+            "edge_node_fx_layer4_0_downsample_1_150_f08f021b_1281b27c",
+            "edge_node_fx_layer4_1_bn3_160_8ed242b2_node_fx__ee402982",
+            "edge_node_fx_layer4_0_relu_2_152_b0d3b5b5_node__b92755d9",
+            "edge_node_fx_layer4_2_bn3_170_351ae529_node_fx__ca6863c7",
+            "edge_node_fx_layer4_1_relu_2_162_c8a40256_node__3af33a97"
+          ],
+          "supporting_node_ids": [
+            "node_fx_add_13_151_28142a6f",
+            "node_fx_layer4_0_bn3_148_24d0732a",
+            "node_fx_layer4_0_downsample_1_150_f08f021b",
+            "node_fx_add_14_161_7bfc243d",
+            "node_fx_layer4_1_bn3_160_8ed242b2",
+            "node_fx_layer4_0_relu_2_152_b0d3b5b5",
+            "node_fx_add_15_171_5e3d5c38",
+            "node_fx_layer4_2_bn3_170_351ae529",
+            "node_fx_layer4_1_relu_2_162_c8a40256"
+          ],
+          "supporting_port_ids": [
+            "node_fx_layer4_0_bn3_148_24d0732a:input:0",
+            "node_fx_layer4_0_bn3_148_24d0732a:output:0",
+            "node_fx_layer4_0_downsample_1_150_f08f021b:input:0",
+            "node_fx_layer4_0_downsample_1_150_f08f021b:output:0",
+            "node_fx_add_13_151_28142a6f:input:0",
+            "node_fx_add_13_151_28142a6f:input:1",
+            "node_fx_add_13_151_28142a6f:output:0",
+            "node_fx_layer4_0_relu_2_152_b0d3b5b5:input:0",
+            "node_fx_layer4_0_relu_2_152_b0d3b5b5:output:0",
+            "node_fx_layer4_1_bn3_160_8ed242b2:input:0",
+            "node_fx_layer4_1_bn3_160_8ed242b2:output:0",
+            "node_fx_add_14_161_7bfc243d:input:0",
+            "node_fx_add_14_161_7bfc243d:input:1",
+            "node_fx_add_14_161_7bfc243d:output:0",
+            "node_fx_layer4_1_relu_2_162_c8a40256:input:0",
+            "node_fx_layer4_1_relu_2_162_c8a40256:output:0",
+            "node_fx_layer4_2_bn3_170_351ae529:input:0",
+            "node_fx_layer4_2_bn3_170_351ae529:output:0",
+            "node_fx_add_15_171_5e3d5c38:input:0",
+            "node_fx_add_15_171_5e3d5c38:input:1",
+            "node_fx_add_15_171_5e3d5c38:output:0"
+          ],
+          "target_role_id": "architecture_role_residual_stage_4_node_fx_layer4_1_relu_2_1_308e4813"
+        }
+      ],
+      "detected_roles": [
+        {
+          "attributes": {},
+          "confidence": 0.94,
+          "id": "architecture_role_input_stem_0_node_fx_layer1_0_conv2_8_6a3d_9ddb11ed",
+          "label": "Input / stem",
+          "order": 0,
+          "protected": true,
+          "reasons": [
+            "This source subgraph is the complete ancestor prefix of the first repeated residual stage."
+          ],
+          "repeat_count": 1,
+          "role": "input-stem",
+          "supporting_edge_ids": [
+            "edge_node_fx_x_0_5fe7ea6f_node_fx_x_0_5fe7ea6f__41a5f859",
+            "edge_node_fx_conv1_1_169d0aad_node_fx_conv1_1_1_a8315ffb",
+            "edge_node_fx_bn1_2_962cdbab_node_fx_bn1_2_962cd_1d626e34",
+            "edge_node_fx_relu_3_8554a7a9_node_fx_relu_3_855_7f6cb8d3",
+            "edge_node_fx_maxpool_4_a1d7280e_node_fx_maxpool_29fc54ee",
+            "edge_node_fx_layer1_0_conv1_5_022b7ef8_node_fx__7708819e",
+            "edge_node_fx_layer1_0_bn1_6_02c52240_node_fx_la_e4c6ecdd",
+            "edge_node_fx_layer1_0_relu_7_92edf1ab_node_fx_l_40a0eb4d",
+            "edge_node_fx_layer1_0_conv2_8_6a3dc320_node_fx__0ff3e7a8",
+            "edge_node_fx_layer1_0_bn2_9_b4c249f0_node_fx_la_dd8263b8",
+            "edge_node_fx_layer1_0_relu_1_10_46ff05df_node_f_4e897dba",
+            "edge_node_fx_maxpool_4_a1d7280e_node_fx_maxpool_322d3e5c",
+            "edge_node_fx_layer1_1_conv1_17_900092d3_node_fx_d5c8c4b2",
+            "edge_node_fx_layer1_1_bn1_18_f9f616e9_node_fx_l_933df0be",
+            "edge_node_fx_layer1_1_relu_19_0bb9e215_node_fx__27cb4a69",
+            "edge_node_fx_layer1_1_conv2_20_92ab788a_node_fx_85f917b9",
+            "edge_node_fx_layer1_1_bn2_21_23c014d3_node_fx_l_c877eb74",
+            "edge_node_fx_layer1_1_relu_1_22_3cbd7717_node_f_67e430b0",
+            "edge_node_fx_layer1_2_conv1_27_5544acdd_node_fx_6b79aaf8",
+            "edge_node_fx_layer1_2_bn1_28_d7508145_node_fx_l_0b4e57ce",
+            "edge_node_fx_layer1_2_relu_29_15aaacb0_node_fx__d8312e42",
+            "edge_node_fx_layer1_2_conv2_30_e8b5618b_node_fx_6b471600",
+            "edge_node_fx_layer1_2_bn2_31_ad98ac19_node_fx_l_3a08ecf7",
+            "edge_node_fx_layer1_2_relu_1_32_c14e3bd1_node_f_0f5abc87"
+          ],
+          "supporting_node_ids": [
+            "node_fx_layer1_0_conv2_8_6a3dc320",
+            "node_fx_layer1_1_bn2_21_23c014d3",
+            "node_fx_layer1_1_relu_1_22_3cbd7717",
+            "node_fx_layer1_0_downsample_0_13_7f21d735",
+            "node_fx_layer1_1_relu_19_0bb9e215",
+            "node_fx_layer1_0_bn2_9_b4c249f0",
+            "node_fx_layer1_0_conv3_11_34e0f1c7",
+            "node_fx_layer1_1_conv1_17_900092d3",
+            "node_fx_conv1_1_169d0aad",
+            "node_fx_relu_3_8554a7a9",
+            "node_fx_layer1_1_conv3_23_5bd29c04",
+            "node_fx_layer1_2_conv3_33_2001f339",
+            "node_fx_maxpool_4_a1d7280e",
+            "node_fx_x_0_5fe7ea6f",
+            "node_fx_layer1_2_bn1_28_d7508145",
+            "node_fx_layer1_1_bn1_18_f9f616e9",
+            "node_fx_layer1_2_relu_29_15aaacb0",
+            "node_fx_layer1_0_bn1_6_02c52240",
+            "node_fx_layer1_2_relu_1_32_c14e3bd1",
+            "node_fx_layer1_2_conv2_30_e8b5618b",
+            "node_fx_layer1_0_relu_7_92edf1ab",
+            "node_fx_layer1_0_relu_1_10_46ff05df",
+            "node_fx_layer1_2_bn2_31_ad98ac19",
+            "node_fx_bn1_2_962cdbab",
+            "node_fx_layer1_0_conv1_5_022b7ef8",
+            "node_fx_layer1_1_conv2_20_92ab788a",
+            "node_fx_layer1_2_conv1_27_5544acdd"
+          ],
+          "supporting_port_ids": [
+            "node_fx_x_0_5fe7ea6f:output:0",
+            "node_fx_conv1_1_169d0aad:input:0",
+            "node_fx_conv1_1_169d0aad:output:0",
+            "node_fx_bn1_2_962cdbab:input:0",
+            "node_fx_bn1_2_962cdbab:output:0",
+            "node_fx_relu_3_8554a7a9:input:0",
+            "node_fx_relu_3_8554a7a9:output:0",
+            "node_fx_maxpool_4_a1d7280e:input:0",
+            "node_fx_maxpool_4_a1d7280e:output:0",
+            "node_fx_layer1_0_conv1_5_022b7ef8:input:0",
+            "node_fx_layer1_0_conv1_5_022b7ef8:output:0",
+            "node_fx_layer1_0_bn1_6_02c52240:input:0",
+            "node_fx_layer1_0_bn1_6_02c52240:output:0",
+            "node_fx_layer1_0_relu_7_92edf1ab:input:0",
+            "node_fx_layer1_0_relu_7_92edf1ab:output:0",
+            "node_fx_layer1_0_conv2_8_6a3dc320:input:0",
+            "node_fx_layer1_0_conv2_8_6a3dc320:output:0",
+            "node_fx_layer1_0_bn2_9_b4c249f0:input:0",
+            "node_fx_layer1_0_bn2_9_b4c249f0:output:0",
+            "node_fx_layer1_0_relu_1_10_46ff05df:input:0",
+            "node_fx_layer1_0_relu_1_10_46ff05df:output:0",
+            "node_fx_layer1_0_conv3_11_34e0f1c7:input:0",
+            "node_fx_layer1_0_conv3_11_34e0f1c7:output:0",
+            "node_fx_layer1_0_downsample_0_13_7f21d735:input:0",
+            "node_fx_layer1_0_downsample_0_13_7f21d735:output:0",
+            "node_fx_layer1_1_conv1_17_900092d3:input:0",
+            "node_fx_layer1_1_conv1_17_900092d3:output:0",
+            "node_fx_layer1_1_bn1_18_f9f616e9:input:0",
+            "node_fx_layer1_1_bn1_18_f9f616e9:output:0",
+            "node_fx_layer1_1_relu_19_0bb9e215:input:0",
+            "node_fx_layer1_1_relu_19_0bb9e215:output:0",
+            "node_fx_layer1_1_conv2_20_92ab788a:input:0",
+            "node_fx_layer1_1_conv2_20_92ab788a:output:0",
+            "node_fx_layer1_1_bn2_21_23c014d3:input:0",
+            "node_fx_layer1_1_bn2_21_23c014d3:output:0",
+            "node_fx_layer1_1_relu_1_22_3cbd7717:input:0",
+            "node_fx_layer1_1_relu_1_22_3cbd7717:output:0",
+            "node_fx_layer1_1_conv3_23_5bd29c04:input:0",
+            "node_fx_layer1_1_conv3_23_5bd29c04:output:0",
+            "node_fx_layer1_2_conv1_27_5544acdd:input:0",
+            "node_fx_layer1_2_conv1_27_5544acdd:output:0",
+            "node_fx_layer1_2_bn1_28_d7508145:input:0",
+            "node_fx_layer1_2_bn1_28_d7508145:output:0",
+            "node_fx_layer1_2_relu_29_15aaacb0:input:0",
+            "node_fx_layer1_2_relu_29_15aaacb0:output:0",
+            "node_fx_layer1_2_conv2_30_e8b5618b:input:0",
+            "node_fx_layer1_2_conv2_30_e8b5618b:output:0",
+            "node_fx_layer1_2_bn2_31_ad98ac19:input:0",
+            "node_fx_layer1_2_bn2_31_ad98ac19:output:0",
+            "node_fx_layer1_2_relu_1_32_c14e3bd1:input:0",
+            "node_fx_layer1_2_relu_1_32_c14e3bd1:output:0",
+            "node_fx_layer1_2_conv3_33_2001f339:input:0",
+            "node_fx_layer1_2_conv3_33_2001f339:output:0"
+          ]
+        },
+        {
+          "attributes": {
+            "bottleneck": true,
+            "merge_node_ids": [
+              "node_fx_add_15_a1bc4f1b",
+              "node_fx_add_1_25_164248c2",
+              "node_fx_add_2_35_231c4367"
+            ],
+            "semantic_type": "residual_block",
+            "spatial_signature": [
+              256,
+              16,
+              16
+            ],
+            "stage_index": 1
+          },
+          "confidence": 0.86,
+          "id": "architecture_role_residual_stage_1_node_fx_layer1_1_relu_2_2_b2a57f91",
+          "label": "Stage 1 ×3 Bottleneck",
+          "order": 1,
+          "protected": true,
+          "reasons": [
+            "The stage contains 3 same-shape topology-backed residual merges.",
+            "Its boundary is the output tensor shape transition between adjacent residual groups."
+          ],
+          "repeat_count": 3,
+          "role": "residual-stage",
+          "supporting_edge_ids": [
+            "edge_node_fx_layer1_0_bn3_12_6eb7011c_node_fx_l_af756db0",
+            "edge_node_fx_layer1_0_downsample_1_14_7e1b146f__02de3c3b",
+            "edge_node_fx_layer1_1_bn3_24_6c113f3c_node_fx_l_dba0bc97",
+            "edge_node_fx_layer1_0_relu_2_16_979fbfcd_node_f_44721098",
+            "edge_node_fx_layer1_2_bn3_34_b9b460a9_node_fx_l_5e5ecce3",
+            "edge_node_fx_layer1_1_relu_2_26_9962d8b6_node_f_5ec0d139",
+            "edge_node_fx_add_15_a1bc4f1b_node_fx_add_15_a1b_424b17e7",
+            "edge_node_fx_add_1_25_164248c2_node_fx_add_1_25_1dcc72a3"
+          ],
+          "supporting_node_ids": [
+            "node_fx_layer1_1_relu_2_26_9962d8b6",
+            "node_fx_add_15_a1bc4f1b",
+            "node_fx_add_1_25_164248c2",
+            "node_fx_layer1_0_relu_2_16_979fbfcd",
+            "node_fx_layer1_0_bn3_12_6eb7011c",
+            "node_fx_layer1_0_downsample_1_14_7e1b146f",
+            "node_fx_layer1_1_bn3_24_6c113f3c",
+            "node_fx_add_2_35_231c4367",
+            "node_fx_layer1_2_bn3_34_b9b460a9"
+          ],
+          "supporting_port_ids": [
+            "node_fx_layer1_0_bn3_12_6eb7011c:input:0",
+            "node_fx_layer1_0_bn3_12_6eb7011c:output:0",
+            "node_fx_layer1_0_downsample_1_14_7e1b146f:input:0",
+            "node_fx_layer1_0_downsample_1_14_7e1b146f:output:0",
+            "node_fx_add_15_a1bc4f1b:input:0",
+            "node_fx_add_15_a1bc4f1b:input:1",
+            "node_fx_add_15_a1bc4f1b:output:0",
+            "node_fx_layer1_0_relu_2_16_979fbfcd:input:0",
+            "node_fx_layer1_0_relu_2_16_979fbfcd:output:0",
+            "node_fx_layer1_1_bn3_24_6c113f3c:input:0",
+            "node_fx_layer1_1_bn3_24_6c113f3c:output:0",
+            "node_fx_add_1_25_164248c2:input:0",
+            "node_fx_add_1_25_164248c2:input:1",
+            "node_fx_add_1_25_164248c2:output:0",
+            "node_fx_layer1_1_relu_2_26_9962d8b6:input:0",
+            "node_fx_layer1_1_relu_2_26_9962d8b6:output:0",
+            "node_fx_layer1_2_bn3_34_b9b460a9:input:0",
+            "node_fx_layer1_2_bn3_34_b9b460a9:output:0",
+            "node_fx_add_2_35_231c4367:input:0",
+            "node_fx_add_2_35_231c4367:input:1",
+            "node_fx_add_2_35_231c4367:output:0"
+          ]
+        },
+        {
+          "attributes": {
+            "bottleneck": true,
+            "merge_node_ids": [
+              "node_fx_add_3_47_96d04362",
+              "node_fx_add_4_57_f67a5aea",
+              "node_fx_add_5_67_f2cdaea7",
+              "node_fx_add_6_77_22ae0364"
+            ],
+            "semantic_type": "residual_block",
+            "spatial_signature": [
+              512,
+              8,
+              8
+            ],
+            "stage_index": 2
+          },
+          "confidence": 0.86,
+          "id": "architecture_role_residual_stage_2_node_fx_layer2_0_relu_2_4_1189bda8",
+          "label": "Stage 2 ×4 Bottleneck",
+          "order": 2,
+          "protected": true,
+          "reasons": [
+            "The stage contains 4 same-shape topology-backed residual merges.",
+            "Its boundary is the output tensor shape transition between adjacent residual groups."
+          ],
+          "repeat_count": 4,
+          "role": "residual-stage",
+          "supporting_edge_ids": [
+            "edge_node_fx_layer2_0_bn3_44_a8cc61c2_node_fx_l_496b672c",
+            "edge_node_fx_layer2_0_downsample_1_46_0f46f2f1__7757d8f5",
+            "edge_node_fx_layer2_1_bn3_56_eb1357c8_node_fx_l_193c996a",
+            "edge_node_fx_layer2_0_relu_2_48_05cd312b_node_f_c63775bb",
+            "edge_node_fx_layer2_2_bn3_66_85816bb0_node_fx_l_55ae26d6",
+            "edge_node_fx_layer2_1_relu_2_58_6021708b_node_f_716282ba",
+            "edge_node_fx_layer2_3_bn3_76_a8cbeab5_node_fx_l_7e703420",
+            "edge_node_fx_layer2_2_relu_2_68_a22075ae_node_f_b5910556",
+            "edge_node_fx_add_3_47_96d04362_node_fx_add_3_47_4ee9075f",
+            "edge_node_fx_add_4_57_f67a5aea_node_fx_add_4_57_9fdd3c5c",
+            "edge_node_fx_add_5_67_f2cdaea7_node_fx_add_5_67_f64bd2c1"
+          ],
+          "supporting_node_ids": [
+            "node_fx_layer2_0_relu_2_48_05cd312b",
+            "node_fx_layer2_2_relu_2_68_a22075ae",
+            "node_fx_add_6_77_22ae0364",
+            "node_fx_add_4_57_f67a5aea",
+            "node_fx_layer2_1_bn3_56_eb1357c8",
+            "node_fx_layer2_3_bn3_76_a8cbeab5",
+            "node_fx_layer2_0_downsample_1_46_0f46f2f1",
+            "node_fx_layer2_1_relu_2_58_6021708b",
+            "node_fx_add_5_67_f2cdaea7",
+            "node_fx_layer2_2_bn3_66_85816bb0",
+            "node_fx_layer2_0_bn3_44_a8cc61c2",
+            "node_fx_add_3_47_96d04362"
+          ],
+          "supporting_port_ids": [
+            "node_fx_layer2_0_bn3_44_a8cc61c2:input:0",
+            "node_fx_layer2_0_bn3_44_a8cc61c2:output:0",
+            "node_fx_layer2_0_downsample_1_46_0f46f2f1:input:0",
+            "node_fx_layer2_0_downsample_1_46_0f46f2f1:output:0",
+            "node_fx_add_3_47_96d04362:input:0",
+            "node_fx_add_3_47_96d04362:input:1",
+            "node_fx_add_3_47_96d04362:output:0",
+            "node_fx_layer2_0_relu_2_48_05cd312b:input:0",
+            "node_fx_layer2_0_relu_2_48_05cd312b:output:0",
+            "node_fx_layer2_1_bn3_56_eb1357c8:input:0",
+            "node_fx_layer2_1_bn3_56_eb1357c8:output:0",
+            "node_fx_add_4_57_f67a5aea:input:0",
+            "node_fx_add_4_57_f67a5aea:input:1",
+            "node_fx_add_4_57_f67a5aea:output:0",
+            "node_fx_layer2_1_relu_2_58_6021708b:input:0",
+            "node_fx_layer2_1_relu_2_58_6021708b:output:0",
+            "node_fx_layer2_2_bn3_66_85816bb0:input:0",
+            "node_fx_layer2_2_bn3_66_85816bb0:output:0",
+            "node_fx_add_5_67_f2cdaea7:input:0",
+            "node_fx_add_5_67_f2cdaea7:input:1",
+            "node_fx_add_5_67_f2cdaea7:output:0",
+            "node_fx_layer2_2_relu_2_68_a22075ae:input:0",
+            "node_fx_layer2_2_relu_2_68_a22075ae:output:0",
+            "node_fx_layer2_3_bn3_76_a8cbeab5:input:0",
+            "node_fx_layer2_3_bn3_76_a8cbeab5:output:0",
+            "node_fx_add_6_77_22ae0364:input:0",
+            "node_fx_add_6_77_22ae0364:input:1",
+            "node_fx_add_6_77_22ae0364:output:0"
+          ]
+        },
+        {
+          "attributes": {
+            "bottleneck": true,
+            "merge_node_ids": [
+              "node_fx_add_7_89_42366444",
+              "node_fx_add_8_99_41993a89",
+              "node_fx_add_9_109_f5755adb",
+              "node_fx_add_10_119_477ae606",
+              "node_fx_add_11_129_f1edfe86",
+              "node_fx_add_12_139_abdc300d"
+            ],
+            "semantic_type": "residual_block",
+            "spatial_signature": [
+              1024,
+              4,
+              4
+            ],
+            "stage_index": 3
+          },
+          "confidence": 0.86,
+          "id": "architecture_role_residual_stage_3_node_fx_layer3_2_relu_2_1_37a1691b",
+          "label": "Stage 3 ×6 Bottleneck",
+          "order": 3,
+          "protected": true,
+          "reasons": [
+            "The stage contains 6 same-shape topology-backed residual merges.",
+            "Its boundary is the output tensor shape transition between adjacent residual groups."
+          ],
+          "repeat_count": 6,
+          "role": "residual-stage",
+          "supporting_edge_ids": [
+            "edge_node_fx_layer3_0_bn3_86_c4cff39e_node_fx_l_4d756634",
+            "edge_node_fx_layer3_0_downsample_1_88_e2f25b06__16044ea4",
+            "edge_node_fx_layer3_1_bn3_98_e6ee6421_node_fx_l_42eacae8",
+            "edge_node_fx_layer3_0_relu_2_90_1e68bcee_node_f_f45c443d",
+            "edge_node_fx_layer3_2_bn3_108_e3c5d3f3_node_fx__6b5daa0e",
+            "edge_node_fx_layer3_1_relu_2_100_6097c8ca_node__cf132672",
+            "edge_node_fx_layer3_3_bn3_118_da46ec18_node_fx__08b49480",
+            "edge_node_fx_layer3_2_relu_2_110_c7281315_node__cbd3a1f4",
+            "edge_node_fx_layer3_4_bn3_128_0b9a9202_node_fx__63f8ac5b",
+            "edge_node_fx_layer3_3_relu_2_120_26437efd_node__f4250cae",
+            "edge_node_fx_layer3_5_bn3_138_59741683_node_fx__44ff73cd",
+            "edge_node_fx_layer3_4_relu_2_130_75b29f17_node__4b02df32",
+            "edge_node_fx_add_7_89_42366444_node_fx_add_7_89_79720abc",
+            "edge_node_fx_add_8_99_41993a89_node_fx_add_8_99_429c8520",
+            "edge_node_fx_add_9_109_f5755adb_node_fx_add_9_1_5e744af3",
+            "edge_node_fx_add_10_119_477ae606_node_fx_add_10_9bf94243",
+            "edge_node_fx_add_11_129_f1edfe86_node_fx_add_11_2fec60ff"
+          ],
+          "supporting_node_ids": [
+            "node_fx_layer3_2_relu_2_110_c7281315",
+            "node_fx_layer3_3_relu_2_120_26437efd",
+            "node_fx_layer3_2_bn3_108_e3c5d3f3",
+            "node_fx_add_11_129_f1edfe86",
+            "node_fx_layer3_4_bn3_128_0b9a9202",
+            "node_fx_layer3_1_bn3_98_e6ee6421",
+            "node_fx_layer3_0_bn3_86_c4cff39e",
+            "node_fx_layer3_1_relu_2_100_6097c8ca",
+            "node_fx_layer3_3_bn3_118_da46ec18",
+            "node_fx_add_12_139_abdc300d",
+            "node_fx_add_7_89_42366444",
+            "node_fx_add_10_119_477ae606",
+            "node_fx_layer3_0_relu_2_90_1e68bcee",
+            "node_fx_add_9_109_f5755adb",
+            "node_fx_add_8_99_41993a89",
+            "node_fx_layer3_5_bn3_138_59741683",
+            "node_fx_layer3_4_relu_2_130_75b29f17",
+            "node_fx_layer3_0_downsample_1_88_e2f25b06"
+          ],
+          "supporting_port_ids": [
+            "node_fx_layer3_0_bn3_86_c4cff39e:input:0",
+            "node_fx_layer3_0_bn3_86_c4cff39e:output:0",
+            "node_fx_layer3_0_downsample_1_88_e2f25b06:input:0",
+            "node_fx_layer3_0_downsample_1_88_e2f25b06:output:0",
+            "node_fx_add_7_89_42366444:input:0",
+            "node_fx_add_7_89_42366444:input:1",
+            "node_fx_add_7_89_42366444:output:0",
+            "node_fx_layer3_0_relu_2_90_1e68bcee:input:0",
+            "node_fx_layer3_0_relu_2_90_1e68bcee:output:0",
+            "node_fx_layer3_1_bn3_98_e6ee6421:input:0",
+            "node_fx_layer3_1_bn3_98_e6ee6421:output:0",
+            "node_fx_add_8_99_41993a89:input:0",
+            "node_fx_add_8_99_41993a89:input:1",
+            "node_fx_add_8_99_41993a89:output:0",
+            "node_fx_layer3_1_relu_2_100_6097c8ca:input:0",
+            "node_fx_layer3_1_relu_2_100_6097c8ca:output:0",
+            "node_fx_layer3_2_bn3_108_e3c5d3f3:input:0",
+            "node_fx_layer3_2_bn3_108_e3c5d3f3:output:0",
+            "node_fx_add_9_109_f5755adb:input:0",
+            "node_fx_add_9_109_f5755adb:input:1",
+            "node_fx_add_9_109_f5755adb:output:0",
+            "node_fx_layer3_2_relu_2_110_c7281315:input:0",
+            "node_fx_layer3_2_relu_2_110_c7281315:output:0",
+            "node_fx_layer3_3_bn3_118_da46ec18:input:0",
+            "node_fx_layer3_3_bn3_118_da46ec18:output:0",
+            "node_fx_add_10_119_477ae606:input:0",
+            "node_fx_add_10_119_477ae606:input:1",
+            "node_fx_add_10_119_477ae606:output:0",
+            "node_fx_layer3_3_relu_2_120_26437efd:input:0",
+            "node_fx_layer3_3_relu_2_120_26437efd:output:0",
+            "node_fx_layer3_4_bn3_128_0b9a9202:input:0",
+            "node_fx_layer3_4_bn3_128_0b9a9202:output:0",
+            "node_fx_add_11_129_f1edfe86:input:0",
+            "node_fx_add_11_129_f1edfe86:input:1",
+            "node_fx_add_11_129_f1edfe86:output:0",
+            "node_fx_layer3_4_relu_2_130_75b29f17:input:0",
+            "node_fx_layer3_4_relu_2_130_75b29f17:output:0",
+            "node_fx_layer3_5_bn3_138_59741683:input:0",
+            "node_fx_layer3_5_bn3_138_59741683:output:0",
+            "node_fx_add_12_139_abdc300d:input:0",
+            "node_fx_add_12_139_abdc300d:input:1",
+            "node_fx_add_12_139_abdc300d:output:0"
+          ]
+        },
+        {
+          "attributes": {
+            "bottleneck": true,
+            "merge_node_ids": [
+              "node_fx_add_13_151_28142a6f",
+              "node_fx_add_14_161_7bfc243d",
+              "node_fx_add_15_171_5e3d5c38"
+            ],
+            "semantic_type": "residual_block",
+            "spatial_signature": [
+              2048,
+              2,
+              2
+            ],
+            "stage_index": 4
+          },
+          "confidence": 0.86,
+          "id": "architecture_role_residual_stage_4_node_fx_layer4_1_relu_2_1_308e4813",
+          "label": "Stage 4 ×3 Bottleneck",
+          "order": 4,
+          "protected": true,
+          "reasons": [
+            "The stage contains 3 same-shape topology-backed residual merges.",
+            "Its boundary is the output tensor shape transition between adjacent residual groups."
+          ],
+          "repeat_count": 3,
+          "role": "residual-stage",
+          "supporting_edge_ids": [
+            "edge_node_fx_layer4_0_bn3_148_24d0732a_node_fx__411c98b4",
+            "edge_node_fx_layer4_0_downsample_1_150_f08f021b_1281b27c",
+            "edge_node_fx_layer4_1_bn3_160_8ed242b2_node_fx__ee402982",
+            "edge_node_fx_layer4_0_relu_2_152_b0d3b5b5_node__b92755d9",
+            "edge_node_fx_layer4_2_bn3_170_351ae529_node_fx__ca6863c7",
+            "edge_node_fx_layer4_1_relu_2_162_c8a40256_node__3af33a97",
+            "edge_node_fx_add_13_151_28142a6f_node_fx_add_13_58b206fb",
+            "edge_node_fx_add_14_161_7bfc243d_node_fx_add_14_c707e099"
+          ],
+          "supporting_node_ids": [
+            "node_fx_layer4_1_relu_2_162_c8a40256",
+            "node_fx_add_14_161_7bfc243d",
+            "node_fx_layer4_2_bn3_170_351ae529",
+            "node_fx_layer4_0_relu_2_152_b0d3b5b5",
+            "node_fx_layer4_1_bn3_160_8ed242b2",
+            "node_fx_add_15_171_5e3d5c38",
+            "node_fx_add_13_151_28142a6f",
+            "node_fx_layer4_0_bn3_148_24d0732a",
+            "node_fx_layer4_0_downsample_1_150_f08f021b"
+          ],
+          "supporting_port_ids": [
+            "node_fx_layer4_0_bn3_148_24d0732a:input:0",
+            "node_fx_layer4_0_bn3_148_24d0732a:output:0",
+            "node_fx_layer4_0_downsample_1_150_f08f021b:input:0",
+            "node_fx_layer4_0_downsample_1_150_f08f021b:output:0",
+            "node_fx_add_13_151_28142a6f:input:0",
+            "node_fx_add_13_151_28142a6f:input:1",
+            "node_fx_add_13_151_28142a6f:output:0",
+            "node_fx_layer4_0_relu_2_152_b0d3b5b5:input:0",
+            "node_fx_layer4_0_relu_2_152_b0d3b5b5:output:0",
+            "node_fx_layer4_1_bn3_160_8ed242b2:input:0",
+            "node_fx_layer4_1_bn3_160_8ed242b2:output:0",
+            "node_fx_add_14_161_7bfc243d:input:0",
+            "node_fx_add_14_161_7bfc243d:input:1",
+            "node_fx_add_14_161_7bfc243d:output:0",
+            "node_fx_layer4_1_relu_2_162_c8a40256:input:0",
+            "node_fx_layer4_1_relu_2_162_c8a40256:output:0",
+            "node_fx_layer4_2_bn3_170_351ae529:input:0",
+            "node_fx_layer4_2_bn3_170_351ae529:output:0",
+            "node_fx_add_15_171_5e3d5c38:input:0",
+            "node_fx_add_15_171_5e3d5c38:input:1",
+            "node_fx_add_15_171_5e3d5c38:output:0"
+          ]
+        },
+        {
+          "attributes": {},
+          "confidence": 0.94,
+          "id": "architecture_role_output_head_5_node_fx_layer4_2_conv1_163_b_795a7df5",
+          "label": "Pooling / classifier",
+          "order": 5,
+          "protected": true,
+          "reasons": [
+            "This source subgraph is the complete descendant suffix of the final repeated residual stage."
+          ],
+          "repeat_count": 1,
+          "role": "output-head",
+          "supporting_edge_ids": [
+            "edge_node_fx_layer4_1_conv1_153_70c91a59_node_f_96b0e8b4",
+            "edge_node_fx_layer4_1_bn1_154_1c2028c9_node_fx__1006fb9d",
+            "edge_node_fx_layer4_1_relu_155_fd19e796_node_fx_ad3da844",
+            "edge_node_fx_layer4_1_conv2_156_aa515efd_node_f_158570f9",
+            "edge_node_fx_layer4_1_bn2_157_d407d242_node_fx__f69f8e69",
+            "edge_node_fx_layer4_1_relu_1_158_00eebd7c_node__3525a05e",
+            "edge_node_fx_layer4_2_conv1_163_ba942735_node_f_fd7af6b1",
+            "edge_node_fx_layer4_2_bn1_164_84f8e1cf_node_fx__28f82a4c",
+            "edge_node_fx_layer4_2_relu_165_03fd17ba_node_fx_4362bbd2",
+            "edge_node_fx_layer4_2_conv2_166_0db35e83_node_f_022a700c",
+            "edge_node_fx_layer4_2_bn2_167_ac9ef85d_node_fx__9312561d",
+            "edge_node_fx_layer4_2_relu_1_168_0b2c04db_node__25870bf8",
+            "edge_node_fx_layer4_2_relu_2_172_f7799803_node__3bdff334",
+            "edge_node_fx_avgpool_173_216bcbd3_node_fx_avgpo_378d1768",
+            "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+            "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9"
+          ],
+          "supporting_node_ids": [
+            "node_fx_layer4_2_conv1_163_ba942735",
+            "node_fx_avgpool_173_216bcbd3",
+            "node_fx_flatten_174_920541e7",
+            "node_fx_fc_175_9af358a5",
+            "node_fx_layer4_1_relu_1_158_00eebd7c",
+            "node_fx_layer4_2_bn2_167_ac9ef85d",
+            "node_fx_layer4_1_bn1_154_1c2028c9",
+            "node_fx_layer4_2_relu_165_03fd17ba",
+            "node_fx_layer4_2_conv2_166_0db35e83",
+            "node_fx_layer4_1_conv2_156_aa515efd",
+            "node_fx_layer4_2_relu_1_168_0b2c04db",
+            "node_fx_layer4_1_bn2_157_d407d242",
+            "node_fx_layer4_1_conv3_159_37bde18c",
+            "node_fx_layer4_2_conv3_169_6a52e7b0",
+            "node_fx_output_176_a4d4af23",
+            "node_fx_layer4_2_relu_2_172_f7799803",
+            "node_fx_layer4_1_relu_155_fd19e796",
+            "node_fx_layer4_1_conv1_153_70c91a59",
+            "node_fx_layer4_2_bn1_164_84f8e1cf"
+          ],
+          "supporting_port_ids": [
+            "node_fx_layer4_1_conv1_153_70c91a59:input:0",
+            "node_fx_layer4_1_conv1_153_70c91a59:output:0",
+            "node_fx_layer4_1_bn1_154_1c2028c9:input:0",
+            "node_fx_layer4_1_bn1_154_1c2028c9:output:0",
+            "node_fx_layer4_1_relu_155_fd19e796:input:0",
+            "node_fx_layer4_1_relu_155_fd19e796:output:0",
+            "node_fx_layer4_1_conv2_156_aa515efd:input:0",
+            "node_fx_layer4_1_conv2_156_aa515efd:output:0",
+            "node_fx_layer4_1_bn2_157_d407d242:input:0",
+            "node_fx_layer4_1_bn2_157_d407d242:output:0",
+            "node_fx_layer4_1_relu_1_158_00eebd7c:input:0",
+            "node_fx_layer4_1_relu_1_158_00eebd7c:output:0",
+            "node_fx_layer4_1_conv3_159_37bde18c:input:0",
+            "node_fx_layer4_1_conv3_159_37bde18c:output:0",
+            "node_fx_layer4_2_conv1_163_ba942735:input:0",
+            "node_fx_layer4_2_conv1_163_ba942735:output:0",
+            "node_fx_layer4_2_bn1_164_84f8e1cf:input:0",
+            "node_fx_layer4_2_bn1_164_84f8e1cf:output:0",
+            "node_fx_layer4_2_relu_165_03fd17ba:input:0",
+            "node_fx_layer4_2_relu_165_03fd17ba:output:0",
+            "node_fx_layer4_2_conv2_166_0db35e83:input:0",
+            "node_fx_layer4_2_conv2_166_0db35e83:output:0",
+            "node_fx_layer4_2_bn2_167_ac9ef85d:input:0",
+            "node_fx_layer4_2_bn2_167_ac9ef85d:output:0",
+            "node_fx_layer4_2_relu_1_168_0b2c04db:input:0",
+            "node_fx_layer4_2_relu_1_168_0b2c04db:output:0",
+            "node_fx_layer4_2_conv3_169_6a52e7b0:input:0",
+            "node_fx_layer4_2_conv3_169_6a52e7b0:output:0",
+            "node_fx_layer4_2_relu_2_172_f7799803:input:0",
+            "node_fx_layer4_2_relu_2_172_f7799803:output:0",
+            "node_fx_avgpool_173_216bcbd3:input:0",
+            "node_fx_avgpool_173_216bcbd3:output:0",
+            "node_fx_flatten_174_920541e7:input:0",
+            "node_fx_flatten_174_920541e7:output:0",
+            "node_fx_fc_175_9af358a5:input:0",
+            "node_fx_fc_175_9af358a5:output:0",
+            "node_fx_output_176_a4d4af23:input:0",
+            "node_fx_output_176_a4d4af23:output:0"
+          ]
+        }
+      ],
+      "evidence_version": "1.0",
+      "family": "resnet",
+      "provenance_digest": "3bb442fd88000e0073aa03953a7ff18d3ac5a46670c173eeb002708713d6bf25",
+      "reasons": [
+        "16 typed residual merges form 4 repeated spatial/channel stages with counts [3, 4, 6, 3].",
+        "No display name, module token or requested layout participates in the claim."
+      ],
+      "repeated_structure": [
+        {
+          "count": 3,
+          "member_edge_ids": [
+            "edge_node_fx_layer1_0_bn3_12_6eb7011c_node_fx_l_af756db0",
+            "edge_node_fx_layer1_0_downsample_1_14_7e1b146f__02de3c3b",
+            "edge_node_fx_layer1_1_bn3_24_6c113f3c_node_fx_l_dba0bc97",
+            "edge_node_fx_layer1_0_relu_2_16_979fbfcd_node_f_44721098",
+            "edge_node_fx_layer1_2_bn3_34_b9b460a9_node_fx_l_5e5ecce3",
+            "edge_node_fx_layer1_1_relu_2_26_9962d8b6_node_f_5ec0d139",
+            "edge_node_fx_add_15_a1bc4f1b_node_fx_add_15_a1b_424b17e7",
+            "edge_node_fx_add_1_25_164248c2_node_fx_add_1_25_1dcc72a3"
+          ],
+          "member_node_ids": [
+            "node_fx_layer1_1_relu_2_26_9962d8b6",
+            "node_fx_add_15_a1bc4f1b",
+            "node_fx_add_1_25_164248c2",
+            "node_fx_layer1_0_relu_2_16_979fbfcd",
+            "node_fx_layer1_0_bn3_12_6eb7011c",
+            "node_fx_layer1_0_downsample_1_14_7e1b146f",
+            "node_fx_layer1_1_bn3_24_6c113f3c",
+            "node_fx_add_2_35_231c4367",
+            "node_fx_layer1_2_bn3_34_b9b460a9"
+          ],
+          "reasons": [
+            "The stage contains 3 same-shape topology-backed residual merges.",
+            "Its boundary is the output tensor shape transition between adjacent residual groups."
+          ],
+          "role_id": "architecture_role_residual_stage_1_node_fx_layer1_1_relu_2_2_b2a57f91"
+        },
+        {
+          "count": 4,
+          "member_edge_ids": [
+            "edge_node_fx_layer2_0_bn3_44_a8cc61c2_node_fx_l_496b672c",
+            "edge_node_fx_layer2_0_downsample_1_46_0f46f2f1__7757d8f5",
+            "edge_node_fx_layer2_1_bn3_56_eb1357c8_node_fx_l_193c996a",
+            "edge_node_fx_layer2_0_relu_2_48_05cd312b_node_f_c63775bb",
+            "edge_node_fx_layer2_2_bn3_66_85816bb0_node_fx_l_55ae26d6",
+            "edge_node_fx_layer2_1_relu_2_58_6021708b_node_f_716282ba",
+            "edge_node_fx_layer2_3_bn3_76_a8cbeab5_node_fx_l_7e703420",
+            "edge_node_fx_layer2_2_relu_2_68_a22075ae_node_f_b5910556",
+            "edge_node_fx_add_3_47_96d04362_node_fx_add_3_47_4ee9075f",
+            "edge_node_fx_add_4_57_f67a5aea_node_fx_add_4_57_9fdd3c5c",
+            "edge_node_fx_add_5_67_f2cdaea7_node_fx_add_5_67_f64bd2c1"
+          ],
+          "member_node_ids": [
+            "node_fx_layer2_0_relu_2_48_05cd312b",
+            "node_fx_layer2_2_relu_2_68_a22075ae",
+            "node_fx_add_6_77_22ae0364",
+            "node_fx_add_4_57_f67a5aea",
+            "node_fx_layer2_1_bn3_56_eb1357c8",
+            "node_fx_layer2_3_bn3_76_a8cbeab5",
+            "node_fx_layer2_0_downsample_1_46_0f46f2f1",
+            "node_fx_layer2_1_relu_2_58_6021708b",
+            "node_fx_add_5_67_f2cdaea7",
+            "node_fx_layer2_2_bn3_66_85816bb0",
+            "node_fx_layer2_0_bn3_44_a8cc61c2",
+            "node_fx_add_3_47_96d04362"
+          ],
+          "reasons": [
+            "The stage contains 4 same-shape topology-backed residual merges.",
+            "Its boundary is the output tensor shape transition between adjacent residual groups."
+          ],
+          "role_id": "architecture_role_residual_stage_2_node_fx_layer2_0_relu_2_4_1189bda8"
+        },
+        {
+          "count": 6,
+          "member_edge_ids": [
+            "edge_node_fx_layer3_0_bn3_86_c4cff39e_node_fx_l_4d756634",
+            "edge_node_fx_layer3_0_downsample_1_88_e2f25b06__16044ea4",
+            "edge_node_fx_layer3_1_bn3_98_e6ee6421_node_fx_l_42eacae8",
+            "edge_node_fx_layer3_0_relu_2_90_1e68bcee_node_f_f45c443d",
+            "edge_node_fx_layer3_2_bn3_108_e3c5d3f3_node_fx__6b5daa0e",
+            "edge_node_fx_layer3_1_relu_2_100_6097c8ca_node__cf132672",
+            "edge_node_fx_layer3_3_bn3_118_da46ec18_node_fx__08b49480",
+            "edge_node_fx_layer3_2_relu_2_110_c7281315_node__cbd3a1f4",
+            "edge_node_fx_layer3_4_bn3_128_0b9a9202_node_fx__63f8ac5b",
+            "edge_node_fx_layer3_3_relu_2_120_26437efd_node__f4250cae",
+            "edge_node_fx_layer3_5_bn3_138_59741683_node_fx__44ff73cd",
+            "edge_node_fx_layer3_4_relu_2_130_75b29f17_node__4b02df32",
+            "edge_node_fx_add_7_89_42366444_node_fx_add_7_89_79720abc",
+            "edge_node_fx_add_8_99_41993a89_node_fx_add_8_99_429c8520",
+            "edge_node_fx_add_9_109_f5755adb_node_fx_add_9_1_5e744af3",
+            "edge_node_fx_add_10_119_477ae606_node_fx_add_10_9bf94243",
+            "edge_node_fx_add_11_129_f1edfe86_node_fx_add_11_2fec60ff"
+          ],
+          "member_node_ids": [
+            "node_fx_layer3_2_relu_2_110_c7281315",
+            "node_fx_layer3_3_relu_2_120_26437efd",
+            "node_fx_layer3_2_bn3_108_e3c5d3f3",
+            "node_fx_add_11_129_f1edfe86",
+            "node_fx_layer3_4_bn3_128_0b9a9202",
+            "node_fx_layer3_1_bn3_98_e6ee6421",
+            "node_fx_layer3_0_bn3_86_c4cff39e",
+            "node_fx_layer3_1_relu_2_100_6097c8ca",
+            "node_fx_layer3_3_bn3_118_da46ec18",
+            "node_fx_add_12_139_abdc300d",
+            "node_fx_add_7_89_42366444",
+            "node_fx_add_10_119_477ae606",
+            "node_fx_layer3_0_relu_2_90_1e68bcee",
+            "node_fx_add_9_109_f5755adb",
+            "node_fx_add_8_99_41993a89",
+            "node_fx_layer3_5_bn3_138_59741683",
+            "node_fx_layer3_4_relu_2_130_75b29f17",
+            "node_fx_layer3_0_downsample_1_88_e2f25b06"
+          ],
+          "reasons": [
+            "The stage contains 6 same-shape topology-backed residual merges.",
+            "Its boundary is the output tensor shape transition between adjacent residual groups."
+          ],
+          "role_id": "architecture_role_residual_stage_3_node_fx_layer3_2_relu_2_1_37a1691b"
+        },
+        {
+          "count": 3,
+          "member_edge_ids": [
+            "edge_node_fx_layer4_0_bn3_148_24d0732a_node_fx__411c98b4",
+            "edge_node_fx_layer4_0_downsample_1_150_f08f021b_1281b27c",
+            "edge_node_fx_layer4_1_bn3_160_8ed242b2_node_fx__ee402982",
+            "edge_node_fx_layer4_0_relu_2_152_b0d3b5b5_node__b92755d9",
+            "edge_node_fx_layer4_2_bn3_170_351ae529_node_fx__ca6863c7",
+            "edge_node_fx_layer4_1_relu_2_162_c8a40256_node__3af33a97",
+            "edge_node_fx_add_13_151_28142a6f_node_fx_add_13_58b206fb",
+            "edge_node_fx_add_14_161_7bfc243d_node_fx_add_14_c707e099"
+          ],
+          "member_node_ids": [
+            "node_fx_layer4_1_relu_2_162_c8a40256",
+            "node_fx_add_14_161_7bfc243d",
+            "node_fx_layer4_2_bn3_170_351ae529",
+            "node_fx_layer4_0_relu_2_152_b0d3b5b5",
+            "node_fx_layer4_1_bn3_160_8ed242b2",
+            "node_fx_add_15_171_5e3d5c38",
+            "node_fx_add_13_151_28142a6f",
+            "node_fx_layer4_0_bn3_148_24d0732a",
+            "node_fx_layer4_0_downsample_1_150_f08f021b"
+          ],
+          "reasons": [
+            "The stage contains 3 same-shape topology-backed residual merges.",
+            "Its boundary is the output tensor shape transition between adjacent residual groups."
+          ],
+          "role_id": "architecture_role_residual_stage_4_node_fx_layer4_1_relu_2_1_308e4813"
+        }
+      ],
+      "source_digest": "73a78fe4d63a40de1077249fe4c0f1dbce9726466356a85208c48b3d569e4fbf",
+      "supporting_edge_ids": [
+        "edge_node_fx_x_0_5fe7ea6f_node_fx_x_0_5fe7ea6f__41a5f859",
+        "edge_node_fx_conv1_1_169d0aad_node_fx_conv1_1_1_a8315ffb",
+        "edge_node_fx_bn1_2_962cdbab_node_fx_bn1_2_962cd_1d626e34",
+        "edge_node_fx_relu_3_8554a7a9_node_fx_relu_3_855_7f6cb8d3",
+        "edge_node_fx_maxpool_4_a1d7280e_node_fx_maxpool_29fc54ee",
+        "edge_node_fx_layer1_0_conv1_5_022b7ef8_node_fx__7708819e",
+        "edge_node_fx_layer1_0_bn1_6_02c52240_node_fx_la_e4c6ecdd",
+        "edge_node_fx_layer1_0_relu_7_92edf1ab_node_fx_l_40a0eb4d",
+        "edge_node_fx_layer1_0_conv2_8_6a3dc320_node_fx__0ff3e7a8",
+        "edge_node_fx_layer1_0_bn2_9_b4c249f0_node_fx_la_dd8263b8",
+        "edge_node_fx_layer1_0_relu_1_10_46ff05df_node_f_4e897dba",
+        "edge_node_fx_maxpool_4_a1d7280e_node_fx_maxpool_322d3e5c",
+        "edge_node_fx_layer1_1_conv1_17_900092d3_node_fx_d5c8c4b2",
+        "edge_node_fx_layer1_1_bn1_18_f9f616e9_node_fx_l_933df0be",
+        "edge_node_fx_layer1_1_relu_19_0bb9e215_node_fx__27cb4a69",
+        "edge_node_fx_layer1_1_conv2_20_92ab788a_node_fx_85f917b9",
+        "edge_node_fx_layer1_1_bn2_21_23c014d3_node_fx_l_c877eb74",
+        "edge_node_fx_layer1_1_relu_1_22_3cbd7717_node_f_67e430b0",
+        "edge_node_fx_layer1_2_conv1_27_5544acdd_node_fx_6b79aaf8",
+        "edge_node_fx_layer1_2_bn1_28_d7508145_node_fx_l_0b4e57ce",
+        "edge_node_fx_layer1_2_relu_29_15aaacb0_node_fx__d8312e42",
+        "edge_node_fx_layer1_2_conv2_30_e8b5618b_node_fx_6b471600",
+        "edge_node_fx_layer1_2_bn2_31_ad98ac19_node_fx_l_3a08ecf7",
+        "edge_node_fx_layer1_2_relu_1_32_c14e3bd1_node_f_0f5abc87",
+        "edge_node_fx_layer1_0_bn3_12_6eb7011c_node_fx_l_af756db0",
+        "edge_node_fx_layer1_0_downsample_1_14_7e1b146f__02de3c3b",
+        "edge_node_fx_layer1_1_bn3_24_6c113f3c_node_fx_l_dba0bc97",
+        "edge_node_fx_layer1_0_relu_2_16_979fbfcd_node_f_44721098",
+        "edge_node_fx_layer1_2_bn3_34_b9b460a9_node_fx_l_5e5ecce3",
+        "edge_node_fx_layer1_1_relu_2_26_9962d8b6_node_f_5ec0d139",
+        "edge_node_fx_add_15_a1bc4f1b_node_fx_add_15_a1b_424b17e7",
+        "edge_node_fx_add_1_25_164248c2_node_fx_add_1_25_1dcc72a3",
+        "edge_node_fx_layer2_0_bn3_44_a8cc61c2_node_fx_l_496b672c",
+        "edge_node_fx_layer2_0_downsample_1_46_0f46f2f1__7757d8f5",
+        "edge_node_fx_layer2_1_bn3_56_eb1357c8_node_fx_l_193c996a",
+        "edge_node_fx_layer2_0_relu_2_48_05cd312b_node_f_c63775bb",
+        "edge_node_fx_layer2_2_bn3_66_85816bb0_node_fx_l_55ae26d6",
+        "edge_node_fx_layer2_1_relu_2_58_6021708b_node_f_716282ba",
+        "edge_node_fx_layer2_3_bn3_76_a8cbeab5_node_fx_l_7e703420",
+        "edge_node_fx_layer2_2_relu_2_68_a22075ae_node_f_b5910556",
+        "edge_node_fx_add_3_47_96d04362_node_fx_add_3_47_4ee9075f",
+        "edge_node_fx_add_4_57_f67a5aea_node_fx_add_4_57_9fdd3c5c",
+        "edge_node_fx_add_5_67_f2cdaea7_node_fx_add_5_67_f64bd2c1",
+        "edge_node_fx_layer3_0_bn3_86_c4cff39e_node_fx_l_4d756634",
+        "edge_node_fx_layer3_0_downsample_1_88_e2f25b06__16044ea4",
+        "edge_node_fx_layer3_1_bn3_98_e6ee6421_node_fx_l_42eacae8",
+        "edge_node_fx_layer3_0_relu_2_90_1e68bcee_node_f_f45c443d",
+        "edge_node_fx_layer3_2_bn3_108_e3c5d3f3_node_fx__6b5daa0e",
+        "edge_node_fx_layer3_1_relu_2_100_6097c8ca_node__cf132672",
+        "edge_node_fx_layer3_3_bn3_118_da46ec18_node_fx__08b49480",
+        "edge_node_fx_layer3_2_relu_2_110_c7281315_node__cbd3a1f4",
+        "edge_node_fx_layer3_4_bn3_128_0b9a9202_node_fx__63f8ac5b",
+        "edge_node_fx_layer3_3_relu_2_120_26437efd_node__f4250cae",
+        "edge_node_fx_layer3_5_bn3_138_59741683_node_fx__44ff73cd",
+        "edge_node_fx_layer3_4_relu_2_130_75b29f17_node__4b02df32",
+        "edge_node_fx_add_7_89_42366444_node_fx_add_7_89_79720abc",
+        "edge_node_fx_add_8_99_41993a89_node_fx_add_8_99_429c8520",
+        "edge_node_fx_add_9_109_f5755adb_node_fx_add_9_1_5e744af3",
+        "edge_node_fx_add_10_119_477ae606_node_fx_add_10_9bf94243",
+        "edge_node_fx_add_11_129_f1edfe86_node_fx_add_11_2fec60ff",
+        "edge_node_fx_layer4_0_bn3_148_24d0732a_node_fx__411c98b4",
+        "edge_node_fx_layer4_0_downsample_1_150_f08f021b_1281b27c",
+        "edge_node_fx_layer4_1_bn3_160_8ed242b2_node_fx__ee402982",
+        "edge_node_fx_layer4_0_relu_2_152_b0d3b5b5_node__b92755d9",
+        "edge_node_fx_layer4_2_bn3_170_351ae529_node_fx__ca6863c7",
+        "edge_node_fx_layer4_1_relu_2_162_c8a40256_node__3af33a97",
+        "edge_node_fx_add_13_151_28142a6f_node_fx_add_13_58b206fb",
+        "edge_node_fx_add_14_161_7bfc243d_node_fx_add_14_c707e099",
+        "edge_node_fx_layer4_1_conv1_153_70c91a59_node_f_96b0e8b4",
+        "edge_node_fx_layer4_1_bn1_154_1c2028c9_node_fx__1006fb9d",
+        "edge_node_fx_layer4_1_relu_155_fd19e796_node_fx_ad3da844",
+        "edge_node_fx_layer4_1_conv2_156_aa515efd_node_f_158570f9",
+        "edge_node_fx_layer4_1_bn2_157_d407d242_node_fx__f69f8e69",
+        "edge_node_fx_layer4_1_relu_1_158_00eebd7c_node__3525a05e",
+        "edge_node_fx_layer4_2_conv1_163_ba942735_node_f_fd7af6b1",
+        "edge_node_fx_layer4_2_bn1_164_84f8e1cf_node_fx__28f82a4c",
+        "edge_node_fx_layer4_2_relu_165_03fd17ba_node_fx_4362bbd2",
+        "edge_node_fx_layer4_2_conv2_166_0db35e83_node_f_022a700c",
+        "edge_node_fx_layer4_2_bn2_167_ac9ef85d_node_fx__9312561d",
+        "edge_node_fx_layer4_2_relu_1_168_0b2c04db_node__25870bf8",
+        "edge_node_fx_layer4_2_relu_2_172_f7799803_node__3bdff334",
+        "edge_node_fx_avgpool_173_216bcbd3_node_fx_avgpo_378d1768",
+        "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+        "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9"
+      ],
+      "supporting_node_ids": [
+        "node_fx_layer1_0_conv2_8_6a3dc320",
+        "node_fx_layer1_1_bn2_21_23c014d3",
+        "node_fx_layer1_1_relu_1_22_3cbd7717",
+        "node_fx_layer1_0_downsample_0_13_7f21d735",
+        "node_fx_layer1_1_relu_19_0bb9e215",
+        "node_fx_layer1_0_bn2_9_b4c249f0",
+        "node_fx_layer1_0_conv3_11_34e0f1c7",
+        "node_fx_layer1_1_conv1_17_900092d3",
+        "node_fx_conv1_1_169d0aad",
+        "node_fx_relu_3_8554a7a9",
+        "node_fx_layer1_1_conv3_23_5bd29c04",
+        "node_fx_layer1_2_conv3_33_2001f339",
+        "node_fx_maxpool_4_a1d7280e",
+        "node_fx_x_0_5fe7ea6f",
+        "node_fx_layer1_2_bn1_28_d7508145",
+        "node_fx_layer1_1_bn1_18_f9f616e9",
+        "node_fx_layer1_2_relu_29_15aaacb0",
+        "node_fx_layer1_0_bn1_6_02c52240",
+        "node_fx_layer1_2_relu_1_32_c14e3bd1",
+        "node_fx_layer1_2_conv2_30_e8b5618b",
+        "node_fx_layer1_0_relu_7_92edf1ab",
+        "node_fx_layer1_0_relu_1_10_46ff05df",
+        "node_fx_layer1_2_bn2_31_ad98ac19",
+        "node_fx_bn1_2_962cdbab",
+        "node_fx_layer1_0_conv1_5_022b7ef8",
+        "node_fx_layer1_1_conv2_20_92ab788a",
+        "node_fx_layer1_2_conv1_27_5544acdd",
+        "node_fx_layer1_1_relu_2_26_9962d8b6",
+        "node_fx_add_15_a1bc4f1b",
+        "node_fx_add_1_25_164248c2",
+        "node_fx_layer1_0_relu_2_16_979fbfcd",
+        "node_fx_layer1_0_bn3_12_6eb7011c",
+        "node_fx_layer1_0_downsample_1_14_7e1b146f",
+        "node_fx_layer1_1_bn3_24_6c113f3c",
+        "node_fx_add_2_35_231c4367",
+        "node_fx_layer1_2_bn3_34_b9b460a9",
+        "node_fx_layer2_0_relu_2_48_05cd312b",
+        "node_fx_layer2_2_relu_2_68_a22075ae",
+        "node_fx_add_6_77_22ae0364",
+        "node_fx_add_4_57_f67a5aea",
+        "node_fx_layer2_1_bn3_56_eb1357c8",
+        "node_fx_layer2_3_bn3_76_a8cbeab5",
+        "node_fx_layer2_0_downsample_1_46_0f46f2f1",
+        "node_fx_layer2_1_relu_2_58_6021708b",
+        "node_fx_add_5_67_f2cdaea7",
+        "node_fx_layer2_2_bn3_66_85816bb0",
+        "node_fx_layer2_0_bn3_44_a8cc61c2",
+        "node_fx_add_3_47_96d04362",
+        "node_fx_layer3_2_relu_2_110_c7281315",
+        "node_fx_layer3_3_relu_2_120_26437efd",
+        "node_fx_layer3_2_bn3_108_e3c5d3f3",
+        "node_fx_add_11_129_f1edfe86",
+        "node_fx_layer3_4_bn3_128_0b9a9202",
+        "node_fx_layer3_1_bn3_98_e6ee6421",
+        "node_fx_layer3_0_bn3_86_c4cff39e",
+        "node_fx_layer3_1_relu_2_100_6097c8ca",
+        "node_fx_layer3_3_bn3_118_da46ec18",
+        "node_fx_add_12_139_abdc300d",
+        "node_fx_add_7_89_42366444",
+        "node_fx_add_10_119_477ae606",
+        "node_fx_layer3_0_relu_2_90_1e68bcee",
+        "node_fx_add_9_109_f5755adb",
+        "node_fx_add_8_99_41993a89",
+        "node_fx_layer3_5_bn3_138_59741683",
+        "node_fx_layer3_4_relu_2_130_75b29f17",
+        "node_fx_layer3_0_downsample_1_88_e2f25b06",
+        "node_fx_layer4_1_relu_2_162_c8a40256",
+        "node_fx_add_14_161_7bfc243d",
+        "node_fx_layer4_2_bn3_170_351ae529",
+        "node_fx_layer4_0_relu_2_152_b0d3b5b5",
+        "node_fx_layer4_1_bn3_160_8ed242b2",
+        "node_fx_add_15_171_5e3d5c38",
+        "node_fx_add_13_151_28142a6f",
+        "node_fx_layer4_0_bn3_148_24d0732a",
+        "node_fx_layer4_0_downsample_1_150_f08f021b",
+        "node_fx_layer4_2_conv1_163_ba942735",
+        "node_fx_avgpool_173_216bcbd3",
+        "node_fx_flatten_174_920541e7",
+        "node_fx_fc_175_9af358a5",
+        "node_fx_layer4_1_relu_1_158_00eebd7c",
+        "node_fx_layer4_2_bn2_167_ac9ef85d",
+        "node_fx_layer4_1_bn1_154_1c2028c9",
+        "node_fx_layer4_2_relu_165_03fd17ba",
+        "node_fx_layer4_2_conv2_166_0db35e83",
+        "node_fx_layer4_1_conv2_156_aa515efd",
+        "node_fx_layer4_2_relu_1_168_0b2c04db",
+        "node_fx_layer4_1_bn2_157_d407d242",
+        "node_fx_layer4_1_conv3_159_37bde18c",
+        "node_fx_layer4_2_conv3_169_6a52e7b0",
+        "node_fx_output_176_a4d4af23",
+        "node_fx_layer4_2_relu_2_172_f7799803",
+        "node_fx_layer4_1_relu_155_fd19e796",
+        "node_fx_layer4_1_conv1_153_70c91a59",
+        "node_fx_layer4_2_bn1_164_84f8e1cf"
+      ],
+      "supporting_port_ids": [
+        "node_fx_x_0_5fe7ea6f:output:0",
+        "node_fx_conv1_1_169d0aad:input:0",
+        "node_fx_conv1_1_169d0aad:output:0",
+        "node_fx_bn1_2_962cdbab:input:0",
+        "node_fx_bn1_2_962cdbab:output:0",
+        "node_fx_relu_3_8554a7a9:input:0",
+        "node_fx_relu_3_8554a7a9:output:0",
+        "node_fx_maxpool_4_a1d7280e:input:0",
+        "node_fx_maxpool_4_a1d7280e:output:0",
+        "node_fx_layer1_0_conv1_5_022b7ef8:input:0",
+        "node_fx_layer1_0_conv1_5_022b7ef8:output:0",
+        "node_fx_layer1_0_bn1_6_02c52240:input:0",
+        "node_fx_layer1_0_bn1_6_02c52240:output:0",
+        "node_fx_layer1_0_relu_7_92edf1ab:input:0",
+        "node_fx_layer1_0_relu_7_92edf1ab:output:0",
+        "node_fx_layer1_0_conv2_8_6a3dc320:input:0",
+        "node_fx_layer1_0_conv2_8_6a3dc320:output:0",
+        "node_fx_layer1_0_bn2_9_b4c249f0:input:0",
+        "node_fx_layer1_0_bn2_9_b4c249f0:output:0",
+        "node_fx_layer1_0_relu_1_10_46ff05df:input:0",
+        "node_fx_layer1_0_relu_1_10_46ff05df:output:0",
+        "node_fx_layer1_0_conv3_11_34e0f1c7:input:0",
+        "node_fx_layer1_0_conv3_11_34e0f1c7:output:0",
+        "node_fx_layer1_0_bn3_12_6eb7011c:input:0",
+        "node_fx_layer1_0_bn3_12_6eb7011c:output:0",
+        "node_fx_layer1_0_downsample_0_13_7f21d735:input:0",
+        "node_fx_layer1_0_downsample_0_13_7f21d735:output:0",
+        "node_fx_layer1_0_downsample_1_14_7e1b146f:input:0",
+        "node_fx_layer1_0_downsample_1_14_7e1b146f:output:0",
+        "node_fx_add_15_a1bc4f1b:input:0",
+        "node_fx_add_15_a1bc4f1b:input:1",
+        "node_fx_add_15_a1bc4f1b:output:0",
+        "node_fx_layer1_0_relu_2_16_979fbfcd:input:0",
+        "node_fx_layer1_0_relu_2_16_979fbfcd:output:0",
+        "node_fx_layer1_1_conv1_17_900092d3:input:0",
+        "node_fx_layer1_1_conv1_17_900092d3:output:0",
+        "node_fx_layer1_1_bn1_18_f9f616e9:input:0",
+        "node_fx_layer1_1_bn1_18_f9f616e9:output:0",
+        "node_fx_layer1_1_relu_19_0bb9e215:input:0",
+        "node_fx_layer1_1_relu_19_0bb9e215:output:0",
+        "node_fx_layer1_1_conv2_20_92ab788a:input:0",
+        "node_fx_layer1_1_conv2_20_92ab788a:output:0",
+        "node_fx_layer1_1_bn2_21_23c014d3:input:0",
+        "node_fx_layer1_1_bn2_21_23c014d3:output:0",
+        "node_fx_layer1_1_relu_1_22_3cbd7717:input:0",
+        "node_fx_layer1_1_relu_1_22_3cbd7717:output:0",
+        "node_fx_layer1_1_conv3_23_5bd29c04:input:0",
+        "node_fx_layer1_1_conv3_23_5bd29c04:output:0",
+        "node_fx_layer1_1_bn3_24_6c113f3c:input:0",
+        "node_fx_layer1_1_bn3_24_6c113f3c:output:0",
+        "node_fx_add_1_25_164248c2:input:0",
+        "node_fx_add_1_25_164248c2:input:1",
+        "node_fx_add_1_25_164248c2:output:0",
+        "node_fx_layer1_1_relu_2_26_9962d8b6:input:0",
+        "node_fx_layer1_1_relu_2_26_9962d8b6:output:0",
+        "node_fx_layer1_2_conv1_27_5544acdd:input:0",
+        "node_fx_layer1_2_conv1_27_5544acdd:output:0",
+        "node_fx_layer1_2_bn1_28_d7508145:input:0",
+        "node_fx_layer1_2_bn1_28_d7508145:output:0",
+        "node_fx_layer1_2_relu_29_15aaacb0:input:0",
+        "node_fx_layer1_2_relu_29_15aaacb0:output:0",
+        "node_fx_layer1_2_conv2_30_e8b5618b:input:0",
+        "node_fx_layer1_2_conv2_30_e8b5618b:output:0",
+        "node_fx_layer1_2_bn2_31_ad98ac19:input:0",
+        "node_fx_layer1_2_bn2_31_ad98ac19:output:0",
+        "node_fx_layer1_2_relu_1_32_c14e3bd1:input:0",
+        "node_fx_layer1_2_relu_1_32_c14e3bd1:output:0",
+        "node_fx_layer1_2_conv3_33_2001f339:input:0",
+        "node_fx_layer1_2_conv3_33_2001f339:output:0",
+        "node_fx_layer1_2_bn3_34_b9b460a9:input:0",
+        "node_fx_layer1_2_bn3_34_b9b460a9:output:0",
+        "node_fx_add_2_35_231c4367:input:0",
+        "node_fx_add_2_35_231c4367:input:1",
+        "node_fx_add_2_35_231c4367:output:0",
+        "node_fx_layer2_0_bn3_44_a8cc61c2:input:0",
+        "node_fx_layer2_0_bn3_44_a8cc61c2:output:0",
+        "node_fx_layer2_0_downsample_1_46_0f46f2f1:input:0",
+        "node_fx_layer2_0_downsample_1_46_0f46f2f1:output:0",
+        "node_fx_add_3_47_96d04362:input:0",
+        "node_fx_add_3_47_96d04362:input:1",
+        "node_fx_add_3_47_96d04362:output:0",
+        "node_fx_layer2_0_relu_2_48_05cd312b:input:0",
+        "node_fx_layer2_0_relu_2_48_05cd312b:output:0",
+        "node_fx_layer2_1_bn3_56_eb1357c8:input:0",
+        "node_fx_layer2_1_bn3_56_eb1357c8:output:0",
+        "node_fx_add_4_57_f67a5aea:input:0",
+        "node_fx_add_4_57_f67a5aea:input:1",
+        "node_fx_add_4_57_f67a5aea:output:0",
+        "node_fx_layer2_1_relu_2_58_6021708b:input:0",
+        "node_fx_layer2_1_relu_2_58_6021708b:output:0",
+        "node_fx_layer2_2_bn3_66_85816bb0:input:0",
+        "node_fx_layer2_2_bn3_66_85816bb0:output:0",
+        "node_fx_add_5_67_f2cdaea7:input:0",
+        "node_fx_add_5_67_f2cdaea7:input:1",
+        "node_fx_add_5_67_f2cdaea7:output:0",
+        "node_fx_layer2_2_relu_2_68_a22075ae:input:0",
+        "node_fx_layer2_2_relu_2_68_a22075ae:output:0",
+        "node_fx_layer2_3_bn3_76_a8cbeab5:input:0",
+        "node_fx_layer2_3_bn3_76_a8cbeab5:output:0",
+        "node_fx_add_6_77_22ae0364:input:0",
+        "node_fx_add_6_77_22ae0364:input:1",
+        "node_fx_add_6_77_22ae0364:output:0",
+        "node_fx_layer3_0_bn3_86_c4cff39e:input:0",
+        "node_fx_layer3_0_bn3_86_c4cff39e:output:0",
+        "node_fx_layer3_0_downsample_1_88_e2f25b06:input:0",
+        "node_fx_layer3_0_downsample_1_88_e2f25b06:output:0",
+        "node_fx_add_7_89_42366444:input:0",
+        "node_fx_add_7_89_42366444:input:1",
+        "node_fx_add_7_89_42366444:output:0",
+        "node_fx_layer3_0_relu_2_90_1e68bcee:input:0",
+        "node_fx_layer3_0_relu_2_90_1e68bcee:output:0",
+        "node_fx_layer3_1_bn3_98_e6ee6421:input:0",
+        "node_fx_layer3_1_bn3_98_e6ee6421:output:0",
+        "node_fx_add_8_99_41993a89:input:0",
+        "node_fx_add_8_99_41993a89:input:1",
+        "node_fx_add_8_99_41993a89:output:0",
+        "node_fx_layer3_1_relu_2_100_6097c8ca:input:0",
+        "node_fx_layer3_1_relu_2_100_6097c8ca:output:0",
+        "node_fx_layer3_2_bn3_108_e3c5d3f3:input:0",
+        "node_fx_layer3_2_bn3_108_e3c5d3f3:output:0",
+        "node_fx_add_9_109_f5755adb:input:0",
+        "node_fx_add_9_109_f5755adb:input:1",
+        "node_fx_add_9_109_f5755adb:output:0",
+        "node_fx_layer3_2_relu_2_110_c7281315:input:0",
+        "node_fx_layer3_2_relu_2_110_c7281315:output:0",
+        "node_fx_layer3_3_bn3_118_da46ec18:input:0",
+        "node_fx_layer3_3_bn3_118_da46ec18:output:0",
+        "node_fx_add_10_119_477ae606:input:0",
+        "node_fx_add_10_119_477ae606:input:1",
+        "node_fx_add_10_119_477ae606:output:0",
+        "node_fx_layer3_3_relu_2_120_26437efd:input:0",
+        "node_fx_layer3_3_relu_2_120_26437efd:output:0",
+        "node_fx_layer3_4_bn3_128_0b9a9202:input:0",
+        "node_fx_layer3_4_bn3_128_0b9a9202:output:0",
+        "node_fx_add_11_129_f1edfe86:input:0",
+        "node_fx_add_11_129_f1edfe86:input:1",
+        "node_fx_add_11_129_f1edfe86:output:0",
+        "node_fx_layer3_4_relu_2_130_75b29f17:input:0",
+        "node_fx_layer3_4_relu_2_130_75b29f17:output:0",
+        "node_fx_layer3_5_bn3_138_59741683:input:0",
+        "node_fx_layer3_5_bn3_138_59741683:output:0",
+        "node_fx_add_12_139_abdc300d:input:0",
+        "node_fx_add_12_139_abdc300d:input:1",
+        "node_fx_add_12_139_abdc300d:output:0",
+        "node_fx_layer4_0_bn3_148_24d0732a:input:0",
+        "node_fx_layer4_0_bn3_148_24d0732a:output:0",
+        "node_fx_layer4_0_downsample_1_150_f08f021b:input:0",
+        "node_fx_layer4_0_downsample_1_150_f08f021b:output:0",
+        "node_fx_add_13_151_28142a6f:input:0",
+        "node_fx_add_13_151_28142a6f:input:1",
+        "node_fx_add_13_151_28142a6f:output:0",
+        "node_fx_layer4_0_relu_2_152_b0d3b5b5:input:0",
+        "node_fx_layer4_0_relu_2_152_b0d3b5b5:output:0",
+        "node_fx_layer4_1_conv1_153_70c91a59:input:0",
+        "node_fx_layer4_1_conv1_153_70c91a59:output:0",
+        "node_fx_layer4_1_bn1_154_1c2028c9:input:0",
+        "node_fx_layer4_1_bn1_154_1c2028c9:output:0",
+        "node_fx_layer4_1_relu_155_fd19e796:input:0",
+        "node_fx_layer4_1_relu_155_fd19e796:output:0",
+        "node_fx_layer4_1_conv2_156_aa515efd:input:0",
+        "node_fx_layer4_1_conv2_156_aa515efd:output:0",
+        "node_fx_layer4_1_bn2_157_d407d242:input:0",
+        "node_fx_layer4_1_bn2_157_d407d242:output:0",
+        "node_fx_layer4_1_relu_1_158_00eebd7c:input:0",
+        "node_fx_layer4_1_relu_1_158_00eebd7c:output:0",
+        "node_fx_layer4_1_conv3_159_37bde18c:input:0",
+        "node_fx_layer4_1_conv3_159_37bde18c:output:0",
+        "node_fx_layer4_1_bn3_160_8ed242b2:input:0",
+        "node_fx_layer4_1_bn3_160_8ed242b2:output:0",
+        "node_fx_add_14_161_7bfc243d:input:0",
+        "node_fx_add_14_161_7bfc243d:input:1",
+        "node_fx_add_14_161_7bfc243d:output:0",
+        "node_fx_layer4_1_relu_2_162_c8a40256:input:0",
+        "node_fx_layer4_1_relu_2_162_c8a40256:output:0",
+        "node_fx_layer4_2_conv1_163_ba942735:input:0",
+        "node_fx_layer4_2_conv1_163_ba942735:output:0",
+        "node_fx_layer4_2_bn1_164_84f8e1cf:input:0",
+        "node_fx_layer4_2_bn1_164_84f8e1cf:output:0",
+        "node_fx_layer4_2_relu_165_03fd17ba:input:0",
+        "node_fx_layer4_2_relu_165_03fd17ba:output:0",
+        "node_fx_layer4_2_conv2_166_0db35e83:input:0",
+        "node_fx_layer4_2_conv2_166_0db35e83:output:0",
+        "node_fx_layer4_2_bn2_167_ac9ef85d:input:0",
+        "node_fx_layer4_2_bn2_167_ac9ef85d:output:0",
+        "node_fx_layer4_2_relu_1_168_0b2c04db:input:0",
+        "node_fx_layer4_2_relu_1_168_0b2c04db:output:0",
+        "node_fx_layer4_2_conv3_169_6a52e7b0:input:0",
+        "node_fx_layer4_2_conv3_169_6a52e7b0:output:0",
+        "node_fx_layer4_2_bn3_170_351ae529:input:0",
+        "node_fx_layer4_2_bn3_170_351ae529:output:0",
+        "node_fx_add_15_171_5e3d5c38:input:0",
+        "node_fx_add_15_171_5e3d5c38:input:1",
+        "node_fx_add_15_171_5e3d5c38:output:0",
+        "node_fx_layer4_2_relu_2_172_f7799803:input:0",
+        "node_fx_layer4_2_relu_2_172_f7799803:output:0",
+        "node_fx_avgpool_173_216bcbd3:input:0",
+        "node_fx_avgpool_173_216bcbd3:output:0",
+        "node_fx_flatten_174_920541e7:input:0",
+        "node_fx_flatten_174_920541e7:output:0",
+        "node_fx_fc_175_9af358a5:input:0",
+        "node_fx_fc_175_9af358a5:output:0",
+        "node_fx_output_176_a4d4af23:input:0",
+        "node_fx_output_176_a4d4af23:output:0"
+      ],
+      "uncertain_claims": [],
+      "unknown_reason": null
+    },
+    "architecture_family": "resnet",
+    "architecture_name_inference_used": false,
+    "authoring_mode": "scene-studio",
+    "auto_frame_on_open": true,
+    "coordinate_system": "right-handed-y-up",
+    "evidenced_architecture_family": "resnet",
+    "generation_context": {
+      "focus_ids": [
+        "node_fx_fc_175_9af358a5",
+        "node_fx_output_176_a4d4af23"
+      ],
+      "focus_source": "structure-lens",
+      "semantic_level": "block",
+      "semantic_view": "paper",
+      "structure_lens": {
+        "bounded": true,
+        "edge_ids": [
+          "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9"
+        ],
+        "node_ids": [
+          "node_fx_fc_175_9af358a5",
+          "node_fx_output_176_a4d4af23"
+        ],
+        "operation": "downstream-trace",
+        "status": "supported"
+      }
+    },
+    "graph_ir": {
+      "edge_count": 192,
+      "ir_version": "1.0",
+      "name": "ResNet",
+      "node_count": 177
+    },
+    "layout_family": "resnet",
+    "matrix_convention": "row-major-column-vector",
+    "model_scene_pipeline": {
+      "bounded_object_limit": 250,
+      "focus_hops": 1,
+      "focus_ids": [
+        "node_fx_fc_175_9af358a5",
+        "node_fx_output_176_a4d4af23"
+      ],
+      "focused": true,
+      "paper_aggregation": false,
+      "record_materialization_budget": 250,
+      "requested_object_budget": 250,
+      "source_edge_count": 2,
+      "source_node_count": 3,
+      "summary_first": false,
+      "summary_provenance_compaction_threshold": 10000,
+      "summary_provenance_mode": "exact-source-ids",
+      "unknown_dimensions_are_not_inferred": true,
+      "version": "1.0",
+      "visible_object_count": 5,
+      "visual_geometry_is_not_a_literal_tensor_measurement": true
+    },
+    "omitted_connector_graph_ir_ids": [],
+    "omitted_connector_summary": {
+      "count": 0,
+      "ids_are_complete": true,
+      "ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "provenance_index": {
+      "figure_to_scene": {
+        "figure_object_model_figure_node_semantic_publication_res_cbdebe17": [
+          "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+          "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+          "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414",
+          "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c",
+          "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309"
+        ],
+        "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe": [
+          "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+          "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+          "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414",
+          "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c",
+          "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309"
+        ]
+      },
+      "graph_to_scene": {
+        "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9": [
+          "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+          "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414",
+          "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309"
+        ],
+        "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380": [
+          "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+          "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414",
+          "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c"
+        ],
+        "node_fx_fc_175_9af358a5": [
+          "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+          "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+          "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414"
+        ],
+        "node_fx_fc_175_9af358a5:input:0": [
+          "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+          "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414"
+        ],
+        "node_fx_fc_175_9af358a5:output:0": [
+          "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+          "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414"
+        ],
+        "node_fx_flatten_174_920541e7": [
+          "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+          "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c"
+        ],
+        "node_fx_flatten_174_920541e7:input:0": [
+          "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c"
+        ],
+        "node_fx_flatten_174_920541e7:output:0": [
+          "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+          "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c"
+        ],
+        "node_fx_output_176_a4d4af23": [
+          "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+          "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309"
+        ],
+        "node_fx_output_176_a4d4af23:input:0": [
+          "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+          "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309"
+        ],
+        "node_fx_output_176_a4d4af23:output:0": [
+          "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309"
+        ]
+      },
+      "scene_to_source": {
+        "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8": {
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+            "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+          ],
+          "graph_ir_ids": [
+            "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9",
+            "node_fx_fc_175_9af358a5:output:0",
+            "node_fx_output_176_a4d4af23:input:0",
+            "node_fx_fc_175_9af358a5",
+            "node_fx_output_176_a4d4af23"
+          ],
+          "kind": "semantic_view",
+          "semantic_view_ids": [
+            "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b",
+            "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+          ],
+          "source_id": "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+        },
+        "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55": {
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+            "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+          ],
+          "graph_ir_ids": [
+            "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+            "node_fx_flatten_174_920541e7:output:0",
+            "node_fx_fc_175_9af358a5:input:0",
+            "node_fx_flatten_174_920541e7",
+            "node_fx_fc_175_9af358a5"
+          ],
+          "kind": "semantic_view",
+          "semantic_view_ids": [
+            "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562",
+            "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+          ],
+          "source_id": "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562"
+        },
+        "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414": {
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+            "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+          ],
+          "graph_ir_ids": [
+            "node_fx_fc_175_9af358a5",
+            "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+            "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9",
+            "node_fx_fc_175_9af358a5:input:0",
+            "node_fx_fc_175_9af358a5:output:0"
+          ],
+          "kind": "semantic_view",
+          "semantic_view_ids": [
+            "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+          ],
+          "source_id": "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b"
+        },
+        "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c": {
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+            "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+          ],
+          "graph_ir_ids": [
+            "node_fx_flatten_174_920541e7",
+            "edge_node_fx_flatten_174_920541e7_node_fx_flatt_4a257380",
+            "node_fx_flatten_174_920541e7:input:0",
+            "node_fx_flatten_174_920541e7:output:0"
+          ],
+          "kind": "semantic_view",
+          "semantic_view_ids": [
+            "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562"
+          ],
+          "source_id": "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562"
+        },
+        "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309": {
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_semantic_publication_res_cbdebe17",
+            "figure_object_model_figure_tensor_semantic_publication_r_dbf2fbfe"
+          ],
+          "graph_ir_ids": [
+            "node_fx_output_176_a4d4af23",
+            "edge_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_aefcabe9",
+            "node_fx_output_176_a4d4af23:input:0",
+            "node_fx_output_176_a4d4af23:output:0"
+          ],
+          "kind": "semantic_view",
+          "semantic_view_ids": [
+            "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+          ],
+          "source_id": "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75"
+        }
+      },
+      "semantic_to_scene": {
+        "semantic_block_unknown_node_fx_fc_175_9af358a5_d41dfa9b": [
+          "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+          "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+          "scene_object_model_scene_node_node_fx_fc_175_9af358a5_cec4c414"
+        ],
+        "semantic_block_unknown_node_fx_flatten_174_920541e7_417fe562": [
+          "scene_object_model_scene_edge_edge_node_fx_flatten_174__c0235d55",
+          "scene_object_model_scene_node_node_fx_flatten_174_92054_d750874c"
+        ],
+        "semantic_block_unknown_node_fx_output_176_a4d4af23_e6345d75": [
+          "scene_object_model_scene_edge_edge_node_fx_fc_175_9af35_0bb22ed8",
+          "scene_object_model_scene_node_node_fx_output_176_a4d4af_b668f309"
+        ]
+      }
+    },
+    "requested_layout_family": null,
+    "rotation_unit": "degrees",
+    "semantic_view": {
+      "selected_level": "block",
+      "source_digest": "73a78fe4d63a40de1077249fe4c0f1dbce9726466356a85208c48b3d569e4fbf",
+      "version": "1.0",
+      "view": "paper"
+    },
+    "viewport": [
+      1200,
+      800
+    ]
+  },
+  "migrations": [],
+  "name": "ResNet · 3D",
+  "schema_version": "1.0",
+  "selection_ids": []
+}

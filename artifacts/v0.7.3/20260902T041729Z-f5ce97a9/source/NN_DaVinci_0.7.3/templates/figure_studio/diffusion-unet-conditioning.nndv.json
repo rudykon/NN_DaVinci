@@ -1,0 +1,2349 @@
+{
+  "created_at": "2026-08-29T00:00:00+00:00",
+  "environment": {
+    "nn_davinci": "0.6.1",
+    "template_version": "1.0"
+  },
+  "figure_ir": {
+    "design_tokens": {
+      "arrow.kind": "end",
+      "arrow.size.pt": 4.0,
+      "color.background": "#ffffff",
+      "color.foreground": "#0f172a",
+      "color.operator": "#f8fafc",
+      "color.tensor.front": "#dbeafe",
+      "color.tensor.side": "#93c5fd",
+      "color.tensor.top": "#bfdbfe",
+      "corner.radius.pt": 3.0,
+      "font.family": "DejaVu Sans, Arial, sans-serif",
+      "font.minimum.pt": 7.0,
+      "font.size.pt": 9.0,
+      "font.weight": 500,
+      "guide.baseline.color": "#e2e8f0",
+      "guide.column.color": "#cbd5e1",
+      "guide.margin.color": "#94a3b8",
+      "line.annotation.color": "#7c3aed",
+      "line.annotation.dash": "4 3",
+      "line.data.color": "#334155",
+      "line.width.pt": 0.8,
+      "opacity": 1.0
+    },
+    "metadata": {
+      "accuracy_claims": false,
+      "authoring_mode": "figure-studio",
+      "editable": true,
+      "offline": true,
+      "page_preset": "double-column",
+      "paper_claims": false,
+      "supported_modes": [
+        "schematic",
+        "tensor-geometry",
+        "mixed"
+      ],
+      "supported_page_presets": [
+        "single-column",
+        "double-column",
+        "178mm"
+      ],
+      "template": "diffusion-unet-conditioning",
+      "template_version": "1.0"
+    },
+    "name": "Diffusion U-Net / timestep conditioning",
+    "pages": [
+      {
+        "baseline_grid_pt": 4.0,
+        "column_gap_mm": 4.0,
+        "columns": 1,
+        "height_mm": 118.0,
+        "id": "figure_page_diffusion_u_net___timestep_conditioning_ab7c9b1f",
+        "margin_mm": 4.0,
+        "order": 0,
+        "panels": [
+          {
+            "constraints": [],
+            "geometry": {
+              "height": 53.0,
+              "width": 170.0,
+              "x": 4.0,
+              "y": 4.0
+            },
+            "id": "figure_panel_diffusion_u_net___timestep_conditioning_a_02e82ba9",
+            "label": "A",
+            "layers": [
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_diffusion_u_net___timestep_co_733ddaf6",
+                "locked": false,
+                "name": "Model data",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 10.0,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_nois_bf695ace",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Noisy sample",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "operator_family": "generic",
+                      "template": "diffusion-unet-conditioning"
+                    },
+                    "name": "Noisy sample",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Noisy sample"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Noisy sample",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 39.0,
+                      "y": 10.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_enco_5242e3e7",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Encoder",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "operator_family": "pooling",
+                      "template": "diffusion-unet-conditioning"
+                    },
+                    "name": "Encoder",
+                    "order": 2,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Encoder"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Encoder",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 76.0,
+                      "y": 39.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_bott_9245bb77",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Bottleneck",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "operator_family": "attention",
+                      "template": "diffusion-unet-conditioning"
+                    },
+                    "name": "Bottleneck",
+                    "order": 4,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Bottleneck"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Bottleneck",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 113.0,
+                      "y": 10.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_deco_17433e79",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Decoder",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "operator_family": "upsample",
+                      "template": "diffusion-unet-conditioning"
+                    },
+                    "name": "Decoder",
+                    "order": 6,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Decoder"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Decoder",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 150.0,
+                      "y": 22.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_pred_b75b6731",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Prediction",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "operator_family": "generic",
+                      "template": "diffusion-unet-conditioning"
+                    },
+                    "name": "Prediction",
+                    "order": 8,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Prediction"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Prediction",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "height": 12.0,
+                      "width": 14.0,
+                      "x": 80.0,
+                      "y": 20.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_time_ef803c21",
+                    "kind": "operator-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "label": "Timestep",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "operator_family": "generic",
+                      "short_label": "t",
+                      "template": "diffusion-unet-conditioning"
+                    },
+                    "name": "Timestep",
+                    "order": 10,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Timestep"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Timestep",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 24.0,
+                      "x2": 39.0,
+                      "y": 25.103448275862068,
+                      "y2": 18.896551724137932
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_edge_e28933a3",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        24.0,
+                        25.103448275862068
+                      ],
+                      [
+                        39.0,
+                        18.896551724137932
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_schematic_nois_bf695ace",
+                        "figure_object_diffusion_unet_conditioning_schematic_enco_5242e3e7"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10000,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-0"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-0",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 53.0,
+                      "x2": 76.0,
+                      "y": 21.486486486486488,
+                      "y2": 39.513513513513516
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_edge_2962525f",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        53.0,
+                        21.486486486486488
+                      ],
+                      [
+                        76.0,
+                        39.513513513513516
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_schematic_enco_5242e3e7",
+                        "figure_object_diffusion_unet_conditioning_schematic_bott_9245bb77"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10001,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-1"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-1",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 90.0,
+                      "x2": 113.0,
+                      "y": 39.513513513513516,
+                      "y2": 21.486486486486488
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_edge_d41b8cf0",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        90.0,
+                        39.513513513513516
+                      ],
+                      [
+                        113.0,
+                        21.486486486486488
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_schematic_bott_9245bb77",
+                        "figure_object_diffusion_unet_conditioning_schematic_deco_17433e79"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10002,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-2"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-2",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 53.0,
+                      "x2": 113.0,
+                      "y": 16.0,
+                      "y2": 16.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_edge_87a746af",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        53.0,
+                        16.0
+                      ],
+                      [
+                        113.0,
+                        16.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_schematic_enco_5242e3e7",
+                        "figure_object_diffusion_unet_conditioning_schematic_deco_17433e79"
+                      ],
+                      "template_edge_kind": "skip"
+                    },
+                    "name": "skip",
+                    "order": 10003,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-3"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-3",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 127.0,
+                      "x2": 150.0,
+                      "y": 18.27027027027027,
+                      "y2": 25.72972972972973
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_edge_2990ea2a",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        127.0,
+                        18.27027027027027
+                      ],
+                      [
+                        150.0,
+                        25.72972972972973
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_schematic_deco_17433e79",
+                        "figure_object_diffusion_unet_conditioning_schematic_pred_b75b6731"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10004,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-4"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-4",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 80.0,
+                      "x2": 53.0,
+                      "y": 24.29268292682927,
+                      "y2": 17.70731707317073
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_edge_c8ef6bc9",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        80.0,
+                        24.29268292682927
+                      ],
+                      [
+                        53.0,
+                        17.70731707317073
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_schematic_time_ef803c21",
+                        "figure_object_diffusion_unet_conditioning_schematic_enco_5242e3e7"
+                      ],
+                      "template_edge_kind": "conditioning"
+                    },
+                    "name": "conditioning",
+                    "order": 10005,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-5"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-5",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 85.73684210526316,
+                      "x2": 84.26315789473684,
+                      "y": 32.0,
+                      "y2": 39.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_edge_91e16d02",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        85.73684210526316,
+                        32.0
+                      ],
+                      [
+                        84.26315789473684,
+                        39.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_schematic_time_ef803c21",
+                        "figure_object_diffusion_unet_conditioning_schematic_bott_9245bb77"
+                      ],
+                      "template_edge_kind": "conditioning"
+                    },
+                    "name": "conditioning",
+                    "order": 10006,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-6"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-6",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 94.0,
+                      "x2": 113.0,
+                      "y": 23.87878787878788,
+                      "y2": 18.12121212121212
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_schematic_edge_3dcf3d4c",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        94.0,
+                        23.87878787878788
+                      ],
+                      [
+                        113.0,
+                        18.12121212121212
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_schematic_time_ef803c21",
+                        "figure_object_diffusion_unet_conditioning_schematic_deco_17433e79"
+                      ],
+                      "template_edge_kind": "conditioning"
+                    },
+                    "name": "conditioning",
+                    "order": 10007,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-7"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-7",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 0,
+                "role": "model-data",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_diffusion_u_net___timestep_co_119febfe",
+                "locked": false,
+                "name": "Semantic annotation",
+                "objects": [],
+                "order": 1,
+                "role": "semantic-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_diffusion_u_net___timestep_co_d32f7159",
+                "locked": false,
+                "name": "Author annotation",
+                "objects": [],
+                "order": 2,
+                "role": "author-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_diffusion_u_net___timestep_co_55dd9f1d",
+                "locked": false,
+                "name": "Legend / Caption",
+                "objects": [],
+                "order": 3,
+                "role": "legend-caption",
+                "visible": true
+              }
+            ],
+            "layout_mode": "grid",
+            "locked": false,
+            "mode": "schematic",
+            "order": 0,
+            "title": "Schematic"
+          },
+          {
+            "constraints": [],
+            "geometry": {
+              "height": 53.0,
+              "width": 170.0,
+              "x": 4.0,
+              "y": 61.0
+            },
+            "id": "figure_panel_diffusion_u_net___timestep_conditioning_b_b3e3e107",
+            "label": "B",
+            "layers": [
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_diffusion_u_net___timestep_co_6e9a2f23",
+                "locked": false,
+                "name": "Model data",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 10.0,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_noisy_s_8cec9fa6",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "layout": "auto",
+                      "shape_label": "[B, C, H, W]",
+                      "template": "diffusion-unet-conditioning",
+                      "tensor_shape": [
+                        "B",
+                        "C",
+                        "H",
+                        "W"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Noisy sample",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Noisy sample"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Noisy sample",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 39.0,
+                      "y": 65.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_encoder_fb502dcb",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "layout": "auto",
+                      "shape_label": "[B, C_e, H/s, W/s]",
+                      "template": "diffusion-unet-conditioning",
+                      "tensor_shape": [
+                        "B",
+                        "C_e",
+                        "H/s",
+                        "W/s"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Encoder",
+                    "order": 2,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Encoder"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Encoder",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 76.0,
+                      "y": 91.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_bottlen_da7f84fc",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "layout": "auto",
+                      "shape_label": "[B, C_b, H/s, W/s]",
+                      "template": "diffusion-unet-conditioning",
+                      "tensor_shape": [
+                        "B",
+                        "C_b",
+                        "H/s",
+                        "W/s"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Bottleneck",
+                    "order": 4,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Bottleneck"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Bottleneck",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 113.0,
+                      "y": 65.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_decoder_c2245e4f",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "layout": "auto",
+                      "shape_label": "[B, C_d, H, W]",
+                      "template": "diffusion-unet-conditioning",
+                      "tensor_shape": [
+                        "B",
+                        "C_d",
+                        "H",
+                        "W"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Decoder",
+                    "order": 6,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Decoder"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Decoder",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 150.0,
+                      "y": 71.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_predict_e51c5fbf",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "layout": "auto",
+                      "shape_label": "[B, C, H, W]",
+                      "template": "diffusion-unet-conditioning",
+                      "tensor_shape": [
+                        "B",
+                        "C",
+                        "H",
+                        "W"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Prediction",
+                    "order": 8,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Prediction"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Prediction",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "depth": 2.8,
+                      "height": 8.0,
+                      "width": 10.0,
+                      "x": 80.0,
+                      "y": 76.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_timeste_0b1fdfd0",
+                    "kind": "tensor-glyph",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "geometry_scale": "manual",
+                      "label_lane_width_mm": 24.833333333333332,
+                      "layout": "auto",
+                      "shape_label": "[B, D_t]",
+                      "template": "diffusion-unet-conditioning",
+                      "tensor_shape": [
+                        "B",
+                        "D_t"
+                      ],
+                      "visual_scale_note": "manual template geometry; label is authoritative"
+                    },
+                    "name": "Timestep",
+                    "order": 10,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "Timestep"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:Timestep",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 22.8,
+                      "x2": 41.8,
+                      "y": 73.96551724137932,
+                      "y2": 70.03448275862068
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_edge_0_0fa79920",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        22.8,
+                        73.96551724137932
+                      ],
+                      [
+                        41.8,
+                        70.03448275862068
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_tensor_noisy_s_8cec9fa6",
+                        "figure_object_diffusion_unet_conditioning_tensor_encoder_fb502dcb"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10000,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-0"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-0",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 51.8,
+                      "x2": 80.0,
+                      "y": 73.0,
+                      "y2": 91.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_edge_1_6d964cd6",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        51.8,
+                        73.0
+                      ],
+                      [
+                        57.8,
+                        73.0
+                      ],
+                      [
+                        80.0,
+                        91.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_tensor_encoder_fb502dcb",
+                        "figure_object_diffusion_unet_conditioning_tensor_bottlen_da7f84fc"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10001,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-1"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-1",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 88.8,
+                      "x2": 125.8,
+                      "y": 95.0,
+                      "y2": 69.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_edge_2_93d5e7f4",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        88.8,
+                        95.0
+                      ],
+                      [
+                        135.0,
+                        95.0
+                      ],
+                      [
+                        135.0,
+                        80.0
+                      ],
+                      [
+                        125.8,
+                        69.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_tensor_bottlen_da7f84fc",
+                        "figure_object_diffusion_unet_conditioning_tensor_decoder_c2245e4f"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10002,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-2"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-2",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 51.8,
+                      "x2": 115.8,
+                      "y": 69.0,
+                      "y2": 69.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_edge_3_fe2f53d2",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        51.8,
+                        69.0
+                      ],
+                      [
+                        115.8,
+                        69.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_tensor_encoder_fb502dcb",
+                        "figure_object_diffusion_unet_conditioning_tensor_decoder_c2245e4f"
+                      ],
+                      "template_edge_kind": "skip"
+                    },
+                    "name": "skip",
+                    "order": 10003,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-3"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-3",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 125.8,
+                      "x2": 152.8,
+                      "y": 69.0,
+                      "y2": 75.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_edge_4_edb8b373",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        125.8,
+                        69.0
+                      ],
+                      [
+                        152.8,
+                        75.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "model-data",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_tensor_decoder_c2245e4f",
+                        "figure_object_diffusion_unet_conditioning_tensor_predict_e51c5fbf"
+                      ],
+                      "template_edge_kind": "data"
+                    },
+                    "name": "data",
+                    "order": 10004,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-4"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-4",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {},
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 87.8,
+                      "x2": 51.8,
+                      "y": 76.0,
+                      "y2": 69.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_edge_5_2e16dace",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        87.8,
+                        76.0
+                      ],
+                      [
+                        51.8,
+                        69.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_tensor_timeste_0b1fdfd0",
+                        "figure_object_diffusion_unet_conditioning_tensor_encoder_fb502dcb"
+                      ],
+                      "template_edge_kind": "conditioning"
+                    },
+                    "name": "conditioning",
+                    "order": 10005,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-5"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-5",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 82.8,
+                      "x2": 82.0,
+                      "y": 80.0,
+                      "y2": 91.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_edge_6_5f45f9bd",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        82.8,
+                        80.0
+                      ],
+                      [
+                        79.0,
+                        80.0
+                      ],
+                      [
+                        79.0,
+                        89.0
+                      ],
+                      [
+                        82.0,
+                        91.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_tensor_timeste_0b1fdfd0",
+                        "figure_object_diffusion_unet_conditioning_tensor_bottlen_da7f84fc"
+                      ],
+                      "template_edge_kind": "conditioning"
+                    },
+                    "name": "conditioning",
+                    "order": 10006,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-6"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-6",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  },
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 87.8,
+                      "x2": 115.8,
+                      "y": 76.0,
+                      "y2": 69.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_tensor_edge_7_4714086e",
+                    "kind": "edge",
+                    "locked": false,
+                    "manual_route": [
+                      [
+                        87.8,
+                        76.0
+                      ],
+                      [
+                        115.8,
+                        69.0
+                      ]
+                    ],
+                    "metadata": {
+                      "edge_semantics": "semantic-annotation",
+                      "endpoint_object_ids": [
+                        "figure_object_diffusion_unet_conditioning_tensor_timeste_0b1fdfd0",
+                        "figure_object_diffusion_unet_conditioning_tensor_decoder_c2245e4f"
+                      ],
+                      "template_edge_kind": "conditioning"
+                    },
+                    "name": "conditioning",
+                    "order": 10007,
+                    "provenance": {
+                      "author_annotation": false,
+                      "evidence": {
+                        "claim_scope": "schematic archetype",
+                        "model_instance": false,
+                        "role": "edge-7"
+                      },
+                      "graph_ir_ids": [],
+                      "kind": "template",
+                      "reason": "Bundled original template definition; values are symbolic unless a project supplies Graph IR evidence.",
+                      "source_id": "nndv-template:diffusion-unet-conditioning:edge-7",
+                      "source_locator": {
+                        "package": "nn_davinci/figure_templates/diffusion-unet-conditioning.json",
+                        "template_version": "1.0"
+                      }
+                    },
+                    "style": {
+                      "overrides": {
+                        "dash": "4 3"
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 0,
+                "role": "model-data",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_diffusion_u_net___timestep_co_3d8000c1",
+                "locked": false,
+                "name": "Semantic annotation",
+                "objects": [],
+                "order": 1,
+                "role": "semantic-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_diffusion_u_net___timestep_co_f46e9197",
+                "locked": false,
+                "name": "Author annotation",
+                "objects": [],
+                "order": 2,
+                "role": "author-annotation",
+                "visible": true
+              },
+              {
+                "groups": [],
+                "id": "figure_layer_figure_panel_diffusion_u_net___timestep_co_9597a33c",
+                "locked": false,
+                "name": "Legend / Caption",
+                "objects": [
+                  {
+                    "constraints": [],
+                    "geometry": {
+                      "x": 7.0,
+                      "y": 112.0
+                    },
+                    "id": "figure_object_diffusion_unet_conditioning_caption_22edfe25",
+                    "kind": "caption",
+                    "locked": false,
+                    "manual_route": [],
+                    "metadata": {
+                      "text": "Diffusion U-Net / timestep conditioning: U-Net path and separate timestep-conditioning edges without accuracy claims."
+                    },
+                    "name": "Diffusion U-Net / timestep conditioning: U-Net path and separate timestep-conditioning edges without accuracy claims.",
+                    "order": 0,
+                    "provenance": {
+                      "author_annotation": true,
+                      "evidence": {},
+                      "graph_ir_ids": [],
+                      "kind": "author_annotation",
+                      "reason": "Bundled editable caption describing only the template structure.",
+                      "source_id": "",
+                      "source_locator": {}
+                    },
+                    "style": {
+                      "overrides": {
+                        "font_size": 7.0
+                      },
+                      "token_refs": {}
+                    },
+                    "visible": true
+                  }
+                ],
+                "order": 3,
+                "role": "legend-caption",
+                "visible": true
+              }
+            ],
+            "layout_mode": "grid",
+            "locked": false,
+            "mode": "tensor-geometry",
+            "order": 1,
+            "title": "Tensor geometry"
+          }
+        ],
+        "title": "Diffusion U-Net / timestep conditioning",
+        "width_mm": 178.0
+      }
+    ],
+    "schema_version": "1.0",
+    "theme": "neurips"
+  },
+  "graph": {
+    "analysis": {},
+    "annotations": [],
+    "constraints": [],
+    "edges": [
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "diffusion-unet-conditioning"
+        },
+        "id": "edge_node_template_diffusion_unet_conditioning__b2b93a1e",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_diffusion_unet_conditioning_noisy_7d15f3c2",
+        "source_port": null,
+        "target": "node_template_diffusion_unet_conditioning_encod_6c19cfdb",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Noisy sample tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "C",
+            "H",
+            "W"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "diffusion-unet-conditioning"
+        },
+        "id": "edge_node_template_diffusion_unet_conditioning__1ca231c8",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_diffusion_unet_conditioning_encod_6c19cfdb",
+        "source_port": null,
+        "target": "node_template_diffusion_unet_conditioning_bottl_a1ee35c6",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Encoder tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "C_e",
+            "H/s",
+            "W/s"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "diffusion-unet-conditioning"
+        },
+        "id": "edge_node_template_diffusion_unet_conditioning__f8e003f2",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_diffusion_unet_conditioning_bottl_a1ee35c6",
+        "source_port": null,
+        "target": "node_template_diffusion_unet_conditioning_decod_5de17ad5",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Bottleneck tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "C_b",
+            "H/s",
+            "W/s"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "diffusion-unet-conditioning"
+        },
+        "id": "edge_node_template_diffusion_unet_conditioning__51e0bedc",
+        "kind": "skip",
+        "label": "",
+        "source": "node_template_diffusion_unet_conditioning_encod_6c19cfdb",
+        "source_port": null,
+        "target": "node_template_diffusion_unet_conditioning_decod_5de17ad5",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Encoder tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "C_e",
+            "H/s",
+            "W/s"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "diffusion-unet-conditioning"
+        },
+        "id": "edge_node_template_diffusion_unet_conditioning__5579e520",
+        "kind": "data",
+        "label": "",
+        "source": "node_template_diffusion_unet_conditioning_decod_5de17ad5",
+        "source_port": null,
+        "target": "node_template_diffusion_unet_conditioning_predi_39c34616",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Decoder tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "C_d",
+            "H",
+            "W"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "diffusion-unet-conditioning"
+        },
+        "id": "edge_node_template_diffusion_unet_conditioning__1b434357",
+        "kind": "conditioning",
+        "label": "",
+        "source": "node_template_diffusion_unet_conditioning_times_7c168ad8",
+        "source_port": null,
+        "target": "node_template_diffusion_unet_conditioning_encod_6c19cfdb",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Timestep tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "D_t"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "diffusion-unet-conditioning"
+        },
+        "id": "edge_node_template_diffusion_unet_conditioning__827a5ebb",
+        "kind": "conditioning",
+        "label": "",
+        "source": "node_template_diffusion_unet_conditioning_times_7c168ad8",
+        "source_port": null,
+        "target": "node_template_diffusion_unet_conditioning_bottl_a1ee35c6",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Timestep tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "D_t"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      },
+      {
+        "attributes": {
+          "provenance": "bundled-template",
+          "schematic_only": true,
+          "template": "diffusion-unet-conditioning"
+        },
+        "id": "edge_node_template_diffusion_unet_conditioning__e633fac4",
+        "kind": "conditioning",
+        "label": "",
+        "source": "node_template_diffusion_unet_conditioning_times_7c168ad8",
+        "source_port": null,
+        "target": "node_template_diffusion_unet_conditioning_decod_5de17ad5",
+        "target_port": null,
+        "tensor": {
+          "dtype": "unknown",
+          "dynamic_axes": {},
+          "name": "Timestep tensor",
+          "semantic": null,
+          "shape": [
+            "B",
+            "D_t"
+          ],
+          "size_bytes": null
+        },
+        "visible": true
+      }
+    ],
+    "inputs": [],
+    "ir_version": "1.0",
+    "metadata": {
+      "accuracy_claims": false,
+      "model_instance": false,
+      "paper_claims": false,
+      "source_format": "nndv-bundled-figure-template",
+      "template": "diffusion-unet-conditioning",
+      "template_version": "1.0"
+    },
+    "name": "Diffusion U-Net / timestep conditioning",
+    "nodes": [
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "generic",
+          "template_role": "Noisy sample"
+        },
+        "buffers": 0,
+        "category": "operation",
+        "id": "node_template_diffusion_unet_conditioning_noisy_7d15f3c2",
+        "inputs": [],
+        "level": "operation",
+        "name": "Noisy sample",
+        "namespace": "",
+        "op_type": "generic",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_diffusion_unet_conditioning__c45ee8da",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Noisy sample tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C",
+                "H",
+                "W"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/diffusion-unet-conditioning/0",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Noisy sample",
+          "template": "diffusion-unet-conditioning"
+        },
+        "tags": [
+          "template",
+          "generic"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "pooling",
+          "template_role": "Encoder"
+        },
+        "buffers": 0,
+        "category": "pooling",
+        "id": "node_template_diffusion_unet_conditioning_encod_6c19cfdb",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_diffusion_unet_conditioning__01c3a960",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Encoder tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C_e",
+                "H/s",
+                "W/s"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Encoder",
+        "namespace": "",
+        "op_type": "pooling",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_diffusion_unet_conditioning__fe1e2684",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Encoder tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C_e",
+                "H/s",
+                "W/s"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/diffusion-unet-conditioning/1",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Encoder",
+          "template": "diffusion-unet-conditioning"
+        },
+        "tags": [
+          "template",
+          "pooling"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "attention",
+          "template_role": "Bottleneck"
+        },
+        "buffers": 0,
+        "category": "attention",
+        "id": "node_template_diffusion_unet_conditioning_bottl_a1ee35c6",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_diffusion_unet_conditioning__6de8d722",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Bottleneck tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C_b",
+                "H/s",
+                "W/s"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Bottleneck",
+        "namespace": "",
+        "op_type": "attention",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_diffusion_unet_conditioning__9a32ebea",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Bottleneck tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C_b",
+                "H/s",
+                "W/s"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/diffusion-unet-conditioning/2",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Bottleneck",
+          "template": "diffusion-unet-conditioning"
+        },
+        "tags": [
+          "template",
+          "attention"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "upsample",
+          "template_role": "Decoder"
+        },
+        "buffers": 0,
+        "category": "upsample",
+        "id": "node_template_diffusion_unet_conditioning_decod_5de17ad5",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_diffusion_unet_conditioning__3fdb4174",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Decoder tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C_d",
+                "H",
+                "W"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Decoder",
+        "namespace": "",
+        "op_type": "upsample",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_diffusion_unet_conditioning__1faa2edf",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Decoder tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C_d",
+                "H",
+                "W"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/diffusion-unet-conditioning/3",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Decoder",
+          "template": "diffusion-unet-conditioning"
+        },
+        "tags": [
+          "template",
+          "upsample"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "generic",
+          "template_role": "Prediction"
+        },
+        "buffers": 0,
+        "category": "operation",
+        "id": "node_template_diffusion_unet_conditioning_predi_39c34616",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_diffusion_unet_conditioning__f446312e",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Prediction tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C",
+                "H",
+                "W"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Prediction",
+        "namespace": "",
+        "op_type": "generic",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_diffusion_unet_conditioning__cc2c72e6",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Prediction tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "C",
+                "H",
+                "W"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/diffusion-unet-conditioning/4",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Prediction",
+          "template": "diffusion-unet-conditioning"
+        },
+        "tags": [
+          "template",
+          "generic"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      },
+      {
+        "analysis": {},
+        "attributes": {
+          "operator_family": "generic",
+          "template_role": "Timestep"
+        },
+        "buffers": 0,
+        "category": "operation",
+        "id": "node_template_diffusion_unet_conditioning_times_7c168ad8",
+        "inputs": [
+          {
+            "direction": "input",
+            "id": "port_node_template_diffusion_unet_conditioning__4c2e5d88",
+            "name": "input",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Timestep tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "D_t"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "level": "operation",
+        "name": "Timestep",
+        "namespace": "",
+        "op_type": "generic",
+        "outputs": [
+          {
+            "direction": "output",
+            "id": "port_node_template_diffusion_unet_conditioning__1b20ab95",
+            "name": "output",
+            "tensor": {
+              "dtype": "unknown",
+              "dynamic_axes": {},
+              "name": "Timestep tensor",
+              "semantic": null,
+              "shape": [
+                "B",
+                "D_t"
+              ],
+              "size_bytes": null
+            },
+            "variadic": false
+          }
+        ],
+        "parameters": 0,
+        "parent": null,
+        "path": "template/diffusion-unet-conditioning/5",
+        "shared_weights": [],
+        "source": {
+          "claim_scope": "schematic archetype",
+          "kind": "bundled-template",
+          "model_instance": false,
+          "role": "Timestep",
+          "template": "diffusion-unet-conditioning"
+        },
+        "tags": [
+          "template",
+          "generic"
+        ],
+        "trainable_parameters": 0,
+        "visible": true
+      }
+    ],
+    "outputs": [],
+    "subgraphs": []
+  },
+  "model_source": {
+    "kind": "bundled-figure-template",
+    "model_instance": false,
+    "template": "diffusion-unet-conditioning"
+  },
+  "name": "Diffusion U-Net / timestep conditioning",
+  "project_version": "1.3",
+  "theme": "neurips",
+  "updated_at": "2026-08-29T00:00:00+00:00"
+}

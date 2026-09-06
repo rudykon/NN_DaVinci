@@ -1,0 +1,27 @@
+{
+  "documentation": [
+    "docs/RELEASE_NOTES_0.7.3.md",
+    "docs/SEMANTIC_PRESENTATION_COMPLETENESS_0.7.3.md",
+    "docs/GENERALIZATION_REPORT_0.7.3.md",
+    "docs/SERVICE_LIFECYCLE_0.7.3.md",
+    "docs/KNOWN_LIMITATIONS.md"
+  ],
+  "failures": [],
+  "generated_at": "2026-09-02T04:20:19.268034+00:00",
+  "generic_role_graph_production_path": "PASS",
+  "git_operations": false,
+  "human_participants": 0,
+  "parent_field_hygiene": "PASS",
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "schema_version": "nndv-0.7.3-release-audit-1",
+  "stale_current_version_blocker": "PASS",
+  "status": "PASS",
+  "uploaded_or_published": false,
+  "versions": {
+    "package": "0.7.3",
+    "package_lock": "0.7.3",
+    "package_lock_root": "0.7.3",
+    "pyproject": "0.7.3",
+    "python": "0.7.3"
+  }
+}

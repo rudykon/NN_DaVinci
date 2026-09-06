@@ -1,0 +1,23 @@
+{
+  "name": "nn-davinci-web-tests",
+  "private": true,
+  "version": "0.7.3",
+  "description": "Workspace-isolated lint and browser acceptance dependencies for NN_DaVinci",
+  "scripts": {
+    "lint": "eslint src/nn_davinci/web tests/e2e",
+    "format": "prettier --write src/nn_davinci/web/*.js src/nn_davinci/web/*.css tests/e2e/*.mjs",
+    "format:check": "prettier --check src/nn_davinci/web/*.js src/nn_davinci/web/*.css tests/e2e/*.mjs",
+    "e2e": "node tests/e2e/editor.e2e.mjs",
+    "e2e:responsive": "node tests/e2e/responsive-toolbar.e2e.mjs",
+    "e2e:semantic": "node tests/e2e/semantic-workflow.e2e.mjs",
+    "e2e:product": "node tests/e2e/product-workflow.e2e.mjs",
+    "e2e:trial": "node tests/e2e/trial-workflow.e2e.mjs",
+    "e2e:figure": "node tests/e2e/figure-studio.e2e.mjs",
+    "e2e:scene": "node tests/e2e/scene-studio.e2e.mjs"
+  },
+  "devDependencies": {
+    "eslint": "9.35.0",
+    "playwright-core": "1.55.0",
+    "prettier": "3.6.2"
+  }
+}

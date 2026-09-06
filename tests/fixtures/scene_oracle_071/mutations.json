@@ -1,0 +1,41 @@
+{
+  "schema_version": "nndv-0.7.1-visual-oracle-mutations-1",
+  "mutations": [
+    {
+      "name": "label-stack",
+      "find": "id=\"label-b\" data-kind=\"label\" data-object-id=\"object-b\" data-font-size-pt=\"7\" x=\"86\" y=\"28\"",
+      "replace": "id=\"label-b\" data-kind=\"label\" data-object-id=\"object-b\" data-font-size-pt=\"7\" x=\"37\" y=\"28\"",
+      "expected_failure": "label-label collisions"
+    },
+    {
+      "name": "label-object",
+      "find": "id=\"label-b\" data-kind=\"label\" data-object-id=\"object-b\" data-font-size-pt=\"7\" x=\"86\" y=\"28\"",
+      "replace": "id=\"label-b\" data-kind=\"label\" data-object-id=\"object-b\" data-font-size-pt=\"7\" x=\"84\" y=\"52\"",
+      "expected_failure": "label-object collisions"
+    },
+    {
+      "name": "clipped-label",
+      "find": "id=\"label-a\" data-kind=\"label\" data-object-id=\"object-a\" data-font-size-pt=\"7\" x=\"37\" y=\"28\"",
+      "replace": "id=\"label-a\" data-kind=\"label\" data-object-id=\"object-a\" data-font-size-pt=\"7\" x=\"-8\" y=\"28\"",
+      "expected_failure": "clipped visible elements"
+    },
+    {
+      "name": "starburst",
+      "find": "<!-- mutation-anchor -->",
+      "replace": "<polyline data-kind=\"polyline\" data-object-id=\"star-1\" points=\"90,90 55,78\"/><polyline data-kind=\"polyline\" data-object-id=\"star-2\" points=\"90,90 65,82\"/><polyline data-kind=\"polyline\" data-object-id=\"star-3\" points=\"90,90 78,84\"/><polyline data-kind=\"polyline\" data-object-id=\"star-4\" points=\"90,90 90,82\"/><polyline data-kind=\"polyline\" data-object-id=\"star-5\" points=\"90,90 102,84\"/><polyline data-kind=\"polyline\" data-object-id=\"star-6\" points=\"90,90 115,82\"/><polyline data-kind=\"polyline\" data-object-id=\"star-7\" points=\"90,90 125,78\"/>",
+      "expected_failure": "connector starburst degree"
+    },
+    {
+      "name": "huge-frame",
+      "find": "<!-- mutation-anchor -->",
+      "replace": "<polygon data-kind=\"face\" data-object-id=\"huge-frame\" points=\"3,3 177,3 177,117 3,117\" fill=\"none\" stroke=\"#334155\"/>",
+      "expected_failure": "huge frame-like face ratio"
+    },
+    {
+      "name": "nonuniform-text-scale",
+      "find": "id=\"label-c\" data-kind=\"label\"",
+      "replace": "id=\"label-c\" data-kind=\"label\" transform=\"scale(0.5 1)\"",
+      "expected_failure": "text scale is not 1.0"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<meta charset="utf-8" />
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font:
+      14px Arial,
+      sans-serif;
+  }
+  [data-toolbar] {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    overflow: hidden;
+  }
+  [data-toolbar-control] {
+    width: 44px;
+    padding: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+</style>
+<nav data-toolbar>
+  <button data-toolbar-control>Orthographic</button>
+  <button data-toolbar-control>Camera lock</button>
+</nav>

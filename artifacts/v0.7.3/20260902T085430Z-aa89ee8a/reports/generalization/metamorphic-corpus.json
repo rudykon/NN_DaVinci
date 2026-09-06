@@ -1,0 +1,1465 @@
+{
+  "architecture_variants": {
+    "fusion_image_first_width48": {
+      "evidence": {
+        "family": "multimodal-fusion",
+        "repetitions": [],
+        "roles": [
+          [
+            "fusion",
+            1
+          ],
+          [
+            "image-lane",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "text-lane",
+            1
+          ]
+        ],
+        "routes": [
+          "multimodal-stream",
+          "multimodal-stream"
+        ]
+      },
+      "expected_family": "multimodal-fusion",
+      "role_attributes": {
+        "fusion": {},
+        "image-lane": {
+          "modality": "image"
+        },
+        "output-head": {},
+        "text-lane": {
+          "modality": "text"
+        }
+      }
+    },
+    "fusion_text_first_width96": {
+      "evidence": {
+        "family": "multimodal-fusion",
+        "repetitions": [],
+        "roles": [
+          [
+            "fusion",
+            1
+          ],
+          [
+            "image-lane",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "text-lane",
+            1
+          ]
+        ],
+        "routes": [
+          "multimodal-stream",
+          "multimodal-stream"
+        ]
+      },
+      "expected_family": "multimodal-fusion",
+      "role_attributes": {
+        "fusion": {},
+        "image-lane": {
+          "modality": "image"
+        },
+        "output-head": {},
+        "text-lane": {
+          "modality": "text"
+        }
+      }
+    },
+    "moe_experts_3_top1_width48": {
+      "evidence": {
+        "family": "moe",
+        "repetitions": [
+          [
+            3,
+            "experts"
+          ]
+        ],
+        "roles": [
+          [
+            "experts",
+            3
+          ],
+          [
+            "input",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "router",
+            1
+          ],
+          [
+            "weighted-combine",
+            1
+          ]
+        ],
+        "routes": [
+          "expert-branch",
+          "expert-branch",
+          "expert-branch",
+          "weighted-combine"
+        ]
+      },
+      "expected_family": "moe",
+      "role_attributes": {
+        "experts": {
+          "expanded_members": [
+            [
+              "variant_node_typed_moe_3_1_48_5_linear_4f3b369b",
+              "variant_node_typed_moe_3_1_48_6_linear_4cb5825b"
+            ],
+            [
+              "variant_node_typed_moe_3_1_48_7_linear_55a29b7e",
+              "variant_node_typed_moe_3_1_48_8_linear_a3aa36c8"
+            ],
+            [
+              "variant_node_typed_moe_3_1_48_10_linear_fef9dff9",
+              "variant_node_typed_moe_3_1_48_9_linear_37807fd5"
+            ]
+          ],
+          "expert_count": 3
+        },
+        "input": {},
+        "output-head": {},
+        "router": {},
+        "weighted-combine": {}
+      }
+    },
+    "moe_experts_6_top2_width80": {
+      "evidence": {
+        "family": "moe",
+        "repetitions": [
+          [
+            6,
+            "experts"
+          ]
+        ],
+        "roles": [
+          [
+            "experts",
+            6
+          ],
+          [
+            "input",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "router",
+            1
+          ],
+          [
+            "weighted-combine",
+            1
+          ]
+        ],
+        "routes": [
+          "expert-branch",
+          "expert-branch",
+          "expert-branch",
+          "expert-branch",
+          "expert-branch",
+          "expert-branch",
+          "weighted-combine"
+        ]
+      },
+      "expected_family": "moe",
+      "role_attributes": {
+        "experts": {
+          "expanded_members": [
+            [
+              "variant_node_typed_moe_6_2_80_5_linear_a33e6c18",
+              "variant_node_typed_moe_6_2_80_6_linear_d8f81066"
+            ],
+            [
+              "variant_node_typed_moe_6_2_80_7_linear_340c58cb",
+              "variant_node_typed_moe_6_2_80_8_linear_35994cbd"
+            ],
+            [
+              "variant_node_typed_moe_6_2_80_10_linear_57fbb906",
+              "variant_node_typed_moe_6_2_80_9_linear_40c156fb"
+            ],
+            [
+              "variant_node_typed_moe_6_2_80_11_linear_8ae016b1",
+              "variant_node_typed_moe_6_2_80_12_linear_9041d0ea"
+            ],
+            [
+              "variant_node_typed_moe_6_2_80_13_linear_91fae174",
+              "variant_node_typed_moe_6_2_80_14_linear_52459260"
+            ],
+            [
+              "variant_node_typed_moe_6_2_80_15_linear_165322db",
+              "variant_node_typed_moe_6_2_80_16_linear_97de1f7d"
+            ]
+          ],
+          "expert_count": 6
+        },
+        "input": {},
+        "output-head": {},
+        "router": {},
+        "weighted-combine": {}
+      }
+    },
+    "resnet_repeat_2_2_2_2": {
+      "evidence": {
+        "family": "resnet",
+        "repetitions": [
+          [
+            2,
+            "residual-stage"
+          ],
+          [
+            2,
+            "residual-stage"
+          ],
+          [
+            2,
+            "residual-stage"
+          ],
+          [
+            2,
+            "residual-stage"
+          ]
+        ],
+        "roles": [
+          [
+            "input-stem",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "residual-stage",
+            2
+          ],
+          [
+            "residual-stage",
+            2
+          ],
+          [
+            "residual-stage",
+            2
+          ],
+          [
+            "residual-stage",
+            2
+          ]
+        ],
+        "routes": [
+          "residual-skip",
+          "residual-skip",
+          "residual-skip",
+          "residual-skip"
+        ]
+      },
+      "expected_family": "resnet",
+      "role_attributes": {
+        "input-stem": {},
+        "output-head": {},
+        "residual-stage": {
+          "bottleneck": true,
+          "merge_node_ids": [
+            "variant_node_typed_residual__2__2__2__2__15_add_a1e5f300",
+            "variant_node_typed_residual__2__2__2__2__17_add_e69d9001"
+          ],
+          "semantic_type": "residual_block",
+          "spatial_signature": [
+            2048,
+            2,
+            2
+          ],
+          "stage_index": 4
+        }
+      }
+    },
+    "resnet_repeat_3_3_3_3": {
+      "evidence": {
+        "family": "resnet",
+        "repetitions": [
+          [
+            3,
+            "residual-stage"
+          ],
+          [
+            3,
+            "residual-stage"
+          ],
+          [
+            3,
+            "residual-stage"
+          ],
+          [
+            3,
+            "residual-stage"
+          ]
+        ],
+        "roles": [
+          [
+            "input-stem",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "residual-stage",
+            3
+          ],
+          [
+            "residual-stage",
+            3
+          ],
+          [
+            "residual-stage",
+            3
+          ],
+          [
+            "residual-stage",
+            3
+          ]
+        ],
+        "routes": [
+          "residual-skip",
+          "residual-skip",
+          "residual-skip",
+          "residual-skip"
+        ]
+      },
+      "expected_family": "resnet",
+      "role_attributes": {
+        "input-stem": {},
+        "output-head": {},
+        "residual-stage": {
+          "bottleneck": true,
+          "merge_node_ids": [
+            "variant_node_typed_residual__3__3__3__3__21_add_a8c2c54e",
+            "variant_node_typed_residual__3__3__3__3__23_add_0660dd4e",
+            "variant_node_typed_residual__3__3__3__3__25_add_3a7af35a"
+          ],
+          "semantic_type": "residual_block",
+          "spatial_signature": [
+            2048,
+            2,
+            2
+          ],
+          "stage_index": 4
+        }
+      }
+    },
+    "transformer_depth_2_width_64": {
+      "evidence": {
+        "family": "transformer",
+        "repetitions": [
+          [
+            2,
+            "attention"
+          ],
+          [
+            2,
+            "feed-forward"
+          ],
+          [
+            2,
+            "residual-norm"
+          ]
+        ],
+        "roles": [
+          [
+            "attention",
+            2
+          ],
+          [
+            "embedding",
+            1
+          ],
+          [
+            "feed-forward",
+            2
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "residual-norm",
+            2
+          ]
+        ],
+        "routes": [
+          "residual-skip"
+        ]
+      },
+      "expected_family": "transformer",
+      "role_attributes": {
+        "attention": {},
+        "embedding": {
+          "input_kind": "token"
+        },
+        "feed-forward": {},
+        "output-head": {},
+        "residual-norm": {}
+      }
+    },
+    "transformer_depth_5_width_128": {
+      "evidence": {
+        "family": "transformer",
+        "repetitions": [
+          [
+            5,
+            "attention"
+          ],
+          [
+            5,
+            "feed-forward"
+          ],
+          [
+            5,
+            "residual-norm"
+          ]
+        ],
+        "roles": [
+          [
+            "attention",
+            5
+          ],
+          [
+            "embedding",
+            1
+          ],
+          [
+            "feed-forward",
+            5
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "residual-norm",
+            5
+          ]
+        ],
+        "routes": [
+          "residual-skip"
+        ]
+      },
+      "expected_family": "transformer",
+      "role_attributes": {
+        "attention": {},
+        "embedding": {
+          "input_kind": "token"
+        },
+        "feed-forward": {},
+        "output-head": {},
+        "residual-norm": {}
+      }
+    },
+    "unet_levels_2_width_12": {
+      "evidence": {
+        "family": "unet",
+        "repetitions": [],
+        "roles": [
+          [
+            "bottleneck",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "input",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ]
+        ],
+        "routes": [
+          "unet-skip",
+          "unet-skip"
+        ]
+      },
+      "expected_family": "unet",
+      "role_attributes": {
+        "bottleneck": {},
+        "decoder-level": {
+          "level_index": 2,
+          "spatial_signature": [
+            12,
+            64,
+            64
+          ]
+        },
+        "encoder-level": {
+          "level_index": 2,
+          "spatial_signature": [
+            24,
+            32,
+            32
+          ]
+        },
+        "input": {},
+        "output-head": {}
+      }
+    },
+    "unet_levels_4_width_20": {
+      "evidence": {
+        "family": "unet",
+        "repetitions": [],
+        "roles": [
+          [
+            "bottleneck",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "input",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ]
+        ],
+        "routes": [
+          "unet-skip",
+          "unet-skip",
+          "unet-skip",
+          "unet-skip"
+        ]
+      },
+      "expected_family": "unet",
+      "role_attributes": {
+        "bottleneck": {},
+        "decoder-level": {
+          "level_index": 4,
+          "spatial_signature": [
+            20,
+            64,
+            64
+          ]
+        },
+        "encoder-level": {
+          "level_index": 4,
+          "spatial_signature": [
+            160,
+            8,
+            8
+          ]
+        },
+        "input": {},
+        "output-head": {}
+      }
+    }
+  },
+  "corpus_version": "1.0",
+  "failures": [],
+  "real_model_metamorphisms": {
+    "bert_encoder": {
+      "negative_mutation": {
+        "degraded": true,
+        "removed_edge_count": 5,
+        "removed_edge_ids": [
+          "module_edge_edge_node_fx_add_4_da0b8291_node_fx_add_4__d59a6da8",
+          "module_edge_edge_node_fx_add_4_da0b8291_node_fx_add_4__07f05e74",
+          "module_edge_edge_node_fx_add_4_da0b8291_node_fx_add_4__fe6dcff0",
+          "module_edge_edge_node_fx_encoder_0_self_attention_5_5a_2fddf3e0",
+          "module_edge_edge_node_fx_encoder_0_self_attention_5_5a_a76524f9"
+        ],
+        "result_confidence": 0.9400000000000001,
+        "result_family": "transformer",
+        "result_signature": {
+          "family": "transformer",
+          "repetitions": [
+            [
+              2,
+              "attention"
+            ],
+            [
+              2,
+              "feed-forward"
+            ],
+            [
+              2,
+              "residual-norm"
+            ]
+          ],
+          "roles": [
+            [
+              "attention",
+              2
+            ],
+            [
+              "embedding",
+              1
+            ],
+            [
+              "feed-forward",
+              2
+            ],
+            [
+              "output-head",
+              1
+            ],
+            [
+              "residual-norm",
+              2
+            ]
+          ],
+          "routes": [
+            "residual-skip"
+          ]
+        }
+      },
+      "original": {
+        "family": "transformer",
+        "repetitions": [
+          [
+            3,
+            "attention"
+          ],
+          [
+            3,
+            "feed-forward"
+          ],
+          [
+            3,
+            "residual-norm"
+          ]
+        ],
+        "roles": [
+          [
+            "attention",
+            3
+          ],
+          [
+            "embedding",
+            1
+          ],
+          [
+            "feed-forward",
+            3
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "residual-norm",
+            3
+          ]
+        ],
+        "routes": [
+          "residual-skip"
+        ]
+      },
+      "provenance_rebound": true,
+      "seed": 7302,
+      "signature_equal": true,
+      "transformed": {
+        "family": "transformer",
+        "repetitions": [
+          [
+            3,
+            "attention"
+          ],
+          [
+            3,
+            "feed-forward"
+          ],
+          [
+            3,
+            "residual-norm"
+          ]
+        ],
+        "roles": [
+          [
+            "attention",
+            3
+          ],
+          [
+            "embedding",
+            1
+          ],
+          [
+            "feed-forward",
+            3
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "residual-norm",
+            3
+          ]
+        ],
+        "routes": [
+          "residual-skip"
+        ]
+      }
+    },
+    "diffusion_unet": {
+      "negative_mutation": {
+        "degraded": true,
+        "removed_edge_count": 2,
+        "removed_edge_ids": [
+          "module_edge_edge_node_fx_getitem_10_957ae78a_node_fx_g_224c21f0",
+          "module_edge_edge_node_fx_getitem_1_18_16efded9_node_fx_f0858e82"
+        ],
+        "result_confidence": 0.0,
+        "result_family": "unknown",
+        "result_signature": {
+          "family": "unknown",
+          "repetitions": [],
+          "roles": [],
+          "routes": []
+        }
+      },
+      "original": {
+        "family": "diffusion-unet",
+        "repetitions": [],
+        "roles": [
+          [
+            "bottleneck",
+            1
+          ],
+          [
+            "conditioning",
+            1
+          ],
+          [
+            "down-path",
+            1
+          ],
+          [
+            "input",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "up-path",
+            1
+          ]
+        ],
+        "routes": [
+          "conditioning",
+          "conditioning",
+          "conditioning"
+        ]
+      },
+      "provenance_rebound": true,
+      "seed": 7304,
+      "signature_equal": true,
+      "transformed": {
+        "family": "diffusion-unet",
+        "repetitions": [],
+        "roles": [
+          [
+            "bottleneck",
+            1
+          ],
+          [
+            "conditioning",
+            1
+          ],
+          [
+            "down-path",
+            1
+          ],
+          [
+            "input",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "up-path",
+            1
+          ]
+        ],
+        "routes": [
+          "conditioning",
+          "conditioning",
+          "conditioning"
+        ]
+      }
+    },
+    "image_text": {
+      "negative_mutation": {
+        "degraded": true,
+        "removed_edge_count": 1,
+        "removed_edge_ids": [
+          "module_edge_edge_node_fx_modality_fusion_image_project_5cfd9206"
+        ],
+        "result_confidence": 0.0,
+        "result_family": "unknown",
+        "result_signature": {
+          "family": "unknown",
+          "repetitions": [],
+          "roles": [],
+          "routes": []
+        }
+      },
+      "original": {
+        "family": "multimodal-fusion",
+        "repetitions": [],
+        "roles": [
+          [
+            "fusion",
+            1
+          ],
+          [
+            "image-lane",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "text-lane",
+            1
+          ]
+        ],
+        "routes": [
+          "multimodal-stream",
+          "multimodal-stream"
+        ]
+      },
+      "provenance_rebound": true,
+      "seed": 7306,
+      "signature_equal": true,
+      "transformed": {
+        "family": "multimodal-fusion",
+        "repetitions": [],
+        "roles": [
+          [
+            "fusion",
+            1
+          ],
+          [
+            "image-lane",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "text-lane",
+            1
+          ]
+        ],
+        "routes": [
+          "multimodal-stream",
+          "multimodal-stream"
+        ]
+      }
+    },
+    "multiscale_unet": {
+      "negative_mutation": {
+        "degraded": true,
+        "removed_edge_count": 2,
+        "removed_edge_ids": [
+          "module_edge_edge_node_fx_encoder3_5_20_08ec9dc0_node_f_0aab4d34",
+          "module_edge_edge_node_fx_encoder2_5_13_fdc0b308_node_f_f9035d59"
+        ],
+        "result_confidence": 0.0,
+        "result_family": "unknown",
+        "result_signature": {
+          "family": "unknown",
+          "repetitions": [],
+          "roles": [],
+          "routes": []
+        }
+      },
+      "original": {
+        "family": "unet",
+        "repetitions": [],
+        "roles": [
+          [
+            "bottleneck",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "input",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ]
+        ],
+        "routes": [
+          "unet-skip",
+          "unet-skip",
+          "unet-skip"
+        ]
+      },
+      "provenance_rebound": true,
+      "seed": 7303,
+      "signature_equal": true,
+      "transformed": {
+        "family": "unet",
+        "repetitions": [],
+        "roles": [
+          [
+            "bottleneck",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "decoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "encoder-level",
+            1
+          ],
+          [
+            "input",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ]
+        ],
+        "routes": [
+          "unet-skip",
+          "unet-skip",
+          "unet-skip"
+        ]
+      }
+    },
+    "resnet50": {
+      "negative_mutation": {
+        "degraded": true,
+        "removed_edge_count": 1,
+        "removed_edge_ids": [
+          "module_edge_edge_node_fx_layer1_0_bn3_12_6eb7011c_node_1d7b1aa3"
+        ],
+        "result_confidence": 0.99,
+        "result_family": "resnet",
+        "result_signature": {
+          "family": "resnet",
+          "repetitions": [
+            [
+              2,
+              "residual-stage"
+            ],
+            [
+              3,
+              "residual-stage"
+            ],
+            [
+              4,
+              "residual-stage"
+            ],
+            [
+              6,
+              "residual-stage"
+            ]
+          ],
+          "roles": [
+            [
+              "input-stem",
+              1
+            ],
+            [
+              "output-head",
+              1
+            ],
+            [
+              "residual-stage",
+              2
+            ],
+            [
+              "residual-stage",
+              3
+            ],
+            [
+              "residual-stage",
+              4
+            ],
+            [
+              "residual-stage",
+              6
+            ]
+          ],
+          "routes": [
+            "residual-skip",
+            "residual-skip",
+            "residual-skip",
+            "residual-skip"
+          ]
+        }
+      },
+      "original": {
+        "family": "resnet",
+        "repetitions": [
+          [
+            3,
+            "residual-stage"
+          ],
+          [
+            3,
+            "residual-stage"
+          ],
+          [
+            4,
+            "residual-stage"
+          ],
+          [
+            6,
+            "residual-stage"
+          ]
+        ],
+        "roles": [
+          [
+            "input-stem",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "residual-stage",
+            3
+          ],
+          [
+            "residual-stage",
+            3
+          ],
+          [
+            "residual-stage",
+            4
+          ],
+          [
+            "residual-stage",
+            6
+          ]
+        ],
+        "routes": [
+          "residual-skip",
+          "residual-skip",
+          "residual-skip",
+          "residual-skip"
+        ]
+      },
+      "provenance_rebound": true,
+      "seed": 7300,
+      "signature_equal": true,
+      "transformed": {
+        "family": "resnet",
+        "repetitions": [
+          [
+            3,
+            "residual-stage"
+          ],
+          [
+            3,
+            "residual-stage"
+          ],
+          [
+            4,
+            "residual-stage"
+          ],
+          [
+            6,
+            "residual-stage"
+          ]
+        ],
+        "roles": [
+          [
+            "input-stem",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "residual-stage",
+            3
+          ],
+          [
+            "residual-stage",
+            3
+          ],
+          [
+            "residual-stage",
+            4
+          ],
+          [
+            "residual-stage",
+            6
+          ]
+        ],
+        "routes": [
+          "residual-skip",
+          "residual-skip",
+          "residual-skip",
+          "residual-skip"
+        ]
+      }
+    },
+    "topk_moe": {
+      "negative_mutation": {
+        "degraded": true,
+        "removed_edge_count": 1,
+        "removed_edge_ids": [
+          "module_edge_edge_node_fx_softmax_3_28d62310_node_fx_so_8b73ff04"
+        ],
+        "result_confidence": 0.0,
+        "result_family": "unknown",
+        "result_signature": {
+          "family": "unknown",
+          "repetitions": [],
+          "roles": [],
+          "routes": []
+        }
+      },
+      "original": {
+        "family": "moe",
+        "repetitions": [
+          [
+            4,
+            "experts"
+          ]
+        ],
+        "roles": [
+          [
+            "experts",
+            4
+          ],
+          [
+            "input",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "router",
+            1
+          ],
+          [
+            "weighted-combine",
+            1
+          ]
+        ],
+        "routes": [
+          "expert-branch",
+          "expert-branch",
+          "expert-branch",
+          "expert-branch",
+          "weighted-combine"
+        ]
+      },
+      "provenance_rebound": true,
+      "seed": 7305,
+      "signature_equal": true,
+      "transformed": {
+        "family": "moe",
+        "repetitions": [
+          [
+            4,
+            "experts"
+          ]
+        ],
+        "roles": [
+          [
+            "experts",
+            4
+          ],
+          [
+            "input",
+            1
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "router",
+            1
+          ],
+          [
+            "weighted-combine",
+            1
+          ]
+        ],
+        "routes": [
+          "expert-branch",
+          "expert-branch",
+          "expert-branch",
+          "expert-branch",
+          "weighted-combine"
+        ]
+      }
+    },
+    "vision_transformer": {
+      "negative_mutation": {
+        "degraded": true,
+        "removed_edge_count": 5,
+        "removed_edge_ids": [
+          "module_edge_edge_node_fx_encoder_0_norm1_11_493015d2_n_e19bc225",
+          "module_edge_edge_node_fx_encoder_0_norm1_11_493015d2_n_48580893",
+          "module_edge_edge_node_fx_encoder_0_norm1_11_493015d2_n_6222d1a9",
+          "module_edge_edge_node_fx_encoder_0_self_attention_12_6_e913ce06",
+          "module_edge_edge_node_fx_encoder_0_self_attention_12_6_ce7e7a79"
+        ],
+        "result_confidence": 0.9400000000000001,
+        "result_family": "transformer",
+        "result_signature": {
+          "family": "transformer",
+          "repetitions": [
+            [
+              2,
+              "attention"
+            ],
+            [
+              2,
+              "feed-forward"
+            ],
+            [
+              2,
+              "residual-norm"
+            ]
+          ],
+          "roles": [
+            [
+              "attention",
+              2
+            ],
+            [
+              "embedding",
+              1
+            ],
+            [
+              "feed-forward",
+              2
+            ],
+            [
+              "output-head",
+              1
+            ],
+            [
+              "residual-norm",
+              2
+            ]
+          ],
+          "routes": [
+            "residual-skip"
+          ]
+        }
+      },
+      "original": {
+        "family": "transformer",
+        "repetitions": [
+          [
+            3,
+            "attention"
+          ],
+          [
+            3,
+            "feed-forward"
+          ],
+          [
+            3,
+            "residual-norm"
+          ]
+        ],
+        "roles": [
+          [
+            "attention",
+            3
+          ],
+          [
+            "embedding",
+            1
+          ],
+          [
+            "feed-forward",
+            3
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "residual-norm",
+            3
+          ]
+        ],
+        "routes": [
+          "residual-skip"
+        ]
+      },
+      "provenance_rebound": true,
+      "seed": 7301,
+      "signature_equal": true,
+      "transformed": {
+        "family": "transformer",
+        "repetitions": [
+          [
+            3,
+            "attention"
+          ],
+          [
+            3,
+            "feed-forward"
+          ],
+          [
+            3,
+            "residual-norm"
+          ]
+        ],
+        "roles": [
+          [
+            "attention",
+            3
+          ],
+          [
+            "embedding",
+            1
+          ],
+          [
+            "feed-forward",
+            3
+          ],
+          [
+            "output-head",
+            1
+          ],
+          [
+            "residual-norm",
+            3
+          ]
+        ],
+        "routes": [
+          "residual-skip"
+        ]
+      }
+    }
+  },
+  "report_digest": "44c18293b87fa988149ac6e891b28e182ff438aa98d71b8b9d590f1916eebd38",
+  "schema_version": "nndv-0.7.3-generalization-corpus-1",
+  "seed": 7300,
+  "status": "PASS"
+}

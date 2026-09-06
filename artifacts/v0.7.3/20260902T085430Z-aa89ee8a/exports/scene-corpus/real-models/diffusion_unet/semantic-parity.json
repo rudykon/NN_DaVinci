@@ -1,0 +1,50 @@
+{
+  "case_key": "diffusion_unet",
+  "case_kind": "real-model",
+  "evidence_provenance_digest": "e37ae36979653331c6608c6d22ee880139314da85adebebf6d02bc1f3ade83c1",
+  "evidence_version": "1.0",
+  "expected_critical_route_count": 3,
+  "expected_role_count": 6,
+  "failures": [],
+  "family": "diffusion-unet",
+  "figure_critical_route_count": 3,
+  "figure_role_count": 6,
+  "input_role_ids": [
+    "architecture_role_input_0_node_fx_noisy_latent_0_6bca5c91_e18d48aa"
+  ],
+  "landed_documents": {
+    "figure": {
+      "path": "figure.figure.json",
+      "sha256": "c4bb96e5608306b9f72f6af694d350291c792b166712baabb4e1e5e3767ef991"
+    },
+    "graph": {
+      "path": "graph.graph.json",
+      "sha256": "34fe56ba9ab6d7e8eac8026c41295c21f51f36c620745555e848bb2af1c69184"
+    },
+    "scene": {
+      "path": "scene.scene.json",
+      "sha256": "feeb015ede19737dd111bcd4bde75623ab307e0c3b51fbd491eea7722d1d11b6"
+    },
+    "semantic": {
+      "path": "semantic.semantic.json",
+      "sha256": "806b17983b81def7232fd3d371d2cdcca7ca2aebe6990d94f6a6e7e75993dc5f"
+    }
+  },
+  "oracle_version": "1.0",
+  "output_role_ids": [
+    "architecture_role_output_head_5_module_denoised_output_91b07_3425aee8"
+  ],
+  "passed": true,
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "scene_critical_route_count": 3,
+  "scene_role_count": 6,
+  "schema_version": "nndv-architecture-parity-1",
+  "uncertain_claims": [
+    {
+      "claim": "external_sampling_loop",
+      "reason": "No diffusion loop is asserted unless Graph IR contains a source-backed cyclic component.",
+      "status": "unknown"
+    }
+  ],
+  "unknown_reason": null
+}

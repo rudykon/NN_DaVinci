@@ -1,0 +1,192 @@
+{
+  "failures": [],
+  "generated_at": "2026-09-02T04:21:39.080553+00:00",
+  "human_participants": 0,
+  "leftover_test_listener": false,
+  "port": 8766,
+  "release": "0.7.3 \u2014 Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "schema_version": "nndv-0.7.3-service-lifecycle-verification-1",
+  "status": "PASS",
+  "steps": [
+    {
+      "exit_code": 0,
+      "payload": {
+        "health": {
+          "authentication": false,
+          "build_identity": "lifecycle:0.7.3:b2ab26ea500512f45e1377e57123926030f6bcfa38d651840b2d677d3fadf7e9",
+          "host": "127.0.0.1",
+          "lan_risk": false,
+          "pid": 1913334,
+          "port": 8766,
+          "product": "NN_DaVinci",
+          "product_version": "0.7.3",
+          "readiness": true,
+          "schema_version": "nndv-health-1",
+          "source_identity": "source-root:75a4e08ac0a7f92bce9a6f5f11766f81ba76a12ccdc2f35a43b7a566d674636a",
+          "started_at_unix": 1788322896.4178405,
+          "uptime_seconds": 0.86099
+        },
+        "state": {
+          "build_identity": "lifecycle:0.7.3:b2ab26ea500512f45e1377e57123926030f6bcfa38d651840b2d677d3fadf7e9",
+          "cmdline_digest": "63526635123dbc392643c08b84fbab2a69135c3b58d5338e0956ad11ab257876",
+          "host": "127.0.0.1",
+          "lan_risk": false,
+          "log_file": "/tmp/nndv-073-service-qzi_5dxl/service-8766.log",
+          "pid": 1913334,
+          "port": 8766,
+          "process_start_ticks": "430813684",
+          "product_version": "0.7.3",
+          "schema_version": "nndv-0.7.3-service-pid-1",
+          "source_identity": "source-root:75a4e08ac0a7f92bce9a6f5f11766f81ba76a12ccdc2f35a43b7a566d674636a",
+          "source_root": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source",
+          "started_at": "2026-09-02T04:21:36.498359+00:00"
+        },
+        "status": "STARTED"
+      },
+      "script": "start-0.7.3.sh",
+      "stderr": ""
+    },
+    {
+      "exit_code": 0,
+      "payload": {
+        "health": {
+          "authentication": false,
+          "build_identity": "lifecycle:0.7.3:b2ab26ea500512f45e1377e57123926030f6bcfa38d651840b2d677d3fadf7e9",
+          "host": "127.0.0.1",
+          "lan_risk": false,
+          "pid": 1913334,
+          "port": 8766,
+          "product": "NN_DaVinci",
+          "product_version": "0.7.3",
+          "readiness": true,
+          "schema_version": "nndv-health-1",
+          "source_identity": "source-root:75a4e08ac0a7f92bce9a6f5f11766f81ba76a12ccdc2f35a43b7a566d674636a",
+          "started_at_unix": 1788322896.4178405,
+          "uptime_seconds": 0.979594
+        },
+        "host": "127.0.0.1",
+        "identity_valid": true,
+        "log_file": "/tmp/nndv-073-service-qzi_5dxl/service-8766.log",
+        "port": 8766,
+        "reason": "ready",
+        "schema_version": "nndv-0.7.3-service-status-1",
+        "state": {
+          "build_identity": "lifecycle:0.7.3:b2ab26ea500512f45e1377e57123926030f6bcfa38d651840b2d677d3fadf7e9",
+          "cmdline_digest": "63526635123dbc392643c08b84fbab2a69135c3b58d5338e0956ad11ab257876",
+          "host": "127.0.0.1",
+          "lan_risk": false,
+          "log_file": "/tmp/nndv-073-service-qzi_5dxl/service-8766.log",
+          "pid": 1913334,
+          "port": 8766,
+          "process_start_ticks": "430813684",
+          "product_version": "0.7.3",
+          "schema_version": "nndv-0.7.3-service-pid-1",
+          "source_identity": "source-root:75a4e08ac0a7f92bce9a6f5f11766f81ba76a12ccdc2f35a43b7a566d674636a",
+          "source_root": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source",
+          "started_at": "2026-09-02T04:21:36.498359+00:00"
+        },
+        "state_file": "/tmp/nndv-073-service-qzi_5dxl/service-8766.pid.json",
+        "status": "RUNNING"
+      },
+      "script": "status-0.7.3.sh",
+      "stderr": ""
+    },
+    {
+      "exit_code": 0,
+      "payload": {
+        "start": {
+          "health": {
+            "authentication": false,
+            "build_identity": "lifecycle:0.7.3:b2ab26ea500512f45e1377e57123926030f6bcfa38d651840b2d677d3fadf7e9",
+            "host": "127.0.0.1",
+            "lan_risk": false,
+            "pid": 1913373,
+            "port": 8766,
+            "product": "NN_DaVinci",
+            "product_version": "0.7.3",
+            "readiness": true,
+            "schema_version": "nndv-health-1",
+            "source_identity": "source-root:75a4e08ac0a7f92bce9a6f5f11766f81ba76a12ccdc2f35a43b7a566d674636a",
+            "started_at_unix": 1788322897.8221052,
+            "uptime_seconds": 0.833107
+          },
+          "state": {
+            "build_identity": "lifecycle:0.7.3:b2ab26ea500512f45e1377e57123926030f6bcfa38d651840b2d677d3fadf7e9",
+            "cmdline_digest": "63526635123dbc392643c08b84fbab2a69135c3b58d5338e0956ad11ab257876",
+            "host": "127.0.0.1",
+            "lan_risk": false,
+            "log_file": "/tmp/nndv-073-service-qzi_5dxl/service-8766.log",
+            "pid": 1913373,
+            "port": 8766,
+            "process_start_ticks": "430813847",
+            "product_version": "0.7.3",
+            "schema_version": "nndv-0.7.3-service-pid-1",
+            "source_identity": "source-root:75a4e08ac0a7f92bce9a6f5f11766f81ba76a12ccdc2f35a43b7a566d674636a",
+            "source_root": "/tmp/nndv-073-full-20260902T041729Z-f5ce97a9-Jjm76H/work/execution-source",
+            "started_at": "2026-09-02T04:21:37.858262+00:00"
+          },
+          "status": "STARTED"
+        },
+        "status": "RESTARTED",
+        "stop": {
+          "pid": 1913334,
+          "port_released": true,
+          "process_gone": true,
+          "status": "STOPPED"
+        }
+      },
+      "script": "restart-0.7.3.sh",
+      "stderr": ""
+    },
+    {
+      "exit_code": 0,
+      "payload": {
+        "pid": 1913373,
+        "port_released": true,
+        "process_gone": true,
+        "status": "STOPPED"
+      },
+      "script": "stop-0.7.3.sh",
+      "stderr": ""
+    },
+    {
+      "exit_code": 3,
+      "payload": {
+        "health": null,
+        "host": "127.0.0.1",
+        "identity_valid": false,
+        "log_file": "/tmp/nndv-073-service-qzi_5dxl/service-8766.log",
+        "port": 8766,
+        "reason": "state-file-absent-or-invalid",
+        "schema_version": "nndv-0.7.3-service-status-1",
+        "state": null,
+        "state_file": "/tmp/nndv-073-service-qzi_5dxl/service-8766.pid.json",
+        "status": "STOPPED"
+      },
+      "script": "status-0.7.3.sh",
+      "stderr": ""
+    },
+    {
+      "exit_code": 4,
+      "payload": {
+        "host": "127.0.0.1",
+        "port": 8766,
+        "reason": "listener-or-bind-conflict",
+        "status": "PORT_CONFLICT"
+      },
+      "script": "start-0.7.3.sh",
+      "stderr": ""
+    },
+    {
+      "exit_code": 6,
+      "payload": {
+        "health": null,
+        "message": "PID identity was not proven; no signal was sent.",
+        "reason": "pid-reused-start-time-mismatch",
+        "status": "REFUSED"
+      },
+      "script": "stop-0.7.3.sh",
+      "stderr": ""
+    }
+  ]
+}

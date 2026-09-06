@@ -1,0 +1,3098 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.56,
+        0.9920703549025748,
+        1.3635788500845527
+      ],
+      "min": [
+        -0.56,
+        -0.9920703549025748,
+        -1.3635788500845527
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.9920703549025748,
+        2.002109076178577
+      ],
+      "min": [
+        -1.0,
+        -0.9920703549025748,
+        -2.002109076178577
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.56,
+        0.9920703549025748,
+        0.771508495181978
+      ],
+      "min": [
+        -0.56,
+        -0.9920703549025748,
+        -0.771508495181978
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.56,
+        0.9920703549025748,
+        1.3635788500845527
+      ],
+      "min": [
+        -0.56,
+        -0.9920703549025748,
+        -1.3635788500845527
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.56,
+        0.9920703549025748,
+        1.3635788500845527
+      ],
+      "min": [
+        -0.56,
+        -0.9920703549025748,
+        -1.3635788500845527
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        0.0,
+        5.550000000000001,
+        4.7
+      ],
+      "min": [
+        -9.25,
+        -1.875,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.0,
+        -1.6279749661176615,
+        4.03879122395292
+      ],
+      "min": [
+        -0.5973376731900899,
+        -2.077968685718786,
+        3.59895484950498
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        16.650000000000002,
+        0.0,
+        1.85
+      ],
+      "min": [
+        9.25,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        16.650000000000002,
+        0.1625,
+        0.2561782539446267
+      ],
+      "min": [
+        16.216467570247556,
+        -0.1625,
+        -0.0591180586026062
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        0.0,
+        5.550000000000001,
+        4.7
+      ],
+      "min": [
+        -9.25,
+        -1.85,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.0,
+        -1.3252728238241436,
+        4.013323418749797
+      ],
+      "min": [
+        -0.568029634472055,
+        -1.85,
+        3.5734870443018574
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        9.25,
+        0.0,
+        3.7
+      ],
+      "min": [
+        0.0,
+        -1.85,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        9.25,
+        0.08127950002260206,
+        2.0875272087525363
+      ],
+      "min": [
+        8.814867038936768,
+        -0.23764519792812575,
+        1.7688384891529874
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        0.0,
+        5.550000000000001,
+        4.7
+      ],
+      "min": [
+        -9.25,
+        -1.85,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 23,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.0,
+        -1.4912067335240362,
+        4.034999045014717
+      ],
+      "min": [
+        -0.604844715712508,
+        -1.9268451648886349,
+        3.595162670566777
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 25,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        0.0,
+        5.550000000000001,
+        4.7
+      ],
+      "min": [
+        -9.25,
+        -1.85,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 26,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.0,
+        -1.389919289658746,
+        4.025254065341025
+      ],
+      "min": [
+        -0.5928747002096241,
+        -1.85,
+        3.5854176908930855
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 27,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 28,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        9.25,
+        5.550000000000001,
+        1.85
+      ],
+      "min": [
+        -9.25,
+        0.0,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 29,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        9.25,
+        0.27238184985976494,
+        2.0125
+      ],
+      "min": [
+        8.814189040224376,
+        -0.03891169283710927,
+        1.6875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 30,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 31,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0,
+        0.0,
+        3.7
+      ],
+      "min": [
+        -16.650000000000002,
+        -1.85,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 32,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        0.0,
+        -1.6446404658294824,
+        3.7710162690520987
+      ],
+      "min": [
+        -0.4312853935608496,
+        -1.9677454059427242,
+        3.4537554744923145
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 33,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 34,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -9.25,
+        5.550000000000001,
+        1.85
+      ],
+      "min": [
+        -16.650000000000002,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 35,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -9.25,
+        5.550000000000001,
+        1.9279759763737294
+      ],
+      "min": [
+        -9.662142837099848,
+        5.17958473504016,
+        1.6126796638264964
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 36,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 37,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        9.25,
+        0.0,
+        1.85
+      ],
+      "min": [
+        -16.650000000000002,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 38,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        9.25,
+        0.1625,
+        1.9831429246649062
+      ],
+      "min": [
+        8.833204757570728,
+        -0.1625,
+        1.6589688472199173
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 39,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 40,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        9.25,
+        0.0,
+        3.7
+      ],
+      "min": [
+        0.0,
+        -1.85,
+        1.85
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 41,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        9.25,
+        0.11254084618514132,
+        2.178883827503512
+      ],
+      "min": [
+        8.647508207758602,
+        -0.329047197131251,
+        1.737622523442598
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 42,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "schemaVersion": "nndv-scene-gltf-1"
+    },
+    "generator": "NN_DaVinci Scene IR 1.0 deterministic exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 336,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 816,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1056,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36,
+      "byteOffset": 1200,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1236,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1344,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1512,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1536,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1644,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36,
+      "byteOffset": 1812,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1848,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1956,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2124,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2148,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2256,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36,
+      "byteOffset": 2424,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2460,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2568,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36,
+      "byteOffset": 2736,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2772,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2880,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3048,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3072,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3180,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3348,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3372,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3480,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3648,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3672,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3780,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3948,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3972,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 4080,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 4248,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 4272,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 4380,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4548,
+      "uri": "data:application/octet-stream;base64,KVwPv1P4fb/Aia6/KVwPP1P4fb/Aia6/KVwPP1P4fT/Aia6/KVwPv1P4fT/Aia6/KVwPv1P4fb/Aia4/KVwPP1P4fb/Aia4/KVwPP1P4fT/Aia4/KVwPv1P4fT/Aia4/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAACAv1P4fb+OIgDAAACAP1P4fb+OIgDAAACAP1P4fT+OIgDAAACAv1P4fT+OIgDAAACAv1P4fb+OIgBAAACAP1P4fb+OIgBAAACAP1P4fT+OIgBAAACAv1P4fT+OIgBAAAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAKVwPv1P4fb+VgUW/KVwPP1P4fb+VgUW/KVwPP1P4fT+VgUW/KVwPv1P4fT+VgUW/KVwPv1P4fb+VgUU/KVwPP1P4fb+VgUU/KVwPP1P4fT+VgUU/KVwPv1P4fT+VgUU/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAKVwPv1P4fb/Aia6/KVwPP1P4fb/Aia6/KVwPP1P4fT/Aia6/KVwPv1P4fT/Aia6/KVwPv1P4fb/Aia4/KVwPP1P4fb/Aia4/KVwPP1P4fT/Aia4/KVwPv1P4fT/Aia4/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAKVwPv1P4fb/Aia6/KVwPP1P4fb/Aia6/KVwPP1P4fT/Aia6/KVwPv1P4fT/Aia6/KVwPv1P4fb/Aia4/KVwPP1P4fb/Aia4/KVwPP1P4fT/Aia4/KVwPv1P4fT/Aia4/AAAAAAMAAAACAAAAAAAAAAIAAAABAAAABAAAAAUAAAAGAAAABAAAAAYAAAAHAAAAAAAAAAEAAAAFAAAAAAAAAAUAAAAEAAAAAQAAAAIAAAAGAAAAAQAAAAYAAAAFAAAAAwAAAAcAAAAGAAAAAwAAAAYAAAACAAAAAAAAAAQAAAAHAAAAAAAAAAcAAAADAAAAAAAUwZqZsUDNzOw/AACUwAAA8L9mZpZAAAAAAM3M7L/NzGxAAAAAAM3M7L/NzGxAqpIAvy4u7b/HPYFAO1kEv+bQ2L8hX35ACgsNv3xh0L+IbHRAPpAVv+bQ2L+Gd2pAH+sYvy4u7b9HVWZAjyQVv7zFAMCzcWpAv3IMv3D9BMBNZHRAi+0Dv7zFAMBPWX5AAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAAAAUQQAAAADNzOw/MzOFQQAAAAAAAAAAMzOFQQAAAAAAAAAAwlyCQQAAAADMKYM+HkWCQTxT6z1WC1c+CwyCQWZmJj4mysk999KBQTxT6z0AE1S8U7uBQcCMtyPHJXK999KBQTxT670AE1S8CwyCQWZmJr4mysk9HkWCQTxT671WC1c+AAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAAAAUwZqZsUDNzOw/AACUwAAA8D9mZpZAAAAAAM3M7L/NzGxAAAAAAM3M7L/NzGxAitbEvq9DwL8lbYBAbbiavlBDsL82ZntAOImXvoqiqb9E5XBAdCa9vlBDsL+afmdAdYf1vq9DwL8DtGRAydIPvw5E0L8XKGpAZGoRv9Pk1r8KqXRAjDf9vg5E0L+zD35AAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAAAAAAM3M7L/NzGxAAAAUQQAAAADNzOw/AAAUQQAAAADNzOw/WkEOQVQeoL0MmgVATcINQYedDT1y5AJANUENQd51pj2rl/c/sgkNQYedDT248Og/SDwNQVQeoL1NaeI/VbsNQbaFQ76B1Oc/bDwOQUNZc765BfY/73MOQbaFQ75WVgJAAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAAAAUwZqZsUDNzOw/AACUwAAAIL9mZpZAAAAAAM3M7L/NzGxAAAAAAM3M7L/NzGxAeyr4vl3B2r+2HoFAq1frvmMKx78HlH1AxUr0vt3fvr8JZ3NA2eIGv2MKx79rrGlAsm0Uv13B2r8lF2ZAGtcav1Z47r+LwGpAjV0Wv92i9r+I7XRAF6AJv1Z47r8mqH5AAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAAAAUwZqZsUDNzOw/AACUwAAAID9mZpZAAAAAAM3M7L/NzGxAAAAAAM3M7L/NzGxA/xbhvvpty7/izoBAolHDvmBiub8cf3xApj/FvuDosb+MIXJAqL/lvmBiub+Al2hA9OMIv/pty798d2VAo8YXv5N53b8jlmpAoc8WvxTz5L+z83RAoI8Gv5N53b+/fX5AAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAAAAUwZqZsUDNzOw/AAAUQQAAAADNzOw/AAAUQQAAAADNzOw/LcYNQc0S7z3NzABAa00OQa08aD4Bgvs/cIUOQaJ1iz7NzOw/a00OQa08aD6ZF94/LcYNQc0S7z0AANg/8D4NQfPD2juZF94/6wYNQd5hH73NzOw/8D4NQfPD2jsBgvs/AAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAMzOFwQAAAAAAAAAAAAAAAM3M7L/NzGxAAAAAAM3M7L/NzGxAXOnbvlUx579VWHFAsG7QvhWS2L8ki25A2xrBvpSD0r+cb2dAZOi2vhWS2L+ZL2BAeNC3vlUx579UCl1AJUvDvpTQ9b+F119A+p7SvhXf+78N82ZAcNHcvpTQ9b8QM25AAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAMzOFwQAAAAAAAAAAAAAUwZqZsUDNzOw/AAAUwZqZsUDNzOw/yLoZwZTzqUDrx/Y/I5gawbjsrECcxe4/Q5Uawf8nrkBHot8/17MZwbjsrEALPNI/63cYwZTzqUBKbM4/kJoXwW/6pkCZbtY/cJ0XwSi/pUDtkeU/3H4YwW/6pkAp+PI/AAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAMzOFwQAAAAAAAAAAAAAUQQAAAADNzOw/AAAUQQAAAADNzOw/z1QNQQAAAACh1/0/smINQTxT6z3+w/c/O4QNQWZmJj5cGOk/w6UNQTxT6z26bNo/p7MNQcCMtyMXWdQ/w6UNQTxT6726bNo/O4QNQWZmJr5cGOk/smINQTxT673+w/c/AAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAAAAAAAM3M7L/NzGxAAAAUQQAAAADNzOw/AAAUQQAAAADNzOw/twsMQdez3b3VcgtAzVsLQTIVRD12sgdAD6kKQdF75j1Pvvs/MlwKQTIVRD2wdOc/PKIKQdez3b1qat4/J1ILQZJch74o6+U/5QQMQeB4qL7Gkfk/wlEMQZJch76y7QZAAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAHAAAAAAAAAAcAAAAIAAAAAAAAAAgAAAABAAAACAAAAAcAAAAGAAAACAAAAAYAAAAFAAAACAAAAAUAAAAEAAAACAAAAAQAAAADAAAACAAAAAMAAAACAAAACAAAAAIAAAABAAAA"
+    }
+  ],
+  "cameras": [
+    {
+      "extras": {
+        "nndvProjection": "orthographic",
+        "objectId": "scene_camera_topkmixtureofexperts___module___architectu_0acd8161"
+      },
+      "name": "TopKMixtureOfExperts · Module · Architecture Evidence 3D isometric camera",
+      "orthographic": {
+        "xmag": 13.5,
+        "ymag": 9.0,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "orthographic"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "extras": {
+            "nndvLight": {
+              "color": "#ffffff",
+              "direction": [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              "id": "scene_light_topkmixtureofexperts___module___architectu_4a9a4723",
+              "intensity": 1.0,
+              "kind": "directional",
+              "locked": false,
+              "metadata": {},
+              "name": "Key light",
+              "position": [
+                8.0,
+                10.0,
+                12.0
+              ],
+              "visible": true
+            },
+            "objectId": "scene_light_topkmixtureofexperts___module___architectu_4a9a4723"
+          },
+          "intensity": 1.0,
+          "name": "Key light",
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#bfdbfeff",
+        "nndvMaterial": {
+          "base_color": "#bfdbfe",
+          "face_colors": {
+            "front": "#bfdbfe",
+            "top": "#bfdbfe"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_19cea5bf",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7490196,
+          0.8588235,
+          0.9960784,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#a7f3d0ff",
+        "nndvMaterial": {
+          "base_color": "#a7f3d0",
+          "face_colors": {
+            "front": "#a7f3d0",
+            "top": "#a7f3d0"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_611841cf",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.654902,
+          0.9529412,
+          0.8156863,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#f8fafcff",
+        "nndvMaterial": {
+          "base_color": "#f8fafc",
+          "face_colors": {
+            "front": "#f8fafc",
+            "top": "#f8fafc"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_66f6de26",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.972549,
+          0.9803922,
+          0.9882353,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#8b5cf6ff",
+        "nndvMaterial": {
+          "base_color": "#8b5cf6",
+          "face_colors": {
+            "front": "#8b5cf6",
+            "top": "#8b5cf6"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_bc7f8a97",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.545098,
+          0.3607843,
+          0.9647059,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#475569ff",
+        "nndvMaterial": {
+          "base_color": "#475569",
+          "face_colors": {
+            "front": "#475569",
+            "top": "#475569"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_route_architectur_2982b201",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2784314,
+          0.3333333,
+          0.4117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_19cea5bf"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_19cea5bf",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_611841cf"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_611841cf",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_66f6de26"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_66f6de26",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_6a7c7285"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_6a7c7285",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_bc7f8a97"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_bc7f8a97",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "indices": 9,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_0f9c6cd2"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_0f9c6cd2",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 11
+          },
+          "indices": 12,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_2982b201"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_2982b201",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 14
+          },
+          "indices": 15,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_88893b54"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_88893b54",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 17
+          },
+          "indices": 18,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_8bcf8624"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_8bcf8624",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 19
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 20
+          },
+          "indices": 21,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_8fa5f194"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_8fa5f194",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 22
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 23
+          },
+          "indices": 24,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_a1da172e"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_a1da172e",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 26
+          },
+          "indices": 27,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_b57577a7"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_b57577a7",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 28
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 29
+          },
+          "indices": 30,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_c8724618"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_c8724618",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 31
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 32
+          },
+          "indices": 33,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_e0b18bdc"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_e0b18bdc",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 34
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 35
+          },
+          "indices": 36,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_eff6f7dc"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_eff6f7dc",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 37
+          },
+          "material": 4,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 38
+          },
+          "indices": 39,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_f49629a9"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_f49629a9",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 40
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 41
+          },
+          "indices": 42,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "kind": "tensor-volume",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_19cea5bf",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "input",
+            "architecture_role_id": "architecture_role_input_0_module_token_embedding_6c4877e2_no_f9cf0520",
+            "confidence": 0.95,
+            "edge_ids": [
+              "module_edge_edge_node_fx_tokens_0_4ba6a7ad_node_fx_tok_6e82c560"
+            ],
+            "node_ids": [
+              "module_token_embedding_6c4877e2",
+              "node_fx_tokens_0_4ba6a7ad"
+            ],
+            "port_ids": [
+              "module_token_embedding_6c4877e2:input:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_83d68261",
+              "module_token_embedding_6c4877e2:output:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_9e75ba6d",
+              "node_fx_tokens_0_4ba6a7ad:output:0"
+            ],
+            "reasons": [
+              "Integer token input reaches an importer-declared embedding and both router/expert paths."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__c2592fa5",
+            "figure_object_model_figure_tensor_architecture_projectio_6f4d2fe8",
+            "figure_object_model_figure_edge_architecture_projection__fbbd8cc8",
+            "figure_object_model_figure_edge_architecture_projection__09a269fd",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb"
+          ],
+          "graph_ir_ids": [
+            "module_token_embedding_6c4877e2",
+            "node_fx_tokens_0_4ba6a7ad",
+            "module_edge_edge_node_fx_tokens_0_4ba6a7ad_node_fx_tok_6e82c560",
+            "module_token_embedding_6c4877e2:input:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_83d68261",
+            "module_token_embedding_6c4877e2:output:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_9e75ba6d",
+            "node_fx_tokens_0_4ba6a7ad:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -16.65,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Tokens / embedding"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_611841cf",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "experts",
+            "architecture_role_id": "architecture_role_experts_2_module_experts_3_feed_forward_2__38e85578",
+            "confidence": 0.97,
+            "edge_ids": [
+              "module_edge_edge_node_fx_experts_0_feed_forward_0_13_b_3053d9f5",
+              "module_edge_edge_node_fx_experts_0_feed_forward_1_14_8_3dcb6c98",
+              "module_edge_edge_node_fx_experts_1_feed_forward_0_16_c_d4cdb1d9",
+              "module_edge_edge_node_fx_experts_1_feed_forward_1_17_c_df21188a",
+              "module_edge_edge_node_fx_experts_2_feed_forward_0_19_b_17c08ad6",
+              "module_edge_edge_node_fx_experts_2_feed_forward_1_20_e_01364e3c",
+              "module_edge_edge_node_fx_experts_3_feed_forward_0_22_f_75759516",
+              "module_edge_edge_node_fx_experts_3_feed_forward_1_23_1_49abe4ec"
+            ],
+            "node_ids": [
+              "module_experts_3_feed_forward_2_bf19cf45",
+              "module_experts_0_feed_forward_1_b9d53948",
+              "module_experts_3_feed_forward_0_96d3bbeb",
+              "module_experts_2_feed_forward_1_e350483c",
+              "module_experts_3_feed_forward_1_17db048e",
+              "module_experts_1_feed_forward_1_7d2a131f",
+              "module_experts_1_feed_forward_0_f9be0c44",
+              "module_experts_2_feed_forward_2_522eb001",
+              "module_experts_0_feed_forward_0_03fea969",
+              "module_experts_1_feed_forward_2_0a23e4e2",
+              "module_experts_2_feed_forward_0_bf0497de",
+              "module_experts_0_feed_forward_2_ed38c8fa"
+            ],
+            "port_ids": [
+              "module_experts_0_feed_forward_0_03fea969:input:binding_node_fx_experts_0_feed_forward_0_13_b9983b_96534544",
+              "module_experts_0_feed_forward_0_03fea969:output:binding_node_fx_experts_0_feed_forward_0_13_b9983b_9bf68639",
+              "module_experts_0_feed_forward_1_b9d53948:input:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_3971c8ee",
+              "module_experts_0_feed_forward_1_b9d53948:output:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_ea9c68aa",
+              "module_experts_0_feed_forward_2_ed38c8fa:input:binding_node_fx_experts_0_feed_forward_2_15_89edfc_f78d7734",
+              "module_experts_0_feed_forward_2_ed38c8fa:output:binding_node_fx_experts_0_feed_forward_2_15_89edfc_5848be1f",
+              "module_experts_1_feed_forward_0_f9be0c44:input:binding_node_fx_experts_1_feed_forward_0_16_c94efc_713890d4",
+              "module_experts_1_feed_forward_0_f9be0c44:output:binding_node_fx_experts_1_feed_forward_0_16_c94efc_533b33ef",
+              "module_experts_1_feed_forward_1_7d2a131f:input:binding_node_fx_experts_1_feed_forward_1_17_cdea67_042cbe08",
+              "module_experts_1_feed_forward_1_7d2a131f:output:binding_node_fx_experts_1_feed_forward_1_17_cdea67_6ca70812",
+              "module_experts_1_feed_forward_2_0a23e4e2:input:binding_node_fx_experts_1_feed_forward_2_18_944433_570efcd9",
+              "module_experts_1_feed_forward_2_0a23e4e2:output:binding_node_fx_experts_1_feed_forward_2_18_944433_cb2d30e6",
+              "module_experts_2_feed_forward_0_bf0497de:input:binding_node_fx_experts_2_feed_forward_0_19_b93653_e1168cc6",
+              "module_experts_2_feed_forward_0_bf0497de:output:binding_node_fx_experts_2_feed_forward_0_19_b93653_cd360794",
+              "module_experts_2_feed_forward_1_e350483c:input:binding_node_fx_experts_2_feed_forward_1_20_edda5c_c2b0bb04",
+              "module_experts_2_feed_forward_1_e350483c:output:binding_node_fx_experts_2_feed_forward_1_20_edda5c_be7a7313",
+              "module_experts_2_feed_forward_2_522eb001:input:binding_node_fx_experts_2_feed_forward_2_21_549aeb_3f5addd9",
+              "module_experts_2_feed_forward_2_522eb001:output:binding_node_fx_experts_2_feed_forward_2_21_549aeb_2d80a1ad",
+              "module_experts_3_feed_forward_0_96d3bbeb:input:binding_node_fx_experts_3_feed_forward_0_22_f14ac3_bcd8dda7",
+              "module_experts_3_feed_forward_0_96d3bbeb:output:binding_node_fx_experts_3_feed_forward_0_22_f14ac3_901fc969",
+              "module_experts_3_feed_forward_1_17db048e:input:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_858b264b",
+              "module_experts_3_feed_forward_1_17db048e:output:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_ede323bc",
+              "module_experts_3_feed_forward_2_bf19cf45:input:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_949d9c2d",
+              "module_experts_3_feed_forward_2_bf19cf45:output:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_f121baec"
+            ],
+            "reasons": [
+              "Repeated importer expert module branches share an operation signature and reconverge."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_node_architecture_projection__df43184a",
+            "figure_object_model_figure_repeat_architecture_projectio_52b4bea8",
+            "figure_object_model_figure_tensor_architecture_projectio_69986472",
+            "figure_object_model_figure_edge_architecture_projection__09a269fd",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__be23874c"
+          ],
+          "graph_ir_ids": [
+            "module_experts_3_feed_forward_2_bf19cf45",
+            "module_experts_0_feed_forward_1_b9d53948",
+            "module_experts_3_feed_forward_0_96d3bbeb",
+            "module_experts_2_feed_forward_1_e350483c",
+            "module_experts_3_feed_forward_1_17db048e",
+            "module_experts_1_feed_forward_1_7d2a131f",
+            "module_experts_1_feed_forward_0_f9be0c44",
+            "module_experts_2_feed_forward_2_522eb001",
+            "module_experts_0_feed_forward_0_03fea969",
+            "module_experts_1_feed_forward_2_0a23e4e2",
+            "module_experts_2_feed_forward_0_bf0497de",
+            "module_experts_0_feed_forward_2_ed38c8fa",
+            "module_edge_edge_node_fx_experts_0_feed_forward_0_13_b_3053d9f5",
+            "module_edge_edge_node_fx_experts_0_feed_forward_1_14_8_3dcb6c98",
+            "module_edge_edge_node_fx_experts_1_feed_forward_0_16_c_d4cdb1d9",
+            "module_edge_edge_node_fx_experts_1_feed_forward_1_17_c_df21188a",
+            "module_edge_edge_node_fx_experts_2_feed_forward_0_19_b_17c08ad6",
+            "module_edge_edge_node_fx_experts_2_feed_forward_1_20_e_01364e3c",
+            "module_edge_edge_node_fx_experts_3_feed_forward_0_22_f_75759516",
+            "module_edge_edge_node_fx_experts_3_feed_forward_1_23_1_49abe4ec",
+            "module_experts_0_feed_forward_0_03fea969:input:binding_node_fx_experts_0_feed_forward_0_13_b9983b_96534544",
+            "module_experts_0_feed_forward_0_03fea969:output:binding_node_fx_experts_0_feed_forward_0_13_b9983b_9bf68639",
+            "module_experts_0_feed_forward_1_b9d53948:input:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_3971c8ee",
+            "module_experts_0_feed_forward_1_b9d53948:output:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_ea9c68aa",
+            "module_experts_0_feed_forward_2_ed38c8fa:input:binding_node_fx_experts_0_feed_forward_2_15_89edfc_f78d7734",
+            "module_experts_0_feed_forward_2_ed38c8fa:output:binding_node_fx_experts_0_feed_forward_2_15_89edfc_5848be1f",
+            "module_experts_1_feed_forward_0_f9be0c44:input:binding_node_fx_experts_1_feed_forward_0_16_c94efc_713890d4",
+            "module_experts_1_feed_forward_0_f9be0c44:output:binding_node_fx_experts_1_feed_forward_0_16_c94efc_533b33ef",
+            "module_experts_1_feed_forward_1_7d2a131f:input:binding_node_fx_experts_1_feed_forward_1_17_cdea67_042cbe08",
+            "module_experts_1_feed_forward_1_7d2a131f:output:binding_node_fx_experts_1_feed_forward_1_17_cdea67_6ca70812",
+            "module_experts_1_feed_forward_2_0a23e4e2:input:binding_node_fx_experts_1_feed_forward_2_18_944433_570efcd9",
+            "module_experts_1_feed_forward_2_0a23e4e2:output:binding_node_fx_experts_1_feed_forward_2_18_944433_cb2d30e6",
+            "module_experts_2_feed_forward_0_bf0497de:input:binding_node_fx_experts_2_feed_forward_0_19_b93653_e1168cc6",
+            "module_experts_2_feed_forward_0_bf0497de:output:binding_node_fx_experts_2_feed_forward_0_19_b93653_cd360794",
+            "module_experts_2_feed_forward_1_e350483c:input:binding_node_fx_experts_2_feed_forward_1_20_edda5c_c2b0bb04",
+            "module_experts_2_feed_forward_1_e350483c:output:binding_node_fx_experts_2_feed_forward_1_20_edda5c_be7a7313",
+            "module_experts_2_feed_forward_2_522eb001:input:binding_node_fx_experts_2_feed_forward_2_21_549aeb_3f5addd9",
+            "module_experts_2_feed_forward_2_522eb001:output:binding_node_fx_experts_2_feed_forward_2_21_549aeb_2d80a1ad",
+            "module_experts_3_feed_forward_0_96d3bbeb:input:binding_node_fx_experts_3_feed_forward_0_22_f14ac3_bcd8dda7",
+            "module_experts_3_feed_forward_0_96d3bbeb:output:binding_node_fx_experts_3_feed_forward_0_22_f14ac3_901fc969",
+            "module_experts_3_feed_forward_1_17db048e:input:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_858b264b",
+            "module_experts_3_feed_forward_1_17db048e:output:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_ede323bc",
+            "module_experts_3_feed_forward_2_bf19cf45:input:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_949d9c2d",
+            "module_experts_3_feed_forward_2_bf19cf45:output:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_f121baec"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.85,
+        3.7,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Experts ×4"
+    },
+    {
+      "extras": {
+        "kind": "moe-router",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_66f6de26",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "router",
+            "architecture_role_id": "architecture_role_router_1_module_router_router_logits_f60d1_aa199a8c",
+            "confidence": 0.97,
+            "edge_ids": [
+              "module_edge_edge_node_fx_router_router_logits_2_52fdc0_a183fa43",
+              "module_edge_edge_node_fx_softmax_3_28d62310_node_fx_so_8b73ff04",
+              "module_edge_edge_node_fx_experts_0_feed_forward_0_13_b_3053d9f5",
+              "module_edge_edge_node_fx_experts_0_feed_forward_1_14_8_3dcb6c98",
+              "module_edge_edge_node_fx_experts_1_feed_forward_0_16_c_d4cdb1d9",
+              "module_edge_edge_node_fx_experts_1_feed_forward_1_17_c_df21188a",
+              "module_edge_edge_node_fx_experts_2_feed_forward_0_19_b_17c08ad6",
+              "module_edge_edge_node_fx_experts_2_feed_forward_1_20_e_01364e3c",
+              "module_edge_edge_node_fx_experts_3_feed_forward_0_22_f_75759516",
+              "module_edge_edge_node_fx_experts_3_feed_forward_1_23_1_49abe4ec",
+              "module_edge_edge_node_fx_experts_0_feed_forward_2_15_8_52750118",
+              "module_edge_edge_node_fx_experts_1_feed_forward_2_18_9_0ce1b8ab",
+              "module_edge_edge_node_fx_experts_2_feed_forward_2_21_5_cff8bd8b",
+              "module_edge_edge_node_fx_experts_3_feed_forward_2_24_4_dcf3267a",
+              "module_edge_edge_node_fx_stack_25_5817cdf7_node_fx_sta_04127427",
+              "module_edge_edge_node_fx_mul_1_27_73f0e5fb_node_fx_mul_72806a54",
+              "module_edge_edge_node_fx_sum_2_28_3927b687_node_fx_sum_062b5b16"
+            ],
+            "node_ids": [
+              "module_router_router_logits_f60d18ba",
+              "node_fx_softmax_3_28d62310",
+              "node_fx_topk_4_a48cbb82"
+            ],
+            "port_ids": [
+              "module_router_router_logits_f60d18ba:input:binding_node_fx_router_router_logits_2_52fdc070_no_16fd5f11",
+              "module_router_router_logits_f60d18ba:output:binding_node_fx_router_router_logits_2_52fdc070_no_c0a34a3b",
+              "node_fx_softmax_3_28d62310:input:0",
+              "node_fx_softmax_3_28d62310:output:0",
+              "node_fx_topk_4_a48cbb82:input:0",
+              "node_fx_topk_4_a48cbb82:output:0",
+              "node_fx_topk_4_a48cbb82:output:1",
+              "module_experts_0_feed_forward_0_03fea969:output:binding_node_fx_experts_0_feed_forward_0_13_b9983b_9bf68639",
+              "module_experts_0_feed_forward_1_b9d53948:input:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_3971c8ee",
+              "module_experts_0_feed_forward_1_b9d53948:output:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_ea9c68aa",
+              "module_experts_0_feed_forward_2_ed38c8fa:input:binding_node_fx_experts_0_feed_forward_2_15_89edfc_f78d7734",
+              "module_experts_1_feed_forward_0_f9be0c44:output:binding_node_fx_experts_1_feed_forward_0_16_c94efc_533b33ef",
+              "module_experts_1_feed_forward_1_7d2a131f:input:binding_node_fx_experts_1_feed_forward_1_17_cdea67_042cbe08",
+              "module_experts_1_feed_forward_1_7d2a131f:output:binding_node_fx_experts_1_feed_forward_1_17_cdea67_6ca70812",
+              "module_experts_1_feed_forward_2_0a23e4e2:input:binding_node_fx_experts_1_feed_forward_2_18_944433_570efcd9",
+              "module_experts_2_feed_forward_0_bf0497de:output:binding_node_fx_experts_2_feed_forward_0_19_b93653_cd360794",
+              "module_experts_2_feed_forward_1_e350483c:input:binding_node_fx_experts_2_feed_forward_1_20_edda5c_c2b0bb04",
+              "module_experts_2_feed_forward_1_e350483c:output:binding_node_fx_experts_2_feed_forward_1_20_edda5c_be7a7313",
+              "module_experts_2_feed_forward_2_522eb001:input:binding_node_fx_experts_2_feed_forward_2_21_549aeb_3f5addd9",
+              "module_experts_3_feed_forward_0_96d3bbeb:output:binding_node_fx_experts_3_feed_forward_0_22_f14ac3_901fc969",
+              "module_experts_3_feed_forward_1_17db048e:input:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_858b264b",
+              "module_experts_3_feed_forward_1_17db048e:output:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_ede323bc",
+              "module_experts_3_feed_forward_2_bf19cf45:input:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_949d9c2d",
+              "module_experts_0_feed_forward_2_ed38c8fa:output:binding_node_fx_experts_0_feed_forward_2_15_89edfc_5848be1f",
+              "node_fx_stack_25_5817cdf7:input:0",
+              "module_experts_1_feed_forward_2_0a23e4e2:output:binding_node_fx_experts_1_feed_forward_2_18_944433_cb2d30e6",
+              "node_fx_stack_25_5817cdf7:input:1",
+              "module_experts_2_feed_forward_2_522eb001:output:binding_node_fx_experts_2_feed_forward_2_21_549aeb_2d80a1ad",
+              "node_fx_stack_25_5817cdf7:input:2",
+              "module_experts_3_feed_forward_2_bf19cf45:output:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_f121baec",
+              "node_fx_stack_25_5817cdf7:input:3",
+              "node_fx_stack_25_5817cdf7:output:0",
+              "node_fx_mul_1_27_73f0e5fb:input:0",
+              "node_fx_mul_1_27_73f0e5fb:output:0",
+              "node_fx_sum_2_28_3927b687:input:0",
+              "node_fx_sum_2_28_3927b687:output:0",
+              "node_fx_add_29_6d5cabfa:input:1"
+            ],
+            "reasons": [
+              "A source-backed router probability/top-k path controls downstream expert weighting."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_node_architecture_projection__df43184a",
+            "figure_object_model_figure_repeat_architecture_projectio_52b4bea8",
+            "figure_object_model_figure_tensor_architecture_projectio_69986472",
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_edge_architecture_projection__fbbd8cc8",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__2f355147",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__be23874c"
+          ],
+          "graph_ir_ids": [
+            "module_router_router_logits_f60d18ba",
+            "node_fx_softmax_3_28d62310",
+            "node_fx_topk_4_a48cbb82",
+            "module_edge_edge_node_fx_router_router_logits_2_52fdc0_a183fa43",
+            "module_edge_edge_node_fx_softmax_3_28d62310_node_fx_so_8b73ff04",
+            "module_edge_edge_node_fx_experts_0_feed_forward_0_13_b_3053d9f5",
+            "module_edge_edge_node_fx_experts_0_feed_forward_1_14_8_3dcb6c98",
+            "module_edge_edge_node_fx_experts_1_feed_forward_0_16_c_d4cdb1d9",
+            "module_edge_edge_node_fx_experts_1_feed_forward_1_17_c_df21188a",
+            "module_edge_edge_node_fx_experts_2_feed_forward_0_19_b_17c08ad6",
+            "module_edge_edge_node_fx_experts_2_feed_forward_1_20_e_01364e3c",
+            "module_edge_edge_node_fx_experts_3_feed_forward_0_22_f_75759516",
+            "module_edge_edge_node_fx_experts_3_feed_forward_1_23_1_49abe4ec",
+            "module_edge_edge_node_fx_experts_0_feed_forward_2_15_8_52750118",
+            "module_edge_edge_node_fx_experts_1_feed_forward_2_18_9_0ce1b8ab",
+            "module_edge_edge_node_fx_experts_2_feed_forward_2_21_5_cff8bd8b",
+            "module_edge_edge_node_fx_experts_3_feed_forward_2_24_4_dcf3267a",
+            "module_edge_edge_node_fx_stack_25_5817cdf7_node_fx_sta_04127427",
+            "module_edge_edge_node_fx_mul_1_27_73f0e5fb_node_fx_mul_72806a54",
+            "module_edge_edge_node_fx_sum_2_28_3927b687_node_fx_sum_062b5b16",
+            "module_router_router_logits_f60d18ba:input:binding_node_fx_router_router_logits_2_52fdc070_no_16fd5f11",
+            "module_router_router_logits_f60d18ba:output:binding_node_fx_router_router_logits_2_52fdc070_no_c0a34a3b",
+            "node_fx_softmax_3_28d62310:input:0",
+            "node_fx_softmax_3_28d62310:output:0",
+            "node_fx_topk_4_a48cbb82:input:0",
+            "node_fx_topk_4_a48cbb82:output:0",
+            "node_fx_topk_4_a48cbb82:output:1",
+            "module_experts_0_feed_forward_0_03fea969:output:binding_node_fx_experts_0_feed_forward_0_13_b9983b_9bf68639",
+            "module_experts_0_feed_forward_1_b9d53948:input:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_3971c8ee",
+            "module_experts_0_feed_forward_1_b9d53948:output:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_ea9c68aa",
+            "module_experts_0_feed_forward_2_ed38c8fa:input:binding_node_fx_experts_0_feed_forward_2_15_89edfc_f78d7734",
+            "module_experts_1_feed_forward_0_f9be0c44:output:binding_node_fx_experts_1_feed_forward_0_16_c94efc_533b33ef",
+            "module_experts_1_feed_forward_1_7d2a131f:input:binding_node_fx_experts_1_feed_forward_1_17_cdea67_042cbe08",
+            "module_experts_1_feed_forward_1_7d2a131f:output:binding_node_fx_experts_1_feed_forward_1_17_cdea67_6ca70812",
+            "module_experts_1_feed_forward_2_0a23e4e2:input:binding_node_fx_experts_1_feed_forward_2_18_944433_570efcd9",
+            "module_experts_2_feed_forward_0_bf0497de:output:binding_node_fx_experts_2_feed_forward_0_19_b93653_cd360794",
+            "module_experts_2_feed_forward_1_e350483c:input:binding_node_fx_experts_2_feed_forward_1_20_edda5c_c2b0bb04",
+            "module_experts_2_feed_forward_1_e350483c:output:binding_node_fx_experts_2_feed_forward_1_20_edda5c_be7a7313",
+            "module_experts_2_feed_forward_2_522eb001:input:binding_node_fx_experts_2_feed_forward_2_21_549aeb_3f5addd9",
+            "module_experts_3_feed_forward_0_96d3bbeb:output:binding_node_fx_experts_3_feed_forward_0_22_f14ac3_901fc969",
+            "module_experts_3_feed_forward_1_17db048e:input:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_858b264b",
+            "module_experts_3_feed_forward_1_17db048e:output:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_ede323bc",
+            "module_experts_3_feed_forward_2_bf19cf45:input:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_949d9c2d",
+            "module_experts_0_feed_forward_2_ed38c8fa:output:binding_node_fx_experts_0_feed_forward_2_15_89edfc_5848be1f",
+            "node_fx_stack_25_5817cdf7:input:0",
+            "module_experts_1_feed_forward_2_0a23e4e2:output:binding_node_fx_experts_1_feed_forward_2_18_944433_cb2d30e6",
+            "node_fx_stack_25_5817cdf7:input:1",
+            "module_experts_2_feed_forward_2_522eb001:output:binding_node_fx_experts_2_feed_forward_2_21_549aeb_2d80a1ad",
+            "node_fx_stack_25_5817cdf7:input:2",
+            "module_experts_3_feed_forward_2_bf19cf45:output:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_f121baec",
+            "node_fx_stack_25_5817cdf7:input:3",
+            "node_fx_stack_25_5817cdf7:output:0",
+            "node_fx_mul_1_27_73f0e5fb:input:0",
+            "node_fx_mul_1_27_73f0e5fb:output:0",
+            "node_fx_sum_2_28_3927b687:input:0",
+            "node_fx_sum_2_28_3927b687:output:0",
+            "node_fx_add_29_6d5cabfa:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -9.25,
+        5.55,
+        1.85,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "Router + top-2"
+    },
+    {
+      "extras": {
+        "kind": "tensor-volume",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_6a7c7285",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "output-head",
+            "architecture_role_id": "architecture_role_output_head_4_module_output_norm_f11a6f83__dd039697",
+            "confidence": 0.93,
+            "edge_ids": [
+              "module_edge_edge_node_fx_output_norm_30_b8fb2766_node__22cd3ec1"
+            ],
+            "node_ids": [
+              "module_output_norm_f11a6f83",
+              "node_fx_output_31_1e7f4585"
+            ],
+            "port_ids": [
+              "module_output_norm_f11a6f83:input:binding_node_fx_output_norm_30_b8fb2766_node_fx_ou_501523f3",
+              "module_output_norm_f11a6f83:output:binding_node_fx_output_norm_30_b8fb2766_node_fx_ou_31d537b9",
+              "node_fx_output_31_1e7f4585:input:0",
+              "node_fx_output_31_1e7f4585:output:0"
+            ],
+            "reasons": [
+              "The terminal normalization path reaches every Graph IR output."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__0c0cae94",
+            "figure_object_model_figure_tensor_architecture_projectio_c2f04ebb",
+            "figure_object_model_figure_edge_architecture_projection__eed13eaa"
+          ],
+          "graph_ir_ids": [
+            "module_output_norm_f11a6f83",
+            "node_fx_output_31_1e7f4585",
+            "module_edge_edge_node_fx_output_norm_30_b8fb2766_node__22cd3ec1",
+            "module_output_norm_f11a6f83:input:binding_node_fx_output_norm_30_b8fb2766_node_fx_ou_501523f3",
+            "module_output_norm_f11a6f83:output:binding_node_fx_output_norm_30_b8fb2766_node_fx_ou_31d537b9",
+            "node_fx_output_31_1e7f4585:input:0",
+            "node_fx_output_31_1e7f4585:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        16.65,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 3,
+      "name": "Normalization / output"
+    },
+    {
+      "extras": {
+        "kind": "merge",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_bc7f8a97",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "weighted-combine",
+            "architecture_role_id": "architecture_role_weighted_combine_3_node_fx_add_29_6d5cabfa_66d5db91",
+            "confidence": 0.96,
+            "edge_ids": [
+              "module_edge_edge_node_fx_stack_25_5817cdf7_node_fx_sta_04127427",
+              "module_edge_edge_node_fx_mul_1_27_73f0e5fb_node_fx_mul_72806a54",
+              "module_edge_edge_node_fx_sum_2_28_3927b687_node_fx_sum_062b5b16"
+            ],
+            "node_ids": [
+              "node_fx_add_29_6d5cabfa",
+              "node_fx_sum_2_28_3927b687",
+              "node_fx_mul_1_27_73f0e5fb",
+              "node_fx_stack_25_5817cdf7"
+            ],
+            "port_ids": [
+              "node_fx_stack_25_5817cdf7:input:0",
+              "node_fx_stack_25_5817cdf7:input:1",
+              "node_fx_stack_25_5817cdf7:input:2",
+              "node_fx_stack_25_5817cdf7:input:3",
+              "node_fx_stack_25_5817cdf7:output:0",
+              "node_fx_mul_1_27_73f0e5fb:input:0",
+              "node_fx_mul_1_27_73f0e5fb:input:1",
+              "node_fx_mul_1_27_73f0e5fb:output:0",
+              "node_fx_sum_2_28_3927b687:input:0",
+              "node_fx_sum_2_28_3927b687:output:0",
+              "node_fx_add_29_6d5cabfa:input:0",
+              "node_fx_add_29_6d5cabfa:input:1",
+              "node_fx_add_29_6d5cabfa:output:0"
+            ],
+            "reasons": [
+              "Expert outputs and router-derived weights meet at multiply/stack/sum source operations."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__2f355147",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__be23874c",
+            "figure_object_model_figure_edge_architecture_projection__eed13eaa"
+          ],
+          "graph_ir_ids": [
+            "node_fx_add_29_6d5cabfa",
+            "node_fx_sum_2_28_3927b687",
+            "node_fx_mul_1_27_73f0e5fb",
+            "node_fx_stack_25_5817cdf7",
+            "module_edge_edge_node_fx_stack_25_5817cdf7_node_fx_sta_04127427",
+            "module_edge_edge_node_fx_mul_1_27_73f0e5fb_node_fx_mul_72806a54",
+            "module_edge_edge_node_fx_sum_2_28_3927b687_node_fx_sum_062b5b16",
+            "node_fx_stack_25_5817cdf7:input:0",
+            "node_fx_stack_25_5817cdf7:input:1",
+            "node_fx_stack_25_5817cdf7:input:2",
+            "node_fx_stack_25_5817cdf7:input:3",
+            "node_fx_stack_25_5817cdf7:output:0",
+            "node_fx_mul_1_27_73f0e5fb:input:0",
+            "node_fx_mul_1_27_73f0e5fb:input:1",
+            "node_fx_mul_1_27_73f0e5fb:output:0",
+            "node_fx_sum_2_28_3927b687:input:0",
+            "node_fx_sum_2_28_3927b687:output:0",
+            "node_fx_add_29_6d5cabfa:input:0",
+            "node_fx_add_29_6d5cabfa:input:1",
+            "node_fx_add_29_6d5cabfa:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        9.25,
+        0.0,
+        1.85,
+        1.0
+      ],
+      "mesh": 4,
+      "name": "Weighted combine"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_0f9c6cd2",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "expert-branch",
+            "attributes": {
+              "expert_index": 1
+            },
+            "edge_ids": [
+              "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_31dee545",
+              "module_edge_edge_node_fx_experts_0_feed_forward_0_13_b_3053d9f5",
+              "module_edge_edge_node_fx_experts_0_feed_forward_1_14_8_3dcb6c98",
+              "module_edge_edge_node_fx_experts_0_feed_forward_2_15_8_52750118"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__c2592fa5",
+            "figure_object_model_figure_tensor_architecture_projectio_6f4d2fe8",
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_node_architecture_projection__df43184a",
+            "figure_object_model_figure_repeat_architecture_projectio_52b4bea8",
+            "figure_object_model_figure_tensor_architecture_projectio_69986472",
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_edge_architecture_projection__fbbd8cc8",
+            "figure_object_model_figure_edge_architecture_projection__09a269fd",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__be23874c"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_31dee545",
+            "module_edge_edge_node_fx_experts_0_feed_forward_0_13_b_3053d9f5",
+            "module_edge_edge_node_fx_experts_0_feed_forward_1_14_8_3dcb6c98",
+            "module_edge_edge_node_fx_experts_0_feed_forward_2_15_8_52750118",
+            "module_token_embedding_6c4877e2",
+            "module_experts_0_feed_forward_0_03fea969",
+            "module_experts_0_feed_forward_1_b9d53948",
+            "module_experts_0_feed_forward_2_ed38c8fa",
+            "node_fx_stack_25_5817cdf7",
+            "module_token_embedding_6c4877e2:output:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_9e75ba6d",
+            "module_experts_0_feed_forward_0_03fea969:input:binding_node_fx_experts_0_feed_forward_0_13_b9983b_96534544",
+            "module_experts_0_feed_forward_0_03fea969:output:binding_node_fx_experts_0_feed_forward_0_13_b9983b_9bf68639",
+            "module_experts_0_feed_forward_1_b9d53948:input:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_3971c8ee",
+            "module_experts_0_feed_forward_1_b9d53948:output:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_ea9c68aa",
+            "module_experts_0_feed_forward_2_ed38c8fa:input:binding_node_fx_experts_0_feed_forward_2_15_89edfc_f78d7734",
+            "module_experts_0_feed_forward_2_ed38c8fa:output:binding_node_fx_experts_0_feed_forward_2_15_89edfc_5848be1f",
+            "node_fx_stack_25_5817cdf7:input:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 5,
+      "name": "Top-k expert branch 1"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_2982b201",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_add_29_6d5cabfa_node_fx_add_2_9c41a38b"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_node_architecture_projection__0c0cae94",
+            "figure_object_model_figure_tensor_architecture_projectio_c2f04ebb",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__eed13eaa"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_add_29_6d5cabfa_node_fx_add_2_9c41a38b",
+            "node_fx_add_29_6d5cabfa",
+            "module_output_norm_f11a6f83",
+            "node_fx_add_29_6d5cabfa:output:0",
+            "module_output_norm_f11a6f83:input:binding_node_fx_output_norm_30_b8fb2766_node_fx_ou_501523f3"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 6,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_88893b54",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "expert-branch",
+            "attributes": {
+              "expert_index": 4
+            },
+            "edge_ids": [
+              "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_e45a3367",
+              "module_edge_edge_node_fx_experts_3_feed_forward_0_22_f_75759516",
+              "module_edge_edge_node_fx_experts_3_feed_forward_1_23_1_49abe4ec",
+              "module_edge_edge_node_fx_experts_3_feed_forward_2_24_4_dcf3267a"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__c2592fa5",
+            "figure_object_model_figure_tensor_architecture_projectio_6f4d2fe8",
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_node_architecture_projection__df43184a",
+            "figure_object_model_figure_repeat_architecture_projectio_52b4bea8",
+            "figure_object_model_figure_tensor_architecture_projectio_69986472",
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_edge_architecture_projection__fbbd8cc8",
+            "figure_object_model_figure_edge_architecture_projection__09a269fd",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__be23874c"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_e45a3367",
+            "module_edge_edge_node_fx_experts_3_feed_forward_0_22_f_75759516",
+            "module_edge_edge_node_fx_experts_3_feed_forward_1_23_1_49abe4ec",
+            "module_edge_edge_node_fx_experts_3_feed_forward_2_24_4_dcf3267a",
+            "module_token_embedding_6c4877e2",
+            "module_experts_3_feed_forward_0_96d3bbeb",
+            "module_experts_3_feed_forward_1_17db048e",
+            "module_experts_3_feed_forward_2_bf19cf45",
+            "node_fx_stack_25_5817cdf7",
+            "module_token_embedding_6c4877e2:output:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_9e75ba6d",
+            "module_experts_3_feed_forward_0_96d3bbeb:input:binding_node_fx_experts_3_feed_forward_0_22_f14ac3_bcd8dda7",
+            "module_experts_3_feed_forward_0_96d3bbeb:output:binding_node_fx_experts_3_feed_forward_0_22_f14ac3_901fc969",
+            "module_experts_3_feed_forward_1_17db048e:input:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_858b264b",
+            "module_experts_3_feed_forward_1_17db048e:output:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_ede323bc",
+            "module_experts_3_feed_forward_2_bf19cf45:input:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_949d9c2d",
+            "module_experts_3_feed_forward_2_bf19cf45:output:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_f121baec",
+            "node_fx_stack_25_5817cdf7:input:3"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 7,
+      "name": "Top-k expert branch 4"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_8bcf8624",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_experts_0_feed_forward_2_15_8_52750118"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_node_architecture_projection__df43184a",
+            "figure_object_model_figure_repeat_architecture_projectio_52b4bea8",
+            "figure_object_model_figure_tensor_architecture_projectio_69986472",
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__be23874c"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_experts_0_feed_forward_2_15_8_52750118",
+            "module_experts_0_feed_forward_2_ed38c8fa",
+            "node_fx_stack_25_5817cdf7",
+            "module_experts_0_feed_forward_2_ed38c8fa:output:binding_node_fx_experts_0_feed_forward_2_15_89edfc_5848be1f",
+            "node_fx_stack_25_5817cdf7:input:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 8,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_8fa5f194",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "expert-branch",
+            "attributes": {
+              "expert_index": 2
+            },
+            "edge_ids": [
+              "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_9b24b86e",
+              "module_edge_edge_node_fx_experts_1_feed_forward_0_16_c_d4cdb1d9",
+              "module_edge_edge_node_fx_experts_1_feed_forward_1_17_c_df21188a",
+              "module_edge_edge_node_fx_experts_1_feed_forward_2_18_9_0ce1b8ab"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__c2592fa5",
+            "figure_object_model_figure_tensor_architecture_projectio_6f4d2fe8",
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_node_architecture_projection__df43184a",
+            "figure_object_model_figure_repeat_architecture_projectio_52b4bea8",
+            "figure_object_model_figure_tensor_architecture_projectio_69986472",
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_edge_architecture_projection__fbbd8cc8",
+            "figure_object_model_figure_edge_architecture_projection__09a269fd",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__be23874c"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_9b24b86e",
+            "module_edge_edge_node_fx_experts_1_feed_forward_0_16_c_d4cdb1d9",
+            "module_edge_edge_node_fx_experts_1_feed_forward_1_17_c_df21188a",
+            "module_edge_edge_node_fx_experts_1_feed_forward_2_18_9_0ce1b8ab",
+            "module_token_embedding_6c4877e2",
+            "module_experts_1_feed_forward_0_f9be0c44",
+            "module_experts_1_feed_forward_1_7d2a131f",
+            "module_experts_1_feed_forward_2_0a23e4e2",
+            "node_fx_stack_25_5817cdf7",
+            "module_token_embedding_6c4877e2:output:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_9e75ba6d",
+            "module_experts_1_feed_forward_0_f9be0c44:input:binding_node_fx_experts_1_feed_forward_0_16_c94efc_713890d4",
+            "module_experts_1_feed_forward_0_f9be0c44:output:binding_node_fx_experts_1_feed_forward_0_16_c94efc_533b33ef",
+            "module_experts_1_feed_forward_1_7d2a131f:input:binding_node_fx_experts_1_feed_forward_1_17_cdea67_042cbe08",
+            "module_experts_1_feed_forward_1_7d2a131f:output:binding_node_fx_experts_1_feed_forward_1_17_cdea67_6ca70812",
+            "module_experts_1_feed_forward_2_0a23e4e2:input:binding_node_fx_experts_1_feed_forward_2_18_944433_570efcd9",
+            "module_experts_1_feed_forward_2_0a23e4e2:output:binding_node_fx_experts_1_feed_forward_2_18_944433_cb2d30e6",
+            "node_fx_stack_25_5817cdf7:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 9,
+      "name": "Top-k expert branch 2"
+    },
+    {
+      "extras": {
+        "kind": "expert-branch",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_a1da172e",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "expert-branch",
+            "attributes": {
+              "expert_index": 3
+            },
+            "edge_ids": [
+              "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_fc6d4761",
+              "module_edge_edge_node_fx_experts_2_feed_forward_0_19_b_17c08ad6",
+              "module_edge_edge_node_fx_experts_2_feed_forward_1_20_e_01364e3c",
+              "module_edge_edge_node_fx_experts_2_feed_forward_2_21_5_cff8bd8b"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__c2592fa5",
+            "figure_object_model_figure_tensor_architecture_projectio_6f4d2fe8",
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_node_architecture_projection__df43184a",
+            "figure_object_model_figure_repeat_architecture_projectio_52b4bea8",
+            "figure_object_model_figure_tensor_architecture_projectio_69986472",
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_edge_architecture_projection__fbbd8cc8",
+            "figure_object_model_figure_edge_architecture_projection__09a269fd",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__be23874c"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_fc6d4761",
+            "module_edge_edge_node_fx_experts_2_feed_forward_0_19_b_17c08ad6",
+            "module_edge_edge_node_fx_experts_2_feed_forward_1_20_e_01364e3c",
+            "module_edge_edge_node_fx_experts_2_feed_forward_2_21_5_cff8bd8b",
+            "module_token_embedding_6c4877e2",
+            "module_experts_2_feed_forward_0_bf0497de",
+            "module_experts_2_feed_forward_1_e350483c",
+            "module_experts_2_feed_forward_2_522eb001",
+            "node_fx_stack_25_5817cdf7",
+            "module_token_embedding_6c4877e2:output:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_9e75ba6d",
+            "module_experts_2_feed_forward_0_bf0497de:input:binding_node_fx_experts_2_feed_forward_0_19_b93653_e1168cc6",
+            "module_experts_2_feed_forward_0_bf0497de:output:binding_node_fx_experts_2_feed_forward_0_19_b93653_cd360794",
+            "module_experts_2_feed_forward_1_e350483c:input:binding_node_fx_experts_2_feed_forward_1_20_edda5c_c2b0bb04",
+            "module_experts_2_feed_forward_1_e350483c:output:binding_node_fx_experts_2_feed_forward_1_20_edda5c_be7a7313",
+            "module_experts_2_feed_forward_2_522eb001:input:binding_node_fx_experts_2_feed_forward_2_21_549aeb_3f5addd9",
+            "module_experts_2_feed_forward_2_522eb001:output:binding_node_fx_experts_2_feed_forward_2_21_549aeb_2d80a1ad",
+            "node_fx_stack_25_5817cdf7:input:2"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 10,
+      "name": "Top-k expert branch 3"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_b57577a7",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_softmax_3_28d62310_node_fx_so_875ae77f",
+              "module_edge_edge_node_fx_getattr_1_8_4d93e600_node_fx__04fb6b31",
+              "module_edge_edge_node_fx_to_9_60ff2332_node_fx_to_9_60_b95443a3",
+              "module_edge_edge_node_fx_mul_11_6933d17f_node_fx_mul_1_96cf351a",
+              "module_edge_edge_node_fx_sum_1_12_a7abe20f_node_fx_sum_64891d55",
+              "module_edge_edge_node_fx_unsqueeze_1_26_a7cebbe4_node__1c9d9f8e"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_edge_architecture_projection__2f355147",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_softmax_3_28d62310_node_fx_so_875ae77f",
+            "module_edge_edge_node_fx_getattr_1_8_4d93e600_node_fx__04fb6b31",
+            "module_edge_edge_node_fx_to_9_60ff2332_node_fx_to_9_60_b95443a3",
+            "module_edge_edge_node_fx_mul_11_6933d17f_node_fx_mul_1_96cf351a",
+            "module_edge_edge_node_fx_sum_1_12_a7abe20f_node_fx_sum_64891d55",
+            "module_edge_edge_node_fx_unsqueeze_1_26_a7cebbe4_node__1c9d9f8e",
+            "node_fx_softmax_3_28d62310",
+            "node_fx_getattr_1_8_4d93e600",
+            "node_fx_to_9_60ff2332",
+            "node_fx_mul_11_6933d17f",
+            "node_fx_sum_1_12_a7abe20f",
+            "node_fx_unsqueeze_1_26_a7cebbe4",
+            "node_fx_mul_1_27_73f0e5fb",
+            "node_fx_softmax_3_28d62310:output:0",
+            "node_fx_getattr_1_8_4d93e600:input:0",
+            "node_fx_getattr_1_8_4d93e600:output:0",
+            "node_fx_to_9_60ff2332:input:1",
+            "node_fx_to_9_60ff2332:output:0",
+            "node_fx_mul_11_6933d17f:input:0",
+            "node_fx_mul_11_6933d17f:output:0",
+            "node_fx_sum_1_12_a7abe20f:input:0",
+            "node_fx_sum_1_12_a7abe20f:output:0",
+            "node_fx_unsqueeze_1_26_a7cebbe4:input:0",
+            "node_fx_unsqueeze_1_26_a7cebbe4:output:0",
+            "node_fx_mul_1_27_73f0e5fb:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 11,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_c8724618",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_31dee545"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__c2592fa5",
+            "figure_object_model_figure_tensor_architecture_projectio_6f4d2fe8",
+            "figure_object_model_figure_node_architecture_projection__df43184a",
+            "figure_object_model_figure_repeat_architecture_projectio_52b4bea8",
+            "figure_object_model_figure_tensor_architecture_projectio_69986472",
+            "figure_object_model_figure_edge_architecture_projection__fbbd8cc8",
+            "figure_object_model_figure_edge_architecture_projection__09a269fd",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_31dee545",
+            "module_token_embedding_6c4877e2",
+            "module_experts_0_feed_forward_0_03fea969",
+            "module_token_embedding_6c4877e2:output:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_9e75ba6d",
+            "module_experts_0_feed_forward_0_03fea969:input:binding_node_fx_experts_0_feed_forward_0_13_b9983b_96534544"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 12,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_e0b18bdc",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_4ace2459"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__c2592fa5",
+            "figure_object_model_figure_tensor_architecture_projectio_6f4d2fe8",
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_edge_architecture_projection__fbbd8cc8",
+            "figure_object_model_figure_edge_architecture_projection__09a269fd",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_4ace2459",
+            "module_token_embedding_6c4877e2",
+            "module_router_router_logits_f60d18ba",
+            "module_token_embedding_6c4877e2:output:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_9e75ba6d",
+            "module_router_router_logits_f60d18ba:input:binding_node_fx_router_router_logits_2_52fdc070_no_16fd5f11"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 13,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_eff6f7dc",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_617699ea"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__c2592fa5",
+            "figure_object_model_figure_tensor_architecture_projectio_6f4d2fe8",
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_edge_architecture_projection__fbbd8cc8",
+            "figure_object_model_figure_edge_architecture_projection__09a269fd",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__eed13eaa"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_token_embedding_1_cf99fb0b_no_617699ea",
+            "module_token_embedding_6c4877e2",
+            "node_fx_add_29_6d5cabfa",
+            "module_token_embedding_6c4877e2:output:binding_node_fx_token_embedding_1_cf99fb0b_node_fx_9e75ba6d",
+            "node_fx_add_29_6d5cabfa:input:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 14,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "tube",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_f49629a9",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "weighted-combine",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_router_router_logits_2_52fdc0_a183fa43",
+              "module_edge_edge_node_fx_softmax_3_28d62310_node_fx_so_8b73ff04",
+              "module_edge_edge_node_fx_experts_0_feed_forward_0_13_b_3053d9f5",
+              "module_edge_edge_node_fx_experts_0_feed_forward_1_14_8_3dcb6c98",
+              "module_edge_edge_node_fx_experts_1_feed_forward_0_16_c_d4cdb1d9",
+              "module_edge_edge_node_fx_experts_1_feed_forward_1_17_c_df21188a",
+              "module_edge_edge_node_fx_experts_2_feed_forward_0_19_b_17c08ad6",
+              "module_edge_edge_node_fx_experts_2_feed_forward_1_20_e_01364e3c",
+              "module_edge_edge_node_fx_experts_3_feed_forward_0_22_f_75759516",
+              "module_edge_edge_node_fx_experts_3_feed_forward_1_23_1_49abe4ec",
+              "module_edge_edge_node_fx_experts_0_feed_forward_2_15_8_52750118",
+              "module_edge_edge_node_fx_experts_1_feed_forward_2_18_9_0ce1b8ab",
+              "module_edge_edge_node_fx_experts_2_feed_forward_2_21_5_cff8bd8b",
+              "module_edge_edge_node_fx_experts_3_feed_forward_2_24_4_dcf3267a",
+              "module_edge_edge_node_fx_stack_25_5817cdf7_node_fx_sta_04127427",
+              "module_edge_edge_node_fx_mul_1_27_73f0e5fb_node_fx_mul_72806a54",
+              "module_edge_edge_node_fx_sum_2_28_3927b687_node_fx_sum_062b5b16"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__7ee9ae4d",
+            "figure_object_model_figure_tensor_architecture_projectio_8ffd6d31",
+            "figure_object_model_figure_node_architecture_projection__df43184a",
+            "figure_object_model_figure_repeat_architecture_projectio_52b4bea8",
+            "figure_object_model_figure_tensor_architecture_projectio_69986472",
+            "figure_object_model_figure_node_architecture_projection__a8b53a49",
+            "figure_object_model_figure_tensor_architecture_projectio_03c3c2c0",
+            "figure_object_model_figure_edge_architecture_projection__fbbd8cc8",
+            "figure_object_model_figure_edge_architecture_projection__09a269fd",
+            "figure_object_model_figure_edge_architecture_projection__ef0a4bbf",
+            "figure_object_model_figure_edge_architecture_projection__ecdeb737",
+            "figure_object_model_figure_edge_architecture_projection__58675efd",
+            "figure_object_model_figure_edge_architecture_projection__1cc6143f",
+            "figure_object_model_figure_edge_architecture_projection__2ad4f2bb",
+            "figure_object_model_figure_edge_architecture_projection__2f355147",
+            "figure_object_model_figure_edge_architecture_projection__bb07a419",
+            "figure_object_model_figure_edge_architecture_projection__be23874c",
+            "figure_object_model_figure_edge_architecture_projection__eed13eaa"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_router_router_logits_2_52fdc0_a183fa43",
+            "module_edge_edge_node_fx_softmax_3_28d62310_node_fx_so_8b73ff04",
+            "module_edge_edge_node_fx_experts_0_feed_forward_0_13_b_3053d9f5",
+            "module_edge_edge_node_fx_experts_0_feed_forward_1_14_8_3dcb6c98",
+            "module_edge_edge_node_fx_experts_1_feed_forward_0_16_c_d4cdb1d9",
+            "module_edge_edge_node_fx_experts_1_feed_forward_1_17_c_df21188a",
+            "module_edge_edge_node_fx_experts_2_feed_forward_0_19_b_17c08ad6",
+            "module_edge_edge_node_fx_experts_2_feed_forward_1_20_e_01364e3c",
+            "module_edge_edge_node_fx_experts_3_feed_forward_0_22_f_75759516",
+            "module_edge_edge_node_fx_experts_3_feed_forward_1_23_1_49abe4ec",
+            "module_edge_edge_node_fx_experts_0_feed_forward_2_15_8_52750118",
+            "module_edge_edge_node_fx_experts_1_feed_forward_2_18_9_0ce1b8ab",
+            "module_edge_edge_node_fx_experts_2_feed_forward_2_21_5_cff8bd8b",
+            "module_edge_edge_node_fx_experts_3_feed_forward_2_24_4_dcf3267a",
+            "module_edge_edge_node_fx_stack_25_5817cdf7_node_fx_sta_04127427",
+            "module_edge_edge_node_fx_mul_1_27_73f0e5fb_node_fx_mul_72806a54",
+            "module_edge_edge_node_fx_sum_2_28_3927b687_node_fx_sum_062b5b16",
+            "module_router_router_logits_f60d18ba",
+            "node_fx_softmax_3_28d62310",
+            "module_experts_0_feed_forward_0_03fea969",
+            "module_experts_0_feed_forward_1_b9d53948",
+            "module_experts_1_feed_forward_0_f9be0c44",
+            "module_experts_1_feed_forward_1_7d2a131f",
+            "module_experts_2_feed_forward_0_bf0497de",
+            "module_experts_2_feed_forward_1_e350483c",
+            "module_experts_3_feed_forward_0_96d3bbeb",
+            "module_experts_3_feed_forward_1_17db048e",
+            "module_experts_0_feed_forward_2_ed38c8fa",
+            "module_experts_1_feed_forward_2_0a23e4e2",
+            "module_experts_2_feed_forward_2_522eb001",
+            "module_experts_3_feed_forward_2_bf19cf45",
+            "node_fx_stack_25_5817cdf7",
+            "node_fx_mul_1_27_73f0e5fb",
+            "node_fx_sum_2_28_3927b687",
+            "node_fx_topk_4_a48cbb82",
+            "node_fx_add_29_6d5cabfa",
+            "module_router_router_logits_f60d18ba:output:binding_node_fx_router_router_logits_2_52fdc070_no_c0a34a3b",
+            "node_fx_softmax_3_28d62310:input:0",
+            "node_fx_softmax_3_28d62310:output:0",
+            "node_fx_topk_4_a48cbb82:input:0",
+            "module_experts_0_feed_forward_0_03fea969:output:binding_node_fx_experts_0_feed_forward_0_13_b9983b_9bf68639",
+            "module_experts_0_feed_forward_1_b9d53948:input:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_3971c8ee",
+            "module_experts_0_feed_forward_1_b9d53948:output:binding_node_fx_experts_0_feed_forward_1_14_85b0e5_ea9c68aa",
+            "module_experts_0_feed_forward_2_ed38c8fa:input:binding_node_fx_experts_0_feed_forward_2_15_89edfc_f78d7734",
+            "module_experts_1_feed_forward_0_f9be0c44:output:binding_node_fx_experts_1_feed_forward_0_16_c94efc_533b33ef",
+            "module_experts_1_feed_forward_1_7d2a131f:input:binding_node_fx_experts_1_feed_forward_1_17_cdea67_042cbe08",
+            "module_experts_1_feed_forward_1_7d2a131f:output:binding_node_fx_experts_1_feed_forward_1_17_cdea67_6ca70812",
+            "module_experts_1_feed_forward_2_0a23e4e2:input:binding_node_fx_experts_1_feed_forward_2_18_944433_570efcd9",
+            "module_experts_2_feed_forward_0_bf0497de:output:binding_node_fx_experts_2_feed_forward_0_19_b93653_cd360794",
+            "module_experts_2_feed_forward_1_e350483c:input:binding_node_fx_experts_2_feed_forward_1_20_edda5c_c2b0bb04",
+            "module_experts_2_feed_forward_1_e350483c:output:binding_node_fx_experts_2_feed_forward_1_20_edda5c_be7a7313",
+            "module_experts_2_feed_forward_2_522eb001:input:binding_node_fx_experts_2_feed_forward_2_21_549aeb_3f5addd9",
+            "module_experts_3_feed_forward_0_96d3bbeb:output:binding_node_fx_experts_3_feed_forward_0_22_f14ac3_901fc969",
+            "module_experts_3_feed_forward_1_17db048e:input:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_858b264b",
+            "module_experts_3_feed_forward_1_17db048e:output:binding_node_fx_experts_3_feed_forward_1_23_1fd22f_ede323bc",
+            "module_experts_3_feed_forward_2_bf19cf45:input:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_949d9c2d",
+            "module_experts_0_feed_forward_2_ed38c8fa:output:binding_node_fx_experts_0_feed_forward_2_15_89edfc_5848be1f",
+            "node_fx_stack_25_5817cdf7:input:0",
+            "module_experts_1_feed_forward_2_0a23e4e2:output:binding_node_fx_experts_1_feed_forward_2_18_944433_cb2d30e6",
+            "node_fx_stack_25_5817cdf7:input:1",
+            "module_experts_2_feed_forward_2_522eb001:output:binding_node_fx_experts_2_feed_forward_2_21_549aeb_2d80a1ad",
+            "node_fx_stack_25_5817cdf7:input:2",
+            "module_experts_3_feed_forward_2_bf19cf45:output:binding_node_fx_experts_3_feed_forward_2_24_4c9ae8_f121baec",
+            "node_fx_stack_25_5817cdf7:input:3",
+            "node_fx_stack_25_5817cdf7:output:0",
+            "node_fx_mul_1_27_73f0e5fb:input:0",
+            "node_fx_mul_1_27_73f0e5fb:output:0",
+            "node_fx_sum_2_28_3927b687:input:0",
+            "node_fx_sum_2_28_3927b687:output:0",
+            "node_fx_add_29_6d5cabfa:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+          ],
+          "source_id": "semantic_stage_unknown_module_experts_0_feed_forwar_cb5516d5"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 15,
+      "name": "Weighted expert combine"
+    },
+    {
+      "camera": 0,
+      "extras": {
+        "kind": "camera",
+        "objectId": "scene_camera_topkmixtureofexperts___module___architectu_0acd8161"
+      },
+      "matrix": [
+        0.759256602,
+        0.0,
+        -0.650791373,
+        0.0,
+        -0.310252614,
+        0.879049073,
+        -0.361961383,
+        0.0,
+        0.572077554,
+        0.476731295,
+        0.667423812,
+        0.0,
+        12.0,
+        10.0,
+        14.0,
+        1.0
+      ],
+      "name": "TopKMixtureOfExperts · Module · Architecture Evidence 3D isometric camera"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "extras": {
+        "kind": "light",
+        "objectId": "scene_light_topkmixtureofexperts___module___architectu_4a9a4723"
+      },
+      "name": "Key light",
+      "translation": [
+        8.0,
+        10.0,
+        12.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "activeCameraId": "scene_camera_topkmixtureofexperts___module___architectu_0acd8161",
+        "sceneId": "scene_topkmixtureofexperts___module___architectu_b4357667",
+        "sourceDigest": "1e2a2c91366e74a8c206b7acc6a0464419f3ba9fd6e4d947ce84fe0ec7c1a762"
+      },
+      "name": "TopKMixtureOfExperts · Module · Architecture Evidence 3D",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ]
+}

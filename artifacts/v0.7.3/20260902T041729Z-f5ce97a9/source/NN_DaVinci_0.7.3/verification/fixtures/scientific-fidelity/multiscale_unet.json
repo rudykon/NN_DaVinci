@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.4.2-semantic-golden-1",
+  "example": "multiscale_unet",
+  "panel": "overview",
+  "required_roles": [
+    "model_input",
+    "encoder_scale_1",
+    "encoder_scale_2",
+    "encoder_scale_3",
+    "bottleneck",
+    "decoder_scale_3",
+    "decoder_scale_2",
+    "decoder_scale_1",
+    "model_output"
+  ],
+  "required_edges": [
+    ["model_input", "encoder_scale_1", "data"],
+    ["encoder_scale_1", "encoder_scale_2", "data"],
+    ["encoder_scale_2", "encoder_scale_3", "data"],
+    ["encoder_scale_3", "bottleneck", "data"],
+    ["bottleneck", "decoder_scale_3", "data"],
+    ["decoder_scale_3", "decoder_scale_2", "data"],
+    ["decoder_scale_2", "decoder_scale_1", "data"],
+    ["decoder_scale_1", "model_output", "data"],
+    ["encoder_scale_3", "decoder_scale_3", "skip"],
+    ["encoder_scale_2", "decoder_scale_2", "skip"],
+    ["encoder_scale_1", "decoder_scale_1", "skip"]
+  ],
+  "merge_indegree": {
+    "decoder_scale_3": 2,
+    "decoder_scale_2": 2,
+    "decoder_scale_1": 2
+  },
+  "repetition": {
+    "selected_structural_repeat_count": 1
+  },
+  "caption": {
+    "input_names": ["image"],
+    "output_names": ["output_0"],
+    "forbidden_input_names": ["output_0"]
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "chrome": {
+    "scene_assertions": 131,
+    "scene_browser_errors": 0,
+    "scene_viewports": [
+      {
+        "height": 1080,
+        "width": 1920
+      },
+      {
+        "height": 900,
+        "width": 1440
+      },
+      {
+        "height": 720,
+        "width": 1280
+      },
+      {
+        "height": 768,
+        "width": 1024
+      },
+      {
+        "height": 600,
+        "width": 800
+      },
+      {
+        "height": 320,
+        "width": 568
+      },
+      {
+        "height": 844,
+        "width": 390
+      }
+    ],
+    "suites": 7
+  },
+  "completed_utc": "2026-09-01T14:33:18.381933+00:00",
+  "coverage": {
+    "all_package": {
+      "branch": {
+        "covered": 5200,
+        "fraction": 0.771742356782428,
+        "percent": 77.17423567824281,
+        "total": 6738
+      },
+      "combined": {
+        "covered": 21026,
+        "fraction": 0.8486438488860187,
+        "percent": 84.86438488860188,
+        "total": 24776
+      },
+      "line": {
+        "covered": 15826,
+        "fraction": 0.8773699966736889,
+        "percent": 87.73699966736889,
+        "total": 18038
+      }
+    },
+    "expanded_core": {
+      "branch": {
+        "covered": 905,
+        "fraction": 0.8364140480591498,
+        "percent": 83.64140480591497,
+        "total": 1082
+      },
+      "combined": {
+        "covered": 3722,
+        "fraction": 0.8942815953868333,
+        "percent": 89.42815953868333,
+        "total": 4162
+      },
+      "line": {
+        "covered": 2817,
+        "fraction": 0.9146103896103897,
+        "percent": 91.46103896103897,
+        "total": 3080
+      }
+    },
+    "gates": {
+      "all_package_passed": true,
+      "authoritative_parent_floors_percent": {
+        "all_package": 84.48156482603427,
+        "expanded_core": 89.42561884162461,
+        "old_core": 89.21365752715985,
+        "scene_core": 82.08409506398537
+      },
+      "expanded_core_passed": true,
+      "no_regression_from_0_7_1": true,
+      "observed_percent": {
+        "all_package": 84.86438488860188,
+        "expanded_core": 89.42815953868333,
+        "old_core": 89.21644685802949,
+        "scene_core": 82.77905198776759
+      },
+      "old_core_passed": true
+    },
+    "old_core": {
+      "branch": {
+        "covered": 835,
+        "fraction": 0.8333333333333334,
+        "percent": 83.33333333333333,
+        "total": 1002
+      },
+      "combined": {
+        "covered": 3450,
+        "fraction": 0.8921644685802949,
+        "percent": 89.21644685802949,
+        "total": 3867
+      },
+      "line": {
+        "covered": 2615,
+        "fraction": 0.912739965095986,
+        "percent": 91.2739965095986,
+        "total": 2865
+      }
+    },
+    "scene_core": {
+      "covered_branches": 1083,
+      "covered_lines": 3248,
+      "excluded_lines": 0,
+      "missing_branches": 407,
+      "missing_lines": 494,
+      "num_branches": 1490,
+      "num_partial_branches": 321,
+      "num_statements": 3742,
+      "percent_covered": 82.77905198776759,
+      "percent_covered_display": "83"
+    }
+  },
+  "elapsed_seconds": 434.382,
+  "failures": [],
+  "git_operations": false,
+  "human_evidence": {
+    "automated_evidence_is_human_evidence": false,
+    "completed_sessions": 0,
+    "ease_or_learnability": null,
+    "first_figure_time": null,
+    "paper_ready_time": null,
+    "participants": 0,
+    "task_success": null,
+    "usability": null
+  },
+  "parent": {
+    "artifact_verification": "PASS",
+    "release": "0.7.1",
+    "run_id": "20260831T154536Z-d8ec62b7",
+    "source_digest": "d28a979c588dc998c0816e8757d70bca266d252b9c6f0098d56edd8e3021b2a9",
+    "source_files": 383
+  },
+  "performance": {
+    "cpu_publication_projection": {
+      "1000": {
+        "maximum_ms": 1571.436,
+        "median_ms": 1557.37,
+        "samples_ms": [
+          1571.436,
+          1557.37,
+          1548.121
+        ]
+      },
+      "250": {
+        "maximum_ms": 363.295,
+        "median_ms": 360.512,
+        "samples_ms": [
+          350.194,
+          363.295,
+          360.512
+        ]
+      }
+    },
+    "environment": {
+      "logical_cpu_count": 20,
+      "machine": "x86_64",
+      "platform": "Linux-6.17.0-20-generic-x86_64-with-glibc2.39",
+      "processor": "x86_64",
+      "python": "3.13.5"
+    },
+    "failures": [],
+    "first_interactive": {
+      "1000_objects": {
+        "maximum_ms": 633.018,
+        "median_ms": 611.485,
+        "parent_0_7_0_maximum_ms": 653.131,
+        "regression_percent": -3.079,
+        "samples_ms": [
+          609.933,
+          611.485,
+          633.018
+        ]
+      },
+      "250_objects": {
+        "maximum_ms": 147.071,
+        "median_ms": 146.916,
+        "samples_ms": [
+          145.165,
+          147.071,
+          146.916
+        ]
+      }
+    },
+    "large_graphs": {
+      "10000": {
+        "maximum_ms": 745.225,
+        "median_ms": 718.246,
+        "provenance_mode": "exact-source-ids",
+        "samples_ms": [
+          714.027,
+          718.246,
+          745.225
+        ],
+        "scene_objects": 249,
+        "summary_first": true
+      },
+      "50000": {
+        "maximum_ms": 1176.224,
+        "median_ms": 1172.214,
+        "provenance_mode": "digest-and-bounded-representatives",
+        "samples_ms": [
+          1171.091,
+          1176.224,
+          1172.214
+        ],
+        "scene_objects": 249,
+        "summary_first": true
+      }
+    },
+    "measurement_scope": {
+      "cpu_publication_projection": "deterministic full vector projection with faces and edges; reported separately",
+      "first_interactive": "Scene IR deserialize, world-record refresh, and one real camera interaction frame",
+      "human_participants": 0,
+      "orbit_frame": "camera orbit plus one frame-stable batch projection of all visible world-space object centres; publication hidden-line removal excluded"
+    },
+    "orbit_500_objects": {
+      "maximum_ms": 2.449,
+      "median_ms": 2.293,
+      "p95_ms": 2.346,
+      "samples": 60,
+      "world_coordinates_unchanged": true
+    },
+    "release": "0.7.1 — 3D Publication Quality & UX Completion",
+    "repeats": 3,
+    "retained_2d": {
+      "baseline_0_7_0_report": "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.1_Dev/artifacts/v0.7.1/20260831T154536Z-d8ec62b7/reports/performance/scene-studio.json",
+      "baseline_median_ms": 187.383,
+      "comparison_method": "paired-warm-current-load-alternating-order",
+      "current_median_ms": 187.147,
+      "current_samples_ms": [
+        205.132,
+        187.147,
+        176.921
+      ],
+      "historical_artifact_median_ms": 190.968,
+      "historical_artifact_regression_percent": -2.001,
+      "labels": 1000,
+      "observations_per_recorded_run": 4,
+      "paired_parent_samples_ms": [
+        164.46,
+        187.383,
+        188.88
+      ],
+      "parent_0_7_0_source": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/parent-source/NN_DaVinci_0.7.1",
+      "recorded_runs_per_version": 3,
+      "regression_percent": -0.126,
+      "retained_source_identical": true,
+      "retained_source_identity": {
+        "src/nn_davinci/figure_export.py": {
+          "current_sha256": "50ac8dc29475ce3c546c3541b32fd323444928e63c3b8303c03bb7e6655d5035",
+          "parent_0_7_0_sha256": "50ac8dc29475ce3c546c3541b32fd323444928e63c3b8303c03bb7e6655d5035"
+        },
+        "src/nn_davinci/figure_ir.py": {
+          "current_sha256": "3902bae85cc6574e016027f94bbcfc987e81c49de36f88402149669b96a145a4",
+          "parent_0_7_0_sha256": "3902bae85cc6574e016027f94bbcfc987e81c49de36f88402149669b96a145a4"
+        }
+      },
+      "warmup_runs_per_version": 1
+    },
+    "schema_version": "nndv-0.7.1-scene-studio-performance-1",
+    "selection_inspector": {
+      "maximum_ms": 0.226,
+      "median_ms": 0.197,
+      "samples": 30
+    },
+    "status": "PASS",
+    "thresholds": {
+      "first_1000_parent_maximum_regression_percent": 20.0,
+      "large_1000_first_interactive_maximum_ms": 1500.0,
+      "maximum_generated_scene_objects": 250,
+      "orbit_500_frame_p95_ms": 20.0,
+      "retained_2d_maximum_regression_percent": 20.0,
+      "selection_inspector_median_ms": 100.0,
+      "standard_250_first_interactive_maximum_ms": 500.0
+    }
+  },
+  "python": {
+    "baseline_0_7_1_missing": [],
+    "collected": 353,
+    "deselected": 0,
+    "duration_seconds": 145.219,
+    "errors": 0,
+    "failed": 0,
+    "inherited_0_7_1_tests": 342,
+    "new_0_7_2_tests": 11,
+    "passed": 353,
+    "skipped": 0,
+    "test_ids_sha256": "934f1c14e1dc3e31d9a314d7f05fd2d0eab2afb54106f72f3f4b9a1b28bd331b"
+  },
+  "release": "0.7.2 — Scientific Fidelity & Semantic Scene Hotfix",
+  "reports": {
+    "audit": "reports/docs/release-audit.json",
+    "before_after": "reports/visual/scene-before-after.json",
+    "commands": "reports/full/commands.json",
+    "editor": "reports/e2e/editor.json",
+    "environment": "reports/environment.json",
+    "figure": "reports/e2e/figure-studio.json",
+    "migration": "reports/migration/project-1.3-to-1.4.json",
+    "oracle_fixtures": "reports/visual/oracle-fixtures.json",
+    "packaging": "reports/packaging/package-install.json",
+    "parent_artifact": "reports/source/parent-0.7.1-artifact-verification.json",
+    "parent_source": "reports/source/parent-0.7.1-snapshot.json",
+    "performance": "reports/performance/scene-studio.json",
+    "product": "reports/e2e/product.json",
+    "publication_oracle": "reports/visual/scene-publication-oracle.json",
+    "quick": "reports/quick/quick-verification.json",
+    "responsive": "reports/e2e/responsive.json",
+    "scene": "reports/e2e/scene-studio.json",
+    "scene_corpus": "reports/exports/scene-artifacts.json",
+    "scene_corpus_validation": "reports/exports/scene-artifacts-validation.json",
+    "semantic": "reports/e2e/semantic.json",
+    "source": "reports/source/snapshot.json",
+    "svg_oracle": "reports/visual/scene-svg-oracle.json",
+    "trial": "reports/e2e/trial.json",
+    "visual": "reports/visual/scene-studio.json"
+  },
+  "run_id": "20260901T142604Z-010606e8",
+  "scene": {
+    "before_after_cases": 14,
+    "cases": 14,
+    "comparisons": 14,
+    "exports": 140,
+    "pdf_tikz_publication_oracle": "PASS",
+    "project_schema": "1.4",
+    "projects": 14,
+    "real_models": 7,
+    "regular_files": 196,
+    "scene_ir": "1.0",
+    "strict_svg_oracle": "PASS",
+    "templates": 7,
+    "true_3d_independent_validation": "PASS",
+    "visual_oracle_truth_fixtures": "PASS"
+  },
+  "schema_version": "nndv-0.7.2-verification-1",
+  "scientific_fidelity": {
+    "architecture_evidence_version": "1.0",
+    "independent_parity_reports": 7,
+    "landed_graph_semantic_figure_scene_documents": 28,
+    "name_or_layout_inference_forbidden": true,
+    "non_unknown_real_models": 7,
+    "zero_critical_omission_real_models": 7
+  },
+  "source": {
+    "allowlist_sha256": "2939944b9b6986f69baec15bb77d5dbde207077875d61310f4b5718dcb02dc8f",
+    "file_count": 410,
+    "source_tree_digest": "6d4591e41fd423604fe3537aba200bcdd57e4254c0684dc6bd5b3672fd9c169e"
+  },
+  "started_utc": "2026-09-01T14:26:04Z",
+  "status": "PASS",
+  "uploaded_or_published": false,
+  "visual_evidence": {
+    "before_after_cases": 14,
+    "cross_format_publication_oracle": "PASS",
+    "download_tree_digest": "6adf28c33ea52a16a80ad275e7f3ed70a3c2d3de67a3100728770671245789d5",
+    "downloads": 10,
+    "real_model_2d_3d_pairs": 7,
+    "scene_template_architectures": 7,
+    "screenshot_tree_digest": "0a5ed00c0ab84630e6e43611feb95b44afa4638652f4a2d29dd329220b3a7ffc",
+    "screenshots": 44,
+    "status": "PASS",
+    "strict_fourteen_svg_oracle": "PASS",
+    "svg_visual_oracle": "PASS",
+    "visual_oracle_truth_fixtures": "PASS"
+  }
+}

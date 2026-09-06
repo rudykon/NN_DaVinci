@@ -1,0 +1,31 @@
+{
+  "version": "0.2.2",
+  "fixtures": {
+    "metadata-pass.svg": {"passed": 1, "metadata_errors": 0},
+    "uniform-scale-pass.svg": {"passed": 1, "minimum_horizontal_scale_min": 0.85, "minimum_transform_shape_min": 0.85},
+    "rotation-pass.svg": {"passed": 1, "minimum_horizontal_scale_min": 0.85, "minimum_transform_shape_min": 0.85},
+    "nested-transform-pass.svg": {"passed": 1, "clipping": 0},
+    "legal-annotation-pass.svg": {"passed": 1, "annotation_node_collisions": 0},
+    "marker-connection-pass.svg": {"passed": 1, "marker_node_collisions": 0, "endpoint_errors": 0},
+    "anisotropic-svg-scale-0.5-1.svg": {"passed": 0, "minimum_horizontal_scale_max": 0.5, "minimum_transform_shape_max": 0.5},
+    "css-font-stretch-compression.svg": {"passed": 0, "minimum_horizontal_scale_max": 0.5, "minimum_transform_shape_max": 0.5},
+    "annotation-over-node.svg": {"passed": 0, "annotation_node_collisions_min": 1},
+    "legend-over-node-or-page.svg": {"passed": 0, "legend_node_collisions_min": 1, "legend_page_violations_min": 1},
+    "missing-authoritative-metadata.svg": {"passed": 0, "metadata_errors_min": 1},
+    "stale-fixture-or-input-metadata.svg": {"passed": 0, "metadata_errors_min": 1},
+    "marker-body-enters-non-endpoint-node.svg": {"passed": 0, "marker_node_collisions_min": 1},
+    "large-transform-curve-enters-node.svg": {"passed": 0, "edge_node_collisions_min": 1},
+    "nested-transform-clipping-or-text-overflow.svg": {"passed": 0, "clipping_min": 1},
+    "unknown-role.svg": {"passed": 0, "unknown_roles_min": 1},
+    "tangent-pass.svg": {"passed": 1, "edge_node_collisions": 0},
+    "tangent-fail.svg": {"passed": 0, "edge_node_collisions_min": 1},
+    "collinear-pass.svg": {"passed": 1, "edge_crossings": 0},
+    "collinear-fail.svg": {"passed": 0, "edge_crossings_min": 1},
+    "s-curve-pass.svg": {"passed": 1, "edge_node_collisions": 0},
+    "s-curve-collision.svg": {"passed": 0, "edge_node_collisions_min": 1},
+    "loop-curve-pass.svg": {"passed": 1, "edge_node_collisions": 0},
+    "loop-curve-collision.svg": {"passed": 0, "edge_node_collisions_min": 1},
+    "multi-turn-curve-pass.svg": {"passed": 1, "edge_node_collisions": 0},
+    "multi-turn-curve-collision.svg": {"passed": 0, "edge_node_collisions_min": 1}
+  }
+}

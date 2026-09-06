@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.5.0-venue-template-sources-1",
+  "retrieved_at_utc": "2026-08-27T00:00:00Z",
+  "templates": {
+    "icml2026": {
+      "file": "icml2026.sty",
+      "official_url": "https://media.icml.cc/Conferences/ICML2026/Styles/icml2026.zip",
+      "archive_sha256": "8b29290f5828e176debb57ea9cc00252502973d55ea561a2f18a7f0a326bfc6c",
+      "file_sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95"
+    },
+    "neurips2026": {
+      "file": "neurips_2026.sty",
+      "official_url": "https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip",
+      "archive_sha256": "82473931e3ef710fcd3f4a8cd4119b9de32e56825f90f9e5a6d55f2d01b817d9",
+      "file_sha256": "c3fc2894e83d2517ca18b66741d6c595986d97957dc08ec08bb2125a7ec4555a"
+    },
+    "ieee": {
+      "file": "IEEEtran.cls",
+      "official_url": "https://www.ieee.org/conferences/publishing/templates.html",
+      "distribution": "locally installed TeX Live IEEEtran; no network fetch during verification"
+    }
+  }
+}

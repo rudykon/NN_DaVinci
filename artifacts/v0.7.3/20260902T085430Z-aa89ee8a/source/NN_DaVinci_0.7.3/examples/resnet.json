@@ -1,0 +1,28 @@
+{
+  "name": "Residual CNN",
+  "inputs": [{"name": "image", "shape": [1, 3, 224, 224], "dtype": "float32", "semantic": "RGB image"}],
+  "nodes": [
+    {"name": "Image", "type": "Input", "category": "input", "outputs": [{"name": "image", "shape": [1, 3, 224, 224], "dtype": "float32"}]},
+    {"name": "Stem Conv", "type": "Conv2D", "category": "convolution", "parameters": 9408, "trainable_parameters": 9408, "inputs": [[1, 3, 224, 224]], "outputs": [[1, 64, 112, 112]], "attributes": {"kernel_size": [7, 7], "stride": 2}},
+    {"name": "Stem Pool", "type": "MaxPool", "category": "pooling", "inputs": [[1, 64, 112, 112]], "outputs": [[1, 64, 56, 56]], "attributes": {"kernel_size": 3, "stride": 2}},
+    {"name": "Conv 1", "type": "Conv2D", "category": "convolution", "parameters": 36928, "trainable_parameters": 36928, "inputs": [[1, 64, 56, 56]], "outputs": [[1, 64, 56, 56]], "attributes": {"kernel_size": [3, 3]}},
+    {"name": "Norm + ReLU", "type": "BatchNormReLU", "category": "normalization", "parameters": 128, "trainable_parameters": 128, "inputs": [[1, 64, 56, 56]], "outputs": [[1, 64, 56, 56]]},
+    {"name": "Conv 2", "type": "Conv2D", "category": "convolution", "parameters": 36928, "trainable_parameters": 36928, "inputs": [[1, 64, 56, 56]], "outputs": [[1, 64, 56, 56]], "attributes": {"kernel_size": [3, 3]}},
+    {"name": "Residual Add", "type": "Add", "category": "merge", "inputs": [[1, 64, 56, 56], [1, 64, 56, 56]], "outputs": [[1, 64, 56, 56]], "tags": ["residual"]},
+    {"name": "Global Pool", "type": "GlobalAveragePool", "category": "pooling", "inputs": [[1, 64, 56, 56]], "outputs": [[1, 64]]},
+    {"name": "Classifier", "type": "Linear", "category": "linear", "parameters": 65000, "trainable_parameters": 65000, "inputs": [[1, 64]], "outputs": [[1, 1000]]},
+    {"name": "Classes", "type": "Output", "category": "output", "inputs": [[1, 1000]]}
+  ],
+  "edges": [
+    ["Image", "Stem Conv"], ["Stem Conv", "Stem Pool"], ["Stem Pool", "Conv 1"],
+    ["Conv 1", "Norm + ReLU"], ["Norm + ReLU", "Conv 2"], ["Conv 2", "Residual Add"],
+    ["Stem Pool", "Residual Add"], ["Residual Add", "Global Pool"], ["Global Pool", "Classifier"], ["Classifier", "Classes"]
+  ],
+  "groups": [
+    {"name": "Stem", "nodes": ["Stem Conv", "Stem Pool"], "level": "stage"},
+    {"name": "Residual Block", "nodes": ["Conv 1", "Norm + ReLU", "Conv 2", "Residual Add"], "level": "block"},
+    {"name": "Head", "nodes": ["Global Pool", "Classifier"], "level": "stage"}
+  ],
+  "outputs": [{"name": "classes", "shape": [1, 1000], "dtype": "float32"}]
+}
+

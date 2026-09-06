@@ -1,0 +1,35 @@
+{
+  "schema_version": "nndv-source-allowlist-1",
+  "release": "0.6.0",
+  "root_files": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "eslint.config.mjs",
+    "package-lock.json",
+    "package.json",
+    "pyproject.toml"
+  ],
+  "roots": [
+    "docs",
+    "examples",
+    "requirements",
+    "schemas",
+    "scripts",
+    "src",
+    "templates",
+    "tests",
+    "verification"
+  ],
+  "excluded_parts": [
+    ".coverage",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".ruff_cache",
+    "__pycache__",
+    "artifacts",
+    "build",
+    "dist",
+    "node_modules"
+  ]
+}

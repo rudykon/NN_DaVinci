@@ -1,0 +1,44 @@
+{
+  "case_key": "multiscale_unet",
+  "case_kind": "real-model",
+  "evidence_provenance_digest": "0af4a6624515d5676bca612b9efb2fe769b878ec37fa62ebfe7b02a4b18822ae",
+  "evidence_version": "1.0",
+  "expected_critical_route_count": 3,
+  "expected_role_count": 9,
+  "failures": [],
+  "family": "unet",
+  "figure_critical_route_count": 3,
+  "figure_role_count": 9,
+  "input_role_ids": [
+    "architecture_role_input_0_node_fx_image_0_a96ed448_7702b4c9"
+  ],
+  "landed_documents": {
+    "figure": {
+      "path": "figure.figure.json",
+      "sha256": "cead1cad69b50f90bfeb1c424a0ba528f8e855ba64d896e940e7284caa733691"
+    },
+    "graph": {
+      "path": "graph.graph.json",
+      "sha256": "4347c10669a959bca438f4854a707015ef4e29424f681650c1c4444a8f6f4c21"
+    },
+    "scene": {
+      "path": "scene.scene.json",
+      "sha256": "a197cb578a0f5955b49eedb7790389d3c7ec4f0f51eb3663c5ee3c383fa749e0"
+    },
+    "semantic": {
+      "path": "semantic.semantic.json",
+      "sha256": "1c7bfd238af5c7c1c422751b8d6913e8dbef8d6ddd8c95687506648ba6ca7abe"
+    }
+  },
+  "oracle_version": "1.0",
+  "output_role_ids": [
+    "architecture_role_output_head_8_module_segmentation_head_e43_3bc6a70a"
+  ],
+  "passed": true,
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "scene_critical_route_count": 3,
+  "scene_role_count": 9,
+  "schema_version": "nndv-architecture-parity-1",
+  "uncertain_claims": [],
+  "unknown_reason": null
+}

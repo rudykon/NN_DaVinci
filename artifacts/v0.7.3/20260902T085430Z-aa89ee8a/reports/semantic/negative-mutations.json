@@ -1,0 +1,98 @@
+{
+  "mutation_count": 8,
+  "mutations": [
+    {
+      "expected_blockers": [
+        "svg_missing_role_label"
+      ],
+      "id": "deleted_role_label",
+      "observed_blockers": [
+        "svg_missing_role_binding",
+        "svg_missing_role_label"
+      ],
+      "status": "PASS"
+    },
+    {
+      "expected_blockers": [
+        "svg_hidden_role_label"
+      ],
+      "id": "metadata_only_hidden_label",
+      "observed_blockers": [
+        "svg_hidden_role_label"
+      ],
+      "status": "PASS"
+    },
+    {
+      "expected_blockers": [
+        "svg_role_label_off_page"
+      ],
+      "id": "off_page_label",
+      "observed_blockers": [
+        "svg_role_label_off_page"
+      ],
+      "status": "PASS"
+    },
+    {
+      "expected_blockers": [
+        "svg_role_binding_mismatch"
+      ],
+      "id": "wrong_role_id",
+      "observed_blockers": [
+        "svg_missing_role_binding",
+        "svg_repeat_count_mismatch",
+        "svg_role_binding_mismatch",
+        "svg_role_text_mismatch"
+      ],
+      "status": "PASS"
+    },
+    {
+      "expected_blockers": [
+        "svg_missing_route",
+        "svg_route_direction_mismatch",
+        "svg_route_endpoint_mismatch"
+      ],
+      "id": "deleted_and_reversed_critical_routes",
+      "observed_blockers": [
+        "svg_missing_route",
+        "svg_route_direction_mismatch",
+        "svg_route_endpoint_mismatch"
+      ],
+      "status": "PASS"
+    },
+    {
+      "expected_blockers": [
+        "svg_repeat_count_mismatch"
+      ],
+      "id": "modified_repeat_count",
+      "observed_blockers": [
+        "svg_repeat_count_mismatch"
+      ],
+      "status": "PASS"
+    },
+    {
+      "expected_blockers": [
+        "stale_evidence_digest"
+      ],
+      "id": "stale_evidence_digest",
+      "observed_blockers": [
+        "stale_evidence_digest"
+      ],
+      "status": "PASS"
+    },
+    {
+      "expected_blockers": [
+        "name_corpus_false_positive_prevented"
+      ],
+      "id": "name_corpus_false_positive",
+      "observed_blockers": [
+        "name_corpus_false_positive_prevented"
+      ],
+      "result_family": "unknown",
+      "status": "PASS",
+      "unknown_reason": "No supported family reached the evidence threshold; requested layout and display names were ignored."
+    }
+  ],
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "schema_version": "nndv-0.7.3-semantic-negative-mutations-1",
+  "status": "PASS"
+}

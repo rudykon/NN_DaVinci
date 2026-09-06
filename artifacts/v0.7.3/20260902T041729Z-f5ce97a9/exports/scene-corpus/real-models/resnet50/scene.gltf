@@ -1,0 +1,3661 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.3635788500845527,
+        1.0539940546000541,
+        1.0539940546000541
+      ],
+      "min": [
+        -1.3635788500845527,
+        -1.0539940546000541,
+        -1.0539940546000541
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.653594000115385,
+        1.203594000115385
+      ],
+      "min": [
+        -1.0,
+        -0.653594000115385,
+        -1.203594000115385
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.90718800023077,
+        1.6792106037966112
+      ],
+      "min": [
+        -1.0,
+        -0.90718800023077,
+        -1.6792106037966112
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.8404504024971287,
+        0.653594000115385,
+        0.653594000115385
+      ],
+      "min": [
+        -1.8404504024971287,
+        -0.653594000115385,
+        -0.653594000115385
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        1.0539940546000541,
+        1.6039940546000542
+      ],
+      "min": [
+        -1.0,
+        -1.0539940546000541,
+        -1.6039940546000542
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        0.90718800023077,
+        1.5457182263247946
+      ],
+      "min": [
+        -1.0,
+        -0.90718800023077,
+        -1.5457182263247946
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        -3.7,
+        4.978414067145809,
+        2.035
+      ],
+      "min": [
+        -13.085616729580876,
+        -1.295,
+        -1.2990528511776858
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -3.6627031281973204,
+        -0.6932703551521338,
+        2.041123473896817
+      ],
+      "min": [
+        -4.086331062549317,
+        -1.295,
+        1.6216699702321058
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -11.100000000000001,
+        0.0,
+        1.0175
+      ],
+      "min": [
+        -18.5,
+        -0.6475,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -11.100000000000001,
+        -0.4505231383599896,
+        1.1233533588403515
+      ],
+      "min": [
+        -11.526442552809659,
+        -0.7743089219233624,
+        0.8013827358906302
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        11.100000000000001,
+        5.265702398530567,
+        4.07
+      ],
+      "min": [
+        1.1559285652245057,
+        -2.59,
+        0.08441665942859045
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        11.13729687180268,
+        -1.9882703551521337,
+        4.076123473896817
+      ],
+      "min": [
+        10.713668937450683,
+        -2.59,
+        3.6566699702321057
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -11.100000000000001,
+        0.0,
+        1.0175
+      ],
+      "min": [
+        -18.5,
+        -0.6475,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -18.073557447190343,
+        0.12680892192336246,
+        0.21611726410936974
+      ],
+      "min": [
+        -18.5,
+        -0.19697686164001044,
+        -0.10585335884035144
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 23,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        18.5,
+        0.0,
+        4.07
+      ],
+      "min": [
+        11.100000000000001,
+        -2.59,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 25,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        11.525213178969485,
+        -2.315529998638138,
+        4.07
+      ],
+      "min": [
+        11.100000000000001,
+        -2.6262468410209596,
+        3.7404395745721937
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 26,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 27,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        18.5,
+        0.0,
+        4.07
+      ],
+      "min": [
+        11.100000000000001,
+        -2.59,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 28,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        18.5,
+        0.036246841020959625,
+        0.3295604254278066
+      ],
+      "min": [
+        18.074786821030518,
+        -0.2744700013618615,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 29,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 30,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        -11.100000000000001,
+        4.834769901453429,
+        1.0175
+      ],
+      "min": [
+        -20.206389376983562,
+        -0.6475,
+        -1.9907876064808239
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 31,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -11.062703128197322,
+        -0.04577035515213372,
+        1.0236234738968168
+      ],
+      "min": [
+        -11.48633106254932,
+        -0.6475,
+        0.6041699702321056
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 32,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 33,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        11.100000000000001,
+        -1.9424999999999997,
+        4.07
+      ],
+      "min": [
+        3.7,
+        -2.59,
+        3.0525
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 34,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        11.100000000000001,
+        -2.393023138359989,
+        4.175853358840351
+      ],
+      "min": [
+        10.673557447190344,
+        -2.7168089219233624,
+        3.8538827358906302
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 35,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 36,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        3.7,
+        5.122058232838188,
+        3.0525
+      ],
+      "min": [
+        -5.9648440821781845,
+        -1.9424999999999997,
+        -0.6073180958745477
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 37,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        3.73729687180268,
+        -1.3407703551521335,
+        3.058623473896817
+      ],
+      "min": [
+        3.3136689374506827,
+        -1.9424999999999997,
+        2.6391699702321056
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 38,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 39,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -3.7,
+        0.0,
+        2.035
+      ],
+      "min": [
+        -18.5,
+        -1.295,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 40,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        -3.7,
+        -1.0980231383599894,
+        2.1408533588403516
+      ],
+      "min": [
+        -4.126442552809658,
+        -1.4218089219233623,
+        1.8188827358906305
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 41,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 42,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        3.7,
+        -1.295,
+        3.0525
+      ],
+      "min": [
+        -3.7,
+        -1.9424999999999997,
+        2.035
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 43,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 9,
+      "max": [
+        3.7,
+        -1.7455231383599892,
+        3.1583533588403516
+      ],
+      "min": [
+        3.2735574471903424,
+        -2.069308921923362,
+        2.83638273589063
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 44,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 42,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "schemaVersion": "nndv-scene-gltf-1"
+    },
+    "generator": "NN_DaVinci Scene IR 1.0 deterministic exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 336,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 816,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1056,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1200,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 1296,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 1440,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1488,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1596,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1764,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 1788,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1896,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 2064,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2112,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2220,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2388,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2412,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2520,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2688,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 2712,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 2820,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 2988,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3012,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3120,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 3288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3336,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3444,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3612,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3636,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 3744,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 3912,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 3960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 4068,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 4236,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 4260,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 4368,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 4536,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 4560,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 4668,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4836,
+      "uri": "data:application/octet-stream;base64,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"
+    }
+  ],
+  "cameras": [
+    {
+      "extras": {
+        "nndvProjection": "orthographic",
+        "objectId": "scene_camera_resnet___module___architecture_evidence_3d_976e7c65"
+      },
+      "name": "ResNet · Module · Architecture Evidence 3D isometric camera",
+      "orthographic": {
+        "xmag": 13.5,
+        "ymag": 9.0,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "orthographic"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "extras": {
+            "nndvLight": {
+              "color": "#ffffff",
+              "direction": [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              "id": "scene_light_resnet___module___architecture_evidence_3d_4f22724a",
+              "intensity": 1.0,
+              "kind": "directional",
+              "locked": false,
+              "metadata": {},
+              "name": "Key light",
+              "position": [
+                8.0,
+                10.0,
+                12.0
+              ],
+              "visible": true
+            },
+            "objectId": "scene_light_resnet___module___architecture_evidence_3d_4f22724a"
+          },
+          "intensity": 1.0,
+          "name": "Key light",
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#bfdbfeff",
+        "nndvMaterial": {
+          "base_color": "#bfdbfe",
+          "face_colors": {
+            "front": "#bfdbfe",
+            "top": "#bfdbfe"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_02962b37",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7490196,
+          0.8588235,
+          0.9960784,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#f8fafcff",
+        "nndvMaterial": {
+          "base_color": "#f8fafc",
+          "face_colors": {
+            "front": "#f8fafc",
+            "top": "#f8fafc"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_role_architecture_18fb5ef4",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.972549,
+          0.9803922,
+          0.9882353,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#ef4444ff",
+        "nndvMaterial": {
+          "base_color": "#ef4444",
+          "face_colors": {
+            "front": "#ef4444",
+            "top": "#ef4444"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_route_architectur_15f88acf",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9372549,
+          0.2666667,
+          0.2666667,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "extras": {
+        "canonicalBaseColor": "#475569ff",
+        "nndvMaterial": {
+          "base_color": "#475569",
+          "face_colors": {
+            "front": "#475569",
+            "top": "#475569"
+          },
+          "metallic": 0.0,
+          "opacity": 1.0,
+          "roughness": 0.9,
+          "stroke_color": "#334155",
+          "stroke_width": 0.8,
+          "unlit": true
+        }
+      },
+      "name": "Material scene_object_model_scene_architecture_route_architectur_24923427",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2784314,
+          0.3333333,
+          0.4117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_02962b37"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_02962b37",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_18fb5ef4"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_18fb5ef4",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_46c04ff4"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_46c04ff4",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_5e4307bc"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_5e4307bc",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_943e7205"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_943e7205",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_role_architecture_d6e44a48"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_role_architecture_d6e44a48",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10
+          },
+          "indices": 11,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_15f88acf"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_15f88acf",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12
+          },
+          "material": 2,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 13
+          },
+          "indices": 14,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_24923427"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_24923427",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 16
+          },
+          "indices": 17,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_5e0fe99a"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_5e0fe99a",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 18
+          },
+          "material": 2,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 19
+          },
+          "indices": 20,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_60c2c1fe"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_60c2c1fe",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 22
+          },
+          "indices": 23,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_8bd33443"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_8bd33443",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 24
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 25
+          },
+          "indices": 26,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_a303ab1b"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_a303ab1b",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 27
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 28
+          },
+          "indices": 29,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_aaa36219"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_aaa36219",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30
+          },
+          "material": 2,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 31
+          },
+          "indices": 32,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_afa0c185"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_afa0c185",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 33
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 34
+          },
+          "indices": 35,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_bb8822e2"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_bb8822e2",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 36
+          },
+          "material": 2,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 37
+          },
+          "indices": 38,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_ccc191c0"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_ccc191c0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 39
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 40
+          },
+          "indices": 41,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "extras": {
+        "objectId": "scene_object_model_scene_architecture_route_architectur_dcaf4c76"
+      },
+      "name": "Mesh scene_object_model_scene_architecture_route_architectur_dcaf4c76",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 42
+          },
+          "material": 3,
+          "mode": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 43
+          },
+          "indices": 44,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "kind": "tensor-stack",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_02962b37",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "input-stem",
+            "architecture_role_id": "architecture_role_input_stem_0_module_maxpool_d1478f2a_modul_5d7d403e",
+            "confidence": 0.94,
+            "edge_ids": [
+              "module_edge_edge_node_fx_x_0_5fe7ea6f_node_fx_x_0_5fe7_a2fcc12e",
+              "module_edge_edge_node_fx_conv1_1_169d0aad_node_fx_conv_574d254e",
+              "module_edge_edge_node_fx_bn1_2_962cdbab_node_fx_bn1_2__bd1f7ba3",
+              "module_edge_edge_node_fx_relu_3_8554a7a9_node_fx_relu__2973dc4e",
+              "module_edge_edge_node_fx_maxpool_4_a1d7280e_node_fx_ma_ac660117",
+              "module_edge_edge_node_fx_layer1_0_conv1_5_022b7ef8_nod_fc77a577",
+              "module_edge_edge_node_fx_layer1_0_conv2_8_6a3dc320_nod_2b4d65dd",
+              "module_edge_edge_node_fx_maxpool_4_a1d7280e_node_fx_ma_d37b0840",
+              "module_edge_edge_node_fx_layer1_1_conv1_17_900092d3_no_0021c9af",
+              "module_edge_edge_node_fx_layer1_1_conv2_20_92ab788a_no_6a67b6b6",
+              "module_edge_edge_node_fx_layer1_2_conv1_27_5544acdd_no_9817e45b",
+              "module_edge_edge_node_fx_layer1_2_bn1_28_d7508145_node_56820dea",
+              "module_edge_edge_node_fx_layer1_2_relu_29_15aaacb0_nod_be6e607e",
+              "module_edge_edge_node_fx_layer1_2_conv2_30_e8b5618b_no_66856cf3",
+              "module_edge_edge_node_fx_layer1_2_bn2_31_ad98ac19_node_70735f26",
+              "module_edge_edge_node_fx_layer1_2_relu_1_32_c14e3bd1_n_95f1d17c"
+            ],
+            "node_ids": [
+              "module_maxpool_d1478f2a",
+              "module_layer1_1_conv1_4ab3d568",
+              "module_layer1_0_conv3_f3adc31e",
+              "module_layer1_1_conv2_f66887a1",
+              "module_conv1_8e2e91cb",
+              "module_layer1_1_bn1_cc5f6285",
+              "node_fx_x_0_5fe7ea6f",
+              "module_layer1_2_bn2_394e6a22",
+              "module_layer1_0_bn1_d421e4a5",
+              "module_layer1_2_conv1_3dd7176e",
+              "module_layer1_2_relu_6a1024e4",
+              "module_layer1_2_conv3_94fd71c4",
+              "module_layer1_1_bn2_34d02f0f",
+              "module_layer1_1_conv3_2778e9d3",
+              "module_layer1_0_downsample_0_cb3d3801",
+              "module_layer1_0_bn2_ba0716bd",
+              "module_layer1_0_conv2_b8fd4678",
+              "module_layer1_0_conv1_9716b8d2",
+              "module_relu_f51c378c",
+              "module_bn1_fa32b157",
+              "module_layer1_2_bn1_c7c0865b",
+              "module_layer1_2_conv2_a887a90a"
+            ],
+            "port_ids": [
+              "module_bn1_fa32b157:input:binding_node_fx_bn1_2_962cdbab_node_fx_bn1_2_962cd_f249575e",
+              "module_bn1_fa32b157:output:binding_node_fx_bn1_2_962cdbab_node_fx_bn1_2_962cd_1ce32188",
+              "module_conv1_8e2e91cb:input:binding_node_fx_conv1_1_169d0aad_node_fx_conv1_1_1_74cc053a",
+              "module_conv1_8e2e91cb:output:binding_node_fx_conv1_1_169d0aad_node_fx_conv1_1_1_f4e182fd",
+              "module_layer1_0_bn1_d421e4a5:input:binding_node_fx_layer1_0_bn1_6_02c52240_node_fx_la_db659bf7",
+              "module_layer1_0_bn1_d421e4a5:output:binding_node_fx_layer1_0_bn1_6_02c52240_node_fx_la_c15b7e8d",
+              "module_layer1_0_bn2_ba0716bd:input:binding_node_fx_layer1_0_bn2_9_b4c249f0_node_fx_la_351aa3a3",
+              "module_layer1_0_bn2_ba0716bd:output:binding_node_fx_layer1_0_bn2_9_b4c249f0_node_fx_la_0b57eecb",
+              "module_layer1_0_conv1_9716b8d2:input:binding_node_fx_layer1_0_conv1_5_022b7ef8_node_fx__911a61e1",
+              "module_layer1_0_conv1_9716b8d2:output:binding_node_fx_layer1_0_conv1_5_022b7ef8_node_fx__7f48fc4e",
+              "module_layer1_0_conv2_b8fd4678:input:binding_node_fx_layer1_0_conv2_8_6a3dc320_node_fx__f2025b90",
+              "module_layer1_0_conv2_b8fd4678:output:binding_node_fx_layer1_0_conv2_8_6a3dc320_node_fx__156cf033",
+              "module_layer1_0_conv3_f3adc31e:input:binding_node_fx_layer1_0_conv3_11_34e0f1c7_node_fx_62d828a1",
+              "module_layer1_0_conv3_f3adc31e:output:binding_node_fx_layer1_0_conv3_11_34e0f1c7_node_fx_10da931c",
+              "module_layer1_0_downsample_0_cb3d3801:input:binding_node_fx_layer1_0_downsample_0_13_7f21d735__f03d6be9",
+              "module_layer1_0_downsample_0_cb3d3801:output:binding_node_fx_layer1_0_downsample_0_13_7f21d735__8fe46244",
+              "module_layer1_1_bn1_cc5f6285:input:binding_node_fx_layer1_1_bn1_18_f9f616e9_node_fx_l_db095d34",
+              "module_layer1_1_bn1_cc5f6285:output:binding_node_fx_layer1_1_bn1_18_f9f616e9_node_fx_l_4f81bd14",
+              "module_layer1_1_bn2_34d02f0f:input:binding_node_fx_layer1_1_bn2_21_23c014d3_node_fx_l_ff9f9cd9",
+              "module_layer1_1_bn2_34d02f0f:output:binding_node_fx_layer1_1_bn2_21_23c014d3_node_fx_l_c7d584e5",
+              "module_layer1_1_conv1_4ab3d568:input:binding_node_fx_layer1_1_conv1_17_900092d3_node_fx_3c2be4f0",
+              "module_layer1_1_conv1_4ab3d568:output:binding_node_fx_layer1_1_conv1_17_900092d3_node_fx_fb9b94e1",
+              "module_layer1_1_conv2_f66887a1:input:binding_node_fx_layer1_1_conv2_20_92ab788a_node_fx_1ba70d75",
+              "module_layer1_1_conv2_f66887a1:output:binding_node_fx_layer1_1_conv2_20_92ab788a_node_fx_c24d8f74",
+              "module_layer1_1_conv3_2778e9d3:input:binding_node_fx_layer1_1_conv3_23_5bd29c04_node_fx_e8f09c21",
+              "module_layer1_1_conv3_2778e9d3:output:binding_node_fx_layer1_1_conv3_23_5bd29c04_node_fx_d3e434c1",
+              "module_layer1_2_bn1_c7c0865b:input:binding_node_fx_layer1_2_bn1_28_d7508145_node_fx_l_7fe5838f",
+              "module_layer1_2_bn1_c7c0865b:output:binding_node_fx_layer1_2_bn1_28_d7508145_node_fx_l_1b3dbcdb",
+              "module_layer1_2_bn2_394e6a22:input:binding_node_fx_layer1_2_bn2_31_ad98ac19_node_fx_l_a42955e8",
+              "module_layer1_2_bn2_394e6a22:output:binding_node_fx_layer1_2_bn2_31_ad98ac19_node_fx_l_3a68f219",
+              "module_layer1_2_conv1_3dd7176e:input:binding_node_fx_layer1_2_conv1_27_5544acdd_node_fx_f69fb502",
+              "module_layer1_2_conv1_3dd7176e:output:binding_node_fx_layer1_2_conv1_27_5544acdd_node_fx_1d686fc4",
+              "module_layer1_2_conv2_a887a90a:input:binding_node_fx_layer1_2_conv2_30_e8b5618b_node_fx_005e7e69",
+              "module_layer1_2_conv2_a887a90a:output:binding_node_fx_layer1_2_conv2_30_e8b5618b_node_fx_5b5122ef",
+              "module_layer1_2_conv3_94fd71c4:input:binding_node_fx_layer1_2_conv3_33_2001f339_node_fx_537651e5",
+              "module_layer1_2_conv3_94fd71c4:output:binding_node_fx_layer1_2_conv3_33_2001f339_node_fx_dcd6e014",
+              "module_layer1_2_relu_6a1024e4:input:binding_node_fx_layer1_2_relu_29_15aaacb0_node_fx__dbc47e30",
+              "module_layer1_2_relu_6a1024e4:input:binding_node_fx_layer1_2_relu_1_32_c14e3bd1_node_f_511100f2",
+              "module_layer1_2_relu_6a1024e4:input:binding_node_fx_layer1_2_relu_2_36_dd2ef601_node_f_01ac8155",
+              "module_layer1_2_relu_6a1024e4:output:binding_node_fx_layer1_2_relu_29_15aaacb0_node_fx__a6e9ffee",
+              "module_layer1_2_relu_6a1024e4:output:binding_node_fx_layer1_2_relu_1_32_c14e3bd1_node_f_b4b4c049",
+              "module_layer1_2_relu_6a1024e4:output:binding_node_fx_layer1_2_relu_2_36_dd2ef601_node_f_3177e52e",
+              "module_maxpool_d1478f2a:input:binding_node_fx_maxpool_4_a1d7280e_node_fx_maxpool_ad3fa123",
+              "module_maxpool_d1478f2a:output:binding_node_fx_maxpool_4_a1d7280e_node_fx_maxpool_0f922e1c",
+              "module_relu_f51c378c:input:binding_node_fx_relu_3_8554a7a9_node_fx_relu_3_855_808ec40c",
+              "module_relu_f51c378c:output:binding_node_fx_relu_3_8554a7a9_node_fx_relu_3_855_73678fd1",
+              "node_fx_x_0_5fe7ea6f:output:0"
+            ],
+            "reasons": [
+              "This source subgraph is the complete ancestor prefix of the first repeated residual stage."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__55655a3b",
+            "figure_object_model_figure_tensor_architecture_projectio_f8399b1c",
+            "figure_object_model_figure_edge_architecture_projection__885467cb",
+            "figure_object_model_figure_edge_architecture_projection__9f5ee5a5",
+            "figure_object_model_figure_edge_architecture_projection__6d72328b"
+          ],
+          "graph_ir_ids": [
+            "module_maxpool_d1478f2a",
+            "module_layer1_1_conv1_4ab3d568",
+            "module_layer1_0_conv3_f3adc31e",
+            "module_layer1_1_conv2_f66887a1",
+            "module_conv1_8e2e91cb",
+            "module_layer1_1_bn1_cc5f6285",
+            "node_fx_x_0_5fe7ea6f",
+            "module_layer1_2_bn2_394e6a22",
+            "module_layer1_0_bn1_d421e4a5",
+            "module_layer1_2_conv1_3dd7176e",
+            "module_layer1_2_relu_6a1024e4",
+            "module_layer1_2_conv3_94fd71c4",
+            "module_layer1_1_bn2_34d02f0f",
+            "module_layer1_1_conv3_2778e9d3",
+            "module_layer1_0_downsample_0_cb3d3801",
+            "module_layer1_0_bn2_ba0716bd",
+            "module_layer1_0_conv2_b8fd4678",
+            "module_layer1_0_conv1_9716b8d2",
+            "module_relu_f51c378c",
+            "module_bn1_fa32b157",
+            "module_layer1_2_bn1_c7c0865b",
+            "module_layer1_2_conv2_a887a90a",
+            "module_edge_edge_node_fx_x_0_5fe7ea6f_node_fx_x_0_5fe7_a2fcc12e",
+            "module_edge_edge_node_fx_conv1_1_169d0aad_node_fx_conv_574d254e",
+            "module_edge_edge_node_fx_bn1_2_962cdbab_node_fx_bn1_2__bd1f7ba3",
+            "module_edge_edge_node_fx_relu_3_8554a7a9_node_fx_relu__2973dc4e",
+            "module_edge_edge_node_fx_maxpool_4_a1d7280e_node_fx_ma_ac660117",
+            "module_edge_edge_node_fx_layer1_0_conv1_5_022b7ef8_nod_fc77a577",
+            "module_edge_edge_node_fx_layer1_0_conv2_8_6a3dc320_nod_2b4d65dd",
+            "module_edge_edge_node_fx_maxpool_4_a1d7280e_node_fx_ma_d37b0840",
+            "module_edge_edge_node_fx_layer1_1_conv1_17_900092d3_no_0021c9af",
+            "module_edge_edge_node_fx_layer1_1_conv2_20_92ab788a_no_6a67b6b6",
+            "module_edge_edge_node_fx_layer1_2_conv1_27_5544acdd_no_9817e45b",
+            "module_edge_edge_node_fx_layer1_2_bn1_28_d7508145_node_56820dea",
+            "module_edge_edge_node_fx_layer1_2_relu_29_15aaacb0_nod_be6e607e",
+            "module_edge_edge_node_fx_layer1_2_conv2_30_e8b5618b_no_66856cf3",
+            "module_edge_edge_node_fx_layer1_2_bn2_31_ad98ac19_node_70735f26",
+            "module_edge_edge_node_fx_layer1_2_relu_1_32_c14e3bd1_n_95f1d17c",
+            "module_bn1_fa32b157:input:binding_node_fx_bn1_2_962cdbab_node_fx_bn1_2_962cd_f249575e",
+            "module_bn1_fa32b157:output:binding_node_fx_bn1_2_962cdbab_node_fx_bn1_2_962cd_1ce32188",
+            "module_conv1_8e2e91cb:input:binding_node_fx_conv1_1_169d0aad_node_fx_conv1_1_1_74cc053a",
+            "module_conv1_8e2e91cb:output:binding_node_fx_conv1_1_169d0aad_node_fx_conv1_1_1_f4e182fd",
+            "module_layer1_0_bn1_d421e4a5:input:binding_node_fx_layer1_0_bn1_6_02c52240_node_fx_la_db659bf7",
+            "module_layer1_0_bn1_d421e4a5:output:binding_node_fx_layer1_0_bn1_6_02c52240_node_fx_la_c15b7e8d",
+            "module_layer1_0_bn2_ba0716bd:input:binding_node_fx_layer1_0_bn2_9_b4c249f0_node_fx_la_351aa3a3",
+            "module_layer1_0_bn2_ba0716bd:output:binding_node_fx_layer1_0_bn2_9_b4c249f0_node_fx_la_0b57eecb",
+            "module_layer1_0_conv1_9716b8d2:input:binding_node_fx_layer1_0_conv1_5_022b7ef8_node_fx__911a61e1",
+            "module_layer1_0_conv1_9716b8d2:output:binding_node_fx_layer1_0_conv1_5_022b7ef8_node_fx__7f48fc4e",
+            "module_layer1_0_conv2_b8fd4678:input:binding_node_fx_layer1_0_conv2_8_6a3dc320_node_fx__f2025b90",
+            "module_layer1_0_conv2_b8fd4678:output:binding_node_fx_layer1_0_conv2_8_6a3dc320_node_fx__156cf033",
+            "module_layer1_0_conv3_f3adc31e:input:binding_node_fx_layer1_0_conv3_11_34e0f1c7_node_fx_62d828a1",
+            "module_layer1_0_conv3_f3adc31e:output:binding_node_fx_layer1_0_conv3_11_34e0f1c7_node_fx_10da931c",
+            "module_layer1_0_downsample_0_cb3d3801:input:binding_node_fx_layer1_0_downsample_0_13_7f21d735__f03d6be9",
+            "module_layer1_0_downsample_0_cb3d3801:output:binding_node_fx_layer1_0_downsample_0_13_7f21d735__8fe46244",
+            "module_layer1_1_bn1_cc5f6285:input:binding_node_fx_layer1_1_bn1_18_f9f616e9_node_fx_l_db095d34",
+            "module_layer1_1_bn1_cc5f6285:output:binding_node_fx_layer1_1_bn1_18_f9f616e9_node_fx_l_4f81bd14",
+            "module_layer1_1_bn2_34d02f0f:input:binding_node_fx_layer1_1_bn2_21_23c014d3_node_fx_l_ff9f9cd9",
+            "module_layer1_1_bn2_34d02f0f:output:binding_node_fx_layer1_1_bn2_21_23c014d3_node_fx_l_c7d584e5",
+            "module_layer1_1_conv1_4ab3d568:input:binding_node_fx_layer1_1_conv1_17_900092d3_node_fx_3c2be4f0",
+            "module_layer1_1_conv1_4ab3d568:output:binding_node_fx_layer1_1_conv1_17_900092d3_node_fx_fb9b94e1",
+            "module_layer1_1_conv2_f66887a1:input:binding_node_fx_layer1_1_conv2_20_92ab788a_node_fx_1ba70d75",
+            "module_layer1_1_conv2_f66887a1:output:binding_node_fx_layer1_1_conv2_20_92ab788a_node_fx_c24d8f74",
+            "module_layer1_1_conv3_2778e9d3:input:binding_node_fx_layer1_1_conv3_23_5bd29c04_node_fx_e8f09c21",
+            "module_layer1_1_conv3_2778e9d3:output:binding_node_fx_layer1_1_conv3_23_5bd29c04_node_fx_d3e434c1",
+            "module_layer1_2_bn1_c7c0865b:input:binding_node_fx_layer1_2_bn1_28_d7508145_node_fx_l_7fe5838f",
+            "module_layer1_2_bn1_c7c0865b:output:binding_node_fx_layer1_2_bn1_28_d7508145_node_fx_l_1b3dbcdb",
+            "module_layer1_2_bn2_394e6a22:input:binding_node_fx_layer1_2_bn2_31_ad98ac19_node_fx_l_a42955e8",
+            "module_layer1_2_bn2_394e6a22:output:binding_node_fx_layer1_2_bn2_31_ad98ac19_node_fx_l_3a68f219",
+            "module_layer1_2_conv1_3dd7176e:input:binding_node_fx_layer1_2_conv1_27_5544acdd_node_fx_f69fb502",
+            "module_layer1_2_conv1_3dd7176e:output:binding_node_fx_layer1_2_conv1_27_5544acdd_node_fx_1d686fc4",
+            "module_layer1_2_conv2_a887a90a:input:binding_node_fx_layer1_2_conv2_30_e8b5618b_node_fx_005e7e69",
+            "module_layer1_2_conv2_a887a90a:output:binding_node_fx_layer1_2_conv2_30_e8b5618b_node_fx_5b5122ef",
+            "module_layer1_2_conv3_94fd71c4:input:binding_node_fx_layer1_2_conv3_33_2001f339_node_fx_537651e5",
+            "module_layer1_2_conv3_94fd71c4:output:binding_node_fx_layer1_2_conv3_33_2001f339_node_fx_dcd6e014",
+            "module_layer1_2_relu_6a1024e4:input:binding_node_fx_layer1_2_relu_29_15aaacb0_node_fx__dbc47e30",
+            "module_layer1_2_relu_6a1024e4:input:binding_node_fx_layer1_2_relu_1_32_c14e3bd1_node_f_511100f2",
+            "module_layer1_2_relu_6a1024e4:input:binding_node_fx_layer1_2_relu_2_36_dd2ef601_node_f_01ac8155",
+            "module_layer1_2_relu_6a1024e4:output:binding_node_fx_layer1_2_relu_29_15aaacb0_node_fx__a6e9ffee",
+            "module_layer1_2_relu_6a1024e4:output:binding_node_fx_layer1_2_relu_1_32_c14e3bd1_node_f_b4b4c049",
+            "module_layer1_2_relu_6a1024e4:output:binding_node_fx_layer1_2_relu_2_36_dd2ef601_node_f_3177e52e",
+            "module_maxpool_d1478f2a:input:binding_node_fx_maxpool_4_a1d7280e_node_fx_maxpool_ad3fa123",
+            "module_maxpool_d1478f2a:output:binding_node_fx_maxpool_4_a1d7280e_node_fx_maxpool_0f922e1c",
+            "module_relu_f51c378c:input:binding_node_fx_relu_3_8554a7a9_node_fx_relu_3_855_808ec40c",
+            "module_relu_f51c378c:output:binding_node_fx_relu_3_8554a7a9_node_fx_relu_3_855_73678fd1",
+            "node_fx_x_0_5fe7ea6f:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf",
+            "semantic_stage_stage_module_layer1_0_bn1_d421e4a5_m_a20b7eb6",
+            "semantic_stage_stage_module_avgpool_aa37ebb0_module_72e0b164"
+          ],
+          "source_id": "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -18.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Input / stem"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_18fb5ef4",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "residual-stage",
+            "architecture_role_id": "architecture_role_residual_stage_4_node_fx_add_15_171_5e3d5c_ef59fc3f",
+            "confidence": 0.86,
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer4_0_bn3_148_24d0732a_nod_e01125f2",
+              "module_edge_edge_node_fx_layer4_0_downsample_1_150_f08_f7300116",
+              "module_edge_edge_node_fx_layer4_1_bn3_160_8ed242b2_nod_34a8ae57",
+              "module_edge_edge_node_fx_layer4_0_relu_2_152_b0d3b5b5__56442ad0",
+              "module_edge_edge_node_fx_layer4_2_bn3_170_351ae529_nod_6e83deff",
+              "module_edge_edge_node_fx_layer4_1_relu_2_162_c8a40256__59d695db",
+              "module_edge_edge_node_fx_add_13_151_28142a6f_node_fx_a_d86d0b99",
+              "module_edge_edge_node_fx_add_14_161_7bfc243d_node_fx_a_cc8f245e"
+            ],
+            "node_ids": [
+              "node_fx_add_15_171_5e3d5c38",
+              "module_layer4_2_bn3_2885695e",
+              "module_layer4_0_bn3_c1b24274",
+              "module_layer4_1_bn3_9c64fdeb",
+              "module_layer4_0_downsample_1_56b33cd8",
+              "node_fx_add_14_161_7bfc243d",
+              "module_layer4_1_relu_249927d0",
+              "node_fx_add_13_151_28142a6f",
+              "module_layer4_0_relu_062059c6"
+            ],
+            "port_ids": [
+              "module_layer4_0_bn3_c1b24274:input:binding_node_fx_layer4_0_bn3_148_24d0732a_node_fx__fb963b09",
+              "module_layer4_0_bn3_c1b24274:output:binding_node_fx_layer4_0_bn3_148_24d0732a_node_fx__694eb2ce",
+              "module_layer4_0_downsample_1_56b33cd8:input:binding_node_fx_layer4_0_downsample_1_150_f08f021b_b3ef66e0",
+              "module_layer4_0_downsample_1_56b33cd8:output:binding_node_fx_layer4_0_downsample_1_150_f08f021b_d31007a4",
+              "module_layer4_0_relu_062059c6:input:binding_node_fx_layer4_0_relu_143_ee930892_node_fx_8bf89472",
+              "module_layer4_0_relu_062059c6:input:binding_node_fx_layer4_0_relu_1_146_7777fdec_node__1052d02a",
+              "module_layer4_0_relu_062059c6:input:binding_node_fx_layer4_0_relu_2_152_b0d3b5b5_node__9a8b2e17",
+              "module_layer4_0_relu_062059c6:output:binding_node_fx_layer4_0_relu_143_ee930892_node_fx_aeaef730",
+              "module_layer4_0_relu_062059c6:output:binding_node_fx_layer4_0_relu_1_146_7777fdec_node__785e630b",
+              "module_layer4_0_relu_062059c6:output:binding_node_fx_layer4_0_relu_2_152_b0d3b5b5_node__5e898942",
+              "module_layer4_1_bn3_9c64fdeb:input:binding_node_fx_layer4_1_bn3_160_8ed242b2_node_fx__d4836cce",
+              "module_layer4_1_bn3_9c64fdeb:output:binding_node_fx_layer4_1_bn3_160_8ed242b2_node_fx__1d773b76",
+              "module_layer4_1_relu_249927d0:input:binding_node_fx_layer4_1_relu_155_fd19e796_node_fx_98e0291e",
+              "module_layer4_1_relu_249927d0:input:binding_node_fx_layer4_1_relu_1_158_00eebd7c_node__880bc941",
+              "module_layer4_1_relu_249927d0:input:binding_node_fx_layer4_1_relu_2_162_c8a40256_node__95c147e2",
+              "module_layer4_1_relu_249927d0:output:binding_node_fx_layer4_1_relu_155_fd19e796_node_fx_8dcfcec2",
+              "module_layer4_1_relu_249927d0:output:binding_node_fx_layer4_1_relu_1_158_00eebd7c_node__9bc82316",
+              "module_layer4_1_relu_249927d0:output:binding_node_fx_layer4_1_relu_2_162_c8a40256_node__126d4c7e",
+              "module_layer4_2_bn3_2885695e:input:binding_node_fx_layer4_2_bn3_170_351ae529_node_fx__16aed8a4",
+              "module_layer4_2_bn3_2885695e:output:binding_node_fx_layer4_2_bn3_170_351ae529_node_fx__1341bfa0",
+              "node_fx_add_13_151_28142a6f:input:0",
+              "node_fx_add_13_151_28142a6f:input:1",
+              "node_fx_add_13_151_28142a6f:output:0",
+              "node_fx_add_14_161_7bfc243d:input:0",
+              "node_fx_add_14_161_7bfc243d:input:1",
+              "node_fx_add_14_161_7bfc243d:output:0",
+              "node_fx_add_15_171_5e3d5c38:input:0",
+              "node_fx_add_15_171_5e3d5c38:input:1",
+              "node_fx_add_15_171_5e3d5c38:output:0"
+            ],
+            "reasons": [
+              "The stage contains 3 same-shape topology-backed residual merges.",
+              "Its boundary is the output tensor shape transition between adjacent residual groups."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__be0ed2de",
+            "figure_object_model_figure_repeat_architecture_projectio_a73dc557",
+            "figure_object_model_figure_tensor_architecture_projectio_2d4f1e00",
+            "figure_object_model_figure_edge_architecture_projection__57a8abe7",
+            "figure_object_model_figure_edge_architecture_projection__3ec56d9a",
+            "figure_object_model_figure_edge_architecture_projection__8db549c0",
+            "figure_object_model_figure_edge_architecture_projection__57371886"
+          ],
+          "graph_ir_ids": [
+            "node_fx_add_15_171_5e3d5c38",
+            "module_layer4_2_bn3_2885695e",
+            "module_layer4_0_bn3_c1b24274",
+            "module_layer4_1_bn3_9c64fdeb",
+            "module_layer4_0_downsample_1_56b33cd8",
+            "node_fx_add_14_161_7bfc243d",
+            "module_layer4_1_relu_249927d0",
+            "node_fx_add_13_151_28142a6f",
+            "module_layer4_0_relu_062059c6",
+            "module_edge_edge_node_fx_layer4_0_bn3_148_24d0732a_nod_e01125f2",
+            "module_edge_edge_node_fx_layer4_0_downsample_1_150_f08_f7300116",
+            "module_edge_edge_node_fx_layer4_1_bn3_160_8ed242b2_nod_34a8ae57",
+            "module_edge_edge_node_fx_layer4_0_relu_2_152_b0d3b5b5__56442ad0",
+            "module_edge_edge_node_fx_layer4_2_bn3_170_351ae529_nod_6e83deff",
+            "module_edge_edge_node_fx_layer4_1_relu_2_162_c8a40256__59d695db",
+            "module_edge_edge_node_fx_add_13_151_28142a6f_node_fx_a_d86d0b99",
+            "module_edge_edge_node_fx_add_14_161_7bfc243d_node_fx_a_cc8f245e",
+            "module_layer4_0_bn3_c1b24274:input:binding_node_fx_layer4_0_bn3_148_24d0732a_node_fx__fb963b09",
+            "module_layer4_0_bn3_c1b24274:output:binding_node_fx_layer4_0_bn3_148_24d0732a_node_fx__694eb2ce",
+            "module_layer4_0_downsample_1_56b33cd8:input:binding_node_fx_layer4_0_downsample_1_150_f08f021b_b3ef66e0",
+            "module_layer4_0_downsample_1_56b33cd8:output:binding_node_fx_layer4_0_downsample_1_150_f08f021b_d31007a4",
+            "module_layer4_0_relu_062059c6:input:binding_node_fx_layer4_0_relu_143_ee930892_node_fx_8bf89472",
+            "module_layer4_0_relu_062059c6:input:binding_node_fx_layer4_0_relu_1_146_7777fdec_node__1052d02a",
+            "module_layer4_0_relu_062059c6:input:binding_node_fx_layer4_0_relu_2_152_b0d3b5b5_node__9a8b2e17",
+            "module_layer4_0_relu_062059c6:output:binding_node_fx_layer4_0_relu_143_ee930892_node_fx_aeaef730",
+            "module_layer4_0_relu_062059c6:output:binding_node_fx_layer4_0_relu_1_146_7777fdec_node__785e630b",
+            "module_layer4_0_relu_062059c6:output:binding_node_fx_layer4_0_relu_2_152_b0d3b5b5_node__5e898942",
+            "module_layer4_1_bn3_9c64fdeb:input:binding_node_fx_layer4_1_bn3_160_8ed242b2_node_fx__d4836cce",
+            "module_layer4_1_bn3_9c64fdeb:output:binding_node_fx_layer4_1_bn3_160_8ed242b2_node_fx__1d773b76",
+            "module_layer4_1_relu_249927d0:input:binding_node_fx_layer4_1_relu_155_fd19e796_node_fx_98e0291e",
+            "module_layer4_1_relu_249927d0:input:binding_node_fx_layer4_1_relu_1_158_00eebd7c_node__880bc941",
+            "module_layer4_1_relu_249927d0:input:binding_node_fx_layer4_1_relu_2_162_c8a40256_node__95c147e2",
+            "module_layer4_1_relu_249927d0:output:binding_node_fx_layer4_1_relu_155_fd19e796_node_fx_8dcfcec2",
+            "module_layer4_1_relu_249927d0:output:binding_node_fx_layer4_1_relu_1_158_00eebd7c_node__9bc82316",
+            "module_layer4_1_relu_249927d0:output:binding_node_fx_layer4_1_relu_2_162_c8a40256_node__126d4c7e",
+            "module_layer4_2_bn3_2885695e:input:binding_node_fx_layer4_2_bn3_170_351ae529_node_fx__16aed8a4",
+            "module_layer4_2_bn3_2885695e:output:binding_node_fx_layer4_2_bn3_170_351ae529_node_fx__1341bfa0",
+            "node_fx_add_13_151_28142a6f:input:0",
+            "node_fx_add_13_151_28142a6f:input:1",
+            "node_fx_add_13_151_28142a6f:output:0",
+            "node_fx_add_14_161_7bfc243d:input:0",
+            "node_fx_add_14_161_7bfc243d:input:1",
+            "node_fx_add_14_161_7bfc243d:output:0",
+            "node_fx_add_15_171_5e3d5c38:input:0",
+            "node_fx_add_15_171_5e3d5c38:input:1",
+            "node_fx_add_15_171_5e3d5c38:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf",
+            "semantic_stage_stage_module_layer4_0_bn1_e89c6542_m_432e00fd"
+          ],
+          "source_id": "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        11.1,
+        -2.59,
+        4.07,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Stage 4 ×3 Bottleneck"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_46c04ff4",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "residual-stage",
+            "architecture_role_id": "architecture_role_residual_stage_3_module_layer3_0_relu_9d91_f620fccb",
+            "confidence": 0.86,
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer3_0_bn3_86_c4cff39e_node_c41c72bb",
+              "module_edge_edge_node_fx_layer3_0_downsample_1_88_e2f2_bba5027f",
+              "module_edge_edge_node_fx_layer3_1_bn3_98_e6ee6421_node_bbfb7d48",
+              "module_edge_edge_node_fx_layer3_0_relu_2_90_1e68bcee_n_a63d0f84",
+              "module_edge_edge_node_fx_layer3_2_bn3_108_e3c5d3f3_nod_031e9fcc",
+              "module_edge_edge_node_fx_layer3_1_relu_2_100_6097c8ca__105720b4",
+              "module_edge_edge_node_fx_layer3_3_bn3_118_da46ec18_nod_d8e39132",
+              "module_edge_edge_node_fx_layer3_2_relu_2_110_c7281315__a559c29c",
+              "module_edge_edge_node_fx_layer3_4_bn3_128_0b9a9202_nod_8808216d",
+              "module_edge_edge_node_fx_layer3_3_relu_2_120_26437efd__2df49e55",
+              "module_edge_edge_node_fx_layer3_5_bn3_138_59741683_nod_a727992e",
+              "module_edge_edge_node_fx_layer3_4_relu_2_130_75b29f17__dbcae041",
+              "module_edge_edge_node_fx_add_7_89_42366444_node_fx_add_0b15d317",
+              "module_edge_edge_node_fx_add_8_99_41993a89_node_fx_add_293225de",
+              "module_edge_edge_node_fx_add_9_109_f5755adb_node_fx_ad_04aede5c",
+              "module_edge_edge_node_fx_add_10_119_477ae606_node_fx_a_b8978399",
+              "module_edge_edge_node_fx_add_11_129_f1edfe86_node_fx_a_25db8b69"
+            ],
+            "node_ids": [
+              "module_layer3_0_relu_9d915a3b",
+              "module_layer3_0_bn3_671bc7b5",
+              "node_fx_add_8_99_41993a89",
+              "module_layer3_4_relu_1df98237",
+              "node_fx_add_9_109_f5755adb",
+              "node_fx_add_11_129_f1edfe86",
+              "node_fx_add_10_119_477ae606",
+              "module_layer3_3_relu_28b79f34",
+              "module_layer3_0_downsample_1_da7dd4da",
+              "module_layer3_1_relu_0bd63740",
+              "module_layer3_5_bn3_c4a089a5",
+              "module_layer3_1_bn3_df0a4e1a",
+              "module_layer3_3_bn3_38c36b1d",
+              "node_fx_add_7_89_42366444",
+              "module_layer3_4_bn3_93054772",
+              "module_layer3_2_bn3_2e9c30f4",
+              "module_layer3_2_relu_a3ff2fcd",
+              "node_fx_add_12_139_abdc300d"
+            ],
+            "port_ids": [
+              "module_layer3_0_bn3_671bc7b5:input:binding_node_fx_layer3_0_bn3_86_c4cff39e_node_fx_l_a33eb6ba",
+              "module_layer3_0_bn3_671bc7b5:output:binding_node_fx_layer3_0_bn3_86_c4cff39e_node_fx_l_cc2ca864",
+              "module_layer3_0_downsample_1_da7dd4da:input:binding_node_fx_layer3_0_downsample_1_88_e2f25b06__41286b46",
+              "module_layer3_0_downsample_1_da7dd4da:output:binding_node_fx_layer3_0_downsample_1_88_e2f25b06__cc523b63",
+              "module_layer3_0_relu_9d915a3b:input:binding_node_fx_layer3_0_relu_81_2bd2193e_node_fx__62d7b4f7",
+              "module_layer3_0_relu_9d915a3b:input:binding_node_fx_layer3_0_relu_1_84_0be27b06_node_f_a235fd02",
+              "module_layer3_0_relu_9d915a3b:input:binding_node_fx_layer3_0_relu_2_90_1e68bcee_node_f_d99cd57f",
+              "module_layer3_0_relu_9d915a3b:output:binding_node_fx_layer3_0_relu_81_2bd2193e_node_fx__e42177b6",
+              "module_layer3_0_relu_9d915a3b:output:binding_node_fx_layer3_0_relu_1_84_0be27b06_node_f_c0472437",
+              "module_layer3_0_relu_9d915a3b:output:binding_node_fx_layer3_0_relu_2_90_1e68bcee_node_f_8f2d28ca",
+              "module_layer3_1_bn3_df0a4e1a:input:binding_node_fx_layer3_1_bn3_98_e6ee6421_node_fx_l_3f713dc8",
+              "module_layer3_1_bn3_df0a4e1a:output:binding_node_fx_layer3_1_bn3_98_e6ee6421_node_fx_l_1e535ddd",
+              "module_layer3_1_relu_0bd63740:input:binding_node_fx_layer3_1_relu_93_e2b6e81d_node_fx__90afb287",
+              "module_layer3_1_relu_0bd63740:input:binding_node_fx_layer3_1_relu_1_96_80417d23_node_f_17507765",
+              "module_layer3_1_relu_0bd63740:input:binding_node_fx_layer3_1_relu_2_100_6097c8ca_node__adfe4ffc",
+              "module_layer3_1_relu_0bd63740:output:binding_node_fx_layer3_1_relu_93_e2b6e81d_node_fx__50fb78dc",
+              "module_layer3_1_relu_0bd63740:output:binding_node_fx_layer3_1_relu_1_96_80417d23_node_f_104f8833",
+              "module_layer3_1_relu_0bd63740:output:binding_node_fx_layer3_1_relu_2_100_6097c8ca_node__c8670a0d",
+              "module_layer3_2_bn3_2e9c30f4:input:binding_node_fx_layer3_2_bn3_108_e3c5d3f3_node_fx__ea2e1f6c",
+              "module_layer3_2_bn3_2e9c30f4:output:binding_node_fx_layer3_2_bn3_108_e3c5d3f3_node_fx__972af284",
+              "module_layer3_2_relu_a3ff2fcd:input:binding_node_fx_layer3_2_relu_103_2a7697a8_node_fx_621e6d16",
+              "module_layer3_2_relu_a3ff2fcd:input:binding_node_fx_layer3_2_relu_1_106_b742f431_node__52796af0",
+              "module_layer3_2_relu_a3ff2fcd:input:binding_node_fx_layer3_2_relu_2_110_c7281315_node__8f1a8c41",
+              "module_layer3_2_relu_a3ff2fcd:output:binding_node_fx_layer3_2_relu_103_2a7697a8_node_fx_dc8c0764",
+              "module_layer3_2_relu_a3ff2fcd:output:binding_node_fx_layer3_2_relu_1_106_b742f431_node__b4c9fc1a",
+              "module_layer3_2_relu_a3ff2fcd:output:binding_node_fx_layer3_2_relu_2_110_c7281315_node__004e5248",
+              "module_layer3_3_bn3_38c36b1d:input:binding_node_fx_layer3_3_bn3_118_da46ec18_node_fx__2e4ea881",
+              "module_layer3_3_bn3_38c36b1d:output:binding_node_fx_layer3_3_bn3_118_da46ec18_node_fx__9423e097",
+              "module_layer3_3_relu_28b79f34:input:binding_node_fx_layer3_3_relu_113_5c6ffed2_node_fx_31460b94",
+              "module_layer3_3_relu_28b79f34:input:binding_node_fx_layer3_3_relu_1_116_b7f1c5a9_node__d9174a02",
+              "module_layer3_3_relu_28b79f34:input:binding_node_fx_layer3_3_relu_2_120_26437efd_node__49485d82",
+              "module_layer3_3_relu_28b79f34:output:binding_node_fx_layer3_3_relu_113_5c6ffed2_node_fx_d3b53040",
+              "module_layer3_3_relu_28b79f34:output:binding_node_fx_layer3_3_relu_1_116_b7f1c5a9_node__db3e7f5e",
+              "module_layer3_3_relu_28b79f34:output:binding_node_fx_layer3_3_relu_2_120_26437efd_node__85c4a8c6",
+              "module_layer3_4_bn3_93054772:input:binding_node_fx_layer3_4_bn3_128_0b9a9202_node_fx__351e642e",
+              "module_layer3_4_bn3_93054772:output:binding_node_fx_layer3_4_bn3_128_0b9a9202_node_fx__1c2db3c7",
+              "module_layer3_4_relu_1df98237:input:binding_node_fx_layer3_4_relu_123_f6a7c5ff_node_fx_cb35b31d",
+              "module_layer3_4_relu_1df98237:input:binding_node_fx_layer3_4_relu_1_126_74f3ccc8_node__8011410a",
+              "module_layer3_4_relu_1df98237:input:binding_node_fx_layer3_4_relu_2_130_75b29f17_node__a0b647c1",
+              "module_layer3_4_relu_1df98237:output:binding_node_fx_layer3_4_relu_123_f6a7c5ff_node_fx_321c28ab",
+              "module_layer3_4_relu_1df98237:output:binding_node_fx_layer3_4_relu_1_126_74f3ccc8_node__10ca37b2",
+              "module_layer3_4_relu_1df98237:output:binding_node_fx_layer3_4_relu_2_130_75b29f17_node__14d806fe",
+              "module_layer3_5_bn3_c4a089a5:input:binding_node_fx_layer3_5_bn3_138_59741683_node_fx__cd6fc99b",
+              "module_layer3_5_bn3_c4a089a5:output:binding_node_fx_layer3_5_bn3_138_59741683_node_fx__a755fca4",
+              "node_fx_add_7_89_42366444:input:0",
+              "node_fx_add_7_89_42366444:input:1",
+              "node_fx_add_7_89_42366444:output:0",
+              "node_fx_add_8_99_41993a89:input:0",
+              "node_fx_add_8_99_41993a89:input:1",
+              "node_fx_add_8_99_41993a89:output:0",
+              "node_fx_add_9_109_f5755adb:input:0",
+              "node_fx_add_9_109_f5755adb:input:1",
+              "node_fx_add_9_109_f5755adb:output:0",
+              "node_fx_add_10_119_477ae606:input:0",
+              "node_fx_add_10_119_477ae606:input:1",
+              "node_fx_add_10_119_477ae606:output:0",
+              "node_fx_add_11_129_f1edfe86:input:0",
+              "node_fx_add_11_129_f1edfe86:input:1",
+              "node_fx_add_11_129_f1edfe86:output:0",
+              "node_fx_add_12_139_abdc300d:input:0",
+              "node_fx_add_12_139_abdc300d:input:1",
+              "node_fx_add_12_139_abdc300d:output:0"
+            ],
+            "reasons": [
+              "The stage contains 6 same-shape topology-backed residual merges.",
+              "Its boundary is the output tensor shape transition between adjacent residual groups."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__f69cbeaf",
+            "figure_object_model_figure_repeat_architecture_projectio_322fccfd",
+            "figure_object_model_figure_tensor_architecture_projectio_0f0d13e8",
+            "figure_object_model_figure_edge_architecture_projection__a7173877",
+            "figure_object_model_figure_edge_architecture_projection__bcedb5b1",
+            "figure_object_model_figure_edge_architecture_projection__3ec56d9a"
+          ],
+          "graph_ir_ids": [
+            "module_layer3_0_relu_9d915a3b",
+            "module_layer3_0_bn3_671bc7b5",
+            "node_fx_add_8_99_41993a89",
+            "module_layer3_4_relu_1df98237",
+            "node_fx_add_9_109_f5755adb",
+            "node_fx_add_11_129_f1edfe86",
+            "node_fx_add_10_119_477ae606",
+            "module_layer3_3_relu_28b79f34",
+            "module_layer3_0_downsample_1_da7dd4da",
+            "module_layer3_1_relu_0bd63740",
+            "module_layer3_5_bn3_c4a089a5",
+            "module_layer3_1_bn3_df0a4e1a",
+            "module_layer3_3_bn3_38c36b1d",
+            "node_fx_add_7_89_42366444",
+            "module_layer3_4_bn3_93054772",
+            "module_layer3_2_bn3_2e9c30f4",
+            "module_layer3_2_relu_a3ff2fcd",
+            "node_fx_add_12_139_abdc300d",
+            "module_edge_edge_node_fx_layer3_0_bn3_86_c4cff39e_node_c41c72bb",
+            "module_edge_edge_node_fx_layer3_0_downsample_1_88_e2f2_bba5027f",
+            "module_edge_edge_node_fx_layer3_1_bn3_98_e6ee6421_node_bbfb7d48",
+            "module_edge_edge_node_fx_layer3_0_relu_2_90_1e68bcee_n_a63d0f84",
+            "module_edge_edge_node_fx_layer3_2_bn3_108_e3c5d3f3_nod_031e9fcc",
+            "module_edge_edge_node_fx_layer3_1_relu_2_100_6097c8ca__105720b4",
+            "module_edge_edge_node_fx_layer3_3_bn3_118_da46ec18_nod_d8e39132",
+            "module_edge_edge_node_fx_layer3_2_relu_2_110_c7281315__a559c29c",
+            "module_edge_edge_node_fx_layer3_4_bn3_128_0b9a9202_nod_8808216d",
+            "module_edge_edge_node_fx_layer3_3_relu_2_120_26437efd__2df49e55",
+            "module_edge_edge_node_fx_layer3_5_bn3_138_59741683_nod_a727992e",
+            "module_edge_edge_node_fx_layer3_4_relu_2_130_75b29f17__dbcae041",
+            "module_edge_edge_node_fx_add_7_89_42366444_node_fx_add_0b15d317",
+            "module_edge_edge_node_fx_add_8_99_41993a89_node_fx_add_293225de",
+            "module_edge_edge_node_fx_add_9_109_f5755adb_node_fx_ad_04aede5c",
+            "module_edge_edge_node_fx_add_10_119_477ae606_node_fx_a_b8978399",
+            "module_edge_edge_node_fx_add_11_129_f1edfe86_node_fx_a_25db8b69",
+            "module_layer3_0_bn3_671bc7b5:input:binding_node_fx_layer3_0_bn3_86_c4cff39e_node_fx_l_a33eb6ba",
+            "module_layer3_0_bn3_671bc7b5:output:binding_node_fx_layer3_0_bn3_86_c4cff39e_node_fx_l_cc2ca864",
+            "module_layer3_0_downsample_1_da7dd4da:input:binding_node_fx_layer3_0_downsample_1_88_e2f25b06__41286b46",
+            "module_layer3_0_downsample_1_da7dd4da:output:binding_node_fx_layer3_0_downsample_1_88_e2f25b06__cc523b63",
+            "module_layer3_0_relu_9d915a3b:input:binding_node_fx_layer3_0_relu_81_2bd2193e_node_fx__62d7b4f7",
+            "module_layer3_0_relu_9d915a3b:input:binding_node_fx_layer3_0_relu_1_84_0be27b06_node_f_a235fd02",
+            "module_layer3_0_relu_9d915a3b:input:binding_node_fx_layer3_0_relu_2_90_1e68bcee_node_f_d99cd57f",
+            "module_layer3_0_relu_9d915a3b:output:binding_node_fx_layer3_0_relu_81_2bd2193e_node_fx__e42177b6",
+            "module_layer3_0_relu_9d915a3b:output:binding_node_fx_layer3_0_relu_1_84_0be27b06_node_f_c0472437",
+            "module_layer3_0_relu_9d915a3b:output:binding_node_fx_layer3_0_relu_2_90_1e68bcee_node_f_8f2d28ca",
+            "module_layer3_1_bn3_df0a4e1a:input:binding_node_fx_layer3_1_bn3_98_e6ee6421_node_fx_l_3f713dc8",
+            "module_layer3_1_bn3_df0a4e1a:output:binding_node_fx_layer3_1_bn3_98_e6ee6421_node_fx_l_1e535ddd",
+            "module_layer3_1_relu_0bd63740:input:binding_node_fx_layer3_1_relu_93_e2b6e81d_node_fx__90afb287",
+            "module_layer3_1_relu_0bd63740:input:binding_node_fx_layer3_1_relu_1_96_80417d23_node_f_17507765",
+            "module_layer3_1_relu_0bd63740:input:binding_node_fx_layer3_1_relu_2_100_6097c8ca_node__adfe4ffc",
+            "module_layer3_1_relu_0bd63740:output:binding_node_fx_layer3_1_relu_93_e2b6e81d_node_fx__50fb78dc",
+            "module_layer3_1_relu_0bd63740:output:binding_node_fx_layer3_1_relu_1_96_80417d23_node_f_104f8833",
+            "module_layer3_1_relu_0bd63740:output:binding_node_fx_layer3_1_relu_2_100_6097c8ca_node__c8670a0d",
+            "module_layer3_2_bn3_2e9c30f4:input:binding_node_fx_layer3_2_bn3_108_e3c5d3f3_node_fx__ea2e1f6c",
+            "module_layer3_2_bn3_2e9c30f4:output:binding_node_fx_layer3_2_bn3_108_e3c5d3f3_node_fx__972af284",
+            "module_layer3_2_relu_a3ff2fcd:input:binding_node_fx_layer3_2_relu_103_2a7697a8_node_fx_621e6d16",
+            "module_layer3_2_relu_a3ff2fcd:input:binding_node_fx_layer3_2_relu_1_106_b742f431_node__52796af0",
+            "module_layer3_2_relu_a3ff2fcd:input:binding_node_fx_layer3_2_relu_2_110_c7281315_node__8f1a8c41",
+            "module_layer3_2_relu_a3ff2fcd:output:binding_node_fx_layer3_2_relu_103_2a7697a8_node_fx_dc8c0764",
+            "module_layer3_2_relu_a3ff2fcd:output:binding_node_fx_layer3_2_relu_1_106_b742f431_node__b4c9fc1a",
+            "module_layer3_2_relu_a3ff2fcd:output:binding_node_fx_layer3_2_relu_2_110_c7281315_node__004e5248",
+            "module_layer3_3_bn3_38c36b1d:input:binding_node_fx_layer3_3_bn3_118_da46ec18_node_fx__2e4ea881",
+            "module_layer3_3_bn3_38c36b1d:output:binding_node_fx_layer3_3_bn3_118_da46ec18_node_fx__9423e097",
+            "module_layer3_3_relu_28b79f34:input:binding_node_fx_layer3_3_relu_113_5c6ffed2_node_fx_31460b94",
+            "module_layer3_3_relu_28b79f34:input:binding_node_fx_layer3_3_relu_1_116_b7f1c5a9_node__d9174a02",
+            "module_layer3_3_relu_28b79f34:input:binding_node_fx_layer3_3_relu_2_120_26437efd_node__49485d82",
+            "module_layer3_3_relu_28b79f34:output:binding_node_fx_layer3_3_relu_113_5c6ffed2_node_fx_d3b53040",
+            "module_layer3_3_relu_28b79f34:output:binding_node_fx_layer3_3_relu_1_116_b7f1c5a9_node__db3e7f5e",
+            "module_layer3_3_relu_28b79f34:output:binding_node_fx_layer3_3_relu_2_120_26437efd_node__85c4a8c6",
+            "module_layer3_4_bn3_93054772:input:binding_node_fx_layer3_4_bn3_128_0b9a9202_node_fx__351e642e",
+            "module_layer3_4_bn3_93054772:output:binding_node_fx_layer3_4_bn3_128_0b9a9202_node_fx__1c2db3c7",
+            "module_layer3_4_relu_1df98237:input:binding_node_fx_layer3_4_relu_123_f6a7c5ff_node_fx_cb35b31d",
+            "module_layer3_4_relu_1df98237:input:binding_node_fx_layer3_4_relu_1_126_74f3ccc8_node__8011410a",
+            "module_layer3_4_relu_1df98237:input:binding_node_fx_layer3_4_relu_2_130_75b29f17_node__a0b647c1",
+            "module_layer3_4_relu_1df98237:output:binding_node_fx_layer3_4_relu_123_f6a7c5ff_node_fx_321c28ab",
+            "module_layer3_4_relu_1df98237:output:binding_node_fx_layer3_4_relu_1_126_74f3ccc8_node__10ca37b2",
+            "module_layer3_4_relu_1df98237:output:binding_node_fx_layer3_4_relu_2_130_75b29f17_node__14d806fe",
+            "module_layer3_5_bn3_c4a089a5:input:binding_node_fx_layer3_5_bn3_138_59741683_node_fx__cd6fc99b",
+            "module_layer3_5_bn3_c4a089a5:output:binding_node_fx_layer3_5_bn3_138_59741683_node_fx__a755fca4",
+            "node_fx_add_7_89_42366444:input:0",
+            "node_fx_add_7_89_42366444:input:1",
+            "node_fx_add_7_89_42366444:output:0",
+            "node_fx_add_8_99_41993a89:input:0",
+            "node_fx_add_8_99_41993a89:input:1",
+            "node_fx_add_8_99_41993a89:output:0",
+            "node_fx_add_9_109_f5755adb:input:0",
+            "node_fx_add_9_109_f5755adb:input:1",
+            "node_fx_add_9_109_f5755adb:output:0",
+            "node_fx_add_10_119_477ae606:input:0",
+            "node_fx_add_10_119_477ae606:input:1",
+            "node_fx_add_10_119_477ae606:output:0",
+            "node_fx_add_11_129_f1edfe86:input:0",
+            "node_fx_add_11_129_f1edfe86:input:1",
+            "node_fx_add_11_129_f1edfe86:output:0",
+            "node_fx_add_12_139_abdc300d:input:0",
+            "node_fx_add_12_139_abdc300d:input:1",
+            "node_fx_add_12_139_abdc300d:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer3_0_bn1_1d4fe40c_m_a928de22",
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+          ],
+          "source_id": "semantic_stage_stage_module_layer3_0_bn1_1d4fe40c_m_a928de22"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3.7,
+        -1.9425,
+        3.0525,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "Stage 3 ×6 Bottleneck"
+    },
+    {
+      "extras": {
+        "kind": "tensor-volume",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_5e4307bc",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "output-head",
+            "architecture_role_id": "architecture_role_output_head_5_module_layer4_2_conv2_344e40_16a9b91e",
+            "confidence": 0.94,
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer4_0_conv2_144_af8e6a65_n_bf30d0c7",
+              "module_edge_edge_node_fx_layer4_1_conv1_153_70c91a59_n_3f31f156",
+              "module_edge_edge_node_fx_layer4_1_conv2_156_aa515efd_n_56e8fa26",
+              "module_edge_edge_node_fx_layer4_2_conv1_163_ba942735_n_64b5ad88",
+              "module_edge_edge_node_fx_layer4_2_bn1_164_84f8e1cf_nod_7298fce6",
+              "module_edge_edge_node_fx_layer4_2_relu_165_03fd17ba_no_072ba3e4",
+              "module_edge_edge_node_fx_layer4_2_conv2_166_0db35e83_n_ad7f9b1e",
+              "module_edge_edge_node_fx_layer4_2_bn2_167_ac9ef85d_nod_f211ab0f",
+              "module_edge_edge_node_fx_layer4_2_relu_1_168_0b2c04db__4274bc65",
+              "module_edge_edge_node_fx_layer4_2_relu_2_172_f7799803__0a8987ec",
+              "module_edge_edge_node_fx_avgpool_173_216bcbd3_node_fx__65c09a8d",
+              "module_edge_edge_node_fx_flatten_174_920541e7_node_fx__643da897",
+              "module_edge_edge_node_fx_fc_175_9af358a5_node_fx_fc_17_aec09555"
+            ],
+            "node_ids": [
+              "module_layer4_2_conv2_344e404b",
+              "module_layer4_2_bn1_0105f0b8",
+              "module_layer4_1_conv3_ac8c1b4c",
+              "node_fx_output_176_a4d4af23",
+              "module_layer4_1_bn1_8e2096fe",
+              "module_avgpool_aa37ebb0",
+              "module_layer4_2_conv1_40afea52",
+              "module_layer4_2_relu_6befeb55",
+              "module_layer4_1_bn2_15b9143c",
+              "module_fc_41792ca4",
+              "module_layer4_0_conv2_299ec394",
+              "module_layer4_1_conv1_397241ec",
+              "module_layer4_2_conv3_d937119a",
+              "module_layer4_2_bn2_ea2f3fa2",
+              "node_fx_flatten_174_920541e7",
+              "module_layer4_0_conv3_96f58890",
+              "module_layer4_1_conv2_e7ff1c54",
+              "module_layer4_0_bn2_5df675c1"
+            ],
+            "port_ids": [
+              "module_avgpool_aa37ebb0:input:binding_node_fx_avgpool_173_216bcbd3_node_fx_avgpo_921a5319",
+              "module_avgpool_aa37ebb0:output:binding_node_fx_avgpool_173_216bcbd3_node_fx_avgpo_9e43735a",
+              "module_fc_41792ca4:input:binding_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_e0d59dce",
+              "module_fc_41792ca4:output:binding_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_dfd24a55",
+              "module_layer4_0_bn2_5df675c1:input:binding_node_fx_layer4_0_bn2_145_2461e180_node_fx__56b28684",
+              "module_layer4_0_bn2_5df675c1:output:binding_node_fx_layer4_0_bn2_145_2461e180_node_fx__4665d956",
+              "module_layer4_0_conv2_299ec394:input:binding_node_fx_layer4_0_conv2_144_af8e6a65_node_f_4bab2b1d",
+              "module_layer4_0_conv2_299ec394:output:binding_node_fx_layer4_0_conv2_144_af8e6a65_node_f_694daba9",
+              "module_layer4_0_conv3_96f58890:input:binding_node_fx_layer4_0_conv3_147_f21c23a9_node_f_a4b5801b",
+              "module_layer4_0_conv3_96f58890:output:binding_node_fx_layer4_0_conv3_147_f21c23a9_node_f_ae260604",
+              "module_layer4_1_bn1_8e2096fe:input:binding_node_fx_layer4_1_bn1_154_1c2028c9_node_fx__6a12d374",
+              "module_layer4_1_bn1_8e2096fe:output:binding_node_fx_layer4_1_bn1_154_1c2028c9_node_fx__32567fb7",
+              "module_layer4_1_bn2_15b9143c:input:binding_node_fx_layer4_1_bn2_157_d407d242_node_fx__f89f6bc9",
+              "module_layer4_1_bn2_15b9143c:output:binding_node_fx_layer4_1_bn2_157_d407d242_node_fx__7c835d19",
+              "module_layer4_1_conv1_397241ec:input:binding_node_fx_layer4_1_conv1_153_70c91a59_node_f_a89b6506",
+              "module_layer4_1_conv1_397241ec:output:binding_node_fx_layer4_1_conv1_153_70c91a59_node_f_3b5bc359",
+              "module_layer4_1_conv2_e7ff1c54:input:binding_node_fx_layer4_1_conv2_156_aa515efd_node_f_f01b7004",
+              "module_layer4_1_conv2_e7ff1c54:output:binding_node_fx_layer4_1_conv2_156_aa515efd_node_f_98ecf485",
+              "module_layer4_1_conv3_ac8c1b4c:input:binding_node_fx_layer4_1_conv3_159_37bde18c_node_f_6ff0ce7d",
+              "module_layer4_1_conv3_ac8c1b4c:output:binding_node_fx_layer4_1_conv3_159_37bde18c_node_f_a5856395",
+              "module_layer4_2_bn1_0105f0b8:input:binding_node_fx_layer4_2_bn1_164_84f8e1cf_node_fx__f6a1289b",
+              "module_layer4_2_bn1_0105f0b8:output:binding_node_fx_layer4_2_bn1_164_84f8e1cf_node_fx__b511f062",
+              "module_layer4_2_bn2_ea2f3fa2:input:binding_node_fx_layer4_2_bn2_167_ac9ef85d_node_fx__c7c77985",
+              "module_layer4_2_bn2_ea2f3fa2:output:binding_node_fx_layer4_2_bn2_167_ac9ef85d_node_fx__1c6d5e94",
+              "module_layer4_2_conv1_40afea52:input:binding_node_fx_layer4_2_conv1_163_ba942735_node_f_2b573315",
+              "module_layer4_2_conv1_40afea52:output:binding_node_fx_layer4_2_conv1_163_ba942735_node_f_e986467d",
+              "module_layer4_2_conv2_344e404b:input:binding_node_fx_layer4_2_conv2_166_0db35e83_node_f_f178a7ff",
+              "module_layer4_2_conv2_344e404b:output:binding_node_fx_layer4_2_conv2_166_0db35e83_node_f_febac25e",
+              "module_layer4_2_conv3_d937119a:input:binding_node_fx_layer4_2_conv3_169_6a52e7b0_node_f_be67ab37",
+              "module_layer4_2_conv3_d937119a:output:binding_node_fx_layer4_2_conv3_169_6a52e7b0_node_f_6df67bc0",
+              "module_layer4_2_relu_6befeb55:input:binding_node_fx_layer4_2_relu_165_03fd17ba_node_fx_e940bae0",
+              "module_layer4_2_relu_6befeb55:input:binding_node_fx_layer4_2_relu_1_168_0b2c04db_node__54b8d6e8",
+              "module_layer4_2_relu_6befeb55:input:binding_node_fx_layer4_2_relu_2_172_f7799803_node__479c7a80",
+              "module_layer4_2_relu_6befeb55:output:binding_node_fx_layer4_2_relu_165_03fd17ba_node_fx_46bccefb",
+              "module_layer4_2_relu_6befeb55:output:binding_node_fx_layer4_2_relu_1_168_0b2c04db_node__3417c68d",
+              "module_layer4_2_relu_6befeb55:output:binding_node_fx_layer4_2_relu_2_172_f7799803_node__4f76e51f",
+              "node_fx_flatten_174_920541e7:input:0",
+              "node_fx_flatten_174_920541e7:output:0",
+              "node_fx_output_176_a4d4af23:input:0",
+              "node_fx_output_176_a4d4af23:output:0"
+            ],
+            "reasons": [
+              "This source subgraph is the complete descendant suffix of the final repeated residual stage."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__93051145",
+            "figure_object_model_figure_tensor_architecture_projectio_02ea2d22",
+            "figure_object_model_figure_edge_architecture_projection__8db549c0",
+            "figure_object_model_figure_edge_architecture_projection__57371886"
+          ],
+          "graph_ir_ids": [
+            "module_layer4_2_conv2_344e404b",
+            "module_layer4_2_bn1_0105f0b8",
+            "module_layer4_1_conv3_ac8c1b4c",
+            "node_fx_output_176_a4d4af23",
+            "module_layer4_1_bn1_8e2096fe",
+            "module_avgpool_aa37ebb0",
+            "module_layer4_2_conv1_40afea52",
+            "module_layer4_2_relu_6befeb55",
+            "module_layer4_1_bn2_15b9143c",
+            "module_fc_41792ca4",
+            "module_layer4_0_conv2_299ec394",
+            "module_layer4_1_conv1_397241ec",
+            "module_layer4_2_conv3_d937119a",
+            "module_layer4_2_bn2_ea2f3fa2",
+            "node_fx_flatten_174_920541e7",
+            "module_layer4_0_conv3_96f58890",
+            "module_layer4_1_conv2_e7ff1c54",
+            "module_layer4_0_bn2_5df675c1",
+            "module_edge_edge_node_fx_layer4_0_conv2_144_af8e6a65_n_bf30d0c7",
+            "module_edge_edge_node_fx_layer4_1_conv1_153_70c91a59_n_3f31f156",
+            "module_edge_edge_node_fx_layer4_1_conv2_156_aa515efd_n_56e8fa26",
+            "module_edge_edge_node_fx_layer4_2_conv1_163_ba942735_n_64b5ad88",
+            "module_edge_edge_node_fx_layer4_2_bn1_164_84f8e1cf_nod_7298fce6",
+            "module_edge_edge_node_fx_layer4_2_relu_165_03fd17ba_no_072ba3e4",
+            "module_edge_edge_node_fx_layer4_2_conv2_166_0db35e83_n_ad7f9b1e",
+            "module_edge_edge_node_fx_layer4_2_bn2_167_ac9ef85d_nod_f211ab0f",
+            "module_edge_edge_node_fx_layer4_2_relu_1_168_0b2c04db__4274bc65",
+            "module_edge_edge_node_fx_layer4_2_relu_2_172_f7799803__0a8987ec",
+            "module_edge_edge_node_fx_avgpool_173_216bcbd3_node_fx__65c09a8d",
+            "module_edge_edge_node_fx_flatten_174_920541e7_node_fx__643da897",
+            "module_edge_edge_node_fx_fc_175_9af358a5_node_fx_fc_17_aec09555",
+            "module_avgpool_aa37ebb0:input:binding_node_fx_avgpool_173_216bcbd3_node_fx_avgpo_921a5319",
+            "module_avgpool_aa37ebb0:output:binding_node_fx_avgpool_173_216bcbd3_node_fx_avgpo_9e43735a",
+            "module_fc_41792ca4:input:binding_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_e0d59dce",
+            "module_fc_41792ca4:output:binding_node_fx_fc_175_9af358a5_node_fx_fc_175_9af_dfd24a55",
+            "module_layer4_0_bn2_5df675c1:input:binding_node_fx_layer4_0_bn2_145_2461e180_node_fx__56b28684",
+            "module_layer4_0_bn2_5df675c1:output:binding_node_fx_layer4_0_bn2_145_2461e180_node_fx__4665d956",
+            "module_layer4_0_conv2_299ec394:input:binding_node_fx_layer4_0_conv2_144_af8e6a65_node_f_4bab2b1d",
+            "module_layer4_0_conv2_299ec394:output:binding_node_fx_layer4_0_conv2_144_af8e6a65_node_f_694daba9",
+            "module_layer4_0_conv3_96f58890:input:binding_node_fx_layer4_0_conv3_147_f21c23a9_node_f_a4b5801b",
+            "module_layer4_0_conv3_96f58890:output:binding_node_fx_layer4_0_conv3_147_f21c23a9_node_f_ae260604",
+            "module_layer4_1_bn1_8e2096fe:input:binding_node_fx_layer4_1_bn1_154_1c2028c9_node_fx__6a12d374",
+            "module_layer4_1_bn1_8e2096fe:output:binding_node_fx_layer4_1_bn1_154_1c2028c9_node_fx__32567fb7",
+            "module_layer4_1_bn2_15b9143c:input:binding_node_fx_layer4_1_bn2_157_d407d242_node_fx__f89f6bc9",
+            "module_layer4_1_bn2_15b9143c:output:binding_node_fx_layer4_1_bn2_157_d407d242_node_fx__7c835d19",
+            "module_layer4_1_conv1_397241ec:input:binding_node_fx_layer4_1_conv1_153_70c91a59_node_f_a89b6506",
+            "module_layer4_1_conv1_397241ec:output:binding_node_fx_layer4_1_conv1_153_70c91a59_node_f_3b5bc359",
+            "module_layer4_1_conv2_e7ff1c54:input:binding_node_fx_layer4_1_conv2_156_aa515efd_node_f_f01b7004",
+            "module_layer4_1_conv2_e7ff1c54:output:binding_node_fx_layer4_1_conv2_156_aa515efd_node_f_98ecf485",
+            "module_layer4_1_conv3_ac8c1b4c:input:binding_node_fx_layer4_1_conv3_159_37bde18c_node_f_6ff0ce7d",
+            "module_layer4_1_conv3_ac8c1b4c:output:binding_node_fx_layer4_1_conv3_159_37bde18c_node_f_a5856395",
+            "module_layer4_2_bn1_0105f0b8:input:binding_node_fx_layer4_2_bn1_164_84f8e1cf_node_fx__f6a1289b",
+            "module_layer4_2_bn1_0105f0b8:output:binding_node_fx_layer4_2_bn1_164_84f8e1cf_node_fx__b511f062",
+            "module_layer4_2_bn2_ea2f3fa2:input:binding_node_fx_layer4_2_bn2_167_ac9ef85d_node_fx__c7c77985",
+            "module_layer4_2_bn2_ea2f3fa2:output:binding_node_fx_layer4_2_bn2_167_ac9ef85d_node_fx__1c6d5e94",
+            "module_layer4_2_conv1_40afea52:input:binding_node_fx_layer4_2_conv1_163_ba942735_node_f_2b573315",
+            "module_layer4_2_conv1_40afea52:output:binding_node_fx_layer4_2_conv1_163_ba942735_node_f_e986467d",
+            "module_layer4_2_conv2_344e404b:input:binding_node_fx_layer4_2_conv2_166_0db35e83_node_f_f178a7ff",
+            "module_layer4_2_conv2_344e404b:output:binding_node_fx_layer4_2_conv2_166_0db35e83_node_f_febac25e",
+            "module_layer4_2_conv3_d937119a:input:binding_node_fx_layer4_2_conv3_169_6a52e7b0_node_f_be67ab37",
+            "module_layer4_2_conv3_d937119a:output:binding_node_fx_layer4_2_conv3_169_6a52e7b0_node_f_6df67bc0",
+            "module_layer4_2_relu_6befeb55:input:binding_node_fx_layer4_2_relu_165_03fd17ba_node_fx_e940bae0",
+            "module_layer4_2_relu_6befeb55:input:binding_node_fx_layer4_2_relu_1_168_0b2c04db_node__54b8d6e8",
+            "module_layer4_2_relu_6befeb55:input:binding_node_fx_layer4_2_relu_2_172_f7799803_node__479c7a80",
+            "module_layer4_2_relu_6befeb55:output:binding_node_fx_layer4_2_relu_165_03fd17ba_node_fx_46bccefb",
+            "module_layer4_2_relu_6befeb55:output:binding_node_fx_layer4_2_relu_1_168_0b2c04db_node__3417c68d",
+            "module_layer4_2_relu_6befeb55:output:binding_node_fx_layer4_2_relu_2_172_f7799803_node__4f76e51f",
+            "node_fx_flatten_174_920541e7:input:0",
+            "node_fx_flatten_174_920541e7:output:0",
+            "node_fx_output_176_a4d4af23:input:0",
+            "node_fx_output_176_a4d4af23:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer4_0_bn1_e89c6542_m_432e00fd",
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf",
+            "semantic_stage_stage_module_avgpool_aa37ebb0_module_72e0b164"
+          ],
+          "source_id": "semantic_stage_stage_module_layer4_0_bn1_e89c6542_m_432e00fd"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        18.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 3,
+      "name": "Pooling / classifier"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_943e7205",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "residual-stage",
+            "architecture_role_id": "architecture_role_residual_stage_1_module_layer1_1_relu_86f1_2f0b7943",
+            "confidence": 0.86,
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer1_0_bn3_12_6eb7011c_node_1d7b1aa3",
+              "module_edge_edge_node_fx_layer1_0_downsample_1_14_7e1b_7e58286f",
+              "module_edge_edge_node_fx_layer1_1_bn3_24_6c113f3c_node_c0446eab",
+              "module_edge_edge_node_fx_layer1_0_relu_2_16_979fbfcd_n_46e840eb",
+              "module_edge_edge_node_fx_layer1_2_bn3_34_b9b460a9_node_54ef6961",
+              "module_edge_edge_node_fx_layer1_1_relu_2_26_9962d8b6_n_1bbd6419",
+              "module_edge_edge_node_fx_add_15_a1bc4f1b_node_fx_add_1_f5db83d1",
+              "module_edge_edge_node_fx_add_1_25_164248c2_node_fx_add_80188cde"
+            ],
+            "node_ids": [
+              "module_layer1_1_relu_86f17790",
+              "node_fx_add_2_35_231c4367",
+              "node_fx_add_1_25_164248c2",
+              "module_layer1_2_bn3_a5ca9e57",
+              "module_layer1_0_downsample_1_073ffe3a",
+              "module_layer1_0_relu_28279c7a",
+              "module_layer1_0_bn3_f15d05ec",
+              "module_layer1_1_bn3_d3bb057a",
+              "node_fx_add_15_a1bc4f1b"
+            ],
+            "port_ids": [
+              "module_layer1_0_bn3_f15d05ec:input:binding_node_fx_layer1_0_bn3_12_6eb7011c_node_fx_l_4f24dce4",
+              "module_layer1_0_bn3_f15d05ec:output:binding_node_fx_layer1_0_bn3_12_6eb7011c_node_fx_l_8355047c",
+              "module_layer1_0_downsample_1_073ffe3a:input:binding_node_fx_layer1_0_downsample_1_14_7e1b146f__dc70dc3e",
+              "module_layer1_0_downsample_1_073ffe3a:output:binding_node_fx_layer1_0_downsample_1_14_7e1b146f__2ba2c475",
+              "module_layer1_0_relu_28279c7a:input:binding_node_fx_layer1_0_relu_7_92edf1ab_node_fx_l_3ceb73d7",
+              "module_layer1_0_relu_28279c7a:input:binding_node_fx_layer1_0_relu_1_10_46ff05df_node_f_0e1f0055",
+              "module_layer1_0_relu_28279c7a:input:binding_node_fx_layer1_0_relu_2_16_979fbfcd_node_f_13178781",
+              "module_layer1_0_relu_28279c7a:output:binding_node_fx_layer1_0_relu_7_92edf1ab_node_fx_l_50862514",
+              "module_layer1_0_relu_28279c7a:output:binding_node_fx_layer1_0_relu_1_10_46ff05df_node_f_37c191cb",
+              "module_layer1_0_relu_28279c7a:output:binding_node_fx_layer1_0_relu_2_16_979fbfcd_node_f_3aa61ff3",
+              "module_layer1_1_bn3_d3bb057a:input:binding_node_fx_layer1_1_bn3_24_6c113f3c_node_fx_l_658dde6c",
+              "module_layer1_1_bn3_d3bb057a:output:binding_node_fx_layer1_1_bn3_24_6c113f3c_node_fx_l_b2d13ee7",
+              "module_layer1_1_relu_86f17790:input:binding_node_fx_layer1_1_relu_19_0bb9e215_node_fx__50ada364",
+              "module_layer1_1_relu_86f17790:input:binding_node_fx_layer1_1_relu_1_22_3cbd7717_node_f_a524af1b",
+              "module_layer1_1_relu_86f17790:input:binding_node_fx_layer1_1_relu_2_26_9962d8b6_node_f_c675f8af",
+              "module_layer1_1_relu_86f17790:output:binding_node_fx_layer1_1_relu_19_0bb9e215_node_fx__bb04bdcc",
+              "module_layer1_1_relu_86f17790:output:binding_node_fx_layer1_1_relu_1_22_3cbd7717_node_f_abe20863",
+              "module_layer1_1_relu_86f17790:output:binding_node_fx_layer1_1_relu_2_26_9962d8b6_node_f_6de84d06",
+              "module_layer1_2_bn3_a5ca9e57:input:binding_node_fx_layer1_2_bn3_34_b9b460a9_node_fx_l_7f9b701c",
+              "module_layer1_2_bn3_a5ca9e57:output:binding_node_fx_layer1_2_bn3_34_b9b460a9_node_fx_l_e9e60752",
+              "node_fx_add_15_a1bc4f1b:input:0",
+              "node_fx_add_15_a1bc4f1b:input:1",
+              "node_fx_add_15_a1bc4f1b:output:0",
+              "node_fx_add_1_25_164248c2:input:0",
+              "node_fx_add_1_25_164248c2:input:1",
+              "node_fx_add_1_25_164248c2:output:0",
+              "node_fx_add_2_35_231c4367:input:0",
+              "node_fx_add_2_35_231c4367:input:1",
+              "node_fx_add_2_35_231c4367:output:0"
+            ],
+            "reasons": [
+              "The stage contains 3 same-shape topology-backed residual merges.",
+              "Its boundary is the output tensor shape transition between adjacent residual groups."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__5d929603",
+            "figure_object_model_figure_repeat_architecture_projectio_c3ac4e0f",
+            "figure_object_model_figure_tensor_architecture_projectio_dd1b6f3b",
+            "figure_object_model_figure_edge_architecture_projection__6f0c7c6e",
+            "figure_object_model_figure_edge_architecture_projection__885467cb",
+            "figure_object_model_figure_edge_architecture_projection__6d72328b"
+          ],
+          "graph_ir_ids": [
+            "module_layer1_1_relu_86f17790",
+            "node_fx_add_2_35_231c4367",
+            "node_fx_add_1_25_164248c2",
+            "module_layer1_2_bn3_a5ca9e57",
+            "module_layer1_0_downsample_1_073ffe3a",
+            "module_layer1_0_relu_28279c7a",
+            "module_layer1_0_bn3_f15d05ec",
+            "module_layer1_1_bn3_d3bb057a",
+            "node_fx_add_15_a1bc4f1b",
+            "module_edge_edge_node_fx_layer1_0_bn3_12_6eb7011c_node_1d7b1aa3",
+            "module_edge_edge_node_fx_layer1_0_downsample_1_14_7e1b_7e58286f",
+            "module_edge_edge_node_fx_layer1_1_bn3_24_6c113f3c_node_c0446eab",
+            "module_edge_edge_node_fx_layer1_0_relu_2_16_979fbfcd_n_46e840eb",
+            "module_edge_edge_node_fx_layer1_2_bn3_34_b9b460a9_node_54ef6961",
+            "module_edge_edge_node_fx_layer1_1_relu_2_26_9962d8b6_n_1bbd6419",
+            "module_edge_edge_node_fx_add_15_a1bc4f1b_node_fx_add_1_f5db83d1",
+            "module_edge_edge_node_fx_add_1_25_164248c2_node_fx_add_80188cde",
+            "module_layer1_0_bn3_f15d05ec:input:binding_node_fx_layer1_0_bn3_12_6eb7011c_node_fx_l_4f24dce4",
+            "module_layer1_0_bn3_f15d05ec:output:binding_node_fx_layer1_0_bn3_12_6eb7011c_node_fx_l_8355047c",
+            "module_layer1_0_downsample_1_073ffe3a:input:binding_node_fx_layer1_0_downsample_1_14_7e1b146f__dc70dc3e",
+            "module_layer1_0_downsample_1_073ffe3a:output:binding_node_fx_layer1_0_downsample_1_14_7e1b146f__2ba2c475",
+            "module_layer1_0_relu_28279c7a:input:binding_node_fx_layer1_0_relu_7_92edf1ab_node_fx_l_3ceb73d7",
+            "module_layer1_0_relu_28279c7a:input:binding_node_fx_layer1_0_relu_1_10_46ff05df_node_f_0e1f0055",
+            "module_layer1_0_relu_28279c7a:input:binding_node_fx_layer1_0_relu_2_16_979fbfcd_node_f_13178781",
+            "module_layer1_0_relu_28279c7a:output:binding_node_fx_layer1_0_relu_7_92edf1ab_node_fx_l_50862514",
+            "module_layer1_0_relu_28279c7a:output:binding_node_fx_layer1_0_relu_1_10_46ff05df_node_f_37c191cb",
+            "module_layer1_0_relu_28279c7a:output:binding_node_fx_layer1_0_relu_2_16_979fbfcd_node_f_3aa61ff3",
+            "module_layer1_1_bn3_d3bb057a:input:binding_node_fx_layer1_1_bn3_24_6c113f3c_node_fx_l_658dde6c",
+            "module_layer1_1_bn3_d3bb057a:output:binding_node_fx_layer1_1_bn3_24_6c113f3c_node_fx_l_b2d13ee7",
+            "module_layer1_1_relu_86f17790:input:binding_node_fx_layer1_1_relu_19_0bb9e215_node_fx__50ada364",
+            "module_layer1_1_relu_86f17790:input:binding_node_fx_layer1_1_relu_1_22_3cbd7717_node_f_a524af1b",
+            "module_layer1_1_relu_86f17790:input:binding_node_fx_layer1_1_relu_2_26_9962d8b6_node_f_c675f8af",
+            "module_layer1_1_relu_86f17790:output:binding_node_fx_layer1_1_relu_19_0bb9e215_node_fx__bb04bdcc",
+            "module_layer1_1_relu_86f17790:output:binding_node_fx_layer1_1_relu_1_22_3cbd7717_node_f_abe20863",
+            "module_layer1_1_relu_86f17790:output:binding_node_fx_layer1_1_relu_2_26_9962d8b6_node_f_6de84d06",
+            "module_layer1_2_bn3_a5ca9e57:input:binding_node_fx_layer1_2_bn3_34_b9b460a9_node_fx_l_7f9b701c",
+            "module_layer1_2_bn3_a5ca9e57:output:binding_node_fx_layer1_2_bn3_34_b9b460a9_node_fx_l_e9e60752",
+            "node_fx_add_15_a1bc4f1b:input:0",
+            "node_fx_add_15_a1bc4f1b:input:1",
+            "node_fx_add_15_a1bc4f1b:output:0",
+            "node_fx_add_1_25_164248c2:input:0",
+            "node_fx_add_1_25_164248c2:input:1",
+            "node_fx_add_1_25_164248c2:output:0",
+            "node_fx_add_2_35_231c4367:input:0",
+            "node_fx_add_2_35_231c4367:input:1",
+            "node_fx_add_2_35_231c4367:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer1_0_bn1_d421e4a5_m_a20b7eb6",
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+          ],
+          "source_id": "semantic_stage_stage_module_layer1_0_bn1_d421e4a5_m_a20b7eb6"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -11.1,
+        -0.6475,
+        1.0175,
+        1.0
+      ],
+      "mesh": 4,
+      "name": "Stage 1 ×3 Bottleneck"
+    },
+    {
+      "extras": {
+        "kind": "operation-block",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_role_architecture_d6e44a48",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_role": "residual-stage",
+            "architecture_role_id": "architecture_role_residual_stage_2_module_layer2_2_bn3_20cf9_eb26e13e",
+            "confidence": 0.86,
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer2_0_bn3_44_a8cc61c2_node_0b5fb2a2",
+              "module_edge_edge_node_fx_layer2_0_downsample_1_46_0f46_17f48eaa",
+              "module_edge_edge_node_fx_layer2_1_bn3_56_eb1357c8_node_6291d333",
+              "module_edge_edge_node_fx_layer2_0_relu_2_48_05cd312b_n_6fb5ded8",
+              "module_edge_edge_node_fx_layer2_2_bn3_66_85816bb0_node_0b28fe08",
+              "module_edge_edge_node_fx_layer2_1_relu_2_58_6021708b_n_53e4bdec",
+              "module_edge_edge_node_fx_layer2_3_bn3_76_a8cbeab5_node_2930ce44",
+              "module_edge_edge_node_fx_layer2_2_relu_2_68_a22075ae_n_130d6f7a",
+              "module_edge_edge_node_fx_add_3_47_96d04362_node_fx_add_d71e0686",
+              "module_edge_edge_node_fx_add_4_57_f67a5aea_node_fx_add_2d08d402",
+              "module_edge_edge_node_fx_add_5_67_f2cdaea7_node_fx_add_29f26376"
+            ],
+            "node_ids": [
+              "module_layer2_2_bn3_20cf9d20",
+              "module_layer2_1_bn3_5c0a7a03",
+              "node_fx_add_3_47_96d04362",
+              "node_fx_add_5_67_f2cdaea7",
+              "module_layer2_1_relu_098b49a3",
+              "module_layer2_0_downsample_1_cadc8365",
+              "module_layer2_2_relu_fa8d3b42",
+              "module_layer2_3_bn3_a9006e6d",
+              "module_layer2_0_bn3_9d4960de",
+              "node_fx_add_4_57_f67a5aea",
+              "node_fx_add_6_77_22ae0364",
+              "module_layer2_0_relu_d5097559"
+            ],
+            "port_ids": [
+              "module_layer2_0_bn3_9d4960de:input:binding_node_fx_layer2_0_bn3_44_a8cc61c2_node_fx_l_9cacb29f",
+              "module_layer2_0_bn3_9d4960de:output:binding_node_fx_layer2_0_bn3_44_a8cc61c2_node_fx_l_9ffacdf1",
+              "module_layer2_0_downsample_1_cadc8365:input:binding_node_fx_layer2_0_downsample_1_46_0f46f2f1__228fb166",
+              "module_layer2_0_downsample_1_cadc8365:output:binding_node_fx_layer2_0_downsample_1_46_0f46f2f1__d5ea28ae",
+              "module_layer2_0_relu_d5097559:input:binding_node_fx_layer2_0_relu_39_4567a1a2_node_fx__2a10c86f",
+              "module_layer2_0_relu_d5097559:input:binding_node_fx_layer2_0_relu_1_42_a7b8f805_node_f_b0451ae9",
+              "module_layer2_0_relu_d5097559:input:binding_node_fx_layer2_0_relu_2_48_05cd312b_node_f_0fde86fd",
+              "module_layer2_0_relu_d5097559:output:binding_node_fx_layer2_0_relu_39_4567a1a2_node_fx__0d03849a",
+              "module_layer2_0_relu_d5097559:output:binding_node_fx_layer2_0_relu_1_42_a7b8f805_node_f_ea336685",
+              "module_layer2_0_relu_d5097559:output:binding_node_fx_layer2_0_relu_2_48_05cd312b_node_f_cbaf13d2",
+              "module_layer2_1_bn3_5c0a7a03:input:binding_node_fx_layer2_1_bn3_56_eb1357c8_node_fx_l_e9be907b",
+              "module_layer2_1_bn3_5c0a7a03:output:binding_node_fx_layer2_1_bn3_56_eb1357c8_node_fx_l_19c94792",
+              "module_layer2_1_relu_098b49a3:input:binding_node_fx_layer2_1_relu_51_3a0a08d8_node_fx__1f3aa64c",
+              "module_layer2_1_relu_098b49a3:input:binding_node_fx_layer2_1_relu_1_54_1dcb8659_node_f_3b7fa030",
+              "module_layer2_1_relu_098b49a3:input:binding_node_fx_layer2_1_relu_2_58_6021708b_node_f_63a7f008",
+              "module_layer2_1_relu_098b49a3:output:binding_node_fx_layer2_1_relu_51_3a0a08d8_node_fx__e69865e2",
+              "module_layer2_1_relu_098b49a3:output:binding_node_fx_layer2_1_relu_1_54_1dcb8659_node_f_b0e1c21e",
+              "module_layer2_1_relu_098b49a3:output:binding_node_fx_layer2_1_relu_2_58_6021708b_node_f_5db48625",
+              "module_layer2_2_bn3_20cf9d20:input:binding_node_fx_layer2_2_bn3_66_85816bb0_node_fx_l_119ee58d",
+              "module_layer2_2_bn3_20cf9d20:output:binding_node_fx_layer2_2_bn3_66_85816bb0_node_fx_l_29ec2bea",
+              "module_layer2_2_relu_fa8d3b42:input:binding_node_fx_layer2_2_relu_61_cca36fdc_node_fx__1056e502",
+              "module_layer2_2_relu_fa8d3b42:input:binding_node_fx_layer2_2_relu_1_64_5deb9aab_node_f_decb8a8c",
+              "module_layer2_2_relu_fa8d3b42:input:binding_node_fx_layer2_2_relu_2_68_a22075ae_node_f_b965b1b1",
+              "module_layer2_2_relu_fa8d3b42:output:binding_node_fx_layer2_2_relu_61_cca36fdc_node_fx__d5eab81c",
+              "module_layer2_2_relu_fa8d3b42:output:binding_node_fx_layer2_2_relu_1_64_5deb9aab_node_f_1ac17473",
+              "module_layer2_2_relu_fa8d3b42:output:binding_node_fx_layer2_2_relu_2_68_a22075ae_node_f_08be1e3d",
+              "module_layer2_3_bn3_a9006e6d:input:binding_node_fx_layer2_3_bn3_76_a8cbeab5_node_fx_l_0f00ce21",
+              "module_layer2_3_bn3_a9006e6d:output:binding_node_fx_layer2_3_bn3_76_a8cbeab5_node_fx_l_2c93b40a",
+              "node_fx_add_3_47_96d04362:input:0",
+              "node_fx_add_3_47_96d04362:input:1",
+              "node_fx_add_3_47_96d04362:output:0",
+              "node_fx_add_4_57_f67a5aea:input:0",
+              "node_fx_add_4_57_f67a5aea:input:1",
+              "node_fx_add_4_57_f67a5aea:output:0",
+              "node_fx_add_5_67_f2cdaea7:input:0",
+              "node_fx_add_5_67_f2cdaea7:input:1",
+              "node_fx_add_5_67_f2cdaea7:output:0",
+              "node_fx_add_6_77_22ae0364:input:0",
+              "node_fx_add_6_77_22ae0364:input:1",
+              "node_fx_add_6_77_22ae0364:output:0"
+            ],
+            "reasons": [
+              "The stage contains 4 same-shape topology-backed residual merges.",
+              "Its boundary is the output tensor shape transition between adjacent residual groups."
+            ]
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__5aa8ea21",
+            "figure_object_model_figure_repeat_architecture_projectio_3e5fe416",
+            "figure_object_model_figure_tensor_architecture_projectio_a1677636",
+            "figure_object_model_figure_edge_architecture_projection__9f5ee5a5",
+            "figure_object_model_figure_edge_architecture_projection__51c6b588",
+            "figure_object_model_figure_edge_architecture_projection__bcedb5b1"
+          ],
+          "graph_ir_ids": [
+            "module_layer2_2_bn3_20cf9d20",
+            "module_layer2_1_bn3_5c0a7a03",
+            "node_fx_add_3_47_96d04362",
+            "node_fx_add_5_67_f2cdaea7",
+            "module_layer2_1_relu_098b49a3",
+            "module_layer2_0_downsample_1_cadc8365",
+            "module_layer2_2_relu_fa8d3b42",
+            "module_layer2_3_bn3_a9006e6d",
+            "module_layer2_0_bn3_9d4960de",
+            "node_fx_add_4_57_f67a5aea",
+            "node_fx_add_6_77_22ae0364",
+            "module_layer2_0_relu_d5097559",
+            "module_edge_edge_node_fx_layer2_0_bn3_44_a8cc61c2_node_0b5fb2a2",
+            "module_edge_edge_node_fx_layer2_0_downsample_1_46_0f46_17f48eaa",
+            "module_edge_edge_node_fx_layer2_1_bn3_56_eb1357c8_node_6291d333",
+            "module_edge_edge_node_fx_layer2_0_relu_2_48_05cd312b_n_6fb5ded8",
+            "module_edge_edge_node_fx_layer2_2_bn3_66_85816bb0_node_0b28fe08",
+            "module_edge_edge_node_fx_layer2_1_relu_2_58_6021708b_n_53e4bdec",
+            "module_edge_edge_node_fx_layer2_3_bn3_76_a8cbeab5_node_2930ce44",
+            "module_edge_edge_node_fx_layer2_2_relu_2_68_a22075ae_n_130d6f7a",
+            "module_edge_edge_node_fx_add_3_47_96d04362_node_fx_add_d71e0686",
+            "module_edge_edge_node_fx_add_4_57_f67a5aea_node_fx_add_2d08d402",
+            "module_edge_edge_node_fx_add_5_67_f2cdaea7_node_fx_add_29f26376",
+            "module_layer2_0_bn3_9d4960de:input:binding_node_fx_layer2_0_bn3_44_a8cc61c2_node_fx_l_9cacb29f",
+            "module_layer2_0_bn3_9d4960de:output:binding_node_fx_layer2_0_bn3_44_a8cc61c2_node_fx_l_9ffacdf1",
+            "module_layer2_0_downsample_1_cadc8365:input:binding_node_fx_layer2_0_downsample_1_46_0f46f2f1__228fb166",
+            "module_layer2_0_downsample_1_cadc8365:output:binding_node_fx_layer2_0_downsample_1_46_0f46f2f1__d5ea28ae",
+            "module_layer2_0_relu_d5097559:input:binding_node_fx_layer2_0_relu_39_4567a1a2_node_fx__2a10c86f",
+            "module_layer2_0_relu_d5097559:input:binding_node_fx_layer2_0_relu_1_42_a7b8f805_node_f_b0451ae9",
+            "module_layer2_0_relu_d5097559:input:binding_node_fx_layer2_0_relu_2_48_05cd312b_node_f_0fde86fd",
+            "module_layer2_0_relu_d5097559:output:binding_node_fx_layer2_0_relu_39_4567a1a2_node_fx__0d03849a",
+            "module_layer2_0_relu_d5097559:output:binding_node_fx_layer2_0_relu_1_42_a7b8f805_node_f_ea336685",
+            "module_layer2_0_relu_d5097559:output:binding_node_fx_layer2_0_relu_2_48_05cd312b_node_f_cbaf13d2",
+            "module_layer2_1_bn3_5c0a7a03:input:binding_node_fx_layer2_1_bn3_56_eb1357c8_node_fx_l_e9be907b",
+            "module_layer2_1_bn3_5c0a7a03:output:binding_node_fx_layer2_1_bn3_56_eb1357c8_node_fx_l_19c94792",
+            "module_layer2_1_relu_098b49a3:input:binding_node_fx_layer2_1_relu_51_3a0a08d8_node_fx__1f3aa64c",
+            "module_layer2_1_relu_098b49a3:input:binding_node_fx_layer2_1_relu_1_54_1dcb8659_node_f_3b7fa030",
+            "module_layer2_1_relu_098b49a3:input:binding_node_fx_layer2_1_relu_2_58_6021708b_node_f_63a7f008",
+            "module_layer2_1_relu_098b49a3:output:binding_node_fx_layer2_1_relu_51_3a0a08d8_node_fx__e69865e2",
+            "module_layer2_1_relu_098b49a3:output:binding_node_fx_layer2_1_relu_1_54_1dcb8659_node_f_b0e1c21e",
+            "module_layer2_1_relu_098b49a3:output:binding_node_fx_layer2_1_relu_2_58_6021708b_node_f_5db48625",
+            "module_layer2_2_bn3_20cf9d20:input:binding_node_fx_layer2_2_bn3_66_85816bb0_node_fx_l_119ee58d",
+            "module_layer2_2_bn3_20cf9d20:output:binding_node_fx_layer2_2_bn3_66_85816bb0_node_fx_l_29ec2bea",
+            "module_layer2_2_relu_fa8d3b42:input:binding_node_fx_layer2_2_relu_61_cca36fdc_node_fx__1056e502",
+            "module_layer2_2_relu_fa8d3b42:input:binding_node_fx_layer2_2_relu_1_64_5deb9aab_node_f_decb8a8c",
+            "module_layer2_2_relu_fa8d3b42:input:binding_node_fx_layer2_2_relu_2_68_a22075ae_node_f_b965b1b1",
+            "module_layer2_2_relu_fa8d3b42:output:binding_node_fx_layer2_2_relu_61_cca36fdc_node_fx__d5eab81c",
+            "module_layer2_2_relu_fa8d3b42:output:binding_node_fx_layer2_2_relu_1_64_5deb9aab_node_f_1ac17473",
+            "module_layer2_2_relu_fa8d3b42:output:binding_node_fx_layer2_2_relu_2_68_a22075ae_node_f_08be1e3d",
+            "module_layer2_3_bn3_a9006e6d:input:binding_node_fx_layer2_3_bn3_76_a8cbeab5_node_fx_l_0f00ce21",
+            "module_layer2_3_bn3_a9006e6d:output:binding_node_fx_layer2_3_bn3_76_a8cbeab5_node_fx_l_2c93b40a",
+            "node_fx_add_3_47_96d04362:input:0",
+            "node_fx_add_3_47_96d04362:input:1",
+            "node_fx_add_3_47_96d04362:output:0",
+            "node_fx_add_4_57_f67a5aea:input:0",
+            "node_fx_add_4_57_f67a5aea:input:1",
+            "node_fx_add_4_57_f67a5aea:output:0",
+            "node_fx_add_5_67_f2cdaea7:input:0",
+            "node_fx_add_5_67_f2cdaea7:input:1",
+            "node_fx_add_5_67_f2cdaea7:output:0",
+            "node_fx_add_6_77_22ae0364:input:0",
+            "node_fx_add_6_77_22ae0364:input:1",
+            "node_fx_add_6_77_22ae0364:output:0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer2_0_bn1_adf3569e_m_644546d4",
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+          ],
+          "source_id": "semantic_stage_stage_module_layer2_0_bn1_adf3569e_m_644546d4"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3.7,
+        -1.295,
+        2.035,
+        1.0
+      ],
+      "mesh": 5,
+      "name": "Stage 2 ×4 Bottleneck"
+    },
+    {
+      "extras": {
+        "kind": "residual-skip",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_15f88acf",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "residual-skip",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer2_0_bn3_44_a8cc61c2_node_0b5fb2a2",
+              "module_edge_edge_node_fx_layer2_0_downsample_1_46_0f46_17f48eaa",
+              "module_edge_edge_node_fx_layer2_1_bn3_56_eb1357c8_node_6291d333",
+              "module_edge_edge_node_fx_layer2_0_relu_2_48_05cd312b_n_6fb5ded8",
+              "module_edge_edge_node_fx_layer2_2_bn3_66_85816bb0_node_0b28fe08",
+              "module_edge_edge_node_fx_layer2_1_relu_2_58_6021708b_n_53e4bdec",
+              "module_edge_edge_node_fx_layer2_3_bn3_76_a8cbeab5_node_2930ce44",
+              "module_edge_edge_node_fx_layer2_2_relu_2_68_a22075ae_n_130d6f7a"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__5aa8ea21",
+            "figure_object_model_figure_repeat_architecture_projectio_3e5fe416",
+            "figure_object_model_figure_tensor_architecture_projectio_a1677636",
+            "figure_object_model_figure_edge_architecture_projection__9f5ee5a5",
+            "figure_object_model_figure_edge_architecture_projection__51c6b588",
+            "figure_object_model_figure_edge_architecture_projection__bcedb5b1"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_layer2_0_bn3_44_a8cc61c2_node_0b5fb2a2",
+            "module_edge_edge_node_fx_layer2_0_downsample_1_46_0f46_17f48eaa",
+            "module_edge_edge_node_fx_layer2_1_bn3_56_eb1357c8_node_6291d333",
+            "module_edge_edge_node_fx_layer2_0_relu_2_48_05cd312b_n_6fb5ded8",
+            "module_edge_edge_node_fx_layer2_2_bn3_66_85816bb0_node_0b28fe08",
+            "module_edge_edge_node_fx_layer2_1_relu_2_58_6021708b_n_53e4bdec",
+            "module_edge_edge_node_fx_layer2_3_bn3_76_a8cbeab5_node_2930ce44",
+            "module_edge_edge_node_fx_layer2_2_relu_2_68_a22075ae_n_130d6f7a",
+            "module_layer2_0_bn3_9d4960de",
+            "module_layer2_0_downsample_1_cadc8365",
+            "module_layer2_1_bn3_5c0a7a03",
+            "module_layer2_0_relu_d5097559",
+            "module_layer2_2_bn3_20cf9d20",
+            "module_layer2_1_relu_098b49a3",
+            "module_layer2_3_bn3_a9006e6d",
+            "module_layer2_2_relu_fa8d3b42",
+            "node_fx_add_3_47_96d04362",
+            "node_fx_add_4_57_f67a5aea",
+            "node_fx_add_5_67_f2cdaea7",
+            "node_fx_add_6_77_22ae0364",
+            "module_layer2_0_bn3_9d4960de:output:binding_node_fx_layer2_0_bn3_44_a8cc61c2_node_fx_l_9ffacdf1",
+            "node_fx_add_3_47_96d04362:input:0",
+            "module_layer2_0_downsample_1_cadc8365:output:binding_node_fx_layer2_0_downsample_1_46_0f46f2f1__d5ea28ae",
+            "node_fx_add_3_47_96d04362:input:1",
+            "module_layer2_1_bn3_5c0a7a03:output:binding_node_fx_layer2_1_bn3_56_eb1357c8_node_fx_l_19c94792",
+            "node_fx_add_4_57_f67a5aea:input:0",
+            "module_layer2_0_relu_d5097559:output:binding_node_fx_layer2_0_relu_2_48_05cd312b_node_f_cbaf13d2",
+            "node_fx_add_4_57_f67a5aea:input:1",
+            "module_layer2_2_bn3_20cf9d20:output:binding_node_fx_layer2_2_bn3_66_85816bb0_node_fx_l_29ec2bea",
+            "node_fx_add_5_67_f2cdaea7:input:0",
+            "module_layer2_1_relu_098b49a3:output:binding_node_fx_layer2_1_relu_2_58_6021708b_node_f_5db48625",
+            "node_fx_add_5_67_f2cdaea7:input:1",
+            "module_layer2_3_bn3_a9006e6d:output:binding_node_fx_layer2_3_bn3_76_a8cbeab5_node_fx_l_2c93b40a",
+            "node_fx_add_6_77_22ae0364:input:0",
+            "module_layer2_2_relu_fa8d3b42:output:binding_node_fx_layer2_2_relu_2_68_a22075ae_node_f_08be1e3d",
+            "node_fx_add_6_77_22ae0364:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer2_0_bn1_adf3569e_m_644546d4",
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+          ],
+          "source_id": "semantic_stage_stage_module_layer2_0_bn1_adf3569e_m_644546d4"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 6,
+      "name": "Stage 2 shortcuts"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_24923427",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer1_0_bn1_6_02c52240_node__2650ceec"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__55655a3b",
+            "figure_object_model_figure_tensor_architecture_projectio_f8399b1c",
+            "figure_object_model_figure_node_architecture_projection__5d929603",
+            "figure_object_model_figure_repeat_architecture_projectio_c3ac4e0f",
+            "figure_object_model_figure_tensor_architecture_projectio_dd1b6f3b",
+            "figure_object_model_figure_edge_architecture_projection__6f0c7c6e",
+            "figure_object_model_figure_edge_architecture_projection__885467cb"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_layer1_0_bn1_6_02c52240_node__2650ceec",
+            "module_layer1_0_bn1_d421e4a5",
+            "module_layer1_0_relu_28279c7a",
+            "module_layer1_0_bn1_d421e4a5:output:binding_node_fx_layer1_0_bn1_6_02c52240_node_fx_la_c15b7e8d",
+            "module_layer1_0_relu_28279c7a:input:binding_node_fx_layer1_0_relu_7_92edf1ab_node_fx_l_3ceb73d7"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer1_0_bn1_d421e4a5_m_a20b7eb6"
+          ],
+          "source_id": "semantic_stage_stage_module_layer1_0_bn1_d421e4a5_m_a20b7eb6"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 7,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "residual-skip",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_5e0fe99a",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "residual-skip",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer4_0_bn3_148_24d0732a_nod_e01125f2",
+              "module_edge_edge_node_fx_layer4_0_downsample_1_150_f08_f7300116",
+              "module_edge_edge_node_fx_layer4_1_bn3_160_8ed242b2_nod_34a8ae57",
+              "module_edge_edge_node_fx_layer4_0_relu_2_152_b0d3b5b5__56442ad0",
+              "module_edge_edge_node_fx_layer4_2_bn3_170_351ae529_nod_6e83deff",
+              "module_edge_edge_node_fx_layer4_1_relu_2_162_c8a40256__59d695db"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__be0ed2de",
+            "figure_object_model_figure_repeat_architecture_projectio_a73dc557",
+            "figure_object_model_figure_tensor_architecture_projectio_2d4f1e00",
+            "figure_object_model_figure_edge_architecture_projection__57a8abe7",
+            "figure_object_model_figure_edge_architecture_projection__3ec56d9a",
+            "figure_object_model_figure_edge_architecture_projection__8db549c0",
+            "figure_object_model_figure_edge_architecture_projection__57371886"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_layer4_0_bn3_148_24d0732a_nod_e01125f2",
+            "module_edge_edge_node_fx_layer4_0_downsample_1_150_f08_f7300116",
+            "module_edge_edge_node_fx_layer4_1_bn3_160_8ed242b2_nod_34a8ae57",
+            "module_edge_edge_node_fx_layer4_0_relu_2_152_b0d3b5b5__56442ad0",
+            "module_edge_edge_node_fx_layer4_2_bn3_170_351ae529_nod_6e83deff",
+            "module_edge_edge_node_fx_layer4_1_relu_2_162_c8a40256__59d695db",
+            "module_layer4_0_bn3_c1b24274",
+            "module_layer4_0_downsample_1_56b33cd8",
+            "module_layer4_1_bn3_9c64fdeb",
+            "module_layer4_0_relu_062059c6",
+            "module_layer4_2_bn3_2885695e",
+            "module_layer4_1_relu_249927d0",
+            "node_fx_add_13_151_28142a6f",
+            "node_fx_add_14_161_7bfc243d",
+            "node_fx_add_15_171_5e3d5c38",
+            "module_layer4_0_bn3_c1b24274:output:binding_node_fx_layer4_0_bn3_148_24d0732a_node_fx__694eb2ce",
+            "node_fx_add_13_151_28142a6f:input:0",
+            "module_layer4_0_downsample_1_56b33cd8:output:binding_node_fx_layer4_0_downsample_1_150_f08f021b_d31007a4",
+            "node_fx_add_13_151_28142a6f:input:1",
+            "module_layer4_1_bn3_9c64fdeb:output:binding_node_fx_layer4_1_bn3_160_8ed242b2_node_fx__1d773b76",
+            "node_fx_add_14_161_7bfc243d:input:0",
+            "module_layer4_0_relu_062059c6:output:binding_node_fx_layer4_0_relu_2_152_b0d3b5b5_node__5e898942",
+            "node_fx_add_14_161_7bfc243d:input:1",
+            "module_layer4_2_bn3_2885695e:output:binding_node_fx_layer4_2_bn3_170_351ae529_node_fx__1341bfa0",
+            "node_fx_add_15_171_5e3d5c38:input:0",
+            "module_layer4_1_relu_249927d0:output:binding_node_fx_layer4_1_relu_2_162_c8a40256_node__126d4c7e",
+            "node_fx_add_15_171_5e3d5c38:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer4_0_bn1_e89c6542_m_432e00fd",
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+          ],
+          "source_id": "semantic_stage_stage_module_layer4_0_bn1_e89c6542_m_432e00fd"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 8,
+      "name": "Stage 4 shortcuts"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_60c2c1fe",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_add_2_35_231c4367_node_fx_add_abdb6dd8"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__55655a3b",
+            "figure_object_model_figure_tensor_architecture_projectio_f8399b1c",
+            "figure_object_model_figure_node_architecture_projection__5d929603",
+            "figure_object_model_figure_repeat_architecture_projectio_c3ac4e0f",
+            "figure_object_model_figure_tensor_architecture_projectio_dd1b6f3b",
+            "figure_object_model_figure_edge_architecture_projection__6f0c7c6e",
+            "figure_object_model_figure_edge_architecture_projection__9f5ee5a5",
+            "figure_object_model_figure_edge_architecture_projection__6d72328b"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_add_2_35_231c4367_node_fx_add_abdb6dd8",
+            "node_fx_add_2_35_231c4367",
+            "module_layer1_2_relu_6a1024e4",
+            "node_fx_add_2_35_231c4367:output:0",
+            "module_layer1_2_relu_6a1024e4:input:binding_node_fx_layer1_2_relu_2_36_dd2ef601_node_f_01ac8155"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf",
+            "semantic_stage_stage_module_layer1_0_bn1_d421e4a5_m_a20b7eb6"
+          ],
+          "source_id": "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 9,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_8bd33443",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer4_0_bn2_145_2461e180_nod_9a789c13"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__be0ed2de",
+            "figure_object_model_figure_repeat_architecture_projectio_a73dc557",
+            "figure_object_model_figure_tensor_architecture_projectio_2d4f1e00",
+            "figure_object_model_figure_node_architecture_projection__93051145",
+            "figure_object_model_figure_tensor_architecture_projectio_02ea2d22",
+            "figure_object_model_figure_edge_architecture_projection__57a8abe7",
+            "figure_object_model_figure_edge_architecture_projection__57371886"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_layer4_0_bn2_145_2461e180_nod_9a789c13",
+            "module_layer4_0_bn2_5df675c1",
+            "module_layer4_0_relu_062059c6",
+            "module_layer4_0_bn2_5df675c1:output:binding_node_fx_layer4_0_bn2_145_2461e180_node_fx__4665d956",
+            "module_layer4_0_relu_062059c6:input:binding_node_fx_layer4_0_relu_1_146_7777fdec_node__1052d02a"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer4_0_bn1_e89c6542_m_432e00fd"
+          ],
+          "source_id": "semantic_stage_stage_module_layer4_0_bn1_e89c6542_m_432e00fd"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 10,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_a303ab1b",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_add_15_171_5e3d5c38_node_fx_a_3868aea0"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__be0ed2de",
+            "figure_object_model_figure_repeat_architecture_projectio_a73dc557",
+            "figure_object_model_figure_tensor_architecture_projectio_2d4f1e00",
+            "figure_object_model_figure_node_architecture_projection__93051145",
+            "figure_object_model_figure_tensor_architecture_projectio_02ea2d22",
+            "figure_object_model_figure_edge_architecture_projection__57a8abe7",
+            "figure_object_model_figure_edge_architecture_projection__8db549c0"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_add_15_171_5e3d5c38_node_fx_a_3868aea0",
+            "node_fx_add_15_171_5e3d5c38",
+            "module_layer4_2_relu_6befeb55",
+            "node_fx_add_15_171_5e3d5c38:output:0",
+            "module_layer4_2_relu_6befeb55:input:binding_node_fx_layer4_2_relu_2_172_f7799803_node__479c7a80"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf",
+            "semantic_stage_stage_module_layer4_0_bn1_e89c6542_m_432e00fd"
+          ],
+          "source_id": "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 11,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "residual-skip",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_aaa36219",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "residual-skip",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer1_0_bn3_12_6eb7011c_node_1d7b1aa3",
+              "module_edge_edge_node_fx_layer1_0_downsample_1_14_7e1b_7e58286f",
+              "module_edge_edge_node_fx_layer1_1_bn3_24_6c113f3c_node_c0446eab",
+              "module_edge_edge_node_fx_layer1_0_relu_2_16_979fbfcd_n_46e840eb",
+              "module_edge_edge_node_fx_layer1_2_bn3_34_b9b460a9_node_54ef6961",
+              "module_edge_edge_node_fx_layer1_1_relu_2_26_9962d8b6_n_1bbd6419"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__5d929603",
+            "figure_object_model_figure_repeat_architecture_projectio_c3ac4e0f",
+            "figure_object_model_figure_tensor_architecture_projectio_dd1b6f3b",
+            "figure_object_model_figure_edge_architecture_projection__6f0c7c6e",
+            "figure_object_model_figure_edge_architecture_projection__885467cb",
+            "figure_object_model_figure_edge_architecture_projection__6d72328b"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_layer1_0_bn3_12_6eb7011c_node_1d7b1aa3",
+            "module_edge_edge_node_fx_layer1_0_downsample_1_14_7e1b_7e58286f",
+            "module_edge_edge_node_fx_layer1_1_bn3_24_6c113f3c_node_c0446eab",
+            "module_edge_edge_node_fx_layer1_0_relu_2_16_979fbfcd_n_46e840eb",
+            "module_edge_edge_node_fx_layer1_2_bn3_34_b9b460a9_node_54ef6961",
+            "module_edge_edge_node_fx_layer1_1_relu_2_26_9962d8b6_n_1bbd6419",
+            "module_layer1_0_bn3_f15d05ec",
+            "module_layer1_0_downsample_1_073ffe3a",
+            "module_layer1_1_bn3_d3bb057a",
+            "module_layer1_0_relu_28279c7a",
+            "module_layer1_2_bn3_a5ca9e57",
+            "module_layer1_1_relu_86f17790",
+            "node_fx_add_15_a1bc4f1b",
+            "node_fx_add_1_25_164248c2",
+            "node_fx_add_2_35_231c4367",
+            "module_layer1_0_bn3_f15d05ec:output:binding_node_fx_layer1_0_bn3_12_6eb7011c_node_fx_l_8355047c",
+            "node_fx_add_15_a1bc4f1b:input:0",
+            "module_layer1_0_downsample_1_073ffe3a:output:binding_node_fx_layer1_0_downsample_1_14_7e1b146f__2ba2c475",
+            "node_fx_add_15_a1bc4f1b:input:1",
+            "module_layer1_1_bn3_d3bb057a:output:binding_node_fx_layer1_1_bn3_24_6c113f3c_node_fx_l_b2d13ee7",
+            "node_fx_add_1_25_164248c2:input:0",
+            "module_layer1_0_relu_28279c7a:output:binding_node_fx_layer1_0_relu_2_16_979fbfcd_node_f_3aa61ff3",
+            "node_fx_add_1_25_164248c2:input:1",
+            "module_layer1_2_bn3_a5ca9e57:output:binding_node_fx_layer1_2_bn3_34_b9b460a9_node_fx_l_e9e60752",
+            "node_fx_add_2_35_231c4367:input:0",
+            "module_layer1_1_relu_86f17790:output:binding_node_fx_layer1_1_relu_2_26_9962d8b6_node_f_6de84d06",
+            "node_fx_add_2_35_231c4367:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer1_0_bn1_d421e4a5_m_a20b7eb6",
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+          ],
+          "source_id": "semantic_stage_stage_module_layer1_0_bn1_d421e4a5_m_a20b7eb6"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 12,
+      "name": "Stage 1 shortcuts"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_afa0c185",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_add_12_139_abdc300d_node_fx_a_6adb2875",
+              "module_edge_edge_node_fx_layer3_5_relu_2_140_ad8ae58f__55403359",
+              "module_edge_edge_node_fx_layer4_0_downsample_0_149_0c9_5d8e3e87"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__f69cbeaf",
+            "figure_object_model_figure_repeat_architecture_projectio_322fccfd",
+            "figure_object_model_figure_tensor_architecture_projectio_0f0d13e8",
+            "figure_object_model_figure_node_architecture_projection__be0ed2de",
+            "figure_object_model_figure_repeat_architecture_projectio_a73dc557",
+            "figure_object_model_figure_tensor_architecture_projectio_2d4f1e00",
+            "figure_object_model_figure_edge_architecture_projection__a7173877",
+            "figure_object_model_figure_edge_architecture_projection__57a8abe7",
+            "figure_object_model_figure_edge_architecture_projection__3ec56d9a"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_add_12_139_abdc300d_node_fx_a_6adb2875",
+            "module_edge_edge_node_fx_layer3_5_relu_2_140_ad8ae58f__55403359",
+            "module_edge_edge_node_fx_layer4_0_downsample_0_149_0c9_5d8e3e87",
+            "node_fx_add_12_139_abdc300d",
+            "module_layer3_5_relu_c40c30bd",
+            "module_layer4_0_downsample_0_6a5b95d7",
+            "module_layer4_0_downsample_1_56b33cd8",
+            "node_fx_add_12_139_abdc300d:output:0",
+            "module_layer3_5_relu_c40c30bd:input:binding_node_fx_layer3_5_relu_2_140_ad8ae58f_node__e0904735",
+            "module_layer3_5_relu_c40c30bd:output:binding_node_fx_layer3_5_relu_2_140_ad8ae58f_node__925543d5",
+            "module_layer4_0_downsample_0_6a5b95d7:input:binding_node_fx_layer4_0_downsample_0_149_0c9db211_b37566eb",
+            "module_layer4_0_downsample_0_6a5b95d7:output:binding_node_fx_layer4_0_downsample_0_149_0c9db211_1a6afb6e",
+            "module_layer4_0_downsample_1_56b33cd8:input:binding_node_fx_layer4_0_downsample_1_150_f08f021b_b3ef66e0"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer4_0_bn1_e89c6542_m_432e00fd",
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf",
+            "semantic_stage_stage_module_layer3_0_bn1_1d4fe40c_m_a928de22"
+          ],
+          "source_id": "semantic_stage_stage_module_layer4_0_bn1_e89c6542_m_432e00fd"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 13,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "residual-skip",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_bb8822e2",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "residual-skip",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer3_0_bn3_86_c4cff39e_node_c41c72bb",
+              "module_edge_edge_node_fx_layer3_0_downsample_1_88_e2f2_bba5027f",
+              "module_edge_edge_node_fx_layer3_1_bn3_98_e6ee6421_node_bbfb7d48",
+              "module_edge_edge_node_fx_layer3_0_relu_2_90_1e68bcee_n_a63d0f84",
+              "module_edge_edge_node_fx_layer3_2_bn3_108_e3c5d3f3_nod_031e9fcc",
+              "module_edge_edge_node_fx_layer3_1_relu_2_100_6097c8ca__105720b4",
+              "module_edge_edge_node_fx_layer3_3_bn3_118_da46ec18_nod_d8e39132",
+              "module_edge_edge_node_fx_layer3_2_relu_2_110_c7281315__a559c29c",
+              "module_edge_edge_node_fx_layer3_4_bn3_128_0b9a9202_nod_8808216d",
+              "module_edge_edge_node_fx_layer3_3_relu_2_120_26437efd__2df49e55",
+              "module_edge_edge_node_fx_layer3_5_bn3_138_59741683_nod_a727992e",
+              "module_edge_edge_node_fx_layer3_4_relu_2_130_75b29f17__dbcae041"
+            ],
+            "protected_semantic_structure": true
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__f69cbeaf",
+            "figure_object_model_figure_repeat_architecture_projectio_322fccfd",
+            "figure_object_model_figure_tensor_architecture_projectio_0f0d13e8",
+            "figure_object_model_figure_edge_architecture_projection__a7173877",
+            "figure_object_model_figure_edge_architecture_projection__bcedb5b1",
+            "figure_object_model_figure_edge_architecture_projection__3ec56d9a"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_layer3_0_bn3_86_c4cff39e_node_c41c72bb",
+            "module_edge_edge_node_fx_layer3_0_downsample_1_88_e2f2_bba5027f",
+            "module_edge_edge_node_fx_layer3_1_bn3_98_e6ee6421_node_bbfb7d48",
+            "module_edge_edge_node_fx_layer3_0_relu_2_90_1e68bcee_n_a63d0f84",
+            "module_edge_edge_node_fx_layer3_2_bn3_108_e3c5d3f3_nod_031e9fcc",
+            "module_edge_edge_node_fx_layer3_1_relu_2_100_6097c8ca__105720b4",
+            "module_edge_edge_node_fx_layer3_3_bn3_118_da46ec18_nod_d8e39132",
+            "module_edge_edge_node_fx_layer3_2_relu_2_110_c7281315__a559c29c",
+            "module_edge_edge_node_fx_layer3_4_bn3_128_0b9a9202_nod_8808216d",
+            "module_edge_edge_node_fx_layer3_3_relu_2_120_26437efd__2df49e55",
+            "module_edge_edge_node_fx_layer3_5_bn3_138_59741683_nod_a727992e",
+            "module_edge_edge_node_fx_layer3_4_relu_2_130_75b29f17__dbcae041",
+            "module_layer3_0_bn3_671bc7b5",
+            "module_layer3_0_downsample_1_da7dd4da",
+            "module_layer3_1_bn3_df0a4e1a",
+            "module_layer3_0_relu_9d915a3b",
+            "module_layer3_2_bn3_2e9c30f4",
+            "module_layer3_1_relu_0bd63740",
+            "module_layer3_3_bn3_38c36b1d",
+            "module_layer3_2_relu_a3ff2fcd",
+            "module_layer3_4_bn3_93054772",
+            "module_layer3_3_relu_28b79f34",
+            "module_layer3_5_bn3_c4a089a5",
+            "module_layer3_4_relu_1df98237",
+            "node_fx_add_7_89_42366444",
+            "node_fx_add_8_99_41993a89",
+            "node_fx_add_9_109_f5755adb",
+            "node_fx_add_10_119_477ae606",
+            "node_fx_add_11_129_f1edfe86",
+            "node_fx_add_12_139_abdc300d",
+            "module_layer3_0_bn3_671bc7b5:output:binding_node_fx_layer3_0_bn3_86_c4cff39e_node_fx_l_cc2ca864",
+            "node_fx_add_7_89_42366444:input:0",
+            "module_layer3_0_downsample_1_da7dd4da:output:binding_node_fx_layer3_0_downsample_1_88_e2f25b06__cc523b63",
+            "node_fx_add_7_89_42366444:input:1",
+            "module_layer3_1_bn3_df0a4e1a:output:binding_node_fx_layer3_1_bn3_98_e6ee6421_node_fx_l_1e535ddd",
+            "node_fx_add_8_99_41993a89:input:0",
+            "module_layer3_0_relu_9d915a3b:output:binding_node_fx_layer3_0_relu_2_90_1e68bcee_node_f_8f2d28ca",
+            "node_fx_add_8_99_41993a89:input:1",
+            "module_layer3_2_bn3_2e9c30f4:output:binding_node_fx_layer3_2_bn3_108_e3c5d3f3_node_fx__972af284",
+            "node_fx_add_9_109_f5755adb:input:0",
+            "module_layer3_1_relu_0bd63740:output:binding_node_fx_layer3_1_relu_2_100_6097c8ca_node__c8670a0d",
+            "node_fx_add_9_109_f5755adb:input:1",
+            "module_layer3_3_bn3_38c36b1d:output:binding_node_fx_layer3_3_bn3_118_da46ec18_node_fx__9423e097",
+            "node_fx_add_10_119_477ae606:input:0",
+            "module_layer3_2_relu_a3ff2fcd:output:binding_node_fx_layer3_2_relu_2_110_c7281315_node__004e5248",
+            "node_fx_add_10_119_477ae606:input:1",
+            "module_layer3_4_bn3_93054772:output:binding_node_fx_layer3_4_bn3_128_0b9a9202_node_fx__1c2db3c7",
+            "node_fx_add_11_129_f1edfe86:input:0",
+            "module_layer3_3_relu_28b79f34:output:binding_node_fx_layer3_3_relu_2_120_26437efd_node__85c4a8c6",
+            "node_fx_add_11_129_f1edfe86:input:1",
+            "module_layer3_5_bn3_c4a089a5:output:binding_node_fx_layer3_5_bn3_138_59741683_node_fx__a755fca4",
+            "node_fx_add_12_139_abdc300d:input:0",
+            "module_layer3_4_relu_1df98237:output:binding_node_fx_layer3_4_relu_2_130_75b29f17_node__14d806fe",
+            "node_fx_add_12_139_abdc300d:input:1"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer3_0_bn1_1d4fe40c_m_a928de22",
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf"
+          ],
+          "source_id": "semantic_stage_stage_module_layer3_0_bn1_1d4fe40c_m_a928de22"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 14,
+      "name": "Stage 3 shortcuts"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_ccc191c0",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_layer1_2_relu_2_36_dd2ef601_n_84cb1236",
+              "module_edge_edge_node_fx_layer2_0_downsample_0_45_1900_e3d1a0c0"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__55655a3b",
+            "figure_object_model_figure_tensor_architecture_projectio_f8399b1c",
+            "figure_object_model_figure_node_architecture_projection__5aa8ea21",
+            "figure_object_model_figure_repeat_architecture_projectio_3e5fe416",
+            "figure_object_model_figure_tensor_architecture_projectio_a1677636",
+            "figure_object_model_figure_edge_architecture_projection__9f5ee5a5",
+            "figure_object_model_figure_edge_architecture_projection__6d72328b",
+            "figure_object_model_figure_edge_architecture_projection__51c6b588"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_layer1_2_relu_2_36_dd2ef601_n_84cb1236",
+            "module_edge_edge_node_fx_layer2_0_downsample_0_45_1900_e3d1a0c0",
+            "module_layer1_2_relu_6a1024e4",
+            "module_layer2_0_downsample_0_6727055f",
+            "module_layer2_0_downsample_1_cadc8365",
+            "module_layer1_2_relu_6a1024e4:output:binding_node_fx_layer1_2_relu_2_36_dd2ef601_node_f_3177e52e",
+            "module_layer2_0_downsample_0_6727055f:input:binding_node_fx_layer2_0_downsample_0_45_1900d555__c17c6532",
+            "module_layer2_0_downsample_0_6727055f:output:binding_node_fx_layer2_0_downsample_0_45_1900d555__d3a484fb",
+            "module_layer2_0_downsample_1_cadc8365:input:binding_node_fx_layer2_0_downsample_1_46_0f46f2f1__228fb166"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer2_0_bn1_adf3569e_m_644546d4",
+            "semantic_stage_stage_module_layer1_0_bn1_d421e4a5_m_a20b7eb6"
+          ],
+          "source_id": "semantic_stage_stage_module_layer2_0_bn1_adf3569e_m_644546d4"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 15,
+      "name": "Traced main flow"
+    },
+    {
+      "extras": {
+        "kind": "arrow",
+        "locked": false,
+        "objectId": "scene_object_model_scene_architecture_route_architectur_dcaf4c76",
+        "provenance": {
+          "author_annotation": false,
+          "evidence": {
+            "architecture_route_role": "arrow",
+            "attributes": {},
+            "edge_ids": [
+              "module_edge_edge_node_fx_add_6_77_22ae0364_node_fx_add_fb028baa",
+              "module_edge_edge_node_fx_layer2_3_relu_2_78_6d59a761_n_12c9d971",
+              "module_edge_edge_node_fx_layer3_0_downsample_0_87_93a2_28f89c1d"
+            ],
+            "protected_semantic_structure": false
+          },
+          "figure_ir_ids": [
+            "figure_object_model_figure_node_architecture_projection__5aa8ea21",
+            "figure_object_model_figure_repeat_architecture_projectio_3e5fe416",
+            "figure_object_model_figure_tensor_architecture_projectio_a1677636",
+            "figure_object_model_figure_node_architecture_projection__f69cbeaf",
+            "figure_object_model_figure_repeat_architecture_projectio_322fccfd",
+            "figure_object_model_figure_tensor_architecture_projectio_0f0d13e8",
+            "figure_object_model_figure_edge_architecture_projection__51c6b588",
+            "figure_object_model_figure_edge_architecture_projection__a7173877",
+            "figure_object_model_figure_edge_architecture_projection__bcedb5b1"
+          ],
+          "graph_ir_ids": [
+            "module_edge_edge_node_fx_add_6_77_22ae0364_node_fx_add_fb028baa",
+            "module_edge_edge_node_fx_layer2_3_relu_2_78_6d59a761_n_12c9d971",
+            "module_edge_edge_node_fx_layer3_0_downsample_0_87_93a2_28f89c1d",
+            "node_fx_add_6_77_22ae0364",
+            "module_layer2_3_relu_8129331d",
+            "module_layer3_0_downsample_0_f2002a0e",
+            "module_layer3_0_downsample_1_da7dd4da",
+            "node_fx_add_6_77_22ae0364:output:0",
+            "module_layer2_3_relu_8129331d:input:binding_node_fx_layer2_3_relu_2_78_6d59a761_node_f_17840c5e",
+            "module_layer2_3_relu_8129331d:output:binding_node_fx_layer2_3_relu_2_78_6d59a761_node_f_8946ffee",
+            "module_layer3_0_downsample_0_f2002a0e:input:binding_node_fx_layer3_0_downsample_0_87_93a22e5f__c9ac4b72",
+            "module_layer3_0_downsample_0_f2002a0e:output:binding_node_fx_layer3_0_downsample_0_87_93a22e5f__ae043cfb",
+            "module_layer3_0_downsample_1_da7dd4da:input:binding_node_fx_layer3_0_downsample_1_88_e2f25b06__41286b46"
+          ],
+          "kind": "semantic_view",
+          "reason": "",
+          "semantic_view_ids": [
+            "semantic_stage_stage_module_layer3_0_bn1_1d4fe40c_m_a928de22",
+            "semantic_stage_stage_module_maxpool_d1478f2a_module_85c1bcaf",
+            "semantic_stage_stage_module_layer2_0_bn1_adf3569e_m_644546d4"
+          ],
+          "source_id": "semantic_stage_stage_module_layer3_0_bn1_1d4fe40c_m_a928de22"
+        },
+        "visible": true
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 16,
+      "name": "Traced main flow"
+    },
+    {
+      "camera": 0,
+      "extras": {
+        "kind": "camera",
+        "objectId": "scene_camera_resnet___module___architecture_evidence_3d_976e7c65"
+      },
+      "matrix": [
+        0.759256602,
+        0.0,
+        -0.650791373,
+        0.0,
+        -0.310252614,
+        0.879049073,
+        -0.361961383,
+        0.0,
+        0.572077554,
+        0.476731295,
+        0.667423812,
+        0.0,
+        12.0,
+        10.0,
+        14.0,
+        1.0
+      ],
+      "name": "ResNet · Module · Architecture Evidence 3D isometric camera"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "extras": {
+        "kind": "light",
+        "objectId": "scene_light_resnet___module___architecture_evidence_3d_4f22724a"
+      },
+      "name": "Key light",
+      "translation": [
+        8.0,
+        10.0,
+        12.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "activeCameraId": "scene_camera_resnet___module___architecture_evidence_3d_976e7c65",
+        "sceneId": "scene_resnet___module___architecture_evidence_3d_6a3fdfad",
+        "sourceDigest": "de71c5316b764e90ddf9df57739d6ffa4c54407a1185f3be623e1782d09ae86d"
+      },
+      "name": "ResNet · Module · Architecture Evidence 3D",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ]
+}

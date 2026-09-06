@@ -1,0 +1,1602 @@
+{
+  "active_camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+  "cameras": [
+    {
+      "aspect": 1.5,
+      "far": 10000.0,
+      "fov_y_deg": 45.0,
+      "id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+      "locked": false,
+      "metadata": {},
+      "name": "cnn 3D template isometric camera",
+      "near": 0.1,
+      "ortho_height": 18.0,
+      "position": [
+        12.0,
+        10.0,
+        14.0
+      ],
+      "projection": "orthographic",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  ],
+  "id": "scene_cnn_3d_template_6648b1a5",
+  "layers": [
+    {
+      "groups": [],
+      "id": "scene_layer_cnn_3d_template_layer_model_bb657529",
+      "locked": false,
+      "metadata": {},
+      "name": "Model",
+      "objects": [
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              17.0,
+              11.0,
+              8.0
+            ]
+          },
+          "id": "scene_object_scene_template_cnn_group_frame_b0620bd1",
+          "kind": "group-frame",
+          "locked": false,
+          "material": {
+            "base_color": "#e2e8f0",
+            "face_colors": {
+              "front": "#e2e8f0",
+              "top": "#e2e8f0"
+            },
+            "metallic": 0.0,
+            "opacity": 0.025,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "group-frame",
+            "decorative": true,
+            "default_hidden_in_publication": true,
+            "editable": true,
+            "exclude_from_framing": true,
+            "frame_role": "template-boundary",
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Architecture group frame",
+          "order": -100,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.995824722854548,
+              "ndc": [
+                1.3158198810372225e-16,
+                -9.868649107779169e-17,
+                -0.995824722854548
+              ],
+              "point": [
+                600.0000000000001,
+                400.0
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:group-frame"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              8.5,
+              5.5,
+              4.0
+            ],
+            "bounds_min": [
+              -8.5,
+              -5.5,
+              -4.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              2.0,
+              4.0,
+              4.0
+            ]
+          },
+          "id": "scene_object_scene_template_cnn_features_1_f3e7a0f2",
+          "kind": "feature-map-stack",
+          "locked": false,
+          "material": {
+            "base_color": "#93c5fd",
+            "face_colors": {
+              "front": "#93c5fd",
+              "top": "#93c5fd"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "features-1",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true,
+            "tensor_shape": [
+              "B",
+              "C1",
+              "H1",
+              "W1"
+            ]
+          },
+          "name": "Feature maps",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.995424264562482,
+              "ndc": [
+                -0.1968443043169286,
+                0.12065379433217106,
+                -0.995424264562482
+              ],
+              "point": [
+                481.89341740984287,
+                351.7384822671316
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:features-1"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              -3.5,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              -2.5,
+              2.0,
+              2.0
+            ],
+            "bounds_min": [
+              -4.5,
+              -2.0,
+              -2.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -3.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              -3.5,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              2.2,
+              2.2,
+              2.2
+            ]
+          },
+          "id": "scene_object_scene_template_cnn_features_2_1fc5ceed",
+          "kind": "feature-map-stack",
+          "locked": false,
+          "material": {
+            "base_color": "#60a5fa",
+            "face_colors": {
+              "front": "#60a5fa",
+              "top": "#60a5fa"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "features-2",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true,
+            "tensor_shape": [
+              "B",
+              "C2",
+              "H2",
+              "W2"
+            ]
+          },
+          "name": "Deep features",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.9960878811607629,
+              "ndc": [
+                0.1293548285511247,
+                -0.0792867791325697,
+                -0.9960878811607629
+              ],
+              "point": [
+                677.6128971306749,
+                431.7147116530279
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:features-2"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              2.3,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              3.4,
+              1.1,
+              1.1
+            ],
+            "bounds_min": [
+              1.1999999999999997,
+              -1.1,
+              -1.1
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                2.3
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              2.3,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "points": [
+              [
+                -6.5,
+                0.0,
+                0.0
+              ],
+              [
+                -4.5,
+                0.0,
+                0.0
+              ]
+            ],
+            "radius": 0.07
+          },
+          "id": "scene_object_scene_template_cnn_flow_0_656403c7",
+          "kind": "arrow",
+          "locked": false,
+          "material": {
+            "base_color": "#475569",
+            "face_colors": {
+              "front": "#475569",
+              "top": "#475569"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#475569",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "flow-0",
+            "editable": true,
+            "endpoint_object_ids": [
+              "scene_object_scene_template_cnn_input_9c93da68",
+              "scene_object_scene_template_cnn_features_1_f3e7a0f2"
+            ],
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Data flow",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.995824722854548,
+              "ndc": [
+                1.3158198810372225e-16,
+                -9.868649107779169e-17,
+                -0.995824722854548
+              ],
+              "point": [
+                600.0000000000001,
+                400.0
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:flow-0"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              -4.43,
+              0.07,
+              0.07
+            ],
+            "bounds_min": [
+              -6.57,
+              -0.07,
+              -0.07
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "points": [
+              [
+                -2.5,
+                0.0,
+                0.0
+              ],
+              [
+                0.4,
+                0.0,
+                0.0
+              ]
+            ],
+            "radius": 0.07
+          },
+          "id": "scene_object_scene_template_cnn_flow_1_56fece14",
+          "kind": "arrow",
+          "locked": false,
+          "material": {
+            "base_color": "#475569",
+            "face_colors": {
+              "front": "#475569",
+              "top": "#475569"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#475569",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "flow-1",
+            "editable": true,
+            "endpoint_object_ids": [
+              "scene_object_scene_template_cnn_features_1_f3e7a0f2",
+              "scene_object_scene_template_cnn_pool_da28a912"
+            ],
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Data flow",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.995824722854548,
+              "ndc": [
+                1.3158198810372225e-16,
+                -9.868649107779169e-17,
+                -0.995824722854548
+              ],
+              "point": [
+                600.0000000000001,
+                400.0
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:flow-1"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              0.47000000000000003,
+              0.07,
+              0.07
+            ],
+            "bounds_min": [
+              -2.57,
+              -0.07,
+              -0.07
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "points": [
+              [
+                3.4,
+                0.0,
+                0.0
+              ],
+              [
+                4.3,
+                0.0,
+                0.0
+              ]
+            ],
+            "radius": 0.07
+          },
+          "id": "scene_object_scene_template_cnn_flow_2_a4cdf237",
+          "kind": "arrow",
+          "locked": false,
+          "material": {
+            "base_color": "#475569",
+            "face_colors": {
+              "front": "#475569",
+              "top": "#475569"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#475569",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "flow-2",
+            "editable": true,
+            "endpoint_object_ids": [
+              "scene_object_scene_template_cnn_features_2_1fc5ceed",
+              "scene_object_scene_template_cnn_head_4117f49c"
+            ],
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Data flow",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.995824722854548,
+              "ndc": [
+                1.3158198810372225e-16,
+                -9.868649107779169e-17,
+                -0.995824722854548
+              ],
+              "point": [
+                600.0000000000001,
+                400.0
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:flow-2"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              4.37,
+              0.07,
+              0.07
+            ],
+            "bounds_min": [
+              3.33,
+              -0.07,
+              -0.07
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              2.1,
+              1.6,
+              1.6
+            ]
+          },
+          "id": "scene_object_scene_template_cnn_head_4117f49c",
+          "kind": "operation-block",
+          "locked": false,
+          "material": {
+            "base_color": "#fde68a",
+            "face_colors": {
+              "front": "#fde68a",
+              "top": "#fde68a"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "head",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Classifier head",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.996431131125391,
+              "ndc": [
+                0.298078517965635,
+                -0.18270431713157356,
+                -0.996431131125391
+              ],
+              "point": [
+                778.8471107793811,
+                473.08172685262946
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:head"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              5.3,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              6.35,
+              0.8,
+              0.8
+            ],
+            "bounds_min": [
+              4.25,
+              -0.8,
+              -0.8
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                5.3
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              5.3,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              1.0,
+              5.0,
+              5.0
+            ]
+          },
+          "id": "scene_object_scene_template_cnn_input_9c93da68",
+          "kind": "tensor-volume",
+          "locked": false,
+          "material": {
+            "base_color": "#bfdbfe",
+            "face_colors": {
+              "front": "#bfdbfe",
+              "top": "#bfdbfe"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "input",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true,
+            "tensor_shape": [
+              "B",
+              "C",
+              "H",
+              "W"
+            ]
+          },
+          "name": "Input image",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.9950238062704159,
+              "ndc": [
+                -0.39368860863385735,
+                0.2413075886643422,
+                -0.9950238062704159
+              ],
+              "point": [
+                363.78683481968557,
+                303.4769645342631
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:input"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              -7.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              -6.5,
+              2.5,
+              2.5
+            ],
+            "bounds_min": [
+              -7.5,
+              -2.5,
+              -2.5
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -7.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              -7.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              0.25,
+              1.6,
+              1.6
+            ]
+          },
+          "id": "scene_object_scene_template_cnn_kernel_7341e8a2",
+          "kind": "convolution-window",
+          "locked": false,
+          "material": {
+            "base_color": "#8b5cf6",
+            "face_colors": {
+              "front": "#8b5cf6",
+              "top": "#8b5cf6"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "kernel",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Convolution window",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.9954337992837217,
+              "ndc": [
+                -0.3856541472331664,
+                0.11778108494330986,
+                -0.9954337992837217
+              ],
+              "point": [
+                368.60751166010016,
+                352.8875660226761
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:kernel"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              -5.4,
+              0.0,
+              1.7
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              -5.275,
+              0.8,
+              2.5
+            ],
+            "bounds_min": [
+              -5.525,
+              -0.8,
+              0.8999999999999999
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -5.4
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                1.7
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              -5.4,
+              0.0,
+              1.7
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              1.6,
+              3.0,
+              3.0
+            ]
+          },
+          "id": "scene_object_scene_template_cnn_pool_da28a912",
+          "kind": "downsample",
+          "locked": false,
+          "material": {
+            "base_color": "#a7f3d0",
+            "face_colors": {
+              "front": "#a7f3d0",
+              "top": "#a7f3d0"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "pool",
+            "editable": true,
+            "model_fact": false,
+            "template_only": true
+          },
+          "name": "Pooling / downsample",
+          "order": 0,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.99576751452711,
+              "ndc": [
+                -0.028120614902418257,
+                0.01723625633316721,
+                -0.99576751452711
+              ],
+              "point": [
+                583.127631058549,
+                393.10549746673314
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:pool"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              -0.5,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              0.30000000000000004,
+              1.5,
+              1.5
+            ],
+            "bounds_min": [
+              -1.3,
+              -1.5,
+              -1.5
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              -0.5,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "geometry": {
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "size": [
+              10.0,
+              0.5,
+              0.2
+            ],
+            "text": "3D depth and thickness are editable visual mappings, not literal tensor dimensions."
+          },
+          "id": "scene_object_scene_template_cnn_geometry_legend_bf63b839",
+          "kind": "legend",
+          "locked": false,
+          "material": {
+            "base_color": "#f8fafc",
+            "face_colors": {
+              "front": "#f8fafc",
+              "top": "#f8fafc"
+            },
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "roughness": 0.9,
+            "stroke_color": "#334155",
+            "stroke_width": 0.8,
+            "unlit": true
+          },
+          "metadata": {
+            "architecture_family": "cnn",
+            "architecture_role": "legend",
+            "caption": true,
+            "editable": true,
+            "exclude_from_framing": true,
+            "model_fact": false,
+            "template_only": true,
+            "visual_geometry_is_literal_tensor_size": false
+          },
+          "name": "Geometry mapping legend",
+          "order": 1000000,
+          "parent_group_id": null,
+          "projections": [
+            {
+              "camera_id": "scene_camera_cnn_3d_template_camera_isometric_9509aa6d",
+              "depth": -0.9953479867925646,
+              "ndc": [
+                1.3158198810372225e-16,
+                -0.48836059610640703,
+                -0.9953479867925646
+              ],
+              "point": [
+                600.0000000000001,
+                595.3442384425628
+              ],
+              "viewport": [
+                1200.0,
+                800.0
+              ],
+              "visible": true
+            }
+          ],
+          "provenance": {
+            "author_annotation": false,
+            "evidence": {},
+            "figure_ir_ids": [],
+            "graph_ir_ids": [],
+            "kind": "template",
+            "reason": "Explicit editable Scene template; not model evidence.",
+            "semantic_view_ids": [],
+            "source_id": "scene-template:cnn:geometry-legend"
+          },
+          "selected": false,
+          "transform": {
+            "position": [
+              0.0,
+              -5.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "visible": true,
+          "world": {
+            "bounds_max": [
+              5.0,
+              -4.75,
+              0.1
+            ],
+            "bounds_min": [
+              -5.0,
+              -5.25,
+              -0.1
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -5.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "position": [
+              0.0,
+              -5.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "order": 0,
+      "visible": true
+    }
+  ],
+  "lights": [
+    {
+      "color": "#ffffff",
+      "direction": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "id": "scene_light_cnn_3d_template_light_key_dc9a78f9",
+      "intensity": 1.0,
+      "kind": "directional",
+      "locked": false,
+      "metadata": {},
+      "name": "Key light",
+      "position": [
+        8.0,
+        10.0,
+        12.0
+      ],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "architecture_family": "cnn",
+    "authoring_mode": "scene-studio",
+    "contains_model_evidence": false,
+    "coordinate_system": "right-handed-y-up",
+    "evidenced_architecture_family": "template",
+    "matrix_convention": "row-major-column-vector",
+    "model_scene_pipeline": {
+      "architecture_was_not_inferred": true,
+      "mode": "explicit-template",
+      "version": "1.0"
+    },
+    "provenance_index": {
+      "figure_to_scene": {},
+      "graph_to_scene": {},
+      "scene_to_source": {},
+      "semantic_to_scene": {}
+    },
+    "rotation_unit": "degrees",
+    "template_id": "nn-davinci-scene-cnn-1.0",
+    "template_provenance_only": true,
+    "viewport": [
+      1200.0,
+      800.0
+    ]
+  },
+  "migrations": [],
+  "name": "cnn 3D template",
+  "schema_version": "1.0",
+  "selection_ids": []
+}

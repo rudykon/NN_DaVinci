@@ -1,0 +1,144 @@
+{
+  "cpu_publication_projection": {
+    "1000": {
+      "maximum_ms": 1571.436,
+      "median_ms": 1557.37,
+      "samples_ms": [
+        1571.436,
+        1557.37,
+        1548.121
+      ]
+    },
+    "250": {
+      "maximum_ms": 363.295,
+      "median_ms": 360.512,
+      "samples_ms": [
+        350.194,
+        363.295,
+        360.512
+      ]
+    }
+  },
+  "environment": {
+    "logical_cpu_count": 20,
+    "machine": "x86_64",
+    "platform": "Linux-6.17.0-20-generic-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "python": "3.13.5"
+  },
+  "failures": [],
+  "first_interactive": {
+    "1000_objects": {
+      "maximum_ms": 633.018,
+      "median_ms": 611.485,
+      "parent_0_7_0_maximum_ms": 653.131,
+      "regression_percent": -3.079,
+      "samples_ms": [
+        609.933,
+        611.485,
+        633.018
+      ]
+    },
+    "250_objects": {
+      "maximum_ms": 147.071,
+      "median_ms": 146.916,
+      "samples_ms": [
+        145.165,
+        147.071,
+        146.916
+      ]
+    }
+  },
+  "large_graphs": {
+    "10000": {
+      "maximum_ms": 745.225,
+      "median_ms": 718.246,
+      "provenance_mode": "exact-source-ids",
+      "samples_ms": [
+        714.027,
+        718.246,
+        745.225
+      ],
+      "scene_objects": 249,
+      "summary_first": true
+    },
+    "50000": {
+      "maximum_ms": 1176.224,
+      "median_ms": 1172.214,
+      "provenance_mode": "digest-and-bounded-representatives",
+      "samples_ms": [
+        1171.091,
+        1176.224,
+        1172.214
+      ],
+      "scene_objects": 249,
+      "summary_first": true
+    }
+  },
+  "measurement_scope": {
+    "cpu_publication_projection": "deterministic full vector projection with faces and edges; reported separately",
+    "first_interactive": "Scene IR deserialize, world-record refresh, and one real camera interaction frame",
+    "human_participants": 0,
+    "orbit_frame": "camera orbit plus one frame-stable batch projection of all visible world-space object centres; publication hidden-line removal excluded"
+  },
+  "orbit_500_objects": {
+    "maximum_ms": 2.449,
+    "median_ms": 2.293,
+    "p95_ms": 2.346,
+    "samples": 60,
+    "world_coordinates_unchanged": true
+  },
+  "release": "0.7.1 — 3D Publication Quality & UX Completion",
+  "repeats": 3,
+  "retained_2d": {
+    "baseline_0_7_0_report": "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.1_Dev/artifacts/v0.7.1/20260831T154536Z-d8ec62b7/reports/performance/scene-studio.json",
+    "baseline_median_ms": 187.383,
+    "comparison_method": "paired-warm-current-load-alternating-order",
+    "current_median_ms": 187.147,
+    "current_samples_ms": [
+      205.132,
+      187.147,
+      176.921
+    ],
+    "historical_artifact_median_ms": 190.968,
+    "historical_artifact_regression_percent": -2.001,
+    "labels": 1000,
+    "observations_per_recorded_run": 4,
+    "paired_parent_samples_ms": [
+      164.46,
+      187.383,
+      188.88
+    ],
+    "parent_0_7_0_source": "/tmp/nndv-072-full-20260901T142604Z-010606e8-w8R5xR/parent-source/NN_DaVinci_0.7.1",
+    "recorded_runs_per_version": 3,
+    "regression_percent": -0.126,
+    "retained_source_identical": true,
+    "retained_source_identity": {
+      "src/nn_davinci/figure_export.py": {
+        "current_sha256": "50ac8dc29475ce3c546c3541b32fd323444928e63c3b8303c03bb7e6655d5035",
+        "parent_0_7_0_sha256": "50ac8dc29475ce3c546c3541b32fd323444928e63c3b8303c03bb7e6655d5035"
+      },
+      "src/nn_davinci/figure_ir.py": {
+        "current_sha256": "3902bae85cc6574e016027f94bbcfc987e81c49de36f88402149669b96a145a4",
+        "parent_0_7_0_sha256": "3902bae85cc6574e016027f94bbcfc987e81c49de36f88402149669b96a145a4"
+      }
+    },
+    "warmup_runs_per_version": 1
+  },
+  "schema_version": "nndv-0.7.1-scene-studio-performance-1",
+  "selection_inspector": {
+    "maximum_ms": 0.226,
+    "median_ms": 0.197,
+    "samples": 30
+  },
+  "status": "PASS",
+  "thresholds": {
+    "first_1000_parent_maximum_regression_percent": 20.0,
+    "large_1000_first_interactive_maximum_ms": 1500.0,
+    "maximum_generated_scene_objects": 250,
+    "orbit_500_frame_p95_ms": 20.0,
+    "retained_2d_maximum_regression_percent": 20.0,
+    "selection_inspector_median_ms": 100.0,
+    "standard_250_first_interactive_maximum_ms": 500.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sparse Mixture of Experts",
+  "nodes": [
+    {"name":"Tokens","type":"Input","category":"input","outputs":[[1,128,512]]},
+    {"name":"Router","type":"TopKRouter","category":"routing","outputs":[[1,128,8]]},
+    {"name":"Expert 1","type":"ExpertMLP","category":"routing","parameters":2097152,"outputs":[[1,128,512]]},
+    {"name":"Expert 2","type":"ExpertMLP","category":"routing","parameters":2097152,"outputs":[[1,128,512]]},
+    {"name":"Expert 3","type":"ExpertMLP","category":"routing","parameters":2097152,"outputs":[[1,128,512]]},
+    {"name":"Expert 4","type":"ExpertMLP","category":"routing","parameters":2097152,"outputs":[[1,128,512]]},
+    {"name":"Weighted Merge","type":"SparseCombine","category":"merge","outputs":[[1,128,512]]},
+    {"name":"Features","type":"Output","category":"output","inputs":[[1,128,512]]}
+  ],
+  "edges":[["Tokens","Router"],["Router","Expert 1"],["Router","Expert 2"],["Router","Expert 3"],["Router","Expert 4"],["Expert 1","Weighted Merge"],["Expert 2","Weighted Merge"],["Expert 3","Weighted Merge"],["Expert 4","Weighted Merge"],["Weighted Merge","Features"]],
+  "groups":[{"name":"Expert Pool","nodes":["Expert 1","Expert 2","Expert 3","Expert 4"],"level":"block"}]
+}

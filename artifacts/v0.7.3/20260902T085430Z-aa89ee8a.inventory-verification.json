@@ -1,0 +1,15 @@
+{
+  "artifact": "/home/wangrj/桌面/KMH/神经网络绘图工具/NN_DaVinci_0.7.3_Dev/artifacts/v0.7.3/20260902T085430Z-aa89ee8a",
+  "artifact_files": 833,
+  "failures": [],
+  "manifest_entries": 831,
+  "manifest_sha256": "66ecb111be5cd11f09d4e193b8c3744b81a1dd6f1908f7d94eb8a46e126ec84d",
+  "release": "0.7.3 — Reader-Visible Scientific Completeness & Generalization Hotfix",
+  "run_id": "20260902T085430Z-aa89ee8a",
+  "schema_version": "nndv-0.7.3-artifact-inventory-verification-1",
+  "sha256sums_entries": 832,
+  "sha256sums_sha256": "05947d45d9b3e488a388acc41501f3d178a66924920d5c936af09afd0b1bd6d1",
+  "source_digest": "96f59062b0108bfe7f78b7031e492dccb4e1c2ebc0f550922cd050ad5a7ac2cd",
+  "source_file_count": 443,
+  "status": "PASS"
+}

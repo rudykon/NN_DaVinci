@@ -1,0 +1,44 @@
+{
+  "case_key": "resnet50",
+  "case_kind": "real-model",
+  "evidence_provenance_digest": "fa5ce0327fb82ea8bb68a54820783fe764be413719a281ddc139d0ec0d8a8f9c",
+  "evidence_version": "1.0",
+  "expected_critical_route_count": 4,
+  "expected_role_count": 6,
+  "failures": [],
+  "family": "resnet",
+  "figure_critical_route_count": 4,
+  "figure_role_count": 6,
+  "input_role_ids": [
+    "architecture_role_input_stem_0_module_conv1_8e2e91cb_module__256ff26d"
+  ],
+  "landed_documents": {
+    "figure": {
+      "path": "figure.figure.json",
+      "sha256": "c3d603245a0130ca24a47a69a5dd625849e24696e1a4e920a7678a6307f48e4f"
+    },
+    "graph": {
+      "path": "graph.graph.json",
+      "sha256": "918f93c3ee0e9501dff08560e1ea565bb6dfc9daeb0d4176c885128ff5048274"
+    },
+    "scene": {
+      "path": "scene.scene.json",
+      "sha256": "b8f8ebcc21267012c8b535d7ca405db719ada5d2e3831ef3fc3749cf6daf8f99"
+    },
+    "semantic": {
+      "path": "semantic.semantic.json",
+      "sha256": "93c2a5a93255d225f3196b7f2545c11da4706edcf8454daf07e85120943341ca"
+    }
+  },
+  "oracle_version": "1.0",
+  "output_role_ids": [
+    "architecture_role_output_head_5_module_fc_41792ca4_module_av_40ebd511"
+  ],
+  "passed": true,
+  "release": "0.7.2 — Scientific Fidelity & Semantic Scene Hotfix",
+  "scene_critical_route_count": 4,
+  "scene_role_count": 6,
+  "schema_version": "nndv-architecture-parity-1",
+  "uncertain_claims": [],
+  "unknown_reason": null
+}

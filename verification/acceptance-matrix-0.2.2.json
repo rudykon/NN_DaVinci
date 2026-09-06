@@ -1,0 +1,646 @@
+{
+  "schema_version": "3.0.0",
+  "release": "0.2.2",
+  "policy": "One row is one independently replayable semantic blocker; legacy aliases are not counted.",
+  "migration": {
+    "source": "acceptance-matrix-0.2.1.json",
+    "legacy_rows": 48,
+    "legacy_id_mapping": {
+      "TEST-01": "TEST-01",
+      "STAT-01": "STAT-01",
+      "STAT-02": "STAT-02",
+      "STAT-03": "STAT-03",
+      "STAT-04": "STAT-04",
+      "STAT-05": "STAT-05",
+      "STAT-06": "TEST-01",
+      "STAT-07": "STAT-07",
+      "GRAPH-01": "GRAPH-01",
+      "GRAPH-02": "GRAPH-02",
+      "GRAPH-02A": "GRAPH-02A",
+      "GRAPH-03": "GRAPH-03",
+      "GRAPH-04": "GRAPH-04",
+      "GRAPH-05": "SPATIAL-01",
+      "GRAPH-06": "GRAPH-02",
+      "GRAPH-07": "GRAPH-07",
+      "GRAPH-08": "CLI-01",
+      "GRAPH-09": "SPATIAL-01",
+      "SVG-01": "SVG-01",
+      "SVG-02": "SVG-02",
+      "SVG-03": "SVG-01",
+      "SVG-04": "SVG-01",
+      "SVG-05": "SVG-02",
+      "SVG-06": "SVG-02",
+      "SVG-07": "SVG-01",
+      "SVG-08": "SVG-01",
+      "VIS-01": "SVG-01",
+      "VIS-02": "VIS-02",
+      "VIS-03": "VIS-02",
+      "TEXT-01": "SVG-01",
+      "TEXT-02": "TEXT-02",
+      "TEXT-03": "TEXT-02",
+      "TEXT-04": "SVG-01",
+      "TEXT-05": "TEXT-02",
+      "E2E-01": "E2E-01",
+      "E2E-02": "E2E-01",
+      "E2E-03": "E2E-01",
+      "E2E-04": "E2E-01",
+      "EXPORT-01": "EXPORT-01",
+      "PKG-01": "PKG-01",
+      "DOC-01": "STAT-05",
+      "DOC-02": "STAT-05",
+      "ENV-01": "ENV-01",
+      "ENV-02": "LOCK-01",
+      "TEMP-01": "TEMP-01",
+      "ART-01": "SEAL-01",
+      "GIT-01": "ENV-01",
+      "MATRIX-01": "MATRIX-01"
+    },
+    "reason": "Duplicate Python-summary, SVG-report-count, document, E2E and aggregate-status predicates were collapsed into explicit canonical blockers."
+  },
+  "requirements": [
+    {
+      "requirement_id": "TEST-01",
+      "title": "Python suite and externally anchored frozen IDs",
+      "validator_id": "python_test_summary",
+      "requirement_class": "tests",
+      "inputs": [
+        "tests/trust-anchor-check.json"
+      ],
+      "evidence_path": "tests/python-tests.json",
+      "json_pointer": "/passed",
+      "observed_value_type": "integer",
+      "comparison": "gte",
+      "expected_value": 89,
+      "command_provenance": [
+        "scripts/run_tests.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "STAT-01",
+      "title": "Coverage line/branch/combined arithmetic derives from raw JSON",
+      "validator_id": "coverage_arithmetic",
+      "requirement_class": "coverage",
+      "inputs": [
+        "coverage/core.json",
+        "coverage/expanded-core.json",
+        "coverage/all-package.json"
+      ],
+      "evidence_path": "coverage/summary.json",
+      "json_pointer": "/old_core/combined/fraction",
+      "observed_value_type": "number",
+      "comparison": "gte",
+      "expected_value": 0,
+      "command_provenance": [
+        "scripts/summarize_coverage.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "STAT-02",
+      "title": "Release counters have distinct semantics",
+      "validator_id": "release_count_schema",
+      "requirement_class": "statistics",
+      "inputs": [
+        "tests/python-tests.json",
+        "exports/artifact-validation.json",
+        "packaging/summary.json",
+        "e2e/scenarios.json"
+      ],
+      "evidence_path": "release-counts.json",
+      "json_pointer": "/checks",
+      "observed_value_type": "integer",
+      "comparison": "gte",
+      "expected_value": 1,
+      "command_provenance": [
+        "scripts/write_release_observations.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "STAT-03",
+      "title": "Old-core line coverage does not regress",
+      "validator_id": "coverage_arithmetic",
+      "requirement_class": "coverage",
+      "inputs": [
+        "coverage/core.json"
+      ],
+      "evidence_path": "coverage/summary.json",
+      "json_pointer": "/old_core/line/fraction",
+      "observed_value_type": "number",
+      "comparison": "gte",
+      "expected_value": 0.911849710982659,
+      "command_provenance": [
+        "scripts/summarize_coverage.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "COV-01",
+      "title": "Old-core branch coverage does not regress",
+      "validator_id": "coverage_arithmetic",
+      "requirement_class": "coverage",
+      "inputs": [
+        "coverage/core.json"
+      ],
+      "evidence_path": "coverage/summary.json",
+      "json_pointer": "/old_core/branch/fraction",
+      "observed_value_type": "number",
+      "comparison": "gte",
+      "expected_value": 0.8329048843187661,
+      "command_provenance": [
+        "scripts/summarize_coverage.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "COV-02",
+      "title": "Expanded-core line coverage meets threshold",
+      "validator_id": "coverage_arithmetic",
+      "requirement_class": "coverage",
+      "inputs": [
+        "coverage/expanded-core.json"
+      ],
+      "evidence_path": "coverage/summary.json",
+      "json_pointer": "/expanded_core/line/fraction",
+      "observed_value_type": "number",
+      "comparison": "gte",
+      "expected_value": 0.885,
+      "command_provenance": [
+        "scripts/summarize_coverage.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "COV-03",
+      "title": "Expanded-core branch coverage meets threshold",
+      "validator_id": "coverage_arithmetic",
+      "requirement_class": "coverage",
+      "inputs": [
+        "coverage/expanded-core.json"
+      ],
+      "evidence_path": "coverage/summary.json",
+      "json_pointer": "/expanded_core/branch/fraction",
+      "observed_value_type": "number",
+      "comparison": "gte",
+      "expected_value": 0.8,
+      "command_provenance": [
+        "scripts/summarize_coverage.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "STAT-07",
+      "title": "All-package line coverage does not regress",
+      "validator_id": "coverage_arithmetic",
+      "requirement_class": "coverage",
+      "inputs": [
+        "coverage/all-package.json"
+      ],
+      "evidence_path": "coverage/summary.json",
+      "json_pointer": "/all_package/line/fraction",
+      "observed_value_type": "number",
+      "comparison": "gte",
+      "expected_value": 0.8324851569126378,
+      "command_provenance": [
+        "scripts/summarize_coverage.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "COV-04",
+      "title": "All-package branch coverage does not regress",
+      "validator_id": "coverage_arithmetic",
+      "requirement_class": "coverage",
+      "inputs": [
+        "coverage/all-package.json"
+      ],
+      "evidence_path": "coverage/summary.json",
+      "json_pointer": "/all_package/branch/fraction",
+      "observed_value_type": "number",
+      "comparison": "gte",
+      "expected_value": 0.7479289940828402,
+      "command_provenance": [
+        "scripts/summarize_coverage.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "STAT-04",
+      "title": "Coverage manifests/exclusions remain fixed and explained",
+      "validator_id": "coverage_arithmetic",
+      "requirement_class": "coverage",
+      "inputs": [
+        "coverage/summary.json"
+      ],
+      "evidence_path": "coverage/manifest-diff.json",
+      "json_pointer": "/coverage_exclusions",
+      "observed_value_type": "array",
+      "comparison": "empty",
+      "expected_value": [],
+      "command_provenance": [
+        "scripts/summarize_coverage.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "STAT-05",
+      "title": "Release documents agree with current-run evidence",
+      "validator_id": "documentation_consistency",
+      "requirement_class": "documentation",
+      "inputs": [
+        "coverage/summary.json"
+      ],
+      "evidence_path": "docs/document-check.json",
+      "json_pointer": "/failures",
+      "observed_value_type": "array",
+      "comparison": "empty",
+      "expected_value": [],
+      "command_provenance": [
+        "scripts/check_release_docs.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "GRAPH-01",
+      "title": "SCC/deep traversal differential is recursion-safe",
+      "validator_id": "graph_semantics",
+      "requirement_class": "graph",
+      "inputs": [],
+      "evidence_path": "stress/results.json",
+      "json_pointer": "/scc_differential/deep_chain_without_recursion",
+      "observed_value_type": "boolean",
+      "comparison": "eq",
+      "expected_value": true,
+      "command_provenance": [
+        "scripts/benchmark_large_graph.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "GRAPH-02",
+      "title": "Anchored graph corpus hashes and named structures are exact",
+      "validator_id": "fixture_integrity",
+      "requirement_class": "visual",
+      "inputs": [
+        "stress/results.json"
+      ],
+      "evidence_path": "stress/corpus-manifest-check.json",
+      "json_pointer": "/failures",
+      "observed_value_type": "array",
+      "comparison": "empty",
+      "expected_value": [],
+      "command_provenance": [
+        "scripts/capture_large_graph_evidence.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "GRAPH-02A",
+      "title": "100-node full layout/render meets every run budget",
+      "validator_id": "graph_semantics",
+      "requirement_class": "graph",
+      "inputs": [],
+      "evidence_path": "stress/results.json",
+      "json_pointer": "/deep_chain_100/runs",
+      "observed_value_type": "array",
+      "comparison": "length_eq",
+      "expected_value": 3,
+      "command_provenance": [
+        "scripts/benchmark_large_graph.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "GRAPH-03",
+      "title": "1000-node full layout/render meets every run budget",
+      "validator_id": "graph_semantics",
+      "requirement_class": "graph",
+      "inputs": [],
+      "evidence_path": "stress/results.json",
+      "json_pointer": "/deep_chain_1000/runs",
+      "observed_value_type": "array",
+      "comparison": "length_eq",
+      "expected_value": 3,
+      "command_provenance": [
+        "scripts/benchmark_large_graph.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "GRAPH-04",
+      "title": "10000-node summary/focus meets every run budget",
+      "validator_id": "graph_semantics",
+      "requirement_class": "graph",
+      "inputs": [],
+      "evidence_path": "stress/results.json",
+      "json_pointer": "/deep_chain_10000_focus/runs",
+      "observed_value_type": "array",
+      "comparison": "length_eq",
+      "expected_value": 3,
+      "command_provenance": [
+        "scripts/benchmark_large_graph.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "GRAPH-07",
+      "title": "Web rejects unsafe 10k full rendering with actionable 422",
+      "validator_id": "graph_semantics",
+      "requirement_class": "graph",
+      "inputs": [],
+      "evidence_path": "stress/web-preflight.json",
+      "json_pointer": "/http_status",
+      "observed_value_type": "integer",
+      "comparison": "eq",
+      "expected_value": 422,
+      "command_provenance": [
+        "scripts/capture_large_graph_evidence.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "SPATIAL-01",
+      "title": "AVL spatial index passes axes/distributions/differentials",
+      "validator_id": "graph_semantics",
+      "requirement_class": "graph",
+      "inputs": [],
+      "evidence_path": "stress/results.json",
+      "json_pointer": "/spatial_index/differential_distributions",
+      "observed_value_type": "array",
+      "comparison": "length_eq",
+      "expected_value": 20,
+      "command_provenance": [
+        "scripts/benchmark_large_graph.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "SPATIAL-02",
+      "title": "Million-pair budget reports an explicit incomplete result",
+      "validator_id": "graph_semantics",
+      "requirement_class": "graph",
+      "inputs": [],
+      "evidence_path": "stress/results.json",
+      "json_pointer": "/spatial_index/million_pair_budget/lower_bound",
+      "observed_value_type": "integer",
+      "comparison": "gte",
+      "expected_value": 1000001,
+      "command_provenance": [
+        "scripts/benchmark_large_graph.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "CLI-01",
+      "title": "API/CLI/Web large-graph recovery policy is executable",
+      "validator_id": "fixture_integrity",
+      "requirement_class": "visual",
+      "inputs": [
+        "stress/web-preflight.json"
+      ],
+      "evidence_path": "stress/cli-preflight.json",
+      "json_pointer": "/failures",
+      "observed_value_type": "array",
+      "comparison": "empty",
+      "expected_value": [],
+      "command_provenance": [
+        "scripts/capture_cli_large_graph_evidence.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "SVG-01",
+      "title": "Seven serialized publication SVGs pass strict Chrome geometry",
+      "validator_id": "svg_geometry",
+      "requirement_class": "svg",
+      "inputs": [
+        "visual/samples/publication-input-manifest.json"
+      ],
+      "evidence_path": "visual/seven-architecture-metrics.json",
+      "json_pointer": "/reports",
+      "observed_value_type": "array",
+      "comparison": "length_eq",
+      "expected_value": 7,
+      "command_provenance": [
+        "scripts/svg_quality_oracle.mjs"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "SVG-02",
+      "title": "All independent adversarial SVG truth fixtures classify",
+      "validator_id": "oracle_fixture_truth",
+      "requirement_class": "oracle-fixture",
+      "inputs": [
+        "visual/oracle-fixtures.json"
+      ],
+      "evidence_path": "visual/oracle-fixture-validation.json",
+      "json_pointer": "/cases",
+      "observed_value_type": "array",
+      "comparison": "length_eq",
+      "expected_value": 26,
+      "command_provenance": [
+        "scripts/validate_svg_oracle_fixtures.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "VIS-02",
+      "title": "Seven authority inputs, IDs, critical edges and provenance are exact",
+      "validator_id": "fixture_integrity",
+      "requirement_class": "visual",
+      "inputs": [],
+      "evidence_path": "visual/fixture-integrity.json",
+      "json_pointer": "/failures",
+      "observed_value_type": "array",
+      "comparison": "empty",
+      "expected_value": [],
+      "command_provenance": [
+        "scripts/verify_visual_fixtures.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "TEXT-02",
+      "title": "Required text and wrapping agree across SVG/PDF/TikZ",
+      "validator_id": "fixture_integrity",
+      "requirement_class": "visual",
+      "inputs": [],
+      "evidence_path": "visual/format-text-consistency.json",
+      "json_pointer": "/failures",
+      "observed_value_type": "array",
+      "comparison": "empty",
+      "expected_value": [],
+      "command_provenance": [
+        "scripts/validate_vector_text_consistency.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "E2E-01",
+      "title": "Ten stable isolated Chrome behavior scenarios pass",
+      "validator_id": "browser_scenarios",
+      "requirement_class": "e2e",
+      "inputs": [],
+      "evidence_path": "e2e/scenarios.json",
+      "json_pointer": "/scenarios",
+      "observed_value_type": "array",
+      "comparison": "length_eq",
+      "expected_value": 10,
+      "command_provenance": [
+        "tests/e2e/editor.e2e.mjs"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "EXPORT-01",
+      "title": "Seven fresh formats pass independent artifact checks",
+      "validator_id": "export_semantics",
+      "requirement_class": "export",
+      "inputs": [],
+      "evidence_path": "exports/artifact-validation.json",
+      "json_pointer": "/checks",
+      "observed_value_type": "integer",
+      "comparison": "gte",
+      "expected_value": 20,
+      "command_provenance": [
+        "scripts/validate_acceptance_artifacts.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "PKG-01",
+      "title": "Wheel and sdist install with dependencies and editable assets",
+      "validator_id": "packaging_semantics",
+      "requirement_class": "packaging",
+      "inputs": [],
+      "evidence_path": "packaging/summary.json",
+      "json_pointer": "/checks",
+      "observed_value_type": "integer",
+      "comparison": "gte",
+      "expected_value": 10,
+      "command_provenance": [
+        "scripts/verify_package_install.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "LOCK-01",
+      "title": "Verification lock rebuilds an independent environment with wheel hashes",
+      "validator_id": "lock_rebuild",
+      "requirement_class": "dependencies",
+      "inputs": [
+        "requirements/verification-linux-x86_64-py313-0.2.2.lock"
+      ],
+      "evidence_path": "packaging/lock-rebuild.json",
+      "json_pointer": "/wheel_hashes",
+      "observed_value_type": "object",
+      "comparison": "ne",
+      "expected_value": {},
+      "command_provenance": [
+        "scripts/rebuild_verification_environment.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "ENV-01",
+      "title": "Environment/root configuration inventory is complete and Git remains absent",
+      "validator_id": "environment_integrity",
+      "requirement_class": "environment",
+      "inputs": [],
+      "evidence_path": "environment.json",
+      "json_pointer": "/git_repository",
+      "observed_value_type": "boolean",
+      "comparison": "eq",
+      "expected_value": false,
+      "command_provenance": [
+        "scripts/write_environment_manifest.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "TEMP-01",
+      "title": "No workspace or retained run cache leaks",
+      "validator_id": "temporary_hygiene",
+      "requirement_class": "temporary",
+      "inputs": [],
+      "evidence_path": "temporary-files.json",
+      "json_pointer": "/passed",
+      "observed_value_type": "boolean",
+      "comparison": "eq",
+      "expected_value": true,
+      "command_provenance": [
+        "scripts/write_release_observations.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "MATRIX-01",
+      "title": "All fail-closed matrix and seal mutations are killed",
+      "validator_id": "mutation_gate",
+      "requirement_class": "matrix",
+      "inputs": [],
+      "evidence_path": "matrix/mutation-report.json",
+      "json_pointer": "/cases",
+      "observed_value_type": "array",
+      "comparison": "length_eq",
+      "expected_value": 11,
+      "command_provenance": [
+        "scripts/run_matrix_mutations.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "PUB-01",
+      "title": "Publication exports exclude editor controls and retain provenance",
+      "validator_id": "export_semantics",
+      "requirement_class": "publication",
+      "inputs": [],
+      "evidence_path": "publication-controls.json",
+      "json_pointer": "/failures",
+      "observed_value_type": "array",
+      "comparison": "empty",
+      "expected_value": [],
+      "command_provenance": [
+        "scripts/validate_publication_exports.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "LINEAGE-01",
+      "title": "Sealed consumed-input lineage is self-contained and clean",
+      "validator_id": "consumed_input_lineage",
+      "requirement_class": "lineage",
+      "inputs": [
+        "source/snapshot.json",
+        "replay/runtime-manifest.json"
+      ],
+      "evidence_path": "source/consumed-inputs.json",
+      "json_pointer": "/forbidden_inputs",
+      "observed_value_type": "array",
+      "comparison": "empty",
+      "expected_value": [],
+      "command_provenance": [
+        "scripts/write_release_observations.py"
+      ],
+      "release_blocker": true
+    },
+    {
+      "requirement_id": "SEAL-01",
+      "title": "Root-only JSON checksum policy covers every retained regular file",
+      "validator_id": "seal_precondition",
+      "requirement_class": "seal",
+      "inputs": [],
+      "evidence_path": "seal-policy.json",
+      "json_pointer": "/checksum_exclusion_scope",
+      "observed_value_type": "string",
+      "comparison": "eq",
+      "expected_value": "root-only",
+      "command_provenance": [
+        "scripts/seal_evidence.py"
+      ],
+      "release_blocker": true
+    }
+  ]
+}

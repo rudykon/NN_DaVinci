@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.6.1-human-trial-status-1",
+  "as_of": "2026-08-30",
+  "build_version": "0.6.1",
+  "status": "not_scheduled",
+  "participants": 0,
+  "completed_sessions": 0,
+  "human_study_complete": false,
+  "kit_ready": false,
+  "automated_runs_count_as_participants": false,
+  "human_results": {
+    "first_figure_median_ms": null,
+    "paper_ready_median_ms": null,
+    "core_task_success_rate": null,
+    "ease_or_learnability": null,
+    "serious_semantic_errors": null
+  },
+  "conclusion": "No human usability, ease, learnability, task-success, semantic-error, or completion-time conclusion is authorized. No 0.6.1 study is currently scheduled; automated Chrome is not a participant, and no earlier evidence is migrated."
+}

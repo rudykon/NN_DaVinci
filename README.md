@@ -1,5 +1,9 @@
 # NN_DaVinci 0.7.3
 
+<p align="center">
+  <img src="docs/brand-mark.svg" width="520" alt="NN_DaVinci brand mark">
+</p>
+
 **Reader-Visible Scientific Completeness & Generalization Hotfix**
 
 NN_DaVinci is a local-first scientific authoring tool for inspectable neural-network diagrams. Version 0.7.3 preserves the complete 0.7.2 workflow and guarantees that every detected critical architecture role is reader-visible in final paper outputs. A generic evidence-derived role graph drives production Figure/Scene projections, while deterministic metamorphic and landed-output mutation suites block corpus-name shortcuts and metadata-only success.
